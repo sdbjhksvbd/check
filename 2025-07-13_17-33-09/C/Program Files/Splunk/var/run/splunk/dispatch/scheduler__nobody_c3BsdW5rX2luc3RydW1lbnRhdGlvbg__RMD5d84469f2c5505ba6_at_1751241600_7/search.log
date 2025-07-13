@@ -1,0 +1,406 @@
+06-30-2025 03:00:01.031 INFO  dispatchRunner [0 MainThread] - Search process mode: freestanding (build e053ef3c985f).
+06-30-2025 03:00:01.032 INFO  dispatchRunner [0 MainThread] - initing LicenseMgr in search process: nonPro=1
+06-30-2025 03:00:01.032 INFO  LMStackMgr [0 MainThread] - Initializing CleMgr...
+06-30-2025 03:00:01.032 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr
+06-30-2025 03:00:01.037 INFO  ServerConfig [0 MainThread] - Found no hostname options in server.conf. Will attempt to use default for now.
+06-30-2025 03:00:01.038 INFO  ServerConfig [0 MainThread] - Host name option is "".
+06-30-2025 03:00:01.058 INFO  ServerConfig [0 MainThread] - SSL session cache path  enabled 0 session timeout on SSL server 300.000
+06-30-2025 03:00:01.061 INFO  ServerConfig [0 MainThread] - Splunk is starting with EC-SSC disabled
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - serverName=BEER-PC01 guid=D59BE72C-130E-4AB5-91DF-EC18452C6179
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - connection_timeout=30
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - send_timeout=30
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - receive_timeout=30
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - squash_threshold=2000
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - strict_pool_quota=1
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+06-30-2025 03:00:01.061 INFO  LMConfig [0 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+06-30-2025 03:00:01.061 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr runContext_splunkd=false
+06-30-2025 03:00:01.061 INFO  LMStackMgr [0 MainThread] - closing stack mgr
+06-30-2025 03:00:01.061 INFO  LMSlaveInfo [0 MainThread] - all slaves cleared
+06-30-2025 03:00:01.061 INFO  LMStackMgr [0 MainThread] - Initalized license_warnings_update_interval=auto
+06-30-2025 03:00:01.061 INFO  LMStackMgr [0 MainThread] - License Manager supports Conditional Licensing Enforcement. For baked in CLE policies, window_period=60 days, max_violations=45, for stack size below 107374182400 bytes
+06-30-2025 03:00:01.061 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for free
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - Added policy WinSz=30 Warnings=3 MaxSize=0 isDefault=1 features= for free
+06-30-2025 03:00:01.062 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for forwarder
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for forwarder
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - Skipping trial license as alternative license type in use
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - Skipping trial pool stanza as alternative license in use
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_forwarder to stack forwarder
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_free to stack free
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - Initialized hideQuotaWarning = "0"
+06-30-2025 03:00:01.062 INFO  LMStackMgr [0 MainThread] - init completed [D59BE72C-130E-4AB5-91DF-EC18452C6179,Free,runContext_splunkd=false]
+06-30-2025 03:00:01.062 INFO  LicenseMgr [0 MainThread] - StackMgr init complete...
+06-30-2025 03:00:01.062 INFO  LMTracker [0 MainThread] - Setting default product type='enterprise'
+06-30-2025 03:00:01.062 INFO  LMTracker [0 MainThread] - this is not splunkd, will perform partial init
+06-30-2025 03:00:01.062 INFO  LicenseMgr [0 MainThread] - Tracker init complete...
+06-30-2025 03:00:01.069 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenses'
+06-30-2025 03:00:01.069 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'pools'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'stacks'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'groups'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'slaves'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'localslave'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licensermessages'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'scriptedwarning'
+06-30-2025 03:00:01.070 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenseusage'
+06-30-2025 03:00:01.070 INFO  dispatchRunner [0 MainThread] - Per-process handle limit is 512
+06-30-2025 03:00:01.070 INFO  dispatchRunner [0 MainThread] - Increasing per-process handle limit from '512' to '2048'
+06-30-2025 03:00:01.070 INFO  dispatchRunner [0 MainThread] - Successfully increased per-process handle limit from '512' to '2048'
+06-30-2025 03:00:01.070 INFO  dispatchRunner [0 MainThread] - registering build time modules, count=1
+06-30-2025 03:00:01.070 INFO  dispatchRunner [0 MainThread] - registering search time components of build time module name=vix
+06-30-2025 03:00:01.070 INFO  dispatchRunner [0 MainThread] - Getting search configuration data from: C:\Program Files\Splunk\etc\modules\parsing\config.xml
+06-30-2025 03:00:01.073 INFO  BundlesSetup [0 MainThread] - Setup stats for C:\Program Files\Splunk\etc: wallclock_elapsed_msec=62, cpu_time_used=0.0625, shared_services_generation=1, shared_services_population=1
+06-30-2025 03:00:01.073 INFO  PipelineComponent [0 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+06-30-2025 03:00:01.080 INFO  UserManager [41864 RunDispatch] - Setting user context: splunk-system-user
+06-30-2025 03:00:01.080 INFO  UserManager [41864 RunDispatch] - Free version does not have user services
+06-30-2025 03:00:01.080 INFO  UserManager [41864 RunDispatch] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.081 INFO  UserManager [41864 RunDispatch] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.081 INFO  UserManager [41864 RunDispatch] - Setting user context: admin
+06-30-2025 03:00:01.081 INFO  UserManager [41864 RunDispatch] - Free version does not have user services
+06-30-2025 03:00:01.081 INFO  UserManager [41864 RunDispatch] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.082 INFO  dispatchRunner [41864 RunDispatch] - search context: user="admin", app="splunk_instrumentation", bs-pathname="C:\Program Files\Splunk\etc"
+06-30-2025 03:00:01.087 INFO  SearchParser [41864 RunDispatch] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting Page Size at 65536
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting Page Size at 65536
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.087 INFO  dispatchRunner [41864 RunDispatch] - Search running in non-clustered mode
+06-30-2025 03:00:01.087 INFO  dispatchRunner [41864 RunDispatch] - SearchHeadInitSearchMs=0
+06-30-2025 03:00:01.087 INFO  SearchParser [41864 RunDispatch] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting Page Size at 65536
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting Page Size at 65536
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.087 INFO  SearchParser [41864 RunDispatch] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting Page Size at 65536
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting Page Size at 65536
+06-30-2025 03:00:01.087 INFO  StatsContext [41864 RunDispatch] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.087 INFO  dispatchRunner [41864 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=0).
+06-30-2025 03:00:01.103 INFO  SearchOrchestrator [41864 RunDispatch] - SearchOrchestrator getting constructed
+06-30-2025 03:00:01.103 INFO  SearchOrchestrator [41864 RunDispatch] -  Initialized the SRI
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Initializing feature flags from config. feature_seed=1154859267
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Setting feature_flag=search:search_telemetry_file_include_parallel_reduce:false
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Setting feature_flag=search:search_retry:false
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+06-30-2025 03:00:01.105 INFO  SearchFeatureFlags [41864 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+06-30-2025 03:00:01.105 INFO  SearchOrchestrator [41864 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2"],"disabledFeatures":["search:search_telemetry_file_include_parallel_reduce","search:search_retry","parallelreduce:autoAppliedPercentage","search_optimization::set_required_fields:stats"]}
+06-30-2025 03:00:01.105 INFO  ISplunkDispatch [41864 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+06-30-2025 03:00:01.115 INFO  SearchOrchestrator [20956 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+06-30-2025 03:00:01.116 INFO  UserManager [20956 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.116 INFO  UserManager [20956 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.116 INFO  UserManager [20956 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.117 INFO  SearchOrchestrator [20956 searchOrchestrator] - Creating the search DAG.
+06-30-2025 03:00:01.117 INFO  SearchParser [20956 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.117 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.117 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.117 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.117 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.118 INFO  DispatchStorageManagerInfo [20956 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=cf159c6ec0e3f252_tmp dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\cf159c6ec0e3f252_tmp
+06-30-2025 03:00:01.121 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.122 INFO  SearchParser [20956 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+06-30-2025 03:00:01.122 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.123 INFO  SearchParser [20956 searchOrchestrator] - PARSING: eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)
+06-30-2025 03:00:01.125 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+06-30-2025 03:00:01.125 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.125 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+06-30-2025 03:00:01.126 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+06-30-2025 03:00:01.126 INFO  SortOperator [20956 searchOrchestrator] - maxmem = 209715200
+06-30-2025 03:00:01.126 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.127 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+06-30-2025 03:00:01.127 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.127 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+06-30-2025 03:00:01.127 INFO  StatsProcessor [20956 searchOrchestrator] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.127 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.127 INFO  DispatchThread [20956 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+06-30-2025 03:00:01.128 INFO  DispatchThread [20956 searchOrchestrator] - required fields list to add to remote search = *
+06-30-2025 03:00:01.128 INFO  DispatchCommandProcessor [20956 searchOrchestrator] - summaryHash=586dfedf3bf75687 summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_586dfedf3bf75687 remoteSearch=prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+06-30-2025 03:00:01.128 INFO  DispatchCommandProcessor [20956 searchOrchestrator] - summaryHash=NS528bb1d21cb1a38f summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NS528bb1d21cb1a38f remoteSearch=prerest splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+06-30-2025 03:00:01.128 INFO  DispatchThread [20956 searchOrchestrator] - Getting summary ID for summaryHash=NS528bb1d21cb1a38f
+06-30-2025 03:00:01.170 INFO  DispatchThread [20956 searchOrchestrator] - Did not find a usable summary_id, setting info._summary_mode=none, not modifying input summary_id=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NS528bb1d21cb1a38f
+06-30-2025 03:00:01.172 INFO  SearchParser [20956 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.172 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.172 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.172 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.172 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.172 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.172 INFO  SearchParser [20956 searchOrchestrator] - PARSING: eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)
+06-30-2025 03:00:01.172 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+06-30-2025 03:00:01.172 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.172 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+06-30-2025 03:00:01.172 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+06-30-2025 03:00:01.172 INFO  SortOperator [20956 searchOrchestrator] - maxmem = 209715200
+06-30-2025 03:00:01.172 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.172 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+06-30-2025 03:00:01.172 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.172 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+06-30-2025 03:00:01.172 INFO  StatsProcessor [20956 searchOrchestrator] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.172 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.174 INFO  AstOptimizer [20956 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.177 INFO  SearchParser [20956 searchOrchestrator] - PARSING:  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [ eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh) ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.177 INFO  SearchParser [20956 searchOrchestrator] - PARSING:  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [ eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh) ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.177 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.177 INFO  SearchParser [20956 searchOrchestrator] - PARSING:  eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh) 
+06-30-2025 03:00:01.177 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+06-30-2025 03:00:01.177 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.177 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+06-30-2025 03:00:01.177 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+06-30-2025 03:00:01.177 INFO  SortOperator [20956 searchOrchestrator] - maxmem = 209715200
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.177 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+06-30-2025 03:00:01.177 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.177 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+06-30-2025 03:00:01.177 INFO  StatsProcessor [20956 searchOrchestrator] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.177 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.178 INFO  AstOptimizer [20956 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000
+06-30-2025 03:00:01.179 INFO  AstOptimizer [20956 searchOrchestrator] - Will only run the following branching command specific optimizations=[replace_append_with_union merge_union]
+06-30-2025 03:00:01.179 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.179 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.179 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.179 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.180 INFO  AstOptimizer [20956 searchOrchestrator] - Branch optimization had no effect
+06-30-2025 03:00:01.180 INFO  AstOptimizer [20956 searchOrchestrator] - SrchOptMetrics optimization=0.000
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.180 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.181 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Optimized Search = | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+06-30-2025 03:00:01.181 INFO  ScopedTimer [20956 searchOrchestrator] - search.optimize 0.000
+06-30-2025 03:00:01.181 ERROR DatamodelServiceConfiguration [20956 searchOrchestrator] - Failed to get datamodel_service_enabled from limits.conf, use the default value 0.
+06-30-2025 03:00:01.181 INFO  ParallelReducePolicy [20956 searchOrchestrator] - Current Search Head doesn't have any usable peers to use.
+06-30-2025 03:00:01.181 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.181 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.181 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.181 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.181 INFO  PhaseToPipelineVisitor [20956 searchOrchestrator] - Phase Search =  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+06-30-2025 03:00:01.181 INFO  SearchParser [20956 searchOrchestrator] - PARSING:  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+06-30-2025 03:00:01.182 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.182 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.182 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.182 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.182 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.182 INFO  SearchParser [20956 searchOrchestrator] - PARSING:   eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)  
+06-30-2025 03:00:01.182 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+06-30-2025 03:00:01.182 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.182 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+06-30-2025 03:00:01.182 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+06-30-2025 03:00:01.182 INFO  SortOperator [20956 searchOrchestrator] - maxmem = 209715200
+06-30-2025 03:00:01.182 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.182 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+06-30-2025 03:00:01.182 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.182 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+06-30-2025 03:00:01.182 INFO  StatsProcessor [20956 searchOrchestrator] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.182 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.182 INFO  SearchPipeline [20956 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+06-30-2025 03:00:01.182 INFO  SearchParser [20956 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+06-30-2025 03:00:01.182 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.183 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Disabling timeliner since source is not an event index
+06-30-2025 03:00:01.183 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Disabling timeliner since event search is empty
+06-30-2025 03:00:01.183 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - No need for RTWindowProcessor
+06-30-2025 03:00:01.183 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Timeliner will not be executed
+06-30-2025 03:00:01.183 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - required fields list to add to different pipelines = *
+06-30-2025 03:00:01.183 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Adding noop to provide result collation at search head
+06-30-2025 03:00:01.183 INFO  SearchParser [20956 searchOrchestrator] - PARSING: noop
+06-30-2025 03:00:01.184 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Search Phases created.
+06-30-2025 03:00:01.188 INFO  UserManager [20956 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.188 INFO  UserManager [20956 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.188 INFO  UserManager [20956 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.188 INFO  UserManager [20956 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.191 INFO  DistributedSearchResultCollectionManager [20956 searchOrchestrator] - Stream search: prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+06-30-2025 03:00:01.191 INFO  ExternalResultProvider [20956 searchOrchestrator] - No external result providers are configured
+06-30-2025 03:00:01.191 INFO  DistributedSearchResultCollectionManager [20956 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+06-30-2025 03:00:01.192 INFO  DistributedSearchResultCollectionManager [20956 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+06-30-2025 03:00:01.192 INFO  DistributedSearchResultCollectionManager [20956 searchOrchestrator] - No default search group set.
+06-30-2025 03:00:01.192 INFO  SearchTargeter [20956 searchOrchestrator] - should contact peer:BEER-PC01 regex=BEER-PC01 1
+06-30-2025 03:00:01.192 INFO  DistributedSearchResultCollectionManager [20956 searchOrchestrator] - Connecting to peer BEER-PC01 connectAll 0 connectToSpecificPeer 1
+06-30-2025 03:00:01.192 INFO  SearchPhaseGenerator [20956 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.000 seconds.
+06-30-2025 03:00:01.192 INFO  UserManager [20320 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.192 INFO  UserManager [20320 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.192 INFO  UserManager [20320 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.192 INFO  UserManager [37464 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.192 INFO  UserManager [37464 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.192 INFO  UserManager [37464 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.192 INFO  UserManager [26708 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.192 INFO  UserManager [26708 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.192 INFO  UserManager [26708 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.192 INFO  UserManager [47060 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.193 INFO  UserManager [47060 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.193 INFO  UserManager [47060 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.193 INFO  SearchParser [47060 localCollectorThread] - PARSING: prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+06-30-2025 03:00:01.193 INFO  UserManager [49236 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.193 INFO  UserManager [49236 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.193 INFO  UserManager [49236 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.193 INFO  SearchOperator:rest [47060 localCollectorThread] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.193 INFO  LocalCollector [47060 localCollectorThread] - Final required fields list = *
+06-30-2025 03:00:01.193 INFO  UserManager [31092 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.193 INFO  UserManager [31092 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.193 INFO  UserManager [47060 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.193 INFO  UserManager [47060 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.193 INFO  UserManager [47060 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.193 INFO  UserManager [47060 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.193 INFO  UserManager [31092 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.193 INFO  SearchOperator:rest [47060 localCollectorThread] - in RestProcessor::execute
+06-30-2025 03:00:01.193 INFO  ProxyConfig [47060 localCollectorThread] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.193 INFO  ProxyConfig [47060 localCollectorThread] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.193 INFO  ProxyConfig [47060 localCollectorThread] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.193 INFO  ProxyConfig [47060 localCollectorThread] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.193 INFO  SearchParser [20956 searchOrchestrator] - PARSING: | streamnoop
+06-30-2025 03:00:01.193 INFO  SearchParser [20956 searchOrchestrator] - PARSING: streamnoop  | rest "/services/server/health-config" splunk_server=local  | eval thresh=""  | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ]  | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0)  | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert")  | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override')  | eval action=if(((action == "") OR isnull(action)),"empty",action)  | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}")  | stats list(alert) AS alertList, list(feature) AS feaList by distinct  | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",")  | eval alertCombined=(("\"alert\":{" + alertCombined) + "}")  | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined)  | eval dataCombined=coalesce(alertCombined,feaCombined)  | stats list(dataCombined) AS dataList  | eval data=mvjoin(dataList,",")  | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d")  | fields + data, _time, date | noop 
+06-30-2025 03:00:01.193 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.194 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.194 INFO  StatsContext [20956 searchOrchestrator] -  Setting Page Size at 65536
+06-30-2025 03:00:01.194 INFO  StatsContext [20956 searchOrchestrator] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.194 INFO  SearchOperator:rest [20956 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.194 INFO  SearchParser [20956 searchOrchestrator] - PARSING:   eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)  
+06-30-2025 03:00:01.194 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+06-30-2025 03:00:01.194 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.194 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+06-30-2025 03:00:01.194 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+06-30-2025 03:00:01.194 INFO  SortOperator [20956 searchOrchestrator] - maxmem = 209715200
+06-30-2025 03:00:01.194 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.194 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+06-30-2025 03:00:01.194 INFO  StatsProcessorV2 [20956 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.194 INFO  StatsAggregations [20956 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+06-30-2025 03:00:01.194 INFO  StatsProcessor [20956 searchOrchestrator] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.194 INFO  StatsContext [20956 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.195 INFO  SearchOrchestrator [20956 searchOrchestrator] - Starting the status control thread.
+06-30-2025 03:00:01.195 INFO  SearchOrchestrator [20956 searchOrchestrator] - Starting phase=1
+06-30-2025 03:00:01.195 INFO  UserManager [29488 StatusEnforcerThread] - Setting user context: admin
+06-30-2025 03:00:01.195 INFO  UserManager [29488 StatusEnforcerThread] - Free version does not have user services
+06-30-2025 03:00:01.195 INFO  UserManager [29488 StatusEnforcerThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.195 INFO  UserManager [41928 phase_1] - Setting user context: admin
+06-30-2025 03:00:01.195 INFO  UserManager [41928 phase_1] - Free version does not have user services
+06-30-2025 03:00:01.195 INFO  SearchStatusEnforcer [29488 StatusEnforcerThread] - Enforcing disk quota = 0
+06-30-2025 03:00:01.195 INFO  UserManager [41928 phase_1] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.195 INFO  ReducePhaseExecutor [41928 phase_1] - Stating phase_1
+06-30-2025 03:00:01.195 INFO  PreviewExecutor [29488 StatusEnforcerThread] - Preview Enforcing initialization done
+06-30-2025 03:00:01.195 INFO  DispatchExecutor [41928 phase_1] - BEGIN OPEN: Processor=rest
+06-30-2025 03:00:01.211 INFO  UserManager [47060 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.211 INFO  UserManager [31092 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.211 INFO  UserManager [37464 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.211 INFO  UserManager [26708 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.211 INFO  UserManager [20320 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.211 INFO  UserManager [49236 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.213 INFO  ResultsCollationProcessor [41928 phase_1] - Writing remote_event_providers.csv to disk
+06-30-2025 03:00:01.214 INFO  DispatchExecutor [41928 phase_1] - END OPEN: Processor=rest
+06-30-2025 03:00:01.214 INFO  DispatchExecutor [41928 phase_1] - BEGIN OPEN: Processor=stats
+06-30-2025 03:00:01.228 INFO  DispatchExecutor [41928 phase_1] - END OPEN: Processor=stats
+06-30-2025 03:00:01.228 INFO  DispatchExecutor [41928 phase_1] - BEGIN OPEN: Processor=stats
+06-30-2025 03:00:01.230 INFO  DispatchExecutor [41928 phase_1] - END OPEN: Processor=stats
+06-30-2025 03:00:01.231 INFO  DispatchExecutor [41928 phase_1] - BEGIN OPEN: Processor=noop
+06-30-2025 03:00:01.231 INFO  DispatchExecutor [41928 phase_1] - END OPEN: Processor=noop
+06-30-2025 03:00:01.236 INFO  ReducePhaseExecutor [41928 phase_1] - Not downloading remote search.log files.  Reason: Remote log download is currently disabled.
+06-30-2025 03:00:01.236 INFO  ReducePhaseExecutor [41928 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+06-30-2025 03:00:01.236 INFO  ReducePhaseExecutor [41928 phase_1] - Ending phase_1
+06-30-2025 03:00:01.236 INFO  UserManager [41928 phase_1] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.301 INFO  SearchParser [29488 StatusEnforcerThread] - PARSING: stats count AS query| search query > 0
+06-30-2025 03:00:01.301 INFO  StatsContext [29488 StatusEnforcerThread] -  Setting Page Size at 65536
+06-30-2025 03:00:01.301 INFO  StatsContext [29488 StatusEnforcerThread] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.301 INFO  StatsProcessorV2 [29488 StatusEnforcerThread] - StatsV2 (stats) args: count, AS, query
+06-30-2025 03:00:01.301 INFO  StatsProcessorV2 [29488 StatusEnforcerThread] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.301 INFO  StatsAggregations [29488 StatusEnforcerThread] - Instantiating Stats function group_count for key=, alias=query
+06-30-2025 03:00:01.301 INFO  StatsProcessor [29488 StatusEnforcerThread] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.301 INFO  StatsContext [29488 StatusEnforcerThread] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.305 INFO  UnifiedSearch [29488 StatusEnforcerThread] - Processed search targeting arguments
+06-30-2025 03:00:01.351 INFO  SearchStatusEnforcer [29488 StatusEnforcerThread] - Triggered listener notification on state=onResults condition=1
+06-30-2025 03:00:01.352 INFO  UserManager [29488 StatusEnforcerThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.356 INFO  DispatchStorageManager [20956 searchOrchestrator] - Remote storage disabled for search artifacts.
+06-30-2025 03:00:01.356 INFO  DispatchManager [20956 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5d84469f2c5505ba6_at_1751241600_7', username='admin')
+06-30-2025 03:00:01.356 INFO  UserManager [20956 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.359 INFO  SearchStatusEnforcer [41864 RunDispatch] - SearchStatusEnforcer is already terminated
+06-30-2025 03:00:01.359 INFO  UserManager [41864 RunDispatch] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.359 INFO  LookupDataProvider [41864 RunDispatch] - Clearing out lookup shared provider map
+06-30-2025 03:00:01.375 INFO  ShutdownHandler [43224 Shutdown] - Shutting down splunkd
+06-30-2025 03:00:01.375 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Begin"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_NoahHealthReport"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_FileIntegrityChecker"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_JustBeforeKVStore"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_KVStore"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_DFM"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Thruput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_TcpInput1"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_ExecSendInitialSigterm"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_TcpOutput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_UdpInput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_FifoInput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueInput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_WinEventLogInput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_HttpInput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SelfStorageArchiver"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_BucketMergeWorker"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Scheduler"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SyslogOutput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_ArchiveAndOneshot"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Exec"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Tailing"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_PeerManager"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_AuditTrailManager"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_AuditTrailQueueServiceThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_FSChangeMonitor"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_FSChangeManagerProcessor"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_DeploymentClient"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_HttpClientPollingThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_AsyncQueuedMessageDispatcherThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueOutput"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_OfflineFlusher"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueOutputWorker"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RollAndUploadHotBuckets"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_MainThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_UploadReplicatedBucketThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Slave"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SlaveHBThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_CacheManager"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_HotBucketTasks"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SlaveSearch"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Deployer"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Captain"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Select"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_IdataDO_Collector"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_TcpOutput2"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_NoahHeartbeat"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_IndexerService"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Database1"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_LastIndexerLevel"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_AWSMetering"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SplunkConfigChangeWatcherThread"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_TcpInput2"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueInputWorker"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RemoteQueue"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RemoteFileSystem"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_LocalFileSystem"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SearchDispatch"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_SSCCacheClient"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_RendezvousHeartbeat"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_CatalogBackedConfSingleton"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_LoadUsers"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_MetricsManager"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Pipeline"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Queue"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_CallbackRunner"
+06-30-2025 03:00:01.376 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_HttpClient"
+06-30-2025 03:00:01.377 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_DmcProxyHttpClient"
+06-30-2025 03:00:01.377 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_Duo2FAHttpClient"
+06-30-2025 03:00:01.377 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_ApplicationLicenseChecker"
+06-30-2025 03:00:01.377 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_S3ConnectionPoolManager"
+06-30-2025 03:00:01.377 INFO  ShutdownHandler [43224 Shutdown] - shutting down level "ShutdownLevel_WorkloadManager"
+06-30-2025 03:00:01.377 INFO  ShutdownHandler [43224 Shutdown] - Shutdown complete in 2008 microseconds
+06-30-2025 03:00:01.380 INFO  HealthReporter [42128 MainThread] - aggregate_ingestion_latency_health with value=0 from stanza=health_reporter will disable the aggregation of ingestion latency health reporter.
