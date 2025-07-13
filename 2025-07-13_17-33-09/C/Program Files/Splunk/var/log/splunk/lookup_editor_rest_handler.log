@@ -1,0 +1,771 @@
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:33:59 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO Metadata request params: assets.csv splunk_monitoring_console None
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\lookups\lookup_file_backups\splunk_monitoring_console\nobody\assets.csv
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO lookup name: assets.csv
+06/10/2025 03:34:02 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Metadata request params: prices.csv system None
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_us_states.csv search None
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_countries.csv search None
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_countries.csv
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_countries.csv
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/10/2025 03:34:03 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_backups
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=system, lookup=prices.csv, type=csv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:29 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_backups
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=search, lookup=geo_attr_us_states.csv, type=csv, owner=nobody, version=None
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/10/2025 03:34:38 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:34:39 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:40 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Metadata request params: assets.csv splunk_monitoring_console None
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_us_states.csv search None
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Metadata request params: prices.csv system None
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_countries.csv search None
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\lookups\lookup_file_backups\splunk_monitoring_console\nobody\assets.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO lookup name: assets.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_countries.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_countries.csv
+06/10/2025 03:34:42 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_backups
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=system, lookup=prices.csv, type=csv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:35:22 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:36:52 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:36:58 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:36:58 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:36:58 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:36:58 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:37:38 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:37:38 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:37:38 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:37:52 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:37:52 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:37:52 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:37:52 PM +0300 Jerusalem Daylight Time INFO Metadata request params: .csv  None
+06/10/2025 03:37:52 PM +0300 Jerusalem Daylight Time ERROR [HTTP 404] https://127.0.0.1:8089/services/data/lookup-table-files/.csv; [{'type': 'ERROR', 'code': None, 'text': 'Could not find object id=.csv'}]
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 499, in get_lookup_metadata
+    backup_details = self.get_lookup_backup_size(request_info=request_info, lookup_file=lookup_file, namespace=namespace, owner=owner)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 131, in get_lookup_backup_size
+    namespace, owner)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\lookup_backups.py", line 38, in get_backup_files
+    backup_directory = self.get_backup_directory(session_key, escaped_filename, namespace, owner)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\lookup_backups.py", line 95, in get_backup_directory
+    resolved_lookup_path = SplunkLookupTableFile.get(SplunkLookupTableFile.build_id(lookup_file, namespace, owner), sessionKey=session_key).path
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\models\base.py", line 572, in get
+    return SplunkRESTManager(cls, sessionKey=sessionKey).get(id)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\models\base.py", line 552, in get
+    entity = self._get_entity(id, host_path=host_path)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\models\base.py", line 468, in _get_entity
+    return self._fix_entity(splunk.entity.getEntity(self.model.resource, None, sessionKey=self.sessionKey, uri=id))
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\entity.py", line 277, in getEntity
+    serverResponse, serverContent = rest.simpleRequest(uri, getargs=kwargs, sessionKey=sessionKey, raiseAllErrors=True)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 579, in simpleRequest
+    raise splunk.ResourceNotFound(uri, extendedMessages=extractMessages(body))
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/data/lookup-table-files/.csv; [{'type': 'ERROR', 'code': None, 'text': 'Could not find object id=.csv'}]
+06/10/2025 03:37:54 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:37:54 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:37:54 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:37:54 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:37:54 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:37:54 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:38:02 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:38:02 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:38:02 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:38:02 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:38:02 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:38:02 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:39:25 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:39:25 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:39:25 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:39:26 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:39:26 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:39:26 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:41:20 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:41:20 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:41:20 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:41:43 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO Metadata request params: assets.csv splunk_monitoring_console None
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\lookups\lookup_file_backups\splunk_monitoring_console\nobody\assets.csv
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO lookup name: assets.csv
+06/10/2025 03:41:45 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_us_states.csv search None
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_countries.csv search None
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO Metadata request params: prices.csv system None
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_countries.csv
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_countries.csv
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:41:46 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:41:49 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:41:49 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:41:49 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=splunk_secure_gateway, lookup=companion_apps, type=kv, owner=nobody, version=None
+06/10/2025 03:41:49 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '2025-06-10T15:43:20+03:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:29 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Handling a request
+name=get_lookup_metadata
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Metadata request params: assets.csv splunk_monitoring_console None
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Metadata request params: prices.csv system None
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_countries.csv search None
+06/10/2025 03:43:31 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_us_states.csv search None
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_countries.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_countries.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\lookups\lookup_file_backups\splunk_monitoring_console\nobody\assets.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/10/2025 03:43:32 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_backups
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=search, lookup=geo_attr_us_states.csv, type=csv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:43:34 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '2025-06-10T15:43:20+03:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/10/2025 03:43:36 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8089/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/10/2025 03:44:08 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:08 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:44:08 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=search, lookup=dfgfd, type=kv, owner=nobody, version=None
+06/10/2025 03:44:08 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:44:14 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:14 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_contents
+06/10/2025 03:44:14 PM +0300 Jerusalem Daylight Time INFO Retrieving lookup contents, namespace=lookup_editor, lookup=backup_details_for_lookups, type=kv, owner=nobody, version=None
+06/10/2025 03:44:14 PM +0300 Jerusalem Daylight Time ERROR Failed to handle request due to an unhandled exception
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\rest_handler.py", line 196, in handle
+    return function_to_call(request_info, **query)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 174, in get_lookup_contents
+    method='GET')
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+06/10/2025 03:44:36 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:36 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:36 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:38 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:38 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:38 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:43 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:43 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/10/2025 03:44:43 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/10/2025 03:44:43 PM +0300 Jerusalem Daylight Time INFO Metadata request params: .csv  None
+06/10/2025 03:44:43 PM +0300 Jerusalem Daylight Time ERROR [HTTP 404] https://127.0.0.1:8089/services/data/lookup-table-files/.csv; [{'type': 'ERROR', 'code': None, 'text': 'Could not find object id=.csv'}]
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 499, in get_lookup_metadata
+    backup_details = self.get_lookup_backup_size(request_info=request_info, lookup_file=lookup_file, namespace=namespace, owner=owner)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor_rest_handler.py", line 131, in get_lookup_backup_size
+    namespace, owner)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\lookup_backups.py", line 38, in get_backup_files
+    backup_directory = self.get_backup_directory(session_key, escaped_filename, namespace, owner)
+  File "C:\Program Files\Splunk\etc\apps\lookup_editor\bin\lookup_editor\lookup_backups.py", line 95, in get_backup_directory
+    resolved_lookup_path = SplunkLookupTableFile.get(SplunkLookupTableFile.build_id(lookup_file, namespace, owner), sessionKey=session_key).path
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\models\base.py", line 572, in get
+    return SplunkRESTManager(cls, sessionKey=sessionKey).get(id)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\models\base.py", line 552, in get
+    entity = self._get_entity(id, host_path=host_path)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\models\base.py", line 468, in _get_entity
+    return self._fix_entity(splunk.entity.getEntity(self.model.resource, None, sessionKey=self.sessionKey, uri=id))
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\entity.py", line 277, in getEntity
+    serverResponse, serverContent = rest.simpleRequest(uri, getargs=kwargs, sessionKey=sessionKey, raiseAllErrors=True)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 579, in simpleRequest
+    raise splunk.ResourceNotFound(uri, extendedMessages=extractMessages(body))
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/data/lookup-table-files/.csv; [{'type': 'ERROR', 'code': None, 'text': 'Could not find object id=.csv'}]
+06/10/2025 03:44:44 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:44 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:44 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:45 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:45 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:45 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:45 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:45 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:45 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:47 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:47 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:47 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:48 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:48 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:48 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/10/2025 03:44:48 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/10/2025 03:44:48 PM +0300 Jerusalem Daylight Time INFO Executing function, name=post_lookup_contents
+06/10/2025 03:44:48 PM +0300 Jerusalem Daylight Time INFO Saving lookup contents...
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_file_size
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'assets.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'list': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', '_reload': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/_reload', 'edit': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'remove': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv', 'move': '/servicesNS/nobody/splunk_monitoring_console/data/lookup-table-files/assets.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk_monitoring_console', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin'], 'write': ['admin']}, 'removable': True, 'sharing': 'app'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk_monitoring_console', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk_monitoring_console\\lookups\\assets.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'examples.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv', 'list': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv', '_reload': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv/_reload', 'edit': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv', 'remove': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv', 'move': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/examples.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk-dashboard-studio', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk-dashboard-studio', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk-dashboard-studio\\lookups\\examples.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'firewall_example.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv', 'list': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv', '_reload': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv/_reload', 'edit': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv', 'remove': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv', 'move': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/firewall_example.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk-dashboard-studio', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk-dashboard-studio', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk-dashboard-studio\\lookups\\firewall_example.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_countries.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_countries.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_countries.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_attr_us_states.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_attr_us_states.csv/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_attr_us_states.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_countries.kmz', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_countries.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_countries.kmz', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geo_us_states.kmz', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'updated': '2025-06-10T15:43:20+03:00', 'links': {'alternate': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'list': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', '_reload': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/_reload', 'edit': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'remove': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz', 'move': '/servicesNS/nobody/search/data/lookup-table-files/geo_us_states.kmz/move'}, 'author': 'nobody', 'acl': {'app': 'search', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin', 'power']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'search', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\search\\lookups\\geo_us_states.kmz', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'geomaps_data.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv', 'list': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv', '_reload': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv/_reload', 'edit': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv', 'remove': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv', 'move': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/geomaps_data.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk-dashboard-studio', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk-dashboard-studio', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk-dashboard-studio\\lookups\\geomaps_data.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'outages_example.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv', 'list': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv', '_reload': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv/_reload', 'edit': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv', 'remove': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv', 'move': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/outages_example.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk-dashboard-studio', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk-dashboard-studio', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk-dashboard-studio\\lookups\\outages_example.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'prices.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'list': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', '_reload': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/_reload', 'edit': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'remove': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv', 'move': '/servicesNS/nobody/system/data/lookup-table-files/prices.csv/move'}, 'author': 'nobody', 'acl': {'app': 'system', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'system'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'system', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\system\\lookups\\prices.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'pura_mark_public_as_private.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv', 'list': '/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv', '_reload': '/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv/_reload', 'edit': '/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv', 'remove': '/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv', 'move': '/servicesNS/nobody/python_upgrade_readiness_app/data/lookup-table-files/pura_mark_public_as_private.csv/move'}, 'author': 'nobody', 'acl': {'app': 'python_upgrade_readiness_app', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['admin', 'sc_admin'], 'write': ['admin', 'sc_admin']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'python_upgrade_readiness_app', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\python_upgrade_readiness_app\\lookups\\pura_mark_public_as_private.csv', 'eai:userName': 'nobody'}}
+06/30/2025 01:59:57 PM +0300 Jerusalem Daylight Time INFO entry: {'name': 'security_example_data.csv', 'id': 'https://127.0.0.1:8088/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv', 'updated': '1970-01-01T02:00:00+02:00', 'links': {'alternate': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv', 'list': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv', '_reload': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv/_reload', 'edit': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv', 'remove': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv', 'move': '/servicesNS/nobody/splunk-dashboard-studio/data/lookup-table-files/security_example_data.csv/move'}, 'author': 'nobody', 'acl': {'app': 'splunk-dashboard-studio', 'can_change_perms': True, 'can_list': True, 'can_share_app': True, 'can_share_global': True, 'can_share_user': False, 'can_write': True, 'modifiable': True, 'owner': 'nobody', 'perms': {'read': ['*'], 'write': ['admin']}, 'removable': True, 'sharing': 'global'}, 'content': {'disabled': False, 'eai:acl': None, 'eai:appName': 'splunk-dashboard-studio', 'eai:data': 'C:\\Program Files\\Splunk\\etc\\apps\\splunk-dashboard-studio\\lookups\\security_example_data.csv', 'eai:userName': 'nobody'}}
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: assets.csv splunk_monitoring_console None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\lookups\lookup_file_backups\splunk_monitoring_console\nobody\assets.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO lookup name: assets.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: outages_example.csv splunk-dashboard-studio None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk-dashboard-studio\lookups\lookup_file_backups\splunk-dashboard-studio\nobody\outages_example.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO lookup name: outages_example.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: prices.csv system None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\system\lookups\lookup_file_backups\system\nobody\prices.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO lookup name: prices.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: pura_mark_public_as_private.csv python_upgrade_readiness_app None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\lookups\lookup_file_backups\python_upgrade_readiness_app\nobody\pura_mark_public_as_private.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO lookup name: pura_mark_public_as_private.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: security_example_data.csv splunk-dashboard-studio None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk-dashboard-studio\lookups\lookup_file_backups\splunk-dashboard-studio\nobody\security_example_data.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO lookup name: security_example_data.csv
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+ params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_countries.csv search None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geo_attr_us_states.csv search None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Handling a request
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: firewall_example.csv splunk-dashboard-studio None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: geomaps_data.csv splunk-dashboard-studio None
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Executing function, name=get_lookup_metadata
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO ----Metadata request params------
+06/30/2025 02:00:00 PM +0300 Jerusalem Daylight Time INFO Metadata request params: examples.csv splunk-dashboard-studio None
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_countries.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_countries.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk-dashboard-studio\lookups\lookup_file_backups\splunk-dashboard-studio\nobody\geomaps_data.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO lookup name: geomaps_data.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\search\lookups\lookup_file_backups\search\nobody\geo_attr_us_states.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO lookup name: geo_attr_us_states.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk-dashboard-studio\lookups\lookup_file_backups\splunk-dashboard-studio\nobody\examples.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO lookup name: examples.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backups: []
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backup directory: C:\Program Files\Splunk\etc\apps\splunk-dashboard-studio\lookups\lookup_file_backups\splunk-dashboard-studio\nobody\firewall_example.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO lookup name: firewall_example.csv
+06/30/2025 02:00:01 PM +0300 Jerusalem Daylight Time INFO backups: []
