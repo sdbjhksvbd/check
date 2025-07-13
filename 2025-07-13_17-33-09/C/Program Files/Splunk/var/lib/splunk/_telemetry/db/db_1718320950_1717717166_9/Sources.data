@@ -1,0 +1,5 @@
+0	4	 17	1717717166	1718320950	1718320951	
+1	source::telemetry_api	  2	1717717166	1718011920	1718011920	
+2	source::telemetry	  6	1717719347	1717892202	1717892202	
+3	source::instrumentation_scripted_input	  2	1717719357	1717806760	1717806760	
+4	source::C:\Program Files\Splunk\var\log\splunk\license_usage_summary.log	  7	1717794027	1718320950	1718320951	
