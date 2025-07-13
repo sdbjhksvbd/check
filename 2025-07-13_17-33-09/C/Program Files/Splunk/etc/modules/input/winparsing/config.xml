@@ -1,0 +1,45 @@
+<!--   Version 4.0 -->
+
+<module>
+	<pipeline name="winparsing" type="startup">
+		<processor name="readerIn" plugin="queueinputprocessor">
+			   <config>
+		 		<queueName>winparsing</queueName>
+		 	   </config>
+		</processor>
+
+		<processor name="utf8" plugin="utf8processor">
+			<config>
+			</config>
+		</processor>
+
+		<processor name="linebreaker" plugin="linebreakingprocessor">
+			<config>
+			</config>
+		</processor>
+
+		<processor name="header" plugin="headerprocessor">
+			<config>
+			</config>
+		</processor>
+
+		<processor name="aggregator" plugin="aggregatorprocessor">
+		           <config>
+		           </config>
+		</processor>
+
+                <!-- see SPL-36473 -->
+		<processor name="sendOut_nonlwf" plugin="queueoutputprocessor">
+			<config>
+				<queueName>typingQueue</queueName>
+			</config>
+		</processor>
+
+		<processor name="sendOut" plugin="queueoutputprocessor">
+			<config>
+				<queueName>parsingQueue</queueName>
+			</config>
+		</processor>
+
+	</pipeline>
+</module>
