@@ -1,0 +1,49 @@
+
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for classes to look up id referenced items. 
+
+    DEPENDENCIES: IdMapping.mof, Report.mof, Document.mof, SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+// **********************************************************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Policy Mappings Report"),
+    Description
+    (
+        "A report which associates numeric identifiers to the information needed to uniquely identify policies and rules."
+    )
+] 
+class PolicyPlatform_PolicyMappingReport : PolicyPlatform_Report
+{
+    PolicyPlatform_DocumentIdMapping policies[];
+    PolicyPlatform_RuleIdMapping rules[];
+};
+
+// **********************************************************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Rule Prioritization Mappings Report"),
+    Description
+    (
+        "A report which associates numeric identifiers to the information needed to uniquely identify steps, strategies,"
+        " and value tables in the Rule Prioritization Framework."
+    )
+] 
+class PolicyPlatform_RulePrioritizationMappingReport : PolicyPlatform_Report
+{
+    PolicyPlatform_DocumentIdMapping strategies[];
+    PolicyPlatform_DocumentIdMapping valueTables[];
+    PolicyPlatform_StepIdMapping steps[];
+};
