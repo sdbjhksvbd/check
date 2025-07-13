@@ -1,0 +1,110 @@
+
+;-------------------------------------------------------------------------
+; vmx86.inf
+;
+; Copyright (c) 1993-1999, Microsoft Corporation
+; Copyright (c) 2016-2024 Broadcom. All Rights Reserved.
+; The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+;-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[version]
+Signature   = "$Windows NT$"
+Class       = System
+ClassGUID   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider    = %CompanyProvider%
+DriverVer   = 06/04/2024, 17.6.0.0
+CatalogFile = vmx86.cat
+DriverPackageDisplayName = %loc.Vmx86ServiceDisplayName%
+DriverPackageType = KernelService
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %loc.Disk1%,,,""
+
+[SourceDisksFiles]
+vmx86.sys = 1
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall]
+OptionDesc          = %loc.Vmx86ServiceDesc%
+CopyFiles           = Vmx86.DriverFiles
+
+[DefaultInstall.Services]
+AddService          = %Vmx86ServiceName%,0x800,Vmx86.Service    ; SPSVCINST_STARTSERVICE
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall]
+DelFiles   = Vmx86.DriverFiles
+DelReg     = Vmx86.DelRegistry
+
+
+[DefaultUninstall.Services]
+DelService = Vmx86,0x204   ; SPSVCINST_DELETEEVENTLOGENTRY | SPSVCINST_STOPSERVICE
+
+;
+; Services Section
+;
+
+[Vmx86.Service]
+DisplayName      = %loc.Vmx86ServiceDisplayName%
+Description      = %loc.Vmx86ServiceDesc%
+ServiceBinary    = %12%\vmx86.sys               ;%windir%\system32\drivers\vmx86.sys
+ServiceType      = 1                            ;SERVICE_KERNEL_DRIVER
+StartType        = 2                            ;SERVICE_AUTO_START
+ErrorControl     = 0                            ;SERVICE_ERROR_IGNORE
+LoadOrderGroup   = Extended Base
+AddReg           = Vmx86.AddRegistry
+
+;
+; Registry Modifications
+;
+
+[Vmx86.AddRegistry]
+
+[Vmx86.DelRegistry]
+
+;
+; Copy Files
+;
+
+[Vmx86.DriverFiles]
+vmx86.sys
+
+;;
+[Strings]
+loc.Vmx86ServiceDesc        = "VMware vmx86 driver"
+loc.Vmx86ServiceDisplayName = "VMware vmx86"
+loc.Disk1                   = "Vmx86 Source Media"
+CompanyProvider             = "Broadcom Inc."
+Vmx86ServiceName            = "vmx86"
