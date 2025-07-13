@@ -1,0 +1,378 @@
+/**************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for base classes of job & synchronization report documents
+
+    DEPENDENCIES: schemaNamespaces.mof, document.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// matching functions
+
+[
+    Abstract,
+    Description
+    (
+        "Matching function base class. This function is used whenever one or more"
+        " rules need to be matched during rule prioritization, such as determining weight for"
+        " a rule or which sub-strategy to move on to"
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_Matcher
+{
+};
+
+
+// *****************************************************************************
+[
+    Description
+    (
+        "Matching function over a fixed set of rule properties. The set of properties will form"
+        " a conjunctive equality expression. Specifying NULL for the value of a property indicates"
+        " the function matches any value for that property; i.e. NULL is a wildcard."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_RuleIdMatcher : PolicyPlatform_RPF_Matcher
+{
+    string PolicyAuthority = NULL;
+
+    string PolicyName = NULL;
+
+    uint32 PolicyRevision = NULL;
+
+    string RuleName = NULL;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// tactic
+
+[
+    Abstract,
+    Description
+    (
+        "Rule prioritization tactic base class. A tactic can produce one of three results: rule1"
+        " wins, rule2 wins, or the two rules are equal."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_Tactic
+{
+};
+
+// *****************************************************************************
+[
+    Description
+    (
+        "Rule prioritization tactic that uses a predefined function to compare two rules."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_FunctionTactic : PolicyPlatform_RPF_Tactic
+{
+    [
+        Required,
+        Not_Null,
+        Description("The function to use for comparing rules"),
+        ValueMap { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" },
+        Values
+        {
+            "MinimalPolicyAuthority",    "MaximalPolicyAuthority",
+            "MinimalPolicyName",         "MaximalPolicyName",
+            "MinimalPolicyRevision",     "MaximalPolicyRevision",
+            "MinimalRuleName",           "MaximalRuleName",
+            "MinimalPolicyCreationDate", "MaximalPolicyCreationDate"
+        }
+    ]
+    uint16 Function;
+};
+
+// *****************************************************************************
+[
+    Description
+    (
+        "Associates a matching function with a representative integer value."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_ValueTableEntry
+{
+    [
+        key
+    ]
+    uint32 Id;
+
+    [
+        Required,
+        Not_Null
+    ]
+    PolicyPlatform_RPF_Matcher matcher;
+
+    [
+        Required,
+        Not_Null
+    ]
+    uint64 Value;
+};
+
+[
+    Description
+    (
+        "Associates a set of matching function with a set of representative integer"
+        " values."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_ValueTable : PolicyPlatform_Document
+{
+    PolicyPlatform_RPF_ValueTableEntry Entries[];
+};
+
+[
+    Description
+    (
+        "Associates a set of matching functions with a set of representative integer"
+        " values and compares those values using the provided relation."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_TableLookupTactic : PolicyPlatform_RPF_Tactic
+{
+    [
+        Required,
+        Not_Null
+    ]
+    string TableAuthority;
+
+    [
+        Required,
+        Not_Null
+    ]
+    string TableName;
+
+    [
+        ValueMap { "0", "1", "2" },
+        Values { "error", "useMinimumValue", "useMaximumValue" },
+        Description
+        (
+            "Indicates what value to use for a rule if a value cannot be found for it in the table."
+            " 'Error' indicates that processing should stop for these rules with an error (default)"
+            " 'useMinimumValue' indicates that the minumum uint64 value (0) should be used"
+            " 'useMaximumValue' indicates that the maximum uint64 value (18446744073709551615)"
+            "  should be used"
+        )
+    ]
+    uint8 IfNotFound = 0;
+
+    [
+        ValueMap { "0", "1" },
+        Values { "minimal", "maximal" },
+        Description
+        (
+            "Indicates whether to choose the rule with the largest value (maximal) or smallest"
+            " value (minimal)"
+        )
+    ]
+    uint8 Relation = 0;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// steps
+
+[
+    Abstract,
+    Description
+    (
+        "Used to define the applicability of a step."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_Condition
+{
+};
+
+[
+    Description
+    (
+        "Used to define the applicability of a step based on matching functions over two rules."
+        " Assume rules R1 and R2 are being tested. The RuleIdCondition is logically expanded into"
+        " the following predicate:"
+        "   (FirstMatcher(R1) and SecondMatcher(R2)) or (FirstMatcher(R2) and SecondMatcher(R1))"
+        " That is, the rules are tested for applicability independent of the order in which they"
+        " are considered."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_RuleIdCondition : PolicyPlatform_RPF_Condition
+{
+    [
+        Required,
+        Not_Null
+    ]
+    PolicyPlatform_RPF_RuleIdMatcher FirstMatcher;
+
+    [
+        Required,
+        Not_Null
+    ]
+    PolicyPlatform_RPF_RuleIdMatcher SecondMatcher;
+};
+
+[
+    Abstract,
+    Description
+    (
+        "Base class for a reference to a keyed element of the RPF."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_Reference
+{
+};
+
+[
+    Description
+    (
+        "Reference to a step within a strategy."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_StepReference : PolicyPlatform_RPF_Reference
+{
+    [
+        Required,
+        Not_Null
+    ]
+    uint32 StepId;
+};
+
+[
+    Description
+    (
+        "Reference to a strategy as a whole."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_StrategyReference : PolicyPlatform_RPF_Reference
+{
+    [
+        Required,
+        Not_Null
+    ]
+    string StrategyAuthority;
+    
+    [
+        Required,
+        Not_Null
+    ]
+    string StrategyName;
+};
+
+[
+    Description
+    (
+        "A link is used to chain steps together into a cohesive strategy for prioritizing rules."
+        " It defines two items:"
+        " - the conditions under which a link should be followed"
+        " - the step to link to if the condition is satified"
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_Link
+{
+    [
+        key
+    ]
+    uint32 Id;
+
+    [
+        Description
+        (
+            "Defines an applicability condition for this link. If NULL, the conditon is considered"
+            " always satisfied."
+        )
+    ]
+    PolicyPlatform_RPF_Condition Condition = NULL;
+
+    [
+        Description
+        (
+            "A reference to the next step or strategy to try when condition is satisfied.  If this"
+            " value is NULL, there is no next step and the overall strategy result is 'rules are"
+            " equal priority'."
+        )
+    ]
+    PolicyPlatform_RPF_Reference NextStepRef = NULL;
+};
+
+[
+    Description
+    (
+        "A step defines one tactic in a rule prioritization strategy as well as the a set of"
+        " possible next steps to take should the tactic result in both rules being equal."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_RPF_Step
+{
+    [
+        key
+    ]
+    uint32 Id;
+
+    [
+        Required,
+        Not_Null,
+        Description("Tactic to use to prioritize two rules if this step is applicable.")
+    ]
+    PolicyPlatform_RPF_Tactic Tactic;
+
+    [
+        Description
+        (
+            "An ordered set of 'next step' candidates. If this property is NULL, this is a"
+            " terminal step and there is no next step and the overall strategy result is 'rules"
+            " are equal priority'"
+        )
+    ]
+    PolicyPlatform_RPF_Link SuccessorLinks[] = NULL;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// strategy
+
+[
+    Description("Strategy document.")
+]
+class PolicyPlatform_RPF_Strategy : PolicyPlatform_Document
+{
+    [
+        Required,
+        Not_Null,
+        Description("The root of the tree of tactics comprised by this strategy.")
+    ]
+    uint32 RootStepId;
+    
+    [
+        Required,
+        Not_Null,
+        Description("A collection of steps that are linked to form a tree.")
+    ]
+    PolicyPlatform_RPF_Step Steps[];
+};
+
+// END
