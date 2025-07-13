@@ -1,0 +1,533 @@
+;!@Lang2@!UTF-8!
+; 24.04 : 2024-04-05 : Ahmet Murat Ã–ZHAN
+; 22.00 : 2023-05-28 : Emir SARI
+; 15.00 : 2018-11-21 : Kaya Zeren
+;  9.07 : 2009-09-22 : X-FoRcE
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Turkish
+TÃ¼rkÃ§e
+401
+Tamam
+Ä°ptal
+
+
+
+&Evet
+&HayÄ±r
+&Kapat
+YardÄ±m
+
+&Devam
+440
+TÃ¼mÃ¼ne &Evet
+TÃ¼mÃ¼ne &HayÄ±r
+Durdur
+Yeniden BaÅŸlat
+&Arka Planda
+Ã–&n Planda
+&Duraklat
+DuraklatÄ±ldÄ±
+Ä°ptal etmek istiyor musunuz?
+500
+&Dosya
+&DÃ¼zen
+&GÃ¶rÃ¼nÃ¼m
+&SÄ±k KullanÄ±lanlar
+&AraÃ§lar
+&YardÄ±m
+540
+&AÃ§
+7-Zip Ä°Ã§i&nde AÃ§
+&VarsayÄ±lan Uygulamada AÃ§
+&GÃ¶rÃ¼ntÃ¼le
+&DÃ¼zenle
+&Yeniden AdlandÄ±r
+KlasÃ¶re &Kopyala...
+KlasÃ¶re &TaÅŸÄ±...
+&Sil
+DosyayÄ± &BÃ¶l...
+DosyalarÄ± Bi&rleÅŸtir...
+Ã–&zellikler
+AÃ§Ä±kla&ma....
+SaÄŸlamalarÄ± Hesapla
+Fark
+KlasÃ¶r OluÅŸtur
+Dosya OluÅŸtur
+&Ã‡Ä±k
+BaÄŸlantÄ±
+&DiÄŸer AkÄ±ÅŸlar
+600
+&TÃ¼mÃ¼nÃ¼ SeÃ§
+TÃ¼mÃ¼nÃ¼n SeÃ§imini KaldÄ±r
+SeÃ§imi &Tersine Ã‡evir
+SeÃ§...
+SeÃ§imi KaldÄ±r...
+TÃ¼re GÃ¶re SeÃ§
+TÃ¼re GÃ¶re SeÃ§imi KaldÄ±r
+700
+&BÃ¼yÃ¼k Simgeler
+&KÃ¼Ã§Ã¼k Simgeler
+&Liste
+&AyrÄ±ntÄ±lar
+730
+SÄ±ralamasÄ±z
+DÃ¼z GÃ¶rÃ¼nÃ¼m
+&Ä°kili Pano
+&AraÃ§ Ã‡ubuklarÄ±
+KÃ¶k KlasÃ¶rÃ¼ AÃ§
+Bir Ãœst KlasÃ¶re
+KlasÃ¶r GeÃ§miÅŸi...
+&Yenile
+Otomatik Yenile
+750
+ArÅŸiv AraÃ§ Ã‡ubuÄŸu
+Standart AraÃ§ Ã‡ubuÄŸu
+BÃ¼yÃ¼k DÃ¼ÄŸmeler
+DÃ¼ÄŸme Metinlerini GÃ¶ster
+800
+KlasÃ¶rÃ¼ SÄ±k KullanÄ±lanlara &Ekle
+Yer Ä°ÅŸareti
+900
+&Ayarlar...
+&BaÅŸarÄ±m
+910
+GeÃ§ici DosyalarÄ± Sil...
+960
+&Ä°Ã§erik...
+7-Zip &HakkÄ±nda...
+1003
+Yol
+Ad
+UzantÄ±
+KlasÃ¶r
+Boyut
+PaketlenmiÅŸ Boyut
+Ã–znitelikler
+OluÅŸturulma
+Son EriÅŸim
+DeÄŸiÅŸtirilme
+KatÄ± ArÅŸiv
+AÃ§Ä±klama EklenmiÅŸ
+ÅžifrelenmiÅŸ
+Ã–nce BÃ¶l
+Sonra BÃ¶l
+SÃ¶zlÃ¼k
+
+TÃ¼r
+Anti
+YÃ¶ntem
+Ana Ä°ÅŸletim Sistemi
+Dosya Sistemi
+KullanÄ±cÄ±
+Grup
+Blok
+AÃ§Ä±klama
+Konum
+Yol Ã–n Eki
+KlasÃ¶rler
+Dosyalar
+SÃ¼rÃ¼m
+ParÃ§a
+Birden Ã‡ok ParÃ§a
+Sapma
+BaÄŸlantÄ±lar
+Blok SayÄ±sÄ±
+ParÃ§a SayÄ±sÄ±
+
+64 Bit
+YÃ¼ksek Son Haneli
+Ä°ÅŸlemci
+Fiziksel Boyut
+Ãœst Bilgi Boyutu
+SaÄŸlama
+Ã–zellikler
+Sanal Adres
+Kimlik
+KÄ±sa Ad
+OluÅŸturan Uygulama
+SektÃ¶r Boyutu
+Kip
+Sembolik BaÄŸlantÄ±
+Hata
+Toplam Boyut
+BoÅŸ Alan
+KÃ¼me Boyutu
+Etiket
+Yerel Ad
+SaÄŸlayÄ±cÄ±
+NT Dosya GÃ¼venliÄŸi
+DiÄŸer Veri AkÄ±ÅŸÄ±
+DÄ±ÅŸ
+SilinmiÅŸ
+AÄŸaÃ§
+
+
+Hata TÃ¼rÃ¼
+Hata
+Hata
+UyarÄ±
+UyarÄ±
+AkÄ±ÅŸlar
+DiÄŸer AkÄ±ÅŸlar
+DiÄŸer AkÄ±ÅŸlar Boyutu
+Sanal Boyut
+Ã‡Ä±karÄ±lmÄ±ÅŸ Boyut
+Toplam Fiziksel Boyut
+ParÃ§a Dizini
+Alt TÃ¼r
+KÄ±sa AÃ§Ä±klama
+Kod SayfasÄ±
+
+
+
+Kuyruk Boyutu
+GeniÅŸletilmiÅŸ KÃ¶k Boyutu
+BaÄŸlantÄ±
+Mutlak BaÄŸlantÄ±
+iNode
+
+Salt Okunur
+
+BaÄŸlantÄ±yÄ± Kopyala
+
+
+Ãœst Veri DeÄŸiÅŸtirildi
+2100
+SeÃ§enekler
+Dil
+Dil:
+DÃ¼zenleyici
+&DÃ¼zenleyici:
+&Fark:
+2200
+Sistem
+7-Zip ile iliÅŸkilendir:
+TÃ¼m kullanÄ±cÄ±lar
+2301
+7-Zip'i saÄŸ tÄ±k menÃ¼sÃ¼ne ekle
+GruplanmÄ±ÅŸ saÄŸ tÄ±k menÃ¼sÃ¼
+SaÄŸ tÄ±k menÃ¼sÃ¼ Ã¶geleri
+SaÄŸ tÄ±k menÃ¼sÃ¼nde simgeleri gÃ¶ster
+2320
+<KlasÃ¶r>
+<ArÅŸiv>
+ArÅŸivi AÃ§
+DosyalarÄ± Ã‡Ä±kar...
+ArÅŸive ekle...
+ArÅŸivi SÄ±na
+Buraya Ã‡Ä±kar
+{0} KlasÃ¶rÃ¼ne Ã‡Ä±kar
+{0} Olarak ArÅŸive Ekle
+SÄ±kÄ±ÅŸtÄ±r ve E-Posta ile ilet...
+{0} Olarak SÄ±kÄ±ÅŸtÄ±r ve E-Posta ile Ä°let
+2400
+KlasÃ¶rler
+&Ã‡alÄ±ÅŸma KlasÃ¶rÃ¼
+&Sistem geÃ§ici klasÃ¶rÃ¼
+&GeÃ§erli klasÃ¶r
+&Åžu klasÃ¶r:
+&YalnÄ±zca Ã§Ä±karÄ±labilir sÃ¼rÃ¼cÃ¼ler iÃ§in kullan
+GeÃ§ici arÅŸiv dosyalarÄ± iÃ§in bir konum belirle.
+2500
+Ayarlar
+".." Ã¶gesini gÃ¶ster
+GerÃ§ek dosya simgelerini gÃ¶ster
+Sistem menÃ¼sÃ¼nÃ¼ gÃ¶ster
+&Tam satÄ±rÄ± seÃ§
+&Izgara Ã§izgilerini gÃ¶ster
+Ã–geleri aÃ§mak iÃ§in tek tÄ±k kullan
+&DiÄŸer seÃ§im kipi
+BÃ¼yÃ¼k &bellek sayfalarÄ± kullan
+2900
+7-Zip HakkÄ±nda
+7-Zip Ã¶zgÃ¼r ve Ã¼cretsiz bir uygulamadÄ±r.
+3000
+Sistem istenilen miktardaki belleÄŸi ayÄ±ramÄ±yor
+Herhangi bir sorun yok
+{0} Ã¶ge seÃ§ilmiÅŸ
+'{0}' klasÃ¶rÃ¼ oluÅŸturulamadÄ±
+Bu arÅŸiv tÃ¼rÃ¼ iÃ§in gÃ¼ncelleme iÅŸlemi yapÄ±lamaz
+'{0}' dosyasÄ± arÅŸiv olarak aÃ§Ä±lamadÄ±
+Åžifreli '{0}' dosyasÄ± aÃ§Ä±lamadÄ±. YanlÄ±ÅŸ parola mÄ±?
+Desteklenmeyen arÅŸiv tÃ¼rÃ¼
+{0} dosyasÄ± zaten var
+'{0}' dosyasÄ± deÄŸiÅŸtirilmiÅŸ\nArÅŸivdeki dosyayÄ± gÃ¼ncellemek ister misiniz?
+Dosya gÃ¼ncellenemedi.}\n'{0}'
+DÃ¼zenleyici baÅŸlatÄ±lamadÄ±
+Dosya virÃ¼s gibi gÃ¶rÃ¼nÃ¼yor (dosya adÄ±nda uzun boÅŸluklar var).
+Ä°ÅŸlem dosya yolu uzun olan bir klasÃ¶rden baÅŸlatÄ±lamaz.
+Bir dosya seÃ§melisiniz
+Bir veya birkaÃ§ dosya seÃ§melisiniz
+Ã‡ok fazla Ã¶ge var
+Dosya {0} arÅŸivi olarak aÃ§Ä±lamadÄ±
+Dosya {0} arÅŸivi olarak aÃ§Ä±k
+ArÅŸiv sapma ile aÃ§Ä±k
+3300
+Ã‡Ä±karÄ±lÄ±yor
+SÄ±kÄ±ÅŸtÄ±rÄ±lÄ±yor
+SÄ±nanÄ±yor
+AÃ§Ä±lÄ±yor...
+TaranÄ±yor...
+Siliniyor
+3320
+Ekleniyor
+GÃ¼ncelleniyor
+Ã‡Ã¶zÃ¼mleniyor
+KopyalanÄ±yor
+Yeniden paketleniyor
+AtlanÄ±yor
+Siliniyor
+Ãœst Bilgi oluÅŸturuluyor
+3400
+Ã‡Ä±kar
+Åžuraya Ã§&Ä±kar:
+Ã‡Ä±karÄ±lacak dosyalarÄ±n konumunu seÃ§.
+3410
+Yol kipi:
+Tam yol adlarÄ±
+Bir yol adÄ± olmasÄ±n
+Mutlak yol adlarÄ±
+GÃ¶receli yol adlarÄ±
+3420
+Ãœzerine Yazma Kipi:
+Ãœzerine yazmadan Ã¶nce sor
+Sormadan Ã¼zerine yaz
+Var olan dosyalarÄ± atla
+KendiliÄŸinden yeniden adlandÄ±r
+Var olan dosyalarÄ± kendiliÄŸinden yeniden adlandÄ±r
+3430
+KÃ¶k klasÃ¶rÃ¼n Ã§oÄŸaltÄ±lmasÄ±nÄ± engelle
+Dosya gÃ¼venliÄŸini geri yÃ¼kle
+3440
+BÃ¶lge KimliÄŸi akÄ±ÅŸÄ±nÄ± yay:
+Office dosyalarÄ± iÃ§in
+3500
+Dosya DeÄŸiÅŸtirme OnayÄ±
+Ä°ÅŸlenen dosya hedef klasÃ¶rde zaten var.
+Mevcut dosyayÄ± bununla deÄŸiÅŸtirmek
+ister misiniz?
+{0} bayt
+&Otomatik Yeniden AdlandÄ±r
+3700
+'{0}' iÃ§in desteklenmeyen sÄ±kÄ±ÅŸtÄ±rma yÃ¶ntemi.
+'{0}' iÃ§indeki veriler hatalÄ±. Dosya bozuk.
+CRC '{0}' iÃ§inde baÅŸarÄ±sÄ±z oldu. Dosya bozuk.
+ÅžifrelenmiÅŸ '{0}' dosyasÄ±nda veri hatasÄ±. YanlÄ±ÅŸ parola mÄ±?
+ÅžifrelenmiÅŸ '{0}' dosyasÄ±nda CRC baÅŸarÄ±sÄ±z oldu. YanlÄ±ÅŸ parola mÄ±?
+3710
+YanlÄ±ÅŸ parola mÄ±?
+3721
+Desteklenmeyen sÄ±kÄ±ÅŸtÄ±rma yÃ¶ntemi
+Veri hatasÄ±
+CRC baÅŸarÄ±sÄ±z oldu
+KullanÄ±lamayan veri
+Beklenmedik veri sonu
+YÃ¼klenen verilerden sonra bazÄ± veriler var
+ArÅŸiv deÄŸil
+Ãœst Bilgi HatasÄ±
+YanlÄ±ÅŸ parola
+3763
+ArÅŸiv baÅŸlangÄ±cÄ± kullanÄ±lamÄ±yor
+ArÅŸiv baÅŸlangÄ±cÄ± doÄŸrulanamadÄ±
+
+
+
+Ã–zellik desteklenmiyor
+3800
+ParolayÄ± gir
+ParolayÄ± gir:
+ParolayÄ± yeniden gir:
+ParolayÄ± &gÃ¶ster
+Parolalar eÅŸleÅŸmiyor
+Parolada yalnÄ±zca Ä°ngilizce harf, sayÄ± ve Ã¶zel karakterleri (!, #, $, ...) kullanabilirsiniz
+Parola Ã§ok uzun
+Parola
+3900
+GeÃ§en sÃ¼re:
+Kalan sÃ¼re:
+Toplam boyut:
+HÄ±z:
+Ä°ÅŸlenen:
+SÄ±kÄ±ÅŸtÄ±rma oranÄ±:
+Hatalar:
+ArÅŸivler:
+4000
+ArÅŸive Ekle
+&ArÅŸiv:
+&GÃ¼ncelleme Kipi:
+ArÅŸiv &BiÃ§imi:
+SÄ±kÄ±ÅŸtÄ±rma &DÃ¼zeyi:
+SÄ±kÄ±ÅŸtÄ±rma &YÃ¶ntemi:
+&SÃ¶zlÃ¼k Boyutu:
+&SÃ¶zcÃ¼k Boyutu:
+KatÄ± ArÅŸiv Blok Boyutu:
+Ä°ÅŸlemci Ä°ÅŸlemi SayÄ±sÄ±:
+&Parametreler:
+SeÃ§enekler
+&Kendi aÃ§Ä±lan arÅŸiv oluÅŸtur
+PaylaÅŸÄ±lan dosyalarÄ± sÄ±kÄ±ÅŸtÄ±r
+Åžifreleme
+Åžifreleme yÃ¶ntemi:
+Dosya &adlarÄ±nÄ± ÅŸifrele
+SÄ±kÄ±ÅŸtÄ±rma iÃ§in kullanÄ±lacak bellek:
+Ã‡Ä±karma iÃ§in kullanÄ±lacak bellek:
+SÄ±kÄ±ÅŸtÄ±rma sonrasÄ± dosyalarÄ± sil
+4040
+Sembolik baÄŸlantÄ±larÄ± depola
+Mutlak baÄŸlantÄ±larÄ± depola
+DiÄŸer veri akÄ±ÅŸlarÄ±nÄ± depola
+Dosya gÃ¼venliÄŸini depola
+4050
+SÄ±kÄ±ÅŸtÄ±rmasÄ±z
+En hÄ±zlÄ±
+HÄ±zlÄ±
+Normal
+YÃ¼ksek
+Ã‡ok yÃ¼ksek
+4060
+DosyalarÄ± ekle ve deÄŸiÅŸtir
+DosyalarÄ± gÃ¼ncelle ve ekle
+Var olan dosyalarÄ± yenile
+DosyalarÄ± eÅŸitle
+4070
+GÃ¶z At
+TÃ¼m Dosyalar
+KatÄ± ArÅŸiv Olmayanlar
+KatÄ± ArÅŸiv Olanlar
+4080
+Zaman
+Zaman damgasÄ± kesinliÄŸi:
+DeÄŸiÅŸiklik zamanÄ±nÄ± depola
+OluÅŸturma zamanÄ±nÄ± depola
+Son eriÅŸim zamanÄ±nÄ± depola
+ArÅŸiv zamanÄ±nÄ± son dosya zamanÄ± olarak ayarla
+Kaynak dosyalarÄ±n son eriÅŸim zamanÄ±nÄ± deÄŸiÅŸtirmeyin
+4090
+sn
+ns
+6000
+Kopyala
+TaÅŸÄ±
+Åžuraya kopyala:
+Åžuraya taÅŸÄ±:
+KopyalanÄ±yor...
+TaÅŸÄ±nÄ±yor...
+Yeniden adlandÄ±rÄ±lÄ±yor...
+Hedef klasÃ¶rÃ¼ seÃ§in.
+Ä°ÅŸlem bu klasÃ¶r iÃ§in desteklenmiyor.
+Dosya/KlasÃ¶r Yeniden AdlandÄ±rma HatasÄ±
+Dosya Kopyalama OnayÄ±
+DosyalarÄ± arÅŸiv dosyasÄ±na kopyalamak istiyor musunuz
+6100
+Dosya Silme OnayÄ±
+KlasÃ¶r Silme OnayÄ±
+Ã‡oklu Dosya Silme Ä°ÅŸlemini Onayla
+'{0}' Ã¶gesi silinsin mi?
+'{0}' klasÃ¶rÃ¼nÃ¼ ve tÃ¼m iÃ§eriÄŸini silmek istiyor musunuz?
+Bu {0} Ã¶geleri silmek istiyor musunuz?
+Siliniyor...
+Dosya/KlasÃ¶r Silme HatasÄ±
+Sistem uzun yola sahip bir dosyayÄ± Geri DÃ¶nÃ¼ÅŸÃ¼m Kutusu'na taÅŸÄ±yamÄ±yor
+6300
+KlasÃ¶r OluÅŸtur
+Dosya OluÅŸtur
+KlasÃ¶r adÄ±:
+Dosya adÄ±:
+Yeni KlasÃ¶r
+Yeni Dosya
+KlasÃ¶r OluÅŸturulurken Hata
+Dosya OluÅŸturulurken Hata
+6400
+AÃ§Ä±klama
+&AÃ§Ä±klama:
+SeÃ§
+SeÃ§imi KaldÄ±r
+Karakter ifadesi:
+6600
+Ã–zellikler
+KlasÃ¶r GeÃ§miÅŸi
+TanÄ±lama iletileri
+Ä°leti
+7100
+Bilgisayar
+AÄŸ
+Belgeler
+Sistem
+7200
+Ekle
+Ã‡Ä±kar
+SÄ±na
+Kopyala
+TaÅŸÄ±
+Sil
+Bilgi
+7300
+DosyayÄ± BÃ¶l
+Åžuna &bÃ¶l:
+&ParÃ§alara, baytlara bÃ¶l:
+BÃ¶lÃ¼nÃ¼yor...
+BÃ¶lmeyi Onayla
+DosyayÄ± {0} parÃ§aya bÃ¶lmek istiyor musunuz?
+ParÃ§a bÃ¼yÃ¼klÃ¼ÄŸÃ¼, Ã¶zgÃ¼n dosya boyutundan kÃ¼Ã§Ã¼k olmalÄ±dÄ±r
+ParÃ§a boyutu hatalÄ±
+Belirtilen parÃ§a boyutu: {0} bayt.\nArÅŸiv dosyasÄ±nÄ± parÃ§alara bÃ¶lmek istiyor musunuz?
+7400
+DosyalarÄ± BirleÅŸtir
+Åžuraya &birleÅŸtir:
+BirleÅŸtiriliyor...
+BÃ¶lÃ¼nmÃ¼ÅŸ dosyanÄ±n yalnÄ±z ilk parÃ§asÄ±nÄ± seÃ§
+Dosya, bÃ¶lÃ¼nmÃ¼ÅŸ dosyanÄ±n bir parÃ§asÄ± olarak algÄ±lanamÄ±yor
+BÃ¶lÃ¼nmÃ¼ÅŸ dosyanÄ±n birden Ã§ok parÃ§asÄ± bulunamÄ±yor
+7500
+SaÄŸlama toplamÄ± hesaplanÄ±yor...
+SaÄŸlama toplamÄ± bilgisi
+Veri iÃ§in CRC saÄŸlama toplamÄ±:
+Veri ve adlar iÃ§in CRC saÄŸlama toplamÄ±:
+7600
+Bilgisayar BaÅŸarÄ±mÄ±
+Bellek kullanÄ±mÄ±:
+SÄ±kÄ±ÅŸtÄ±rma
+Ã‡Ä±karma
+DeÄŸerlendirme
+Genel DeÄŸerlendirme
+GeÃ§erli
+SonuÃ§
+CPU KullanÄ±m
+DeÄŸer./KullanÄ±m
+GeÃ§iÅŸler
+7700
+BaÄŸlantÄ±
+BaÄŸlantÄ±
+Åžuradan baÄŸlantÄ±la:
+Åžuraya baÄŸlantÄ±la:
+7710
+BaÄŸlantÄ± TÃ¼rÃ¼
+Sabit BaÄŸlantÄ±
+Dosya Sembolik BaÄŸlantÄ±sÄ±
+KlasÃ¶r Sembolik BaÄŸlantÄ±sÄ±
+KlasÃ¶r BirleÅŸtirme
+7800
+Bellek kullanÄ±m isteÄŸi
+Sonraki iÅŸlemler iÃ§in izin verilen limiti deÄŸiÅŸtir
+GeÃ§erli iÅŸlem iÃ§in seÃ§ili eylemi &tekrarla
+Eylem
+7810
+Ä°ÅŸlem 7-Zip tarafÄ±ndan engellendi.
+Ä°ÅŸlem bÃ¼yÃ¼k miktarda bellek (RAM) gerektirir.
+gerekli bellek kullanÄ±m boyutu
+izin verilen bellek kullanÄ±m sÄ±nÄ±rÄ±
+7-Zip tarafÄ±ndan ayarlanan bellek kullanÄ±m sÄ±nÄ±rÄ±
+RAM boyutu
+ArÅŸivleri aÃ§mak iÃ§in izin verilen maksimum RAM bellek kullanÄ±mÄ± miktarÄ±:
+7820
+ArÅŸivin aÃ§Ä±lmasÄ±na &izin ver
+ArÅŸiv aÃ§mayÄ± &atla
+ArÅŸiv aÃ§ma atlandÄ±.
