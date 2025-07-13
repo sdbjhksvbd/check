@@ -1,0 +1,2 @@
+06-30-2025 03:00:01.359 +0300 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+06-30-2025 03:00:01.375 +0300 INFO  SearchTelemetrySingleton - Done copying search_telemetry.json to C:\Program Files\Splunk\var\run\splunk\search_telemetry\508ba6e0cca83b05_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5d84469f2c5505ba6_at_1751241600_7_search_telemetry.json
