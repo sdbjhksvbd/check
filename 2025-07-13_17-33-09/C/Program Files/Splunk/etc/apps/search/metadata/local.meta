@@ -1,0 +1,25 @@
+[lookups/geo_us_states.kmz]
+export = system
+owner = nobody
+version = 8.2.0
+modtime = 1749559400.076143400
+
+[collections/dfgfd]
+owner = admin
+version = 8.2.0
+modtime = 1749559447.291111800
+
+[indexes/check]
+owner = admin
+version = 8.2.0
+modtime = 1749718808.342033200
+
+[inputs/monitor%3A%2F%2FC%3A%5CCrimes_-_2001_to_Present_20250611.csv]
+owner = admin
+version = 8.2.0
+modtime = 1749718844.483244100
+
+[views/tutorialdata_final]
+owner = admin
+version = 9.2.1
+modtime = 1751270425.593879100
