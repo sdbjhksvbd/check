@@ -1,0 +1,9 @@
+<SmartAudioConfiguration>
+  <!-- Playback Experience -->
+  <HideEqualizer>true</HideEqualizer>
+
+  <!--Platform Setting -->
+  <IsISST>true</IsISST>
+  <RegistryMonitorForJackSensing>true</RegistryMonitorForJackSensing>
+
+</SmartAudioConfiguration>
