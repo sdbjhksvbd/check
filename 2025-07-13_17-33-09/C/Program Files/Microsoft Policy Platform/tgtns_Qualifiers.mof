@@ -1,0 +1,110 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for Policy Platform custom qualifiers.  
+    
+    DEPENDENCIES: SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")		
+
+
+//////////////////////////////////////////////////////////////////////////////
+// instance qualifiers
+
+// =================================================================================================
+//  Embed Qualifier Declaration
+//    Specifies that instances of this class must only exist as composed parts embedded in parent 
+//    instances of the type specified in the qualifier's string value.
+// =================================================================================================
+qualifier Embed :string, scope (class);
+
+// =================================================================================================
+//  Changed Qualifier
+//    Changed (true) is applied to instance properties where a change of value is indicated.  
+//    Absence of this qualifier in an intended instance is equivalent to the presence of 
+//    "Changed (false)."
+// =================================================================================================
+qualifier Changed :boolean = true, scope (property);
+
+// =================================================================================================
+//  Intended Qualifier
+//    Intended (true) is applied to instance properties where intent has been evaluated.  Note that 
+//    it is valid for intent to be expressed without a change being required.  Absence of this 
+//    qualifier in an intended instance is equivalent to the presence of "Intended (false)."
+// =================================================================================================
+qualifier Intended :boolean = true, scope (property);
+
+// =================================================================================================
+//  Inventoried Qualifier
+//    Inventoried (true) is applied to instance properties that have been collected for 
+//    the purposes of being inventoried.  
+// =================================================================================================
+qualifier Inventoried :boolean = true, scope (property);
+
+// =================================================================================================
+//  Added Qualifier
+//    Added (true) is applied to instances that are newly added.  This qualifier is expected to 
+//    occur in both the Intent Report and Change Report documents.  Absence of this qualifier in an 
+//    instance is equivalent to the presence of "Added (false)."
+// =================================================================================================
+qualifier Added :boolean = true, scope (class);
+
+// =================================================================================================
+//  Deleted Qualifier
+//    Deleted (true) is applied to instances that are expected to be removed.  This qualifier is 
+//    expected to occur in both the Intent Report and Change Report documents.  Absence of this 
+//    qualifier in an instance is equivalent to the presence of "Added (false)."
+// =================================================================================================
+qualifier Deleted :boolean = true, scope (class);
+
+// =================================================================================================
+//  DiscoveryError Qualifier Declaration
+//    DiscoveryError is applied to a property of an instance if the property value was unable
+//    to be discovered. Its sint32 value must be set to the appropriate HRESULT for the error.
+// =================================================================================================
+qualifier DiscoveryError :sint32, scope (property);
+
+
+//////////////////////////////////////////////////////////////////////////////
+// class registration qualifiers
+
+// =================================================================================================
+//  InPartition Qualifier Declaration
+//    Specifies registration information dictating context-provided information for which the 
+//    associated class is differentiated.  
+//
+//        - "local-system" => IWbemContext property PrincipalId with value specified as "SYSTEM"
+//          (1) property PolicyPlatformContext_PrincipalContext_Type = "PolicyPlatform_MachineContext"
+//          (2) property PolicyPlatformContext_PrincipalContext_Id = the PrincipalId "SYSTEM"
+//
+//        - "local-user"   => 
+//          (1) property PolicyPlatformContext_PrincipalContext_Type = "PolicyPlatform_UserContext"
+//          (2) property PolicyPlatformContext_PrincipalContext_Id = a valid PrincipalId
+//          (3) propery PolicyPlatformContext_PrincipalContext_UserSession = the PrincipalId user's 
+//              session where available
+//
+//    Note: This qualified and registration is to be deprecated in favor of the following qualifiers.
+// =================================================================================================
+qualifier InPartition :string[], scope (class);
+
+// =================================================================================================
+//  ModelContext Qualifier Declaration
+//    Specifies registration information dictating context-provided information for which the 
+//    associated class is differentiated.  For a given class, the presence of some string 'foo' in 
+//    the InContext set implies the following contract:
+//          (1) any WMI query for the class may provide an IWbemContext value for property 
+//              'ModelContext:foo'
+//          (2) differing values for the 'ModelContext:foo' property shall return instances which 
+//              are to be independent (e.g. no unmodeled relations exist between such instances)
+//          (3) differing values for the 'ModelContext:foo' property may return instances which are
+//              identical in their key properties, but which are to be treated as independent
+// =================================================================================================
+qualifier ModelContext :string[], scope (class);
