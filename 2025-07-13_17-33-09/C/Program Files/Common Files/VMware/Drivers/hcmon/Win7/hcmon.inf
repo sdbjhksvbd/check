@@ -1,0 +1,97 @@
+;
+; hcmon.inf -- USB Host Controller Monitor
+; Copyright (c) 1998-2023 VMware, Inc.
+;
+
+;******************************************************************************
+; Version section
+;------------------------------------------------------------------------------
+[Version]
+Signature           = "$Windows NT$"
+Provider            = %S_Provider%
+DriverVer           = 06/20/2023,8.11.14.0
+Class               = USB
+ClassGUID           = {36FC9E60-C465-11CF-8056-444553540000}
+CatalogFile         = hcmon.cat
+DriverPackageDisplayName = %loc.S_ServiceDisplayName%
+DriverPackageType   = KernelService
+
+;******************************************************************************
+; Install section
+;------------------------------------------------------------------------------
+[DefaultInstall.NT]
+CopyFiles = _Hcmon.Files
+
+[DefaultUninstall.NT]
+DelFiles = _Hcmon.Files
+
+[DefaultInstall.NT.Services]
+AddService = %S_DriverName%,, _NT_AddService, _NT_EventLog
+
+[DefaultUninstall.NT.Services]
+DelService = %S_DriverName%,0x204   ; SPSVCINST_DELETEEVENTLOGENTRY | SPSVCINST_STOPSERVICE
+
+;******************************************************************************
+; NT Service sections
+;------------------------------------------------------------------------------
+[_NT_AddService]
+DisplayName    = %loc.S_ServiceDisplayName%
+Description    = %loc.S_ServiceDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 2                  ; auto
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\%S_DriverName%.sys
+
+[_NT_EventLog]
+AddReg=_NT_EventLog_AddReg
+
+[_NT_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\%S_DriverName%.sys"
+HKR,,TypesSupported,0x00010001,7
+
+
+;******************************************************************************
+; Copy Files section
+;------------------------------------------------------------------------------
+[_Hcmon.Files]
+hcmon.sys
+
+
+;******************************************************************************
+; Destination Directories
+;------------------------------------------------------------------------------
+[DestinationDirs]
+DefaultDestDir = 12  ; DRIVER directory
+
+
+;******************************************************************************
+; Disk Layout
+;------------------------------------------------------------------------------
+[SourceDisksNames]
+1 = %loc.S_DiskName%,,,"."
+
+[SourceDisksFiles]
+hcmon.sys = 1,,
+
+
+;******************************************************************************
+; Text Strings
+;------------------------------------------------------------------------------
+[Strings]
+
+; provider name
+S_Provider="VMware, Inc."
+
+; file name of driver executable
+; If the name is modified, the _Hcmon.Files section must also be modified
+S_DriverName="hcmon"
+
+; disk name
+loc.S_DiskName="VMware Installation Disk #1"
+
+; service display name
+loc.S_ServiceDisplayName="VMware hcmon"
+
+; service description
+loc.S_ServiceDesc="VMware USB Host Controller Monitor"
+
