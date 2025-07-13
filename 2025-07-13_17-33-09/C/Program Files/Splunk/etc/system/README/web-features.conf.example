@@ -1,0 +1,57 @@
+ï»¿#   Version 9.2.1
+#
+# You can configure Splunk Web features for your custom application.
+#
+# To use one or more of these configurations, copy the configuration block into
+# the web-features.conf file located in $SPLUNK_HOME/etc/system/local/. You must restart
+# Splunk software after you make changes to this setting to enable configurations.
+#
+# For more information on configuration files, including precedence, search for
+# "Use Splunk Web to manage configuration files" in the Admin Manual in the Splunk Docs.
+
+[feature:search_v2_endpoint]
+enable_search_v2_endpoint = true
+
+[feature:quarantine_files]
+enable_jQuery2 = false
+enable_unsupported_hotlinked_imports = false
+
+[feature:dashboards_csp]
+enable_dashboards_external_content_restriction = true
+enable_dashboards_redirection_restriction = true
+dashboards_trusted_domain.splunk = *.splunk.com
+dashboards_trusted_domain.example = www.example.com
+
+
+
+
+[feature:page_migration]
+enable_triggered_alerts_vnext = false
+enable_home_vnext = false
+enable_datasets_vnext = false
+
+[feature:dashboard_studio]
+enable_inputs_on_canvas = true
+enable_show_hide = true
+
+[feature:dashboard_inputs_localization]
+enable_dashboard_inputs_localization = false
+
+[feature:share_job]
+enable_share_job_control = true
+
+[feature:search_auto_format]
+enable_autoformatted_comments = false
+
+[feature:ui_prefs_optimizations]
+optimize_ui_prefs_performance = true
+
+[feature:splunk_web_optimizations]
+enable_app_bar_performance_optimizations = true
+bypass_app_bar_performance_optimizations_apps = "search"
+
+[feature:spotlight_search]
+enable_spotlight_search = false
+
+[feature:o11y_preview]
+enable_o11y_preview = true
