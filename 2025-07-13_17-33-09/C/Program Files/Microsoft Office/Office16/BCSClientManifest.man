@@ -1,0 +1,176 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<instrumentationManifest xmlns="http://schemas.microsoft.com/win/2004/08/events" xsi:schemaLocation="http://schemas.microsoft.com/win/2004/08/events eventman.xsd" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:trace="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <instrumentation xmlns:ms="http://manifests.microsoft.com/win/2004/08/windows/events">
+    <events>
+      <messageTable/>
+    </events>
+    <counters xmlns="http://schemas.microsoft.com/win/2005/12/counters">
+      <provider providerName="Microsoft Office Business Application Client" applicationIdentity="BCSClient.Msg.Dll" providerGuid="{23de4b5f-b724-4b36-9843-7d237f851a5f}" resourceBase="0" providerType="userMode">
+        <counterSet name="$(string.BdcSynchronization_Obj.name)" guid="{ec82c122-043b-4eaa-9023-7ec75de007bf}" description="$(string.BdcSynchronization_Obj.description)" uri="BdcSynchronization_Obj" instances="single">
+          <counter uri="BdcSynchronization_Obj.InstancesRefreshedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcSynchronization_Obj.InstancesRefreshedPerSecond.name)" description="$(string.BdcSynchronization_Obj.InstancesRefreshedPerSecond.description)" detailLevel="standard" aggregate="sum" id="0"/>
+          <counter uri="BdcSynchronization_Obj.InstancesRefreshed" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcSynchronization_Obj.InstancesRefreshed.name)" description="$(string.BdcSynchronization_Obj.InstancesRefreshed.description)" detailLevel="standard" id="1"/>
+          <counter uri="BdcSynchronization_Obj.AssociationsRefreshedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcSynchronization_Obj.AssociationsRefreshedPerSecond.name)" description="$(string.BdcSynchronization_Obj.AssociationsRefreshedPerSecond.description)" detailLevel="standard" aggregate="sum" id="2"/>
+          <counter uri="BdcSynchronization_Obj.AssociationsRefreshed" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcSynchronization_Obj.AssociationsRefreshed.name)" description="$(string.BdcSynchronization_Obj.AssociationsRefreshed.description)" detailLevel="standard" id="3"/>
+          <counter uri="BdcSynchronization_Obj.ChangesSubmittedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcSynchronization_Obj.ChangesSubmittedPerSecond.name)" description="$(string.BdcSynchronization_Obj.ChangesSubmittedPerSecond.description)" detailLevel="standard" aggregate="sum" id="4"/>
+          <counter uri="BdcSynchronization_Obj.ChangesSubmitted" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcSynchronization_Obj.ChangesSubmitted.name)" description="$(string.BdcSynchronization_Obj.ChangesSubmitted.description)" detailLevel="standard" id="5"/>
+          <counter uri="BdcSynchronization_Obj.BatchesProcessedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcSynchronization_Obj.BatchesProcessedPerSecond.name)" description="$(string.BdcSynchronization_Obj.BatchesProcessedPerSecond.description)" detailLevel="standard" aggregate="sum" id="6"/>
+          <counter uri="BdcSynchronization_Obj.BatchesProcessed" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcSynchronization_Obj.BatchesProcessed.name)" description="$(string.BdcSynchronization_Obj.BatchesProcessed.description)" detailLevel="standard" id="7"/>
+          <counter uri="BdcSynchronization_Obj.AvgInstancesPerCallBase" type="perf_average_base" defaultScale="0" name="$(string.BdcSynchronization_Obj.AvgInstancesPerCallBase.name)" description="$(string.BdcSynchronization_Obj.AvgInstancesPerCallBase.description)" detailLevel="advanced" id="8">
+            <counterAttributes>
+              <counterAttribute name="noDisplay"/>
+            </counterAttributes>
+          </counter>
+          <counter uri="BdcSynchronization_Obj.AvgInstancesPerCall" type="perf_average_bulk" defaultScale="0" name="$(string.BdcSynchronization_Obj.AvgInstancesPerCall.name)" description="$(string.BdcSynchronization_Obj.AvgInstancesPerCall.description)" baseId="8" detailLevel="standard" id="9"/>
+          <counter uri="BdcSynchronization_Obj.TotalInstancesReturnedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcSynchronization_Obj.TotalInstancesReturnedPerSecond.name)" description="$(string.BdcSynchronization_Obj.TotalInstancesReturnedPerSecond.description)" detailLevel="standard" id="10"/>
+          <counter uri="BdcSynchronization_Obj.CacheCleanUps" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcSynchronization_Obj.CacheCleanUps.name)" description="$(string.BdcSynchronization_Obj.CacheCleanUps.description)" detailLevel="standard" id="11"/>
+          <counter uri="BdcSynchronization_Obj.SyncFailures" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcSynchronization_Obj.SyncFailures.name)" description="$(string.BdcSynchronization_Obj.SyncFailures.description)" detailLevel="standard" id="12"/>
+        </counterSet>
+        <counterSet name="$(string.BdcCache_Obj.name)" guid="{3f1c44d5-fe38-42f5-aed0-0852ba0ea6e4}" description="$(string.BdcCache_Obj.description)" uri="BdcCache_Obj" instances="single">
+          <counter uri="BdcCache_Obj.SqlTransactionsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcCache_Obj.SqlTransactionsPerSecond.name)" description="$(string.BdcCache_Obj.SqlTransactionsPerSecond.description)" detailLevel="standard" aggregate="sum" id="0"/>
+          <counter uri="BdcCache_Obj.SqlTransactions" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcCache_Obj.SqlTransactions.name)" description="$(string.BdcCache_Obj.SqlTransactions.description)" detailLevel="standard" id="1"/>
+          <counter uri="BdcCache_Obj.SqlCommandsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcCache_Obj.SqlCommandsPerSecond.name)" description="$(string.BdcCache_Obj.SqlCommandsPerSecond.description)" detailLevel="standard" aggregate="sum" id="2"/>
+          <counter uri="BdcCache_Obj.SqlCommands" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcCache_Obj.SqlCommands.name)" description="$(string.BdcCache_Obj.SqlCommands.description)" detailLevel="standard" id="3"/>
+          <counter uri="BdcCache_Obj.CacheReadPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcCache_Obj.CacheReadPerSecond.name)" description="$(string.BdcCache_Obj.CacheReadPerSecond.description)" detailLevel="standard" id="4"/>
+          <counter uri="BdcCache_Obj.CacheCreatedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcCache_Obj.CacheCreatedPerSecond.name)" description="$(string.BdcCache_Obj.CacheCreatedPerSecond.description)" detailLevel="standard" id="5"/>
+          <counter uri="BdcCache_Obj.CacheUpdatedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcCache_Obj.CacheUpdatedPerSecond.name)" description="$(string.BdcCache_Obj.CacheUpdatedPerSecond.description)" detailLevel="standard" id="6"/>
+          <counter uri="BdcCache_Obj.CacheDeletedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcCache_Obj.CacheDeletedPerSecond.name)" description="$(string.BdcCache_Obj.CacheDeletedPerSecond.description)" detailLevel="standard" id="7"/>
+        </counterSet>
+        <counterSet name="$(string.BdcXSync_Obj.name)" guid="{a8c87840-c120-4b36-b553-bf5c8f136698}" description="$(string.BdcXSync_Obj.description)" uri="BdcXSync_Obj" instances="multipleAggregate">
+          <counter uri="BdcXSync_Obj.ChangesReportedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcXSync_Obj.ChangesReportedPerSecond.name)" description="$(string.BdcXSync_Obj.ChangesReportedPerSecond.description)" detailLevel="standard" aggregate="sum" id="0"/>
+          <counter uri="BdcXSync_Obj.ItemsUpdatedPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcXSync_Obj.ItemsUpdatedPerSecond.name)" description="$(string.BdcXSync_Obj.ItemsUpdatedPerSecond.description)" detailLevel="standard" aggregate="sum" id="1"/>
+          <counter uri="BdcXSync_Obj.FailedItems" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcXSync_Obj.FailedItems.name)" description="$(string.BdcXSync_Obj.FailedItems.description)" detailLevel="standard" aggregate="sum" id="2"/>
+        </counterSet>
+        <counterSet name="$(string.BdcOnline_Obj.name)" guid="{4f7bedd6-21fc-4d02-a973-4b7bd5c1b5cf}" description="$(string.BdcOnline_Obj.description)" uri="BdcOnline_Obj" instances="multipleAggregate">
+          <counter uri="BdcOnline_Obj.FindersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.FindersPerSecond.name)" description="$(string.BdcOnline_Obj.FindersPerSecond.description)" detailLevel="standard" aggregate="sum" id="0"/>
+          <counter uri="BdcOnline_Obj.SpecificFindersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.SpecificFindersPerSecond.name)" description="$(string.BdcOnline_Obj.SpecificFindersPerSecond.description)" detailLevel="standard" aggregate="sum" id="1"/>
+          <counter uri="BdcOnline_Obj.GenericInvokersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.GenericInvokersPerSecond.name)" description="$(string.BdcOnline_Obj.GenericInvokersPerSecond.description)" detailLevel="standard" aggregate="sum" id="2"/>
+          <counter uri="BdcOnline_Obj.IdEnumeratorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.IdEnumeratorsPerSecond.name)" description="$(string.BdcOnline_Obj.IdEnumeratorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="3"/>
+          <counter uri="BdcOnline_Obj.ScalarsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.ScalarsPerSecond.name)" description="$(string.BdcOnline_Obj.ScalarsPerSecond.description)" detailLevel="standard" aggregate="sum" id="4"/>
+          <counter uri="BdcOnline_Obj.AccessCheckersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.AccessCheckersPerSecond.name)" description="$(string.BdcOnline_Obj.AccessCheckersPerSecond.description)" detailLevel="standard" aggregate="sum" id="5"/>
+          <counter uri="BdcOnline_Obj.CreatorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.CreatorsPerSecond.name)" description="$(string.BdcOnline_Obj.CreatorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="6"/>
+          <counter uri="BdcOnline_Obj.UpdatersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.UpdatersPerSecond.name)" description="$(string.BdcOnline_Obj.UpdatersPerSecond.description)" detailLevel="standard" aggregate="sum" id="7"/>
+          <counter uri="BdcOnline_Obj.DeletersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.DeletersPerSecond.name)" description="$(string.BdcOnline_Obj.DeletersPerSecond.description)" detailLevel="standard" aggregate="sum" id="8"/>
+          <counter uri="BdcOnline_Obj.ChangedIdEnumeratorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.ChangedIdEnumeratorsPerSecond.name)" description="$(string.BdcOnline_Obj.ChangedIdEnumeratorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="9"/>
+          <counter uri="BdcOnline_Obj.DeletedIdEnumeratorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.DeletedIdEnumeratorsPerSecond.name)" description="$(string.BdcOnline_Obj.DeletedIdEnumeratorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="10"/>
+          <counter uri="BdcOnline_Obj.AssociationNavigatorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.AssociationNavigatorsPerSecond.name)" description="$(string.BdcOnline_Obj.AssociationNavigatorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="11"/>
+          <counter uri="BdcOnline_Obj.AssociatorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.AssociatorsPerSecond.name)" description="$(string.BdcOnline_Obj.AssociatorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="12"/>
+          <counter uri="BdcOnline_Obj.DisassociatorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.DisassociatorsPerSecond.name)" description="$(string.BdcOnline_Obj.DisassociatorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="13"/>
+          <counter uri="BdcOnline_Obj.StreamAccessorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.StreamAccessorsPerSecond.name)" description="$(string.BdcOnline_Obj.StreamAccessorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="14"/>
+          <counter uri="BdcOnline_Obj.BinarySecurityDescriptorAccessorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.BinarySecurityDescriptorAccessorsPerSecond.name)" description="$(string.BdcOnline_Obj.BinarySecurityDescriptorAccessorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="15"/>
+          <counter uri="BdcOnline_Obj.BulkSpecificFindersPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.BulkSpecificFindersPerSecond.name)" description="$(string.BdcOnline_Obj.BulkSpecificFindersPerSecond.description)" detailLevel="standard" aggregate="sum" id="16"/>
+          <counter uri="BdcOnline_Obj.BulkAssociatedIdEnumeratorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.BulkAssociatedIdEnumeratorsPerSecond.name)" description="$(string.BdcOnline_Obj.BulkAssociatedIdEnumeratorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="17"/>
+          <counter uri="BdcOnline_Obj.BulkAssociationNavigatorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.BulkAssociationNavigatorsPerSecond.name)" description="$(string.BdcOnline_Obj.BulkAssociationNavigatorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="18"/>
+          <counter uri="BdcOnline_Obj.BulkIdEnumeratorsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.BulkIdEnumeratorsPerSecond.name)" description="$(string.BdcOnline_Obj.BulkIdEnumeratorsPerSecond.description)" detailLevel="standard" aggregate="sum" id="19"/>
+          <counter uri="BdcOnline_Obj.TotalCallsPerSecond" type="perf_counter_counter" defaultScale="0" name="$(string.BdcOnline_Obj.TotalCallsPerSecond.name)" description="$(string.BdcOnline_Obj.TotalCallsPerSecond.description)" detailLevel="standard" aggregate="sum" id="20"/>
+          <counter uri="BdcOnline_Obj.OnlineFailures" type="perf_counter_rawcount" defaultScale="0" name="$(string.BdcOnline_Obj.OnlineFailures.name)" description="$(string.BdcOnline_Obj.OnlineFailures.description)" detailLevel="standard" aggregate="sum" id="21"/>
+        </counterSet>
+      </provider>
+    </counters>
+  </instrumentation>
+  <localization>
+    <resources culture="en-US">
+      <stringTable>
+        <string id="BdcSynchronization_Obj.name" value="Microsoft Office BCS Synchronization"/>
+        <string id="BdcSynchronization_Obj.description" value="Measurements for cache and synchronization activity."/>
+        <string id="BdcSynchronization_Obj.InstancesRefreshedPerSecond.name" value="Instances refreshed per second"/>
+        <string id="BdcSynchronization_Obj.InstancesRefreshedPerSecond.description" value="Number of instances refreshed per second"/>
+        <string id="BdcSynchronization_Obj.InstancesRefreshed.name" value="Instances refreshed total"/>
+        <string id="BdcSynchronization_Obj.InstancesRefreshed.description" value="Instances Refreshed"/>
+        <string id="BdcSynchronization_Obj.AssociationsRefreshedPerSecond.name" value="Associations refreshed per second"/>
+        <string id="BdcSynchronization_Obj.AssociationsRefreshedPerSecond.description" value="Number of Associations refreshed per second"/>
+        <string id="BdcSynchronization_Obj.AssociationsRefreshed.name" value="Associations refreshed total"/>
+        <string id="BdcSynchronization_Obj.AssociationsRefreshed.description" value="Associations Refreshed"/>
+        <string id="BdcSynchronization_Obj.ChangesSubmittedPerSecond.name" value="Changes submitted per second"/>
+        <string id="BdcSynchronization_Obj.ChangesSubmittedPerSecond.description" value="Number of changes submitted per second"/>
+        <string id="BdcSynchronization_Obj.ChangesSubmitted.name" value="Changes submitted total"/>
+        <string id="BdcSynchronization_Obj.ChangesSubmitted.description" value="Changes submitted"/>
+        <string id="BdcSynchronization_Obj.BatchesProcessedPerSecond.name" value="Batches processed per second"/>
+        <string id="BdcSynchronization_Obj.BatchesProcessedPerSecond.description" value="Number of batches processed per second"/>
+        <string id="BdcSynchronization_Obj.BatchesProcessed.name" value="Batches processed total"/>
+        <string id="BdcSynchronization_Obj.BatchesProcessed.description" value="Batches processed"/>
+        <string id="BdcSynchronization_Obj.AvgInstancesPerCallBase.name" value="Average instances returned per call base"/>
+        <string id="BdcSynchronization_Obj.AvgInstancesPerCallBase.description" value="Average instances returned per call base"/>
+        <string id="BdcSynchronization_Obj.AvgInstancesPerCall.name" value="Average number of instances returned per call"/>
+        <string id="BdcSynchronization_Obj.AvgInstancesPerCall.description" value="Average number of instances returned per call"/>
+        <string id="BdcSynchronization_Obj.TotalInstancesReturnedPerSecond.name" value="Total number of instances returned per second"/>
+        <string id="BdcSynchronization_Obj.TotalInstancesReturnedPerSecond.description" value="Total number of instances returned per second"/>
+        <string id="BdcSynchronization_Obj.CacheCleanUps.name" value="Cache clean-ups total"/>
+        <string id="BdcSynchronization_Obj.CacheCleanUps.description" value="Total number of cache clean-ups"/>
+        <string id="BdcSynchronization_Obj.SyncFailures.name" value="Failures total"/>
+        <string id="BdcSynchronization_Obj.SyncFailures.description" value="Total number of failures"/>
+        <string id="BdcCache_Obj.name" value="Microsoft Office BCS Cache"/>
+        <string id="BdcCache_Obj.description" value="BDC Cache measurements"/>
+        <string id="BdcCache_Obj.SqlTransactionsPerSecond.name" value="SQL transactions per second"/>
+        <string id="BdcCache_Obj.SqlTransactionsPerSecond.description" value="SQL transactions per second"/>
+        <string id="BdcCache_Obj.SqlTransactions.name" value="SQL transactions total"/>
+        <string id="BdcCache_Obj.SqlTransactions.description" value="Total number of SQL transactions"/>
+        <string id="BdcCache_Obj.SqlCommandsPerSecond.name" value="SQL commands per second"/>
+        <string id="BdcCache_Obj.SqlCommandsPerSecond.description" value="Number of SQL commands per second"/>
+        <string id="BdcCache_Obj.SqlCommands.name" value="SQL commands total"/>
+        <string id="BdcCache_Obj.SqlCommands.description" value="Total number of SQL commands"/>
+        <string id="BdcCache_Obj.CacheReadPerSecond.name" value="Instances read per second"/>
+        <string id="BdcCache_Obj.CacheReadPerSecond.description" value="Number of instances read per second"/>
+        <string id="BdcCache_Obj.CacheCreatedPerSecond.name" value="Instances created per second"/>
+        <string id="BdcCache_Obj.CacheCreatedPerSecond.description" value="Number of instances created per second"/>
+        <string id="BdcCache_Obj.CacheUpdatedPerSecond.name" value="Instances updated per second"/>
+        <string id="BdcCache_Obj.CacheUpdatedPerSecond.description" value="Number of instances updated per second"/>
+        <string id="BdcCache_Obj.CacheDeletedPerSecond.name" value="Instances deleted per second"/>
+        <string id="BdcCache_Obj.CacheDeletedPerSecond.description" value="Number of instances deleted per second"/>
+        <string id="BdcXSync_Obj.name" value="Microsoft Office BCS Outlook Store"/>
+        <string id="BdcXSync_Obj.description" value="BDC XSync measurements"/>
+        <string id="BdcXSync_Obj.ChangesReportedPerSecond.name" value="Changes reported per second"/>
+        <string id="BdcXSync_Obj.ChangesReportedPerSecond.description" value="Number of changes reported by cache per second"/>
+        <string id="BdcXSync_Obj.ItemsUpdatedPerSecond.name" value="Items updated per second"/>
+        <string id="BdcXSync_Obj.ItemsUpdatedPerSecond.description" value="Number of items updated per second"/>
+        <string id="BdcXSync_Obj.FailedItems.name" value="Failed items"/>
+        <string id="BdcXSync_Obj.FailedItems.description" value="Number of failed items"/>
+        <string id="BdcOnline_Obj.name" value="SharePoint Foundation BDC Online"/>
+        <string id="BdcOnline_Obj.description" value="Counter to measure BDC online calls"/>
+        <string id="BdcOnline_Obj.FindersPerSecond.name" value="Finders per second"/>
+        <string id="BdcOnline_Obj.FindersPerSecond.description" value="Number of Finders executed online per second."/>
+        <string id="BdcOnline_Obj.SpecificFindersPerSecond.name" value="SpecificFinders per second"/>
+        <string id="BdcOnline_Obj.SpecificFindersPerSecond.description" value="Number of SpecificFinders executed online per second."/>
+        <string id="BdcOnline_Obj.GenericInvokersPerSecond.name" value="GenericInvokers per second"/>
+        <string id="BdcOnline_Obj.GenericInvokersPerSecond.description" value="Number of GenericInvokers executed online per second."/>
+        <string id="BdcOnline_Obj.IdEnumeratorsPerSecond.name" value="IdEnumerators per second"/>
+        <string id="BdcOnline_Obj.IdEnumeratorsPerSecond.description" value="Number of IdEnumerators executed online per second."/>
+        <string id="BdcOnline_Obj.ScalarsPerSecond.name" value="Scalars per second"/>
+        <string id="BdcOnline_Obj.ScalarsPerSecond.description" value="Number of Scalars executed online per second."/>
+        <string id="BdcOnline_Obj.AccessCheckersPerSecond.name" value="AccessCheckers per second"/>
+        <string id="BdcOnline_Obj.AccessCheckersPerSecond.description" value="Number of AccessCheckers executed online per second."/>
+        <string id="BdcOnline_Obj.CreatorsPerSecond.name" value="Creators per second"/>
+        <string id="BdcOnline_Obj.CreatorsPerSecond.description" value="Number of Creators executed online per second."/>
+        <string id="BdcOnline_Obj.UpdatersPerSecond.name" value="Updaters per second"/>
+        <string id="BdcOnline_Obj.UpdatersPerSecond.description" value="Number of Updaters executed online per second."/>
+        <string id="BdcOnline_Obj.DeletersPerSecond.name" value="Deleters per second"/>
+        <string id="BdcOnline_Obj.DeletersPerSecond.description" value="Number of Deleters executed online per second."/>
+        <string id="BdcOnline_Obj.ChangedIdEnumeratorsPerSecond.name" value="ChangedIdEnumerators per second"/>
+        <string id="BdcOnline_Obj.ChangedIdEnumeratorsPerSecond.description" value="Number of ChangedIdEnumerators executed online per second."/>
+        <string id="BdcOnline_Obj.DeletedIdEnumeratorsPerSecond.name" value="DeletedIdEnumerators per second"/>
+        <string id="BdcOnline_Obj.DeletedIdEnumeratorsPerSecond.description" value="Number of DeletedIdEnumerators executed online per second."/>
+        <string id="BdcOnline_Obj.AssociationNavigatorsPerSecond.name" value="AssociationNavigators per second"/>
+        <string id="BdcOnline_Obj.AssociationNavigatorsPerSecond.description" value="Number of AssociationNavigators executed online per second."/>
+        <string id="BdcOnline_Obj.AssociatorsPerSecond.name" value="Associators per second"/>
+        <string id="BdcOnline_Obj.AssociatorsPerSecond.description" value="Number of Associators executed online per second."/>
+        <string id="BdcOnline_Obj.DisassociatorsPerSecond.name" value="Disassociators per second"/>
+        <string id="BdcOnline_Obj.DisassociatorsPerSecond.description" value="Number of Disassociators executed online per second."/>
+        <string id="BdcOnline_Obj.StreamAccessorsPerSecond.name" value="StreamAccessors per second"/>
+        <string id="BdcOnline_Obj.StreamAccessorsPerSecond.description" value="Number of StreamAccessors executed online per second."/>
+        <string id="BdcOnline_Obj.BinarySecurityDescriptorAccessorsPerSecond.name" value="BinarySecurityDescriptorAccessors per second"/>
+        <string id="BdcOnline_Obj.BinarySecurityDescriptorAccessorsPerSecond.description" value="Number of BinarySecurityDescriptorAccessors executed online per second."/>
+        <string id="BdcOnline_Obj.BulkSpecificFindersPerSecond.name" value="BulkSpecificFinders per second"/>
+        <string id="BdcOnline_Obj.BulkSpecificFindersPerSecond.description" value="Number of BulkSpecificFinders executed online per second."/>
+        <string id="BdcOnline_Obj.BulkAssociatedIdEnumeratorsPerSecond.name" value="BulkAssociatedIdEnumerators per second"/>
+        <string id="BdcOnline_Obj.BulkAssociatedIdEnumeratorsPerSecond.description" value="Number of BulkAssociatedIdEnumerators executed online per second."/>
+        <string id="BdcOnline_Obj.BulkAssociationNavigatorsPerSecond.name" value="BulkAssociationNavigators per second"/>
+        <string id="BdcOnline_Obj.BulkAssociationNavigatorsPerSecond.description" value="Number of BulkAssociationNavigators executed online per second."/>
+        <string id="BdcOnline_Obj.BulkIdEnumeratorsPerSecond.name" value="BulkIdEnumerators per second"/>
+        <string id="BdcOnline_Obj.BulkIdEnumeratorsPerSecond.description" value="Number of BulkIdEnumerators executed online per second."/>
+        <string id="BdcOnline_Obj.TotalCallsPerSecond.name" value="Total calls per second"/>
+        <string id="BdcOnline_Obj.TotalCallsPerSecond.description" value="Total number of online calls executed online per second."/>
+        <string id="BdcOnline_Obj.OnlineFailures.name" value="Total calls failed"/>
+        <string id="BdcOnline_Obj.OnlineFailures.description" value="Total number of failed online calls"/>
+      </stringTable>
+    </resources>
+  </localization>
+</instrumentationManifest>
