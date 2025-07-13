@@ -1,0 +1,5 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<SoftwareIdentity tagId="msi:package/" name="Splunk Enterprise" version="9.2.1.0" versionScheme="multipartnumeric" xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd">
+  <Entity name="Splunk, Inc." regid="splunk.com" role="softwareCreator tagCreator" />
+  <Meta persistentId="msi:upgrade/9C8D0B7D-C4E6-41C5-94D8-1EA36B03ECE6" />
+</SoftwareIdentity>
