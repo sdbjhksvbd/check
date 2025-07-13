@@ -1,0 +1,15 @@
+<SmartAudioConfiguration>
+  <!-- Skin settings -->
+  <UseSkinTheme2>true</UseSkinTheme2>
+
+  <!-- Volume Page -->
+  <HardCodedEndpointNames>true</HardCodedEndpointNames>
+
+  <!-- Playback Experience -->
+  <HidePlaybackDropdown>false</HidePlaybackDropdown>
+
+  <!-- Advanced Settings -->
+  <SplitStreamingMode>7</SplitStreamingMode>
+
+  <IsHpAIO>true</IsHpAIO>
+</SmartAudioConfiguration>
