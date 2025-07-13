@@ -1,0 +1,11 @@
+<SmartAudioConfiguration>
+  <!-- Volume Page -->
+  <EnableHPLimiterMessage>true</EnableHPLimiterMessage>
+  <UseSkinTheme2ForSliders>true</UseSkinTheme2ForSliders>
+
+  <!-- Playback Experience -->
+  <DisableHeadphoneAudioEnhancements>true</DisableHeadphoneAudioEnhancements>
+  
+  <!-- Recording Experience -->
+  <ShowSspAsrOption>true</ShowSspAsrOption>
+</SmartAudioConfiguration>
