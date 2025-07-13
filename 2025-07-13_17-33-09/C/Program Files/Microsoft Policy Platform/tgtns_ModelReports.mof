@@ -1,0 +1,84 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for Policy Platform existence report class.  
+    
+    DEPENDENCIES: SchemaNamespaces.mof, Qualifiers.mof, Document.mof, Report.mof
+
+***************************************************************************************************/
+
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// classes
+
+
+// =================================================================================================
+//  PolicyPlatform_ModelInstance
+// =================================================================================================
+[ 
+  Description ("An encoding of an embedded instance as Namespace and CIM XML Instance."), 
+  DisplayName ("Model Instance"), 
+  Version ("1.0.0") 
+] 
+class PolicyPlatform_ModelInstance
+{
+    [ 
+      Description ("The namespace under which the instance resides."), 
+      DisplayName ("Namespace") 
+    ] 
+    string Namespace;
+    
+    [ 
+      Description ("The CIM XML encoded instance."), 
+      DisplayName ("Xml Instance") 
+    ] 
+    string XmlInstance;
+};
+
+// =================================================================================================
+//  PolicyPlatform_ModelReport
+// =================================================================================================
+[ 
+  Abstract, 
+  Description ("Report containing model instance information."), 
+  DisplayName ("Model Report"), 
+  Version ("1.0.0") 
+] 
+class PolicyPlatform_ModelReport : PolicyPlatform_Report
+{
+    [ 
+      Description ("Model instance collection."), 
+      DisplayName ("Instances") 
+    ] 
+    PolicyPlatform_ModelInstance Instances[];
+};
+
+
+// =================================================================================================
+//  PolicyPlatform_InventoryReport
+// =================================================================================================
+[ 
+  Description ("The Inventory Report contains an array of instances which have properties that are "
+  "being inventoried."), 
+  DisplayName ("Inventory Report"), 
+  Version ("1.0.0") 
+] 
+class PolicyPlatform_InventoryReport : PolicyPlatform_ModelReport
+{
+    [ 
+      Description ("Properties being inventoried are annotated with the Inventoried qualifier "
+      "when applicable."), 
+      DisplayName ("Inventoried Instances"),
+      Override("PolicyPlatform_ModelReport.Instances")
+    ] 
+    PolicyPlatform_ModelInstance Instances[];
+};
