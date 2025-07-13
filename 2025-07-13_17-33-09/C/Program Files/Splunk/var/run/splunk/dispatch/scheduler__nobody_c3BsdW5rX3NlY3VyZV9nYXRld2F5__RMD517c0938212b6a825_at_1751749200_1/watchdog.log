@@ -1,0 +1,5 @@
+07-06-2025 13:01:06.546 +0300 INFO  WatchdogActions - WatchdogActionsManager reload started.
+07-06-2025 13:01:06.552 +0300 INFO  Pstacks - GeneratePstacksAction is disabled.
+07-06-2025 13:01:06.552 +0300 WARN  WatchdogActions - Initialization failed for action=pstacks. Deleting.
+07-06-2025 13:01:06.554 +0300 INFO  Watchdog - Starting WatchdogThread for process pid=81824. Threads monitoring is enabled with default response timeout set to 8000 ms.
+07-06-2025 13:01:16.686 +0300 INFO  Watchdog - Stopping WatchdogThread.
