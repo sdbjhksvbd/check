@@ -1,0 +1,86 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for CIM document class
+
+    DEPENDENCIES: SchemaNamespaces.mof
+
+******************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// document identifier class
+
+[
+    Description("Policy platform document id"),
+    Version("1.0.0")
+]
+class PolicyPlatform_DocumentId
+{
+    [
+        Description("Naming authority that issued the document"),
+        Key
+    ]
+    string Authority;
+
+    [
+        Description("Name of the document and its unique identifier within the scope of the naming authority"),
+        Key
+    ]
+    string Name;
+
+    [
+        Description("Revision of the document"),
+        Key
+    ]
+    uint32 Revision;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// base document class
+
+[
+    Abstract,
+    Description("Policy platform document"),
+    ModelContext{"*"} : ToSubClass,
+    Version("1.0.0")
+    , Dynamic: ToInstance ToSubclass, Provider("PolicyPlatform_DocumentStore"): ToInstance ToSubclass
+]
+class PolicyPlatform_Document
+{
+    [
+        Description("Naming authority that issued the document"),
+        Key
+    ]
+    string Authority;
+
+    [
+        Description("Name of the document and its unique identifier within the scope of the naming authority"),
+        Key
+    ]
+    string Name;
+
+    [
+        Description("Revision of the document"),
+        Key
+    ]
+    uint32 Revision;
+
+    [
+        Description("Date the document was created"),
+        Not_null
+    ]
+    DATETIME CreationDate;
+
+    // TODO: add signature & define fields that it operates over.
+};
+
