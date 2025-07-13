@@ -1,0 +1,15 @@
+0	14	  9958	1751278022	1751278821	1751278822	
+1	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log	  3912	1751278022	1751278821	1751278822	
+2	source::C:\Program Files\Splunk\var\log\splunk\scheduler.log	 11	1751278080	1751278818	1751278820	
+3	source::C:\Program Files\Splunk\var\log\splunk\mongod.log	339	1751278072	1751278816	1751278817	
+4	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	  3478	1751278024	1751278793	1751278793	
+5	source::C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log	 46	1751278035	1751278044	1751278082	
+6	source::C:\Program Files\Splunk\var\log\splunk\health.log	461	1751278076	1751278796	1751278796	
+7	source::C:\Program Files\Splunk\var\log\splunk\conf.log	  1	1751278072	1751278072	1751278082	
+8	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log	694	1751278082	1751278807	1751278808	
+9	source::C:\Program Files\Splunk\var\log\splunk\python.log	362	1751278086	1751278809	1751278810	
+10	source::C:\Program Files\Splunk\var\log\splunk\web_service.log	    370	1751278086	1751278809	1751278810	
+11	source::C:\Program Files\Splunk\var\log\splunk\web_access.log	 76	1751278092	1751278770	1751278773	
+12	source::C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log	189	1751278092	1751278798	1751278799	
+13	source::C:\Program Files\Splunk\var\log\splunk\search_messages.log	  6	1751278132	1751278132	1751278132	
+14	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log.1	 13	1751278246	1751278246	1751278246	
