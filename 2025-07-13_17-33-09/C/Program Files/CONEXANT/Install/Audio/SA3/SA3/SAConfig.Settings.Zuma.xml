@@ -1,0 +1,5 @@
+<SmartAudioConfiguration>
+  <!-- Special settings -->
+  <SplitStreamingMode>7</SplitStreamingMode>
+  <DesktopGuiEnabled>true</DesktopGuiEnabled>
+</SmartAudioConfiguration>
