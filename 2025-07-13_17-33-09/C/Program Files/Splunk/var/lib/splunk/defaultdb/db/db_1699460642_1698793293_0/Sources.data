@@ -1,0 +1,9 @@
+0	8	109864	1698793293	1699460642	1700569857	
+1	source::tutorialdata.zip:.\www1/secure.log	 10593	1698793293	1699398093	1700569855	
+2	source::tutorialdata.zip:.\www1/access.log	 13628	1698855736	1699460456	1700569855	
+3	source::tutorialdata.zip:.\www3/secure.log	  9983	1698793294	1699398094	1700569855	
+4	source::tutorialdata.zip:.\www3/access.log	 12992	1698856068	1699459939	1700569856	
+5	source::tutorialdata.zip:.\vendor_sales/vendor_sales.log	 30244	1698855787	1699460642	1700569856	
+6	source::tutorialdata.zip:.\www2/secure.log	  9683	1698793295	1699398095	1700569857	
+7	source::tutorialdata.zip:.\www2/access.log	 12912	1698855871	1699460536	1700569857	
+8	source::tutorialdata.zip:.\mailsv/secure.log	  9829	1698793296	1699398096	1700569857	
