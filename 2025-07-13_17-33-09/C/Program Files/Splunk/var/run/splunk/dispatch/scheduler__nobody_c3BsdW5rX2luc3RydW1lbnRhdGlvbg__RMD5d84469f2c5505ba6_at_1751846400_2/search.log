@@ -1,0 +1,451 @@
+07-07-2025 03:00:01.291 INFO  dispatchRunner [0 MainThread] - Search process mode: freestanding (build 78803f08aabb).
+07-07-2025 03:00:01.291 INFO  dispatchRunner [0 MainThread] - initing LicenseMgr in search process: nonPro=1
+07-07-2025 03:00:01.291 INFO  LMStackMgr [0 MainThread] - Initializing CleMgr...
+07-07-2025 03:00:01.291 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr
+07-07-2025 03:00:01.291 INFO  ServerConfig [0 MainThread] - Found no hostname options in server.conf. Will attempt to use default for now.
+07-07-2025 03:00:01.291 INFO  ServerConfig [0 MainThread] - Host name option is "".
+07-07-2025 03:00:01.301 INFO  ServerConfig [0 MainThread] - TLS Sidecar disabled
+07-07-2025 03:00:01.301 WARN  SSLOptions [0 MainThread] - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+07-07-2025 03:00:01.301 WARN  SSLCommon [0 MainThread] - PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+07-07-2025 03:00:01.311 INFO  ServerConfig [0 MainThread] - SSL session cache path  enabled 0 session timeout on SSL server 300.000
+07-07-2025 03:00:01.311 INFO  ServerConfig [0 MainThread] - disableSSLShutdown=0
+07-07-2025 03:00:01.311 INFO  ServerConfig [0 MainThread] - Setting search process to have long life span: enable_search_process_long_lifespan=1
+07-07-2025 03:00:01.311 INFO  ServerConfig [0 MainThread] - enableTeleportSupervisor=0, scsEvironment=production
+07-07-2025 03:00:01.311 INFO  ServerConfig [0 MainThread] - certificateStatusValidationMethod is not set, defaulting to none.
+07-07-2025 03:00:01.311 INFO  ServerConfig [0 MainThread] - Splunk is starting with EC-SSC disabled
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - serverName=BEER-PC01 guid=D59BE72C-130E-4AB5-91DF-EC18452C6179
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - connection_timeout=30
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - send_timeout=30
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - receive_timeout=30
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - squash_threshold=2000
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - strict_pool_quota=1
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - lm_ping_interval=86400
+07-07-2025 03:00:01.311 INFO  LMConfig [0 MainThread] - key=lm_uri not found in licenser stanza of server.conf, defaulting to empty array
+07-07-2025 03:00:01.311 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr runContext_splunkd=false
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - closing stack mgr
+07-07-2025 03:00:01.311 INFO  LMSlaveInfo [0 MainThread] - all slaves cleared
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - Initalized license_warnings_update_interval=auto
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - License Manager supports Conditional Licensing Enforcement. For baked in CLE policies, window_period=60 days, max_violations=45, for stack size below 107374182400 bytes
+07-07-2025 03:00:01.311 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for free
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - Added policy WinSz=30 Warnings=3 MaxSize=0 isDefault=1 features= for free
+07-07-2025 03:00:01.311 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for forwarder
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for forwarder
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - Skipping trial license as alternative license type in use
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - Skipping trial pool stanza as alternative license in use
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_forwarder to stack forwarder
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_free to stack free
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - Initialized hideQuotaWarning = "0"
+07-07-2025 03:00:01.311 INFO  LMStackMgr [0 MainThread] - init completed [D59BE72C-130E-4AB5-91DF-EC18452C6179,Free,runContext_splunkd=false]
+07-07-2025 03:00:01.311 INFO  LicenseMgr [0 MainThread] - StackMgr init complete...
+07-07-2025 03:00:01.311 INFO  LMTracker [0 MainThread] - Setting default product type='enterprise'
+07-07-2025 03:00:01.311 INFO  LMTracker [0 MainThread] - this is not splunkd, will perform partial init
+07-07-2025 03:00:01.311 INFO  LicenseMgr [0 MainThread] - Tracker init complete...
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenses'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'pools'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'stacks'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'groups'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'slaves'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'peers'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'localslave'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'localpeer'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licensermessages'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'scriptedwarning'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenseusage'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'managers'
+07-07-2025 03:00:01.321 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - serverName=BEER-PC01 guid=D59BE72C-130E-4AB5-91DF-EC18452C6179
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - connection_timeout=30
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - send_timeout=30
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - receive_timeout=30
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - squash_threshold=2000
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - strict_pool_quota=1
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - lm_ping_interval=86400
+07-07-2025 03:00:01.321 INFO  LMConfig [0 MainThread] - key=lm_uri not found in licenser stanza of server.conf, defaulting to empty array
+07-07-2025 03:00:01.321 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr runContext_splunkd=false
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - closing stack mgr
+07-07-2025 03:00:01.321 INFO  LMSlaveInfo [0 MainThread] - all slaves cleared
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - Initalized license_warnings_update_interval=auto
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - License Manager supports Conditional Licensing Enforcement. For baked in CLE policies, window_period=60 days, max_violations=45, for stack size below 107374182400 bytes
+07-07-2025 03:00:01.321 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for free
+07-07-2025 03:00:01.321 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for forwarder
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - Skipping trial license as alternative license type in use
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - Skipping trial pool stanza as alternative license in use
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_forwarder to stack forwarder
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_free to stack free
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - Initialized hideQuotaWarning = "0"
+07-07-2025 03:00:01.321 INFO  LMStackMgr [0 MainThread] - init completed [D59BE72C-130E-4AB5-91DF-EC18452C6179,Free,runContext_splunkd=false]
+07-07-2025 03:00:01.321 INFO  LicenseMgr [0 MainThread] - StackMgr init complete...
+07-07-2025 03:00:01.321 INFO  LMTracker [0 MainThread] - Setting default product type='enterprise'
+07-07-2025 03:00:01.321 INFO  LMTracker [0 MainThread] - this is not splunkd, will perform partial init
+07-07-2025 03:00:01.321 INFO  LicenseMgr [0 MainThread] - Tracker init complete...
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenses'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'pools'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'stacks'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'groups'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'slaves'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'peers'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'localslave'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'localpeer'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licensermessages'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'scriptedwarning'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenseusage'
+07-07-2025 03:00:01.321 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'managers'
+07-07-2025 03:00:01.321 INFO  dispatchRunner [0 MainThread] - Per-process handle limit is 512
+07-07-2025 03:00:01.321 INFO  dispatchRunner [0 MainThread] - Increasing per-process handle limit from '512' to '2048'
+07-07-2025 03:00:01.321 INFO  dispatchRunner [0 MainThread] - Successfully increased per-process handle limit from '512' to '2048'
+07-07-2025 03:00:01.321 INFO  dispatchRunner [0 MainThread] - registering build time modules, count=1
+07-07-2025 03:00:01.321 INFO  dispatchRunner [0 MainThread] - registering search time components of build time module name=vix
+07-07-2025 03:00:01.321 INFO  dispatchRunner [0 MainThread] - Getting search configuration data from: C:\Program Files\Splunk\etc\modules\parsing\config.xml
+07-07-2025 03:00:01.321 WARN  SSLOptions [0 MainThread] - server.conf/[kvstore]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+07-07-2025 03:00:01.321 WARN  KVStoreConfigurationProvider [0 MainThread] - KV Store is not available. Its status is 'failed'.
+07-07-2025 03:00:01.321 INFO  BundlesSetup [0 MainThread] - Setup stats for C:\Program Files\Splunk\etc: wallclock_elapsed_msec=62, cpu_time_used=0.0625, shared_services_generation=1, shared_services_population=1
+07-07-2025 03:00:01.321 INFO  PipelineComponent [0 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Setting user context: splunk-system-user
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Free version does not have user services
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Setting user context: admin
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Free version does not have user services
+07-07-2025 03:00:01.331 INFO  UserManager [122380 RunDispatch] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.331 INFO  dispatchRunner [122380 RunDispatch] - search context: user="admin", app="splunk_instrumentation", bs-pathname="C:\Program Files\Splunk\etc"
+07-07-2025 03:00:01.346 INFO  SearchParser [122380 RunDispatch] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+07-07-2025 03:00:01.346 INFO  StatsContext [122380 RunDispatch] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.346 INFO  StatsContext [122380 RunDispatch] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.346 INFO  StatsContext [122380 RunDispatch] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.346 INFO  StatsContext [122380 RunDispatch] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.346 INFO  dispatchRunner [122380 RunDispatch] - Search running in non-clustered mode
+07-07-2025 03:00:01.346 INFO  dispatchRunner [122380 RunDispatch] - SearchHeadInitSearchMs=16
+07-07-2025 03:00:01.346 INFO  dispatchRunner [122380 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+07-07-2025 03:00:01.354 INFO  SearchOrchestrator [122380 RunDispatch] - SearchOrchestrator is constructed.  sid=scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5d84469f2c5505ba6_at_1751846400_2, eval_only=0
+07-07-2025 03:00:01.354 INFO  SearchOrchestrator [122380 RunDispatch] -  Initialized the SRI
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Initializing feature flags from config. feature_seed=3570856522
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=search:search_retry:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=subsearch:concurrent_pipeline_adhoc:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=append:support_multiple_data_sources:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=join:support_multiple_data_sources:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=search:fetch_remote_search_telemetry:true
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=testing:boolean_flag:false
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=testing:percent_flag:true
+07-07-2025 03:00:01.354 INFO  SearchFeatureFlags [122380 RunDispatch] - Setting feature_flag=testing:legacy_flag:true
+07-07-2025 03:00:01.354 INFO  SearchOrchestrator [122380 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","search:read_final_results_from_timeliner","search:fetch_remote_search_telemetry","testing:percent_flag","testing:legacy_flag"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","subsearch:concurrent_pipeline_adhoc","append:support_multiple_data_sources","join:support_multiple_data_sources","search_optimization::set_required_fields:stats","searchresults:srs2","testing:boolean_flag"]}
+07-07-2025 03:00:01.354 INFO  ISplunkDispatch [122380 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+07-07-2025 03:00:01.362 INFO  SearchOrchestrator [86108 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+07-07-2025 03:00:01.362 INFO  UserManager [86108 searchOrchestrator] - Setting user context: admin
+07-07-2025 03:00:01.362 INFO  UserManager [86108 searchOrchestrator] - Free version does not have user services
+07-07-2025 03:00:01.362 INFO  UserManager [86108 searchOrchestrator] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.362 INFO  AdaptiveSearchEngineSelector [86108 searchOrchestrator] - Search execution_plan=classic
+07-07-2025 03:00:01.362 INFO  SearchOrchestrator [86108 searchOrchestrator] - Creating the search DAG.
+07-07-2025 03:00:01.362 INFO  SearchParser [86108 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+07-07-2025 03:00:01.362 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.362 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.362 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.362 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.372 INFO  DispatchStorageManagerInfo [86108 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=5ec007b84042bb97_tmp dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\5ec007b84042bb97_tmp
+07-07-2025 03:00:01.372 INFO  SearchOperator:rest [86108 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.372 INFO  SearchParser [86108 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+07-07-2025 03:00:01.372 INFO  SearchOperator:rest [86108 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.378 INFO  SearchParser [86108 searchOrchestrator] - PARSING: eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)
+07-07-2025 03:00:01.378 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+07-07-2025 03:00:01.378 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.382 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+07-07-2025 03:00:01.382 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+07-07-2025 03:00:01.382 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+07-07-2025 03:00:01.382 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.382 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+07-07-2025 03:00:01.382 INFO  DispatchThread [86108 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+07-07-2025 03:00:01.382 INFO  DispatchThread [86108 searchOrchestrator] - required fields list to add to remote search = *
+07-07-2025 03:00:01.382 INFO  DispatchCommandProcessor [86108 searchOrchestrator] - summaryHash=586dfedf3bf75687 summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_586dfedf3bf75687 remoteSearch=prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+07-07-2025 03:00:01.382 INFO  DispatchCommandProcessor [86108 searchOrchestrator] - summaryHash=NS528bb1d21cb1a38f summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NS528bb1d21cb1a38f remoteSearch=prerest splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+07-07-2025 03:00:01.382 INFO  DispatchThread [86108 searchOrchestrator] - Getting summary ID for summaryHash=NS528bb1d21cb1a38f
+07-07-2025 03:00:01.423 INFO  DispatchThread [86108 searchOrchestrator] - Did not find a usable summary_id, setting info._summary_mode=none, not modifying input summary_id=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NS528bb1d21cb1a38f
+07-07-2025 03:00:01.426 INFO  SearchParser [86108 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/health-config | eval thresh="" | foreach indicator*red,indicator*yellow [eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)] | eval thresh=rtrim(thresh, ","), enabled=if(disabled=='' or disabled==0 or isnull(disabled), 1,0) | eval feature="\""+title+"\":{\"threshold\": {"+thresh+"}, \"enabled\": \""+enabled+"\"}", distinct=if(like(title, "feature%"), "feature", "alert") | eval disable=coalesce('alert.disabled', disabled), action=coalesce('alert.actions','action.to','action.url', 'action.integration_url_override') | eval action=if(action=="" or isnull(action), "empty", action) | eval alert="\""+title+"\": {\"disabled\": \""+disable+"\", \"action/ action.to/ action.url/ action.integration_url_override\": \""+action+"\"}" | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList, ","), feaCombined=mvjoin(feaList, ",") | eval alertCombined="\"alert\":{"+alertCombined+"}" | eval feaCombined=if(distinct=="alert", null, feaCombined), alertCombined=if(distinct=="feature", null, alertCombined) | eval dataCombined=coalesce(alertCombined, feaCombined) | stats list(dataCombined) AS dataList| eval data=mvjoin(dataList, ",") | eval data="{"+data+"}",_time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  SearchOperator:rest [86108 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.426 INFO  SearchParser [86108 searchOrchestrator] - PARSING: eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.426 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+07-07-2025 03:00:01.426 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.426 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+07-07-2025 03:00:01.426 INFO  AstOptimizer [86108 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  SearchParser [86108 searchOrchestrator] - PARSING:  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [ eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh) ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  SearchParser [86108 searchOrchestrator] - PARSING:  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [ eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh) ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.426 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.426 INFO  SearchOperator:rest [86108 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.426 INFO  SearchParser [86108 searchOrchestrator] - PARSING:  eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh) 
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.426 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+07-07-2025 03:00:01.426 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+07-07-2025 03:00:01.426 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.426 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+07-07-2025 03:00:01.426 INFO  AstOptimizer [86108 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000
+07-07-2025 03:00:01.430 INFO  FederatedInfo [86108 searchOrchestrator] - No federated search providers defined.
+07-07-2025 03:00:01.430 INFO  AstOptimizer [86108 searchOrchestrator] - Will only run the following branching command specific optimizations=[replace_append_with_union merge_union]
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.430 INFO  AstOptimizer [86108 searchOrchestrator] - Branch optimization had no effect
+07-07-2025 03:00:01.430 INFO  AstOptimizer [86108 searchOrchestrator] - SrchOptMetrics optimization=0.016
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.430 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.430 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Optimized Search = | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+07-07-2025 03:00:01.430 INFO  ScopedTimer [86108 searchOrchestrator] - search.optimize 0.016
+07-07-2025 03:00:01.430 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Data federation is enabled
+07-07-2025 03:00:01.430 INFO  FederatedProviderVisitor [86108 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+07-07-2025 03:00:01.430 INFO  FederatedProviderVisitor [86108 searchOrchestrator] - Command not safe for remote execution, command=rest
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Number of involved federated deployments is 0.
+07-07-2025 03:00:01.530 ERROR ParallelReducePolicy [86108 searchOrchestrator] - Invalid distribute environment setup
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.530 INFO  PhaseToPipelineVisitor [86108 searchOrchestrator] - Phase Search =  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+07-07-2025 03:00:01.530 INFO  SearchParser [86108 searchOrchestrator] - PARSING:  | rest "/services/server/health-config" splunk_server=local | eval thresh="" | foreach "indicator*red" "indicator*yellow" fieldstr=<<FIELD>> matchstr=<<MATCHSTR>> matchseg1=<<MATCHSEG1>> matchseg2=<<MATCHSEG2>> matchseg3=<<MATCHSEG3>> [  eval thresh =if('<<FIELD>>'!="", thresh+"\"<<FIELD>>\":" + '<<FIELD>>' + ",", thresh)  ] | eval thresh=rtrim(thresh,","), enabled=if((((disabled == '') OR (disabled == 0)) OR isnull(disabled)),1,0) | eval feature=(((((("\"" + title) + "\":{\"threshold\": {") + thresh) + "}, \"enabled\": \"") + enabled) + "\"}"), distinct=if(like(title,"feature%"),"feature","alert") | eval disable=coalesce('alert.disabled',disabled), action=coalesce('alert.actions','action.to','action.url','action.integration_url_override') | eval action=if(((action == "") OR isnull(action)),"empty",action) | eval alert=(((((("\"" + title) + "\": {\"disabled\": \"") + disable) + "\", \"action/ action.to/ action.url/ action.integration_url_override\": \"") + action) + "\"}") | stats list(alert) AS alertList, list(feature) AS feaList by distinct | eval alertCombined=mvjoin(alertList,","), feaCombined=mvjoin(feaList,",") | eval alertCombined=(("\"alert\":{" + alertCombined) + "}") | eval feaCombined=if((distinct == "alert"),null,feaCombined), alertCombined=if((distinct == "feature"),null,alertCombined) | eval dataCombined=coalesce(alertCombined,feaCombined) | stats list(dataCombined) AS dataList | eval data=mvjoin(dataList,",") | eval data=(("{" + data) + "}"), _time=now(), date=strftime('_time',"%Y-%m-%d") | fields + data, _time, date
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.530 INFO  StatsContext [86108 searchOrchestrator] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.530 INFO  SearchOperator:rest [86108 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.530 INFO  SearchParser [86108 searchOrchestrator] - PARSING:   eval thresh =if('field'!="", thresh+"\"field\":" + 'field' + ",", thresh)  
+07-07-2025 03:00:01.530 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(alert), AS, alertList, list(feature), AS, feaList, by, distinct
+07-07-2025 03:00:01.530 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.530 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=alert, alias=alertList
+07-07-2025 03:00:01.530 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=feature, alias=feaList
+07-07-2025 03:00:01.530 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsV2 (stats) args: list(dataCombined), AS, dataList
+07-07-2025 03:00:01.530 INFO  StatsProcessorV2 [86108 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.530 INFO  StatsAggregations [86108 searchOrchestrator] - Instantiating Stats function list for key=dataCombined, alias=dataList
+07-07-2025 03:00:01.530 INFO  SearchPipeline [86108 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+07-07-2025 03:00:01.530 INFO  SearchParser [86108 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+07-07-2025 03:00:01.530 INFO  SearchOperator:rest [86108 searchOrchestrator] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Disabling timeliner since source is not an event index
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Disabling timeliner since event search is empty
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - No need for RTWindowProcessor
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Timeliner will not be executed
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - required fields list to add to different pipelines = *
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Adding noop to provide result collation at search head
+07-07-2025 03:00:01.530 INFO  SearchParser [86108 searchOrchestrator] - PARSING: noop
+07-07-2025 03:00:01.530 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Search Phases created.
+07-07-2025 03:00:01.536 INFO  SearchOrchestrator [86108 searchOrchestrator] - Preview is not enabled. (preview_algorithm=NONE)
+07-07-2025 03:00:01.539 INFO  UserManager [86108 searchOrchestrator] - Setting user context: admin
+07-07-2025 03:00:01.539 INFO  UserManager [86108 searchOrchestrator] - Free version does not have user services
+07-07-2025 03:00:01.539 INFO  UserManager [86108 searchOrchestrator] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.539 INFO  UserManager [86108 searchOrchestrator] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.539 INFO  DistributedSearchResultCollectionManager [86108 searchOrchestrator] - Stream search: prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+07-07-2025 03:00:01.539 INFO  ExternalResultProvider [86108 searchOrchestrator] - No external result providers are configured
+07-07-2025 03:00:01.539 INFO  DistributedSearchResultCollectionManager [86108 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+07-07-2025 03:00:01.541 INFO  DistributedSearchResultCollectionManager [86108 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+07-07-2025 03:00:01.541 INFO  DistributedSearchResultCollectionManager [86108 searchOrchestrator] - Creating result collector for local peer.
+07-07-2025 03:00:01.541 INFO  DistributedSearchResultCollectionManager [86108 searchOrchestrator] - Successfully created search result collector for localpeer=%sBEER-PC01 in 0.000 seconds
+07-07-2025 03:00:01.543 INFO  SearchPhaseGenerator [86108 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.016 seconds.
+07-07-2025 03:00:01.543 INFO  UserManager [124612 SearchResultExecutorThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [124612 SearchResultExecutorThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [124612 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.543 INFO  UserManager [124204 SearchResultExecutorThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [124204 SearchResultExecutorThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [124204 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.543 INFO  SearchOrchestrator [86108 searchOrchestrator] - Starting the status control thread.
+07-07-2025 03:00:01.543 INFO  SearchOrchestrator [86108 searchOrchestrator] - Starting phase=1
+07-07-2025 03:00:01.543 INFO  UserManager [123740 StatusEnforcerThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [123740 StatusEnforcerThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [123740 StatusEnforcerThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.543 INFO  UserManager [115856 SearchResultExecutorThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [115856 SearchResultExecutorThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [115856 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.543 INFO  SearchStatusEnforcer [123740 StatusEnforcerThread] - Enforcing disk quota = 0
+07-07-2025 03:00:01.543 INFO  UserManager [111052 SearchResultExecutorThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [111052 SearchResultExecutorThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [111052 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.543 INFO  UserManager [124916 SearchResultExecutorThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [124916 SearchResultExecutorThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [124916 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.543 INFO  UserManager [124716 localCollectorThread] - Setting user context: admin
+07-07-2025 03:00:01.543 INFO  UserManager [124716 localCollectorThread] - Free version does not have user services
+07-07-2025 03:00:01.543 INFO  UserManager [124716 localCollectorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.545 INFO  SearchParser [124716 localCollectorThread] - PARSING: prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/health-config?count=0"
+07-07-2025 03:00:01.545 INFO  SearchOperator:rest [124716 localCollectorThread] - built uri=/services/server/health-config?count=0, server=https://127.0.0.1:8088
+07-07-2025 03:00:01.545 INFO  LocalCollector [124716 localCollectorThread] - Final required fields list = *
+07-07-2025 03:00:01.545 INFO  UserManager [124716 localCollectorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.545 INFO  UserManager [112728 phase_1] - Setting user context: admin
+07-07-2025 03:00:01.545 INFO  UserManager [112728 phase_1] - Free version does not have user services
+07-07-2025 03:00:01.545 INFO  UserManager [124716 localCollectorThread] - Setting user context: admin
+07-07-2025 03:00:01.545 INFO  UserManager [124716 localCollectorThread] - Free version does not have user services
+07-07-2025 03:00:01.545 INFO  UserManager [112728 phase_1] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.545 INFO  UserManager [124716 localCollectorThread] - Done setting user context: NULL -> NULL
+07-07-2025 03:00:01.545 INFO  ReducePhaseExecutor [112728 phase_1] - Starting phase_1
+07-07-2025 03:00:01.545 INFO  SearchOperator:rest [124716 localCollectorThread] - in RestProcessor::execute
+07-07-2025 03:00:01.545 INFO  ProxyConfig [124716 localCollectorThread] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+07-07-2025 03:00:01.545 INFO  ProxyConfig [124716 localCollectorThread] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+07-07-2025 03:00:01.545 INFO  ProxyConfig [124716 localCollectorThread] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+07-07-2025 03:00:01.545 INFO  ProxyConfig [124716 localCollectorThread] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+07-07-2025 03:00:01.577 INFO  UserManager [124716 localCollectorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.577 INFO  UserManager [124916 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.577 INFO  UserManager [111052 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.577 INFO  UserManager [115856 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.577 INFO  UserManager [124204 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.577 INFO  UserManager [124612 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.577 INFO  ResultsCollationProcessor [112728 phase_1] - Writing remote_event_providers.csv to disk
+07-07-2025 03:00:01.606 INFO  ReducePhaseExecutor [112728 phase_1] - Not downloading remote search.log files.  Reason: Remote log download is currently disabled.
+07-07-2025 03:00:01.606 INFO  ReducePhaseExecutor [112728 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+07-07-2025 03:00:01.606 INFO  ReducePhaseExecutor [112728 phase_1] - Ending phase_1
+07-07-2025 03:00:01.606 INFO  UserManager [112728 phase_1] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.684 INFO  SearchParser [123740 StatusEnforcerThread] - PARSING: stats count AS query| search query > 0
+07-07-2025 03:00:01.684 INFO  StatsContext [123740 StatusEnforcerThread] -  Setting chunk size min=65536 max=4194304 double_every=100
+07-07-2025 03:00:01.684 INFO  StatsContext [123740 StatusEnforcerThread] -  Setting max memory usage to 209715200
+07-07-2025 03:00:01.684 INFO  StatsProcessorV2 [123740 StatusEnforcerThread] - StatsV2 (stats) args: count, AS, query
+07-07-2025 03:00:01.684 INFO  StatsProcessorV2 [123740 StatusEnforcerThread] - StatsProcessorV2::processArguments: Unaligned accesses are free
+07-07-2025 03:00:01.684 INFO  StatsAggregations [123740 StatusEnforcerThread] - Instantiating Stats function group_count for key=, alias=query
+07-07-2025 03:00:01.687 INFO  UnifiedSearch [123740 StatusEnforcerThread] - Processed search targeting arguments
+07-07-2025 03:00:01.748 INFO  SearchStatusEnforcer [123740 StatusEnforcerThread] - Triggered listener notification on state=onResults, condition=stats count AS query| search query > 0, conditionMet=1, listener URI=https://127.0.0.1:8088/servicesNS/nobody/splunk_instrumentation/saved/searches/instrumentation.usage.healthMonitor.report/notify
+07-07-2025 03:00:01.748 INFO  UserManager [123740 StatusEnforcerThread] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.748 INFO  DispatchManager [86108 searchOrchestrator] - Search history storage sets to csv
+07-07-2025 03:00:01.748 INFO  Metrics [86108 searchOrchestrator] - Will log metrics_module=search_health_metrics:Compute_Search_Quota at metrics_interval=60.
+07-07-2025 03:00:01.748 INFO  Metrics [86108 searchOrchestrator] - Will log metrics_module=search_concurrency:Search_Queue_Metrics at metrics_interval=30.
+07-07-2025 03:00:01.748 INFO  Metrics [86108 searchOrchestrator] - Will log metrics_module=search_concurrency at metrics_interval=30.
+07-07-2025 03:00:01.748 INFO  Metrics [86108 searchOrchestrator] - Will log metrics_module=realtime_search_data at metrics_interval=60.
+07-07-2025 03:00:01.748 INFO  Metrics [86108 searchOrchestrator] - Will log metrics_module=search_health_metrics:Search_History_Metrics at metrics_interval=60.
+07-07-2025 03:00:01.748 INFO  DispatchManager [86108 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5d84469f2c5505ba6_at_1751846400_2', username='admin')
+07-07-2025 03:00:01.748 INFO  UserManager [86108 searchOrchestrator] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.748 INFO  SearchOrchestrator [122380 RunDispatch] - SearchOrchestrator is destructed.  sid=scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5d84469f2c5505ba6_at_1751846400_2, eval_only=0
+07-07-2025 03:00:01.757 INFO  SearchStatusEnforcer [122380 RunDispatch] - SearchStatusEnforcer is already terminated
+07-07-2025 03:00:01.757 INFO  UserManager [122380 RunDispatch] - Unwound user context: NULL -> NULL
+07-07-2025 03:00:01.757 INFO  LookupDataProvider [122380 RunDispatch] - Clearing out lookup shared provider map
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - Shutting down splunkd
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Begin"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_NoahHealthReport"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_FileIntegrityChecker"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Orchestrator"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_JustBeforeKVStore"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_KVStore"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_DFM"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Thruput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_FederatedHeartBeat"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_TcpInput1"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_ExecSendInitialSigterm"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_TcpOutput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_UdpInput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_FifoInput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RemoteQueueInput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_WinEventLogInput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_HttpInput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_HttpInputQueue"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SelfStorageArchiver"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_BucketMergeWorker"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Scheduler"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_AuditExecutor"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SyslogOutput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_ArchiveAndOneshot"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Exec"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Tailing"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_shutdownNoahSearchPeerThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_IdataDO_Collector"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_PeerManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_CascadingReplicationManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_AuditTrailManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_AuditTrailQueueServiceThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_FSChangeMonitor"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_FSChangeManagerProcessor"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_DeploymentClient"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_HttpClientPollingThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_AsyncQueuedMessageDispatcherThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_PersistentScript"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="shutdownlevel_rfsOutput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="shutdownlevel_rfsOutputWorkerManager_S3"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="shutdownlevel_rfsOutputWorkerManager_Local"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RemoteQueueOutput"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_OfflineFlusher"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RemoteQueueOutputWorker"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RollAndUploadHotBuckets"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_MainThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down name="ProcessRunner"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Slave"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SlaveHBThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_CMExecutors"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_HTTPDispatchThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_CacheManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_HotBucketTasks"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SlaveSearch"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Deployer"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Captain"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Select"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_TcpOutput2"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_NoahHeartbeat"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_IndexerService"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Database1"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_LastIndexerLevel"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_IndexerExecutor"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_EloopRunner"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_AWSMetering"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SplunkConfigChangeWatcherThread"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_TcpInput2"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_TcpListener"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RemoteQueueInputWorker"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RemoteQueue"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RemoteFileSystem"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_LocalFileSystem"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_GoogleCloudStorage"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SearchDispatch"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down name="SearchProcessRunner"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_RendezvousHeartbeat"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_CatalogBackedConfSingleton"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_WorkloadManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_LoadUsers"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_GetSAMLUsers"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_SAMLExecutor"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Pipeline"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_MetricsManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down name="MetricsManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Queue"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_CallbackRunner"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down name="CallbackRunner"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_HttpClient"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down name="HttpClient"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_DmcProxyHttpClient"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_Duo2FAHttpClient"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - shutting down level="ShutdownLevel_S3ConnectionPoolManager"
+07-07-2025 03:00:01.774 INFO  Shutdown [90572 Shutdown] - Shutdown complete in 0 microseconds
+07-07-2025 03:00:01.778 INFO  HealthReporter [119752 MainThread] - Loaded latency_tracker_log_interval with value=30 from stanza=health_reporter
+07-07-2025 03:00:01.778 INFO  HealthReporter [119752 MainThread] - Loaded aggregate_ingestion_latency_health with value=1 from stanza=health_reporter
+07-07-2025 03:00:01.778 INFO  HealthReporter [119752 MainThread] - aggregate_ingestion_latency_health with value=1 from stanza=health_reporter will enable the aggregation of ingestion latency health reporter.
+07-07-2025 03:00:01.778 INFO  HealthReporter [119752 MainThread] - Loaded ingestion_latency_send_interval_max with value=86400 from stanza=health_reporter
+07-07-2025 03:00:01.778 INFO  HealthReporter [119752 MainThread] - Loaded ingestion_latency_send_interval with value=30 from stanza=health_reporter
+07-07-2025 03:00:01.778 INFO  dispatchRunner [119752 MainThread] - RunDispatch is done: sid=scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5d84469f2c5505ba6_at_1751846400_2, exit=0
