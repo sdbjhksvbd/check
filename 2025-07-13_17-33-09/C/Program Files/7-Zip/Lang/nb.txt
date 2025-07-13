@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  4.45 : Jostein Christoffer Andersen
+;       : Kjetil Hjartnes
+;       : Robert GrÃ¸nning
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Norwegian Bokmal
+Norsk BokmÃ¥l
+401
+OK
+Avbryt
+
+
+
+&Ja
+&Nei
+&Lukk
+Hjelp
+
+&Fortsett
+440
+Ja til &alt
+Nei til a&lt
+Stopp
+Start pÃ¥ nytt
+&Bakgrunn
+&Forgrunn
+&Stopp
+Stoppet
+Vil du avbryte?
+500
+&Fil
+&Rediger
+&Vis
+&Bokmerker
+Verk&tÃ¸y
+&Hjelp
+540
+&Ã…pne
+Ã…pne &internt
+Ã…pne &eksternt
+&Vis
+&Rediger
+Gi nytt &navn
+&Kopier til â€¦
+&Flytt til â€¦
+S&lett
+&Del opp arkiv â€¦
+&Sett sammen arkiv â€¦
+E&genskaper
+&Kommentar â€¦
+Beregn sjekksum
+
+Ny &mappe â€¦
+Ny f&il â€¦
+&Avslutt
+600
+Merk &alle
+Merk i&ngen
+Merk &omvendt
+Merk â€¦
+Merk &ikke â€¦
+Merk &valgt type
+Merk i&kke valgt type
+700
+&Store ikoner
+S&mÃ¥ ikoner
+&Liste
+&Detaljer
+730
+Usortert
+&Flat visning
+&To felt
+&VerktÃ¸ylinjer
+Rotmappe
+GÃ¥ opp et nivÃ¥
+Mappelogg â€¦
+&Oppdater
+750
+ArkivverktÃ¸ylinje
+StandardverktÃ¸ylinje
+Store knapper
+Knappetekst
+800
+&Bokmerk denne mappen som
+Bokmerke
+900
+&Innstillinger â€¦
+&YteprÃ¸ve â€¦
+960
+&Innhold
+&Om 7-Zip
+1003
+Plassering
+Navn
+Filetternavn
+Mappe
+StÃ¸rrelse
+Komprimert stÃ¸rrelse
+Attributter
+Opprettet
+Ã…pnet
+Endret
+Kompakt
+Kommentert
+Kryptert
+Oppdeling fÃ¸r
+Oppdeling etter
+Ordbok
+CRC
+Type
+Anti
+Metode
+Vert-OS
+Filsystem
+Bruker
+Gruppe
+Blokk
+Kommentar
+Posisjon
+Stiprefiks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feil
+Total plass
+Ledig plass
+SektorgruppestÃ¸rrelse
+Etikett
+Lokalt navn
+Forsyner
+2100
+Innstillinger
+SprÃ¥k
+SprÃ¥k:
+Redigering
+&Redigeringsprogram:
+
+2200
+System
+Assosier 7-Zip med:
+2301
+Integrer 7-Zip i programmenyen
+Forgrenet programmeny
+Valg i programmenyen:
+2320
+<mappe>
+<arkiv>
+Ã…pne arkiv
+Pakk ut â€¦
+Legg til arkiv â€¦
+Test arkiv
+Pakk ut internt
+Pakk ut til {0}
+Legg til {0}
+Komprimer og send med e-post â€¦
+Komprimer til {0} og send med e-post
+2400
+Mapper
+&Arbeidsmappe
+Systemets &midlertidige mappe
+&NÃ¥vÃ¦rende
+&Egendefinert:
+Kun for flyttbare stasjoner
+Angi plassering for midlertidige filer.
+2500
+Innstillinger
+Vis element for Ã¥ gÃ¥ opp et &nivÃ¥
+Vis egentlige fil&ikoner
+Vis system&meny
+Merk &hele rader
+Vis &rutenett
+
+&Alternativ merking
+Bruk &store minnesider
+2900
+Om 7-Zip
+7-Zip er gratis programvare.
+3000
+
+Fant ingen feil.
+{0} element(er) merket
+Klarte ikke opprette mappen Â«{0}Â»
+Oppdateringsfunksjoner stÃ¸ttes ikke for dette arkivet.
+Kan ikke Ã¥pne filen Â«{0}Â» som arkiv
+Kan ikke Ã¥pne det krypterte arkivet Â«{0}Â». Sjekk at du har riktig passord.
+
+
+Filen Â«{0}Â» har blitt endret.\nVil du oppdatere den i arkivet?
+Klarte ikke oppdatere filen\nÂ«{0}Â»
+Klarte ikke starte redigeringsprogram.
+
+
+
+
+For mange elementer
+3300
+Pakker ut
+Komprimerer
+Testing
+Ã…pner â€¦
+Skanner â€¦
+3400
+Pakk ut
+&Pakk ut til:
+Angi plassering for filer som skal pakkes ut.
+3410
+Filstier
+Fullstendige filstier
+Ingen filstier
+3420
+Overskrivelse
+Bekreft fÃ¸r overskrivelse
+Overskriv uten bekreftelse
+Hopp over filer som finnes allerede
+Navngi nye filer automatisk
+Navngi filer som finnes automatisk
+3500
+Bekreft filoverskrivelse
+Den behandlede filen finnes i mÃ¥lmappen allerede.
+Vil du overskrive filen
+med denne?
+{0} byte
+Navngi a&utomatisk
+3700
+Komprimeringsmetoden stÃ¸ttes ikke for Â«{0}Â».
+Datafeil i Â«{0}Â». Filen er Ã¸delagt.
+CRC-feil i Â«{0}Â». Filen er Ã¸delagt.
+Datafeil i den krypterte filen Â«{0}Â». Sjekk at du har riktig passord.
+CRC feilet i den krypterte filen Â«{0}Â». Sjekk at du har riktig passord.
+3800
+Angi passord
+Angi passord:
+Bekreft passord:
+&Vis passord
+Passordene er ikke like
+Du kan bare bruke engelske bokstaver, tall eller spesialtegn (!, #, $, â€¦) i passordet
+Passordet er for langt
+Passord
+3900
+Tidsforbruk:
+GjenvÃ¦rende tid:
+StÃ¸rrelse:
+Hastighet:
+
+
+Feilet:
+
+4000
+Legg til arkiv
+Filn&avn:
+&Oppdateringsmetode:
+&Format:
+Komprimerings&nivÃ¥:
+Komprimerings&metode:
+Ord&bokstÃ¸rrelse:
+&OrdstÃ¸rrelse:
+Solid blokk stÃ¸rrelse:
+Antall CPU trÃ¥der:
+&Parametre:
+&Innstillinger
+Selvutpakkende arkiv (Â«SF&XÂ»)
+
+Kryptering
+Krypteringsmetode:
+Kr&ypter filnavn
+Minnebruk ved komprimering:
+Minnebruk ved dekomprimering:
+4050
+Ukomprimert
+Raskest
+Rask
+Normal
+Maksimum
+Ultra
+4060
+Legg til og overskriv filer
+Oppdater og legg til filer
+Oppdater filer
+Synkroniser filer
+4070
+Bla gjennom
+Alle filer
+Ikkje-solid
+Solid
+6000
+Kopier
+Flytt
+Kopier til:
+Flytt til:
+Kopierer â€¦
+Flytter â€¦
+Navngir â€¦
+Velg mÃ¥lmappe.
+Operasjonen stÃ¸ttes ikke.
+Det oppstod en feil da filen eller mappen skulle navngis
+Bekreft at fil skal kopieres
+Vil du kopiere filene til arkivet
+6100
+Bekreft at fil skal slettes
+Bekreft at mappe skal slettes
+Bekreft at flere filer skal slettes
+Vil du slette Â«{0}Â»?
+Vil du slette mappen Â«{0}Â» med alt innhold?
+Vil du slette disse {0} elementene?
+Sletter â€¦
+Det oppstod en feil da filen eller mappen skulle slettes
+
+6300
+Ny mappe
+Ny fil
+Mappenavn:
+Filnavn:
+Ny mappe
+Ny fil
+Det oppstod en feil da mappen skulle opprettes
+Det oppstod en feil da filen skulle opprettes
+6400
+kommentar
+&Kommentar:
+Merk
+Merk ikke
+Filter:
+6600
+
+Mappelogg
+Diagnosemeldinger
+Melding
+7100
+Datamaskin
+Nettverk
+
+System
+7200
+Legg til
+Pakk ut
+PrÃ¸v
+Kopier
+Flytt
+Slett
+Egenskaper
+7300
+Del opp arkiv
+&Del opp som:
+&Del opp til flere delarkiv i stÃ¸rrelsen:
+Deler opp â€¦
+Bekreft deling
+Er du sikker pÃ¥ at du vil dele arkivet i {0} delarkiv?
+Delarkivene mÃ¥ vÃ¦re mindre enn originalarkivet
+Ugyldig delarkivstÃ¸rrelse
+Valgt delarkivstÃ¸rrelse: {0} byte.\nEr du sikker pÃ¥ at du vil dele arkivet med denne stÃ¸rrelsen?
+7400
+Sett sammen arkiv
+&Sett sammen som:
+Setter sammen â€¦
+Velg bare det fÃ¸rste delarkivet
+
+
+7500
+Beregner sjekksum â€¦
+Sjekksuminformasjon
+CRC-sjekksum for data:
+CRC-sjekksum for data og filnavn:
+7600
+YteprÃ¸ve
+Minnebruk:
+Komprimering
+Dekomprimering
+Ytelse
+Samlet ytelse
+NÃ¥vÃ¦rende
+Resultat
+CPU bruk
+Ytelse / Bruk
+BestÃ¥tt:
