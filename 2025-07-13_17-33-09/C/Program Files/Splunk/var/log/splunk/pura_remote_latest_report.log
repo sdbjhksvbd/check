@@ -1,0 +1,253 @@
+4.3.0 2025-06-30 16:03:13,865 INFO 6120 - Starting to get apps
+4.3.0 2025-06-30 16:03:14,164 ERROR 6120 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-06-30 16:03:22,350 INFO 6120 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-06-30 16:03:22,350 INFO 6120 - Writing local report as merged report could not be generated.
+4.3.0 2025-06-30 16:03:22,350 INFO 6120 - splunk-system-user file does not exists.
+4.3.0 2025-07-01 04:49:21,713 INFO 27512 - Starting to get apps
+4.3.0 2025-07-01 04:49:21,947 ERROR 27512 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 04:49:30,067 INFO 27512 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-01 04:49:30,067 INFO 27512 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-01 04:49:30,068 INFO 27512 - splunk-system-user file does not exists.
+4.3.0 2025-07-01 16:57:58,977 INFO 42180 - Starting to get apps
+4.3.0 2025-07-01 16:57:59,220 ERROR 42180 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 16:58:07,370 INFO 42180 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-01 16:58:07,371 INFO 42180 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-01 16:58:07,372 INFO 42180 - splunk-system-user file does not exists.
+4.3.0 2025-07-02 05:00:17,270 INFO 76576 - Starting to get apps
+4.3.0 2025-07-02 05:00:17,625 ERROR 76576 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 05:00:25,747 INFO 76576 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-02 05:00:25,747 INFO 76576 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-02 05:00:25,748 INFO 76576 - splunk-system-user file does not exists.
+4.3.0 2025-07-02 16:34:10,190 INFO 90020 - Starting to get apps
+4.3.0 2025-07-02 16:34:10,494 ERROR 90020 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 16:34:18,658 INFO 90020 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-02 16:34:18,658 INFO 90020 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-02 16:34:18,659 INFO 90020 - splunk-system-user file does not exists.
+4.3.0 2025-07-03 05:01:25,971 INFO 83732 - Starting to get apps
+4.3.0 2025-07-03 05:01:26,216 ERROR 83732 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 05:01:34,413 INFO 83732 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-03 05:01:34,413 INFO 83732 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-03 05:01:34,413 INFO 83732 - splunk-system-user file does not exists.
+4.3.0 2025-07-03 16:28:56,125 INFO 93376 - Starting to get apps
+4.3.0 2025-07-03 16:28:56,450 ERROR 93376 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 16:29:04,610 INFO 93376 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-03 16:29:04,610 INFO 93376 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-03 16:29:04,610 INFO 93376 - splunk-system-user file does not exists.
+4.3.0 2025-07-06 19:38:40,845 INFO 108724 - Starting to get apps
+4.3.0 2025-07-06 19:38:41,102 ERROR 108724 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-06 19:38:49,311 INFO 108724 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-06 19:38:49,311 INFO 108724 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-06 19:38:49,311 INFO 108724 - splunk-system-user file does not exists.
+4.3.0 2025-07-07 04:00:01,715 INFO 74356 - Starting to get apps
+4.3.0 2025-07-07 04:00:01,997 ERROR 74356 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 04:00:10,187 INFO 74356 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-07 04:00:10,187 INFO 74356 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-07 04:00:10,187 INFO 74356 - splunk-system-user file does not exists.
+4.3.0 2025-07-07 16:00:01,814 INFO 136020 - Starting to get apps
+4.3.0 2025-07-07 16:00:02,095 ERROR 136020 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 16:00:10,292 INFO 136020 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-07 16:00:10,292 INFO 136020 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-07 16:00:10,293 INFO 136020 - splunk-system-user file does not exists.
+4.3.0 2025-07-08 04:00:02,059 INFO 150164 - Starting to get apps
+4.3.0 2025-07-08 04:00:02,410 ERROR 150164 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 04:00:10,596 INFO 150164 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-08 04:00:10,596 INFO 150164 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-08 04:00:10,596 INFO 150164 - splunk-system-user file does not exists.
+4.3.0 2025-07-08 16:00:02,246 INFO 166580 - Starting to get apps
+4.3.0 2025-07-08 16:00:02,643 ERROR 166580 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 16:00:10,859 INFO 166580 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-08 16:00:10,859 INFO 166580 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-08 16:00:10,859 INFO 166580 - splunk-system-user file does not exists.
+4.3.0 2025-07-09 03:59:42,350 INFO 174272 - Starting to get apps
+4.3.0 2025-07-09 03:59:42,672 ERROR 174272 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 03:59:50,838 INFO 174272 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-09 03:59:50,839 INFO 174272 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-09 03:59:50,839 INFO 174272 - splunk-system-user file does not exists.
+4.3.0 2025-07-09 04:00:01,237 INFO 175048 - Starting to get apps
+4.3.0 2025-07-09 04:00:01,525 ERROR 175048 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 04:00:09,718 INFO 175048 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-09 04:00:09,718 INFO 175048 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-09 04:00:09,719 INFO 175048 - splunk-system-user file does not exists.
+4.3.0 2025-07-09 16:00:01,894 INFO 183524 - Starting to get apps
+4.3.0 2025-07-09 16:00:02,160 ERROR 183524 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 16:00:10,394 INFO 183524 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-09 16:00:10,394 INFO 183524 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-09 16:00:10,394 INFO 183524 - splunk-system-user file does not exists.
+4.3.0 2025-07-10 04:00:01,992 INFO 202624 - Starting to get apps
+4.3.0 2025-07-10 04:00:02,283 ERROR 202624 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 04:00:10,482 INFO 202624 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-10 04:00:10,482 INFO 202624 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-10 04:00:10,483 INFO 202624 - splunk-system-user file does not exists.
+4.3.0 2025-07-10 16:00:03,786 INFO 197496 - Starting to get apps
+4.3.0 2025-07-10 16:00:04,071 ERROR 197496 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 16:00:12,261 INFO 197496 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-10 16:00:12,261 INFO 197496 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-10 16:00:12,261 INFO 197496 - splunk-system-user file does not exists.
+4.3.0 2025-07-11 04:00:02,043 INFO 220432 - Starting to get apps
+4.3.0 2025-07-11 04:00:02,589 ERROR 220432 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 04:00:10,812 INFO 220432 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-11 04:00:10,812 INFO 220432 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-11 04:00:10,812 INFO 220432 - splunk-system-user file does not exists.
+4.3.0 2025-07-11 16:00:01,958 INFO 194508 - Starting to get apps
+4.3.0 2025-07-11 16:00:02,244 ERROR 194508 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 16:00:10,443 INFO 194508 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-11 16:00:10,443 INFO 194508 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-11 16:00:10,444 INFO 194508 - splunk-system-user file does not exists.
+4.3.0 2025-07-12 04:00:02,022 INFO 239600 - Starting to get apps
+4.3.0 2025-07-12 04:00:02,315 ERROR 239600 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 04:00:10,501 INFO 239600 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-12 04:00:10,501 INFO 239600 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-12 04:00:10,501 INFO 239600 - splunk-system-user file does not exists.
+4.3.0 2025-07-12 16:00:02,098 INFO 247852 - Starting to get apps
+4.3.0 2025-07-12 16:00:02,365 ERROR 247852 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 16:00:10,560 INFO 247852 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-12 16:00:10,560 INFO 247852 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-12 16:00:10,560 INFO 247852 - splunk-system-user file does not exists.
+4.3.0 2025-07-13 04:00:02,193 INFO 260548 - Starting to get apps
+4.3.0 2025-07-13 04:00:02,526 ERROR 260548 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 04:00:10,781 INFO 260548 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-13 04:00:10,781 INFO 260548 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-13 04:00:10,782 INFO 260548 - splunk-system-user file does not exists.
+4.3.0 2025-07-13 16:00:02,523 INFO 273260 - Starting to get apps
+4.3.0 2025-07-13 16:00:02,866 ERROR 273260 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_remote_latest_report.py", line 138, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 16:00:11,108 INFO 273260 - merged_file_path = C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\merged\merged_report.json
+4.3.0 2025-07-13 16:00:11,108 INFO 273260 - Writing local report as merged report could not be generated.
+4.3.0 2025-07-13 16:00:11,108 INFO 273260 - splunk-system-user file does not exists.
