@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SmartAudioSettings>
+  <ShowJackPopup>true</ShowJackPopup>
+  <ShowJackPopupBalloon>true</ShowJackPopupBalloon>
+  <ConexantRenderEqualizerPreset>0</ConexantRenderEqualizerPreset>
+</SmartAudioSettings>
