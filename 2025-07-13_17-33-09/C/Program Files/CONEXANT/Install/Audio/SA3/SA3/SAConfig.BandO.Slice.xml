@@ -1,0 +1,12 @@
+<SmartAudioConfiguration>
+
+  <!-- Skin settings -->
+  <ApplicationTitle>Bang &amp; Olufsen</ApplicationTitle>
+  <ApplicationTooltip>Bang &amp; Olufsen</ApplicationTooltip>
+  <DefaultSkin>SmartAudio.HP.BandO</DefaultSkin>
+
+  <!-- Special settings -->
+  <SliceGuiEnabled>true</SliceGuiEnabled>
+  <SliceSwitchBranding>true</SliceSwitchBranding>
+
+</SmartAudioConfiguration>
