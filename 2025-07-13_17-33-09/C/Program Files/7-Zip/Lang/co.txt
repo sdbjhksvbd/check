@@ -1,0 +1,533 @@
+ï»¿;!@Lang2@!UTF-8!
+; 24.04 : 2024-04-06 : Patriccollu di Santa Maria Ã¨ SichÃ¨ (Latest Update)
+; 22.00 : 2022-06-21 : Patriccollu di Santa Maria Ã¨ SichÃ¨ (Update)
+; 15.00 : 2015-04-26 : Patriccollu di Santa Maria Ã¨ SichÃ¨ (Update)
+;  9.20 : 2010-12-12 : Patriccollu di Santa Maria Ã¨ SichÃ¨ (Creation)
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Corsican
+Corsu
+401
+Vai
+AbbandunÃ 
+
+
+
+&SÃ¬
+&NÃ²
+&Chjode
+Aiutu
+
+&CuntinuÃ 
+440
+SÃ¬ per &tutti
+NÃ² per t&utti
+PiantÃ 
+RilanciÃ 
+Tacca di &fondu
+&Primu pianu
+&Pausa
+In pausa
+Vulete veramente annullÃ Â ?
+500
+&Schedariu
+&MudificÃ 
+&AffissÃ 
+&Favuriti
+A&ttrezzi
+Ai&utu
+540
+&Apre
+Apre in &7-Zip
+Apre in lâ€™espluratore Windows
+&FighjÃ  (esad.)
+&MudificÃ 
+&RinuminÃ 
+&CupiÃ  versuâ€¦
+&DispiazzÃ   versuâ€¦
+S&quassÃ 
+&Sparte u schedariuâ€¦
+&Unisce i schedariiâ€¦
+&PruprietÃ 
+Cumme&ntuâ€¦
+CalculÃ  a somma di cuntrollu
+ParagunÃ  e sfarenze (Diff)
+CreÃ  un cartulare
+CreÃ  un schedariu
+&Esce
+Liame
+Flussi a&lternativi
+600
+&Tuttu selezziunÃ 
+Ã™n selezziunÃ  &nunda
+&ArritrusÃ  a selezzione
+&SelezziunÃ â€¦
+Ã™n &micca selezziunÃ â€¦
+SelezziunÃ  da u tipu
+Ã™n selezziunÃ  da u tipu
+700
+&Icone maiÃ²
+Icone &chjuche
+&Lista
+&Detaglii
+730
+&Micca classificatu
+&Vista sparta
+&2 Finestre
+&Barre dâ€™attrezzi
+Apre u cartulare principale
+Livellu &superiore
+Cronolugia di i cartulariâ€¦
+&AttualizÃ 
+Attualisazione autumatica
+750
+Barra dâ€™attrezzi dâ€™archiviu
+Barra dâ€™attrezzi classica
+Buttoni maiÃ²
+AffissÃ  u testu di i buttoni
+800
+&Aghjunghje u cartulare Ã  i favuriti cumâ€™Ã¨
+Indetta
+900
+&Ozzioniâ€¦
+&Sperimentu di pussibilitÃ â€¦
+910
+SquassÃ  i schedarii timpurariiâ€¦
+960
+&Cuntenutu (in inglese)â€¦
+&Apprupositu di 7-Zipâ€¦
+1003
+Chjassu
+Nome
+Estensione
+Cartulare
+Dimensione
+Dimensione cumpressa
+Attributi
+Creatu u
+Accessu u
+Mudificatu
+Fisicu
+Cummentatu
+Cifratu
+FrazziunÃ  nanzu
+FrazziunÃ  dopu
+Dizziunariu
+
+Tipu
+Anti
+Metoda
+OS ospite
+Sistema di schedariu
+Utilizatore
+Gruppu
+Bloccu
+Cummentu
+Pusizione
+Prefissu di chjassu
+Cartulari
+Schedarii
+Versione
+Vulume
+Multivulume
+Spiazzamentu
+Liami
+Blocchi
+Vulumi
+
+64-bit
+Big-endian
+CPU
+Dimensione fisica
+Dimensione di lâ€™intestature
+Somma di cuntrollu
+Caratteristiche
+Indirizzu virtuale
+Identificazione
+Nome cortu
+Appiecazione dâ€™origine
+Dimensione di settore
+Modu
+Liame simbolicu
+Sbagliu
+Dimensione tutale
+Spaziu liberu
+Dimensione di cluster
+Nome di vulume
+Nome lucale
+Furnidore
+SicuritÃ  NT
+Flussu alternativu
+Ausiliaru
+Squassatu
+In arburu
+
+
+Tipu di sbagliu
+Sbaglii
+Sbaglii
+Avertimenti
+Avertimentu
+Flussi
+Flussi alternativi
+Dimensione di i flussi alternativi
+Dimensione virtuale
+Dimensione senza compressione
+Dimensione fisica tutale
+Indice di vulume
+Sottutipu
+Cummentu cortu
+Pagina di codice
+
+
+
+Dimensione di a coda
+Dimensione di u mozzicone incurpuratu
+Liame
+Liame fisicu
+iNodu
+
+Lettura sola
+
+CupiÃ  u liame
+
+
+Metadati cambiati
+2100
+Ozzioni
+Lingua
+LinguaÂ :
+Editore
+&MudificÃ Â :
+&ParagunÃ  e sfarenzeÂ :
+2200
+Sistema
+AssuciÃ  7-zip cÃ¹Â :
+Tutti lâ€™utilizatori
+2301
+IntegrÃ  7-zip Ã  u listinu cuntestuale
+Listinu cuntestuale in cascata
+Elementi di u listinu cuntestualeÂ :
+Icone in u listinu cuntestuale
+2320
+<Cartulare>
+<Archiviu>
+Apre lâ€™archiviu
+Estrae i schedariiâ€¦
+Aghjunghje Ã  lâ€™archiviuâ€¦
+VerificÃ  lâ€™archiviu
+Estrae quÃ¬
+Estrae versu {0}
+Aghjunghje Ã  {0}
+Cumprime Ã¨ mandÃ  da eMailâ€¦
+Cumprime versu {0} Ã¨ mandÃ  da eMail
+2400
+Cartulari
+Cartulare di &travagliu
+Cartulare &timpurariu di u sistema
+&Cartulare currente
+Cartulare &specificatuÂ :
+ImpiegÃ  solu per i dischi amuvibili
+Specificate un cartulare per i schedarii timpurarii dâ€™archiviu.
+2500
+Preferenze
+AffissÃ  lâ€™elementu Â« ... Â»
+AffissÃ  e vere icone di i schedarii
+AffissÃ  u listinu di u sistema
+SelezziunÃ  a linea &sana
+AffissÃ  e linee &quadrittate
+Apre un elementu cÃ¹ un cliccu simplice
+Modu di selezzione &alternativa
+ImpiegÃ  pagine &maiÃ² di memoria
+2900
+Apprupositu di 7-Zip
+7-Zip hÃ¨ un prugramma liberu.
+3000
+U sistema Ã¹n pÃ² micca attribuisce a quantitÃ  richiesta di memoria
+Ã™n ci hÃ¨ micca sbagliu
+{0} ughjettu(i) selezziunatu(i)
+U cartulare Â« {0} Â» Ã¹n pÃ² micca esse creatu
+Lâ€™azzioni di mudificazione Ã¹n sÃ² micca accettate per stâ€™archiviu.
+U schedariu Â« {0} Â» Ã¹n pÃ² micca esse apertu cumâ€™Ã¨ un archiviu
+Lâ€™archiviu cifratu Â« {0} Â» Ã¹n pÃ² micca esse apertu. Parolla dâ€™intesa falsaÂ ?
+Stu tipu dâ€™archiviu Ã¹n hÃ¨ micca accettatu
+U schedariu {0} esiste dighjÃ 
+U schedariu Â« {0} Â» hÃ¨ statu mudificatu.\nVulete mudificallu in lâ€™archiviuÂ ?
+Ã™n si pÃ² micca mudificÃ  u schedariu\nÂ« {0} Â»
+Ã™n si pÃ² lanciÃ  lâ€™editore.
+U schedariu puderia cuntene un virus (u so nome cuntene spazii numerosi chÃ¬ ponu piattÃ  lâ€™estensione).
+Stâ€™azzione Ã¹n pÃ² micca fassi Ã  partesi dâ€™un cartulare cÃ¹ un nome di chjassu cusÃ¬ longu.
+Ci vole Ã  selezziunÃ  un schedariu
+Ci vole Ã  selezziunÃ  unu o parechji schedarii
+Troppu elementi
+Ã™n si pÃ² micca apre u schedariu {0} cumâ€™Ã¨ un archiviu
+U schedariu hÃ¨ apertu cumâ€™Ã¨ un archiviu {0}
+Lâ€™archiviu hÃ¨ apertu cÃ¹ un spiazzamentu
+3300
+Estrazzione
+Cumpressione
+Verificazione
+Aperturaâ€¦
+Analisaâ€¦
+Cacciatura
+3320
+Aghjuntu
+Mudificazione
+Analisa
+Ripruduzzione
+Rimballasgiu
+Tralasciamentu
+Squassatura
+Creazione dâ€™una intestatura
+3400
+Estrae
+E&strae versuÂ :
+Sciglite un cartulare per lâ€™estrazzione di i schedarii.
+3410
+Modu di chjassuÂ :
+Nomi sani di chjassu
+Alcunu nome di chjassu
+Nomi assuluti di chjassu
+Nomi relativi di chjassu
+3420
+Modu di rimpiazzamentuÂ :
+CunfirmÃ  nanzu di rimpiazzÃ 
+RimpiazzÃ  senza dumandÃ 
+TralasciÃ  i schedarii esistenti
+RinuminÃ  autumaticamente
+RinuminÃ  autumat. i schedarii esistenti
+3430
+Toglie a duplicazione di u cartulare principale
+RisturÃ  a sicuritÃ  di i schedarii
+3440
+Prupagazione di flussu Zone.IdÂ :
+Per i schedarii Office
+3500
+CunfirmÃ  u rimpiazzamentu di schedariu
+U cartulare di destinazione cuntene dighjÃ  un schedariu cÃ¹ stu nome.
+Vulete rimpiazzÃ  u schedariu esistente
+cÃ¹ quelluÂ ?
+{0} ottetti
+RinuminÃ  &autumaticamente
+3700
+Metoda di cumpressione micca accettata per Â« {0} Â».
+Sbagliu di dati in Â« {0} Â». U schedariu hÃ¨ dannighjatu.
+Fiascu di lâ€™ispezzione CRC per u schedariu Â« {0} Â». U schedariu hÃ¨ dannighjatu.
+Sbagliu di dati in u schedariu cifratu Â« {0} Â». Parolla dâ€™intesa falsaÂ ?
+Fiascu di lâ€™ispezzione CRC per u schedariu cifratu Â« {0} Â». Parolla dâ€™intesa falsaÂ ?
+3710
+Parolla dâ€™intesa falsaÂ ?
+3721
+Metoda di compressione micca accettata
+Sbagliu di dati
+Fiascu di lâ€™ispezzione CRC
+Dati micca dispunibule
+Fine inaspettata di dati
+Ci hÃ¨ dâ€™altri dati dopu Ã  a fine di i dati ghjuvevule
+Ã™n hÃ¨ micca un archiviu
+Sbagliu dâ€™intestature
+Parolla dâ€™intesa
+3763
+Principiu di lâ€™archiviu micca dispunibule
+Principiu di lâ€™archiviu micca confirmatu
+
+
+
+Funzione micca accettata
+3800
+Stampittate a parolla dâ€™intesa
+Stampittate a parolla dâ€™intesaÂ :
+Stampittate torna a parolla dâ€™intesaÂ :
+&AffissÃ  a parolla dâ€™intesa
+E parolle dâ€™intesa sÃ² sfarente
+Impiegate soluÂ : lettere senza aletta, cifri Ã¨ segni particulari (!, #, $, â€¦) per a parolla dâ€™intesa
+A parolla dâ€™intesa hÃ¨ troppu longa
+Parolla dâ€™intesa
+3900
+Tempu passatuÂ :
+Tempu rimanentuÂ :
+Dimensione tutaleÂ :
+VitezzaÂ :
+TrattatuÂ :
+% di cumpressioneÂ :
+SbagliiÂ :
+ArchiviiÂ :
+4000
+Aghjunghje Ã  lâ€™archiviu
+&ArchiviuÂ :
+Modu di m&udificazioneÂ :
+&Furmatu dâ€™archiviuÂ :
+&Livellu di cumpressioneÂ :
+&Metoda di cumpressioneÂ :
+&Dimensione di u dizziunariuÂ :
+Dimensione di &e parolleÂ :
+Dimensione di u bloccu soliduÂ :
+Contu di flussi CPUÂ :
+&ParametriÂ :
+Ozzioni
+CreÃ  un archiviu SF&X
+Cumprime schedarii sparti
+Cifratura
+Metoda di cifraturaÂ :
+CifrÃ  i &nomi di schedariu
+Memoria impiegata da a cumpressioneÂ :
+Memoria impiegata da a scumpressioneÂ :
+SquassÃ  i schedarii dopu Ã  a cumpressione
+4040
+CunservÃ  i liami simbolichi
+CunservÃ  i liami fisichi
+CunservÃ  i flussi di dati alternativi
+CunservÃ  a sicuritÃ  di i schedarii
+4050
+Cunservazione
+A piÃ¹ rapida
+Rapida
+Nurmale
+Massima
+Ultra
+4060
+Aghjunghje Ã¨ rimpiazzÃ  i schedarii
+MudificÃ  Ã¨ aghjunghje i schedarii
+AttualizÃ  i schedarii esistenti
+SincrunizÃ  i schedarii
+4070
+SfugliÃ 
+Tutti i schedarii
+Non-solidu
+Solidu
+4080
+Data
+Precizione di stampigliaÂ :
+ArregistrÃ  a data Ã¨ lâ€™ora di mudificazione
+ArregistrÃ  a data Ã¨ lâ€™ora di creazione
+ArregistrÃ  a data Ã¨ lâ€™ora dâ€™ultimu accessu
+Definisce cumâ€™Ã¨ data Ã¨ ora per lâ€™archiviu quella di lâ€™ultimu schedariu
+Ã™n cambiÃ  micca data Ã¨ ora dâ€™ultimu accessu per i schedarii di fonte
+4090
+sec
+ns
+6000
+CupiÃ 
+DispiazzÃ 
+CupiÃ  versuÂ :
+DispiazzÃ  versuÂ :
+Copiaâ€¦
+Dispiazzamentuâ€¦
+Cambiamentu di nomeâ€¦
+SelezziunÃ  u cartulare di destinazione.
+Stâ€™azzione Ã¹n hÃ¨ micca accettata per stu cartulare.
+Sbagliu durante u cambiu di nome di schedariu o di cartulare
+Cunfirmazione di a copia di schedariu
+Vulete veramente cupiÃ  u(i) schedariu(i) versu lâ€™archiviu
+6100
+CunfirmÃ  a squassatura di u schedariu
+CunfirmÃ  a squassatura di u cartulare
+CunfirmÃ  a squassatura di schedarii multiplice
+Vulete veramente squassÃ  Â« {0} Â»Â ?
+Vulete veramente squassÃ  u cartulare Â« {0} Â» Ã¨ tuttu u so cuntenutuÂ ?
+Vulete veramente squassÃ  sti {0} elementiÂ ?
+Squassaturaâ€¦
+Sbagliu durante a squassatura di schedariu o di cartulare
+U sistema Ã¹n pÃ² micca mette Ã  a Rumenzula un schedariu cÃ¹ u nome di chjassu cusÃ¬ longu
+6300
+CreÃ  un cartulare
+CreÃ  un schedariu
+Nome di u cartulareÂ :
+Nome di u schedariuÂ :
+Novu cartulare
+Novu schedariu
+Sbagliu durante a creazione di u cartulare
+Sbagliu durante a creazione di u schedariu
+6400
+Cummentu
+&CummentuÂ :
+SelezziunÃ 
+Ã™n selezziunÃ 
+FiltruÂ :
+6600
+PruprietÃ 
+Cronolugia di i cartulari
+Messaghji di diagnosticu
+Messaghju
+7100
+Urdinatore
+Reta
+Ducumenti
+Sistema
+7200
+Aghjunghje
+Estrae
+VerificÃ 
+CupiÃ 
+DispiazzÃ 
+SquassÃ 
+Infurmazione
+7300
+Sparte u schedariu
+&Sparte inÂ :
+Sparte in &vulumi, ottettiÂ :
+Spartimentuâ€¦
+CunfirmÃ  u spartimentu
+Vulete veramente sparte u schedariu in {0} vulumiÂ ?
+A dimensione di u vulume deve esse piÃ¹ chjuca chÃ¨ u schedariu dâ€™origine
+Dimensione di vulume incurretta
+Dimensione di vulume specificataÂ : {0} ottetti.\nVulete veramente sparte lâ€™archiviu in tanti vulumiÂ ?
+7400
+Unisce i schedarii
+&Unisce inÂ :
+Unioneâ€¦
+SelezziunÃ  solu a prima parte di lâ€™archiviu spartutu
+Ã™n si pÃ² truvÃ  nisuna parte dâ€™archiviu spartutu
+Ã™n si pÃ² truvÃ  piÃ¹ dâ€™una parte dâ€™archiviu spartutu
+7500
+Calculu di a somma di cuntrolluâ€¦
+Infurmazione nantâ€™Ã  a somma di cuntrollu
+Somma di cuntrollu CRC per i datiÂ :
+Somma di cuntrollu CRC per i dati Ã¨ i nomiÂ :
+7600
+Sperimentu di pussibilitÃ 
+Memoria impiegataÂ :
+Cumpressione
+Scumpressione
+Stima
+Valutazione tutale
+Attuale
+Risultante
+Aghjovu CPU
+Stima / Aghjovu
+PassagiÂ :
+7700
+Liame
+Liame
+Liame dâ€™origineÂ :
+Liame di destinazioneÂ :
+7710
+Tipu di liame
+Liame solidu
+Liame simbolicu di schedariu
+Liame simbolicu di cartulare
+Unione di cartulare
+7800
+Dumanda dâ€™aghjovu di memoria
+CambiÃ  a cunfina permessa per e prossime operazioni
+&Ripete lâ€™azzione selezziunata per lâ€™operazione currente
+Azzione
+7810
+Lâ€™operazione hÃ¨ stata bluccata da 7-Zip.
+Lâ€™operazione richiede una quantitÃ  tamanta di memoria (RAM).
+dimensione richiesta per lâ€™aghjovu di memoria
+cunfina permessa per lâ€™aghjovu di memoria
+cunfina definita da 7-Zip per lâ€™aghjovu di memoria
+dimensione RAM
+QuantitÃ  massima di memoria RAM chÃ¬ hÃ¨ permessa per scumprime lâ€™archiviiÂ :
+7820
+&Permette u spacchittime dâ€™archiviu
+&TralasciÃ  u spacchittime dâ€™archiviu
+U spacchittime dâ€™archiviu hÃ¨ statu tralasciatu.
