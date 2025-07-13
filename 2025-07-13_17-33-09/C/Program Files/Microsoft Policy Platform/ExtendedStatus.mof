@@ -1,0 +1,46 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for CIM document class
+
+    DEPENDENCIES: SchemaNamespaces.mof
+
+******************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+
+#pragma namespace("\\\\.\\Root\\Microsoft\\PolicyPlatform")
+
+[
+    Locale(1033) : ToInstance
+]
+instance of __Namespace
+{
+    Name = "Models";
+};
+
+//////////////////////////////////////////////////////////////////////////////
+// base extended status class
+
+[
+    Abstract,
+    Description("Base class used when reporting extended status from a provider to Lantern")
+]
+class PolicyPlatform_ExtendedStatus
+{
+};
+
+#pragma namespace("\\\\.\\Root\\Microsoft\\PolicyPlatform\\Models")
+
+[
+    Abstract,
+    Description("Base class used when reporting extended status from a provider to Lantern")
+]
+class PolicyPlatform_ExtendedStatus
+{
+};
+
