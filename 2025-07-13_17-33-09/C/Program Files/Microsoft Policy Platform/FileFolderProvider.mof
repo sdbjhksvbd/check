@@ -1,0 +1,80 @@
+/***********************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    Instance provider for classes that model meta-data about files and folders in a Windows file 
+    system.
+
+    DEPENDENCIES: none
+
+************************************************************************************************/
+
+#pragma autorecover
+#pragma classflags("forceupdate")
+
+#pragma namespace ("\\\\.\\Root\\Microsoft\\PolicyPlatform\\Models")
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// FileSystem Metadata Provider
+
+// Remove old provider registration
+#pragma deleteinstance("Win32_ProviderEx.Name='FileSystem_StateProvider'", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Models:Win32_ProviderEx.Name=\"FileSystem_StateProvider\"'", nofail)
+
+// Create new provider registration
+instance of __Win32Provider as $FileFolderProvider
+{
+    Name = "FileSystem_StateProvider";
+
+    HostingModel = "LocalSystemHost";
+
+    // provider CLSID
+    ClsId = "{A6A2160C-40DB-4EAA-AF21-6FDEA46E10B1}";
+
+    // set to NULL to indicate provider runs on local computer
+    DefaultMachineName = NULL;
+
+    // set to NULL because this is not a 'high performance provider'
+    ClientLoadableCLSID = NULL;
+
+    // set to 1 to indicate that provider may impersonate the caller when invoked
+    ImpersonationLevel = 1;
+
+    // set to 0 to indicate all initializations must be serialized
+    InitializationReentrancy = 0;
+
+    // the provider must be initialized as admin before being initialized as users, though the
+    //  provider doesn't support being initialized as users (see properties below)
+    InitializeAsAdminFirst = TRUE;
+
+    // provider is not locale or user aware, so both of these are FALSE.
+    PerLocaleInitialization = FALSE;
+    PerUserInitialization = FALSE;
+
+    // provider is not intended to remain active except when being explicitly used by WMI, so it
+    //  is considered "pure"
+    Pure = TRUE;
+
+    // version of the provider;
+    Version = 1;
+    
+    //Currently ignored
+    //Use __CacheControl class in the root namespace to control provider unloading.
+    //A string in the DMTF date/time format that specifies how long WMI 
+    //allows the provider to remain idle before it is unloaded.
+    UnloadTimeout = NULL;
+};
+
+instance of __InstanceProviderRegistration
+{
+	Provider = $FileFolderProvider;
+
+	SupportsPut = "FALSE";
+	SupportsGet = "TRUE";
+	SupportsDelete = "FALSE";
+	SupportsEnumeration = "FALSE";
+
+	QuerySupportLevels = {"WQL:UnarySelect"};
+};
+
+
