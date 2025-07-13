@@ -1,0 +1,4 @@
+// NOTE: Do not use #pragma autorecover, or an autorecovery will also mofcomp this mof file!
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform")
+#pragma deleteinstance("__Namespace.Name=\"Documents\"", nofail)
