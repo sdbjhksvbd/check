@@ -1,0 +1,373 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for base classes of job & synchronization report documents
+
+    DEPENDENCIES: Document.mof, SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// base enactment report class
+
+[
+    Abstract,
+    Description("Enactment report base class"),
+    Version("1.0.0")
+]
+class PolicyPlatform_Report : PolicyPlatform_Document
+{
+    [
+        Not_null,
+        Description("The id of the enactment job that this document reports on")
+    ]
+    string JobId;
+};
+
+
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("An external reference to a rule within a policy document.")
+]
+class PolicyPlatform_RuleId : PolicyPlatform_DocumentId
+{
+    string RuleName;
+};
+
+
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The mapping of a selector to other selectors.")
+]
+class PolicyPlatform_SelectorToSelectors
+{
+    [key]
+    string Index;
+
+    string Value[];
+};
+
+
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The mapping of a configuration point to other configuration points."
+    " TODO: Replace PolicyPlatform_SelectorToSelectors with this when the "
+    " new report generator is implemented")
+]
+class PolicyPlatform_ConfigPointToConfigPoints
+{
+    [key]
+    uint32 ConfigPointId;
+
+    uint32 MappedConfigPointIds[];
+};
+
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The binding of a configuration point and the set of rules contributing to the "
+    "configuration point for a given model. "
+    "For Existence model, this is related to the configuration point's initial value. "
+    "For Intent model, this is related to the configuration point's intended value. "
+    "For Inventory model, this is related to the inclusion of the configuration point in the "
+    "inventory.")
+]
+class PolicyPlatform_ValueContribution
+{
+    [key]
+    string Selector;
+
+    [key]
+    string Model;
+
+    PolicyPlatform_RuleId ContributingRules[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The binding of a configuration point and the set of rules contributing to the "
+    "configuration point for a given model. "
+    "TODO: Replace PolicyPlatform_ValueContribution with this when the generator code is updated.")
+]
+class PolicyPlatform_ValueContribution2
+{
+    [key]
+    uint32 ConfigPointId;
+
+    PolicyPlatform_RuleId ContributingRules[];
+};
+
+// ***************************************************************************
+[
+    Abstract,
+    Description
+    (
+        "Configuration point base class."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_ReportedConfigPoint
+{
+    [
+        Key,
+        Description
+        (
+            "ID of the configuration point."
+        )
+    ]
+    uint32 Id;
+
+    [
+        Required,
+        Description
+        (
+            "Text of the selector for the configuration point."
+        )
+    ]
+    string Selector;
+
+    [
+        ValueMap { "0", "1", "2", "3" },
+        Values {"existence", "intent", "inventory", "literal"}
+    ]
+    uint8 Model = 0;
+};
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Contains the data related to an authored configuration point, including information"
+        " for contexts and variables referred to directly by the configuration"
+        " point or referred to by another referenced context or variable."
+    ),
+    DisplayName("ReportedAuthoredConfigPoint"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_ReportedAuthoredConfigPoint : PolicyPlatform_ReportedConfigPoint
+{
+    [
+        Description
+        (
+            "ID of this configuration point's context. A value of NULL (the default)"
+            " indicates that this configuration point has no parent context."
+        )
+    ]
+    uint32 ContextId = NULL;
+
+    [
+        Description
+        (
+            "IDs of variables referred to by the configuration point."
+        )
+    ]
+    uint32 VariableIds[];
+};
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "This defines a context which can be referred to by a configuration point, variable"
+        " or other context. The context can in turn refer to other contexts via"
+        " the ParentContext and/or in variables used in the SelectorText."
+    ),
+    DisplayName("ReportedContext"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_ReportedContext
+{
+    [
+        Key,
+        Description
+        (
+            "ID of the context. The ID is used by other variables, contexts"
+            " and configuration points to refer to the context."
+        )
+    ]
+    uint32 Id;
+
+
+    [
+        Required,
+        Description
+        (
+            "Text of the context's selector. This may contain references"
+            " to one or more variables."
+        )
+    ]
+    string Selector;
+
+
+    [
+        Description
+        (
+            "ID of this context's parent context. A value of NULL (the default)"
+            " indicates that this context has no parent context."
+        )
+    ]
+    uint32 ParentContextId = NULL;
+
+    [
+        Description
+        (
+            "IDs of variables referred to by the context."
+        )
+    ]
+    uint32 VariableIds[];
+};
+
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "This defines a variable utilized by a configuration point, variable, or"
+        " context. The variable can in turn refer to other variables in its"
+        " SelectorText, as well as have a parent context."
+    ),
+    DisplayName("ReportedVariable"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_ReportedVariable
+{
+    [
+        Description
+        (
+            "ID of the variable. The ID is used by configuration points to refer"
+            " to the variable."
+        ),
+        Key
+    ]
+    uint32 Id;
+
+
+    [
+        Description("Specifies mutability of the configuration point. Default is true."),
+        DisplayName("Changeable")
+    ]
+    boolean Changeable = true;
+
+
+    [
+        Required,
+        Description
+        (
+            "Name that variable uses when it appears in Selectors."
+        )
+    ]
+    string Name;
+
+
+    [
+        Required,
+        Description
+        (
+            "ID of the configuration point which the variable refers to."
+        )
+    ]
+    uint32 ConfigPointId;
+
+};
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Contains the data related to an instance configuration point."
+    ),
+    DisplayName("ReportedInstanceConfigPoint"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_ReportedInstanceConfigPoint : PolicyPlatform_ReportedConfigPoint
+{
+    [
+        Description
+        (
+            "Id of this configuration point's container. A value of NULL (the default)"
+            " indicates that this configuration point has no parent container."
+        )
+    ]
+    uint32 ContainerId = NULL;
+
+    [
+        Required,
+        Description
+        (
+            "Canonical Id of this configuration point. This id will be same for all "
+            " instance configuration points which map to same point in instance space."
+            " This id will be used inside state report."
+        )
+    ]
+    uint32 CanonicalId;
+
+};
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "This defines a container which can be referred to by an instance configuration point."
+        " The container can in turn refer to anoother parent container."
+    ),
+    DisplayName("ReportedContainer"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_ReportedContainer
+{
+    [
+        Key,
+        Description
+        (
+            "Id of the container. The Id is used by other containers and configuration"
+            " points to refer to this container."
+        )
+    ]
+    uint32 Id;
+
+    [
+        Required,
+        Description
+        (
+            "Text of the container's selector."
+        )
+    ]
+    string Selector;
+
+
+    [
+        Description
+        (
+            "Id of this container's parent container. A value of NULL (the default)"
+            " indicates that this container has no parent container."
+        )
+    ]
+    uint32 ParentContainerId = NULL;
+};
+
+
