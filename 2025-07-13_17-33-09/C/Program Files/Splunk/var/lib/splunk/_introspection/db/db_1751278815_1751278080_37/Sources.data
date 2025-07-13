@@ -1,0 +1,7 @@
+0	6	754	1751278080	1751278815	1751278816	
+1	source::C:\Program Files\Splunk\var\log\introspection\disk_objects.log	 38	1751278080	1751278680	1751278681	
+2	source::C:\Program Files\Splunk\var\log\introspection\kvstore.log	178	1751278084	1751278813	1751278814	
+3	source::C:\Program Files\Splunk\var\run\splunk\search_telemetry\2727e5e9220a7536_alertsmanager_1751278090.1_search_telemetry.json	  1	1751278090	1751278090	1751278091	
+4	source::C:\Program Files\Splunk\var\log\introspection\resource_usage.log	        497	1751278095	1751278815	1751278816	
+5	source::C:\Program Files\Splunk\var\run\splunk\search_telemetry\854992ae515036a8_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1751278079_0_search_telemetry.json	  1	1751278111	1751278111	1751278111	
+6	source::telemetry_api	 39	1751278680	1751278814	1751278814	
