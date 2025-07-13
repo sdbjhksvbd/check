@@ -1,0 +1,495 @@
+;!@Lang2@!UTF-8!
+;       : Jakob Schmidt
+;  9.07 : Kian Andersen, JÃ¸rgen Rasmussen
+; 15.00 : 2016-11-25 : scootergrisen
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Danish
+Dansk
+401
+OK
+Annuller
+
+
+
+&Ja
+&Nej
+&Luk
+HjÃ¦lp
+
+&FortsÃ¦t
+440
+Ja til &alle
+Nej til a&lle
+Stop
+Genstart
+&Baggrund
+&Forgrund
+&Pause
+Sat pÃ¥ pause
+Er du sikker pÃ¥, at du vil annullere?
+500
+&Filer
+R&ediger
+&Vis
+F&avoritter
+Funk&tioner
+&HjÃ¦lp
+540
+&Ã…bn
+Ã…bn &inden i
+Ã…bn &uden for
+&Vis
+&Rediger
+O&mdÃ¸b
+&Kopier til...
+&Flyt til...
+S&let
+&Opdel fil...
+Kom&biner filer...
+&Egenskaber
+Komme&ntar...
+Udregn checksum
+Sammenlign
+Opret mappe
+Opret fil
+&Afslut
+Opret/rediger henvisning
+&Alternative strÃ¸mme
+600
+VÃ¦lg &alle
+FravÃ¦lg alle
+&Omvendt markering
+VÃ¦lg...
+FravÃ¦lg...
+VÃ¦lg efter type
+FravÃ¦lg efter type
+700
+Sto&re ikoner
+S&mÃ¥ ikoner
+&Liste
+&Detaljer
+730
+Usorteret
+Flad visning
+&2 paneler
+&VÃ¦rktÃ¸jslinjer
+Ã…bn rodmappe
+Et niveau op
+Mappehistorik...
+&Opdater
+Opdater automatisk
+750
+Arkivlinje
+Standardlinje
+Store knapper
+Vis knappernes tekst
+800
+&FÃ¸j mappe til Favoritter som
+BogmÃ¦rke
+900
+&Funktioner...
+&Benchmark
+960
+&Indhold...
+&Om 7-Zip...
+1003
+Sti
+Navn
+Filtype
+Mappe
+StÃ¸rrelse
+Pakket stÃ¸rrelse
+Attributter
+Oprettet
+Ã…bnet
+Ã†ndret
+Solid
+Kommenteret
+Krypteret
+Opdel fÃ¸r
+Opdel efter
+Leksikon
+
+Type
+Anti
+Metode
+VÃ¦rt OS
+Filsystem
+Bruger
+Gruppe
+Blok
+Kommentar
+Placering
+Sti prÃ¦fiks
+Mapper
+Filer
+Version
+Bind
+Flerbindsarkiv
+Forskydning
+Henvisning
+Blokke
+Bind
+
+64-bit
+Big-endian
+CPU
+Fysisk stÃ¸rrelse
+Hovedernes stÃ¸rrelse
+Checksum
+Karakteristika
+Virtuel adresse
+ID
+Kort navn
+Oprettende program
+SektorstÃ¸rrelse
+Tilstand
+Symbolsk henvisning
+Fejl
+Samlet stÃ¸rrelse
+Ledig plads
+KlyngestÃ¸rrelse
+Etiket
+Lokalt navn
+Udbyder
+NT Security
+Alternativ strÃ¸m
+Aux
+Slettet
+Er trÃ¦
+
+
+Fejltype
+Fejl
+Fejl
+Advarsler
+Advarsel
+StrÃ¸mme
+Alternative strÃ¸mme
+StÃ¸rrelse pÃ¥ alternative strÃ¸mme
+Virtuel stÃ¸rrelse
+Udpakket stÃ¸rrelse
+Samlet fysiske stÃ¸rrelse
+Bind-indeks
+Undertype
+Kort kommentar
+TegnsÃ¦t
+
+
+
+HalestÃ¸rrelse
+Indlejret stumpstÃ¸rrelse
+Henvisning
+Fast henvisning
+iNode
+
+Skrivebeskyttet
+2100
+Funktioner
+Sprog
+Sprog:
+Redigering
+&Rediger:
+&Sammenlign:
+2200
+System
+Knyt 7-Zip til:
+Alle brugere
+2301
+Vis i Windows genvejsmenu
+Brug undermenu
+Punkter i genvejsmenu:
+Ikoner i genvejsmenu
+2320
+<Mappe>
+<Arkiv>
+Ã…bn arkiv
+Udpak filer...
+FÃ¸j til arkiv...
+Test arkiv
+Udpak her
+Udpak til {0}
+FÃ¸j til {0}
+Komprimer og vedhÃ¦ft i e-mail...
+Komprimer til {0} og vedhÃ¦ft i e-mail
+2400
+Mapper
+&Arbejdsmappe
+&Systemets midlertidige mappe
+&Aktuelle
+&Brugerdefineret:
+Brug kun til flytbare drev
+Angiv en placering til midlertidige arkivfiler.
+2500
+Indstillinger
+Vis ".."-element
+Vis rigtige filikoner
+Vis systemmenu
+&Marker hele rÃ¦kken
+Vis &gitter
+Ã…bn element med Ã©t klik
+&Alternativ markeringsmetode
+Brug &store hukommelsessider
+2900
+Om 7-Zip
+7-Zip er fri software
+3000
+Systemet kan ikke tildele den nÃ¸dvendige mÃ¦ngde hukommelse
+Der er ingen fejl
+{0} markerede element(er)
+Kan ikke oprette mappen "{0}"
+Arkivet understÃ¸tter ikke opdateringshandlinger.
+Kan ikke Ã¥bne filen "{0}" som arkiv
+Kan ikke Ã¥bne det krypterede arkiv "{0}". Forkert adgangskode?
+Arkivtypen er ikke understÃ¸ttet
+Filen {0} findes allerede
+Filen "{0}" er blevet Ã¦ndret.\nVil du opdatere den i arkivet?
+Kan ikke opdatere filen\n"{0}"
+Kan ikke starte redigering.
+Filen ligner en virus (filnavnet indeholder lange mellemrum i navn).
+Handlingen kan ikke kaldes fra en mappe som har en lang sti.
+Du skal vÃ¦lge en fil
+Du skal vÃ¦lge en eller flere filer
+For mange elementer
+Kan ikke Ã¥bne filen som {0}-arkiv
+Filen er Ã¥bnet som {0}-arkiv
+Arkivet er Ã¥bnet med forskydning
+3300
+Udpakker
+Komprimerer
+Tester
+Ã…bner...
+Skanner...
+Fjerner
+3320
+TilfÃ¸jer
+Opdaterer
+Analyserer
+Replikerer
+Ompakker
+Springer over
+Sletter
+Opretter hovede
+3400
+Udpak
+U&dpak til:
+Angiv en placering til udpakkede filer.
+3410
+Stitilstand:
+Fulde stinavne
+Ingen stinavne
+Absolutte stinavne
+Relative stinavne
+3420
+Overskrivningstilstand:
+SpÃ¸rg fÃ¸r overskrivning
+Overskriv uden at spÃ¸rge
+Spring eksisterende filer over
+Automatisk omdÃ¸bning
+Automatisk omdÃ¸bning af eksisterende filer
+3430
+Forhindr duplikering af rodmappe
+Genskab filsikkerhed
+3500
+BekrÃ¦ft filerstatning
+Destinationsmappen indeholder allerede behandlet fil.
+Vil du erstatte den eksisterende fil
+med denne?
+{0} byte
+A&utomatisk omdÃ¸bning
+3700
+Komprimeringsmetode for "{0}" er ikke understÃ¸ttet.
+Datafejl i "{0}". Filen er Ã¸delagt.
+CRC mislykkedes i "{0}". Filen er Ã¸delagt.
+Datafejl i den krypterede fil "{0}". Forkert adgangskode?
+CRC mislykkedes i den krypterede fil "{0}". Forkert adgangskode?
+3710
+Forkert adgangskode?
+3721
+Komprimeringsmetoden er ikke understÃ¸ttet
+Datafejl
+CRC mislykkedes
+UtilgÃ¦ngelig data
+Uventet slutning pÃ¥ data
+Der er data efter slutningen af nyttedataene
+Ikke et arkiv
+Fejl i hoveder
+Forkert adgangskode
+3763
+UtilgÃ¦ngelig begyndelse pÃ¥ arkiv
+UbekrÃ¦ftet begyndelse pÃ¥ arkiv
+
+
+
+Faciliteten understÃ¸ttes ikke
+3800
+Indtast adgangskode
+Indtast adgangskode:
+Indtast adgangskode igen:
+&Vis adgangskode
+Adgangskoderne er ikke ens
+Brug kun engelske bogstaver, numre og specialtegn (!, #, $, ...) til adgangskoden
+Adgangskoden er for lang
+Adgangskode
+3900
+ForlÃ¸bet tid:
+Resterende tid:
+Samlet stÃ¸rrelse:
+Hastighed:
+Behandlet:
+Komprimeringsforhold:
+Fejl:
+Arkiver:
+4000
+FÃ¸j til arkiv
+&Arkiv:
+O&pdateringstilstand:
+Arkiv&format:
+Komprimerings&niveau:
+Komprimerings&metode:
+StÃ¸rrelse pÃ¥ or&dbog:
+StÃ¸rrelse pÃ¥ &ord:
+StÃ¸rrelse pÃ¥ solid blok:
+Antal CPU-trÃ¥de:
+Pa&rametre:
+Funktioner
+Opret SF&X-arkiv
+Komprimer delte filer
+Kryptering
+Krypteringsmetode:
+Kr&ypter filnavne
+Hukommelsesforbrug ved komprimering:
+Hukommelsesforbrug ved udpakning:
+Slet filer efter komprimering
+4040
+Opbevar symbolske henvisninger
+Opbevar hÃ¥rde henvisninger
+Opbevar alternative datastrÃ¸mme
+Opbevar filsikkerhed
+4050
+Gem
+Hurtigst
+Hurtig
+Normal
+Maksimum
+Ultra
+4060
+TilfÃ¸j og erstat filer
+Opdater og tilfÃ¸j filer
+Opdater eksisterende filer
+Synkroniser filer
+4070
+Gennemse
+Alle filer
+Ikke-solid
+Solid
+6000
+Kopier
+Flyt
+Kopier til:
+Flyt til:
+Kopierer...
+Flytter...
+OmdÃ¸ber...
+VÃ¦lg destinationsmappen.
+Handlingen understÃ¸ttes ikke af denne mappe.
+Fejl under omdÃ¸bning af fil eller mappe
+BekrÃ¦ft kopiering af fil
+Er du sikker pÃ¥, at du vil kopiere filer til arkiv
+6100
+BekrÃ¦ft sletning af fil
+BekrÃ¦ft sletning af mappe
+BekrÃ¦ft sletning af flere filer
+Er du sikker pÃ¥, at du vil slette "{0}"?
+Er du sikker pÃ¥, at du vil slette mappen "{0}" og alt dens indhold?
+Er du sikker pÃ¥, at du vil slette disse {0} elementer?
+Sletter...
+Fejl under sletning af fil eller mappe
+Systemet kan ikke flytte en fil med lang sti til Papirkurven
+6300
+Opret mappe
+Opret fil
+Mappenavn:
+Filnavn:
+Ny mappe
+Ny fil
+Fejl under oprettelse af mappe
+Fejl under oprettelse af fil
+6400
+Kommentar
+&Kommentar:
+VÃ¦lg
+FravÃ¦lg
+Maske:
+6600
+Egenskaber
+Mappers historik
+Diagnostiske meddelelser
+Meddelelse
+7100
+Computer
+NetvÃ¦rk
+Dokumenter
+System
+7200
+TilfÃ¸j
+Udpak
+Test
+Kopier
+Flyt
+Slet
+Info
+7300
+Opdel fil
+&Opdel til:
+Opd&el i bind, byte:
+Opdeler...
+BekrÃ¦ft opdeling
+Er du sikker pÃ¥, at du vil opdele filen i {0} bind?
+StÃ¸rrelsen pÃ¥ bind skal vÃ¦re mindre end stÃ¸rrelsen pÃ¥ den originale fil
+Forkert stÃ¸rrelse pÃ¥ bind
+Angivet stÃ¸rrelse pÃ¥ bind: {0} byte.\nEr du sikker pÃ¥, at du vil opdele arkivet i disse bind?
+7400
+Kombiner filer
+&Kombiner til:
+Kombinerer...
+VÃ¦lg kun fÃ¸rste del af opdelt fil
+Kan ikke genkende fil, som del af opdelt fil
+Kan ikke finde mere end Ã©n del af opdelt fil
+7500
+Beregner checksum...
+Checksum information
+CRC-checksum for data:
+CRC-checksum for data og navne:
+7600
+Benchmark
+Hukommelsesforbrug:
+Komprimering
+Udpakning
+Vurdering
+Samlet vurdering
+Aktuelt
+Resultat
+CPU forbrug
+Vurdering/forbrug
+GennemlÃ¸b:
+7700
+Opret/rediger henvisning
+Opret/rediger henvisning
+Henvisning fra:
+Henvisning til:
+7710
+Henvisningstype
+Fast henvisning
+Fil symbolsk henvisning
+Mappe symbolsk henvisning
+Mappe forbindelsespunkt
