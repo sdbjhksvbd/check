@@ -1,0 +1,580 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for state report.
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof,
+    ConfigPointReport.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+// ***************************************************************************
+// delete the derived classes to allow changes to the base class.  The nofail flag means that
+//  mofcomp will not fail if the class does not exist
+
+#pragma deleteclass("PolicyPlatform_SingletonState", nofail)
+#pragma deleteclass("PolicyPlatform_CollectionState", nofail)
+
+
+
+// ***************************************************************************
+[
+    Abstract,
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a configuration point")
+]
+class PolicyPlatform_ConfigPointState
+{
+    [
+        key,
+        Description("ID of the Configuration point containing the selector.")
+    ]
+    uint32 ConfigPointId;
+
+    [
+        Description("Boolean indicating whether the value of configuration point changed or not. "
+            "It can be NULL when there is no intent on a configuration point.")
+    ]
+    boolean Changed;
+
+    [
+        Description("Boolean indicating whether the value of configuration point is no longer "
+            "intended or not. It can be NULL when a configuration point had no intent or no previous intent.")
+    ]
+    boolean NoLongerIntended;
+
+    [
+        Description("The CIMTYPE enumeration values + version enumeration (1001)")
+    ]
+    uint16 Type;
+
+    [
+        ValueMap{"0", "1", "2", "3", "4"},
+        Values{"None", "Set", "OrderedSet", "Sequence", "Bag"},
+        Description("Indicates whether config point is singleton or collection")
+    ]
+    uint8 CollectionType;
+
+    [
+        Description("Set of error ids which occurred during Discovery which apply to "
+            "this configuration point")
+    ]
+    uint32 DiscoveryErrorIds[];
+    
+    [
+        Description("Set of error ids which occurred during Reification which apply to "
+            "this configuration point")
+    ]
+    uint32 ReificationErrorIds[];
+};
+
+
+
+[
+    Abstract,
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a singleton configuration point. "
+        "Classes derived from this implement specific type of singleton configuration "
+        "point.")
+]
+class PolicyPlatform_SingletonState : PolicyPlatform_ConfigPointState
+{
+    [
+        Override,
+        ValueMap{0},
+        Values{"None"},
+        Description("singleton configuration point")
+    ]
+    uint8 CollectionType = 0;
+};
+
+// ***************************************************************************
+[
+    Abstract,
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a collection configuration point. "
+        "Classes derived from this implement specific type of collection configuration "
+        "point.")
+]
+class PolicyPlatform_CollectionState : PolicyPlatform_ConfigPointState
+{
+    [
+        Override,
+        ValueMap{1, 2, 3, 4},
+        Values{"Set", "OrderedSet", "Sequence", "Bag"},
+        Description("Collection configuration point")
+    ]
+    uint8 CollectionType;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a real 32bit configuration point.")
+]
+class PolicyPlatform_Real32State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    real32 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    real32 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a real 64bit configuration point.")
+]
+class PolicyPlatform_Real64State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    real64 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    real64 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 8bit configuration point.")
+]
+class PolicyPlatform_Sint8State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    sint8 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    sint8 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 8bit configuration point.")
+]
+class PolicyPlatform_Uint8State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    uint8 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    uint8 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 16bit configuration point.")
+]
+class PolicyPlatform_Sint16State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    sint16 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    sint16 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 16bit configuration point.")
+]
+class PolicyPlatform_Uint16State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    uint16 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    uint16 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 32bit configuration point.")
+]
+class PolicyPlatform_Sint32State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    sint32 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    sint32 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 32bit configuration point.")
+]
+class PolicyPlatform_Uint32State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    uint32 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    uint32 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 64bit configuration point.")
+]
+class PolicyPlatform_Sint64State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    sint64 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    sint64 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 64bit configuration point.")
+]
+class PolicyPlatform_Uint64State : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    uint64 ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    uint64 IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a boolean configuration point.")
+]
+class PolicyPlatform_BooleanState : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    boolean ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    boolean IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a datetime configuration point.")
+]
+class PolicyPlatform_DateTimeState : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    DateTime ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    DateTime IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a string configuration point.")
+]
+class PolicyPlatform_StringState : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    string ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    string IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a version configuration point.")
+]
+class PolicyPlatform_VersionState : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point.")]
+    string ExistingValue;
+
+    [Description("Intended value of the configuration point.")]
+    string IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a object configuration point.")
+]
+class PolicyPlatform_ObjectState : PolicyPlatform_SingletonState
+{
+    [Description("Existing value of the configuration point. Object value is in CIM-XML format.")]
+    string ExistingValue;
+
+    [Description("Intended value of the configuration point. Object value is in CIM-XML format.") ]
+    string IntendedValue;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a real 32bit collection configuration point.")
+]
+class PolicyPlatform_Real32CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    real32 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    real32 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a real 64bit collection configuration point.")
+]
+class PolicyPlatform_Real64CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    real64 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    real64 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 8bit collection configuration point.")
+]
+class PolicyPlatform_Sint8CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    sint8 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    sint8 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 8bit collection configuration point.")
+]
+class PolicyPlatform_Uint8CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    uint8 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    uint8 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 16bit collection configuration point.")
+]
+class PolicyPlatform_Sint16CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    sint16 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    sint16 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 16bit collection configuration point.")
+]
+class PolicyPlatform_Uint16CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    uint16 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    uint16 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 32bit collection configuration point.")
+]
+class PolicyPlatform_Sint32CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    sint32 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    sint32 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 32bit collection configuration point.")
+]
+class PolicyPlatform_Uint32CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    uint32 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    uint32 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a signed 64bit collection configuration point.")
+]
+class PolicyPlatform_Sint64CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    sint64 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    sint64 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a unsigned 64bit collection configuration point.")
+]
+class PolicyPlatform_Uint64CollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    uint64 ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    uint64 IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a boolean collection configuration point.")
+]
+class PolicyPlatform_BooleanCollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    boolean ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    boolean IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a DateTime collection configuration point.")
+]
+class PolicyPlatform_DateTimeCollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    DateTime ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    DateTime IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a string collection configuration point.")
+]
+class PolicyPlatform_StringCollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    string ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    string IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a version collection configuration point.")
+]
+class PolicyPlatform_VersionCollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point.")]
+    string ExistingValue[];
+
+    [Description("Intended value of the configuration point.")]
+    string IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("State information related to a object collection configuration point.")
+]
+class PolicyPlatform_ObjectCollectionState : PolicyPlatform_CollectionState
+{
+    [Description("Existing value of the configuration point. Object value is in CIM-XML format.")]
+    string ExistingValue[];
+
+    [Description("Intended value of the configuration point. Object value is in CIM-XML format.")]
+    string IntendedValue[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    DisplayName ("State Report"),
+    Description("A report which contains state information for configuration points.")
+]
+class PolicyPlatform_StateReport : PolicyPlatform_Report
+{
+    PolicyPlatform_ConfigPointState ConfigPoints[];
+};
