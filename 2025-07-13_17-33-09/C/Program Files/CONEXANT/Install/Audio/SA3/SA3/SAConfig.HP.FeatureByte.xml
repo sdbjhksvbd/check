@@ -1,0 +1,9 @@
+<SmartAudioConfiguration>
+  <!-- Skin settings -->
+  <ApplicationTitle>Audio Controls</ApplicationTitle>
+  <ApplicationTooltip>Audio Controls</ApplicationTooltip>
+
+  <!-- Special Setting -->
+  <UseAudioControls>true</UseAudioControls>
+  <EnabledFeatureByteBranding>true</EnabledFeatureByteBranding>
+</SmartAudioConfiguration>
