@@ -1,0 +1,152 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    mof source for Policy Processor.
+
+    This file will be processed by MOFCOMP utility to
+    register the provider with the WMI repository
+
+******************************************************************************/
+
+#pragma autorecover
+#pragma classflags("forceupdate")
+
+#pragma namespace("\\\\.\\Root\\Microsoft\\PolicyPlatform\\Processor")
+
+/////////////////////////////////////////////////////////////////////////////////
+// policy scope filter classes
+
+[
+    Abstract,
+    Description("Abstract filter")
+]
+class PolicyPlatform_ScopeFilter
+{
+};
+
+[
+    Description("Filter that allows name + authority to be specified")
+]
+class PolicyPlatform_DocumentScopeFilter : PolicyPlatform_ScopeFilter
+{
+    [
+        Required,
+        Description("Name of the authority that generated a document.")
+    ]
+    string Authority;
+
+    [
+        Required,
+        Description("Name of document.")
+    ]
+    string Name;
+};
+
+[
+    Description("Filter that allows an authority to be specified")
+]
+class PolicyPlatform_AuthorityScopeFilter : PolicyPlatform_ScopeFilter
+{
+    [
+        Required,
+        Description("Name of the authority that generated a document.")
+    ]
+    string Authority;
+};
+
+/////////////////////////////////////////////////////////////////////////////////
+// enactment context
+
+[
+    Description("Enactment Context")
+]
+class PolicyPlatform_EnactmentContext
+{
+    [   
+        Required,
+        Description("Domain of the context.")
+    ]
+    string Domain;
+    
+    [
+        Required,
+        Description("Value of the context.")
+    ]
+    string Value;
+};
+
+/////////////////////////////////////////////////////////////////////////////////
+// policy processor
+
+[
+    Dynamic,
+    Provider("PolicyPlatform_PolicyProcessorProvider"),
+    Description("Policy processor.")
+]
+class PolicyPlatform_PolicyProcessor
+{
+    [
+        Static,
+        Implemented,
+        Description("Enacts policies for given context.")
+    ]
+    uint32 Enact(
+        [in, ValueMap{"0", "1", "2"}, Values{"Remediate", "Simulate", "Inspect"}] uint32 Mode,
+        [in, ValueMap{"0", "1"}, Values{"Foreground", "Background"}] uint32 JobPriority,
+        [in] string JobDescription,
+        [in] PolicyPlatform_ScopeFilter Scope[],
+        [in] PolicyPlatform_EnactmentContext Context[],
+        [out] string JobId);
+};
+
+/////////////////////////////////////////////////////////////////////////////////
+// computer policy processor
+[
+    Dynamic,
+    Provider("PolicyPlatform_PolicyProcessorProvider"),
+    Description("Computer principal policy processor.")
+]
+class PolicyPlatform_ComputerPolicyProcessor
+{
+    [
+        Static,
+        Implemented,
+        Description("Enacts policies for the computer based on mode.")
+    ]
+    uint32 Enact(
+        [in, ValueMap{"0", "1", "2"}, Values{"Remediate", "Simulate", "Inspect"}] uint32 Mode,
+        [in, ValueMap{"0", "1"}, Values{"Foreground", "Background"}] uint32 JobPriority,
+        [in] string JobDescription,
+        [in] PolicyPlatform_ScopeFilter Scope[],
+        [in] string PrincipalId,
+        [out] string JobId);
+};
+
+/////////////////////////////////////////////////////////////////////////////////
+// user policy processor
+[
+    Dynamic,
+    Provider("PolicyPlatform_PolicyProcessorProvider"),
+    Description("User principal policy processor.")
+]
+class PolicyPlatform_UserPolicyProcessor
+{
+    [
+        Static,
+        Implemented,
+        Description("Enacts policy for a specified user based on mode.")
+    ]
+    uint32 Enact(
+        [in, ValueMap{"0", "1", "2"}, Values{"Remediate", "Simulate", "Inspect"}] uint32 Mode,
+        [in, ValueMap{"0", "1"}, Values{"Foreground", "Background"}] uint32 JobPriority,
+        [in] string JobDescription,
+        [in] PolicyPlatform_ScopeFilter Scope[],
+        [in] string PrincipalId,
+        [in] uint32 TemporalContext,
+        [in] uint64 UserToken,
+        [in] uint64 UserTokenSourceProcessId,
+        [in] uint32 UserSessionId,
+        [out] string JobId);
+};
+
