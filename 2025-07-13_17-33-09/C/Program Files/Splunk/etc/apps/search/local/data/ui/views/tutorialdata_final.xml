@@ -1,0 +1,294 @@
+<form version="1.1" theme="dark">
+  <label>tutorialdata_final</label>
+  <fieldset submitButton="true">
+    <input type="text" token="client_ip" searchWhenChanged="false">
+      <label>IP address</label>
+      <default>*</default>
+    </input>
+    <input type="time" token="time_picker" searchWhenChanged="true">
+      <label>Time</label>
+      <default>
+        <earliest>0</earliest>
+        <latest></latest>
+      </default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <event>
+        <title>Filtered Events</title>
+        <search>
+          <query>source="tutorialdata.zip:*" clientip=$client_ip$</query>
+          <earliest>$time_picker.earliest$</earliest>
+          <latest>$time_picker.latest$</latest>
+        </search>
+        <option name="list.drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </event>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Latest clients purchases</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| dedup clientip
+| eval successIndex=mvfind(file, "success.do")
+| eval timePurchase=mvindex(req_time, successIndex)
+| eval price=mvindex(other, successIndex)
+| eval clientip=mvindex(clientip, successIndex)
+| eval prodId = mvfilter(productId!="NULL")
+| table clientip timePurchase price prodId</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Number of unpurchesed items</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie 
+| stats dc(productId) as numProducts
+| eval countUnpurchesed=numProducts-[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+    | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+    | eval prodId=mvfilter(productId!="NULL") 
+    | stats dc(prodId) as numPurchesed
+    |  return $numPurchesed] 
+|  table countUnpurchesed</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most attractive refferer</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie
+| stats count by referer_domain
+| sort - by count</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Last clients purchases - DONTLOOK</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200
+ | stats count</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Most popular products in the best seller category</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| search 
+    [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+    | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do"
+    | eval catId=mvfilter(categoryId!="NULL")
+    | top 1 catId
+    | table catId
+    | rename catId as categoryId]
+| eval prodId=mvfilter(productId!="NULL")
+| rename prodId as productId
+| top 5 productId
+| lookup prices.csv productId</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Minimum Purchase Time</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie  
+| transaction JSESSIONID mvlist=true
+| eval indexSuccess=mvfind(file, "success.do")
+| search indexSuccess="*"
+| eval timeSuccess=strptime(mvindex(req_time,indexSuccess), "%d/%b/%Y:%H:%M:%S") 
+| eval timeLogin=strptime(mvindex(req_time,0), "%d/%b/%Y:%H:%M:%S") 
+| eval timeToPurchase=timeSuccess-timeLogin
+| stats min(timeToPurchase) as minPurchaseTime</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>max time between purchases</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200
+| streamstats window=2 min(_time) as prevTime max(_time) as purchaseTime
+| eval maxSecsDiffBetweenPurchases=purchaseTime-prevTime
+| stats max(maxSecsDiffBetweenPurchases)</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>top 5 prodects in the best seller category - DONTLOOK</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+| stats count</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>growth by percent</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200
+| eval date=substr(req_time,0,11)
+| stats sum(other) as income count max(_time) as timeToSort by date
+| sort timeToSort
+| fields - timeToSort
+| streamstats window=2 first(income) as prevIncome last(income) as lastIncome
+| eval growthPerc=(lastIncome-prevIncome)/prevIncome*100
+| reverse</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>DONTLOOK</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+| stats count</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most following purchases</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| eval prodId=mvfilter(productId!="NULL")
+| table prodId
+| streamstats window=2 max(prodId) as prod1 min(prodId) as prod2
+| eval followingSales = prod1+ "----&gt;" + prod2
+| stats count by followingSales
+| sort - count</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>number of different purchases and different products by user</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action="purchase"
+    [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie status=200 
+    | dedup clientip 
+    |  table clientip]
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| eval prodId=mvfilter(productId!="NULL")
+| stats count as countOfPurchases dc(prodId) by clientip</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most active user per day</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie
+| top 1 clientip by date_wday
+| eval dayIndex=case(date_wday=="sunday",1,date_wday=="monday",2,date_wday=="tuesday",3,date_wday=="wednesday",4,date_wday=="thursday",5,date_wday=="friday",6,date_wday=="saturday",7)
+| sort dayIndex
+| fields - dayIndex</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>DONTLOOK</title>
+        <search>
+          <query>source="tutorialdata.zip:*" sourcetype=access_combined_wcookie 
+| stats dc(productId) as numProducts
+| eval countUnpurchesed=numProducts-[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+    | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+    | eval prodId=mvfilter(productId!="NULL") 
+    | stats dc(prodId) as numPurchesed
+    |  return $numPurchesed] 
+|  table countUnpurchesed</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+</form>
