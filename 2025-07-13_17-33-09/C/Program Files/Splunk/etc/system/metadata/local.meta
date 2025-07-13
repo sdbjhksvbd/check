@@ -1,0 +1,51 @@
+[server/sslConfig]
+version = 8.1.0
+modtime = 1700569582.315896500
+
+[server/general]
+version = 8.1.0
+modtime = 1700569632.690732400
+
+[server/lmpool%3Aauto_generated_pool_download-trial]
+version = 8.1.0
+modtime = 1700569632.706353100
+
+[server/lmpool%3Aauto_generated_pool_forwarder]
+version = 8.1.0
+modtime = 1700569632.721974400
+
+[server/lmpool%3Aauto_generated_pool_free]
+version = 8.1.0
+modtime = 1700569632.737625300
+
+[server/license]
+version = 8.2.0
+modtime = 1749469165.189148600
+
+[restmap/admin%3Aserver-info]
+version = 8.2.0
+modtime = 1749469375.150393400
+
+[restmap/admin%3Aserver-info-alias]
+version = 8.2.0
+modtime = 1749469375.183466000
+
+[web/settings]
+version = 9.2.1
+modtime = 1751278770.201065400
+
+[server/diskUsage]
+version = 8.2.0
+modtime = 1749710874.625195600
+
+[indexes/main]
+version = 8.2.0
+modtime = 1749724045.881249200
+
+[server/kvstore]
+version = 9.2.1
+modtime = 1751269101.761697000
+
+[props/csv2]
+version = 9.2.1
+modtime = 1751270669.525475300
