@@ -1,0 +1,20 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    Creates namespaces required for schemas
+ 
+******************************************************************************/
+
+#pragma autorecover
+
+#pragma namespace("\\\\.\\Root\\Microsoft\\PolicyPlatform")
+
+[
+    Locale(1033) : ToInstance
+]
+Instance of __Namespace
+{
+    Name = "Processor";
+};
+
