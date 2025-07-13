@@ -1,0 +1,621 @@
+2025-06-08 23:01:08,752 INFO 39380 - Could not find synced splunkbase apps so using the constant file
+2025-06-08 23:01:08,753 INFO 39380 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\libs_py3\pura_libs_utils\splunkbaseapps.csv
+2025-06-08 23:01:08,854 INFO 39380 - Fetching apps limit- 100 and offset- 0
+2025-06-08 23:01:09,625 INFO 39380 - Fetching apps limit- 100 and offset- 100
+2025-06-08 23:01:10,248 INFO 39380 - Fetching apps limit- 100 and offset- 200
+2025-06-08 23:01:10,853 INFO 39380 - Fetching apps limit- 100 and offset- 300
+2025-06-08 23:01:11,471 INFO 39380 - Fetching apps limit- 100 and offset- 400
+2025-06-08 23:01:12,080 INFO 39380 - Fetching apps limit- 100 and offset- 500
+2025-06-08 23:01:12,678 INFO 39380 - Fetching apps limit- 100 and offset- 600
+2025-06-08 23:01:13,306 INFO 39380 - Fetching apps limit- 100 and offset- 700
+2025-06-08 23:01:13,914 INFO 39380 - Fetching apps limit- 100 and offset- 800
+2025-06-08 23:01:14,513 INFO 39380 - Fetching apps limit- 100 and offset- 900
+2025-06-08 23:01:15,103 INFO 39380 - Fetching apps limit- 100 and offset- 1000
+2025-06-08 23:01:15,700 INFO 39380 - Fetching apps limit- 100 and offset- 1100
+2025-06-08 23:01:16,303 INFO 39380 - Fetching apps limit- 100 and offset- 1200
+2025-06-08 23:01:16,917 INFO 39380 - Fetching apps limit- 100 and offset- 1300
+2025-06-08 23:01:17,510 INFO 39380 - Fetching apps limit- 100 and offset- 1400
+2025-06-08 23:01:18,116 INFO 39380 - Fetching apps limit- 100 and offset- 1500
+2025-06-08 23:01:18,739 INFO 39380 - Fetching apps limit- 100 and offset- 1600
+2025-06-08 23:01:19,349 INFO 39380 - Fetching apps limit- 100 and offset- 1700
+2025-06-08 23:01:19,929 INFO 39380 - Fetching apps limit- 100 and offset- 1800
+2025-06-08 23:01:20,505 INFO 39380 - Successfully fetched all the apps
+2025-06-08 23:01:20,529 INFO 39380 - Creating dir C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local as it not present
+2025-06-08 23:01:20,530 INFO 39380 - Creating dir C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list as it not present
+2025-06-08 23:01:20,530 INFO 39380 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749412880.csv
+2025-06-08 23:01:20,552 INFO 39380 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749412880.csv
+2025-06-09 23:02:07,726 INFO 20904 - Found a synced splunkbase file
+2025-06-09 23:02:07,726 INFO 20904 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749412880.csv
+2025-06-09 23:02:07,930 INFO 20904 - Fetching apps limit- 100 and offset- 0
+2025-06-09 23:02:08,750 INFO 20904 - Fetching apps limit- 100 and offset- 100
+2025-06-09 23:02:09,374 INFO 20904 - Fetching apps limit- 100 and offset- 200
+2025-06-09 23:02:10,010 INFO 20904 - Fetching apps limit- 100 and offset- 300
+2025-06-09 23:02:10,652 INFO 20904 - Fetching apps limit- 100 and offset- 400
+2025-06-09 23:02:11,286 INFO 20904 - Fetching apps limit- 100 and offset- 500
+2025-06-09 23:02:11,931 INFO 20904 - Fetching apps limit- 100 and offset- 600
+2025-06-09 23:02:12,554 INFO 20904 - Fetching apps limit- 100 and offset- 700
+2025-06-09 23:02:13,169 INFO 20904 - Fetching apps limit- 100 and offset- 800
+2025-06-09 23:02:13,831 INFO 20904 - Fetching apps limit- 100 and offset- 900
+2025-06-09 23:02:14,455 INFO 20904 - Fetching apps limit- 100 and offset- 1000
+2025-06-09 23:02:15,091 INFO 20904 - Fetching apps limit- 100 and offset- 1100
+2025-06-09 23:02:15,711 INFO 20904 - Fetching apps limit- 100 and offset- 1200
+2025-06-09 23:02:16,327 INFO 20904 - Fetching apps limit- 100 and offset- 1300
+2025-06-09 23:02:16,961 INFO 20904 - Fetching apps limit- 100 and offset- 1400
+2025-06-09 23:02:17,613 INFO 20904 - Fetching apps limit- 100 and offset- 1500
+2025-06-09 23:02:18,253 INFO 20904 - Fetching apps limit- 100 and offset- 1600
+2025-06-09 23:02:18,857 INFO 20904 - Fetching apps limit- 100 and offset- 1700
+2025-06-09 23:02:19,446 INFO 20904 - Fetching apps limit- 100 and offset- 1800
+2025-06-09 23:02:20,032 INFO 20904 - Successfully fetched all the apps
+2025-06-09 23:02:20,053 INFO 20904 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749499340.csv
+2025-06-09 23:02:20,076 INFO 20904 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749499340.csv
+2025-06-09 23:02:20,076 INFO 20904 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749412880.csv as they are previous synced files
+2025-06-10 23:02:11,214 INFO 39600 - Found a synced splunkbase file
+2025-06-10 23:02:11,214 INFO 39600 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749499340.csv
+2025-06-10 23:02:11,436 INFO 39600 - Fetching apps limit- 100 and offset- 0
+2025-06-10 23:02:12,230 INFO 39600 - Fetching apps limit- 100 and offset- 100
+2025-06-10 23:02:12,880 INFO 39600 - Fetching apps limit- 100 and offset- 200
+2025-06-10 23:02:13,538 INFO 39600 - Fetching apps limit- 100 and offset- 300
+2025-06-10 23:02:14,167 INFO 39600 - Fetching apps limit- 100 and offset- 400
+2025-06-10 23:02:14,816 INFO 39600 - Fetching apps limit- 100 and offset- 500
+2025-06-10 23:02:15,460 INFO 39600 - Fetching apps limit- 100 and offset- 600
+2025-06-10 23:02:16,086 INFO 39600 - Fetching apps limit- 100 and offset- 700
+2025-06-10 23:02:16,713 INFO 39600 - Fetching apps limit- 100 and offset- 800
+2025-06-10 23:02:17,368 INFO 39600 - Fetching apps limit- 100 and offset- 900
+2025-06-10 23:02:17,969 INFO 39600 - Fetching apps limit- 100 and offset- 1000
+2025-06-10 23:02:18,655 INFO 39600 - Fetching apps limit- 100 and offset- 1100
+2025-06-10 23:02:19,282 INFO 39600 - Fetching apps limit- 100 and offset- 1200
+2025-06-10 23:02:19,906 INFO 39600 - Fetching apps limit- 100 and offset- 1300
+2025-06-10 23:02:20,521 INFO 39600 - Fetching apps limit- 100 and offset- 1400
+2025-06-10 23:02:21,171 INFO 39600 - Fetching apps limit- 100 and offset- 1500
+2025-06-10 23:02:21,799 INFO 39600 - Fetching apps limit- 100 and offset- 1600
+2025-06-10 23:02:22,407 INFO 39600 - Fetching apps limit- 100 and offset- 1700
+2025-06-10 23:02:23,006 INFO 39600 - Fetching apps limit- 100 and offset- 1800
+2025-06-10 23:02:23,596 INFO 39600 - Successfully fetched all the apps
+2025-06-10 23:02:23,619 INFO 39600 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749585743.csv
+2025-06-10 23:02:23,643 INFO 39600 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749585743.csv
+2025-06-10 23:02:23,644 INFO 39600 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749499340.csv as they are previous synced files
+2025-06-11 23:03:57,403 INFO 43980 - Found a synced splunkbase file
+2025-06-11 23:03:57,404 INFO 43980 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749585743.csv
+2025-06-11 23:03:57,627 INFO 43980 - Fetching apps limit- 100 and offset- 0
+2025-06-11 23:04:08,698 ERROR 43980 - Error getting apps: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000018D6005E5C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Splunk\Python-3.7\lib\socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000018D6005E5C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000018D6005E5C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_get_all_apps.py", line 147, in get_apps
+    response = requests.get(url=BASE_URL, params=PARAMS)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000018D6005E5C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2025-06-12 23:05:22,593 INFO 13600 - Found a synced splunkbase file
+2025-06-12 23:05:22,593 INFO 13600 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749585743.csv
+2025-06-12 23:05:22,822 INFO 13600 - Fetching apps limit- 100 and offset- 0
+2025-06-12 23:05:22,848 ERROR 13600 - Error getting apps: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002424FDEFD88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Splunk\Python-3.7\lib\socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002424FDEFD88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002424FDEFD88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_get_all_apps.py", line 147, in get_apps
+    response = requests.get(url=BASE_URL, params=PARAMS)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002424FDEFD88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2025-06-13 23:28:42,184 INFO 12992 - Found a synced splunkbase file
+2025-06-13 23:28:42,185 INFO 12992 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749585743.csv
+2025-06-13 23:28:42,437 INFO 12992 - Fetching apps limit- 100 and offset- 0
+2025-06-13 23:28:43,284 INFO 12992 - Fetching apps limit- 100 and offset- 100
+2025-06-13 23:28:43,889 INFO 12992 - Fetching apps limit- 100 and offset- 200
+2025-06-13 23:28:44,509 INFO 12992 - Fetching apps limit- 100 and offset- 300
+2025-06-13 23:28:45,151 INFO 12992 - Fetching apps limit- 100 and offset- 400
+2025-06-13 23:28:45,771 INFO 12992 - Fetching apps limit- 100 and offset- 500
+2025-06-13 23:28:46,387 INFO 12992 - Fetching apps limit- 100 and offset- 600
+2025-06-13 23:28:47,011 INFO 12992 - Fetching apps limit- 100 and offset- 700
+2025-06-13 23:28:47,623 INFO 12992 - Fetching apps limit- 100 and offset- 800
+2025-06-13 23:28:48,270 INFO 12992 - Fetching apps limit- 100 and offset- 900
+2025-06-13 23:28:48,877 INFO 12992 - Fetching apps limit- 100 and offset- 1000
+2025-06-13 23:28:49,513 INFO 12992 - Fetching apps limit- 100 and offset- 1100
+2025-06-13 23:28:50,128 INFO 12992 - Fetching apps limit- 100 and offset- 1200
+2025-06-13 23:28:50,743 INFO 12992 - Fetching apps limit- 100 and offset- 1300
+2025-06-13 23:28:51,379 INFO 12992 - Fetching apps limit- 100 and offset- 1400
+2025-06-13 23:28:52,012 INFO 12992 - Fetching apps limit- 100 and offset- 1500
+2025-06-13 23:28:52,622 INFO 12992 - Fetching apps limit- 100 and offset- 1600
+2025-06-13 23:28:53,214 INFO 12992 - Fetching apps limit- 100 and offset- 1700
+2025-06-13 23:28:53,799 INFO 12992 - Fetching apps limit- 100 and offset- 1800
+2025-06-13 23:28:54,408 INFO 12992 - Successfully fetched all the apps
+2025-06-13 23:28:54,440 INFO 12992 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749846534.csv
+2025-06-13 23:28:54,468 INFO 12992 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749846534.csv
+2025-06-13 23:28:54,469 INFO 12992 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749585743.csv as they are previous synced files
+2025-06-14 23:27:08,614 INFO 37928 - Found a synced splunkbase file
+2025-06-14 23:27:08,614 INFO 37928 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749846534.csv
+2025-06-14 23:27:08,905 INFO 37928 - Fetching apps limit- 100 and offset- 0
+2025-06-14 23:27:09,705 INFO 37928 - Fetching apps limit- 100 and offset- 100
+2025-06-14 23:27:10,337 INFO 37928 - Fetching apps limit- 100 and offset- 200
+2025-06-14 23:27:10,965 INFO 37928 - Fetching apps limit- 100 and offset- 300
+2025-06-14 23:27:11,604 INFO 37928 - Fetching apps limit- 100 and offset- 400
+2025-06-14 23:27:12,251 INFO 37928 - Fetching apps limit- 100 and offset- 500
+2025-06-14 23:27:12,913 INFO 37928 - Fetching apps limit- 100 and offset- 600
+2025-06-14 23:27:13,558 INFO 37928 - Fetching apps limit- 100 and offset- 700
+2025-06-14 23:27:14,192 INFO 37928 - Fetching apps limit- 100 and offset- 800
+2025-06-14 23:27:14,870 INFO 37928 - Fetching apps limit- 100 and offset- 900
+2025-06-14 23:27:15,485 INFO 37928 - Fetching apps limit- 100 and offset- 1000
+2025-06-14 23:27:16,109 INFO 37928 - Fetching apps limit- 100 and offset- 1100
+2025-06-14 23:27:16,744 INFO 37928 - Fetching apps limit- 100 and offset- 1200
+2025-06-14 23:27:17,410 INFO 37928 - Fetching apps limit- 100 and offset- 1300
+2025-06-14 23:27:18,037 INFO 37928 - Fetching apps limit- 100 and offset- 1400
+2025-06-14 23:27:19,262 INFO 37928 - Fetching apps limit- 100 and offset- 1500
+2025-06-14 23:27:19,909 INFO 37928 - Fetching apps limit- 100 and offset- 1600
+2025-06-14 23:27:20,576 INFO 37928 - Fetching apps limit- 100 and offset- 1700
+2025-06-14 23:27:21,173 INFO 37928 - Fetching apps limit- 100 and offset- 1800
+2025-06-14 23:27:21,769 INFO 37928 - Successfully fetched all the apps
+2025-06-14 23:27:21,805 INFO 37928 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749932841.csv
+2025-06-14 23:27:21,843 INFO 37928 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749932841.csv
+2025-06-14 23:27:21,844 INFO 37928 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749846534.csv as they are previous synced files
+2025-06-15 23:47:10,981 INFO 43968 - Found a synced splunkbase file
+2025-06-15 23:47:10,982 INFO 43968 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749932841.csv
+2025-06-15 23:47:11,240 INFO 43968 - Fetching apps limit- 100 and offset- 0
+2025-06-15 23:47:12,047 INFO 43968 - Fetching apps limit- 100 and offset- 100
+2025-06-15 23:47:12,681 INFO 43968 - Fetching apps limit- 100 and offset- 200
+2025-06-15 23:47:13,329 INFO 43968 - Fetching apps limit- 100 and offset- 300
+2025-06-15 23:47:13,973 INFO 43968 - Fetching apps limit- 100 and offset- 400
+2025-06-15 23:47:14,605 INFO 43968 - Fetching apps limit- 100 and offset- 500
+2025-06-15 23:47:15,240 INFO 43968 - Fetching apps limit- 100 and offset- 600
+2025-06-15 23:47:15,864 INFO 43968 - Fetching apps limit- 100 and offset- 700
+2025-06-15 23:47:16,480 INFO 43968 - Fetching apps limit- 100 and offset- 800
+2025-06-15 23:47:17,106 INFO 43968 - Fetching apps limit- 100 and offset- 900
+2025-06-15 23:47:17,789 INFO 43968 - Fetching apps limit- 100 and offset- 1000
+2025-06-15 23:47:18,420 INFO 43968 - Fetching apps limit- 100 and offset- 1100
+2025-06-15 23:47:19,043 INFO 43968 - Fetching apps limit- 100 and offset- 1200
+2025-06-15 23:47:19,661 INFO 43968 - Fetching apps limit- 100 and offset- 1300
+2025-06-15 23:47:20,278 INFO 43968 - Fetching apps limit- 100 and offset- 1400
+2025-06-15 23:47:20,904 INFO 43968 - Fetching apps limit- 100 and offset- 1500
+2025-06-15 23:47:21,523 INFO 43968 - Fetching apps limit- 100 and offset- 1600
+2025-06-15 23:47:22,122 INFO 43968 - Fetching apps limit- 100 and offset- 1700
+2025-06-15 23:47:22,712 INFO 43968 - Fetching apps limit- 100 and offset- 1800
+2025-06-15 23:47:23,312 INFO 43968 - Successfully fetched all the apps
+2025-06-15 23:47:23,341 INFO 43968 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750020443.csv
+2025-06-15 23:47:23,370 INFO 43968 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750020443.csv
+2025-06-15 23:47:23,370 INFO 43968 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749932841.csv as they are previous synced files
+2025-06-17 00:09:36,983 INFO 47916 - Found a synced splunkbase file
+2025-06-17 00:09:36,985 INFO 47916 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750020443.csv
+2025-06-17 00:09:37,301 INFO 47916 - Fetching apps limit- 100 and offset- 0
+2025-06-17 00:09:39,083 INFO 47916 - Fetching apps limit- 100 and offset- 100
+2025-06-17 00:09:39,720 INFO 47916 - Fetching apps limit- 100 and offset- 200
+2025-06-17 00:09:40,372 INFO 47916 - Fetching apps limit- 100 and offset- 300
+2025-06-17 00:09:41,015 INFO 47916 - Fetching apps limit- 100 and offset- 400
+2025-06-17 00:09:41,647 INFO 47916 - Fetching apps limit- 100 and offset- 500
+2025-06-17 00:09:42,279 INFO 47916 - Fetching apps limit- 100 and offset- 600
+2025-06-17 00:09:42,912 INFO 47916 - Fetching apps limit- 100 and offset- 700
+2025-06-17 00:09:43,547 INFO 47916 - Fetching apps limit- 100 and offset- 800
+2025-06-17 00:09:44,176 INFO 47916 - Fetching apps limit- 100 and offset- 900
+2025-06-17 00:09:44,813 INFO 47916 - Fetching apps limit- 100 and offset- 1000
+2025-06-17 00:09:45,469 INFO 47916 - Fetching apps limit- 100 and offset- 1100
+2025-06-17 00:09:46,088 INFO 47916 - Fetching apps limit- 100 and offset- 1200
+2025-06-17 00:09:46,725 INFO 47916 - Fetching apps limit- 100 and offset- 1300
+2025-06-17 00:09:47,363 INFO 47916 - Fetching apps limit- 100 and offset- 1400
+2025-06-17 00:09:47,991 INFO 47916 - Fetching apps limit- 100 and offset- 1500
+2025-06-17 00:09:48,640 INFO 47916 - Fetching apps limit- 100 and offset- 1600
+2025-06-17 00:09:49,250 INFO 47916 - Fetching apps limit- 100 and offset- 1700
+2025-06-17 00:09:49,834 INFO 47916 - Fetching apps limit- 100 and offset- 1800
+2025-06-17 00:09:50,432 INFO 47916 - Successfully fetched all the apps
+2025-06-17 00:09:50,461 INFO 47916 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750108190.csv
+2025-06-17 00:09:50,488 INFO 47916 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750108190.csv
+2025-06-17 00:09:50,489 INFO 47916 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750020443.csv as they are previous synced files
+2025-06-18 09:35:14,488 INFO 47540 - Found a synced splunkbase file
+2025-06-18 09:35:14,489 INFO 47540 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750108190.csv
+2025-06-18 09:35:14,709 INFO 47540 - Fetching apps limit- 100 and offset- 0
+2025-06-18 09:35:15,511 INFO 47540 - Fetching apps limit- 100 and offset- 100
+2025-06-18 09:35:16,145 INFO 47540 - Fetching apps limit- 100 and offset- 200
+2025-06-18 09:35:16,846 INFO 47540 - Fetching apps limit- 100 and offset- 300
+2025-06-18 09:35:17,478 INFO 47540 - Fetching apps limit- 100 and offset- 400
+2025-06-18 09:35:18,116 INFO 47540 - Fetching apps limit- 100 and offset- 500
+2025-06-18 09:35:18,770 INFO 47540 - Fetching apps limit- 100 and offset- 600
+2025-06-18 09:35:19,774 INFO 47540 - Fetching apps limit- 100 and offset- 700
+2025-06-18 09:35:20,439 INFO 47540 - Fetching apps limit- 100 and offset- 800
+2025-06-18 09:35:21,128 INFO 47540 - Fetching apps limit- 100 and offset- 900
+2025-06-18 09:35:21,766 INFO 47540 - Fetching apps limit- 100 and offset- 1000
+2025-06-18 09:35:22,423 INFO 47540 - Fetching apps limit- 100 and offset- 1100
+2025-06-18 09:35:23,059 INFO 47540 - Fetching apps limit- 100 and offset- 1200
+2025-06-18 09:35:23,686 INFO 47540 - Fetching apps limit- 100 and offset- 1300
+2025-06-18 09:35:24,322 INFO 47540 - Fetching apps limit- 100 and offset- 1400
+2025-06-18 09:35:24,966 INFO 47540 - Fetching apps limit- 100 and offset- 1500
+2025-06-18 09:35:25,591 INFO 47540 - Fetching apps limit- 100 and offset- 1600
+2025-06-18 09:35:26,205 INFO 47540 - Fetching apps limit- 100 and offset- 1700
+2025-06-18 09:35:26,806 INFO 47540 - Fetching apps limit- 100 and offset- 1800
+2025-06-18 09:35:27,398 INFO 47540 - Successfully fetched all the apps
+2025-06-18 09:35:27,423 INFO 47540 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750228527.csv
+2025-06-18 09:35:27,446 INFO 47540 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750228527.csv
+2025-06-18 09:35:27,448 INFO 47540 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750108190.csv as they are previous synced files
+2025-06-18 23:30:15,515 INFO 41104 - Found a synced splunkbase file
+2025-06-18 23:30:15,517 INFO 41104 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750228527.csv
+2025-06-18 23:30:15,773 INFO 41104 - Fetching apps limit- 100 and offset- 0
+2025-06-18 23:30:16,603 INFO 41104 - Fetching apps limit- 100 and offset- 100
+2025-06-18 23:30:17,246 INFO 41104 - Fetching apps limit- 100 and offset- 200
+2025-06-18 23:30:17,884 INFO 41104 - Fetching apps limit- 100 and offset- 300
+2025-06-18 23:30:18,539 INFO 41104 - Fetching apps limit- 100 and offset- 400
+2025-06-18 23:30:19,187 INFO 41104 - Fetching apps limit- 100 and offset- 500
+2025-06-18 23:30:19,840 INFO 41104 - Fetching apps limit- 100 and offset- 600
+2025-06-18 23:30:20,502 INFO 41104 - Fetching apps limit- 100 and offset- 700
+2025-06-18 23:30:21,146 INFO 41104 - Fetching apps limit- 100 and offset- 800
+2025-06-18 23:30:21,781 INFO 41104 - Fetching apps limit- 100 and offset- 900
+2025-06-18 23:30:22,427 INFO 41104 - Fetching apps limit- 100 and offset- 1000
+2025-06-18 23:30:23,058 INFO 41104 - Fetching apps limit- 100 and offset- 1100
+2025-06-18 23:30:23,721 INFO 41104 - Fetching apps limit- 100 and offset- 1200
+2025-06-18 23:30:24,350 INFO 41104 - Fetching apps limit- 100 and offset- 1300
+2025-06-18 23:30:24,993 INFO 41104 - Fetching apps limit- 100 and offset- 1400
+2025-06-18 23:30:25,648 INFO 41104 - Fetching apps limit- 100 and offset- 1500
+2025-06-18 23:30:26,271 INFO 41104 - Fetching apps limit- 100 and offset- 1600
+2025-06-18 23:30:26,900 INFO 41104 - Fetching apps limit- 100 and offset- 1700
+2025-06-18 23:30:27,507 INFO 41104 - Fetching apps limit- 100 and offset- 1800
+2025-06-18 23:30:28,128 INFO 41104 - Successfully fetched all the apps
+2025-06-18 23:30:28,162 INFO 41104 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750278628.csv
+2025-06-18 23:30:28,193 INFO 41104 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750278628.csv
+2025-06-18 23:30:28,193 INFO 41104 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750228527.csv as they are previous synced files
+2025-06-19 23:33:06,451 INFO 4572 - Found a synced splunkbase file
+2025-06-19 23:33:06,452 INFO 4572 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750278628.csv
+2025-06-19 23:33:06,612 INFO 4572 - Fetching apps limit- 100 and offset- 0
+2025-06-19 23:33:07,461 INFO 4572 - Fetching apps limit- 100 and offset- 100
+2025-06-19 23:33:08,108 INFO 4572 - Fetching apps limit- 100 and offset- 200
+2025-06-19 23:33:08,764 INFO 4572 - Fetching apps limit- 100 and offset- 300
+2025-06-19 23:33:09,415 INFO 4572 - Fetching apps limit- 100 and offset- 400
+2025-06-19 23:33:10,065 INFO 4572 - Fetching apps limit- 100 and offset- 500
+2025-06-19 23:33:10,694 INFO 4572 - Fetching apps limit- 100 and offset- 600
+2025-06-19 23:33:11,322 INFO 4572 - Fetching apps limit- 100 and offset- 700
+2025-06-19 23:33:11,991 INFO 4572 - Fetching apps limit- 100 and offset- 800
+2025-06-19 23:33:12,609 INFO 4572 - Fetching apps limit- 100 and offset- 900
+2025-06-19 23:33:13,276 INFO 4572 - Fetching apps limit- 100 and offset- 1000
+2025-06-19 23:33:13,920 INFO 4572 - Fetching apps limit- 100 and offset- 1100
+2025-06-19 23:33:14,564 INFO 4572 - Fetching apps limit- 100 and offset- 1200
+2025-06-19 23:33:15,182 INFO 4572 - Fetching apps limit- 100 and offset- 1300
+2025-06-19 23:33:15,818 INFO 4572 - Fetching apps limit- 100 and offset- 1400
+2025-06-19 23:33:16,451 INFO 4572 - Fetching apps limit- 100 and offset- 1500
+2025-06-19 23:33:17,087 INFO 4572 - Fetching apps limit- 100 and offset- 1600
+2025-06-19 23:33:17,712 INFO 4572 - Fetching apps limit- 100 and offset- 1700
+2025-06-19 23:33:18,334 INFO 4572 - Fetching apps limit- 100 and offset- 1800
+2025-06-19 23:33:18,941 INFO 4572 - Successfully fetched all the apps
+2025-06-19 23:33:18,958 INFO 4572 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750365198.csv
+2025-06-19 23:33:18,974 INFO 4572 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750365198.csv
+2025-06-19 23:33:18,974 INFO 4572 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750278628.csv as they are previous synced files
+2025-06-20 23:30:42,591 INFO 972 - Found a synced splunkbase file
+2025-06-20 23:30:42,591 INFO 972 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750365198.csv
+2025-06-20 23:30:42,751 INFO 972 - Fetching apps limit- 100 and offset- 0
+2025-06-20 23:30:43,507 INFO 972 - Fetching apps limit- 100 and offset- 100
+2025-06-20 23:30:44,124 INFO 972 - Fetching apps limit- 100 and offset- 200
+2025-06-20 23:30:44,764 INFO 972 - Fetching apps limit- 100 and offset- 300
+2025-06-20 23:30:45,401 INFO 972 - Fetching apps limit- 100 and offset- 400
+2025-06-20 23:30:46,082 INFO 972 - Fetching apps limit- 100 and offset- 500
+2025-06-20 23:30:46,711 INFO 972 - Fetching apps limit- 100 and offset- 600
+2025-06-20 23:30:47,343 INFO 972 - Fetching apps limit- 100 and offset- 700
+2025-06-20 23:30:47,958 INFO 972 - Fetching apps limit- 100 and offset- 800
+2025-06-20 23:30:48,592 INFO 972 - Fetching apps limit- 100 and offset- 900
+2025-06-20 23:30:49,232 INFO 972 - Fetching apps limit- 100 and offset- 1000
+2025-06-20 23:30:49,865 INFO 972 - Fetching apps limit- 100 and offset- 1100
+2025-06-20 23:30:50,504 INFO 972 - Fetching apps limit- 100 and offset- 1200
+2025-06-20 23:30:51,135 INFO 972 - Fetching apps limit- 100 and offset- 1300
+2025-06-20 23:30:51,769 INFO 972 - Fetching apps limit- 100 and offset- 1400
+2025-06-20 23:30:52,410 INFO 972 - Fetching apps limit- 100 and offset- 1500
+2025-06-20 23:30:53,062 INFO 972 - Fetching apps limit- 100 and offset- 1600
+2025-06-20 23:30:53,688 INFO 972 - Fetching apps limit- 100 and offset- 1700
+2025-06-20 23:30:54,293 INFO 972 - Fetching apps limit- 100 and offset- 1800
+2025-06-20 23:30:54,906 INFO 972 - Successfully fetched all the apps
+2025-06-20 23:30:54,922 INFO 972 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750451454.csv
+2025-06-20 23:30:54,939 INFO 972 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750451454.csv
+2025-06-20 23:30:54,939 INFO 972 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750365198.csv as they are previous synced files
+2025-06-23 15:36:42,443 INFO 13664 - Found a synced splunkbase file
+2025-06-23 15:36:42,443 INFO 13664 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750451454.csv
+2025-06-23 15:36:42,598 INFO 13664 - Fetching apps limit- 100 and offset- 0
+2025-06-23 15:36:43,393 INFO 13664 - Fetching apps limit- 100 and offset- 100
+2025-06-23 15:36:44,038 INFO 13664 - Fetching apps limit- 100 and offset- 200
+2025-06-23 15:36:44,695 INFO 13664 - Fetching apps limit- 100 and offset- 300
+2025-06-23 15:36:45,342 INFO 13664 - Fetching apps limit- 100 and offset- 400
+2025-06-23 15:36:45,998 INFO 13664 - Fetching apps limit- 100 and offset- 500
+2025-06-23 15:36:46,638 INFO 13664 - Fetching apps limit- 100 and offset- 600
+2025-06-23 15:36:47,294 INFO 13664 - Fetching apps limit- 100 and offset- 700
+2025-06-23 15:36:47,930 INFO 13664 - Fetching apps limit- 100 and offset- 800
+2025-06-23 15:36:48,579 INFO 13664 - Fetching apps limit- 100 and offset- 900
+2025-06-23 15:36:49,223 INFO 13664 - Fetching apps limit- 100 and offset- 1000
+2025-06-23 15:36:49,864 INFO 13664 - Fetching apps limit- 100 and offset- 1100
+2025-06-23 15:36:50,505 INFO 13664 - Fetching apps limit- 100 and offset- 1200
+2025-06-23 15:36:51,158 INFO 13664 - Fetching apps limit- 100 and offset- 1300
+2025-06-23 15:36:51,835 INFO 13664 - Fetching apps limit- 100 and offset- 1400
+2025-06-23 15:36:52,513 INFO 13664 - Fetching apps limit- 100 and offset- 1500
+2025-06-23 15:36:53,157 INFO 13664 - Fetching apps limit- 100 and offset- 1600
+2025-06-23 15:36:53,774 INFO 13664 - Fetching apps limit- 100 and offset- 1700
+2025-06-23 15:36:54,386 INFO 13664 - Fetching apps limit- 100 and offset- 1800
+2025-06-23 15:36:55,009 INFO 13664 - Successfully fetched all the apps
+2025-06-23 15:36:55,027 INFO 13664 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750682215.csv
+2025-06-23 15:36:55,045 INFO 13664 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750682215.csv
+2025-06-23 15:36:55,045 INFO 13664 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750451454.csv as they are previous synced files
+2025-06-23 23:11:02,247 INFO 9664 - Found a synced splunkbase file
+2025-06-23 23:11:02,247 INFO 9664 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750682215.csv
+2025-06-23 23:11:02,473 INFO 9664 - Fetching apps limit- 100 and offset- 0
+2025-06-23 23:11:13,550 ERROR 9664 - Error getting apps: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B44EEC02C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Splunk\Python-3.7\lib\socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002B44EEC02C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B44EEC02C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_get_all_apps.py", line 147, in get_apps
+    response = requests.get(url=BASE_URL, params=PARAMS)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B44EEC02C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2025-06-24 23:33:58,301 INFO 26476 - Found a synced splunkbase file
+2025-06-24 23:33:58,301 INFO 26476 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750682215.csv
+2025-06-24 23:33:58,460 INFO 26476 - Fetching apps limit- 100 and offset- 0
+2025-06-24 23:33:59,240 INFO 26476 - Fetching apps limit- 100 and offset- 100
+2025-06-24 23:33:59,917 INFO 26476 - Fetching apps limit- 100 and offset- 200
+2025-06-24 23:34:00,551 INFO 26476 - Fetching apps limit- 100 and offset- 300
+2025-06-24 23:34:01,465 INFO 26476 - Fetching apps limit- 100 and offset- 400
+2025-06-24 23:34:02,116 INFO 26476 - Fetching apps limit- 100 and offset- 500
+2025-06-24 23:34:02,766 INFO 26476 - Fetching apps limit- 100 and offset- 600
+2025-06-24 23:34:03,386 INFO 26476 - Fetching apps limit- 100 and offset- 700
+2025-06-24 23:34:04,027 INFO 26476 - Fetching apps limit- 100 and offset- 800
+2025-06-24 23:34:04,664 INFO 26476 - Fetching apps limit- 100 and offset- 900
+2025-06-24 23:34:05,303 INFO 26476 - Fetching apps limit- 100 and offset- 1000
+2025-06-24 23:34:05,971 INFO 26476 - Fetching apps limit- 100 and offset- 1100
+2025-06-24 23:34:06,637 INFO 26476 - Fetching apps limit- 100 and offset- 1200
+2025-06-24 23:34:07,265 INFO 26476 - Fetching apps limit- 100 and offset- 1300
+2025-06-24 23:34:07,893 INFO 26476 - Fetching apps limit- 100 and offset- 1400
+2025-06-24 23:34:08,533 INFO 26476 - Fetching apps limit- 100 and offset- 1500
+2025-06-24 23:34:09,150 INFO 26476 - Fetching apps limit- 100 and offset- 1600
+2025-06-24 23:34:09,789 INFO 26476 - Fetching apps limit- 100 and offset- 1700
+2025-06-24 23:34:10,406 INFO 26476 - Fetching apps limit- 100 and offset- 1800
+2025-06-24 23:34:11,022 INFO 26476 - Successfully fetched all the apps
+2025-06-24 23:34:11,040 INFO 26476 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750797251.csv
+2025-06-24 23:34:11,060 INFO 26476 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750797251.csv
+2025-06-24 23:34:11,061 INFO 26476 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750682215.csv as they are previous synced files
+2025-06-26 16:35:13,574 INFO 45316 - Found a synced splunkbase file
+2025-06-26 16:35:13,575 INFO 45316 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750797251.csv
+2025-06-26 16:35:13,739 INFO 45316 - Fetching apps limit- 100 and offset- 0
+2025-06-26 16:35:14,518 INFO 45316 - Fetching apps limit- 100 and offset- 100
+2025-06-26 16:35:15,189 INFO 45316 - Fetching apps limit- 100 and offset- 200
+2025-06-26 16:35:15,809 INFO 45316 - Fetching apps limit- 100 and offset- 300
+2025-06-26 16:35:16,448 INFO 45316 - Fetching apps limit- 100 and offset- 400
+2025-06-26 16:35:17,109 INFO 45316 - Fetching apps limit- 100 and offset- 500
+2025-06-26 16:35:17,732 INFO 45316 - Fetching apps limit- 100 and offset- 600
+2025-06-26 16:35:18,362 INFO 45316 - Fetching apps limit- 100 and offset- 700
+2025-06-26 16:35:18,986 INFO 45316 - Fetching apps limit- 100 and offset- 800
+2025-06-26 16:35:19,606 INFO 45316 - Fetching apps limit- 100 and offset- 900
+2025-06-26 16:35:20,232 INFO 45316 - Fetching apps limit- 100 and offset- 1000
+2025-06-26 16:35:20,852 INFO 45316 - Fetching apps limit- 100 and offset- 1100
+2025-06-26 16:35:21,499 INFO 45316 - Fetching apps limit- 100 and offset- 1200
+2025-06-26 16:35:22,106 INFO 45316 - Fetching apps limit- 100 and offset- 1300
+2025-06-26 16:35:22,720 INFO 45316 - Fetching apps limit- 100 and offset- 1400
+2025-06-26 16:35:23,358 INFO 45316 - Fetching apps limit- 100 and offset- 1500
+2025-06-26 16:35:23,975 INFO 45316 - Fetching apps limit- 100 and offset- 1600
+2025-06-26 16:35:24,591 INFO 45316 - Fetching apps limit- 100 and offset- 1700
+2025-06-26 16:35:25,195 INFO 45316 - Fetching apps limit- 100 and offset- 1800
+2025-06-26 16:35:25,834 INFO 45316 - Successfully fetched all the apps
+2025-06-26 16:35:25,858 INFO 45316 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750944925.csv
+2025-06-26 16:35:25,875 INFO 45316 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750944925.csv
+2025-06-26 16:35:25,876 INFO 45316 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750797251.csv as they are previous synced files
+2025-06-26 23:01:34,201 INFO 40108 - Found a synced splunkbase file
+2025-06-26 23:01:34,201 INFO 40108 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750944925.csv
+2025-06-26 23:01:34,363 INFO 40108 - Fetching apps limit- 100 and offset- 0
+2025-06-26 23:01:35,117 INFO 40108 - Fetching apps limit- 100 and offset- 100
+2025-06-26 23:01:35,760 INFO 40108 - Fetching apps limit- 100 and offset- 200
+2025-06-26 23:01:36,386 INFO 40108 - Fetching apps limit- 100 and offset- 300
+2025-06-26 23:01:37,028 INFO 40108 - Fetching apps limit- 100 and offset- 400
+2025-06-26 23:01:37,678 INFO 40108 - Fetching apps limit- 100 and offset- 500
+2025-06-26 23:01:38,305 INFO 40108 - Fetching apps limit- 100 and offset- 600
+2025-06-26 23:01:38,934 INFO 40108 - Fetching apps limit- 100 and offset- 700
+2025-06-26 23:01:39,574 INFO 40108 - Fetching apps limit- 100 and offset- 800
+2025-06-26 23:01:40,215 INFO 40108 - Fetching apps limit- 100 and offset- 900
+2025-06-26 23:01:40,820 INFO 40108 - Fetching apps limit- 100 and offset- 1000
+2025-06-26 23:01:41,456 INFO 40108 - Fetching apps limit- 100 and offset- 1100
+2025-06-26 23:01:42,069 INFO 40108 - Fetching apps limit- 100 and offset- 1200
+2025-06-26 23:01:42,686 INFO 40108 - Fetching apps limit- 100 and offset- 1300
+2025-06-26 23:01:43,303 INFO 40108 - Fetching apps limit- 100 and offset- 1400
+2025-06-26 23:01:43,918 INFO 40108 - Fetching apps limit- 100 and offset- 1500
+2025-06-26 23:01:44,531 INFO 40108 - Fetching apps limit- 100 and offset- 1600
+2025-06-26 23:01:45,150 INFO 40108 - Fetching apps limit- 100 and offset- 1700
+2025-06-26 23:01:45,762 INFO 40108 - Fetching apps limit- 100 and offset- 1800
+2025-06-26 23:01:46,359 INFO 40108 - Successfully fetched all the apps
+2025-06-26 23:01:46,377 INFO 40108 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750968106.csv
+2025-06-26 23:01:46,395 INFO 40108 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750968106.csv
+2025-06-26 23:01:46,396 INFO 40108 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750944925.csv as they are previous synced files
+2025-06-27 23:08:14,502 INFO 6904 - Found a synced splunkbase file
+2025-06-27 23:08:14,503 INFO 6904 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750968106.csv
+2025-06-27 23:08:14,766 INFO 6904 - Fetching apps limit- 100 and offset- 0
+2025-06-27 23:08:14,789 ERROR 6904 - Error getting apps: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C9E3E0ABC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Splunk\Python-3.7\lib\socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001C9E3E0ABC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C9E3E0ABC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_get_all_apps.py", line 147, in get_apps
+    response = requests.get(url=BASE_URL, params=PARAMS)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='splunkbase.splunk.com', port=443): Max retries exceeded with url: /api/v1/app/?include=releases%2Creleases.splunk_compatibility&limit=100&offset=0&order=latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C9E3E0ABC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2025-06-30 06:01:49,509 INFO 47096 - Found a synced splunkbase file
+2025-06-30 06:01:49,510 INFO 47096 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750968106.csv
+2025-06-30 06:01:49,673 INFO 47096 - Fetching apps limit- 100 and offset- 0
+2025-06-30 06:01:50,954 INFO 47096 - Fetching apps limit- 100 and offset- 100
+2025-06-30 06:01:52,759 INFO 47096 - Fetching apps limit- 100 and offset- 200
+2025-06-30 06:01:53,914 INFO 47096 - Fetching apps limit- 100 and offset- 300
+2025-06-30 06:01:55,061 INFO 47096 - Fetching apps limit- 100 and offset- 400
+2025-06-30 06:01:56,229 INFO 47096 - Fetching apps limit- 100 and offset- 500
+2025-06-30 06:01:57,392 INFO 47096 - Fetching apps limit- 100 and offset- 600
+2025-06-30 06:01:58,537 INFO 47096 - Fetching apps limit- 100 and offset- 700
+2025-06-30 06:01:59,711 INFO 47096 - Fetching apps limit- 100 and offset- 800
+2025-06-30 06:02:00,903 INFO 47096 - Fetching apps limit- 100 and offset- 900
+2025-06-30 06:02:02,046 INFO 47096 - Fetching apps limit- 100 and offset- 1000
+2025-06-30 06:02:03,173 INFO 47096 - Fetching apps limit- 100 and offset- 1100
+2025-06-30 06:02:04,323 INFO 47096 - Fetching apps limit- 100 and offset- 1200
+2025-06-30 06:02:05,448 INFO 47096 - Fetching apps limit- 100 and offset- 1300
+2025-06-30 06:02:06,529 INFO 47096 - Fetching apps limit- 100 and offset- 1400
+2025-06-30 06:02:07,702 INFO 47096 - Fetching apps limit- 100 and offset- 1500
+2025-06-30 06:02:08,806 INFO 47096 - Fetching apps limit- 100 and offset- 1600
+2025-06-30 06:02:09,890 INFO 47096 - Fetching apps limit- 100 and offset- 1700
+2025-06-30 06:02:10,852 INFO 47096 - Fetching apps limit- 100 and offset- 1800
+2025-06-30 06:02:11,796 INFO 47096 - Successfully fetched all the apps
+2025-06-30 06:02:11,820 INFO 47096 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751252531.csv
+2025-06-30 06:02:11,843 INFO 47096 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751252531.csv
+2025-06-30 06:02:11,843 INFO 47096 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1750968106.csv as they are previous synced files
