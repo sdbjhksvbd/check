@@ -1,0 +1,514 @@
+ï»¿;!@Lang2@!UTF-8!
+;  3.12 : 2007-11-22 : XosÃ© Calvo
+;  9.20 : 2014-11-26 : enfeitizador
+; 15.00 : 2016-02-01 : enfeitizador
+; 22.00 : 2023-05-13 : enfeitizador
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Galician
+Galego
+401
+De acordo
+Cancelar
+
+
+
+&Si
+&Non
+Pe&char
+Axuda
+
+&Continuar
+440
+Si &a todo
+Non a &todo
+Parar
+Reiniciar
+PoÃ±er por de&baixo
+Traer ao &fronte
+&Pausa
+Pausado
+Queres cancelar?
+500
+&Ficheiro
+&Editar
+&Ver
+F&avoritos
+Ferramen&tas
+A&xuda
+540
+&Abrir
+Abr&ir dentro
+Abrir &fÃ³ra
+&Ver
+&Editar
+Cambiar no&me
+&Copiar a...
+&Mover a...
+&Eliminar
+&Dividir ficheiro...
+Com&binar ficheiros...
+P&ropiedades
+Come&ntario...
+Calcular suma de verificaciÃ³n
+Diferenzas
+Crear cartafol
+Crear ficheiro
+Sa&Ã­r
+LigazÃ³n
+&Alternar fluxos
+600
+Seleccion&ar todo
+Desmarcar todo
+&Inverter selecciÃ³n
+Seleccionar...
+Desmarcar...
+Seleccionar por tipo
+Desmarcar por tipo
+700
+Iconas lon&gas
+Iconas &miÃºdas
+&Lista
+&Detalles
+730
+Sen orde
+Vista plana
+&2 paneis
+Barras de ferramen&tas
+Abrir cartafol raÃ­z
+Subir un nivel
+HistÃ³rico de cartafoles...
+&Recargar
+Recargar auto.
+750
+Barra de ferramentas de arquivos
+Barra de ferramentas normal
+BotÃ³ns grandes
+Amosar texto dos botÃ³ns
+800
+Eng&adir cartafol a favoritos como
+Marcador
+900
+&OpciÃ³ns...
+&Rendemento
+960
+&Contidos...
+&Acerca do 7-Zip...
+1003
+CamiÃ±o
+Nome
+ExtensiÃ³n
+Cartafol
+TamaÃ±o
+TamaÃ±o comprimido
+Atributos
+Creado
+Ãšltimo acceso
+Modificado
+SÃ³lido
+Comentado
+Cifrado
+Partir antes
+Partir despois
+Dicionario
+
+Tipo
+Anti
+MÃ©todo
+SO servidor
+Sistema de ficheiros
+Usuario
+Grupo
+Bloque
+Comentario
+PosiciÃ³n
+Prefixo do camiÃ±o
+Cartafoles
+Ficheiros
+VersiÃ³n
+Volume
+Varios volumes
+Desprazamento
+LigazÃ³ns
+Bloques
+Volumes
+
+64-bit
+Big-Endian
+Procesador
+TamaÃ±o fÃ­sico
+TamaÃ±o cabeceiras
+Suma de verificaciÃ³n
+CaracterÃ­sticas
+Enderezo virtual
+ID
+Nome curto
+AplicaciÃ³n orixinal
+TamaÃ±o sector
+Modo
+LigazÃ³n simbÃ³lica
+Erro
+TamaÃ±o total
+TamaÃ±o libre
+TamaÃ±o do clÃºster
+Etiqueta
+Nome local
+Fornecedor
+Seguridade NT
+Fluxos alternos
+Auxiliar
+Eliminado
+Ã‰ Ã¡rbore
+
+
+Tipo de error
+Erros
+Erros
+Avisos
+Aviso
+Fluxos
+Fluxos alternos
+TamaÃ±o fluxos alternos
+TamaÃ±o virtual
+TamaÃ±o sen comprimir
+Total tamaÃ±o fÃ­sico
+Indexar volume
+Subtipo
+Comentario curto
+CÃ³digo de pÃ¡xina
+
+
+
+TamaÃ±o de cola
+TamaÃ±o temporal inserido
+LigazÃ³n
+LigazÃ³n forte
+iNode
+
+SÃ³ lectura
+
+Copiar ligazÃ³n
+
+
+Metadatos cambiados
+2100
+OpciÃ³ns
+Idioma
+Idioma:
+Editor
+&Editor:
+&Diferenza:
+2200
+Sistema
+Asociar 7-Zip con:
+Todos os usuarios
+2301
+Integrar 7-Zip no menÃº de contexto
+MenÃº do contexto en cascada
+Elementos do menÃº do contexto:
+Iconas no menÃº de contexto
+2320
+<Cartafol>
+<Arquivo>
+Abrir arquivo
+Extraer ficheiros...
+Engadir ao arquivo...
+Comprobar arquivo
+Extraer aquÃ­
+Extraer a {0}
+Engadir a {0}
+Comprimir e enviar por correo...
+Comprimir a {0} e enviar por correo
+2400
+Cartafoles
+Cartafol en &uso
+Cartafol temporal do &sistema
+Cartafol a&ctual
+E&specificar:
+Usar sÃ³ en unidades extraÃ­bles
+Especificar unha localizaciÃ³n para arquivos temporais.
+2500
+Axustes
+Amosar o elemento ".."
+Amosar iconas reais do ficheiro
+Amosar menÃº do sistema
+Seleccionar &fila completa
+Amosar liÃ±as de &grella
+Clic simple para abrir un elemento
+Modo de selecciÃ³n &alternativo
+Usar memoria &longa de pÃ¡xinas
+2900
+Acerca do 7-Zip
+7-Zip Ã© un programa gratuÃ­to
+3000
+O sistema non puido atribuÃ­r a memoria requirida
+Non se produciron erros
+{0} obxecto(s) seleccionados
+Non se pode crear o cartafol '{0}'
+Este tipo de arquivo non permite actualizaciÃ³ns.
+Non se pode abrir o ficheiro '{0}' como arquivo
+Non se pode abrir o ficheiro cifrado '{0}'. Contrasinal incorrecto?
+Tipo de arquivo non admitido
+O ficheiro {0} xa existe
+Modificouse o ficheiro '{0}'.\nQuÃ©relo actualizar no arquivo?
+Non se pode actualizar o ficheiro\n'{0}'
+Non se pode iniciar o editor.
+O ficheiro parÃ©cese a un virus (o nome do ficheiro contÃ©n espazos longos).
+A operaciÃ³n non pode responder dende un cartafol cun camiÃ±o longo.
+Tes que seleccionar un ficheiro
+Tes que seleccionar un ou mÃ¡is ficheiros
+Demasiados elementos
+Non se pode abrir o ficheiro como arquivo {0}
+O ficheiro estÃ¡ aberto como arquivo {0}
+O arquivo estÃ¡ aberto con desprazamento
+3300
+Extraendo
+Comprimindo
+Probando
+Abrindo...
+Escaneando...
+Eliminando
+3320
+Engadindo
+Actualizando
+Analizando
+Replicando
+Volvendo comprimir
+Omitindo
+Eliminando
+Creando cabeceira
+3400
+Extraer
+E&xtraer a:
+Especificar unha localizaciÃ³n para os ficheiros extraÃ­dos.
+3410
+Modo camiÃ±o:
+Nomes de camiÃ±o completos
+Sen nomes de camiÃ±o
+Nomes de camiÃ±o absoluto
+Nomes de camiÃ±o relativo
+3420
+Modo sobrescribir:
+Preguntar antes de sobrescribir
+Sobrescribir sen preguntar
+Omitir ficheiros existentes
+Cambio de nome automÃ¡tico
+Cambio de nome automÃ¡tico de ficheiros existentes
+3430
+Eliminar duplicidade do cartafol raÃ­z
+Restaurar seguridade do ficheiro
+3440
+Propagar fluxo Zone.Id:
+Para ficheiros do Office
+3500
+Confirmar a substituciÃ³n de ficheiro
+O cartafol destino xa ten un ficheiro co mesmo nome.
+Queres substituÃ­r o ficheiro existente
+con estoutro?
+{0} bytes
+Cambio de nome a&utomÃ¡tico
+3700
+MÃ©todo de compresiÃ³n non admitido para '{0}'.
+Erro de datos en '{0}'. O ficheiro estÃ¡ danado.
+Fallou a verificaciÃ³n CRC en '{0}'. O ficheiro estÃ¡ danado.
+Erro de datos no ficheiro cifrado '{0}'. Contrasinal incorrecto?
+Fallou a verificaciÃ³n CRC no ficheiro cifrado '{0}'. Contrasinal incorrecto?
+3710
+Contrasinal incorrecto?
+3721
+MÃ©todo de compresiÃ³n non admitido
+Erro de datos
+Fallou a verificaciÃ³n CRC
+Datos non dispoÃ±Ã­beis
+Remate de datos inesperado
+Hai certos datos despois do remate dos datos cargados
+Non Ã© arquivo
+Erro de cabeceiras
+Contrasinal incorrecto
+3763
+Inicio de arquivo non dispoÃ±Ã­bel
+Inicio de arquivo non confirmado
+
+
+
+CaracterÃ­stica non admitida
+3800
+Insire contrasinal
+Insire contrasinal:
+InsÃ­reo de novo:
+Amo&sar contrasinal
+Os contrasinais non coinciden
+Usa sÃ³ letras latinas, nÃºmeros e caracteres especiais (!, #, $, ...) para o contrasinal
+O contrasinal Ã© moi longo
+Contrasinal
+3900
+Tempo transcorrido:
+Tempo restante:
+TamaÃ±o total:
+Velocidade:
+Procesado:
+ProporciÃ³n de compresiÃ³n:
+Erros:
+Arquivos:
+4000
+Engadir ao arquivo
+&Arquivo:
+FunciÃ³n act&ualizar:
+&Formato de arquivo:
+Nive&l de compresiÃ³n:
+&MÃ©todo de compresiÃ³n:
+TamaÃ±o do &dicionario:
+TamaÃ±o de &palabra:
+TamaÃ±o de bloque sÃ³lido:
+NÃºmero de procesos da CPU:
+&ParÃ¡metros:
+OpciÃ³ns
+Crear ficheiro SF&X
+Comprimir ficheiros compartidos
+Cifrado
+MÃ©todo de cifrado:
+Cifrar &nomes de ficheiro
+Uso de memoria para compresiÃ³n:
+Uso de memoria para extracciÃ³n:
+Eliminar ficheiros despois de comprimir
+4040
+Arquivar ligazÃ³ns simbÃ³licas
+Arquivar ligazÃ³ns fortes
+Arquivar fluxo de datos alternos
+Arquivar seguridade de ficheiro
+4050
+Arquivar
+MÃ¡is rÃ¡pida
+RÃ¡pida
+Normal
+MÃ¡xima
+Ultra
+4060
+Engadir e substituÃ­r ficheiros
+Actualizar e engadir ficheiros
+SÃ³ actualizar ficheiros existentes
+Sincronizar ficheiros
+4070
+Explorar
+Todos os ficheiros
+Non sÃ³lido
+SÃ³lido
+4080
+Hora
+PrecisiÃ³n de marca de hora:
+Hora de modificaciÃ³n gardada
+Hora de creaciÃ³n gardada
+Hora do Ãºltimo acceso gardada
+Estabelecer data do arquivo Ã¡ data do ficheiro mÃ¡is recente
+Non cambiar a data do Ãºltimo acceso aos ficheiros orixe
+4090
+seg
+ns
+6000
+Copiar
+Mover
+Copiar a:
+Mover a:
+Copiando...
+Movendo...
+Cambiando nome...
+Selecciona cartafol destino.
+A operaciÃ³n non Ã© admitida para este cartafol.
+Erro ao cambiar nome do ficheiro ou cartafol
+Confirmar copia de ficheiro
+Queres copiar os ficheiros ao arquivo
+6100
+Confirmar eliminar ficheiro
+Confirmar eliminar cartafol
+Confirmar eliminar ficheiro mÃºltiplo
+Queres eliminar '{0}'?
+Queres eliminar o cartafol '{0}' e todo o que contÃ©n?
+Queres eliminar estes {0} elementos?
+Eliminando...
+Erro ao eliminar ficheiro ou cartafol
+O sistema non pode mover un ficheiro cun nome tan longo Ã¡ papeleira
+6300
+Crear cartafol
+Crear ficheiro
+Nome do cartafol:
+Nome do ficheiro:
+Novo cartafol
+Novo ficheiro
+Erro ao crear cartafol
+Erro ao crear ficheiro
+6400
+Comentario
+&Comentario:
+Seleccionar
+Desmarcar
+MÃ¡scara:
+6600
+Propiedades
+HistÃ³rico de cartafoles
+Mensaxes de diagnose
+Mensaxe
+7100
+Computadora
+Rede
+Documentos
+Sistema
+7200
+Engadir
+Extraer
+Probar
+Copiar
+Mover
+Eliminar
+InformaciÃ³n
+7300
+Dividir ficheiro
+&Dividir a:
+Dividir en &volumes, bytes:
+Dividindo...
+Confirmar divisiÃ³n
+Queres dividir o ficheiro en {0} volumes?
+O tamaÃ±o do volume ten que ser menor que o tamaÃ±o do ficheiro orixinal
+TamaÃ±o de volume incorrecto
+TamaÃ±o de volume especificado: {0} bytes.\nQueres dividir o arquivo nestes volumes?
+7400
+Combinar ficheiros
+&Combinar a:
+Combinando...
+Seleccionar sÃ³ a primeira parte do ficheiro dividido
+Non se detecta o ficheiro como parte dun ficheiro dividido
+Non se atopan mÃ¡is ca unha parte do ficheiro dividido
+7500
+Calculando suma de verificaciÃ³n...
+InformaciÃ³n da suma de verificaciÃ³n
+VerificaciÃ³n CRC para datos:
+VerificaciÃ³n CRC para datos e nomes:
+7600
+Rendemento
+Uso de memoria:
+Comprimindo
+Extraendo
+ProporciÃ³n
+ProporciÃ³n total
+Actual
+Resultante
+Uso da CPU
+ProporciÃ³n / Uso
+Pases:
+7700
+LigazÃ³n
+LigazÃ³n
+LigazÃ³n desde:
+LigazÃ³n a:
+7710
+Tipo de ligazÃ³n
+LigazÃ³n forte
+LigazÃ³n simbÃ³lica de ficheiro
+Directorio ligazÃ³n simbÃ³lica
+Directorio nexo
