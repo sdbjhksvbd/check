@@ -1,0 +1,24 @@
+0	23	  1125593	1752316574	1752447962	1752447963	
+1	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log	 81711	1752316574	1752447961	1752447961	
+2	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log	395699	1752316574	1752447962	1752447963	
+3	source::C:\Program Files\Splunk\var\log\splunk\health.log	 83220	1752316583	1752447953	1752447954	
+4	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	561707	1752316592	1752447941	1752447942	
+5	source::C:\Program Files\Splunk\var\log\splunk\python.log	  2192	1752316621	1752447960	1752447961	
+6	source::C:\Program Files\Splunk\var\log\splunk\metrics.log.1	358	1752317491	1752435045	1752435046	
+7	source::C:\Program Files\Splunk\var\log\splunk\pura_utils.log	287	1752325202	1752441138	1752441138	
+8	source::C:\Program Files\Splunk\var\log\splunk\pura_remote_latest_report.log	 15	1752325202	1752411611	1752411612	
+9	source::C:\Program Files\Splunk\var\log\splunk\pura_remote_scan_scripted_input.log	 72	1752325310	1752441077	1752441077	
+10	source::C:\Program Files\Splunk\var\log\splunk\eura_email_notification_scripted_input.log	  9	1752325471	1752440797	1752440798	
+11	source::C:\Program Files\Splunk\var\log\splunk\jura_remote_scan_scripted_input.log	 72	1752325502	1752440418	1752440419	
+12	source::C:\Program Files\Splunk\var\log\splunk\eura_remote_scan_scripted_input.log	 72	1752325848	1752441138	1752441139	
+13	source::C:\Program Files\Splunk\var\log\splunk\pura_email_notification_scripted_input.log	  9	1752326094	1752441104	1752441105	
+14	source::C:\Program Files\Splunk\var\log\splunk\jura_remote_latest_report.log	 21	1752336002	1752422410	1752422411	
+15	source::C:\Program Files\Splunk\var\log\splunk\eura_remote_latest_report.log	 15	1752336002	1752422410	1752422411	
+16	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log.1	 65	1752341717	1752428657	1752428657	
+17	source::C:\Program Files\Splunk\var\log\splunk\license_usage.log	  4	1752354000	1752440400	1752440401	
+18	source::C:\Program Files\Splunk\var\log\splunk\scheduler.log	                         2	1752354005	1752354005	1752354006	
+19	source::C:\Program Files\Splunk\var\log\splunk\pura_scan_apps.log	 16	1752357602	1752444003	1752444003	
+20	source::C:\Program Files\Splunk\var\log\splunk\eura_scan_apps.log	 32	1752357602	1752444003	1752444004	
+21	source::C:\Program Files\Splunk\var\log\splunk\jura_scan_apps.log	  2	1752368402	1752368403	1752368403	
+22	source::C:\Program Files\Splunk\var\log\splunk\pura_get_all_apps.log	  8	1752375602	1752376109	1752376111	
+23	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log.1	  5	1752412576	1752412576	1752412577	
