@@ -1,0 +1,4 @@
+<SmartAudioConfiguration>
+  <!-- Special settings -->
+  <VoipAsrDemoMode>true</VoipAsrDemoMode>
+</SmartAudioConfiguration>
