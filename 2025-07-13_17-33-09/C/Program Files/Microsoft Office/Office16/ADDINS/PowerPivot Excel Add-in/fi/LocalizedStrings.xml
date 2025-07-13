@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Osoite</s>
+  <s _locID="Classification.Address.Description">HenkilÃ¶n tai organisaation sijainnin kuvaus toimitusohjeena</s>
+  <s _locID="Classification.Address.Group">Maantiede</s>
+  <s _locID="Classification.City.LabelName">Kaupunki</s>
+  <s _locID="Classification.City.Description">VÃ¤estÃ¶n, kaupankÃ¤ynnin ja kulttuurin pysyvÃ¤ urbaani keskus</s>
+  <s _locID="Classification.City.Group">Maantiede</s>
+  <s _locID="Classification.Continent.LabelName">Maanosa</s>
+  <s _locID="Classification.Continent.Description">Yksi maapallon suurista mantereista</s>
+  <s _locID="Classification.Continent.Group">Maantiede</s>
+  <s _locID="Classification.Country.LabelName">Maa tai alue</s>
+  <s _locID="Classification.Country.Description">Kansakunta tai osavaltio</s>
+  <s _locID="Classification.Country.Group">Maantiede</s>
+  <s _locID="Classification.County.LabelName">Alue</s>
+  <s _locID="Classification.County.Description">Paikallinen hallintoalue, osa osavaltiota tai provinssia</s>
+  <s _locID="Classification.County.Group">Maantiede</s>
+  <s _locID="Classification.PostalCode.LabelName">Postinumero</s>
+  <s _locID="Classification.PostalCode.Description">Sarja numeroita ja/tai kirjaimia, jotka lisÃ¤tÃ¤Ã¤n postiosoitteeseen auttamaan postin toimittamisessa</s>
+  <s _locID="Classification.PostalCode.Group">Maantiede</s>
+  <s _locID="Classification.StateorProvince.LabelName">Osavaltio tai provinssi</s>
+  <s _locID="Classification.StateorProvince.Description">Maan tai alueen sisÃ¤inen alue, jota hallitsee hallinnollinen tai poliittinen yksikkÃ¶.</s>
+  <s _locID="Classification.StateorProvince.Group">Maantiede</s>
+  <s _locID="Classification.ImageURL.LabelName">Kuvan URL-osoite</s>
+  <s _locID="Classification.ImageURL.Description">URL (Uniform Resource Locator) -osoite, joka osoittaa kuvaan</s>
+  <s _locID="Classification.ImageURL.Group">Kuva</s>
+  <s _locID="Classification.WebUrl.LabelName">WWW-URL-osoite</s>
+  <s _locID="Classification.WebUrl.Description">URL (Uniform Resource Locator) -osoite, joka osoittaa WWW-sijaintiin</s>
+  <s _locID="Classification.WebUrl.Group">WWW</s>
+  <s _locID="Classification.Image.LabelName">Kuva</s>
+  <s _locID="Classification.Image.Description">Valokuva tai muu kuva, joka on usein JPEG-, GIF- tai BMP-tiedostomuodossa</s>
+  <s _locID="Classification.Image.Group">Kuva</s>
+  <s _locID="Classification.Latitude.LabelName">Leveysaste</s>
+  <s _locID="Classification.Latitude.Description">Maantieteellinen koordinaatti, joka mÃ¤Ã¤rittÃ¤Ã¤ sijainnin pohjois-etelÃ¤-suunnassa maapallon pinnalla</s>
+  <s _locID="Classification.Latitude.Group">Maantiede</s>
+  <s _locID="Classification.Longitude.LabelName">Pituusaste</s>
+  <s _locID="Classification.Longitude.Description">Maantieteellinen koordinaatti, joka mÃ¤Ã¤rittÃ¤Ã¤ sijainnin itÃ¤-lÃ¤nsi-suunnassa maapallon pinnalla</s>
+  <s _locID="Classification.Longitude.Group">Maantiede</s>
+  <s _locID="Classification.Place.LabelName">Paikka</s>
+  <s _locID="Classification.Place.Description">Maantieteellinen alue tai sijainti</s>
+  <s _locID="Classification.Place.Group">Maantiede</s>
+  <s _locID="Classification.Organization.LabelName">Organisaatio</s>
+  <s _locID="Classification.Organization.Description">RyhmÃ¤ ihmisiÃ¤, jotka on jÃ¤rjestetty jotakin tiettyÃ¤ tarkoitusta varten; liitto tai yhdistys</s>
+  <s _locID="Classification.Organization.Group">Organisaatio</s>
+  <s _locID="Classification.Company.LabelName">Yritys</s>
+  <s _locID="Classification.Company.Description">Liiketoimintaa harjoittava yritys</s>
+  <s _locID="Classification.Company.Group">Organisaatio</s>
+  <s _locID="Classification.Product.LabelName">Tuote</s>
+  <s _locID="Classification.Product.Description">Jokin myyntiÃ¤ varten valmistettava, kasvatettava tai hankittava kohde</s>
+  <s _locID="Classification.Product.Group">Tuote</s>
+  <s _locID="Classification.Date.LabelName">PÃ¤ivÃ¤mÃ¤Ã¤rÃ¤</s>
+  <s _locID="Classification.Date.Description">Aika, joka on mÃ¤Ã¤ritetty pÃ¤ivÃ¤n, kuukauden, vuosineljÃ¤nneksen tai vuoden avulla</s>
+  <s _locID="Classification.Date.Group">Kalenteri</s>
+</strings>
