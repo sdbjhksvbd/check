@@ -1,0 +1,18 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    This file provides cleanup of classes added to a target in the course of setup.  
+    
+    DEPENDENCIES: none
+
+***************************************************************************************************/
+
+// NOTE: Do not use #pragma autorecover, or an autorecovery will also mofcomp this mof file!
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Models")
+
+#pragma deleteclass("Environment_Variable", nofail)
+
+#pragma deleteinstance("__Win32Provider.Name='Environment_StateProvider'", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Models:__Win32Provider.Name=\"Environment_StateProvider\"'", nofail)
