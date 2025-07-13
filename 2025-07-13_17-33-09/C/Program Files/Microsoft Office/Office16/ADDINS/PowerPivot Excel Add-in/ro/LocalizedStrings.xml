@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">AdresÄƒ</s>
+  <s _locID="Classification.Address.Description">Descrierea locaÅ£iei unei persoane sau organizaÅ£ii ca indicaÅ£ii de livrare</s>
+  <s _locID="Classification.Address.Group">Geografie</s>
+  <s _locID="Classification.City.LabelName">OraÅŸ</s>
+  <s _locID="Classification.City.Description">Un centru urban permanent de comerÅ£ ÅŸi culturÄƒ</s>
+  <s _locID="Classification.City.Group">Geografie</s>
+  <s _locID="Classification.Continent.LabelName">Continent</s>
+  <s _locID="Classification.Continent.Description">Una dintre principalele suprafeÅ£e de pe PÄƒmÃ¢nt</s>
+  <s _locID="Classification.Continent.Group">Geografie</s>
+  <s _locID="Classification.Country.LabelName">Å¢arÄƒ/regiune</s>
+  <s _locID="Classification.Country.Description">O naÅ£iune sau un stat</s>
+  <s _locID="Classification.Country.Group">Geografie</s>
+  <s _locID="Classification.County.LabelName">JudeÅ£</s>
+  <s _locID="Classification.County.Description">O regiune guvernamentalÄƒ localÄƒ; parte a unui stat sau a unei provincii</s>
+  <s _locID="Classification.County.Group">Geografie</s>
+  <s _locID="Classification.PostalCode.LabelName">Cod poÅŸtal</s>
+  <s _locID="Classification.PostalCode.Description">O secvenÅ£Äƒ de litere ÅŸi/sau cifre adÄƒugatÄƒ la o adresÄƒ poÅŸtalÄƒ pentru a ajuta la livrarea corespondenÅ£ei</s>
+  <s _locID="Classification.PostalCode.Group">Geografie</s>
+  <s _locID="Classification.StateorProvince.LabelName">Stat sau provincie</s>
+  <s _locID="Classification.StateorProvince.Description">Un teritoriu guvernat ca o unitate administrativÄƒ sau politicÄƒ din cadrul unei Å£Äƒri sau regiuni.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografie</s>
+  <s _locID="Classification.ImageURL.LabelName">AdresÄƒ URL imagine</s>
+  <s _locID="Classification.ImageURL.Description">AdresÄƒ URL (Localizator uniform de resurse) care indicÄƒ spre o imagine</s>
+  <s _locID="Classification.ImageURL.Group">Imagine</s>
+  <s _locID="Classification.WebUrl.LabelName">AdresÄƒ URL web</s>
+  <s _locID="Classification.WebUrl.Description">AdresÄƒ URL (Localizator uniform de resurse) care indicÄƒ spre o locaÅ£ie web</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Imagine</s>
+  <s _locID="Classification.Image.Description">O fotografie sau o altÄƒ imagine, adesea Ã®n format de fiÅŸier JPEG, GIFF sau BMP</s>
+  <s _locID="Classification.Image.Group">Imagine</s>
+  <s _locID="Classification.Latitude.LabelName">Latitudine</s>
+  <s _locID="Classification.Latitude.Description">Coordonata geograficÄƒ ce determinÄƒ poziÅ£ia nord-sud pe suprafaÅ£a PÄƒmÃ¢ntului</s>
+  <s _locID="Classification.Latitude.Group">Geografie</s>
+  <s _locID="Classification.Longitude.LabelName">Longitudine</s>
+  <s _locID="Classification.Longitude.Description">Coordonata geograficÄƒ ce determinÄƒ poziÅ£ia est-vest pe suprafaÅ£a PÄƒmÃ¢ntului</s>
+  <s _locID="Classification.Longitude.Group">Geografie</s>
+  <s _locID="Classification.Place.LabelName">Loc</s>
+  <s _locID="Classification.Place.Description">ZonÄƒ sau locaÅ£ie geograficÄƒ</s>
+  <s _locID="Classification.Place.Group">Geografie</s>
+  <s _locID="Classification.Organization.LabelName">OrganizaÅ£ie</s>
+  <s _locID="Classification.Organization.Description">Un grup de persoane organizat Ã®ntr-un anumit scop; o asociaÅ£ie</s>
+  <s _locID="Classification.Organization.Group">OrganizaÅ£ie</s>
+  <s _locID="Classification.Company.LabelName">FirmÄƒ</s>
+  <s _locID="Classification.Company.Description">O Ã®ntreprindere comercialÄƒ</s>
+  <s _locID="Classification.Company.Group">OrganizaÅ£ie</s>
+  <s _locID="Classification.Product.LabelName">Produs</s>
+  <s _locID="Classification.Product.Description">Ceva care este confecÅ£ionat, dezvoltat sau obÅ£inut Ã®n scopul vÃ¢nzÄƒrii</s>
+  <s _locID="Classification.Product.Group">Produs</s>
+  <s _locID="Classification.Date.LabelName">DatÄƒ</s>
+  <s _locID="Classification.Date.Description">Timp exprimat ca zi, lunÄƒ, trimestru sau an</s>
+  <s _locID="Classification.Date.Group">Calendar</s>
+</strings>
