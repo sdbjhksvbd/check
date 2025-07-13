@@ -1,0 +1,161 @@
+2025-06-09 01:01:08,130 INFO 38576 - Starting to get apps
+2025-06-09 01:01:09,814 INFO 38576 - Successfully got apps
+2025-06-09 01:01:09,815 INFO 38576 - Starting to trigger scan
+2025-06-09 01:01:10,029 INFO 38576 - Successfully triggered the scan
+2025-06-09 01:01:10,029 INFO 38576 - Starting to poll
+2025-06-09 01:01:10,088 INFO 38576 - Scan progress: 0 Scan status: INIT Scan message: Starting a new scan
+2025-06-09 01:01:15,323 INFO 38576 - Scan progress: 0 Scan status: IN_PROGRESS Scan message: 0 apps out of 2 scanned. Scanning App: Splunk Dashboard Studio. Scanning app for older version of python SDK.
+2025-06-09 01:01:20,561 INFO 38576 - Scan progress: 100 Scan status: COMPLETE Scan message: Deployment scanned successfully for user: admin
+2025-06-09 01:01:20,561 INFO 38576 - Scan is completed
+2025-06-10 01:03:16,233 INFO 3372 - Starting to get apps
+2025-06-10 01:03:18,438 ERROR 3372 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-11 01:02:34,891 INFO 49156 - Starting to get apps
+2025-06-11 01:02:36,575 ERROR 49156 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-12 01:05:26,392 INFO 10472 - Starting to get apps
+2025-06-12 01:05:28,077 ERROR 10472 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-13 01:07:34,071 INFO 1376 - Starting to get apps
+2025-06-13 01:07:35,757 ERROR 1376 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-14 01:29:31,443 INFO 31556 - Starting to get apps
+2025-06-14 01:29:33,635 ERROR 31556 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-15 01:28:39,264 INFO 21676 - Starting to get apps
+2025-06-15 01:28:41,451 ERROR 21676 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-16 01:47:52,083 INFO 43352 - Starting to get apps
+2025-06-16 01:47:53,795 ERROR 43352 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-17 11:36:06,518 INFO 53156 - Starting to get apps
+2025-06-17 11:36:08,200 ERROR 53156 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-18 01:37:53,893 INFO 57684 - Starting to get apps
+2025-06-18 01:37:55,563 ERROR 57684 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-19 02:02:52,661 INFO 60904 - Starting to get apps
+2025-06-19 02:02:54,862 ERROR 60904 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-20 01:35:48,670 INFO 8736 - Starting to get apps
+2025-06-20 01:35:49,849 ERROR 8736 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-21 01:29:52,422 INFO 13024 - Starting to get apps
+2025-06-21 01:29:53,589 ERROR 13024 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-23 17:35:54,750 INFO 3860 - Starting to get apps
+2025-06-23 17:35:55,925 ERROR 3860 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-24 01:15:23,536 INFO 1152 - Starting to get apps
+2025-06-24 01:15:24,684 ERROR 1152 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-25 01:31:05,111 INFO 31268 - Starting to get apps
+2025-06-25 01:31:06,289 ERROR 31268 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-26 18:32:50,375 INFO 45328 - Starting to get apps
+2025-06-26 18:32:52,043 ERROR 45328 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-27 01:01:52,724 INFO 36456 - Starting to get apps
+2025-06-27 01:01:53,902 ERROR 36456 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-28 01:08:52,514 INFO 24924 - Starting to get apps
+2025-06-28 01:08:53,683 ERROR 24924 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+2025-06-30 08:02:35,444 INFO 34124 - Starting to get apps
+2025-06-30 08:02:37,124 ERROR 34124 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 44, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 583, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
