@@ -1,0 +1,23 @@
+2025-06-09 06:03:05,334 INFO 39200 - Finding the receiver list
+2025-06-09 06:03:05,382 INFO 39200 - Finding the host
+2025-06-09 06:03:05,409 INFO 39200 - Finding the latest filename
+2025-06-09 06:03:05,409 INFO 39200 - Getting the failed apps count
+2025-06-09 06:03:05,411 INFO 39200 - 0 apps are failed so skipping to send email.
+2025-06-16 08:11:55,868 INFO 45804 - Finding the receiver list
+2025-06-16 08:11:55,913 ERROR 45804 - [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_send_email.py", line 302, in find_receivers
+    sessionKey=session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-16 08:11:55,932 ERROR 45804 - Skipping sending email as receiver_list is not found.
+2025-06-25 00:26:07,532 INFO 19964 - Finding the receiver list
+2025-06-25 00:26:07,563 ERROR 19964 - [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_send_email.py", line 302, in find_receivers
+    sessionKey=session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-25 00:26:07,580 ERROR 19964 - Skipping sending email as receiver_list is not found.
