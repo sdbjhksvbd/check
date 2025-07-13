@@ -1,0 +1,29 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for contribution report. 
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof,
+    ConfigPointReport.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+
+// ***************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Contribution Report"),
+    Description("A report associating configuration points to the rules influencing the choice of configuration point values.")
+] 
+class PolicyPlatform_ContributionReport : PolicyPlatform_Report
+{
+    PolicyPlatform_ValueContribution Contributions[];
+};
