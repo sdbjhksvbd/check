@@ -1,0 +1,5 @@
+<SmartAudioConfiguration>
+  <EnabledSliceRebootMessage>false</EnabledSliceRebootMessage>
+  <IsSlice2>true</IsSlice2>
+  <USBSpeakerDefaultVolume>-10.4</USBSpeakerDefaultVolume>
+</SmartAudioConfiguration>
