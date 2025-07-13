@@ -1,0 +1,45 @@
+:Base EQNEDT32.HLP>REF
+:Title Equation Editor
+:Index Equation Editor Help=EQNEDT32.HLP
+:Link Equation Editor Help=Eqnedt32.hlp
+0 Equation Editor
+1 Creating and Changing Equations
+2 Change the display size of an equation=ProChangingthesizeofthedisplayedequation
+2 Create an equation=procreatinganequation
+2 Delete items from an equation=ProMakingdeletions
+2 Edit an equation=ProOpeninganEquationEditorwindow
+2 Equation Editor basics=OvrEquationEditorBasics
+2 Equation Editor, and what it can do=EquationExample
+2 Insert symbols and templates in an equation=ProInsertingSymbolsAndTemplates
+2 Position the insertion point in an equation=ProPositioningtheinsertionpoint
+2 Select items in an equation=ProSelectingitems
+2 Troubleshoot Equation Editor problems=EETroubleshooting
+2 Type text in an equation=Tipsfortypingtext
+1 Applying Styles and Fonts in Equations
+2 Apply a different built-in style to text in an equation=ProApplyingadifferentstyletotext
+2 Apply a different style only to the next character in an equation=ProApplyingadifferentstyletothenextcharacteronly
+2 Apply formatting that isn't assigned to an Equation Editor style=ProApplyingfontandcharacterformattingdirectly
+2 Change an Equation Editor style=ProChoosingfontsforstyledefinitions
+2 Defining styles in Equation Editor=ConventionalStyles
+2 Enter text in an equation=ProEnteringanEnglishphrase
+2 Format a finished equation=Tipsforfinetuningthefinishedequation
+2 Using fonts and styles in an equation=OvrStylesAndFonts
+1 Changing Mathematical Element Sizes in Equations
+2 Apply mathematical element sizes in an equation=ProApplyingtypesizes
+2 Change the definition of a mathematical element size in an equation=ProChangingsizedefinitions
+2 Standard mathematical element sizes in equations=StandardTypesizes
+2 Mathematical element sizes in an equation=OvrTypesizes
+1 Spacing and Alignment in Equations
+2 Align an equation=ProAligningEquations
+2 Change a spacing definition in an equation=ProChangingspacingdefinitions
+2 Change spacing in an equation=ProAddingspacesinanequation
+2 Make fine adjustments to an equation=ProRepositioningpartsofanequationnudging
+2 Spacing and alignment in an equation=OvrSpacingandAlignment
+1 Reference Information
+2 Definitions=definitions
+2 Inserting mathematical symbols in an equation=EESymbols
+2 Inserting mathematical templates in an equation=EETemplates
+2 Keyboard Guide=keyboard
+2 Menu Commands=cmdindex
+1 Upgrading Equation Editor
+2 Upgrading Equation Editor to MathType=eehowUpgradingEquationEditorToMathType
