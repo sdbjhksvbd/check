@@ -1,0 +1,6 @@
+2025-06-09 01:01:10,066 INFO 36904 - Handling a request
+2025-06-09 01:01:10,066 INFO 36904 - Executing function, name=get_read_progress
+2025-06-09 01:01:15,117 INFO 36904 - Handling a request
+2025-06-09 01:01:15,117 INFO 36904 - Executing function, name=get_read_progress
+2025-06-09 01:01:20,363 INFO 36904 - Handling a request
+2025-06-09 01:01:20,364 INFO 36904 - Executing function, name=get_read_progress
