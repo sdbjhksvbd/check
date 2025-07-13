@@ -1,0 +1,37 @@
+<SmartAudioConfiguration>
+  <!-- Skin settings -->
+  <DefaultSkin>SmartAudio.HP.Default</DefaultSkin>
+  <UseAlternateSkinImages>false</UseAlternateSkinImages>
+  <UseSkinTheme2>false</UseSkinTheme2>
+  <AboutSRSUseDTS>true</AboutSRSUseDTS>
+
+  <!-- Volume Page -->
+  <DisplayHorizontalMixerPage>false</DisplayHorizontalMixerPage>
+  <EnableHPLimiterMessage>false</EnableHPLimiterMessage>
+  <HardCodedEndpointNames>false</HardCodedEndpointNames>
+  <ShowMixerPageBoost>false</ShowMixerPageBoost>
+  <EnumerateUSBEndpoints>true</EnumerateUSBEndpoints>
+  <EnumerateHDMIEndpoints>true</EnumerateHDMIEndpoints>
+  <EnumerateBluetoothEndpoints>true</EnumerateBluetoothEndpoints>
+
+  <!-- Playback Experience -->
+  <HidePlaybackDropdown>true</HidePlaybackDropdown>
+  <HideEqualizer>false</HideEqualizer>
+  <DisableHeadphoneAudioEnhancements>false</DisableHeadphoneAudioEnhancements>
+
+  <!-- Recording Experience -->
+  <HideCaptureDropdown>true</HideCaptureDropdown>
+  <ShowSspAsrOption>false</ShowSspAsrOption>
+  <ShowSspVoipOption>false</ShowSspVoipOption>
+  <ShowConexantBrandingImages>false</ShowConexantBrandingImages>
+
+  <!-- Advanced Settings -->
+  <RestoreDefaultVolumeOnEndpoints>true</RestoreDefaultVolumeOnEndpoints>
+  <SplitStreamingMode>0</SplitStreamingMode>
+  <ResetStreamingModesOnDefaultSettings>false</ResetStreamingModesOnDefaultSettings>
+
+  <!-- Special settings -->
+  <RegistryMonitorForJackSensing>false</RegistryMonitorForJackSensing>
+  <EnableHPLimiterMessage>false</EnableHPLimiterMessage>
+  <UpdateEndpointNamesOnLanguageChange>true</UpdateEndpointNamesOnLanguageChange>
+</SmartAudioConfiguration>
