@@ -1,0 +1,16 @@
+<SmartAudioConfiguration>
+  <!-- Volume Page -->
+  <HardCodedEndpointNames>true</HardCodedEndpointNames>
+  <DefaultPlaybackOnly>true</DefaultPlaybackOnly>
+  <DefaultCaptureOnly>true</DefaultCaptureOnly>
+
+  <!-- Playback Experience -->
+  <HidePlaybackDropdown>true</HidePlaybackDropdown>
+  <DisableHeadphoneAudioEnhancements>true</DisableHeadphoneAudioEnhancements>
+  <AboutSRSUseDTS>false</AboutSRSUseDTS>
+
+  <!-- Advanced Settings -->
+  <SplitStreamingMode>3</SplitStreamingMode>
+
+  <IsHpAIO>true</IsHpAIO>
+</SmartAudioConfiguration>
