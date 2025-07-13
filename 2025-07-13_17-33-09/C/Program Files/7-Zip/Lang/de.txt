@@ -1,0 +1,533 @@
+ï»¿;!@Lang2@!UTF-8!
+;  2.30 : Soeren Finster
+;  4.07 : JAK-Software.DE
+;  9.07 : Joachim Henke
+; 23.01 : RenÃ© Gennes
+; 24.04 : Sandro Giallella
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+German
+Deutsch
+401
+OK
+Abbrechen
+
+
+
+&Ja
+&Nein
+&SchlieÃŸen
+Hilfe
+
+&Fortsetzen
+440
+Ja fÃ¼r &alle
+Nein fÃ¼r a&lle
+Stopp
+Neustart
+&Hintergrund
+&Vordergrund
+&Pause
+Pause
+MÃ¶chten Sie wirklich abbrechen?
+500
+&Datei
+&Bearbeiten
+&Ansicht
+&Favoriten
+&Extras
+&Hilfe
+540
+Ã–&ffnen
+I&ntern Ã¶ffnen
+E&xtern Ã¶ffnen
+&Ansehen
+&Bearbeiten
+&Umbenennen
+&Kopieren nach...
+&Verschieben nach...
+&LÃ¶schen
+Datei auf&splitten...
+Dateien &zusammenfÃ¼gen...
+E&igenschaften
+K&ommentieren
+&PrÃ¼fsumme berechnen
+Ver&gleichen
+Ordner erstellen
+Datei erstellen
+Be&enden
+VerknÃ¼pfung...
+&Alternative DatenstrÃ¶me
+600
+Alles &markieren
+Alles abwÃ¤hlen
+Markierung &umkehren
+AuswÃ¤hlen...
+Auswahl aufheben...
+Nach Typ auswÃ¤hlen
+Nach Typ abwÃ¤hlen
+700
+&GroÃŸe Symbole
+&Kleine Symbole
+&Liste
+&Details
+730
+Unsortiert
+Alles in einer &Ebene
+&Zweigeteiltes Fenster
+&Symbolleisten
+Wurzelverzeichnis
+Ãœbergeordneter Ordner
+Ordnerverlauf...
+&Aktualisieren
+Auto-Aktualisierung
+750
+Archivfunktionen
+Standardfunktionen
+GroÃŸe SchaltflÃ¤chen
+SchaltflÃ¤chenbeschriftung
+800
+&Ordner hinzufÃ¼gen als
+Favorit
+900
+&Optionen...
+&Benchmark
+910
+TemporÃ¤re Dateien lÃ¶schen...
+960
+&Hilfethemen
+Ãœ&ber 7-Zip...
+1003
+Pfad
+Name
+Erweiterung
+Ordner
+GrÃ¶ÃŸe
+Gepackte GrÃ¶ÃŸe
+Attribute
+Erstellt am
+Letzter Zugriff
+GeÃ¤ndert am
+Kompakt (solid)
+Kommentiert
+VerschlÃ¼sselt
+Vorher geteilt
+Danach geteilt
+WÃ¶rterbuch
+
+Typ
+Anti
+Verfahren
+Herkunft
+Dateisystem
+Besitzer
+Gruppe
+Block
+Kommentar
+Position
+Pfad
+Ordner
+Dateien
+Version
+Archiv
+Mehrteiliges Archiv
+Offset
+VerknÃ¼pfungen
+BlÃ¶cke
+Teilarchive
+
+64 Bit
+Big-Endian
+CPU
+GesamtgrÃ¶ÃŸe
+Header-GrÃ¶ÃŸe
+PrÃ¼fsumme
+Kenndaten
+Virtuelle Adresse
+ID
+Kurzname
+Erstellt durch
+SektorgrÃ¶ÃŸe
+Zugriffsrechte
+Link
+Fehler
+GesamtgrÃ¶ÃŸe
+Freier Speicherplatz
+Cluster-GrÃ¶ÃŸe
+Name
+Lokaler Name
+Provider
+NT-Sicherheit
+Alternativer Datenstrom
+Aux
+GelÃ¶scht
+Ist Baum
+
+
+Fehlertyp
+Fehler
+Fehler
+Warnungen
+Warnung
+DatenstrÃ¶me
+Alternative DatenstrÃ¶me
+GrÃ¶ÃŸe der alternativen DatenstrÃ¶me
+Virtuelle GrÃ¶ÃŸe
+Entpackte GrÃ¶ÃŸe
+Gesamte physikalische GrÃ¶ÃŸe
+TeilstÃ¼ck Index
+Untertyp
+Kurzkommentar
+Code-Seite
+
+
+
+EndungsgrÃ¶ÃŸe
+integrierte Stub-GrÃ¶ÃŸe
+VerknÃ¼pfung
+Harte VerknÃ¼pfung
+iNode
+
+SchreibgeschÃ¼tzt
+
+Kopiere VerknÃ¼pfung
+
+
+Metadaten geÃ¤ndert
+2100
+Optionen
+Sprache
+Sprache:
+Editor
+&Editor:
+Programm zum &Vergleichen:
+2200
+System
+7-Zip verknÃ¼pfen mit:
+alle Benutzer
+2301
+7-Zip in KontextmenÃ¼ integrieren
+KontextmenÃ¼ kaskadieren
+EintrÃ¤ge im KontextmenÃ¼:
+Symbole im KontextmenÃ¼
+2320
+<Verzeichnis>
+<Archiv>
+Ã–ffnen
+Dateien entpacken...
+Zu einem Archiv hinzufÃ¼gen...
+Archiv Ã¼berprÃ¼fen
+Hier entpacken
+Entpacken nach {0}
+HinzufÃ¼gen zu {0}
+Archivieren und versenden...
+Archivieren in {0} und versenden
+2400
+Ordner
+&Arbeitsverzeichnis
+&TEMP-Ordner des Systems
+Aktueller &Ordner
+&Benutzerdefiniert:
+Nur bei &Wechselmedien benutzen
+WÃ¤hlen Sie einen Ordner fÃ¼r temporÃ¤re Archivdateien:
+2500
+Einstellungen
+&Verzeichniseintrag ".." anzeigen
+Symbole aus &Dateien laden und anzeigen
+System-Kontext&menÃ¼ im DateimenÃ¼ anzeigen
+Dateiauswahl markiert ganze &Zeile
+&Gitternetzlinien anzeigen
+Einfacher &Klick zum Ã–ffnen
+&Alternativer Dateiauswahl-Modus
+GroÃŸe &Speicherseiten verwenden
+2900
+Info Ã¼ber 7-Zip
+7-Zip ist freie Software.
+3000
+Das System kann die benÃ¶tigte Speichermenge nicht bereitstellen.
+Es sind keine Fehler aufgetreten.
+{0} Objekt(e) markiert
+Ich kann den Ordner "{0}" nicht erstellen.
+Aktualisierungen werden fÃ¼r dieses Archiv nicht unterstÃ¼tzt.
+Die Datei "{0}" kann nicht als Archiv geÃ¶ffnet werden.
+Das verschlÃ¼sselte Archiv "{0}" kann nicht geÃ¶ffnet werden. Falsches Passwort?
+Typ des Archives wird nicht unterstÃ¼tzt
+Die Datei {0} existiert bereits.
+Die Datei "{0}" wurde geÃ¤ndert.\nSoll sie im Archiv aktualisiert werden?
+Die Datei konnte nicht aktualisiert werden.\n"{0}"
+Ich kann Editor nicht starten.
+Die Datei kÃ¶nnte ein Virus sein (Der Dateiname enthÃ¤lt ungewÃ¶hnlich viele Leerzeichen).
+Operationen aus Ordnern mit Ã¼berlangen Pfadangaben kÃ¶nnen nicht ausgefÃ¼hrt werden.
+Bitte genau eine Datei auswÃ¤hlen.
+Bitte mindestens eine Datei auswÃ¤hlen.
+Zu viele Objekte
+Die Datei kann nicht als {0}-Archiv geÃ¶ffnet werden.
+Die Datei wurde als {0}-Archiv geÃ¶ffnet.
+Die Datei wurde mit einem Offset geÃ¶ffnet.
+3300
+Entpacken
+Komprimiere
+ÃœberprÃ¼fen
+Ã–ffne...
+Durchsuche...
+Entferne
+3320
+HinzufÃ¼gen
+Aktualisieren
+Analysieren
+Replizieren
+Neu packen
+Ãœberspringen
+LÃ¶schen
+Header erstellen
+3400
+Entpacken
+&Entpacken nach:
+WÃ¤hlen Sie einen Ordner fÃ¼r die entpackten Dateien:
+3410
+Verzeichnisstruktur wiederherstellen
+Komplette Pfadangaben
+Keine Pfadangaben
+Absolute Pfadangaben
+Relative Pfadangaben
+3420
+Dateien Ã¼berschreiben
+Nur mit BestÃ¤tigung
+Ohne BestÃ¤tigung
+Vorhandene Dateien Ã¼berspringen
+Automatisch umbenennen
+Vorhandene Dateien umbenennen
+3430
+Verdoppelung des Wurzelordners vermeiden
+Dateirechte wiederherstellen
+3440
+Vererbe Zone.Id-Strom
+FÃ¼r Office-Dateien
+3500
+Ãœberschreiben bestÃ¤tigen
+Der Zielordner beinhaltet bereits eine Datei dieses Namens.
+Wollen Sie diese Datei
+durch diese ersetzen?
+{0} Bytes
+A&utomatisch umbenennen
+3700
+Das Kompressionsverfahren in "{0}" wird nicht unterstÃ¼tzt.
+Datenfehler in "{0}". Die Datei ist beschÃ¤digt.
+CRC-PrÃ¼fsummenfehler. Die Datei "{0}" ist beschÃ¤digt.
+Datenfehler in der verschlÃ¼sselten Datei "{0}". Falsches Passwort?
+CRC-PrÃ¼fsummenfehler bei verschlÃ¼sselter Datei "{0}". Falsches Passwort?
+3710
+Falsches Passwort?
+3721
+Nicht unterstÃ¼tzte Kompressionsmethode
+Datenfehler
+CRC-Fehler
+Daten stehen nicht zur VerfÃ¼gung
+Unerwartetes Datenende
+Es gibt noch Daten hinter den Hauptdaten
+Ist kein Archiv
+Headers-Fehler
+Falsches Passwort
+3763
+Anfang des Archivs fehlt
+Anfang des Archivs nicht bestÃ¤tigt
+
+
+
+Nicht unterstÃ¼tzte Funktion
+3800
+Kennworteingabe
+Passwort eingeben:
+Passwort bestÃ¤tigen:
+Passwort an&zeigen
+Die PasswÃ¶rter stimmen nicht Ã¼berein.
+Bitte nur Buchstaben des englischen Alphabets, Ziffern und Sonderzeichen (!, #, $, ...) im Passwort verwenden!
+Das Passwort ist zu lang.
+Passwort
+3900
+Verstrichene Zeit:
+Verbleibende Zeit:
+Gesamtdatenmenge:
+Geschwindigkeit:
+Verarbeitet:
+Kompressionsrate:
+Fehler:
+Archive:
+4000
+Zu Archiv hinzufÃ¼gen
+&Archiv:
+Art der Akt&ualisierung:
+Archiv&format:
+&KompressionsstÃ¤rke:
+Kompressions&verfahren:
+WÃ¶rter&buchgrÃ¶ÃŸe:
+&WortgrÃ¶ÃŸe:
+GrÃ¶ÃŸe &solider BlÃ¶cke:
+Anzahl &CPU-Threads:
+&Parameter:
+Optionen
+Selbstentpackendes Archiv (SF&X) erstellen
+Zum Schreiben &geÃ¶ffnete Dateien einbeziehen
+VerschlÃ¼sselung
+Verfahren:
+Datei&namen verschlÃ¼sseln
+Speicherbedarf beim Komprimieren:
+Speicherbedarf beim Entpacken:
+Dateien nach Komprimierung lÃ¶schen
+4040
+Symbolische VerknÃ¼pfungen speichern
+Harte VerknÃ¼pfungen speichern
+Alternative DatenstrÃ¶me speichern
+Dateirechte speichern
+4050
+Speichern
+Schnellste
+Schnell
+Normal
+Maximum
+Ultra
+4060
+HinzufÃ¼gen und Ersetzen
+Aktualisieren und HinzufÃ¼gen
+Vorhandene Dateien aktualisieren
+Synchronisieren
+4070
+Durchsuchen
+Alle Dateien
+Nicht solide
+Solide
+4080
+Zeit
+ZeitstempelprÃ¤zision:
+Speichere Ã„nderungszeit
+Speichere Erstellungszeit
+Speichere letzte Zugriffszeit
+Setze Archivierungszeit auf letzte Dateizeit
+Ã„ndere nicht die letzte Zugriffszeit der Quelldateien
+4090
+Sek
+ns
+6000
+Kopieren
+Verschieben
+Kopieren nach:
+Verschieben nach:
+Kopiere...
+Verschiebe...
+Umbenennen...
+Zielordner auswÃ¤hlen
+Die Operation wird fÃ¼r diesen Ordner nicht unterstÃ¼tzt.
+Fehler beim Umbenennen von Datei oder Ordner
+Kopieren bestÃ¤tigen
+Sollen die Dateien wirklich in dieses Archiv kopiert werden:
+6100
+LÃ¶schen von Datei bestÃ¤tigen
+LÃ¶schen von Ordner bestÃ¤tigen
+LÃ¶schen von mehreren Dateien bestÃ¤tigen
+Soll "{0}" wirklich gelÃ¶scht werden?
+Soll der Ordner "{0}" und sein gesamter Inhalt wirklich gelÃ¶scht werden?
+Sollen diese {0} Objekte wirklich gelÃ¶scht werden?
+LÃ¶sche...
+Fehler beim LÃ¶schen von Datei oder Ordner
+Das System kann Dateien mit langem Pfad nicht in den Papierkorb verschieben.
+6300
+Ordner erstellen
+Datei erstellen
+Ordnername:
+Dateiname:
+Neuer Ordner
+Neue Datei
+Fehler beim Erstellen des Ordners
+Fehler beim Erstellen der Datei
+6400
+Kommentar
+&Kommentar:
+AuswÃ¤hlen
+Auswahl aufheben
+Filter:
+6600
+Eigenschaften
+Ordnerverlauf
+Diagnosemeldungen
+Meldung
+7100
+Arbeitsplatz
+Netzwerk
+Dokumente
+System
+7200
+HinzufÃ¼gen
+Entpacken
+ÃœberprÃ¼fen
+Kopieren
+Verschieben
+LÃ¶schen
+Eigenschaften
+7300
+Datei aufsplitten
+Teildateien &nach:
+In &Teildateien aufsplitten (Bytes):
+Aufsplitten...
+Aufsplitten bestÃ¤tigen
+MÃ¶chten Sie die Datei wirklich in {0} Teile aufteilen?
+Die GrÃ¶ÃŸe der Teildateien muss kleiner sein als die der ursprÃ¼nglichen Datei.
+UngÃ¼ltiger Wert fÃ¼r DateigrÃ¶ÃŸen
+Angegebene GrÃ¶ÃŸe fÃ¼r Teildateien: {0} Bytes.\nSind Sie sicher, dass das Archiv dementsprechend aufgesplittet werden soll?
+7400
+Dateien zusammenfÃ¼gen
+Zieldatei &nach:
+ZusammenfÃ¼gen...
+Bitte nur den ersten Teil der Datei auswÃ¤hlen.
+Datei konnte nicht als Teil einer aufgesplitteten Datei erkannt werden.
+Ich kann nicht mehr als eine Teildatei finden.
+7500
+Berechne PrÃ¼fsumme...
+PrÃ¼fsummen-Information
+CRC-PrÃ¼fsumme fÃ¼r Daten:
+CRC-PrÃ¼fsumme fÃ¼r Daten und Dateinamen:
+7600
+Benchmark
+Speichernutzung:
+Komprimierung
+Dekomprimierung
+Bewertung
+Gesamtwertung
+Aktuell
+Ergebnis
+CPU-Nutzung
+Bewert./Nutzung
+DurchlÃ¤ufe:
+7700
+VerknÃ¼pfung
+VerknÃ¼pfung
+VerknÃ¼pfung von:
+VerknÃ¼pfung zu:
+7710
+VerknÃ¼pfungsart
+Harte VerknÃ¼pfung
+Datei Symbolische VerknÃ¼pfung
+Ordner Symbolische VerknÃ¼pfung
+Ordner Verbindung
+7800
+Anfrage zur Speichernutzung
+Erlaubtes Limit fÃ¼r nachfolgende Operationen Ã¤ndern
+AusgewÃ¤hlte Aktion fÃ¼r die aktuelle Operation w&iederholen
+Aktion
+7810
+Die Operation wurde von 7-Zip blockiert
+Die Operation erfordert eine groÃŸe Menge an Speicher (RAM).
+Erforderliche SpeichernutzungsgrÃ¶ÃŸe
+Erlaubtes Speichernutzungslimit
+Von 7-Zip festgelegtes Speichernutzungslimit
+RAM-GrÃ¶ÃŸe
+Maximal erlaubte RAM-Nutzung zum Entpacken von Archiven:
+7820
+Archiventpackung z&ulassen
+Archiventpackung Ã¼&berspringen
+Archiventpackung wurde Ã¼bersprungen.
