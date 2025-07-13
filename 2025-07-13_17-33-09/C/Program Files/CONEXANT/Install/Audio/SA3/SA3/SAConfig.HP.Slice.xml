@@ -1,0 +1,10 @@
+<SmartAudioConfiguration>
+  <!-- Skin settings -->
+  <ApplicationTitle>Audio Controls</ApplicationTitle>
+  <ApplicationTooltip>Audio Controls</ApplicationTooltip>
+  <DefaultSkin>SmartAudio.HP.BandO</DefaultSkin>
+
+  <!-- Special Setting -->
+  <SliceGuiEnabled>true</SliceGuiEnabled>
+  <SliceSwitchBranding>true</SliceSwitchBranding>
+</SmartAudioConfiguration>
