@@ -1,0 +1,6 @@
+<SmartAudioConfiguration>
+  <!-- Volume Page -->
+  <EnableMixerPageMasterSliders>true</EnableMixerPageMasterSliders>
+  <MonitorHardwarePlaybackMuteButton>true</MonitorHardwarePlaybackMuteButton>
+  <MonitorHardwareCaptureMuteButton>true</MonitorHardwareCaptureMuteButton>
+</SmartAudioConfiguration>
