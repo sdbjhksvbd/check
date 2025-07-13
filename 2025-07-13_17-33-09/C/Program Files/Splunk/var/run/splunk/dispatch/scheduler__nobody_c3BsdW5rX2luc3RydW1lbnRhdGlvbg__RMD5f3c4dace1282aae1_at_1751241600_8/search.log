@@ -1,0 +1,520 @@
+06-30-2025 03:00:01.151 INFO  dispatchRunner [0 MainThread] - Search process mode: freestanding (build e053ef3c985f).
+06-30-2025 03:00:01.152 INFO  dispatchRunner [0 MainThread] - initing LicenseMgr in search process: nonPro=1
+06-30-2025 03:00:01.152 INFO  LMStackMgr [0 MainThread] - Initializing CleMgr...
+06-30-2025 03:00:01.152 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr
+06-30-2025 03:00:01.157 INFO  ServerConfig [0 MainThread] - Found no hostname options in server.conf. Will attempt to use default for now.
+06-30-2025 03:00:01.157 INFO  ServerConfig [0 MainThread] - Host name option is "".
+06-30-2025 03:00:01.175 INFO  ServerConfig [0 MainThread] - SSL session cache path  enabled 0 session timeout on SSL server 300.000
+06-30-2025 03:00:01.177 INFO  ServerConfig [0 MainThread] - Splunk is starting with EC-SSC disabled
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - serverName=BEER-PC01 guid=D59BE72C-130E-4AB5-91DF-EC18452C6179
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - connection_timeout=30
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - send_timeout=30
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - receive_timeout=30
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - squash_threshold=2000
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - strict_pool_quota=1
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+06-30-2025 03:00:01.177 INFO  LMConfig [0 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+06-30-2025 03:00:01.177 INFO  LicenseMgr [0 MainThread] - Initing LicenseMgr runContext_splunkd=false
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - closing stack mgr
+06-30-2025 03:00:01.177 INFO  LMSlaveInfo [0 MainThread] - all slaves cleared
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - Initalized license_warnings_update_interval=auto
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - License Manager supports Conditional Licensing Enforcement. For baked in CLE policies, window_period=60 days, max_violations=45, for stack size below 107374182400 bytes
+06-30-2025 03:00:01.177 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for free
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - Added policy WinSz=30 Warnings=3 MaxSize=0 isDefault=1 features= for free
+06-30-2025 03:00:01.177 INFO  LMLicense [0 MainThread] - Applying default enforcement policy for forwarder
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for forwarder
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - Skipping trial license as alternative license type in use
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - Skipping trial pool stanza as alternative license in use
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_forwarder to stack forwarder
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - added pool auto_generated_pool_free to stack free
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - Initialized hideQuotaWarning = "0"
+06-30-2025 03:00:01.177 INFO  LMStackMgr [0 MainThread] - init completed [D59BE72C-130E-4AB5-91DF-EC18452C6179,Free,runContext_splunkd=false]
+06-30-2025 03:00:01.177 INFO  LicenseMgr [0 MainThread] - StackMgr init complete...
+06-30-2025 03:00:01.177 INFO  LMTracker [0 MainThread] - Setting default product type='enterprise'
+06-30-2025 03:00:01.177 INFO  LMTracker [0 MainThread] - this is not splunkd, will perform partial init
+06-30-2025 03:00:01.177 INFO  LicenseMgr [0 MainThread] - Tracker init complete...
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenses'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'pools'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'stacks'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'groups'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'slaves'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'localslave'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licensermessages'
+06-30-2025 03:00:01.186 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'scriptedwarning'
+06-30-2025 03:00:01.187 INFO  AdminManagerDispatch [0 MainThread] - added factory for admin handler: 'licenseusage'
+06-30-2025 03:00:01.187 INFO  dispatchRunner [0 MainThread] - Per-process handle limit is 512
+06-30-2025 03:00:01.187 INFO  dispatchRunner [0 MainThread] - Increasing per-process handle limit from '512' to '2048'
+06-30-2025 03:00:01.187 INFO  dispatchRunner [0 MainThread] - Successfully increased per-process handle limit from '512' to '2048'
+06-30-2025 03:00:01.187 INFO  dispatchRunner [0 MainThread] - registering build time modules, count=1
+06-30-2025 03:00:01.187 INFO  dispatchRunner [0 MainThread] - registering search time components of build time module name=vix
+06-30-2025 03:00:01.187 INFO  dispatchRunner [0 MainThread] - Getting search configuration data from: C:\Program Files\Splunk\etc\modules\parsing\config.xml
+06-30-2025 03:00:01.189 INFO  BundlesSetup [0 MainThread] - Setup stats for C:\Program Files\Splunk\etc: wallclock_elapsed_msec=62, cpu_time_used=0.0625, shared_services_generation=1, shared_services_population=1
+06-30-2025 03:00:01.189 INFO  PipelineComponent [0 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+06-30-2025 03:00:01.194 INFO  UserManager [17412 RunDispatch] - Setting user context: splunk-system-user
+06-30-2025 03:00:01.194 INFO  UserManager [17412 RunDispatch] - Free version does not have user services
+06-30-2025 03:00:01.194 INFO  UserManager [17412 RunDispatch] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.195 INFO  UserManager [17412 RunDispatch] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.195 INFO  UserManager [17412 RunDispatch] - Setting user context: admin
+06-30-2025 03:00:01.195 INFO  UserManager [17412 RunDispatch] - Free version does not have user services
+06-30-2025 03:00:01.195 INFO  UserManager [17412 RunDispatch] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.196 INFO  dispatchRunner [17412 RunDispatch] - search context: user="admin", app="splunk_instrumentation", bs-pathname="C:\Program Files\Splunk\etc"
+06-30-2025 03:00:01.200 INFO  SearchParser [17412 RunDispatch] - PARSING: |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.201 INFO  SearchParser [17412 RunDispatch] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.201 INFO  dispatchRunner [17412 RunDispatch] - Search running in non-clustered mode
+06-30-2025 03:00:01.201 INFO  dispatchRunner [17412 RunDispatch] - SearchHeadInitSearchMs=0
+06-30-2025 03:00:01.201 INFO  SearchParser [17412 RunDispatch] - PARSING: |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.201 INFO  SearchParser [17412 RunDispatch] - PARSING: |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.201 INFO  dispatchRunner [17412 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=0).
+06-30-2025 03:00:01.204 INFO  SearchOrchestrator [17412 RunDispatch] - SearchOrchestrator getting constructed
+06-30-2025 03:00:01.205 INFO  SearchOrchestrator [17412 RunDispatch] -  Initialized the SRI
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Initializing feature flags from config. feature_seed=1371774481
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Setting feature_flag=search:search_telemetry_file_include_parallel_reduce:false
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Setting feature_flag=search:search_retry:false
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+06-30-2025 03:00:01.207 INFO  SearchFeatureFlags [17412 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+06-30-2025 03:00:01.207 INFO  SearchOrchestrator [17412 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2"],"disabledFeatures":["search:search_telemetry_file_include_parallel_reduce","search:search_retry","parallelreduce:autoAppliedPercentage","search_optimization::set_required_fields:stats"]}
+06-30-2025 03:00:01.207 INFO  ISplunkDispatch [17412 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+06-30-2025 03:00:01.216 INFO  SearchOrchestrator [31272 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+06-30-2025 03:00:01.216 INFO  UserManager [31272 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.216 INFO  UserManager [31272 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.216 INFO  UserManager [31272 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.217 INFO  SearchOrchestrator [31272 searchOrchestrator] - Creating the search DAG.
+06-30-2025 03:00:01.217 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.217 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.219 INFO  DispatchStorageManagerInfo [31272 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=c336f2c7042f9dde_tmp dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\c336f2c7042f9dde_tmp
+06-30-2025 03:00:01.221 INFO  SearchOperator:rest [31272 searchOrchestrator] - built uri=/services/admin/auth-services?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.221 INFO  SearchParser [31272 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/admin/auth-services?count=0"
+06-30-2025 03:00:01.221 INFO  SearchOperator:rest [31272 searchOrchestrator] - built uri=/services/admin/auth-services?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.222 INFO  DispatchThread [31272 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+06-30-2025 03:00:01.222 INFO  DispatchThread [31272 searchOrchestrator] - required fields list to add to remote search = *
+06-30-2025 03:00:01.222 INFO  DispatchCommandProcessor [31272 searchOrchestrator] - summaryHash=2995fa043a748a02 summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_2995fa043a748a02 remoteSearch=prerest  splunk_server="BEER-PC01" timeout=60 "/services/admin/auth-services?count=0"
+06-30-2025 03:00:01.222 INFO  DispatchCommandProcessor [31272 searchOrchestrator] - summaryHash=NS1457c9e00ccf38c8 summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NS1457c9e00ccf38c8 remoteSearch=prerest splunk_server="BEER-PC01" timeout=60 "/services/admin/auth-services?count=0"
+06-30-2025 03:00:01.222 INFO  DispatchThread [31272 searchOrchestrator] - Getting summary ID for summaryHash=NS1457c9e00ccf38c8
+06-30-2025 03:00:01.250 INFO  DispatchThread [31272 searchOrchestrator] - Did not find a usable summary_id, setting info._summary_mode=none, not modifying input summary_id=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NS1457c9e00ccf38c8
+06-30-2025 03:00:01.251 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.251 INFO  AstOptimizer [31272 searchOrchestrator] - Search optimization skipped. Reason="Query has subsearch" query="|rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date"
+06-30-2025 03:00:01.253 INFO  ScopedTimer [31272 searchOrchestrator] - search.optimize 0.000
+06-30-2025 03:00:01.253 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Failed to create phases using AST:Failed to create the AST for search |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date. Falling back to 2 phase mode.
+06-30-2025 03:00:01.254 INFO  SearchPhaseGenerator [31272 searchOrchestrator] -  Executing two phase fallback for the search=|rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.254 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/admin/auth-services| join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server] | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt]| eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server)| eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d") | fields data _time date
+06-30-2025 03:00:01.254 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.254 INFO  SearchOperator:rest [31272 searchOrchestrator] - built uri=/services/admin/auth-services?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.255 INFO  DispatchStorageManagerInfo [31272 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=subsearch_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8_1751241601.1 dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\subsearch_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8_1751241601.1
+06-30-2025 03:00:01.258 INFO  HealthReporter [31272 searchOrchestrator] - aggregate_ingestion_latency_health with value=0 from stanza=health_reporter will disable the aggregation of ingestion latency health reporter.
+06-30-2025 03:00:01.259 INFO  DispatchCommandProcessor [31272 searchOrchestrator] - Data federation feature is enabled
+06-30-2025 03:00:01.259 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.259 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.259 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.259 INFO  SearchOrchestrator [31272 searchOrchestrator] - SearchOrchestrator getting constructed
+06-30-2025 03:00:01.259 INFO  SearchOrchestrator [31272 searchOrchestrator] -  Initialized the SRI
+06-30-2025 03:00:01.261 INFO  ISplunkDispatch [31272 searchOrchestrator] - Not running in splunkd. Bundle replication not triggered.
+06-30-2025 03:00:01.264 INFO  SearchOrchestrator [49596 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+06-30-2025 03:00:01.264 INFO  UserManager [49596 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.264 INFO  UserManager [49596 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.264 INFO  UserManager [49596 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.266 INFO  SearchOrchestrator [49596 searchOrchestrator] - Creating the search DAG.
+06-30-2025 03:00:01.266 INFO  SearchParser [49596 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.267 INFO  DispatchStorageManagerInfo [49596 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=a57dc3e83409fb22_tmp dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\a57dc3e83409fb22_tmp
+06-30-2025 03:00:01.270 INFO  SearchOperator:rest [49596 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.270 INFO  SearchParser [49596 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/server/info?count=0"
+06-30-2025 03:00:01.270 INFO  SearchOperator:rest [49596 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.270 INFO  DispatchThread [49596 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+06-30-2025 03:00:01.270 INFO  DispatchThread [49596 searchOrchestrator] - required fields list to add to remote search = *
+06-30-2025 03:00:01.270 INFO  DispatchCommandProcessor [49596 searchOrchestrator] - summaryHash=fbaafaa0fd22c9d7 summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_fbaafaa0fd22c9d7 remoteSearch=prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/info?count=0"
+06-30-2025 03:00:01.270 INFO  DispatchCommandProcessor [49596 searchOrchestrator] - summaryHash=NSdea437639f3255a9 summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NSdea437639f3255a9 remoteSearch=prerest splunk_server="BEER-PC01" timeout=60 "/services/server/info?count=0"
+06-30-2025 03:00:01.270 INFO  DispatchThread [49596 searchOrchestrator] - Getting summary ID for summaryHash=NSdea437639f3255a9
+06-30-2025 03:00:01.271 INFO  SearchParser [49596 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.271 INFO  SearchOperator:rest [49596 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.271 INFO  AstOptimizer [49596 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000
+06-30-2025 03:00:01.271 INFO  SearchParser [49596 searchOrchestrator] - PARSING:  | fields + guid, splunk_server
+06-30-2025 03:00:01.272 INFO  SearchParser [49596 searchOrchestrator] - PARSING:  | rest /services/server/info splunk_server=local
+06-30-2025 03:00:01.272 INFO  ProjElim [49596 searchOrchestrator] - Black listed processors=[addinfo]
+06-30-2025 03:00:01.283 INFO  AstOptimizer [49596 searchOrchestrator] - Search optimizations have been disabled in limits.conf. Set enabled=true in [search_optimization::replace_stats_cmds_with_tstats]
+06-30-2025 03:00:01.283 INFO  AstVisitorFactory [49596 searchOrchestrator] - Not building visitor : replace_stats_cmds_with_tstats
+06-30-2025 03:00:01.283 INFO  AstOptimizer [49596 searchOrchestrator] - SrchOptMetrics optimization=0.016
+06-30-2025 03:00:01.283 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Optimized Search = | rest /services/server/info splunk_server=local | fields + guid, splunk_server
+06-30-2025 03:00:01.283 INFO  ScopedTimer [49596 searchOrchestrator] - search.optimize 0.016
+06-30-2025 03:00:01.283 ERROR DatamodelServiceConfiguration [49596 searchOrchestrator] - Failed to get datamodel_service_enabled from limits.conf, use the default value 0.
+06-30-2025 03:00:01.283 INFO  ParallelReducePolicy [49596 searchOrchestrator] - Current Search Head doesn't have any usable peers to use.
+06-30-2025 03:00:01.284 INFO  PhaseToPipelineVisitor [49596 searchOrchestrator] - Phase Search =  | rest /services/server/info splunk_server=local | fields + guid, splunk_server
+06-30-2025 03:00:01.284 INFO  SearchParser [49596 searchOrchestrator] - PARSING:  | rest /services/server/info splunk_server=local | fields + guid, splunk_server
+06-30-2025 03:00:01.284 INFO  SearchOperator:rest [49596 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.284 INFO  SearchPipeline [49596 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+06-30-2025 03:00:01.284 INFO  SearchParser [49596 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/server/info?count=0"
+06-30-2025 03:00:01.284 INFO  SearchOperator:rest [49596 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Disabling timeliner since source is not an event index
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Disabling timeliner since event search is empty
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - No need for RTWindowProcessor
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Timeliner will not be executed
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - required fields list to add to different pipelines = *
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Adding noop to provide result collation at search head
+06-30-2025 03:00:01.284 INFO  SearchParser [49596 searchOrchestrator] - PARSING: noop
+06-30-2025 03:00:01.284 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Search Phases created.
+06-30-2025 03:00:01.289 INFO  UserManager [49596 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.289 INFO  UserManager [49596 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.289 INFO  UserManager [49596 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.289 INFO  UserManager [49596 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.291 INFO  DistributedSearchResultCollectionManager [49596 searchOrchestrator] - Stream search: prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/info?count=0"
+06-30-2025 03:00:01.291 INFO  ExternalResultProvider [49596 searchOrchestrator] - No external result providers are configured
+06-30-2025 03:00:01.291 INFO  DistributedSearchResultCollectionManager [49596 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+06-30-2025 03:00:01.293 INFO  DistributedSearchResultCollectionManager [49596 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+06-30-2025 03:00:01.293 INFO  DistributedSearchResultCollectionManager [49596 searchOrchestrator] - No default search group set.
+06-30-2025 03:00:01.293 INFO  SearchTargeter [49596 searchOrchestrator] - should contact peer:BEER-PC01 regex=BEER-PC01 1
+06-30-2025 03:00:01.293 INFO  DistributedSearchResultCollectionManager [49596 searchOrchestrator] - Connecting to peer BEER-PC01 connectAll 0 connectToSpecificPeer 1
+06-30-2025 03:00:01.293 INFO  UserManager [37412 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.293 INFO  SearchPhaseGenerator [49596 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.000 seconds.
+06-30-2025 03:00:01.293 INFO  UserManager [18044 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.293 INFO  UserManager [18044 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.293 INFO  UserManager [18044 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.293 INFO  UserManager [37412 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.293 INFO  UserManager [37412 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.293 INFO  UserManager [13920 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.293 INFO  UserManager [13920 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.293 INFO  UserManager [13920 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.293 INFO  UserManager [35664 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.294 INFO  UserManager [35664 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.294 INFO  UserManager [35664 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  SearchOrchestrator [49596 searchOrchestrator] - Starting the status control thread.
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.294 INFO  UserManager [13944 StatusEnforcerThread] - Setting user context: admin
+06-30-2025 03:00:01.294 INFO  SearchOrchestrator [49596 searchOrchestrator] - Starting phase=1
+06-30-2025 03:00:01.294 INFO  UserManager [13944 StatusEnforcerThread] - Free version does not have user services
+06-30-2025 03:00:01.294 INFO  UserManager [31320 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.294 INFO  UserManager [42236 phase_1] - Setting user context: admin
+06-30-2025 03:00:01.294 INFO  UserManager [13944 StatusEnforcerThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.294 INFO  SearchStatusEnforcer [13944 StatusEnforcerThread] - Enforcing disk quota = 0
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  UserManager [42236 phase_1] - Free version does not have user services
+06-30-2025 03:00:01.294 INFO  SearchParser [24068 localCollectorThread] - PARSING: prerest  splunk_server="BEER-PC01" timeout=60 "/services/server/info?count=0"
+06-30-2025 03:00:01.294 INFO  UserManager [42236 phase_1] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  ReducePhaseExecutor [42236 phase_1] - Stating phase_1
+06-30-2025 03:00:01.294 INFO  UserManager [31320 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.294 INFO  UserManager [31320 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  SearchOperator:rest [24068 localCollectorThread] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.294 INFO  LocalCollector [24068 localCollectorThread] - Final required fields list = *
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.294 INFO  UserManager [24068 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.294 INFO  SearchOperator:rest [24068 localCollectorThread] - in RestProcessor::execute
+06-30-2025 03:00:01.294 INFO  DispatchExecutor [42236 phase_1] - BEGIN OPEN: Processor=rest
+06-30-2025 03:00:01.294 INFO  ProxyConfig [24068 localCollectorThread] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.294 INFO  ProxyConfig [24068 localCollectorThread] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.294 INFO  ProxyConfig [24068 localCollectorThread] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.294 INFO  ProxyConfig [24068 localCollectorThread] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+06-30-2025 03:00:01.355 INFO  UserManager [24068 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.355 INFO  UserManager [31320 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.355 INFO  UserManager [18044 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.355 INFO  UserManager [35664 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.355 INFO  UserManager [37412 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.355 INFO  UserManager [13920 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.357 INFO  ResultsCollationProcessor [42236 phase_1] - Writing remote_event_providers.csv to disk
+06-30-2025 03:00:01.359 INFO  DispatchExecutor [42236 phase_1] - END OPEN: Processor=rest
+06-30-2025 03:00:01.359 INFO  DispatchExecutor [42236 phase_1] - BEGIN OPEN: Processor=noop
+06-30-2025 03:00:01.373 INFO  DispatchExecutor [42236 phase_1] - END OPEN: Processor=noop
+06-30-2025 03:00:01.377 INFO  ReducePhaseExecutor [42236 phase_1] - Not downloading remote search.log files. Reason: No remote event providers.
+06-30-2025 03:00:01.377 INFO  ReducePhaseExecutor [42236 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+06-30-2025 03:00:01.377 INFO  ReducePhaseExecutor [42236 phase_1] - Ending phase_1
+06-30-2025 03:00:01.377 INFO  UserManager [42236 phase_1] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.403 INFO  UserManager [13944 StatusEnforcerThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.404 INFO  DispatchManager [49596 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='subsearch_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8_1751241601.1', username='admin')
+06-30-2025 03:00:01.404 INFO  UserManager [49596 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.405 INFO  SearchStatusEnforcer [31272 searchOrchestrator] - SearchStatusEnforcer is already terminated
+06-30-2025 03:00:01.438 INFO  DispatchStorageManagerInfo [31272 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=subsearch_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8_1751241601.2 dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\subsearch_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8_1751241601.2
+06-30-2025 03:00:01.438 INFO  DispatchCommandProcessor [31272 searchOrchestrator] - Data federation feature is enabled
+06-30-2025 03:00:01.438 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt
+06-30-2025 03:00:01.438 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt
+06-30-2025 03:00:01.438 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt
+06-30-2025 03:00:01.438 INFO  SearchOrchestrator [31272 searchOrchestrator] - SearchOrchestrator getting constructed
+06-30-2025 03:00:01.438 INFO  SearchOrchestrator [31272 searchOrchestrator] -  Initialized the SRI
+06-30-2025 03:00:01.441 INFO  ISplunkDispatch [31272 searchOrchestrator] - Not running in splunkd. Bundle replication not triggered.
+06-30-2025 03:00:01.443 INFO  SearchOrchestrator [46600 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+06-30-2025 03:00:01.444 INFO  UserManager [46600 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.444 INFO  UserManager [46600 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.444 INFO  UserManager [46600 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.445 INFO  SearchOrchestrator [46600 searchOrchestrator] - Creating the search DAG.
+06-30-2025 03:00:01.445 INFO  SearchParser [46600 searchOrchestrator] - PARSING: |rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt
+06-30-2025 03:00:01.447 INFO  DispatchStorageManagerInfo [46600 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=61f7f1f26268aa83_tmp dispatch_dir=C:\Program Files\Splunk\var\run\splunk\dispatch\61f7f1f26268aa83_tmp
+06-30-2025 03:00:01.449 INFO  SearchOperator:rest [46600 searchOrchestrator] - built uri=/servicesNS/nobody/splunk_instrumentation/telemetry?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.449 INFO  SearchParser [46600 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/servicesNS/nobody/splunk_instrumentation/telemetry?count=0"
+06-30-2025 03:00:01.449 INFO  SearchOperator:rest [46600 searchOrchestrator] - built uri=/servicesNS/nobody/splunk_instrumentation/telemetry?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.449 INFO  DispatchThread [46600 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+06-30-2025 03:00:01.450 INFO  DispatchThread [46600 searchOrchestrator] - required fields list to add to remote search = *
+06-30-2025 03:00:01.450 INFO  DispatchCommandProcessor [46600 searchOrchestrator] - summaryHash=ec4c6e82349785fc summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_ec4c6e82349785fc remoteSearch=prerest  splunk_server="BEER-PC01" timeout=60 "/servicesNS/nobody/splunk_instrumentation/telemetry?count=0"
+06-30-2025 03:00:01.450 INFO  DispatchCommandProcessor [46600 searchOrchestrator] - summaryHash=NSa393ddf4ae79354b summaryId=D59BE72C-130E-4AB5-91DF-EC18452C6179_splunk_instrumentation_admin_NSa393ddf4ae79354b remoteSearch=prerest splunk_server="BEER-PC01" timeout=60 "/servicesNS/nobody/splunk_instrumentation/telemetry?count=0"
+06-30-2025 03:00:01.450 INFO  DispatchThread [46600 searchOrchestrator] - Getting summary ID for summaryHash=NSa393ddf4ae79354b
+06-30-2025 03:00:01.451 INFO  SearchParser [46600 searchOrchestrator] - PARSING: |rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt
+06-30-2025 03:00:01.451 INFO  SearchOperator:rest [46600 searchOrchestrator] - built uri=/servicesNS/nobody/splunk_instrumentation/telemetry?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.452 INFO  AstOptimizer [46600 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000
+06-30-2025 03:00:01.452 INFO  SearchParser [46600 searchOrchestrator] - PARSING:  | fields + telemetrySalt
+06-30-2025 03:00:01.452 INFO  SearchParser [46600 searchOrchestrator] - PARSING:  | rest /servicesNS/nobody/splunk_instrumentation/telemetry splunk_server=local
+06-30-2025 03:00:01.452 INFO  ProjElim [46600 searchOrchestrator] - Black listed processors=[addinfo]
+06-30-2025 03:00:01.452 INFO  AstOptimizer [46600 searchOrchestrator] - Search optimizations have been disabled in limits.conf. Set enabled=true in [search_optimization::replace_stats_cmds_with_tstats]
+06-30-2025 03:00:01.452 INFO  AstVisitorFactory [46600 searchOrchestrator] - Not building visitor : replace_stats_cmds_with_tstats
+06-30-2025 03:00:01.452 INFO  AstOptimizer [46600 searchOrchestrator] - SrchOptMetrics optimization=0.000
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Optimized Search = | rest /servicesNS/nobody/splunk_instrumentation/telemetry splunk_server=local | fields + telemetrySalt
+06-30-2025 03:00:01.452 INFO  ScopedTimer [46600 searchOrchestrator] - search.optimize 0.000
+06-30-2025 03:00:01.452 ERROR DatamodelServiceConfiguration [46600 searchOrchestrator] - Failed to get datamodel_service_enabled from limits.conf, use the default value 0.
+06-30-2025 03:00:01.452 INFO  ParallelReducePolicy [46600 searchOrchestrator] - Current Search Head doesn't have any usable peers to use.
+06-30-2025 03:00:01.452 INFO  PhaseToPipelineVisitor [46600 searchOrchestrator] - Phase Search =  | rest /servicesNS/nobody/splunk_instrumentation/telemetry splunk_server=local | fields + telemetrySalt
+06-30-2025 03:00:01.452 INFO  SearchParser [46600 searchOrchestrator] - PARSING:  | rest /servicesNS/nobody/splunk_instrumentation/telemetry splunk_server=local | fields + telemetrySalt
+06-30-2025 03:00:01.452 INFO  SearchOperator:rest [46600 searchOrchestrator] - built uri=/servicesNS/nobody/splunk_instrumentation/telemetry?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.452 INFO  SearchPipeline [46600 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+06-30-2025 03:00:01.452 INFO  SearchParser [46600 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/servicesNS/nobody/splunk_instrumentation/telemetry?count=0"
+06-30-2025 03:00:01.452 INFO  SearchOperator:rest [46600 searchOrchestrator] - built uri=/servicesNS/nobody/splunk_instrumentation/telemetry?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Disabling timeliner since source is not an event index
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Disabling timeliner since event search is empty
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - No need for RTWindowProcessor
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Timeliner will not be executed
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - required fields list to add to different pipelines = *
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Adding noop to provide result collation at search head
+06-30-2025 03:00:01.452 INFO  SearchParser [46600 searchOrchestrator] - PARSING: noop
+06-30-2025 03:00:01.452 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Search Phases created.
+06-30-2025 03:00:01.457 INFO  UserManager [46600 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.457 INFO  UserManager [46600 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.457 INFO  UserManager [46600 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.457 INFO  UserManager [46600 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.457 INFO  DistributedSearchResultCollectionManager [46600 searchOrchestrator] - Stream search: prerest  splunk_server="BEER-PC01" timeout=60 "/servicesNS/nobody/splunk_instrumentation/telemetry?count=0"
+06-30-2025 03:00:01.457 INFO  ExternalResultProvider [46600 searchOrchestrator] - No external result providers are configured
+06-30-2025 03:00:01.457 INFO  DistributedSearchResultCollectionManager [46600 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+06-30-2025 03:00:01.457 INFO  DistributedSearchResultCollectionManager [46600 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+06-30-2025 03:00:01.457 INFO  DistributedSearchResultCollectionManager [46600 searchOrchestrator] - No default search group set.
+06-30-2025 03:00:01.457 INFO  SearchTargeter [46600 searchOrchestrator] - should contact peer:BEER-PC01 regex=BEER-PC01 1
+06-30-2025 03:00:01.457 INFO  DistributedSearchResultCollectionManager [46600 searchOrchestrator] - Connecting to peer BEER-PC01 connectAll 0 connectToSpecificPeer 1
+06-30-2025 03:00:01.457 INFO  SearchPhaseGenerator [46600 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.000 seconds.
+06-30-2025 03:00:01.457 INFO  UserManager [34000 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.457 INFO  UserManager [34000 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.457 INFO  UserManager [34000 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.457 INFO  UserManager [41196 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.457 INFO  UserManager [41196 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.457 INFO  UserManager [41196 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.457 INFO  SearchOrchestrator [46600 searchOrchestrator] - Starting the status control thread.
+06-30-2025 03:00:01.457 INFO  UserManager [39700 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.457 INFO  SearchOrchestrator [46600 searchOrchestrator] - Starting phase=1
+06-30-2025 03:00:01.457 INFO  UserManager [39700 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.457 INFO  UserManager [44608 StatusEnforcerThread] - Setting user context: admin
+06-30-2025 03:00:01.457 INFO  UserManager [44608 StatusEnforcerThread] - Free version does not have user services
+06-30-2025 03:00:01.457 INFO  UserManager [39700 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.457 INFO  UserManager [27904 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.457 INFO  SearchParser [39700 localCollectorThread] - PARSING: prerest  splunk_server="BEER-PC01" timeout=60 "/servicesNS/nobody/splunk_instrumentation/telemetry?count=0"
+06-30-2025 03:00:01.457 INFO  UserManager [44608 StatusEnforcerThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.457 INFO  UserManager [27904 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.458 INFO  UserManager [27904 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.458 INFO  SearchOperator:rest [39700 localCollectorThread] - built uri=/servicesNS/nobody/splunk_instrumentation/telemetry?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.458 INFO  UserManager [40928 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.458 INFO  LocalCollector [39700 localCollectorThread] - Final required fields list = *
+06-30-2025 03:00:01.458 INFO  UserManager [39700 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.458 INFO  SearchStatusEnforcer [44608 StatusEnforcerThread] - Enforcing disk quota = 0
+06-30-2025 03:00:01.458 INFO  UserManager [40928 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.458 INFO  UserManager [33288 phase_1] - Setting user context: admin
+06-30-2025 03:00:01.458 INFO  UserManager [40928 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.458 INFO  UserManager [39700 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.458 INFO  UserManager [39700 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.458 INFO  UserManager [39700 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.458 INFO  UserManager [44064 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.458 INFO  SearchOperator:rest [39700 localCollectorThread] - in RestProcessor::execute
+06-30-2025 03:00:01.458 INFO  UserManager [44064 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.458 INFO  UserManager [44064 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.458 INFO  UserManager [33288 phase_1] - Free version does not have user services
+06-30-2025 03:00:01.458 INFO  UserManager [33288 phase_1] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.458 INFO  ReducePhaseExecutor [33288 phase_1] - Stating phase_1
+06-30-2025 03:00:01.458 INFO  DispatchExecutor [33288 phase_1] - BEGIN OPEN: Processor=rest
+06-30-2025 03:00:01.459 INFO  UserManager [39700 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.459 INFO  UserManager [44064 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.459 INFO  UserManager [34000 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.459 INFO  UserManager [40928 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.459 INFO  UserManager [41196 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.459 INFO  UserManager [27904 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.461 INFO  ResultsCollationProcessor [33288 phase_1] - Writing remote_event_providers.csv to disk
+06-30-2025 03:00:01.463 INFO  DispatchExecutor [33288 phase_1] - END OPEN: Processor=rest
+06-30-2025 03:00:01.463 INFO  DispatchExecutor [33288 phase_1] - BEGIN OPEN: Processor=noop
+06-30-2025 03:00:01.464 INFO  DispatchExecutor [33288 phase_1] - END OPEN: Processor=noop
+06-30-2025 03:00:01.467 INFO  ReducePhaseExecutor [33288 phase_1] - Not downloading remote search.log files. Reason: No remote event providers.
+06-30-2025 03:00:01.467 INFO  ReducePhaseExecutor [33288 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+06-30-2025 03:00:01.467 INFO  ReducePhaseExecutor [33288 phase_1] - Ending phase_1
+06-30-2025 03:00:01.467 INFO  UserManager [33288 phase_1] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.475 INFO  UserManager [44608 StatusEnforcerThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.479 INFO  DispatchManager [46600 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='subsearch_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8_1751241601.2', username='admin')
+06-30-2025 03:00:01.479 INFO  UserManager [46600 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.480 INFO  SearchStatusEnforcer [31272 searchOrchestrator] - SearchStatusEnforcer is already terminated
+06-30-2025 03:00:01.494 INFO  SearchPipeline [31272 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+06-30-2025 03:00:01.494 INFO  SearchPipeline [31272 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+06-30-2025 03:00:01.494 INFO  SearchParser [31272 searchOrchestrator] - PARSING: prerest splunk_server="BEER-PC01" timeout=60 "/services/admin/auth-services?count=0"
+06-30-2025 03:00:01.494 INFO  SearchOperator:rest [31272 searchOrchestrator] - built uri=/services/admin/auth-services?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.494 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Disabling timeliner since source is not an event index
+06-30-2025 03:00:01.494 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Disabling timeliner since event search is empty
+06-30-2025 03:00:01.494 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - No need for RTWindowProcessor
+06-30-2025 03:00:01.494 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Timeliner will not be executed
+06-30-2025 03:00:01.494 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - required fields list to add to different pipelines = *
+06-30-2025 03:00:01.494 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Adding noop to provide result collation at search head
+06-30-2025 03:00:01.495 INFO  SearchParser [31272 searchOrchestrator] - PARSING: noop
+06-30-2025 03:00:01.495 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Search Phases created.
+06-30-2025 03:00:01.501 INFO  UserManager [31272 searchOrchestrator] - Setting user context: admin
+06-30-2025 03:00:01.501 INFO  UserManager [31272 searchOrchestrator] - Free version does not have user services
+06-30-2025 03:00:01.501 INFO  UserManager [31272 searchOrchestrator] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.501 INFO  UserManager [31272 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.501 INFO  DistributedSearchResultCollectionManager [31272 searchOrchestrator] - Stream search: prerest  splunk_server="BEER-PC01" timeout=60 "/services/admin/auth-services?count=0"
+06-30-2025 03:00:01.501 INFO  ExternalResultProvider [31272 searchOrchestrator] - No external result providers are configured
+06-30-2025 03:00:01.501 INFO  DistributedSearchResultCollectionManager [31272 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+06-30-2025 03:00:01.501 INFO  DistributedSearchResultCollectionManager [31272 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+06-30-2025 03:00:01.501 INFO  DistributedSearchResultCollectionManager [31272 searchOrchestrator] - No default search group set.
+06-30-2025 03:00:01.501 INFO  SearchTargeter [31272 searchOrchestrator] - should contact peer:BEER-PC01 regex=BEER-PC01 1
+06-30-2025 03:00:01.501 INFO  DistributedSearchResultCollectionManager [31272 searchOrchestrator] - Connecting to peer BEER-PC01 connectAll 0 connectToSpecificPeer 1
+06-30-2025 03:00:01.501 INFO  UserManager [34716 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.501 INFO  SearchPhaseGenerator [31272 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.000 seconds.
+06-30-2025 03:00:01.501 INFO  UserManager [34716 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.501 INFO  UserManager [34716 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.501 INFO  UserManager [49364 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.501 INFO  UserManager [49364 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.501 INFO  UserManager [49364 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.501 INFO  UserManager [45184 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.501 INFO  UserManager [45184 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.501 INFO  UserManager [45184 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.503 INFO  SearchParser [31272 searchOrchestrator] - PARSING: | streamnoop
+06-30-2025 03:00:01.503 INFO  UserManager [27736 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.503 INFO  UserManager [27736 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.503 INFO  UserManager [27736 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.503 INFO  SearchParser [31272 searchOrchestrator] - PARSING: streamnoop  | rest splunk_server=local /services/admin/auth-services | join type=left splunk_server [|rest splunk_server=local /services/server/info | fields guid, splunk_server]  | appendcols [|rest splunk_server=local /servicesNS/nobody/splunk_instrumentation/telemetry | fields telemetrySalt] | eval telemetrySalt=if(isnull(telemetrySalt), "", telemetrySalt), hashHost=sha1(telemetrySalt+splunk_server) | eval data="{\"host\": \""+hashHost+"\",\"guid\": \""+guid+"\", \"authentication method\": \""+active_authmodule+"\",\"mfa type\": " +"\"" + if(mfa_type=="", "none", mfa_type) +"\"}", _time=now(), date=strftime(_time, "%Y-%m-%d")  | fields data _time date | noop 
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.503 INFO  SearchParser [28320 localCollectorThread] - PARSING: prerest  splunk_server="BEER-PC01" timeout=60 "/services/admin/auth-services?count=0"
+06-30-2025 03:00:01.503 INFO  UserManager [49296 SearchResultExecutorThread] - Setting user context: admin
+06-30-2025 03:00:01.503 INFO  SearchParser [31272 searchOrchestrator] - PARSING: |rest splunk_server=local /services/server/info | fields guid, splunk_server
+06-30-2025 03:00:01.503 INFO  UserManager [49296 SearchResultExecutorThread] - Free version does not have user services
+06-30-2025 03:00:01.503 INFO  UserManager [49296 SearchResultExecutorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.503 INFO  SearchOperator:rest [28320 localCollectorThread] - built uri=/services/admin/auth-services?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.503 INFO  LocalCollector [28320 localCollectorThread] - Final required fields list = *
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Setting user context: admin
+06-30-2025 03:00:01.503 INFO  SearchOperator:rest [31272 searchOrchestrator] - built uri=/services/admin/auth-services?count=0, server=https://127.0.0.1:8089
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Free version does not have user services
+06-30-2025 03:00:01.503 INFO  UserManager [28320 localCollectorThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.503 INFO  SearchOperator:rest [28320 localCollectorThread] - in RestProcessor::execute
+06-30-2025 03:00:01.503 INFO  SearchOrchestrator [31272 searchOrchestrator] - Starting the status control thread.
+06-30-2025 03:00:01.503 INFO  SearchOrchestrator [31272 searchOrchestrator] - Starting phase=1
+06-30-2025 03:00:01.503 INFO  UserManager [48616 StatusEnforcerThread] - Setting user context: admin
+06-30-2025 03:00:01.504 INFO  UserManager [48616 StatusEnforcerThread] - Free version does not have user services
+06-30-2025 03:00:01.504 INFO  UserManager [30760 phase_1] - Setting user context: admin
+06-30-2025 03:00:01.504 INFO  UserManager [30760 phase_1] - Free version does not have user services
+06-30-2025 03:00:01.504 INFO  UserManager [30760 phase_1] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.504 INFO  ReducePhaseExecutor [30760 phase_1] - Stating phase_1
+06-30-2025 03:00:01.504 INFO  UserManager [48616 StatusEnforcerThread] - Done setting user context: NULL -> NULL
+06-30-2025 03:00:01.504 INFO  SearchStatusEnforcer [48616 StatusEnforcerThread] - Enforcing disk quota = 0
+06-30-2025 03:00:01.504 INFO  PreviewExecutor [48616 StatusEnforcerThread] - Preview Enforcing initialization done
+06-30-2025 03:00:01.504 INFO  DispatchExecutor [30760 phase_1] - BEGIN OPEN: Processor=rest
+06-30-2025 03:00:01.505 WARN  SearchOperator:rest [28320 localCollectorThread] - sid:scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8 Unexpected status for to fetch REST endpoint uri=https://127.0.0.1:8089/services/admin/auth-services?count=0 from server=https://127.0.0.1:8089 - Payment Required
+06-30-2025 03:00:01.505 ERROR SearchOperator:rest [28320 localCollectorThread] - sid:scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8 Failed to fetch REST endpoint uri=https://127.0.0.1:8089/services/admin/auth-services?count=0 from server https://127.0.0.1:8089. Check that the URI path provided exists in the REST API.
+06-30-2025 03:00:01.505 ERROR SearchOperator:rest [28320 localCollectorThread] - sid:scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8 The REST request on the endpoint URI /services/admin/auth-services?count=0 returned HTTP 'status not OK': code=402, Payment Required.
+06-30-2025 03:00:01.505 INFO  UserManager [28320 localCollectorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.505 INFO  UserManager [45184 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.505 INFO  UserManager [27736 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.505 INFO  UserManager [49296 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.505 INFO  UserManager [34716 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.505 INFO  ResultsCollationProcessor [30760 phase_1] - Writing remote_event_providers.csv to disk
+06-30-2025 03:00:01.505 INFO  UserManager [49364 SearchResultExecutorThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.507 INFO  DispatchExecutor [30760 phase_1] - END OPEN: Processor=rest
+06-30-2025 03:00:01.507 INFO  DispatchExecutor [30760 phase_1] - BEGIN OPEN: Processor=appendcols
+06-30-2025 03:00:01.508 INFO  DispatchExecutor [30760 phase_1] - END OPEN: Processor=appendcols
+06-30-2025 03:00:01.508 INFO  DispatchExecutor [30760 phase_1] - BEGIN OPEN: Processor=noop
+06-30-2025 03:00:01.508 INFO  DispatchExecutor [30760 phase_1] - END OPEN: Processor=noop
+06-30-2025 03:00:01.512 INFO  ReducePhaseExecutor [30760 phase_1] - Not downloading remote search.log files.  Reason: Remote log download is currently disabled.
+06-30-2025 03:00:01.512 INFO  ReducePhaseExecutor [30760 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+06-30-2025 03:00:01.512 INFO  ReducePhaseExecutor [30760 phase_1] - Ending phase_1
+06-30-2025 03:00:01.512 INFO  UserManager [30760 phase_1] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.568 INFO  SearchParser [48616 StatusEnforcerThread] - PARSING: stats count AS query| search query > 0
+06-30-2025 03:00:01.568 INFO  StatsContext [48616 StatusEnforcerThread] -  Setting Page Size at 65536
+06-30-2025 03:00:01.568 INFO  StatsContext [48616 StatusEnforcerThread] -  Setting max memory usage at 209715200
+06-30-2025 03:00:01.568 INFO  StatsProcessorV2 [48616 StatusEnforcerThread] - StatsV2 (stats) args: count, AS, query
+06-30-2025 03:00:01.568 INFO  StatsProcessorV2 [48616 StatusEnforcerThread] - StatsProcessorV2::processArguments: Unaligned accesses are free
+06-30-2025 03:00:01.568 INFO  StatsAggregations [48616 StatusEnforcerThread] - Instantiating Stats function group_count for key=, alias=query
+06-30-2025 03:00:01.568 INFO  StatsProcessor [48616 StatusEnforcerThread] - No group-by fields specified, incompatible for high cardinality improvements
+06-30-2025 03:00:01.568 INFO  StatsContext [48616 StatusEnforcerThread] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+06-30-2025 03:00:01.571 INFO  UnifiedSearch [48616 StatusEnforcerThread] - Processed search targeting arguments
+06-30-2025 03:00:01.609 INFO  SearchStatusEnforcer [48616 StatusEnforcerThread] - Triggered listener notification on state=onResults condition=1
+06-30-2025 03:00:01.609 INFO  UserManager [48616 StatusEnforcerThread] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.614 INFO  DispatchStorageManager [31272 searchOrchestrator] - Remote storage disabled for search artifacts.
+06-30-2025 03:00:01.614 INFO  DispatchManager [31272 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD5f3c4dace1282aae1_at_1751241600_8', username='admin')
+06-30-2025 03:00:01.614 INFO  UserManager [31272 searchOrchestrator] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.615 INFO  SearchStatusEnforcer [17412 RunDispatch] - SearchStatusEnforcer is already terminated
+06-30-2025 03:00:01.615 INFO  UserManager [17412 RunDispatch] - Unwound user context: NULL -> NULL
+06-30-2025 03:00:01.615 INFO  LookupDataProvider [17412 RunDispatch] - Clearing out lookup shared provider map
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - Shutting down splunkd
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Begin"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_NoahHealthReport"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_FileIntegrityChecker"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_JustBeforeKVStore"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_KVStore"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_DFM"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Thruput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_TcpInput1"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_ExecSendInitialSigterm"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_TcpOutput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_UdpInput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_FifoInput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueInput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_WinEventLogInput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_HttpInput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SelfStorageArchiver"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_BucketMergeWorker"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Scheduler"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SyslogOutput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_ArchiveAndOneshot"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Exec"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Tailing"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_PeerManager"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_AuditTrailManager"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_AuditTrailQueueServiceThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_FSChangeMonitor"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_FSChangeManagerProcessor"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_DeploymentClient"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_HttpClientPollingThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_AsyncQueuedMessageDispatcherThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueOutput"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_OfflineFlusher"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueOutputWorker"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RollAndUploadHotBuckets"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_MainThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_UploadReplicatedBucketThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Slave"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SlaveHBThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_CacheManager"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_HotBucketTasks"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SlaveSearch"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Deployer"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Captain"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Select"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_IdataDO_Collector"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_TcpOutput2"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_NoahHeartbeat"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_IndexerService"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Database1"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_LastIndexerLevel"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_AWSMetering"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SplunkConfigChangeWatcherThread"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_TcpInput2"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RemoteQueueInputWorker"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RemoteQueue"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RemoteFileSystem"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_LocalFileSystem"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SearchDispatch"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_SSCCacheClient"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_RendezvousHeartbeat"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_CatalogBackedConfSingleton"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_LoadUsers"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_MetricsManager"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Pipeline"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Queue"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_CallbackRunner"
+06-30-2025 03:00:01.631 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_HttpClient"
+06-30-2025 03:00:01.632 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_DmcProxyHttpClient"
+06-30-2025 03:00:01.632 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_Duo2FAHttpClient"
+06-30-2025 03:00:01.632 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_ApplicationLicenseChecker"
+06-30-2025 03:00:01.632 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_S3ConnectionPoolManager"
+06-30-2025 03:00:01.632 INFO  ShutdownHandler [2956 Shutdown] - shutting down level "ShutdownLevel_WorkloadManager"
+06-30-2025 03:00:01.632 INFO  ShutdownHandler [2956 Shutdown] - Shutdown complete in 1509 microseconds
