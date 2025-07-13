@@ -1,0 +1,67 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for policy authority federation contract & document bindings
+
+    DEPENDENCIES: SchemaNamespaces.mof Document.mof
+
+******************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// principal to document binding
+
+// ***************************************************************************
+[
+    Description("A binding between a pricipal id and policy platform documents.")
+    , Dynamic: ToInstance ToSubclass, Provider("PolicyPlatform_LocalStore"): ToInstance ToSubclass
+]
+class PolicyPlatform_PrincipalDocumentBinding
+{
+    [
+        Key,
+        Description("The id of the principal to which the document is bound")
+    ]
+    string PrincipalId;
+
+    [
+        Key,
+        Description("The authority of the document")
+    ]
+    string Authority;
+
+    [
+        Key,
+        Description("The name of the document")
+    ]
+    string Name;
+
+    [
+        Key,
+        Description("The revision of the document.")
+    ]
+    uint32 Revision;
+
+    [
+        Required, Not_Null,
+        Description
+        (
+            "The subclass of PolicyPlatform_Document of which the document identified by"
+            " {Authority, Name, Revision} is an instance"
+        ),
+        Values
+        {
+            "PolicyPlatform_Policy", "PolicyPlatform_RPF_Strategy", "PolicyPlatform_RPF_ValueTable"
+        }
+    ]
+    uint8 DocumentType = 0;
+};
+
