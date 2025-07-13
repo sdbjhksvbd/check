@@ -1,0 +1,27 @@
+[history/.dummy_history]
+version = 8.2.0
+modtime = 1749369970.254489900
+
+[ui-tour/search-tour]
+version = 8.2.0
+modtime = 1749369976.181585300
+
+[ui-tour/dashboards-tour%3Aenterprise]
+version = 8.2.0
+modtime = 1749369993.066909200
+
+[ui-prefs/search]
+version = 8.2.0
+modtime = 1749724986.558144900
+
+[views/tutorialdata]
+version = 8.2.0
+modtime = 1749645190.631284600
+
+[ui-tour/dark-tour]
+version = 9.2.1
+modtime = 1751269271.170799700
+
+[views/chicago_crimes]
+version = 9.2.1
+modtime = 1751290119.610063900
