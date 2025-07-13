@@ -1,0 +1,533 @@
+ï»¿;!@Lang2@!UTF-8!
+;  4.07 : Nicolas Sierro
+;  9.07 : Philippe Berthault
+; 15.14 : Sylvain St-Amand (SSTSylvain)
+; 22.00 : 2022-06-09 : Lolo S.
+; 23.01 : 2023-12-20 : Denis G (Need74)
+; 24.04 : 2024-04-29 : Lolo S.
+;
+;
+;
+;
+;
+0
+7-Zip
+French
+FranÃ§ais
+401
+OK
+Annuler
+
+
+
+&Oui
+&Non
+&Fermer
+Aide
+
+&Continuer
+440
+Oui pour &tous
+Non pour t&ous
+ArrÃªter
+RedÃ©marrer
+&ArriÃ¨re-plan
+P&remier plan
+&Pause
+En pause
+ÃŠtes-vous sur de vouloir annuler ?
+500
+&Fichier
+&Ã‰dition
+Affic&hage
+Fa&voris
+&Outils
+&Aide
+540
+&Ouvrir
+Ouvrir dans le gestionnaire &7-Zip
+Ouvrir dans l'Explorateur Windows
+&Voir (hexa)
+&Ã‰dition
+Reno&mmer
+&Copier vers...
+&DÃ©placer vers...
+S&upprimer
+Diviser le &fichier...
+&Fusionner les fichiers...
+P&ropriÃ©tÃ©s
+Comme&ntaire...
+Somme de contrÃ´le
+Comparaison des diffÃ©rences (Diff)
+CrÃ©er un dossier
+CrÃ©er un fichier
+&Quitter
+Connexion
+Flux &alternatif
+600
+SÃ©lectionner &tout
+DÃ©sÃ©lectionner to&ut
+&Inverser la sÃ©lection
+SÃ©lectionner...
+DÃ©sÃ©lectionner...
+SÃ©lectionner par type
+DÃ©sÃ©lectionner par type
+700
+&Grandes icÃ´nes
+&Petites icÃ´nes
+&Liste
+&DÃ©tails
+730
+Non triÃ©
+Vue Ã  plat
+&2 FenÃªtres
+&Barres d'outils
+Ouvrir le dossier racine
+Dossier parent
+Historique des dossiers...
+Actualis&er
+Actualiser automatiquement
+750
+Barre d'archive
+Barre standard
+Grands boutons
+Montrer le texte des boutons
+800
+&Ajoutez le dossier aux favoris comme
+Signet
+900
+&Options...
+&Test de performance
+910
+Supprimer les fichiers temporaires...
+960
+&Contenu...
+Ã€ &propos de 7-Zip...
+1003
+Chemin
+Nom
+Extension
+Dossier
+Taille
+Taille compressÃ©e
+Attributs
+CrÃ©Ã© le
+AccÃ©dÃ© le
+ModifiÃ© le
+Solide
+Commentaire
+Chiffrer
+Diviser avant
+Diviser aprÃ¨s
+Dictionnaire
+
+Type
+Anti
+MÃ©thode
+OS hÃ´te
+SystÃ¨me de fichiers
+Utilisateur
+Groupe
+Bloc
+Commentaire
+Position
+PrÃ©fixe
+Dossiers
+Fichiers
+Version
+Volume
+Multi-volume
+DÃ©calage
+Liens
+Blocs
+Volumes
+
+64 bits
+Gros-boutiste
+CPU
+Taille physique
+Taille des en-tÃªtes
+Somme de contrÃ´le
+CaractÃ©ristiques
+Adresse virtuelle
+Identifiant
+Nom court
+Application source
+Taille de secteur
+Mode
+Lien symbolique
+Erreur
+Taille totale
+Espace libre
+Taille des clusters
+Nom de volume
+Nom local
+Fournisseur
+SÃ©curitÃ© NT
+Flux alternatif
+Auxiliaire
+Effacer
+En arbre
+
+
+Type d'erreur
+Erreurs
+Erreurs
+Avertissements
+Avertissement
+Flux
+Flux alternÃ©s
+Taille des flux alternÃ©s
+Taille virtuelle
+Taille dÃ©compressÃ©e
+Taille physique totale
+Indexe du Volume
+Sous-type
+Commentaire court
+Page de codes
+
+
+
+Taille de la queue
+Taille de la matrice intÃ©grÃ©e
+Connexion
+Lien solide
+iNoeud
+
+Lecture seule
+
+Copier le lien
+
+
+MÃ©tadonnÃ©es modifiÃ©es
+2100
+Options
+Langue
+Langue :
+Ã‰diteur
+&Ã‰diteur :
+RÃ©sultat de comparaison (&Diff) :
+2200
+SystÃ¨me
+Associer avec 7-Zip :
+Tous les utilisateurs
+2301
+IntÃ©grer 7-Zip au menu contextuel
+Menu contextuel en cascade
+Ã‰lÃ©ments du menu contextuel :
+IcÃ´nes dans le menu contextuel
+2320
+<Dossier>
+<Archive>
+Ouvrir archive
+Extraire les fichiers...
+Ajouter Ã  l'archive...
+ContrÃ´ler l'archive
+Extraire Ici
+Extraire vers {0}
+Ajouter Ã  {0}
+Compresser et envoyer par courriel...
+Compresser vers {0} et envoyer par courriel
+2400
+Dossiers
+Dossier de &travail
+Dossier temporaire du &systÃ¨me
+Dossier &courant
+Dossier s&pÃ©cifiÃ© :
+N'utiliser que pour les mÃ©dias amovibles
+SpÃ©cifier un dossier pour les fichiers d'archive temporaires.
+2500
+ParamÃ¨tres
+Afficher l'Ã©lÃ©ment "..."
+Afficher les icÃ´nes rÃ©elles des fichiers
+Afficher le menu systÃ¨me
+&SÃ©lectionner toute la ligne
+Afficher la &grille
+Ouvrir les items par simple clic
+Utiliser la sÃ©lection &alternative
+Utilise de grandes pages mÃ©moire
+2900
+Ã€ propos de 7-Zip
+7-Zip est un logiciel libre
+3000
+Le systÃ¨me ne peut allouer la quantitÃ© de mÃ©moire nÃ©cessaire
+Il n'y a pas d'erreurs
+{0} objet(s) sÃ©lectionnÃ©(s)
+Le dossier '{0}' ne peut pas Ãªtre crÃ©Ã©
+Les opÃ©rations de mise Ã  jour ne sont pas disponibles pour cette archive.
+Le fichier '{0}' ne peut Ãªtre ouvert comme une archive
+L'archive cryptÃ©e '{0}' ne peut Ãªtre ouverte. Mauvais mot de passe ?
+Ce type d'archive n'est pas supportÃ©
+Le fichier {0} existe dÃ©jÃ 
+Le fichier '{0}' a Ã©tÃ© modifiÃ©.\nVoulez-vous le mettre Ã  jour dans l'archive ?
+Impossible de mettre Ã  jour\n'{0}'
+Impossible de dÃ©marrer l'Ã©diteur.
+Le fichier ressemble Ã  un virus (son nom contient de longs espaces qui peuvent masquer l'extension).
+L'opÃ©ration ne peut Ãªtre effectuÃ©e depuis un dossier ayant un chemin d'accÃ¨s trop long.
+Vous devez sÃ©lectionner un fichier
+Vous devez sÃ©lectionner au moins un fichier
+Trop d'Ã©lÃ©ments
+Impossible d'ouvrir le fichier {0} comme une archive
+Le fichier {0} est ouvert comme une archive
+L'archive est ouverte avec un dÃ©calage
+3300
+Extraction en cours
+Compression en cours
+ContrÃ´le en cours
+Ouverture...
+Analyse...
+Suppression...
+3320
+Ajout
+Mise Ã  jour
+Analyse
+RÃ©plication
+Reconditionnement
+Ã‰vitement
+Effacement
+CrÃ©ation d'en-tÃªte
+3400
+Extraire
+E&xtraire vers :
+SpÃ©cifier un dossier pour l'extraction des fichiers.
+3410
+Type de chemin :
+Chemin complet
+Aucun chemin
+Chemin absolu
+Chemin relatif
+3420
+Choix d'Ã©crasement :
+Demander avant d'Ã©craser
+Ã‰craser sans demander
+Ne pas Ã©craser les fichiers existants
+Renommer automatiquement
+Renommage automatique des fichiers existants
+3430
+Ã‰liminer la duplication du rÃ©pertoire racine
+Restaurer la sÃ©curitÃ© des fichiers
+3440
+Propager le flux Zone.Id :
+Pour les fichiers Office
+3500
+Confirmer l'Ã©crasement de fichier
+Le dossier de destination contient dÃ©jÃ  un fichier avec ce nom.
+Voulez-vous remplacer le fichier existant
+par celui-ci ?
+{0} octets
+Renommer &automatiquement
+3700
+MÃ©thode de compression non prise en charge pour '{0}'.
+DonnÃ©e erronÃ©e dans le fichier '{0}'. Le fichier est corrompu.
+Ã‰chec du contrÃ´le CRC dans le fichier '{0}'. Le fichier est corrompu.
+DonnÃ©e erronÃ©e dans le fichier cryptÃ© '{0}'. Mauvais mot de passe ?
+Ã‰chec du contrÃ´le CRC dans le fichier cryptÃ© '{0}'. Mauvais mot de passe ?
+3710
+Mauvais mot de passe ?
+3721
+MÃ©thode de compression non supportÃ©e
+Erreur de donnÃ©e
+Ã‰chec de CRC
+DonnÃ©es non disponibles
+Fin de donnÃ©es inattendues
+Il y a des donnÃ©es aprÃ¨s la fin des donnÃ©es utiles
+N'est pas une archive
+Erreur d'en-tÃªtes
+Mauvais mot de passe
+3763
+DÃ©but d'archive non disponible
+DÃ©but d'archive non confirmÃ©
+
+
+
+Option non supportÃ©e
+3800
+Entrer le mot de passe
+&Entrer le mot de passe :
+En&trer le mot de passe Ã  nouveau :
+&Afficher le mot de passe
+Les mots de passe ne correspondent pas
+Pour le mot de passe, n'utiliser que des lettres non accentuÃ©es, des chiffres et des caractÃ¨res spÃ©ciaux (!, #, $, ...)
+Le mot de passe est trop long
+Mot de passe
+3900
+Temps Ã©coulÃ© :
+Temps restant :
+Taille totale :
+Vitesse :
+TraitÃ© :
+Taux de compression :
+Erreurs :
+Archives :
+4000
+Ajouter Ã  l'archive
+&Archive :
+&Mode de mise Ã  jour :
+&Format de l'archive :
+N&iveau de compression :
+MÃ©thode de &compression :
+&Taille du dictionnaire :
+Tai&lle des mots :
+Taille de bloc solide :
+Nombre de threads CPU :
+&ParamÃ¨tres :
+Options
+CrÃ©er une archive auto-extractible SfX
+Compresser des fichiers partagÃ©s
+Chiffrement
+MÃ©thode de chiffrement :
+Chiffrer les &noms de fichiers
+MÃ©moire pour la compression :
+MÃ©moire pour la dÃ©compression :
+Supprimer les fichiers aprÃ¨s compression
+4040
+Enregistrer les liens symboliques
+Enregistrer les liens solides
+Enregistrer les flux de donnÃ©es alternatifs
+Enregistrer la sÃ©curitÃ© de fichier
+4050
+Aucune
+Le plus rapide
+Rapide
+Normale
+Maximum
+Ultra
+4060
+Ajouter et remplacer les fichiers
+Mettre Ã  jour et ajouter les fichiers
+RafraÃ®chir les fichiers existants
+Synchroniser les fichiers
+4070
+Parcourir
+Tous les fichiers
+Non-solide
+Solide
+4080
+Date
+PrÃ©cision des dates :
+Enregistrer la date de modification
+Enregistrer la date de crÃ©ation
+Enregistrer la date du dernier accÃ¨s
+DÃ©finir la date d'archivage sur le derniÃ¨re date du fichier
+Ne pas modifier la date de dernier accÃ¨s pour les fichiers source
+4090
+sec
+ns
+6000
+Copier
+DÃ©placer
+Copier dans :
+DÃ©placer vers :
+Copie...
+DÃ©placement...
+Renommage...
+SÃ©lectionner le dossier de destination.
+L'opÃ©ration n'est pas possible pour ce dossier.
+Erreur durant le renommage du fichier ou du dossier
+Confirmer la copie de fichier
+ÃŠtes-vous sÃ»r de vouloir copier ces fichiers dans l'archive
+6100
+Confirmer la suppression du fichier
+Confirmer la suppression du dossier
+Confirmer la suppression de plusieurs fichiers
+ÃŠtes-vous sÃ»r de vouloir supprimer '{0}' ?
+ÃŠtes-vous sÃ»r de vouloir supprimer le dossier '{0}' et tout son contenu ?
+ÃŠtes-vous sÃ»r de vouloir supprimer ces {0} Ã©lÃ©ments ?
+Suppression...
+Erreur lors de la suppression du fichier ou du dossier
+Le chemin du fichier est trop long pour permettre de dÃ©placer le fichier vers la corbeille
+6300
+CrÃ©er un Dossier
+CrÃ©er un Fichier
+Nom du dossier :
+Nom du fichier :
+Nouveau dossier
+Nouveau fichier
+Erreur durant la crÃ©ation du dossier
+Erreur durant la crÃ©ation du fichier
+6400
+Commentaire
+&Commentaire :
+SÃ©lectionner
+DÃ©sÃ©lectionner
+Masquer :
+6600
+PropriÃ©tÃ©s
+Historique des dossiers
+Messages de diagnostic
+Message
+7100
+Ordinateur
+RÃ©seau
+Documents
+SystÃ¨me
+7200
+Ajouter
+Extraire
+Tester
+Copier
+DÃ©placer
+Supprimer
+Informations
+7300
+DÃ©couper le fichier
+&DÃ©couper en :
+DÃ©couper en &volumes, octets :
+DÃ©couper...
+Confirmer le dÃ©coupage
+ÃŠtes-vous sÃ»r de vouloir dÃ©couper le fichier en {0} volumes ?
+La taille de volume doit Ãªtre infÃ©rieure Ã  la taille du fichier d'origine
+Taille de volume incorrecte
+Taille spÃ©cifiÃ©e : {0} octets.\nÃŠtes-vous sÃ»r de vouloir diviser l'archive de cette faÃ§on ?
+7400
+Fusionner les fichiers
+&Fusionner en :
+Fusionner...
+Ne sÃ©lectionner que la premiÃ¨re partie du fichier fractionnÃ©
+Fichier non reconnu comme partie d'une archive fractionnÃ©e
+Impossible de trouver plus d'une partie de l'archive fractionnÃ©e
+7500
+Calcul de la somme de contrÃ´le...
+Informations sur la somme de contrÃ´le
+Somme de contrÃ´le CRC des donnÃ©es :
+Somme de contrÃ´le CRC des donnÃ©es et des noms :
+7600
+Test de performance
+Utilisation de la mÃ©moire :
+Compression
+DÃ©compression
+Notation
+Note totale
+Actuel
+RÃ©sultant
+Charge CPU
+Utilisation notÃ©e
+Passes :
+7700
+Connexion
+Lien
+Lien depuis :
+Lien vers :
+7710
+Type de connexion
+Lien solide
+Lien symbolique de fichier
+Lien symbolique de dossier
+Jonction de dossiers
+7800
+Demande d'utilisation de la mÃ©moire
+Modifier la limite autorisÃ©e pour les prochaines opÃ©rations
+&RÃ©pÃ©ter l'action sÃ©lectionnÃ©e pour l'opÃ©ration en cours
+Action
+7810
+L'opÃ©ration a Ã©tÃ© bloquÃ©e par 7-Zip.
+L'opÃ©ration nÃ©cessite une grande quantitÃ© de mÃ©moire (RAM).
+taille d'utilisation de la mÃ©moire requise
+limite d'utilisation de la mÃ©moire autorisÃ©e
+limite d'utilisation de la mÃ©moire dÃ©finie par 7-Zip
+Taille de la RAM
+QuantitÃ© maximale d'utilisation de la mÃ©moire RAM autorisÃ©e pour dÃ©compresser les archives :
+7820
+&Autoriser la dÃ©compression des archives
+&Ignorer la dÃ©compression des archives
+La dÃ©compression des archives a Ã©tÃ© ignorÃ©e.
