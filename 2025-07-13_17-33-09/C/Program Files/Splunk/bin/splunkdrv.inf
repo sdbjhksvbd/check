@@ -1,0 +1,84 @@
+; Copyright Splunk Inc 2023
+; INF file to install Splunk registry filter driver
+;
+
+[Version]
+signature = "$Windows NT$"
+Provider    = %SPlunkInc%
+DriverVer   =  04/29/2013,7.0.0.0
+Class  = System
+ClassGuid = {4d36e97d-e325-11ce-bfc1-08002be10318}
+DriverPackageType = ClassFilter
+CatalogFile = "splunkdrv.cat"
+ 
+; Distribution Media information
+;
+[SourceDisksNames]
+1 =  %splunkdisknames% 
+
+[SourceDisksFiles]
+splunkdrv.sys = 1
+
+[DestinationDirs]
+DefaultDestDir = 12
+DriverFiles = 12
+
+[DriverFiles]
+%splunkdrvsys%
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall.NTamd64]
+CopyFiles = DriverFiles
+
+[DefaultInstall.NTamd64.Services]
+AddService = %ServiceName%, , Splunkdrv_Service_Inst
+ 
+[DefaultInstall.NTx86]
+CopyFiles = DriverFiles
+
+[DefaultInstall.NTx86.Services]
+AddService = %ServiceName%, , Splunkdrv_Service_Inst
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall.NTamd64]
+DelFiles = DriverFiles
+LegacyUninstall = 1
+
+[DefaultUninstall.NTamd64.Services]
+DelService = %ServiceName%, 0x200 
+
+[DefaultUninstall.NTx86]
+DelFiles = DriverFiles
+LegacyUninstall = 1
+
+[DefaultUninstall.NTx86.Services]
+DelService = %ServiceName%, 0x200
+
+;
+; Services Section
+;
+
+[Splunkdrv_Service_Inst]
+DisplayName    = %splunkdrv.SvcDesc%
+ServiceType    = 1; SERVICE_KERNEL_DRIVER
+StartType      = 3; SERVICE_DEMAND_START
+ErrorControl   = 1; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\%splunkdrvsys%
+
+
+[Strings]
+SPlunkInc        = "Splunk, Inc"
+splunkdrv.SvcDesc = "Splunk Trace Kernel Mode Driver"
+splunkdrv.MediaDesc = "Splunk Trace Kernel Mode Driver"
+ServiceName = "splunkdrv"
+splunkdrvsys = "splunkdrv.sys"
+splunkdisknames = "Splunk Trace Kernel Mode Driver"
+
+
+
