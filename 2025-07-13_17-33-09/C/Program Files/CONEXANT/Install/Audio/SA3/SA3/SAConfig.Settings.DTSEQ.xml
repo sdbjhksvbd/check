@@ -1,0 +1,6 @@
+<SmartAudioConfiguration>
+  <!-- Volume Page -->
+
+  <!-- Playback Experience -->
+  <EnableDTSFiveBandEqualizer>true</EnableDTSFiveBandEqualizer>
+</SmartAudioConfiguration>
