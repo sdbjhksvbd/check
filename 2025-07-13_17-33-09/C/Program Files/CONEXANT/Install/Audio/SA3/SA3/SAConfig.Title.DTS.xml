@@ -1,0 +1,6 @@
+<SmartAudioConfiguration>
+  <!-- Skin settings -->
+  <ApplicationTitle>DTS Audio Control Panel</ApplicationTitle>
+  <ApplicationTooltip>DTS Audio Control Panel</ApplicationTooltip>
+  <DefaultSkin>SmartAudio.HP.Default</DefaultSkin>
+</SmartAudioConfiguration>
