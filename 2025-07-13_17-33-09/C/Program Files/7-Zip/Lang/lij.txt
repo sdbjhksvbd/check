@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  9.07 : GENOVES
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Ligurian
+Zeneize
+401
+D'acÃ²rdio
+Anulla
+
+
+
+&Sci
+&No
+SÃ¦&ra
+Agiutto
+
+&Continoa
+440
+Sci pe &Tutti
+No pe T&utti
+Ferma
+Inandia torna
+Into &sfondo
+&In primmo cian
+&Paoza
+In paoza
+Ti Ãª seguo de voei anulÃ¢?
+500
+&Archivio
+&Modifica
+&Vixoalizza
+&Preferii
+&Strumenti
+A&giutto
+540
+&Arvi
+Arvi into ManezatÃ´ d'archivi 7-Zip
+Arvi inte Explorer
+&Vixoalizza
+&Modifica
+Ri&nomina
+&CÃ²pia inte...
+&SpÃ²sta inte...
+Scancel&la
+&Dividi l'archivio...
+&Unisci i archivi...
+P&ropietÃ¦
+Comen&ta...
+Calcola somma de contrÃ²llo
+Dif
+Crea cartella
+Crea archivio
+Sc&iÃ²rti
+600
+SeleÃ§ionn-a &tutto
+DeseleÃ§ionn-a tutto
+In&verti seleÃ§ion
+SeleÃ§ionn-a...
+DeseleÃ§ionn-a...
+SeleÃ§ionn-a pe tipo
+DeseleÃ§ionn-a pe tipo
+700
+Figue &grende
+Figue picinn-e
+&Listin
+&DÃ¦ti
+730
+Nisciun ordine
+Vista ciatta
+&2 barcoÃ®n
+Bare di &Strumenti
+Arvi cartella prinÃ§ipÃ¢
+Livello supeiÃ´
+Cronologia...
+&Agiorna
+750
+Bara di strumenti Archivio
+Bara di strumenti Normali
+Figue grende
+Mostra etichette de tÃ¨sto
+800
+&Azonzi a cartella a-i Preferii comme
+Colegamento
+900
+&Ã’psioin...
+&Ponto de riferimento
+960
+&Goidda...
+&InformaÃ§ioin in sce de 7-Zip...
+1003
+Percorso
+Nomme
+Estension
+Cartella
+Mezua
+Mezua Conpressa
+Atributi
+Creou
+Urtimo acesso
+Urtima modifica
+SÃ²lido
+Comentou
+Criptou
+Dividi primma
+Dividi dÃ²ppo
+DiÃ§ionaio
+CRC
+Tipo
+Anti
+Metodo
+OS destinaÃ§ion
+Archivio do scistemma
+Utente
+Gruppo
+BlÃ²cco
+Comento
+PoxiÃ§ion
+Prefisso da destinaÃ§ion
+Cartelle
+Archivi
+Verscion
+Volumme
+Multivolumme
+Offset
+Colegamenti
+BlÃ²cchi
+Volummi
+
+64-bit
+Big-endian
+CPU
+Mezua fixica
+Mezua de titoli
+Somma de contrÃ²llo
+Carateristiche
+Indirisso Virtoale
+ID
+Nomme curto
+AplicaÃ§ion de creaÃ§ion
+Mezua da seÃ§ion
+MÃ²ddo
+Colegamento
+ErÃ´
+CapaÃ§itÃ¦ totale
+SpaÃ§io disponibile
+Mezua de particole (cluster)
+Etichetta
+Nomme locale
+ProveditÃ´
+2100
+Ã’psioin
+Lengoa
+Lengoa:
+EditÃ´
+&EditÃ´:
+&Dif:
+2200
+Scistemma
+AsÃ²ccia 7-Zip a:
+2301
+Integra 7-Zip into menÃ¹ contestoale
+MenÃ¹ contestoale a cascaa
+Elementi do menÃ¹ contestoale:
+2320
+<Cartella>
+<Archivio>
+Arvi
+Estranni i archivi...
+Azonzi a l'archivio...
+ContrÃ²lla l'archivio
+Estranni chi.
+Estranni inte {0}
+Azonzi a {0}
+Conprimmi e invia pe email...
+Conprimmi in {0} e invia pe email
+2400
+Cartelle
+Cartella de tra&vaggio
+Cartella &Temp de Scistemma
+&Corente
+&SpecificÃ¢:
+Deuvia solo pe dischi estraibili
+Specifica unna cartella pe-i archivi tenporanni.
+2500
+InpostaÃ§ioin
+Mostra l'elemento ".."
+Mostra e icÃ¶ne di archivi
+Mostra e icÃ¶ne do scistemma
+SeleÃ§ionn-a a &riga intrega
+Mostra &grixella
+SciacÃ¢ unna vÃ²tta sola pe arvÃ® un elemento
+&MÃ²ddo de seleÃ§ion alternativo
+Deuvia grende &pagine de memÃ¶ia
+2900
+DÃ¦ti
+7-Zip o l'Ã© un programa libero e de badda.
+3000
+O scistemma o no peu separÃ¢ a quantitÃ¦ de memÃ¶ia necesaia
+Nisciun erÃ´
+{0} Ã²getti seleÃ§ionÃ¦
+Inposcibile creÃ¢ a cartella '{0}'
+No l'Ã© poscibile efetoÃ¢ agiornamenti in sce quest'archivio.
+Inposcibile arvÃ® l'archivio '{0}' comme conpilaÃ§ion
+Inposcibile arvÃ® a conpilaÃ§ion criptÃ¢ '{0}'. Scoretta a parÃ²lla d'ordine?
+Tipo de conpilaÃ§ion no consentia
+L'archivio {0} za o l'existe
+L'archivio '{0}' o l'Ã© stÃ¦to modificou.\nTi veu agiornÃ¢ l'archivio?
+Inposcibile agiornÃ¢ l'archivio\n'{0}'
+Inposcibile inandiÃ¢ l'editÃ´.
+L'archivio o pÃ¢ d'ese un virus (o seu nomme o gh'Ã  di spaÃ§Ã§i longhi).
+L'Ã²peraÃ§ion a no peu conpletase da unna cartella da percorso longo.
+Ti devi seleÃ§ionÃ¢ un archivio
+Ti devi seleÃ§ionÃ¢ Ã¹n Ã² ciÃ¹ archivi
+TrÃ²ppi elementi
+3300
+EstraÃ§ion in corso...
+Conprescion in corso...
+ContrÃ²llo in corso...
+Avertua in corso...
+Controlemmo...
+3400
+Estranni
+&Estranni inte:
+Specifica unna cartella dove estrae i archivi.
+3410
+Strutua de cartelle
+Percorsci conpleti
+Nisciun percorso
+3420
+Sorvescritua
+Domanda primma de sorvescrive
+Sorvescrivi sensa domandÃ¢
+No sorvescrive i archivi existenti
+Rinomina outomaticamente
+Rinomina outomaticamente i archivi existenti
+3500
+Conferma a sostitoÃ§ion de l'archivio
+A cartella destinaÃ§ion a contegne za l'archivio fÃ¦to.
+Ti voriesci sostitoÃ® l'archivio
+con questo?
+{0} byte
+Rinomina &outomaticamente
+3700
+Metodo de conprescion no consentio pe '{0}'.
+ErÃ´ di dÃ¦ti inte '{0}'. L'archivio o l'Ã© danezou.
+CRC no coretto inte '{0}'. L'archivio o l'Ã© danezou.
+ErÃ´ di dÃ¦ti inte l'archivio criptou '{0}'. Scoretta a parÃ²lla d'ordine?
+CRC falio inte l'archivio criptou '{0}'. Scoretta a parÃ²lla d'ordine?
+3800
+Introduxi parÃ²lla d'ordine
+Introduxi parÃ²lla d'ordine:
+Ripeti a parÃ²lla d'ordine:
+&Mostra parÃ²lla d'ordine
+E parÃ²lle d'ordine no coincidan
+Deuvia solo segni de l'ingleize, numeri e carateri speciali (!, #, $, ...) pe-a parÃ²lla d'ordine
+ParÃ²lla d'ordine trÃ²ppo longa
+ParÃ²lla d'ordine
+3900
+Tenpo trascorso:
+Tenpo rimanente:
+Mezua:
+VelocitÃ¦:
+Procesou:
+Tascia de conprescion:
+EroÃ®:
+ConpilaÃ§ion:
+4000
+Azonzi a l'archivio
+&Archivio:
+ModalitÃ¦ d'a&giornamento:
+&Formato de l'archivio:
+&Livello de conprescion:
+&Metodo de conprescion:
+Mezua &DiÃ§ionaio:
+Mezue da Pa&rÃ²lla:
+Mezua do blÃ²cco sÃ²lido:
+Numero de thread CPU:
+&Parametri:
+Ã’psioin
+Crea archivio outo-estraente
+Conprimmi archivi condivixi
+Critografia
+MÃ²ddo de criptÃ¢:
+Cripta o &nomme di archivi
+Utilizzo da memÃ¶ia pe conprescion:
+Utilizzo da memÃ¶ia pe deconprescion:
+4050
+Nisciunn-a
+Velociscima
+Veloce
+Normale
+Mascima
+Ultra
+4060
+Azonzi e sostitoisci i archivi
+Agiorna e azonzi i archivi
+Agiorna i archivi existenti
+Sincronizza i archivi
+4070
+Sfeuggia
+Tutti i archivi
+No-sÃ²lido
+SÃ²lido
+6000
+CÃ²pia
+SpÃ²sta
+CÃ²pia inte:
+SpÃ²sta verso:
+CÃ²pia in corso...
+Spostamento in corso...
+RinominaÃ§ion in corso...
+Ã‡erni cartella de destinaÃ§ion.
+L'Ã²peraÃ§ion a no l'Ã© consentia.
+ErÃ´ into rinominÃ¢ l'archivio Ã² a cartella
+Conferma a cÃ²pia d'archivi
+Ti Ãª seguo de voei copiÃ¢ di archivi a unna conpilaÃ§ion?
+6100
+Conferma l'eliminaÃ§ion de l'archivio
+Conferma l'eliminaÃ§ion da cartella
+Conferma l'eliminaÃ§ion de ciÃ¹ elementi
+Ti Ãª seguo de voei eliminÃ¢ '{0}'?
+Ti Ãª seguo de voei eliminÃ¢ a cartella '{0}' e tutto o seu contegnuo?
+Ti Ãª seguo de voei eliminÃ¢ questi {0} elementi?
+EliminaÃ§ion in corso...
+ErÃ´ inte l'eliminaÃ§ion de l'archivio Ã² da cartella
+O scistemma o no peu caciÃ¢ via un archivio da percorso longo
+6300
+Crea Cartella
+Crea archivio
+Nomme da cartella:
+Nomme d'archivio:
+Neuva cartella
+Neuvo archivio
+ErÃ´ inta creaÃ§ion da cartella
+ErÃ´ inta creaÃ§ion de l'archivio
+6400
+Comento
+&Comento:
+SeleÃ§ionn-a
+DeseleÃ§ionn-a
+Filtro:
+6600
+PropietÃ¦
+Cronologia
+Mesaggi diagnÃ²stichi
+Mesaggio
+7100
+CalcolatÃ´
+RÃ¦
+Documenti
+Scistemma
+7200
+Azonzi
+Estranni
+ContrÃ²lla
+CÃ²pia
+SpÃ²sta
+Cancella
+PropietÃ¦
+7300
+Dividi Archivio
+&Dividi inte:
+Di&vidi in ciÃ¹ archivi, mezua in byte:
+Dividimmo...
+Conferma a divixon
+Ti Ãª seguo de voei separÃ¢ l'archivio inte {0} volummi?
+A mezua de volumme a deve ese ciÃ¹ picinn-a de quella de l'Ã²riginale
+Scoretta a mezua do volumme
+Mezua de volumme specificÃ¢: {0} byte.\nTi Ãª seguo de voei separÃ¢ l'archivio inte quelli volummi?
+7400
+Unisci i archivi
+&Unisci inte:
+Unimmo...
+SeleÃ§ionn-a solo a primma parte de l'archivio divizo
+No se gh'atreuva un archivio comme parte d'un archivio divizo
+No se gh'atreuva ciÃ¹ d'unna parte d'un archivio divizo
+7500
+Calcolemmo a somma de contrÃ²llo...
+DÃ¦ti da somma de contrÃ²llo
+Somma de contrÃ²llo CRC pe dÃ¦ti:
+Somma de contrÃ²llo CRC pe dÃ¦ti e nommi:
+7600
+Ponto de riferimento
+Utilizzo da memÃ¶ia:
+Conprescion in corso
+Deconprescion in corso
+ValutaÃ§ion
+ValutaÃ§ion totale
+Atoale
+Derivou
+Utilizzo de CPU
+Rating / Utilizzo
+Pasaggi:
