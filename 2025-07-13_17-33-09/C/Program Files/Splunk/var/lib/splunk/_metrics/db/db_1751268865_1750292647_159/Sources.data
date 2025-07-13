@@ -1,0 +1,5 @@
+0	4	764410	1750292647	1751268865	1751268866	
+1	source::C:\Program Files\Splunk\var\log\introspection\resource_usage.log	 63089	1750292647	1751268865	1751268866	
+2	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	701054	1750292660	1751268853	1751268853	
+3	source::C:\Program Files\Splunk\var\log\splunk\metrics.log.1	265	1750308216	1751253166	1751253167	
+4	source::C:\Program Files\Splunk\var\log\introspection\resource_usage.log.1	  2	1750703704	1751053395	1751053395	
