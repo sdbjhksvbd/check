@@ -1,0 +1,127 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definitions for information used to determine and convey tattoo information.
+
+    DEPENDENCIES: DocumentSchema.mof, SchemaNamespaces.mof, PolicyDocument.mof, Report.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Specifies a configuration point in the underlying model space"
+    ),
+    DisplayName("Configuration Point"),
+    Version("1.0.0")
+]
+class PolicyPlatform_ConfigPoint
+{
+    // Due to the desire to reduce redundant data, the ContextName for this and derived
+    // classes is considered key.  This approach requires the use of a sentinel value
+    // for those cases where context was not provided via authoring.  This sentinel
+    // shall take the form of a ContextName whose value equates to a PolicyPlatform_Context
+    // object whose Selector equals the empty string.
+    [
+        key,
+        Description
+        (
+            "Context within which this variable exists."
+        ),
+        DisplayName("Context")
+    ]
+    string ContextName;
+
+    [
+        key,
+        Description
+        (
+            "Selector which selects a configuration point under the Context identified by ContextName"
+        ),
+        DisplayName("Selector"),
+        Required
+    ]
+    string Selector;
+};
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Specifies a configuration point in the underlying model space and the error "
+        "encountered while handling the configuration point in attempting to determine or "
+        "communicate its tattoo-related status"
+    ),
+    DisplayName("Configuration Point Error"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_ConfigPointWithError : PolicyPlatform_ConfigPoint
+{
+    [
+        Description("Error status codes associated to the configuration point."),
+        DisplayInHex,
+        Required
+    ]
+    sint32 ErrorCodes[];
+};
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Summary of tattoos detected, including those (1) communicated as no longer intended, "
+        "(2) where an error was encountered preventing the platform from taking action, and "
+        "(3) where an error was encountered and the issue will be re-addressed by the platform "
+        "during a later enactment."
+    ),
+    DisplayName("Tattoo Detection Report"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_TattooDetectionReport : PolicyPlatform_Report
+{
+    [
+        Description("Set of contexts which may be referenced by any "
+                    "PolicyPlatform_ConfigPoint's ContextName property "
+                    "within this report.")
+    ]
+    PolicyPlatform_Context Contexts[] = NULL;
+
+    [
+        Description("The collection of configuration points which have been detected "
+                    "as tattooed in the current enactment and in the case of remediation "
+                    "were successfully indicated to the underlying model space")
+    ]
+    PolicyPlatform_ConfigPoint NoLongerIntended[] = NULL;
+
+    [
+        Description("The collection of configuration points and their accompanying "
+                    "errors which resisted successful detection or remediation and, "
+                    "due to the nature of the error, will no longer be detected by "
+                    "the platform")
+    ]
+    PolicyPlatform_ConfigPointWithError FatalErrors[] = NULL;
+
+    [
+        Description("The collection of configuration points and their accompanying "
+                    "errors which resisted successful detection or remediation and, "
+                    "due to the nature of the error, shall be redetected and "
+                    "remediated by the platform in a future enactment")
+    ]
+    PolicyPlatform_ConfigPointWithError TransientErrors[] = NULL;
+
+};
+
