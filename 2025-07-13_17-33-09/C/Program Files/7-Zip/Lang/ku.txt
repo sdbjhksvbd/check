@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  4.37 : RizoyÃª XerzÃ®
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Kurdish
+KurdÃ®
+401
+Temam
+Betal
+
+
+
+&ErÃª
+&Na
+Bi&gire
+AlÃ®karÃ®
+
+Bi&domÃ®ne
+440
+&Ji Bo HemÃ»yÃ® ErÃª
+Ji &Bo HemÃ»yÃ® Na
+Raweste
+DÃ®sa DestpÃªke
+L%i PiÅŸt
+Li &PÃªÅŸ
+&RawestÃ®ne
+Rawestiya -
+Ma bila betal bibe?
+500
+&Dosya
+&BipergalÃ®ne
+&NÃ®ÅŸan Bide
+Bi&jare
+&AmÃ»r
+A&lÃ®karÃ®
+540
+&Veke
+&Di PanelÃª De Veke
+Di &PaceyÃª De Veke
+&NÃ®ÅŸan Bide
+&Sererast bike
+&NavekÃ® NÃ» BidÃª
+&Ji Ber Bigire
+B&ar Bike
+JÃª B&ibe
+ParÃ§e Bi&ke...
+Bike &Yek...
+&TaybetÃ®
+Da&xuyanÃ®
+checksum heseb bike
+
+Pe&ldankeke NÃ»
+Do&siyeke NÃ»
+De&rkeve
+600
+&HemÃ»yÃ® hilbijÃªre
+He&mÃ» hilijartinÃª rake
+Be&revajÃ® wÃª hilbijÃªre
+&HilbijÃªre...
+Hilbijarti&nÃª Rake...
+VÃ® cureyÃ® hilbijÃªre
+Hilbijartina cure rake
+700
+&DawÃªrÃªn Mezin
+D&awÃªrÃªn BiÃ§Ã»k
+&LÃ®ste
+&HÃ»ragahÃ®
+730
+BÃª Dor
+xuyakirina sade
+&2 Panelan veke
+Da&rikÃª amÃ»ran
+Peldanka Kok Veke
+AstekÃª Berjor
+DÃ®roka PeldankÃª...
+&NÃ» Bike
+750
+DarikÃª arÅŸÃ®vÃª
+DarikÃª standart
+BiÅŸkojkÃªn mezin
+Bila nivÃ®sa biÅŸkojkan bixuye
+800
+Pe&ldanka derbasdar veke
+Cih
+900
+&VebijÃªrk...
+&PÃ®vana Ã‡alakbÃ»nÃª
+960
+&Naverok...
+D&er barÃª 7-Zip de...
+1003
+RÃª
+Nav
+Cure
+Peldank
+MezinahÃ®
+Mezinahiya di arÅŸÃ®vÃª de
+TaybetiyÃªn xweser
+Ã‡ÃªbÃ»yÃ®
+GihaÅŸtÃ®
+GuhertÃ®
+HiÅŸk
+DaxuyankirÃ®
+ÅžÃ®frekirÃ®
+ParÃ§eyÃª borÃ®
+ParÃ§eyÃª piÅŸtre
+Ferheng
+CRC
+Cure
+Dij
+AwayÃª ÅŸidandinÃª
+Platform
+Pergala DosiyÃª
+BikarhÃªner
+Kom
+StÃ»n
+DaxuyanÃ®
+Cih
+Path Prefix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ã‡ewtÃ®
+HemÃ» MezinahÃ®
+CihÃª Vala
+Mezinahiya telpikÃ®
+EtÃ®ket
+NavÃª HerÃªmÃ®
+Derfetkar
+2100
+VebijÃªrk
+Ziman
+Ziman:
+Per&galker
+PergalkerÃª De&qÃª:
+
+2200
+Pergal
+Bi 7-Zip re tÃªkildar bike:
+2301
+Bila di pÃªÅŸekÃªn naverokÃª de 7-Zip bixuye
+PÃªÅŸeka naverokÃª ya sÃ»lavÃ®
+HÃªmanÃªn peÅŸeka naverokÃª:
+2320
+<Peldank>
+<ArÅŸÃ®v>
+ArÅŸÃ®vÃª veke
+Dosiyan derxe...
+Bike ArÅŸÃ®v...
+ArÅŸÃ®vÃª bihÃªÃ§Ã®ne
+Valake vir
+Peldanka {0} derxe
+WekÃ® {0} bike arÅŸÃ®v
+BiÅŸidÃ®ne Ã» biÅŸÃ®ne...
+WekÃ® {0} biÅŸidÃ®ne Ã» biÅŸÃ®ne
+2400
+Peldank
+Peldanka &XebatÃª
+&Peldanka TEMP a PergalÃª
+P&eldanka Derbasdar
+Pe&ldanka NavborÃ®:
+Bi tenÃª ji bo ajokarÃªn derketÃ® bi kar bÃ®ne
+Ji bo dosiyÃªn demdemÃ® yÃªn arÅŸÃ®vÃª cih belÃ® bike.
+2500
+MÃ®heng
+Bila hÃªmana ".." xuya bike
+Bila dawÃªrÃªn dosiyÃªn rastÃ® xuya bikin
+Bila pÃªÅŸeka pergalÃª xuya bike
+Bila &hemÃ» rÃªzikÃª bibore
+Bila &xÃªzÃªn tabloyÃª xuya bike
+
+&Kipa hilbijartina alternatÃ®f
+bÃ®ra berfireh bikar bÃ®ne
+2900
+Der barÃª 7-Zip de
+7-Zip nivÃ®sbariyeke azad e.
+3000
+
+Ã‡ewtÃ® nÃ®n e.
+{0} heb hÃªman hilbijartÃ® ne
+Peldanka '{0}' nayÃª Ã§Ãªkirin
+Tu nikarÃ® vÃª arÅŸÃ®vÃª rojane bikÃ®.
+
+
+
+
+Dosiya '{0}' hatiye guhartin.\nMa bila di arÅŸÃ®vÃª bÃªte rojanekirin?
+Dosiya '{0}' nehate rojanekirin
+PergalkerÃª deqÃª nehate destpÃªkirin.
+
+
+
+
+HÃªman zÃªde ne
+3300
+TÃªn derxistin
+tÃªn ÅŸidandin
+tÃª hÃªÃ§andin
+vedibe...
+TÃª raguhestin
+3400
+Derxe
+&CihÃª DÃª DerkevÃª:
+Ji bo dosya derkevinÃª cihekÃ® belÃ® bike.
+3410
+NavÃª RÃª
+NavÃª tevahÃ® yÃªn rÃª
+Bila navÃªn rÃª tune bin
+3420
+DosiyÃªn heyÃ®
+Ji bo li ser binivÃ®se bipirse
+BÃª pirs li ser binivÃ®se
+Derxistin
+NavekÃ® nÃ» li yÃªn di arÅŸÃ®vÃª de bike
+NavekÃ® nÃ» li yÃªn heyÃ® bike
+3500
+Rewla LisernivÃ®sandinÃª
+Di dosiya armanckirÃ® de bi vÃ® navÃ® dosiyek heye. Bila li ser bÃªte nivÃ®sÃ®n?
+Dosiya heyÃ®:
+Dosiya tÃª derxistin:
+{0} bayt
+Na&vekÃ® nÃ» lÃª bike
+3700
+Ji bo '{0}' awayÃª ÅŸidandinÃª nehate nasÃ®n.
+'{0}' xerabe ye. (Ã‡ewtiya daneyÃª)
+'{0}' xerabe ye. (Ã‡ewtiya CRC)
+
+
+3800
+TÃªketina ÅžÃ®freyÃª
+ÅžÃ®freyÃª binivÃ®se:
+
+Bi&la ÅŸÃ®fre bixuye
+
+
+
+ÅžÃ®fre
+3900
+Dema borÃ®:
+Dema mayÃ®:
+MezinahÃ®:
+Lez:
+
+
+Ã‡ewt:
+
+4000
+Bike ArÅŸÃ®v
+&ArÅŸÃ®v:
+A&wayÃª rojanekirinÃª:
+Awa&yÃª arÅŸÃ®vÃª:
+A&sta ÅŸidandinÃª:
+AwayÃª ÅŸi&dandinÃª:
+Me&zinahiya ferhengÃª:
+M&ezinahiya bÃªjeyÃª:
+
+
+&Parametre:
+VebijÃªrk
+Bila ew bixwe derxe (SFX)
+
+
+
+NavÃªn dosiyÃª bike ÅŸÃ®fre
+BikaranÃ®na bÃ®rÃª (Åžidandin):
+BikaranÃ®na bÃ®rÃª (Vekirin):
+4050
+BÃªyÃ® ÅŸidandin
+LeztirÃ®n
+Bi Lez
+AsayÃ®
+HerÃ® Pir
+Ultra
+4060
+Dosiyan tÃªxÃª, yÃªn heyÃ® derxe
+Dosiyan tÃªxÃª, yÃªn kevin rojane bike
+Bi tenÃª yÃªn kevin rojane bike
+Dosiyan bike wekÃ® hev
+4070
+BibÃ®ne
+HemÃ» dosya
+
+
+6000
+Ji Ber Bigire
+Bar Bike
+CihÃª DÃª Were Jibergirtin:
+CihÃª DÃª Were Barkirin:
+tÃª jibergirtin...
+tÃª barkirin...
+navekÃ® nÃ» tÃª lÃªkirin...
+
+Kirin ne pÃªkan e.
+Ã‡ewtiya NavlÃªkirinÃª
+ErÃªkirina JibergirtinÃª
+Ma bila dosÃ® ji bo arÅŸÃ®vÃª bÃªn jibergirtin
+6100
+ErÃªkirina jÃªbirina dosiyÃª
+ErÃªkirina jÃªbirina peldankÃª
+ErÃªkirina jÃªbirina gelek dosiyan
+Ma bila dosiya '{0}' bÃªte jÃªbirin?
+Ma bila peldanka  '{0}' Ã» yÃªn tÃª de bÃªn jÃªbirin?
+Ma bila hÃªmana {0} bÃªte jÃªbirin?
+tÃª jÃªbirin...
+Ã‡ewtiya JÃªbirinÃª
+
+6300
+Peldankeke nÃ»
+Dosiyeke NÃ»
+NavÃª peldankÃª:
+NavÃª DosiyÃª:
+Peldankeke NÃ»
+Dosiyeke NÃ»
+Ã‡ewtiya Ã‡Ãªkirina peldankÃª
+Ã‡ewtiya Ã§Ãªkirina DosiyÃª
+6400
+DaxuyanÃ®
+&DaxuyanÃ®:
+HilbijÃªre
+HilbijartinÃª rake
+DerbirÃ®na hilbijartinÃª:
+6600
+
+RabirdÃ»ya PeldankÃª
+PeyamÃªn haydariyÃª
+Peyam
+7100
+Komputer
+Tor
+
+Pergal
+7200
+Bike ArÅŸÃ®v
+Derxe
+BihÃªÃ§Ã®ne
+Ji Ber Bigire
+Bar Bike
+JÃª Bibe
+AgahÃ®
+7300
+Bike ParÃ§e
+Di &vÃª peldankÃª de parÃ§e bike:
+WekÃ® Bayt/&cilt bike parÃ§e:
+tÃª parÃ§ekirin...
+
+
+
+
+
+7400
+Bike Yek
+Di vÃª &peldankÃª de bike yek:
+tÃª yekirin...
+
+
+
+7500
+HesabÃª sererastkirÃ®...
+AgahiyÃªn hesabÃª sererast
+CRC hesabÃª sererast bo data:
+CRC hesabÃª sererast bo data Ã» nav:
+7600
+Ã‡alakiya komputerÃª
+BikaranÃ®na birÃª:
+Åžidandin
+Vekirin
+Puan
+bi guloverÃ® puanan
+CarÃ®
+Encam
+
+
+SerkeftÃ®:
