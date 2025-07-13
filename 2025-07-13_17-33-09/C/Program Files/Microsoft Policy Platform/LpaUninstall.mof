@@ -1,0 +1,32 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    This file provides cleanup of classes added to a target in the course of setup.  
+    
+    DEPENDENCIES: none
+
+***************************************************************************************************/
+
+// NOTE: Do not use #pragma autorecover, or an autorecovery will also mofcomp this mof file!
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+#pragma deleteclass("PolicyPlatform_Registration", nofail)
+#pragma deleteclass("PolicyPlatform_PolicyAuthority", nofail)
+
+#pragma deleteinstance("__Win32Provider.Name='ClassDefinition'", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents:__Win32Provider.Name=\"ClassDefinition\"'", nofail)
+
+#pragma deleteinstance("__Win32Provider.Name='PolicyPlatform_DocumentStore'", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents:__Win32Provider.Name=\"PolicyPlatform_DocumentStore\"'", nofail)
+#pragma deleteinstance("__MethodProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents:__Win32Provider.Name=\"PolicyPlatform_DocumentStore\"'", nofail)
+
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+#pragma deleteinstance("__Win32Provider.Name='LpaSynchronize'", nofail)
+#pragma deleteinstance("__MethodProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local:__Win32Provider.Name=\"LpaSynchronize\"'", nofail)
+
+#pragma deleteinstance("__Win32Provider.Name='PolicyPlatform_LocalStore'", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local:__Win32Provider.Name=\"PolicyPlatform_LocalStore\"'", nofail)
