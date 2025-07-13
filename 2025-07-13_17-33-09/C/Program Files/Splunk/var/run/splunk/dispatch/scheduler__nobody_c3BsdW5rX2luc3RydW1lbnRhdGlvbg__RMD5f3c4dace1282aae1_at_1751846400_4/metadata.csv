@@ -1,0 +1,2 @@
+access,owner,app,ttl
+"read : [ *, admin ], write : [ admin ]",admin,"splunk_instrumentation",1209600
