@@ -1,0 +1,27 @@
+0	26	  3692113	1751884565	1752316561	1752316564	
+1	source::C:\Program Files\Splunk\var\log\splunk\health.log	273589	1751884565	1752316553	1752316553	
+2	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log	  1287549	1751884566	1752316561	1752316563	
+3	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log	268577	1751884570	1752316561	1752316564	
+4	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	  1848032	1751884586	1752316561	1752316561	
+5	source::C:\Program Files\Splunk\var\log\splunk\python.log	  7994	1751884620	1752316561	1752316561	
+6	source::C:\Program Files\Splunk\var\log\splunk\metrics.log.1	736	1751886539	1752278306	1752278307	
+7	source::C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log	  1576	1751888295	1751889053	1751889054	
+8	source::C:\Program Files\Splunk\var\log\splunk\web_access.log	788	1751888295	1751889053	1751889054	
+9	source::C:\Program Files\Splunk\var\log\splunk\web_service.log	788	1751888296	1751889053	1751889054	
+10	source::C:\Program Files\Splunk\var\log\splunk\health.log.1	 30	1751893025	1752285472	1752285472	
+11	source::C:\Program Files\Splunk\var\log\splunk\pura_remote_latest_report.log	 55	1751893201	1752282010	1752282011	
+12	source::C:\Program Files\Splunk\var\log\splunk\pura_utils.log	  1008	1751893202	1752311666	1752311667	
+13	source::C:\Program Files\Splunk\var\log\splunk\pura_email_notification_scripted_input.log	 31	1751893431	1752311460	1752311460	
+14	source::C:\Program Files\Splunk\var\log\splunk\eura_email_notification_scripted_input.log	 31	1751893587	1752311285	1752311286	
+15	source::C:\Program Files\Splunk\var\log\splunk\pura_remote_scan_scripted_input.log	248	1751893640	1752311426	1752311427	
+16	source::C:\Program Files\Splunk\var\log\splunk\jura_remote_scan_scripted_input.log	248	1751893900	1752311666	1752311667	
+17	source::C:\Program Files\Splunk\var\log\splunk\eura_remote_scan_scripted_input.log	248	1751893909	1752311476	1752311476	
+18	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log.1	228	1751902797	1752283454	1752283454	
+19	source::C:\Program Files\Splunk\var\log\splunk\eura_remote_latest_report.log	 55	1751904002	1752292810	1752292811	
+20	source::C:\Program Files\Splunk\var\log\splunk\jura_remote_latest_report.log	 77	1751904002	1752292810	1752292811	
+21	source::C:\Program Files\Splunk\var\log\splunk\license_usage.log	 10	1751922000	1752267600	1752267600	
+22	source::C:\Program Files\Splunk\var\log\splunk\eura_scan_apps.log	 96	1751925602	1752271203	1752271206	
+23	source::C:\Program Files\Splunk\var\log\splunk\pura_scan_apps.log	 48	1751925602	1752271203	1752271203	
+24	source::C:\Program Files\Splunk\var\log\splunk\jura_scan_apps.log	 12	1751936402	1752282002	1752282003	
+25	source::C:\Program Files\Splunk\var\log\splunk\pura_get_all_apps.log	 48	1751943602	1752289967	1752289970	
+26	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log.1	 11	1751962497	1752187547	1752187547	
