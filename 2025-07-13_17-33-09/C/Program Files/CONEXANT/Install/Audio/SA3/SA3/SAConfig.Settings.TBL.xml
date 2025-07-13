@@ -1,0 +1,17 @@
+<SmartAudioConfiguration>
+  <!-- Volume Page -->
+  <DisplayHorizontalMixerPage>true</DisplayHorizontalMixerPage>
+  <EnumerateUSBEndpoints>false</EnumerateUSBEndpoints>
+  <EnumerateHDMIEndpoints>false</EnumerateHDMIEndpoints>
+  <EnumerateBluetoothEndpoints>false</EnumerateBluetoothEndpoints>
+
+  <!-- Playback Experience -->
+  <HideEqualizer>true</HideEqualizer>
+
+  <!-- Recording Experience -->
+  <ShowSspAsrOption>true</ShowSspAsrOption>
+
+  <!-- Special settings -->
+  <RegistryMonitorForJackSensing>true</RegistryMonitorForJackSensing>
+  <UpdateEndpointNamesOnLanguageChange>false</UpdateEndpointNamesOnLanguageChange>  
+</SmartAudioConfiguration>
