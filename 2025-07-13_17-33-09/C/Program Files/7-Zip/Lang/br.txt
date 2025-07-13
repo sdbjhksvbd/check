@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  3.12 : KAD-KorvigelloÃ¹ An Drouizig
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Breton
+Brezhoneg
+401
+Mat eo
+NullaÃ±
+
+
+
+&Ya
+&Ket
+&SerriÃ±
+Skoazell
+
+&Kenderc'hel
+440
+Ya be&pred
+Ket &bepred
+Paouez
+Adloc'haÃ±
+&Drekleur
+&Rakleur
+&Ehan
+Ehanet
+Ha fellout a ra deoc'h nullaÃ± ?
+500
+&Restr
+&AozaÃ±
+&Gwelout
+Di&baboÃ¹
+&OstilhoÃ¹
+&Skoazell
+540
+&DigeriÃ±
+DigeriÃ± a-zia&barzh
+DigeriÃ± a-zia&vaez
+&Gwelout
+&AozaÃ±
+Adenv&el
+&KopiaÃ± diwar...
+&Dilec'hiaÃ± diwar...
+D&ilemel
+&Troc'haÃ± restr...
+&KendeuziÃ± restroÃ¹...
+P&erzhioÃ¹
+Evezhia&denn
+
+
+Sevel un teul
+Sevel ur restr
+&Kuitaat
+600
+Diuz pep &tra
+Diziuz pe tra
+Lakaat an &diuzad war an tu gin
+Diuz...
+Diziuz...
+Diuz diouzh ar rizh
+Diziuz diouzh ar rizh
+700
+ArlunioÃ¹ &bras
+ArlunioÃ¹ &bihan
+&Roll
+&MunudoÃ¹
+730
+Dirummet
+
+&2 brenestr
+&BarrennoÃ¹ ostilhoÃ¹
+DigeriÃ± an teul gwrizienn
+Teul kerent
+Roll istor an teul...
+Fresk&aat
+750
+Barrenn ziell
+Barrenn skouerek
+MeudellioÃ¹ bras
+Diskouez an destenn
+800
+&OuzhpennaÃ± ar c'havlec'h d'ar sinedoÃ¹
+Sined
+900
+&DibaboÃ¹...
+&AmprouiÃ±
+960
+&Roll ar pennadoÃ¹...
+A-&zivout 7-Zip...
+1003
+Treug
+Anv
+Astenn
+Teul
+Ment
+Gwasket
+DoareennoÃ¹
+Savet d'ar
+Stoket d'ar
+Kemmet d'ar
+Solut
+Evezhiadenn
+Ennodet
+RannaÃ± a-raok
+RannaÃ± war-lerc'h
+Geriadur
+CRC
+Rizh
+Enep
+Hentenn
+OS ostiz
+Reizhiad restroÃ¹
+Implijour
+Strollad
+Bloc'h
+Evezhiadenn
+Lec'hiadur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fazi
+Ment en holl
+Egor vak
+Ment ar c'hleusteurioÃ¹
+Skritellig
+Anv lec'hel
+Pourchaser
+2100
+DibaboÃ¹
+Yezh
+Yezh :
+Embanner
+&Embanner :
+
+2200
+Reizhiad
+KenstagaÃ± 7-Zip ouzh :
+2301
+Lakaat 7-Zip el laÃ±ser kemperzhel
+LaÃ±ser kemperzhel a-steud
+ElfennoÃ¹ al laÃ±ser kemperzhel :
+2320
+<Teul>
+<Diell>
+DigeriÃ±
+EztennaÃ± ar restroÃ¹...
+OuzhpennaÃ± d'an diell...
+GwiriaÃ± an diell
+EztennaÃ± amaÃ±
+EztennaÃ± diwar {0}
+OuzhpennaÃ± da {0}
+GwaskaÃ± ha kas dre postel...
+GwaskaÃ± diwar {0} ha kas dre postel.
+2400
+TeulioÃ¹
+TeulioÃ¹ &labour
+Teul dibadelus ar &reizhiad
+Teul &red
+Teul &spisaet :
+Implijout nemet evit ar mediaoÃ¹ dilec'hus
+Spisait un teul evit lakaat ar restroÃ¹ diell dibadelus.
+2500
+PerzhioÃ¹
+Diskouez an elfenn ".."
+Diskouez arlunioÃ¹ gwirion ar restroÃ¹
+Diskouez al laÃ±ser reizhiad
+&Diuz ar bannoÃ¹ a-bezh
+Diskouez al &linennoÃ¹ kael
+
+
+
+2900
+KeloÃ¹
+Digoust eo ar meziant 7-Zip.
+3000
+
+N'eus fazi ebet
+{0} elfenn ziuzet
+N'haller ket sevel ar restr '{0}'
+N'haller ket ober gant an oberiadennoÃ¹ nevesaat evti an diell-maÃ±.
+
+
+
+
+Kemmet ez eo bet ar restr '{0}'.\nHa fellout a ra deoc'h he nevesaat en diell ?
+N'haller ket nevesaat\n'{0}'
+N'haller ket loc'haÃ± an embanner.
+
+
+
+
+Re a elfennoÃ¹
+3300
+EztennaÃ±
+O waskaÃ±
+GwiriaÃ±
+O tigeriÃ±...
+
+3400
+EztennaÃ±
+E&ztennaÃ± diwar :
+Dibabit un teul evit eztennaÃ± an restroÃ¹.
+3410
+TreugoÃ¹
+TreugoÃ¹ klok
+Treug ebet
+3420
+Mod erlec'hiaÃ±
+Goulenn a-raok erlec'hiaÃ±
+Erlec'hiaÃ± hep goulenn
+Lakaat ar restroÃ¹ a zo anezho a-gostez
+Adenvel ent-emgefre ar restroÃ¹ a zo anezho
+
+3500
+Kadarnaat a-raok erlec'hiaÃ± ur restr
+EmaÃ± dija ur restr gant ar memes anv en teul bukenn.
+Ha fellout a ra deoc'h lakaat e-lec'h
+ar restr da heul ?
+{0} eizhtet
+Adenvel ent-&emgefre
+3700
+Hentenn waskaÃ± direizh evit '{0}'.
+Stlenn faziet e-barzh '{0}'. Gwastet eo ar restr.
+Fazi ar reoliÃ± CRC evit '{0}'. Gwastet eo ar restr.
+
+
+3800
+Roit ar ger-tremen
+Roit ar ger-tremen :
+
+&Diskouez ar ger-tremen
+
+
+
+Ger-tremen
+3900
+Amzer dremenet :
+Amzer o chom :
+Ment :
+Tizh :
+
+
+FazioÃ¹ :
+
+4000
+OuzhpennaÃ± d'an diell
+&Diell :
+&Mod nevesaat :
+&Mentrezh an diell :
+L&ive gwaskaÃ± :
+Rizh &gwaskaÃ±:
+&Ment ar geriadur :
+Me&nt ar gerioÃ¹ :
+
+
+&PerzhioÃ¹:
+&DibaboÃ¹
+Sevel un diell SF&X
+
+
+
+EnnodiÃ± an &anvioÃ¹ restroÃ¹
+Memor evit ar waskerezh :
+Memor evit an diwaskerezh :
+4050
+GwaskaÃ± ebet
+PrimaÃ±
+Prim
+Reizh
+UhelaÃ±
+Gour
+4060
+OuzhpennaÃ± hag erlec'hiaÃ± ar restroÃ¹
+Nevesaat hag ouzhpennaÃ± ar restroÃ¹
+Freskaat ar restroÃ¹ a zo anezho
+GoubredaÃ± ar restroÃ¹
+4070
+Furchal
+An holl restroÃ¹
+
+
+6000
+KopiaÃ±
+Dilec'hiaÃ±
+KopiaÃ± e-barzh :
+Dilec'hiaÃ± diwar :
+O kopiaÃ±...
+O tilec'hiaÃ±...
+Oc'h adenvel...
+
+N'haller ket ober an oberiadenn-maÃ±.
+Fazi oc'h adenvel ar restr pe an teul
+
+
+6100
+KadarnaÃ± a-raok dilemel ar restr
+KadarnaÃ± a-raok dilemel an teul
+KadarnaÃ± a-raok dilemel an holl restroÃ¹
+Ha fellout a ra deoc'h dilemel '{0}' ?
+Ha fellout a ra deoc'h dilemel an teul '{0}' ha pep tra a zo e-barzh ?
+Ha fellout a ra deoc'h dilemel ar {0} elfenn-maÃ± ?
+O tilemel...
+Fazo o tilemel ar restr pe an teul
+
+6300
+Sevel un teul
+Sevel ur restr
+Anv an teul :
+Anv restr :
+Teul nevez
+Restr nevez
+Fazi o sevel an teul
+Fazi o sevel ar restr
+6400
+Evezhiadenn
+&Evezhiadenn :
+Diuz
+Diziuz
+Kuzh :
+6600
+
+Roll istor an teulioÃ¹
+KemennoÃ¹ yalc'h
+Kemenn
+7100
+Urzhiataer
+Rouedad
+
+Reizhiad
+7200
+OuzhpennaÃ±
+EztennaÃ±
+AmprouiÃ±
+KopiaÃ±
+Dilec'hiaÃ±
+Dilemel
+KeloÃ¹
+7300
+Troc'haÃ± restr
+&Troc'haÃ± da :
+Troc'haÃ± e &levrennoÃ¹, eizhtetoÃ¹ :
+O troc'haÃ±...
+
+
+
+
+
+7400
+KendeuziÃ± restroÃ¹
+&KendeuziÃ± da :
+O kendeuziÃ±...
+
+
+
+7500
+
+
+
+
+7600
+AmprouiÃ±
+Implij ar vemor :
+Gwaskerezh
+Diwaskerezh
+Feur
+Feur en holl
+Red
+Da heul
+
+
+TremenioÃ¹ :
