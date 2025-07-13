@@ -1,0 +1,5 @@
+<SmartAudioConfiguration>
+  <!-- Advanced Settings -->
+    <SplitStreamingMode>7</SplitStreamingMode>
+    <ResetStreamingModesOnDefaultSettings>true</ResetStreamingModesOnDefaultSettings>
+</SmartAudioConfiguration>
