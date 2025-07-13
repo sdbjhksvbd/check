@@ -1,0 +1,96 @@
+;;;
+;;; Copyright (c) Splunk Inc 2023. All rights reserved
+;;;
+;;; Abstract:
+;;; Splunk netmon driver install configuration.
+;;;
+
+[Version]
+signature   =   "$Windows NT$"
+Provider 	=   %Splk%
+DriverVer   = 04/01/2013,6.1.7600.16385
+Class  = System
+ClassGuid = {4d36e97d-e325-11ce-bfc1-08002be10318}
+DriverPackageType = ClassFilter
+CatalogFile = "splknetdrv.cat"
+
+[DestinationDirs]
+DefaultDestDir	        = 12
+Splknetdrv.DriverFiles      = 12 			;%windir%\system32\drivers
+
+;;
+;; Distribution Media information
+;;
+[SourceDisksNames]
+1 =  %splunkdisknames% 
+
+[SourceDisksFiles]
+splknetdrv.sys = 1
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall.NTamd64]
+OptionDesc          = %NetdrvServiceDesc%
+CopyFiles           = Splknetdrv.DriverFiles
+
+[DefaultInstall.NTamd64.Services]
+AddService          = %NetdrvServiceName%,,Splknetdrv.Service
+
+[DefaultInstall.NTx86]
+OptionDesc          = %NetdrvServiceDesc%
+CopyFiles           = Splknetdrv.DriverFiles
+
+[DefaultInstall.NTx86.Services]
+AddService          = %NetdrvServiceName%,,Splknetdrv.Service
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall.NTamd64]
+DelFiles   = Splknetdrv.DriverFiles
+LegacyUninstall = 1
+
+[DefaultUninstall.NTamd64.Services]
+DelService = %NetdrvServiceName%,0x200		; Flags note to stop service first
+
+[DefaultUninstall.NTx86]
+DelFiles   = Splknetdrv.DriverFiles
+LegacyUninstall = 1
+
+[DefaultUninstall.NTx86.Services]
+DelService = %NetdrvServiceName%,0x200		; Flags note to stop service first
+
+;;
+;; Services Section
+;;
+
+[Splknetdrv.Service]
+DisplayName      = %NetdrvServiceName%
+Description      = %NetdrvServiceDesc%
+ServiceBinary    = %12%\%splknetdrvsys%  	;%windir%\system32\drivers\splknetdrv.sys
+ServiceType      = 1					;SERVICE_KERNEL_DRIVER
+StartType        = 3					;SERVICE_DEMAND_START
+ErrorControl     = 1					;SERVICE_ERROR_NORMAL
+
+;;
+;; Copy Files
+;;
+
+[Splknetdrv.DriverFiles]
+%splknetdrvsys%
+
+;;
+;; String Section
+;;
+
+[Strings]
+Splk              = "Splunk Inc."
+NetdrvServiceDesc  = "Splunk Network Monitor Kernel Driver"
+NetdrvServiceName  = "splknetdrv"
+splknetdrvsys = "splknetdrv.sys"
+splunkdisknames = "Splunk Network Monitor Kernel Driver"
+
+
