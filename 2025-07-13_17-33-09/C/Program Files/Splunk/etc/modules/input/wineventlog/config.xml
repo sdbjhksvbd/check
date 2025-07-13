@@ -1,0 +1,18 @@
+<!--   Version 4.0 -->
+
+<!-- Copy this file to config.xml to enable the module. -->
+
+<!-- This configuration file is used for sending raw TCP log data to the splunk server -->
+<module>                                                                                                      
+<pipeline name="wineventlog" type="startup">
+	<processor name="wineventlog" plugin="wineventloginputprocessor">
+		<config>
+		</config>
+	</processor>
+	<processor name="sendOut" plugin="queueoutputprocessor">
+		<config>
+			<queueName>parsingQueue</queueName>
+		</config>
+	</processor>
+</pipeline>
+</module>
