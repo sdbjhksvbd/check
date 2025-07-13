@@ -1,0 +1,7 @@
+<SmartAudioConfiguration>
+  <!-- Volume Page -->
+  <EnumerateUSBEndpoints>true</EnumerateUSBEndpoints>
+  <EnumerateHDMIEndpoints>true</EnumerateHDMIEndpoints>
+  <EnumerateBluetoothEndpoints>true</EnumerateBluetoothEndpoints>
+  <IsHpNB>true</IsHpNB>
+</SmartAudioConfiguration>
