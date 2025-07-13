@@ -1,0 +1,2580 @@
+ï»¿[00004408] 2025-05-27 11:55:05 --> wmain
+[00004408] 2025-05-27 11:55:05     _tmain: executing, argv[1] = -n.
+[00004408] 2025-05-27 11:55:05     _tmain: executing, argv[2] = -check_dll.
+[00004408] 2025-05-27 11:55:05 --> getInUseProcesses
+[00004408] 2025-05-27 11:55:05 --> enumProcesses
+[00004408] 2025-05-27 11:55:05 --> getNpcapPIDs
+[00004408] 2025-05-27 11:55:05 <-- getNpcapPIDs
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = System, dwProcessID = 4.
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Secure System, dwProcessID = 236.
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Registry, dwProcessID = 280.
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = smss.exe, dwProcessID = 832.
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = csrss.exe, dwProcessID = 1448.
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = wininit.exe, dwProcessID = 1528.
+[00004408] 2025-05-27 11:55:05     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = csrss.exe, dwProcessID = 1536.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = services.exe, dwProcessID = 1604.
+[00004408] 2025-05-27 11:55:06     EnumProcessModulesEx: error, errCode = 0x000003e6.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Memory Compression, dwProcessID = 3612.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = MpDefenderCoreService.exe, dwProcessID = 5468.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = MsMpEng.exe, dwProcessID = 5552.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = NisSrv.exe, dwProcessID = 8976.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 7348.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = SecurityHealthService.exe, dwProcessID = 1144.
+[00004408] 2025-05-27 11:55:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 13092.
+[00004408] 2025-05-27 11:55:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 16236.
+[00004408] 2025-05-27 11:55:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 13040.
+[00004408] 2025-05-27 11:55:07 <-- enumProcesses
+[00004408] 2025-05-27 11:55:07 <-- getInUseProcesses
+[00004408] 2025-05-27 11:55:07     <-- _tmain: succeed, nStatus = 0.
+[00001868] 2025-05-27 11:55:17 --> wmain
+[00001868] 2025-05-27 11:55:17     _tmain: executing, argv[1] = -n.
+[00001868] 2025-05-27 11:55:17     _tmain: executing, argv[2] = -c.
+[00001868] 2025-05-27 11:55:17 --> ClearDriverStore
+[00001868] 2025-05-27 11:55:17 --> executeCommand
+[00001868] 2025-05-27 11:55:17     executeCommand: executing, strCmd = pnputil.exe -e.
+[00001868] 2025-05-27 11:55:17     executeCommand: result = Microsoft PnP Utility
+
+
+
+Published name :            oem18.inf
+
+Driver package provider :   AMD
+
+Class :                     System devices
+
+Driver date and version :   02/14/2020 20.10.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem84.inf
+
+Driver package provider :   Advanced Micro Devices, Inc.
+
+Class :                     Extensions
+
+Driver date and version :   05/22/2020 27.20.1014.1001
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem111.inf
+
+Driver package provider :   AMD
+
+Class :                     System devices
+
+Driver date and version :   04/29/2020 20.10.0.22
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem173.inf
+
+Driver package provider :   INTEL
+
+Class :                     SD host adapters
+
+Driver date and version :   07/18/1968 10.1.16.7
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem117.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.16.7
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem47.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.16.7
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem85.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.16.7
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem114.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.16.7
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem74.inf
+
+Driver package provider :   INTEL
+
+Class :                     SD host adapters
+
+Driver date and version :   07/18/1968 10.1.15.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem72.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.15.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem29.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.15.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem41.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.15.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem174.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.15.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem54.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.14.8
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem58.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.31.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem50.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.31.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem107.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.31.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem129.inf
+
+Driver package provider :   INTEL
+
+Class :                     Extensions
+
+Driver date and version :   07/18/1968 10.1.27.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem80.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.27.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem53.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.27.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem66.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.27.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem133.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.33.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem75.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.33.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem148.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.33.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem22.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.33.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem161.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.30.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem167.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.13.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem44.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.13.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem168.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.13.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem189.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.13.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem196.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   05/03/2024 31.0.101.2128
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem91.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   11/16/2022 31.0.101.2115
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem127.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Extensions
+
+Driver date and version :   06/25/2024 6.0.9700.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem183.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Extensions
+
+Driver date and version :   06/25/2024 6.0.9700.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem39.inf
+
+Driver package provider :   Intel
+
+Class :                     System devices
+
+Driver date and version :   02/16/2021 2108.100.0.1053
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem166.inf
+
+Driver package provider :   Intel
+
+Class :                     System devices
+
+Driver date and version :   02/08/2024 2406.5.5.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem87.inf
+
+Driver package provider :   Intel
+
+Class :                     System devices
+
+Driver date and version :   11/08/2023 2345.5.3.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem187.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Extensions
+
+Driver date and version :   11/14/2018 1.6.856.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem28.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     System devices
+
+Driver date and version :   03/28/2024 1.66.3710.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem21.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Extensions
+
+Driver date and version :   03/28/2024 1.66.3710.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem76.inf
+
+Driver package provider :   HP Development Company, L.P.
+
+Class :                     Extensions
+
+Driver date and version :   06/19/2024 8.10.11.79
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem201.inf
+
+Driver package provider :   HP Development Company, L.P.
+
+Class :                     Extensions
+
+Driver date and version :   08/26/2024 8.10.11.86
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem73.inf
+
+Driver package provider :   Synaptics
+
+Class :                     Extensions
+
+Driver date and version :   09/12/2020 1.0.0.27
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem90.inf
+
+Driver package provider :   Synaptics
+
+Class :                     Extensions
+
+Driver date and version :   07/03/2020 1.0.0.15
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem13.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     IDE ATA/ATAPI controllers
+
+Driver date and version :   09/19/2022 18.37.6.1010
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem98.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     IDE ATA/ATAPI controllers
+
+Driver date and version :   04/23/2020 17.9.0.1007
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem128.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Storage controllers
+
+Driver date and version :   04/23/2020 17.9.0.1007
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem71.inf
+
+Driver package provider :   Intel
+
+Class :                     System devices
+
+Driver date and version :   02/05/2021 11.7.0.1002
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem163.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.12.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem36.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.12.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem143.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.12.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem158.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.22.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem190.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.22.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem188.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.20.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem115.inf
+
+Driver package provider :   INTEL
+
+Class :                     Universal Serial Bus Function controllers
+
+Driver date and version :   07/18/1968 10.1.20.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem160.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   02/03/2022 30.0.101.1340
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem181.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   11/16/2022 31.0.101.2115
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem131.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   05/05/2020 27.20.100.8190
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem105.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   04/29/2021 27.20.100.9565
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem186.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   06/16/2020 27.20.100.8336
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem182.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   05/03/2024 31.0.101.2128
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem119.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   11/19/2020 27.20.100.8984
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem86.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   10/14/2021 30.0.101.1003
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem198.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Extensions
+
+Driver date and version :   08/13/2024 31.0.101.2130
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem68.inf
+
+Driver package provider :   Intel
+
+Class :                     Extensions
+
+Driver date and version :   12/11/2022 2251.4.1.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem113.inf
+
+Driver package provider :   Realtek
+
+Class :                     Extensions
+
+Driver date and version :   07/21/2020 9.21.3690.213
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem126.inf
+
+Driver package provider :   Realtek
+
+Class :                     Extensions
+
+Driver date and version :   07/21/2020 9.21.3690.213
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem42.inf
+
+Driver package provider :   Realtek
+
+Class :                     Extensions
+
+Driver date and version :   07/21/2020 9.21.3690.213
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem14.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   05/07/2020 1.13.20.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem24.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.11.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem56.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.11.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem177.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.11.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem122.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.11.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem31.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.10.5
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem88.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.10.5
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem59.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.28.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem165.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.28.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem48.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.28.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem130.inf
+
+Driver package provider :   Intel
+
+Class :                     Ports (COM & LPT)
+
+Driver date and version :   12/11/2022 2251.4.1.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem34.inf
+
+Driver package provider :   Intel
+
+Class :                     Ports (COM & LPT)
+
+Driver date and version :   04/18/2023 2316.5.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem170.inf
+
+Driver package provider :   High Security Labs Ltd.
+
+Class :                     Mice and other pointing devices
+
+Driver date and version :   05/17/2010 6.1.7600.16385
+
+Signer name :               High Sec Labs Ltd
+
+
+
+Published name :            oem5.inf
+
+Driver package provider :   Prolific
+
+Class :                     Ports (COM & LPT)
+
+Driver date and version :   04/06/2020 5.0.15.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem145.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Firmware
+
+Driver date and version :   12/18/2023 2.18.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem20.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Firmware
+
+Driver date and version :   04/12/2024 2.19.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem199.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Firmware
+
+Driver date and version :   11/04/2024 2.21.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem120.inf
+
+Driver package provider :   Sonitude, Inc.
+
+Class :                     Extensions
+
+Driver date and version :   07/08/2024 17.20.39.4170
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem159.inf
+
+Driver package provider :   Sound Research Corp.
+
+Class :                     Extensions
+
+Driver date and version :   10/29/2020 16.3.97.5740
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem25.inf
+
+Driver package provider :   Sound Research Corp.
+
+Class :                     Extensions
+
+Driver date and version :   03/12/2024 17.10.24.9461
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem147.inf
+
+Driver package provider :   Prolific
+
+Class :                     Ports (COM & LPT)
+
+Driver date and version :   05/12/2020 3.8.36.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem16.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.7.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem109.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.7.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem89.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.7.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem38.inf
+
+Driver package provider :   SUNIX Co., Ltd.
+
+Class :                     Ports (COM & LPT)
+
+Driver date and version :   07/27/2020 9.0.9.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem138.inf
+
+Driver package provider :   Intel
+
+Class :                     Extensions
+
+Driver date and version :   04/18/2023 2316.5.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem137.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.6.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem70.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.6.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem178.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.6.2
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem171.inf
+
+Driver package provider :   INTEL
+
+Class :                     SD host adapters
+
+Driver date and version :   07/18/1968 10.1.5.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem65.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.5.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem108.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.5.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem69.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.5.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem180.inf
+
+Driver package provider :   INTEL
+
+Class :                     System devices
+
+Driver date and version :   07/18/1968 10.1.5.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem176.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     System devices
+
+Driver date and version :   05/12/2020 1.41.914.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem141.inf
+
+Driver package provider :   Texas Instruments, Inc
+
+Class :                     Ports (COM & LPT)
+
+Driver date and version :   02/20/2020 6.7.5.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem45.inf
+
+Driver package provider :   Intel
+
+Class :                     Extensions
+
+Driver date and version :   03/22/2024 2412.80.252.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem164.inf
+
+Driver package provider :   Intel
+
+Class :                     Extensions
+
+Driver date and version :   07/21/2021 7.5.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem185.inf
+
+Driver package provider :   Advanced Micro Devices
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   07/10/2019 10.0.1.12
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem146.inf
+
+Driver package provider :   Broadcom
+
+Class :                     Network adapters
+
+Driver date and version :   03/19/2019 214.0.0.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem77.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/21/2020 11.0.6000.225
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem40.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/21/2020 11.0.6000.225
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem102.inf
+
+Driver package provider :   Synaptics
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   12/08/2020 8.65.296.4
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem194.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   05/03/2024 31.0.101.2128
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem140.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   02/03/2022 30.0.101.1340
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem33.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   07/19/2022 31.0.101.2111
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem1.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   11/19/2020 27.20.100.8984
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem55.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   06/16/2020 27.20.100.8336
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem152.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   11/16/2022 31.0.101.2115
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem155.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   09/05/2020 27.20.100.8681
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem175.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   01/02/2023 1.42.2023.102
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem6.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   07/11/2023 1.44.2023.710
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem32.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   08/23/2023 12.19.2.56
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem12.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   07/04/2023 12.19.2.55
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem169.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   06/15/2020 12.18.11.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem124.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   09/22/2020 1.0.2.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem49.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   06/25/2024 6.0.9700.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem43.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   07/21/2020 6.0.8991.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem81.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   07/21/2020 6.0.8991.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem61.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   07/21/2020 6.0.8991.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem82.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Software components
+
+Driver date and version :   04/24/2021 4.2.2101.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem96.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Software components
+
+Driver date and version :   04/22/2021 4.2.1744.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem112.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/21/2020 11.0.6000.225
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem3.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   05/27/2024 12.0.6000.331
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem144.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   02/26/2024 12.0.6000.324
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem200.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Software components
+
+Driver date and version :   11/17/2024 1.73.4045.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem37.inf
+
+Driver package provider :   HP Inc.
+
+Class :                     Software components
+
+Driver date and version :   06/11/2024 1.68.3814.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem202.inf
+
+Driver package provider :   HP Development Company, L.P.
+
+Class :                     Software components
+
+Driver date and version :   08/26/2024 8.10.11.86
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem7.inf
+
+Driver package provider :   HP Development Company, L.P.
+
+Class :                     Software components
+
+Driver date and version :   06/19/2024 8.10.11.79
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem46.inf
+
+Driver package provider :   HP Development Company, L.P.
+
+Class :                     Software components
+
+Driver date and version :   05/03/2024 8.10.11.76
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem79.inf
+
+Driver package provider :   HP
+
+Class :                     Monitors
+
+Driver date and version :   04/02/2020 1.0.0.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem11.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   04/23/2020 17.9.0.1007
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem64.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   06/25/2020 21.110.0.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem153.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   06/25/2020 21.110.0.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem136.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   07/10/2020 20.100.7.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem10.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   06/29/2020 21.110.0.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem2.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   06/25/2020 21.110.0.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem92.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   06/25/2020 21.110.0.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem103.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   07/10/2020 20.100.7.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem157.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Bluetooth
+
+Driver date and version :   06/29/2020 21.110.0.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem83.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   03/08/2024 1.72.189.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem63.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   12/06/2023 1.71.99.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem150.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   02/03/2022 30.0.101.1340
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem195.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   05/03/2024 31.0.101.2128
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem26.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   11/16/2022 31.0.101.2115
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem172.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   09/05/2020 27.20.100.8681
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem100.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   11/19/2020 27.20.100.8984
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem139.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   07/19/2022 31.0.101.2111
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem151.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Software components
+
+Driver date and version :   06/16/2020 27.20.100.8336
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem35.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Display adapters
+
+Driver date and version :   11/16/2022 31.0.101.2115
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem162.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Display adapters
+
+Driver date and version :   07/19/2022 31.0.101.2111
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem193.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Display adapters
+
+Driver date and version :   05/03/2024 31.0.101.2128
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem197.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   04/29/2024 10.27.0.14
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem184.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   11/21/2021 10.26.0.12
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem9.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   11/21/2021 11.2.0.10
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem104.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   11/21/2021 10.27.0.12
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem149.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   11/21/2021 11.1.0.20
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem121.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   12/12/2023 2316.5.1.7
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem179.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   02/21/2024 2316.5.1.12
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem99.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   09/20/2023 2338.5.1.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem0.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   02/21/2024 2408.5.4.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem123.inf
+
+Driver package provider :   Intel Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   02/03/2022 30.0.101.1340
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem62.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Network adapters
+
+Driver date and version :   07/13/2020 2024.0.10.218
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem19.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Network adapters
+
+Driver date and version :   05/26/2019 2024.0.4.208
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem142.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   09/15/2020 19.51.31.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem27.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   09/15/2020 20.70.19.1
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem52.inf
+
+Driver package provider :   Intel
+
+Class :                     Network adapters
+
+Driver date and version :   09/17/2020 22.0.0.6
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem67.inf
+
+Driver package provider :   NVIDIA Corporation
+
+Class :                     Sound, video and game controllers
+
+Driver date and version :   07/21/2019 1.3.38.21
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem51.inf
+
+Driver package provider :   TAP-Windows Provider V9
+
+Class :                     Network adapters
+
+Driver date and version :   09/27/2019 9.24.2.601
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem15.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/21/2020 11.0.6000.225
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem192.inf
+
+Driver package provider :   Microsoft
+
+Class :                     Printers
+
+Driver date and version :   06/21/2006 10.0.26100.1
+
+Signer name :               Microsoft Windows
+
+
+
+Published name :            oem4.inf
+
+Driver package provider :   Microsoft
+
+Class :                     Printers
+
+Driver date and version :   04/29/2013 16.0.1626.4000
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem191.inf
+
+Driver package provider :   Microsoft
+
+Class :                     Printers
+
+Driver date and version :   06/21/2006 10.0.26100.1882
+
+Signer name :               Microsoft Windows
+
+
+
+Published name :            oem60.inf
+
+Driver package provider :   Realtek
+
+Class :                     Audio Processing Objects (APOs)
+
+Driver date and version :   07/19/2023 13.0.6000.1097
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem101.inf
+
+Driver package provider :   Realtek
+
+Class :                     Audio Processing Objects (APOs)
+
+Driver date and version :   01/23/2024 13.0.6000.1167
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem125.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/16/2020 11.0.6000.795
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem23.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/16/2020 11.0.6000.225
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem97.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   07/16/2020 11.0.6000.795
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem95.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   06/25/2024 1.0.770.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem78.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   03/04/2024 1.0.734.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem106.inf
+
+Driver package provider :   Realtek
+
+Class :                     Software components
+
+Driver date and version :   05/08/2020 1.0.25.776
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem8.inf
+
+Driver package provider :   Realtek Semiconductor Corp.
+
+Class :                     Bluetooth
+
+Driver date and version :   09/08/2020 1.8.1030.3010
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem110.inf
+
+Driver package provider :   Sound Research Corp.
+
+Class :                     Audio Processing Objects (APOs)
+
+Driver date and version :   06/20/2023 2.0.11.26
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem30.inf
+
+Driver package provider :   Sound Research Corp.
+
+Class :                     Audio Processing Objects (APOs)
+
+Driver date and version :   03/06/2024 2.0.11.47
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem94.inf
+
+Driver package provider :   Sonitude, Inc.
+
+Class :                     Audio Processing Objects (APOs)
+
+Driver date and version :   07/07/2024 2.0.11.61
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem154.inf
+
+Driver package provider :   SUNIX Co., Ltd.
+
+Class :                     Multifunction adapters
+
+Driver date and version :   07/27/2020 9.0.9.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem57.inf
+
+Driver package provider :   Synaptics
+
+Class :                     Software components
+
+Driver date and version :   11/23/2020 1.0.0.35
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem135.inf
+
+Driver package provider :   Synaptics
+
+Class :                     Software components
+
+Driver date and version :   07/03/2020 1.3.97.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem134.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Software components
+
+Driver date and version :   05/12/2020 1.41.914.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem93.inf
+
+Driver package provider :   Intel(R) Corporation
+
+Class :                     Network adapters
+
+Driver date and version :   05/12/2020 1.41.914.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem156.inf
+
+Driver package provider :   Advanced Micro Devices, Inc.
+
+Class :                     Software components
+
+Driver date and version :   12/19/2019 27.2010.0.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem116.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   03/22/2024 2412.80.252.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem17.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   12/17/2023 2351.80.145.0
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem132.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   02/18/2021 7.3.0.33
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+Published name :            oem118.inf
+
+Driver package provider :   Intel
+
+Class :                     Software components
+
+Driver date and version :   09/15/2021 7.5.3.3
+
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+
+
+.
+[00001868] 2025-05-27 11:55:17 <-- executeCommand
+[00001868] 2025-05-27 11:55:17 --> getInfNamesFromPnpUtilOutput
+[00001868] 2025-05-27 11:55:18 <-- getInfNamesFromPnpUtilOutput
+[00001868] 2025-05-27 11:55:18 <-- ClearDriverStore
+[00001868] 2025-05-27 11:55:18     <-- _tmain: succeed, nStatus = 0.
+[0000375C] 2025-05-27 11:55:18 --> wmain
+[0000375C] 2025-05-27 11:55:18     _tmain: executing, argv[1] = -n.
+[0000375C] 2025-05-27 11:55:18     _tmain: executing, argv[2] = -iw.
+[0000375C] 2025-05-27 11:55:18 --> InstallWFPCallout
+[0000375C] 2025-05-27 11:55:18 --> GetWFPCalloutInfFilePath
+[0000375C] 2025-05-27 11:55:18     lpFilename = C:\Program Files\Npcap\NPCAP_wfp.inf
+[0000375C] 2025-05-27 11:55:18 <-- GetWFPCalloutInfFilePath
+[0000375C] 2025-05-27 11:55:18 --> isFileExist
+[0000375C] 2025-05-27 11:55:18     FindFirstFile: succeed, szFileFullPath = C:\Program Files\Npcap\NPCAP_wfp.inf.
+[0000375C] 2025-05-27 11:55:18 <-- isFileExist
+[0000375C] 2025-05-27 11:55:18     LaunchINFSectionEx: executing, szCmd = C:\Program Files\Npcap\NPCAP_wfp.inf,DefaultInstall,,36,N.
+[0000375C] 2025-05-27 11:55:18 <-- InstallWFPCallout
+[0000375C] 2025-05-27 11:55:18     <-- _tmain: succeed, nStatus = 0.
+[00004648] 2025-05-27 11:55:18 --> wmain
+[00004648] 2025-05-27 11:55:18     _tmain: executing, argv[1] = -n.
+[00004648] 2025-05-27 11:55:18     _tmain: executing, argv[2] = -i.
+[00004648] 2025-05-27 11:55:18 --> UninstallDriver
+[00004648] 2025-05-27 11:55:18 --> HrGetINetCfg
+[00004648] 2025-05-27 11:55:19 <-- HrGetINetCfg
+[00004648] 2025-05-27 11:55:19     bWiFiService = 0.
+[00004648] 2025-05-27 11:55:19     HrUninstallNetComponent: executing, szComponentId = INSECURE_NPCAP.
+[00004648] 2025-05-27 11:55:19 --> HrUninstallNetComponent
+[00004648] 2025-05-27 11:55:19     Error 0x1: Couldn't get an interface pointer to INSECURE_NPCAP.
+
+Possible cause:
+
+Incorrect function.
+
+
+[00004648] 2025-05-27 11:55:19 <-- HrUninstallNetComponent
+[00004648] 2025-05-27 11:55:19     Error 0x1: Couldn't uninstall the network component.
+
+Possible cause:
+
+Incorrect function.
+
+
+[00004648] 2025-05-27 11:55:19 --> HrReleaseINetCfg
+[00004648] 2025-05-27 11:55:19 <-- HrReleaseINetCfg
+[00004648] 2025-05-27 11:55:19 <-- UninstallDriver
+[00004648] 2025-05-27 11:55:19 --> InstallDriver
+[00004648] 2025-05-27 11:55:19 --> GetServiceInfFilePath
+[00004648] 2025-05-27 11:55:19     lpFilename = C:\Program Files\Npcap\NPCAP.inf
+[00004648] 2025-05-27 11:55:19 <-- GetServiceInfFilePath
+[00004648] 2025-05-27 11:55:19 --> InstallSpecifiedComponent
+[00004648] 2025-05-27 11:55:19 --> HrGetINetCfg
+[00004648] 2025-05-27 11:55:19 <-- HrGetINetCfg
+[00004648] 2025-05-27 11:55:19 --> HrInstallNetComponent
+[00004648] 2025-05-27 11:55:20     bWiFiService = 0.
+[00004648] 2025-05-27 11:55:20     HrInstallComponent: executing, szComponentId = INSECURE_NPCAP.
+[00004648] 2025-05-27 11:55:20 --> HrInstallComponent
+[00004648] 2025-05-27 11:55:21 <-- HrInstallComponent
+[00004648] 2025-05-27 11:55:21 <-- HrInstallNetComponent
+[00004648] 2025-05-27 11:55:21 --> HrReleaseINetCfg
+[00004648] 2025-05-27 11:55:22 <-- HrReleaseINetCfg
+[00004648] 2025-05-27 11:55:22 <-- InstallSpecifiedComponent
+[00004648] 2025-05-27 11:55:22 <-- InstallDriver
+[00004648] 2025-05-27 11:55:22     <-- _tmain: succeed, nStatus = 0.
+[00005AB8] 2025-05-28 14:01:17 --> wmain
+[00005AB8] 2025-05-28 14:01:17     _tmain: executing, argv[1] = -n.
+[00005AB8] 2025-05-28 14:01:17     _tmain: executing, argv[2] = -check_dll.
+[00005AB8] 2025-05-28 14:01:17 --> getInUseProcesses
+[00005AB8] 2025-05-28 14:01:17 --> enumProcesses
+[00005AB8] 2025-05-28 14:01:17 --> getNpcapPIDs
+[00005AB8] 2025-05-28 14:01:17     Npcap handle opened
+[00005AB8] 2025-05-28 14:01:18     BIOCGETPIDS returned 12 bytes, 2 pids
+[00005AB8] 2025-05-28 14:01:18 <-- getNpcapPIDs
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = System, dwProcessID = 4.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Secure System, dwProcessID = 236.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Registry, dwProcessID = 280.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = smss.exe, dwProcessID = 832.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = csrss.exe, dwProcessID = 1448.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = wininit.exe, dwProcessID = 1528.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = csrss.exe, dwProcessID = 1536.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = services.exe, dwProcessID = 1604.
+[00005AB8] 2025-05-28 14:01:18     EnumProcessModulesEx: error, errCode = 0x000003e6.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Memory Compression, dwProcessID = 3612.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 7348.
+[00005AB8] 2025-05-28 14:01:18     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = SecurityHealthService.exe, dwProcessID = 1144.
+[00005AB8] 2025-05-28 14:01:19     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 13040.
+[00005AB8] 2025-05-28 14:01:19     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = MpDefenderCoreService.exe, dwProcessID = 20052.
+[00005AB8] 2025-05-28 14:01:19     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = MsMpEng.exe, dwProcessID = 12528.
+[00005AB8] 2025-05-28 14:01:19     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = NisSrv.exe, dwProcessID = 19136.
+[00005AB8] 2025-05-28 14:01:19 --> getFileProductName
+[00005AB8] 2025-05-28 14:01:19     GetFileVersionInfoSize: error, errCode = 0x00000002.
+[00005AB8] 2025-05-28 14:01:19 <-- getFileProductName
+[00005AB8] 2025-05-28 14:01:19 --> getFileProductName
+[00005AB8] 2025-05-28 14:01:19     GetFileVersionInfoSize: error, errCode = 0x00000002.
+[00005AB8] 2025-05-28 14:01:19 <-- getFileProductName
+[00005AB8] 2025-05-28 14:01:19 --> getFileProductName
+[00005AB8] 2025-05-28 14:01:19     GetFileVersionInfoSize: error, errCode = 0x00000002.
+[00005AB8] 2025-05-28 14:01:19 <-- getFileProductName
+[00005AB8] 2025-05-28 14:01:19 --> getFileProductName
+[00005AB8] 2025-05-28 14:01:19     GetFileVersionInfoSize: error, errCode = 0x00000002.
+[00005AB8] 2025-05-28 14:01:19 <-- getFileProductName
+[00005AB8] 2025-05-28 14:01:20     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 11736.
+[00005AB8] 2025-05-28 14:01:20     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 17844.
+[00005AB8] 2025-05-28 14:01:20 <-- enumProcesses
+[00005AB8] 2025-05-28 14:01:20 <-- getInUseProcesses
+[00005AB8] 2025-05-28 14:01:20     <-- _tmain: error, nStatus = -1.
