@@ -1,0 +1,164 @@
+<dashboard version="1.1" theme="dark">
+  <label>chicago_crimes</label>
+  <row>
+    <panel>
+      <table>
+        <title>most popular crime by community area</title>
+        <search>
+          <query>| tstats count as countcrime where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by "Primary Type", "Community Area"
+| sort "Community Area", -countcrime
+| dedup "Community Area"
+| rename "Community Area" as neighborhood  "Primary Type" as crime</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most popular crime by community area</title>
+        <search>
+          <query>| tstats count as countcrime where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by "Primary Type", Block
+| sort Block, -countcrime
+| dedup Block
+| rename "Primary Type" as crime</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most following duo crimes by community area</title>
+        <search>
+          <query>| tstats values("Primary Type") as crimetype values("Community Area") as nei where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by _time span=1s,ID
+| sort 0 nei
+| streamstats first(crimetype) as crime1 last(crimetype) as crime2 window=2 by nei
+| eval crimes = crime1 + "---&gt;" + crime2
+| top 1 crimes by nei
+| sort nei</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>avg time between crimes - all events</title>
+        <search>
+          <query>| tstats count where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by _time span=1s,ID
+| streamstats range(_time) as timeDiff window=2
+| stats avg(timeDiff)</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>avg time between crimes - by community area - using streamstats</title>
+        <search>
+          <query>| tstats values("Community Area") as nei where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by _time span=1s,ID
+| sort 0 nei
+| streamstats range(_time) as timeDiff window=2 by nei
+| stats avg(timeDiff) by nei
+| sort nei</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>avg time between crimes - by community area - using transaction</title>
+        <search>
+          <query>| tstats values("Community Area") as nei where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by _time span=1s,ID
+| transaction nei maxevents=-1 mvlist=_time
+| eval avgDiff = duration/(eventcount-1)
+| sort 0 nei
+| table nei avgDiff</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most common 3 days for the most popular primary type that comes after THEFT</title>
+        <search>
+          <query>| tstats count where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" AND
+ [| tstats values("Community Area") as nei values("Primary Type") as crimetype where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by _time span=1s,ID
+| streamstats window=2 first(crimetype) as crime1 last(crimetype) as crime2
+| search crime1=THEFT
+| top 1 crimetype
+| table crimetype
+| rename crimetype as "Primary Type"] by date_wday
+| sort - count
+| head 3</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most dangerous day and safe day by crime type</title>
+        <search>
+          <query>| tstats count where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by "Primary Type", date_wday
+| sort "Primary Type", -count
+| dedup "Primary Type"
+| join left=L right=R where L."Primary Type" = R."Primary Type" [| tstats count where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by "Primary Type", date_wday
+| sort "Primary Type", count
+| dedup "Primary Type"]
+| rename L.date_wday as dangerousDay L.count as countCrimes1 L."Primary Type" as crime R.date_wday as safeDay R.count as countCrimes2
+| table crime dangerousDay countCrimes1 safeDay countCrimes2</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>most dangerous block by day</title>
+        <search>
+          <query>| tstats count where source="C:\\ChicagoCrimes.csv" host="chicago_final_PC" by date_wday,"Primary Type",Block
+| lookup crime.csv "Primary Type"
+| eval crimeScore=count*Points
+| stats sum(crimeScore) as dailyScore by date_wday, Block
+| sort 0 date_wday,-dailyScore
+| dedup date_wday</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>
