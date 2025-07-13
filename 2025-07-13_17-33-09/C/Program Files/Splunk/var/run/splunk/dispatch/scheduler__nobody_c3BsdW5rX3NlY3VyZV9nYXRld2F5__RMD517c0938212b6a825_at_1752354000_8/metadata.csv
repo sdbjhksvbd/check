@@ -1,0 +1,2 @@
+access,owner,app,ttl
+"read : [ *, admin ], write : [ admin, sc_admin ]",admin,"splunk_secure_gateway",864000
