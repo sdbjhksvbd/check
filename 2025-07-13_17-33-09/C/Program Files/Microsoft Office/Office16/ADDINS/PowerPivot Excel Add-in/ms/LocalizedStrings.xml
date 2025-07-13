@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Alamat</s>
+  <s _locID="Classification.Address.Description">Perihalan lokasi orang atau organisasi, sebagai arah untuk penghantaran</s>
+  <s _locID="Classification.Address.Group">Geografi</s>
+  <s _locID="Classification.City.LabelName">Bandar</s>
+  <s _locID="Classification.City.Description">Pusat bandar untuk masyarakat, perdagangan dan budaya</s>
+  <s _locID="Classification.City.Group">Geografi</s>
+  <s _locID="Classification.Continent.LabelName">Benua</s>
+  <s _locID="Classification.Continent.Description">Salah satu benua utama Dunia</s>
+  <s _locID="Classification.Continent.Group">Geografi</s>
+  <s _locID="Classification.Country.LabelName">Negara/Wilayah</s>
+  <s _locID="Classification.Country.Description">Negara atau negeri</s>
+  <s _locID="Classification.Country.Group">Geografi</s>
+  <s _locID="Classification.County.LabelName">Daerah</s>
+  <s _locID="Classification.County.Description">Wilayah kerajaan tempatan; sebahagian daripada negeri atau rantau</s>
+  <s _locID="Classification.County.Group">Geografi</s>
+  <s _locID="Classification.PostalCode.LabelName">Poskod</s>
+  <s _locID="Classification.PostalCode.Description">Jujukan huruf dan/atau nombor yang ditambah pada alamat pos untuk membantu penghantaran mel</s>
+  <s _locID="Classification.PostalCode.Group">Geografi</s>
+  <s _locID="Classification.StateorProvince.LabelName">Negeri atau Rantau</s>
+  <s _locID="Classification.StateorProvince.Description">Wilayah yang ditadbir sebagai unit pentadbiran atau politik dalam negara atau rantau.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografi</s>
+  <s _locID="Classification.ImageURL.LabelName">URL Imej</s>
+  <s _locID="Classification.ImageURL.Description">URL (Pelokasi sumber seragam) yang menunjuk ke imej</s>
+  <s _locID="Classification.ImageURL.Group">Imej</s>
+  <s _locID="Classification.WebUrl.LabelName">URL Web</s>
+  <s _locID="Classification.WebUrl.Description">URL (Pelokasi sumber seragam) yang menunjuk ke lokasi web</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Imej</s>
+  <s _locID="Classification.Image.Description">Foto atau gambar lain, seringkali dalam format fail JPEG, GIFF atau BMP</s>
+  <s _locID="Classification.Image.Group">Imej</s>
+  <s _locID="Classification.Latitude.LabelName">Latitud</s>
+  <s _locID="Classification.Latitude.Description">Koordinat geografi yang menentukan kedudukan utara-selatan pada permukaan Bumi</s>
+  <s _locID="Classification.Latitude.Group">Geografi</s>
+  <s _locID="Classification.Longitude.LabelName">Longitud</s>
+  <s _locID="Classification.Longitude.Description">Koordinat geografi yang menentukan kedudukan timur-barat pada permukaan Bumi</s>
+  <s _locID="Classification.Longitude.Group">Geografi</s>
+  <s _locID="Classification.Place.LabelName">Tempat</s>
+  <s _locID="Classification.Place.Description">Kawasan atau lokasi geografi</s>
+  <s _locID="Classification.Place.Group">Geografi</s>
+  <s _locID="Classification.Organization.LabelName">Organisasi</s>
+  <s _locID="Classification.Organization.Description">Kumpulan orang yang bersatu untuk tujuan tertentu; persatuan</s>
+  <s _locID="Classification.Organization.Group">Organisasi</s>
+  <s _locID="Classification.Company.LabelName">Syarikat</s>
+  <s _locID="Classification.Company.Description">Perusahaan perniagaan</s>
+  <s _locID="Classification.Company.Group">Organisasi</s>
+  <s _locID="Classification.Product.LabelName">Produk</s>
+  <s _locID="Classification.Product.Description">Sesuatu yang dibuat, ditanam atau diperoleh agar ia dapat dijual</s>
+  <s _locID="Classification.Product.Group">Produk</s>
+  <s _locID="Classification.Date.LabelName">Tarikh</s>
+  <s _locID="Classification.Date.Description">Masa yang dinyatakan dalam istilah hari, bulan, suku atau tahun</s>
+  <s _locID="Classification.Date.Group">Kalendar</s>
+</strings>
