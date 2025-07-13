@@ -1,0 +1,215 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    Classes that model meta-data about files and folders in a Windows file system.
+
+    DEPENDENCIES: none
+
+***************************************************************************************************/
+
+#pragma autorecover
+#pragma classflags("forceupdate")
+
+#pragma namespace ("\\\\.\\Root\\Microsoft\\PolicyPlatform\\Models")
+
+//////////////////////////////////////////////////////////////////////////////
+// FileSystem_NamedElement class
+
+[
+    Description("Contains metadata for a specific file system element"),
+    Abstract(TRUE)
+]
+class FileSystem_NamedElement
+{
+    [
+        Key,
+        Description("The full path and filename of the file system element")
+    ]
+    string FullPath;
+
+    [
+        Decription
+        (
+            "The base path of the file system element, including drive or network share and path."
+            " It will always end with a '\'."
+        )
+    ]
+    string BasePath;
+
+    [
+        Decription("The name of the file system element within its base path.")
+    ]
+    string Name;
+
+    [
+        Decription("The creation time of the file system element.")
+    ]
+    datetime CreationTime;
+
+    [
+        Decription("The last accessed time of the file system element.")
+    ]
+    datetime LastAccessTime;
+
+    [
+        Decription("The last modified time of the file system element.")
+    ]
+    datetime LastWriteTime;
+
+    [
+        Decription("Indicates if the file system element is archived.")
+    ]
+    boolean Archived;
+
+    [
+        Decription("Indicates if the file system element is compressed.")
+    ]
+    boolean Compressed;
+
+    [
+        Decription("Indicates if the file system element is encrypted.")
+    ]
+    boolean Encrypted;
+
+    [
+        Decription("Indicates if the file system element is hidden.")
+    ]
+    boolean Hidden;
+
+    [
+        Decription("Indicates if the file system element's content is indexed.")
+    ]
+    boolean NotIndexed;
+
+    [
+        Decription("Indicates if the file system element is offline.")
+    ]
+    boolean Offline;
+
+    [
+        Decription("Indicates if the file system element is read only.")
+    ]
+    boolean ReadOnly;
+
+    [
+        Decription("Indicates if the file system element has a reparse point associated with it.")
+    ]
+    boolean ReparsePoint;
+
+    [
+        Decription("Indicates if the file system element is sparse.")
+    ]
+    boolean Sparse;
+
+    [
+        Decription("Indicates if the file system element is a system element.")
+    ]
+    boolean System;
+
+    [
+        Decription("Indicates if the file system element is temporary.")
+    ]
+    boolean Temporary;
+
+    [
+        Decription("Indicates if the file system element is virtual.")
+    ]
+    boolean Virtual;
+
+    [
+        Description
+        (
+            "If the ReparsePoint property is set to TRUE, this indicates the type of reparse point."
+        )
+    ]
+    uint32 ReparsePointType;
+};
+
+//////////////////////////////////////////////////////////////////////////////
+// FileSystem_FileMetadata class
+
+[
+    Description("Contains metadata for a specific file"),
+    Dynamic(TRUE),
+    Provider("FileSystem_StateProvider"),
+    InPartition { "local-system" }
+]
+class FileSystem_FileMetadata : FileSystem_NamedElement
+{
+    [
+        Decription
+        (
+            "If the file contains a version resource and manufacturer information within, this is"
+            " the company specified by the resource."
+            "Note: This property is not valid for files whose Offline or Virtual properties are"
+            " set to TRUE."
+        )
+    ]
+    string Company;
+
+    [
+        Decription
+        (
+            "If the file contains a version resource and product name information within, this is"
+            " the product name specified by the resource. "
+            "Note: This property is not valid for files whose Offline or Virtual properties are"
+            " set to TRUE."
+        )
+    ]
+    string ProductName;
+
+    [
+        Description
+        (
+            "This is the SHA1 hash of the file.  "
+            "Note: This property is not valid for files whose Offline or Virtual properties are"
+            " set to TRUE.  In addition, encrypted files will be decryped and compressed files"
+            " will be uncompressed before the hash is computed. "
+            "The hash is represented as a base64 encoded string."
+        )
+    ]
+    string SHA1Hash;
+
+    [
+        Decription("The logical size of the file in bytes.")
+    ]
+    uint64 Size;
+
+    [
+        Decription
+        (
+            "This is the size of the data in the file on disk in bytes.  This may be different than"
+            " the size property in the case of sparse or compressed files, for example.  Note that"
+            " this is only the size of the data on disk and does not include the size of the data"
+            " structures used to hold the file."
+        )
+    ]
+    uint64 SizeOnDisk;
+
+    [
+        Decription
+        (
+            "If the file contains a version resource and version information within, this is the"
+            " version specified by the resource. "
+            "Note: This property is not valid for files whose Offline or Virtual properties are"
+            " set to TRUE."
+        )
+    ]
+    string Version;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// FileSystem_FolderMetadata class
+
+[
+    Description("Contains metadata for a specific file"),
+    Dynamic(TRUE),
+    Provider("FileSystem_StateProvider"),
+    InPartition { "local-system" }
+]
+class FileSystem_FolderMetadata : FileSystem_NamedElement
+{
+};
+
