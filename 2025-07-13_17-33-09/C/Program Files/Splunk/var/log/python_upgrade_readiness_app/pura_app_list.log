@@ -1,0 +1,175 @@
+2025-06-09 01:01:09,212 INFO 36904 - Handling a request
+2025-06-09 01:01:09,212 INFO 36904 - Executing function, name=get_app_list
+2025-06-09 01:01:09,291 INFO 36904 - Found a synced splunkbase file
+2025-06-09 01:01:09,291 INFO 36904 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1749412880.csv
+2025-06-10 01:03:17,815 INFO 29224 - Handling a request
+2025-06-10 01:03:17,816 INFO 29224 - Executing function, name=get_app_list
+2025-06-10 01:03:17,862 ERROR 29224 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-11 01:02:36,251 INFO 25920 - Handling a request
+2025-06-11 01:02:36,251 INFO 25920 - Executing function, name=get_app_list
+2025-06-11 01:02:36,292 ERROR 25920 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-12 01:05:27,764 INFO 23008 - Handling a request
+2025-06-12 01:05:27,765 INFO 23008 - Executing function, name=get_app_list
+2025-06-12 01:05:27,811 ERROR 23008 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-13 01:07:35,572 INFO 39460 - Handling a request
+2025-06-13 01:07:35,572 INFO 39460 - Executing function, name=get_app_list
+2025-06-13 01:07:35,619 ERROR 39460 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-14 01:29:33,325 INFO 42624 - Handling a request
+2025-06-14 01:29:33,326 INFO 42624 - Executing function, name=get_app_list
+2025-06-14 01:29:33,391 ERROR 42624 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-15 01:28:40,855 INFO 36136 - Handling a request
+2025-06-15 01:28:40,855 INFO 36136 - Executing function, name=get_app_list
+2025-06-15 01:28:40,901 ERROR 36136 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-16 01:47:53,542 INFO 38644 - Handling a request
+2025-06-16 01:47:53,542 INFO 38644 - Executing function, name=get_app_list
+2025-06-16 01:47:53,591 ERROR 38644 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-17 11:36:07,832 INFO 8604 - Handling a request
+2025-06-17 11:36:07,832 INFO 8604 - Executing function, name=get_app_list
+2025-06-17 11:36:07,868 ERROR 8604 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-18 01:37:55,470 INFO 32840 - Handling a request
+2025-06-18 01:37:55,472 INFO 32840 - Executing function, name=get_app_list
+2025-06-18 01:37:55,516 ERROR 32840 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-19 02:02:54,248 INFO 53668 - Handling a request
+2025-06-19 02:02:54,248 INFO 53668 - Executing function, name=get_app_list
+2025-06-19 02:02:54,285 ERROR 53668 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-20 01:35:49,468 INFO 10988 - Handling a request
+2025-06-20 01:35:49,469 INFO 10988 - Executing function, name=get_app_list
+2025-06-20 01:35:49,483 ERROR 10988 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-21 01:29:53,214 INFO 12416 - Handling a request
+2025-06-21 01:29:53,214 INFO 12416 - Executing function, name=get_app_list
+2025-06-21 01:29:53,254 ERROR 12416 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-23 17:35:55,610 INFO 19388 - Handling a request
+2025-06-23 17:35:55,610 INFO 19388 - Executing function, name=get_app_list
+2025-06-23 17:35:55,646 ERROR 19388 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-24 01:15:24,412 INFO 12384 - Handling a request
+2025-06-24 01:15:24,413 INFO 12384 - Executing function, name=get_app_list
+2025-06-24 01:15:24,448 ERROR 12384 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-25 01:31:06,093 INFO 30816 - Handling a request
+2025-06-25 01:31:06,093 INFO 30816 - Executing function, name=get_app_list
+2025-06-25 01:31:06,119 ERROR 30816 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-26 18:32:51,494 INFO 41004 - Handling a request
+2025-06-26 18:32:51,495 INFO 41004 - Executing function, name=get_app_list
+2025-06-26 18:32:51,528 ERROR 41004 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-27 01:01:53,730 INFO 24824 - Handling a request
+2025-06-27 01:01:53,731 INFO 24824 - Executing function, name=get_app_list
+2025-06-27 01:01:53,762 ERROR 24824 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-28 01:08:53,534 INFO 46828 - Handling a request
+2025-06-28 01:08:53,535 INFO 46828 - Executing function, name=get_app_list
+2025-06-28 01:08:53,579 ERROR 46828 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
+2025-06-30 08:02:36,628 INFO 15736 - Handling a request
+2025-06-30 08:02:36,630 INFO 15736 - Executing function, name=get_app_list
+2025-06-30 08:02:36,670 ERROR 15736 - Could not make request to Splunk: [HTTP 402] Current license does not allow the requested action
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_app_list.py", line 165, in get_app_list
+    sessionKey=self.session_key)
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 556, in simpleRequest
+    raise splunk.LicenseRestriction
+splunk.LicenseRestriction: [HTTP 402] Current license does not allow the requested action
