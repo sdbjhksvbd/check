@@ -1,0 +1,112 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for synchronization error report.
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof,
+    ConfigPointReport.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+// ***************************************************************************
+// delete the derived classes to allow changes to the base class.  The nofail flag means that
+//  mofcomp will not fail if the class does not exist
+
+#pragma deleteclass("PolicyPlatform_DiscoveryDetail", nofail)
+#pragma deleteclass("PolicyPlatform_ReificationDetail", nofail)
+
+// ***************************************************************************
+[
+    Abstract,
+    Description("The encapsulation of provider detail information related to model-state synchronization."),
+    Version("1.0.0")
+]
+class PolicyPlatform_SynchronizationDetail
+{
+    [
+        Description("Unique Id of the error in the scope of the enactment."),
+        Key
+    ]
+    uint32 Id;
+
+    [
+        Values{"discovery", "reification"} : ToSubClass,
+        ValueMap{"0", "1"} : ToSubClass
+    ]
+    uint32 DetailsType;
+
+    [
+        Description("Sync detail object from provider. Object value is in CIM-XML format."),
+        Not_null
+    ]
+    string Details;
+
+    [
+        Description("Namespace which the Object in Details is from."),
+        Not_null
+    ]
+    string DetailsNamespace;
+
+    [
+        Description("Configuration Point Id(s) associated to the error."),
+        Not_null
+    ]
+    uint32 ConfigPointIds[];
+};
+
+
+// ***************************************************************************
+[
+    Description("The identification of rules for which details are provided."),
+    Version("1.0.0")
+]
+class PolicyPlatform_DiscoveryDetail : PolicyPlatform_SynchronizationDetail
+{
+    [
+        Values{"discovery"} : ToSubClass,
+        ValueMap{"0"} : ToSubClass
+    ]
+    uint32 DetailsType = 0;
+
+    [
+        Description("Selector which, when queried for, produced the details."),
+        Not_null
+    ]
+    string Query;
+};
+
+
+// ***************************************************************************
+[
+    Description("The identification of rules for which details are provided."),
+    Version("1.0.0")
+]
+class PolicyPlatform_ReificationDetail : PolicyPlatform_SynchronizationDetail
+{
+    [
+        Values{"reification"} : ToSubClass,
+        ValueMap{"1"} : ToSubClass
+    ]
+    uint32 DetailsType = 1;
+};
+
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    DisplayName ("Synchronization Detail Report"),
+    Description("A report containing various details from providers related to modelspace reference, population and reification.")
+]
+class PolicyPlatform_SynchronizationDetailReport : PolicyPlatform_Report
+{
+    PolicyPlatform_SynchronizationDetail Details[];
+};
