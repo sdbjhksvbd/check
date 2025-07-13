@@ -1,0 +1,41 @@
+ï»¿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+  <noInherit></noInherit>
+  <assemblyIdentity name="Lync" processorArchitecture="*" type="win32" version="15.0.0.0"></assemblyIdentity>
+  <asmv3:application xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+      <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+         <!-- DSS-682: Win 8.1 has a new feature to allow different DPI scaling settings for different monitors.
+              In this case, we need to set applicatin's DPI mode to "per-Monitor", this allows application to handle DPI scaling on different monitors properly.
+              We need to set below value to "True/PM", so that on pre 8.1 OS, it will be treated as "True" (DPI-aware).
+              And on Win 8.1+, it will be treated as "true" (DPI-aware) + "PM" (Per-Monitor) -->
+         <dpiAware>True/PM</dpiAware>
+         <!-- In O15 2735928, on application sharing on Windows 8, we must ensure that RDP can detect when Windows Store windows are on top, otherwise they will not be clipped properly, which could lead to information disclosure  -->
+         <disableWindowFiltering xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">true</disableWindowFiltering>
+      </asmv3:windowsSettings>
+  </asmv3:application>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Windows 7 and Windows Server 2008 R2 -->
+      <!--The ID below indicates application support for Windows 7 -->
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS>
+      <!--This Id value indicates the application supports Windows 8 functionality-->
+      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>
+      <!-- This Id value indicates the application supports Windows 8.1 functionality-->
+      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></supportedOS>
+      <!-- Windows 10 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></supportedOS>
+    </application>
+  </compatibility>
+  <dependency>
+    <dependentAssembly asmv2:codebase="uccapi.dll">
+      <assemblyIdentity type="win32" name="UccApi" version="16.0.0.0" processorArchitecture="*"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+</assembly>
