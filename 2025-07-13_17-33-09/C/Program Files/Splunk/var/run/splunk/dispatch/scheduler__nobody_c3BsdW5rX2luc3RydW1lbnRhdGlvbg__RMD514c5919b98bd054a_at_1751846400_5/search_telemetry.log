@@ -1,0 +1,18 @@
+07-07-2025 03:00:01.473 +0300 INFO  SearchTelemetrySingleton - record_search_telemetry=1
+07-07-2025 03:00:01.480 +0300 WARN  SearchTelemetrySingleton - Config setting remote_search_telemetry_file_limit=-1114177552 is invalid. Will use 30
+07-07-2025 03:00:01.486 +0300 WARN  SearchTelemetrySingleton - Unable to read configuration for index_remote_search_telemetry from limits.conf, defaulting to false
+07-07-2025 03:00:01.486 +0300 INFO  SearchTelemetrySingleton - Loaded config settings: telemetry file limit = 500, event size limit = 1000000, component size limit = 10000
+07-07-2025 03:00:01.748 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:01.853 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:01.909 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.001 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.044 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.142 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.173 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.274 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.320 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.440 +0300 INFO  SearchTelemetry - set search status to success
+07-07-2025 03:00:02.518 +0300 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+07-07-2025 03:00:02.518 +0300 INFO  SearchTelemetry - Component=search_commands length=10579 exceeded max=10000. Truncating component
+07-07-2025 03:00:02.519 +0300 INFO  SearchTelemetrySingleton - Copying search_telemetry.json from dispatch dir to var/run/splunk/search_telemetry
+07-07-2025 03:00:02.528 +0300 INFO  SearchTelemetrySingleton - Done copying search_telemetry.json to C:\Program Files\Splunk\var\run\splunk\search_telemetry\db3741795125b042_scheduler__nobody_c3BsdW5rX2luc3RydW1lbnRhdGlvbg__RMD514c5919b98bd054a_at_1751846400_5_search_telemetry.json
