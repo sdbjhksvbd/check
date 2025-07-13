@@ -1,0 +1,5 @@
+0	4	 24	1748478185	1749340989	1749340989	
+1	source::telemetry_api	  2	1748478185	1748932525	1748932525	
+2	source::C:\Program Files\Splunk\var\log\splunk\license_usage_summary.log	  7	1748552400	1749330000	1749330001	
+3	source::telemetry	 10	1748995369	1749340989	1749340989	
+4	source::instrumentation_scripted_input	  5	1748995376	1749340989	1749340989	
