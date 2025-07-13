@@ -1,0 +1,60 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for authored configuration point report. 
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+// ***************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Authored Configuration Point Report"),
+    Description
+    (
+      "A report which assigns an Ids to configuration points, contexts, and"
+      " variables. Other reports will use the Ids of the configuration points,"
+      " to refer to a particular configuration point contained within this report."
+      " The configuration points in this report may also refer to the IDs of other"
+      " configuration points as well as contexts and variables."
+    )
+] 
+class PolicyPlatform_AuthoredConfigPointReport : PolicyPlatform_Report
+{
+    [ 
+      Description
+      (
+        "A set of contexts whose members will be referenced by some variables or some configuration"
+        " points or some contexts in this report."
+      )
+    ] 
+    PolicyPlatform_ReportedContext ReferencedContexts[];
+    
+    [ 
+      Description
+      (
+        "A set of variables whose members will be referenced by some configuration points in this report."
+        " Some variables may also refer to members in set of contexts."
+      )
+    ] 
+    PolicyPlatform_ReportedVariable ReferencedVariables[];
+    
+    [ 
+      Description
+      (
+        "A set of configuration points whose members will be referenced by other reports. Some configuration"
+        " points may also refer to members in set of variables or set of contexts. Other reports will"
+        " use Id of configuration point when referring to a configuration point."
+      )
+    ] 
+    PolicyPlatform_ReportedAuthoredConfigPoint ConfigPoints[];
+};
