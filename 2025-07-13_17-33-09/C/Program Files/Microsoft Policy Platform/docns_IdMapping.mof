@@ -1,0 +1,183 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for referencing policies and rules from reports. 
+
+    DEPENDENCIES: Report.mof, Document.mof, SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+// **********************************************************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description
+    (
+        "The Reported Document Id associates a numeric identifier to the information"
+        " used to identify a document."
+    )
+]
+class PolicyPlatform_DocumentIdMapping
+{
+    [
+        Description("Identifier which other reports will use to refer to the document identifier information."),        
+        Key
+    ]
+    uint32 id;
+    
+    [
+        Description("Naming authority that issued the document")
+    ]
+    string authority;
+
+    [
+        Description("Name of the document and its unique identifier within the scope of the naming authority")
+    ]
+    string name;
+
+    [
+        Description("Revision of the document")
+    ]
+    uint32 revision;
+};
+
+// **********************************************************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description
+    (
+        "A rule info maps a numeric identifier to the name of a rule and a specific policy identifier."
+    )
+]
+class PolicyPlatform_RuleIdMapping
+{
+    [
+        Description("Identifier which other reports will use to refer to the rule information."),        
+        Key
+    ]
+    uint32 id;
+    
+    [
+        Description
+        (
+            "The Identifier of the policy document which contains the reported rule."
+        )
+    ]
+    uint32 policyId;
+    
+    [
+        Description("Name of the rule referenced by the Reported Rule.")
+    ]
+    String ruleName;
+};
+
+// **********************************************************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("StepInfos provide an id to reference a specific step that was performed.")
+]
+class PolicyPlatform_StepIdMapping
+{
+    [
+        Description("Identifier which other reports will use to refer to the step information."),        
+        Key
+    ]
+    uint32 id;
+        
+    [
+        Required,
+        Not_Null,
+        Description
+        (
+            "The Identifier of the strategy document which contains the actual step."
+        )
+    ]
+    uint32 strategyId;
+    
+    [
+        Required,
+        Not_Null,
+        Description("The Identifier of the step in the strategy referred to by the ReportedStrategyId.")
+    ]
+    uint32 strategyStepId;
+    
+    [
+        Description
+        (
+            "The Identifier of the previous step executed in the strategy. The previous step being the"
+            " reported step that was unable to determine priority and then used this step to make the"
+            " determination."
+        )
+    ]
+    uint32 previousStepId = NULL;
+};
+
+
+
+// **********************************************************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description
+    (
+        "Function Tactic Step Infos are a step info that exercised a function tactic to determine prioritization"
+        " when the step was executed."
+    )
+]
+class PolicyPlatform_FunctionTacticStepIdMapping : PolicyPlatform_StepIdMapping
+{
+    [
+        Required,
+        Not_Null,
+        Description("The function to use for comparing rules"),
+        ValueMap { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" },
+        Values
+        {
+            "MinimalPolicyAuthority",
+            "MaximalPolicyAuthority",
+            "MinimalPolicyName",
+            "MaximalPolicyName",
+            "MinimalPolicyRevision",
+            "MaximalPolicyRevision",
+            "MinimalRuleName",
+            "MaximalRuleName",
+            "MinimalPolicyCreationDate",
+            "MaximalPolicyCreationDate"
+        }
+    ]
+    uint16 function;
+};
+
+
+// **********************************************************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description
+    (
+        "Table Lookup Tactic Step Infos are a step info that consulted a value table to determine prioritization"
+        " when the step was executed."
+    )
+]
+class PolicyPlatform_TableLookupTacticStepIdMapping : PolicyPlatform_StepIdMapping
+{
+
+    [
+        Required,
+        Not_Null,
+        Description("The Id of the value table that the tactic in the step consulted to perform prioritization.")
+    ]
+    uint32 valueTableId;
+};
+
+
