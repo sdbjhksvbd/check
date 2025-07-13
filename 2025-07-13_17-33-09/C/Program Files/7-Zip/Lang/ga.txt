@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  9.07 : SeanÃ¡n Ã“ CoistÃ­n
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Irish
+Gaeilge
+401
+TÃ¡ go maith
+Cealaigh
+
+
+
+&TÃ¡
+&NÃ­l
+&DÃºn
+Cabhair
+
+&Lean ar aghaidh
+440
+TÃ¡ do gach ceann
+NÃ­l go gach ceann
+Stad
+Atosaigh
+&CÃºlra
+&Tulra
+&Cuir ar sos
+Ar sos
+An bhfuil tÃº cinnte gur mian leat Ã© a chealÃº?
+500
+&Comhad
+&Leagan
+Am&harc
+CeanÃ¡in
+&UirlisÃ­
+&Cabhair
+540
+&Oscail
+Oscail &istigh
+Oscail &lasamuigh
+&Amharc
+&Eagar
+Athainmnigh
+&Macasamhlaigh go...
+&Bog go...
+S&crios
+Scar an comhad...
+Cumascaigh na comhaid...
+AirÃ­onna
+NÃ³ta trÃ¡chta
+RÃ­omh an tsuim sheiceÃ¡la
+Diff
+Cruthaigh fillteÃ¡n
+Cruthaigh comhad
+&Scoir
+600
+Roghnaigh &uile
+DÃ­roghnaigh uile
+&Aisiompaigh an roghnÃºchÃ¡n
+Roghnaigh...
+DÃ­roghnaigh...
+Roghnaigh de rÃ©ir cineÃ¡l
+DÃ­roghnaigh de rÃ©ir cineÃ¡l
+700
+&DeilbhÃ­nÃ­ mÃ³ra
+&DeilbhÃ­nÃ­ beaga
+&Liosta
+&SonraÃ­
+730
+Neamhaicmithe
+Gach rud in aon chiseal
+&2 fhuinneog
+&BarraÃ­ na n-uirlisÃ­
+Oscail an frÃ©amhfhillteÃ¡n
+Suas fillteÃ¡n amhÃ¡in
+Oireas na bhfillteÃ¡n...
+Athnuaigh
+750
+Barra cartlanna
+Barra na n-uirlisÃ­ caighdeÃ¡nacha
+CnaipÃ­ mÃ³ra
+TaispeÃ¡in an tÃ©acs ar na cnaipÃ­
+800
+&Cuir an fillteÃ¡n leis na CeanÃ¡in
+Leabharmharc
+900
+&Roghanna...
+TÃ¡stÃ¡il fheidhmÃ­ochta
+960
+&Inneachair...
+Maidir le 7-Zip...
+1003
+Conair
+Ainm
+BreiseÃ¡n
+FillteÃ¡n
+MÃ©id
+ComhbhrÃºite
+TrÃ©ithe
+Cruthaithe an
+Rochtain faighte ar an
+Mionathraithe ar an
+FothÃºil
+TrÃ¡cht
+Criptithe
+Roinn roimh
+Roinn i ndiaidh
+FoclÃ³ir
+CRC
+CineÃ¡l
+Frith
+Modh
+Ã“stach an CO
+CÃ³ras na gcomhad
+ÃšsÃ¡ideoir
+Aicme
+Ceap
+NÃ³ta trÃ¡chta
+SuÃ­omh
+RÃ©imÃ­r na conaire
+FillteÃ¡in
+Comhaid
+Leagan
+Imleabhar
+Il-imleabhair
+FrithÃ¡irigh
+Naisc
+Ceapa
+Imleabhair
+
+64 bheart
+Foirceann mÃ³r
+LAP
+MÃ©id aiceanta
+MÃ©id na gceanntÃ¡sc
+Suim seiceÃ¡la
+TrÃ©ithe
+Seoladh fÃ­orÃºil
+ID
+Ainm gearr
+FeidhmchlÃ¡r a chruthaigh Ã­
+MÃ©id na hearnÃ¡la
+Modh
+Nasc
+BotÃºn
+MÃ©id iomlÃ¡n
+SlÃ­ atÃ¡ saor
+MÃ©id na braisle
+LipÃ©ad
+Ainm logÃ¡nta
+SolÃ¡thraÃ­
+2100
+Roghanna
+Teanga
+Teanga:
+EagarthÃ³ir
+&EagarthÃ³ir:
+&Diff:
+2200
+CÃ³ras
+Comhthiomsaigh 7-Zip le:
+2301
+ComhthÃ¡thaigh 7-Zip sa roghchlÃ¡r comhthÃ©acs
+RoghchlÃ¡r comhthÃ©acs ag titim
+Nithe an roghchlÃ¡ir chomhthÃ©acs:
+2320
+<FillteÃ¡n>
+<Comhad>
+Oscail
+Asbhain na comhaid...
+Cuir leis an gcartlann...
+TÃ¡stÃ¡il an chartlann
+Asbhain anseo
+Bain go {0}
+Cuir le {0}
+ComhbhrÃºigh agus seol i rÃ­omphost iad...
+ComhbhrÃºigh go {0} agus seol i rÃ­omhphost iad
+2400
+FillteÃ¡in
+FillteÃ¡n oibre
+FillteÃ¡n sealadach an chÃ³rai&s
+An comhad reatha
+FillteÃ¡n &sonraithe:
+Bain feidhm as do thiomÃ¡ntÃ¡in inaistrithe amhÃ¡in
+Sonraigh suÃ­omh i gcomhair comhaid chartlainne sealadacha.
+2500
+Socruithe
+TaispeÃ¡in an nÃ­ ".."
+TaispeÃ¡in fÃ­ordheilbhÃ­nÃ­ an chomhaid
+TaispeÃ¡in roghchlÃ¡r an chÃ³rais
+Roghnaigh an tsraith ar fad
+TaispeÃ¡in lÃ­nte na greille
+BrÃºigh uair amhÃ¡in chun nÃ­ a oscailt
+Bain feidhm as modh roghnaithe malartach
+Bain feidhm as leathanaigh chuimhne mhÃ³ra
+2900
+Maidir le 7-Zip
+Is saorearra Ã© 7-Zip.
+3000
+NÃ­ fÃ©idir leis an gcÃ³ras an mÃ©id cuimhne atÃ¡ de dhÃ­th a leathdhÃ¡ileadh dÃ³
+NÃ­l aon bhotÃºn ann
+{0} nÃ­/nithe roghnaithe
+NÃ­ fÃ©idir an fillteÃ¡n '{0}' a chruthÃº
+NÃ­ fÃ©idir an chartlann seo a nuashonrÃº.
+NÃ­ fÃ©idir an comhad '{0}' a oscailt mar chartlann
+NÃ­ fÃ©idir an chartlann chriptithe '{0}' a oscailt. An bhfuil an focal faire mÃ­cheart?
+NÃ­ thugtar tacaÃ­ocht don chineÃ¡l comhad seo
+TÃ¡ an comhad {0} ann cheana
+MionathraÃ­odh an comhad '{0}'.\nAr mhaith leat Ã© a nuashonrÃº sa chartlann?
+NÃ­ fÃ©idir an comhad a leanas a nuashonrÃº\n'{0}'
+NÃ­ fÃ©idir an t-eagarthÃ³ir a thosÃº.
+B'fhÃ©idir gur aicÃ­d Ã© an comhad (tÃ¡ bearnaÃ­ mÃ³ra in ainm an chomhaid).
+NÃ­ fÃ©idir an oibrÃ­ocht seo a chur i bhfeidhm Ã³ fhillteÃ¡n a bhfuil conair fhada aige.
+Caithfear comhad amhÃ¡in a roghnÃº
+Caithfear comhad amhÃ¡in nÃ³ nÃ­os mÃ³ a roghnÃº
+An iomarca nithe
+3300
+Asbhaint
+Ag comhbhrÃº
+Ag tÃ¡stÃ¡il
+Ag oscailt...
+Ag taiscÃ©al...
+3400
+Bain
+Bain go:
+Roghnaigh fillteÃ¡n do na comhaid asbhainte.
+3410
+ConairÃ­
+ConairÃ­ iomlÃ¡na
+NÃ­l conair ann
+3420
+Modh forscrÃ­ofa
+Deimhnigh sular forscrÃ­obhtar
+ForscrÃ­obh gan iarraidh
+DÃ©an neamhaird de na comhaid atÃ¡ ann cheana
+Athainmnigh go huathoibrÃ­och
+Athainmnigh na comhaid atÃ¡ ann cheana
+3500
+Deimhnigh ionadÃº comhaid
+TÃ¡ comhad leis an ainm seo sa spriocfhillteÃ¡n cheana fÃ©in.
+Ar mhaith leat an comhad atÃ¡ ann cheana a ionadÃº
+leis an gceann seo?
+{0} bearta
+Athainmnigh go huathoibrÃ­och
+3700
+NÃ­l an bealach comhbhrÃºite bailÃ­ i gcomhair '{0}'.
+BotÃºn sna sonraÃ­ sa chomhad '{0}'. TÃ¡ an comhad briste.
+Theip ar CRC sa chomhad '{0}'. TÃ¡ an comhad briste.
+Sonra mÃ­cheart sa chomhad criptithe '{0}'. Focal faire mÃ­cheart?
+Theip ar CRC sa chomhad chriptithe '{0}'. Focal faire mÃ­cheart?
+3800
+Cuir isteach an focal faire
+Cuir an focal faire isteach:
+Cuir an focal faire isteach arÃ­s:
+&TaispeÃ¡in an focal faire
+NÃ­ hionann an dÃ¡ fhocal faire
+Bain feidhm as litreacha gan sÃ­ntÃ­ fada, uimhreacha agus carachtair shainiÃºla (!, #, $, ...)
+TÃ¡ an focal faire rÃ³fhada
+Focal faire
+3900
+Am caite:
+Am fÃ¡gtha:
+MÃ©id iomlÃ¡n:
+Luas:
+DÃ©anta:
+Luas an chomhbhrÃºite:
+BotÃºin:
+Cartlanna:
+4000
+Cuir leis an gcartlann
+&Cartlann:
+&Modh nuashonraithe:
+&FormÃ¡id na cartlainne:
+MÃ©id comhbhrÃºite:
+Modh comhbhrÃºite:
+&MÃ©id an fhoclÃ³ra:
+MÃ©id na bhfocal:
+MÃ©id an chip fhothÃºla:
+LÃ­on na snÃ¡itheanna LAP:
+&Teorainneacha:
+Roghanna
+Cruthaigh cartlann SF&X
+ComhbhrÃºigh na comhaid a roinneadh
+CriptiÃº
+Modh criptiÃºchÃ¡in:
+Criptigh ainmneacha na gcomhad
+Cuimhne don chomhbhrÃºigh:
+Cuimhne don dhÃ­chomhbhrÃºigh:
+4050
+Taisc
+Is gasta
+Gasta
+GnÃ¡th
+UasmhÃ©id
+FÃ­orghasta
+4060
+Cuir comhaid leis agus ionadaigh
+Nuashonraigh na comhaid agus cuir leo
+Athnuaigh comhaid atÃ¡ ann cheana
+Comhionannaigh na comhaid
+4070
+Siortaigh
+Gach comhad
+NeamhfhothÃºil
+FothÃºil
+6000
+Macasamhlaigh
+Bog
+Macasamhlaigh chuig:
+Bog chuig:
+Ag acasamhlÃº...
+Ag bogadh...
+Ag athainmniÃº...
+Roghnaigh an spriocfhillteÃ¡n.
+NÃ­ fÃ©idir sin a dhÃ©anamh.
+Tharla botÃºn ag athainmniÃº an comhad nÃ³ an fillteÃ¡n
+Deimhnigh macasamhlÃº an chomhaid
+An bhfuil tÃº cinnte gur mian leat na comhaid a mhacasamhlÃº go dtÃ­ an chartlann?
+6100
+Deimhnigh scriosadh an chomhaid
+Deimhnigh scriosadh an chomhaid
+Deimhnigh scriosadh iliomad comhad
+An bhfuil tÃº cinnte gur mian leat '{0}' a scriosadh?
+An bhfuil tÃº cinnte gur mian leat an fillteÃ¡n '{0}' agus gach rud ann a scriosadh?
+An bhfuil tÃº cinnte gur mian leat na {0} nithe seo a scriosadh?
+Ag scriosadh...
+Tharla botÃºn ag scriosadh an comhad nÃ³ an fillteÃ¡n
+NÃ­ thig leis an gcÃ³ras comhad le conair fhada a bhogadh go dtÃ­ an bosca athchÃºrsÃ¡la
+6300
+Cruthaigh comhad
+Cruthaigh comhad
+Ainm an chomhaid:
+Ainm an chomhaid:
+Comhad nua
+Comhad nua
+Tharla botÃºn fad is a bhÃ­ an comhad Ã¡ chruthÃº
+Tharla botÃºn fad is a bhÃ­ an comhad Ã¡ chruthÃº
+6400
+TrÃ¡cht
+&TrÃ¡cht:
+Roghnaigh
+DÃ­roghnaigh
+Folaigh:
+6600
+AirÃ­onna
+Oireas na bhfillteÃ¡n
+TeachtaireachtaÃ­ diagnÃ³iseach
+Teachtaireacht
+7100
+RÃ­omhaire
+LÃ­onra
+CÃ¡ipÃ©isÃ­
+CÃ³ras
+7200
+Cuir leis
+Asbhain
+TÃ¡stÃ¡il
+Macasamhlaigh
+Bog
+Scrios
+FaisnÃ©is
+7300
+Roinn an comhad
+&Roinn chuig:
+Roinn in imleabhair, bearta:
+Ag roinnt...
+Deimhnigh an roinnt
+An bhfuil tÃº cinnte go dteastaÃ­onn uait an comhad a roinnt i {0} imleabhair?
+NÃ­ mÃ³r do mhÃ©id an imleabhair a bheith nÃ­os lÃº nÃ¡ mÃ©id an chomhaid bhunaidh
+TÃ¡ mÃ©id an cholÃºin mÃ­cheart
+MÃ©id an cholÃºin sonraithe: {0} bearta.\nAn bhfuil tÃº cinnte gur mian leat an chartlann a roinnt in imleabhair?
+7400
+Cumaisc comhaid
+&Cumaisc go:
+Ag cumasc...
+NÃ¡ roghnaigh an chÃ©ad chomhad
+NÃ­ fÃ©idir an comhad a bhraith mar chuid de chomhad scoilte
+NÃ­ fÃ©idir nÃ­os mÃ³ nÃ¡ aon chuid amhÃ¡in den chomhad scoilte a aimsiÃº
+7500
+Ag rÃ­omh na suime seiceÃ¡la...
+FaisnÃ©is maidir leis an suim sheiceÃ¡la
+Suim sheiceÃ¡la do shonraÃ­:
+Suim sheiceÃ¡la do shonraÃ­ agus d'ainmneacha
+7600
+TÃ¡stÃ¡il fheidhmÃ­ochta
+GnÃ¡thaÃ­ocht na cuimhne:
+Ag comhbhrÃº
+Ag dÃ­chomhbhrÃº
+MeasÃºnÃº
+MeasÃºnÃº iomlÃ¡n
+Reatha
+Toradh
+GnÃ¡thaÃ­ocht an LAP
+MeasÃºnÃº / GnÃ¡thaÃ­ocht
+BealaÃ­:
