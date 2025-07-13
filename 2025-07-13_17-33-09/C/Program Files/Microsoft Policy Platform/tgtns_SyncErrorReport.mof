@@ -1,0 +1,108 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for synchronization error report.
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof,
+    ConfigPointReport.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+// ***************************************************************************
+// delete the derived classes to allow changes to the base class.  The nofail flag means that
+//  mofcomp will not fail if the class does not exist
+
+#pragma deleteclass("PolicyPlatform_DiscoveryError", nofail)
+#pragma deleteclass("PolicyPlatform_ReificationError", nofail)
+
+// ***************************************************************************
+[
+    Abstract,
+    Description("The encapsulation of error information related to model-state synchronization."),
+    Version("1.0.0")
+]
+class PolicyPlatform_SynchronizationError
+{
+    [
+        Description("Unique Id of the error in the scope of the enactment."),
+        Key
+    ]
+    uint32 Id;
+
+    [
+        Values{"discovery", "reification"} : ToSubClass,
+        ValueMap{"0", "1"} : ToSubClass
+    ]
+    uint32 ErrorType;
+
+    [
+        Description("Error status code."),
+        DisplayInHex,
+        Not_null
+    ]
+    sint32 ErrorCode;
+
+    [
+        Description("Config point Id(s) associated to the error."),
+        Not_null
+    ]
+    uint32 ConfigPointIds[];
+};
+
+
+// ***************************************************************************
+[
+    Description("The identification of rules participating in a conflict."),
+    Version("1.0.0")
+]
+class PolicyPlatform_DiscoveryError : PolicyPlatform_SynchronizationError
+{
+    [
+        Values{"discovery"} : ToSubClass,
+        ValueMap{"0"} : ToSubClass
+    ]
+    uint32 ErrorType = 0;
+
+    [
+        Description("Selector which, when queried for, produced the error."),
+        Not_null
+    ]
+    string Query;
+};
+
+
+// ***************************************************************************
+[
+    Description("The identification of rules participating in a conflict."),
+    Version("1.0.0")
+]
+class PolicyPlatform_ReificationError : PolicyPlatform_SynchronizationError
+{
+    [
+        Values{"reification"} : ToSubClass,
+        ValueMap{"1"} : ToSubClass
+    ]
+    uint32 ErrorType = 1;
+};
+
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    DisplayName ("Synchronization Error Report"),
+    Description("A report containing various errors related to modelspace reference, population and reification.")
+]
+class PolicyPlatform_SynchronizationErrorReport : PolicyPlatform_Report
+{
+    PolicyPlatform_SynchronizationError Errors[];
+};
+
