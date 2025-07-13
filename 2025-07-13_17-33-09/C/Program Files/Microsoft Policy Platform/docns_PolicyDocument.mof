@@ -1,0 +1,476 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for Policy Platform policy class and its component classes.
+    This schema is compatible with the CIM_Policy model, and a CIM_Policy based model can be
+    generated from all policy documents conforming to this schema.
+
+    DEPENDENCIES: SchemaNamespaces.mof, Document.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+
+// =================================================================================================
+//  PolicyPlatform_ProcessorRequestBase
+// =================================================================================================
+[
+    Abstract,
+    Description
+    (
+        "Base class used by a policy processor to request policy and other documents needed for"
+        " enactment."
+    ),
+    DisplayName("PolicyRequestBase"),
+    Version("1.0.0")
+]
+class PolicyPlatform_ProcessorRequestBase : PolicyPlatform_Document
+{
+};
+
+// =================================================================================================
+//  PolicyPlatform_Policy
+// =================================================================================================
+[
+    Description("Policy consisting of rules"),
+    DisplayName("Policy"),
+    Version("1.0.0")
+]
+class PolicyPlatform_Policy : PolicyPlatform_ProcessorRequestBase
+{
+    [
+        Description
+        (
+            "Unique identifier of the rule within the scope of rules for the Exported "
+            "Rule.  If a rule does not exist with this name, the policy is invalid."
+        ),
+        DisplayName("Exported Rule Name")
+    ]
+    string ExportedRuleName;
+
+    [
+        Description("A policy contains a set of rules.  A policy must contain at least one rule."),
+        DisplayName("Rules"),
+        Required
+    ]
+    PolicyPlatform_Rule Rules[];
+};
+
+// =================================================================================================
+//  PolicyPlatform_Rule
+// =================================================================================================
+[
+    Description
+    (
+        "The central class used for representing a policy rule. Rule goal "
+        "is in effect if the ANDed set of conditions are satisfied."\
+    ),
+    DisplayName("Policy Rule"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_Rule
+{
+    [
+        Description("Unique identifier of policy rule within the context of a policy document"),
+        DisplayName("Name"),
+        Key
+    ]
+    string Name;
+
+    [
+        Description
+        (
+            "A policy rule has optional conditions that, if specified, must be "
+            "satisfied for the Goal to be in effect.  The default value for conditions is "
+            "NULL, which denotes that the Goal is unconditionally in effect."
+        ),
+        DisplayName("Conditions")
+    ]
+    PolicyPlatform_Condition Conditions[] = NULL;
+
+    [
+        Description
+        (
+            "A policy rule has a goal that will be enacted if it is determined to "
+            "be in effect based on evaluation of the rule's conditions."
+        ),
+        DisplayName("Goal"),
+        Required
+    ]
+    PolicyPlatform_Goal Goal;
+};
+
+// =================================================================================================
+//  PolicyPlatform_Condition
+// =================================================================================================
+[
+    Abstract,
+    Description
+    (
+        "Condition which can make the goal not in effect based on its evaluation result "
+        "and value of the Negate property"
+    ),
+    DisplayName("Rule Condition"),
+    Version("1.0.0")
+]
+class PolicyPlatform_Condition
+{
+    [
+        Description("Negate value TRUE will negate the evaluation result of the condition."),
+        DisplayName("Negate")
+    ]
+    boolean Negate = FALSE;
+};
+
+// =================================================================================================
+//  PolicyPlatform_RuleReference
+// =================================================================================================
+[
+    Description
+    (
+        "Condition whose result is dependent on the evaluation of a rule inside the "
+        "current policy document."
+    ),
+    DisplayName("Rule Reference"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_RuleReference : PolicyPlatform_Condition
+{
+    [
+        Description
+        (
+            "Policy rule within the current policy document that is referenced by this "
+            "condition."
+        ),
+        DisplayName("Rule Name"),
+        Required
+    ]
+    string RuleName;
+};
+
+// =================================================================================================
+//  PolicyPlatform_PolicyReference
+// =================================================================================================
+[
+    Description("Condition whose result is dependent on the evaluation of a policy document."),
+    DisplayName("Policy Document Reference"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_PolicyReference : PolicyPlatform_Condition
+{
+    [
+        Description("Authority of the referenced policy document"),
+        DisplayName("Policy Authority"),
+        Required
+    ]
+    string Authority;
+
+    [
+        Description("Name of the referenced policy document"),
+        DisplayName("Policy Name"),
+        Required
+    ]
+    string PolicyName;
+};
+
+// =================================================================================================
+//  PolicyPlatform_Optimization
+// =================================================================================================
+[
+    Abstract,
+    Description
+    (
+        "Abstract class representing an optimization constraint"
+    ),
+    DisplayName("Optimization"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_Optimization
+{
+};
+
+// =================================================================================================
+//  PolicyPlatform_GeneralOptimization
+// =================================================================================================
+[
+    Description
+    (
+        "An optimization constraint aiming for minimization of the provided expression"
+    ),
+    DisplayName("General Optimization"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_GeneralOptimization : PolicyPlatform_Optimization
+{
+    [
+        Description("The minimization goal/constraint"),
+        DisplayName("Minimization Expression"),
+        Required
+    ]
+    string Expression;
+};
+
+// =================================================================================================
+//  PolicyPlatform_BaselineOptimization
+// =================================================================================================
+[
+    Description
+    (
+        "An optimization constraint aiming for minimum difference from a baseline"
+    ),
+    DisplayName("Baseline Optimization"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_BaselineOptimization : PolicyPlatform_Optimization
+{
+    [
+        Description("Name of the variable being optimized towards the value of baseline variable"),
+        DisplayName("Target Variable name"),
+        Required
+    ]
+    string TargetVariableName;
+    
+    [
+        Description("Name of the baseline variable"),
+        DisplayName("Baseline Variable name"),
+        Required
+    ]
+    string BaselineVariableName;
+};
+
+// =================================================================================================
+//  PolicyPlatform_MinimalChangeOptimization
+// =================================================================================================
+[
+    Description
+    (
+        "An optimization constraint aiming for minimum difference from the discovered value of a variable"
+    ),
+    DisplayName("Minimal Change Optimization"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_MinimalChangeOptimization : PolicyPlatform_Optimization
+{
+    [
+        Description("Name of the variable being optimized towards its discovered value"),
+        DisplayName("Target Variable name"),
+        Required
+    ]
+    string TargetVariableName;
+};
+
+// =================================================================================================
+//  PolicyPlatform_Goal
+// =================================================================================================
+[
+    Abstract,
+    Description
+    (
+        "Abstract class representing a goal that depends upon satisfaction of its condition"
+    ),
+    DisplayName("Rule Goal"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_Goal
+{
+};
+
+// =================================================================================================
+//  PolicyPlatform_DesiredStateGoal
+// =================================================================================================
+[
+    Description("A desired state goal that depends upon satisfaction of its condition"),
+    DisplayName("Desired State Goal"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_DesiredStateGoal : PolicyPlatform_Goal
+{
+    [
+        Description("Expression of the rule goal that evaluates to Boolean value"),
+        DisplayName("Invariant Expression"),
+        Required
+    ]
+    string Invariant;
+
+    [
+        Description("Set of contexts(in instance space) within which declared variables exist"),
+        DisplayName("Set of contexts")
+    ]
+    PolicyPlatform_Context Contexts[] = NULL;
+
+    [
+        Description("Optional expression(s) as a soft constraint for variable optimization"),
+        DisplayName("Ordered Optimization Expression(s)"),
+        ArrayType("Indexed")
+    ]
+    PolicyPlatform_Optimization Optimizations[] = NULL;
+
+    [
+        Description("Variable used in the PolicyGoal invariant expression."),
+        DisplayName("Variables")
+    ]
+    PolicyPlatform_Variable Variables[] = NULL;
+};
+
+// =================================================================================================
+//  PolicyPlatform_InventoryGoal
+// =================================================================================================
+[
+    Description("Inventory goal"),
+    DisplayName("Inventory goal"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_InventoryGoal : PolicyPlatform_Goal
+{
+    [
+        Description("Selector to select matching instances. Format of selector is OCL."),
+        DisplayName("InstanceSelector") ,
+        Required
+    ]
+    string InstanceSelector;
+
+    [
+        Description
+        (
+			// NOTE: description is wrong ... PropertySelectors *cannot* be NULL
+            "Properties to inventory under the instances selected by "
+            "InstanceSelector. NULL value will inventory all properties"
+        ),
+        DisplayName("PropertySelectors")
+    ]
+    string PropertySelectors[] = NULL;
+};
+
+// =================================================================================================
+//  PolicyPlatform_Variable
+// =================================================================================================
+[
+    Description("Base class for variable used in invariant"),
+    DisplayName("Variable"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_Variable
+{
+    [
+        Description("Name of the variable"),
+        DisplayName("Name"),
+        Key
+    ]
+    string Name;
+};
+
+// =================================================================================================
+//  PolicyPlatform_LiteralInstanceVariable
+// =================================================================================================
+[
+    Description("Binds a name to a literal class instance as specified by the ClassInstance property"),
+    DisplayName("Literal Instance Variable"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_LiteralInstanceVariable : PolicyPlatform_Variable
+{
+    [
+        Description("Declarative expression(in OCL) of a class instance"),
+        DisplayName("Class Instance"),
+        Required
+    ]
+    string ClassInstance;
+};
+
+// =================================================================================================
+//  PolicyPlatform_ConfigPointVariable
+// =================================================================================================
+[
+    Description
+    (
+        "Resolves to a configuration point under the Context specified in the desired state goal"
+    ),
+    DisplayName("Config Point Variable"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_ConfigPointVariable : PolicyPlatform_Variable
+{
+    [
+        Description
+        (
+            "Context within which this variable exists. Default is NULL which means "
+            "implicit root context"
+        ),
+        DisplayName("Context")
+    ]
+    string ContextName = NULL;
+
+    [
+        Description
+        (
+            "Selector which selects a configuration point under the Context identified by ContextName"
+        ),
+        DisplayName("Selector"),
+        Required
+    ]
+    string Selector;
+
+    [
+        Description("Specifies mutability of the variable. Default is false."),
+        DisplayName("Changeable")
+    ]
+    boolean Changeable = false;
+};
+
+// =================================================================================================
+//  PolicyPlatform_Context
+// =================================================================================================
+[
+    Description("The context for the variables declared in desired state goal"),
+    DisplayName("Variable Context"),
+    EmbeddedOnly(TRUE),
+    Version("1.0.0")
+]
+class PolicyPlatform_Context
+{
+    [
+        Description("Name of the context"),
+        DisplayName("Unique identifier of the context within the scope of a desired state goal"),
+        Key
+    ]
+    string Name;
+
+    [
+        Description("Selector to select matching instances. Format of selector is OCL."),
+        DisplayName("Selector"),
+        Required
+    ]
+    string Selector;
+
+    [
+        Description
+        (
+            "Specifies whether the invariant is true for all instances matched by the Selector "
+            "or for some instances matched by the Selector. Default is existential."
+        ),
+        DisplayName("Quantifier"),
+        ValueMap { 0, 1 },
+        Values {"existential", "universal"}
+    ]
+    uint8 Quantifier = 0;
+};
