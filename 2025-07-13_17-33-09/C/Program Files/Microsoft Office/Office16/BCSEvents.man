@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instrumentationManifest xsi:schemaLocation="http://schemas.microsoft.com/win/2004/08/events eventman.xsd" xmlns="http://schemas.microsoft.com/win/2004/08/events" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:trace="http://schemas.microsoft.com/win/2004/08/events/trace">
+
+  <instrumentation>
+        <events>
+            <provider name="Microsoft-Office-Business Connectivity Services" guid="{b8622a02-c377-46b1-b861-38a787a8e44a}" symbol="Logging" messageFileName="C:\Program Files\Microsoft Office\Office16\BCSClient.Msg.dll" resourceFileName="C:\Program Files\Microsoft Office\Office16\BCSClient.Msg.dll">
+
+                <channels>
+                    <importChannel chid="LOBiApplicationChannel" name="Application"/>
+                    <channel chid="LOBiDebugChannel" name="DebugChannel" type="Debug" enabled="true"/>
+                </channels>
+              <!-- Tasks
+                     MSDN: http://msdn2.microsoft.com/en-us/library/aa384169.aspx
+              -->
+              <tasks>
+                <task name="msoulscat_LOBi_Administration" symbol="MSOULSCAT_LOBI_ADMINISTRATION" value="8" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_ADMINISTRATION.message)" eventGUID="{434f4cc9-f398-40c9-b9fd-fb5b826ab29a}"/>
+                <task name="msoulscat_SPS_BusinessData" symbol="msoulscat_SPS_BusinessData" value="9" message="$(string.LOBiEvents.task.msoulscat_SPS_BusinessData.message)" eventGUID="{a80193c1-153f-47b1-ad85-abab1e20cd88}"/>
+                <task name="msoulscat_LOBi_Deployment" symbol="MSOULSCAT_LOBI_DEPLOYMENT" value="10" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_DEPLOYMENT.message)" eventGUID="{9f18b628-ee25-488a-b8d8-7de6b7cc204c}"/>
+                <task name="msoulscat_LOBi_Designers" symbol="MSOULSCAT_LOBI_DESIGNERS" value="11" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_DESIGNERS.message)" eventGUID="{845919c5-c7ef-49ab-a7c3-409070ada080}"/>
+                <task name="msoulscat_LOBi_Runtime" symbol="MSOULSCAT_LOBI_RUNTIME" value="12" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_RUNTIME.message)" eventGUID="{7adf247b-18ca-497c-924e-10bb23352880}"/>
+                <task name="msoulscat_LOBi_SingleSignon" symbol="MSOULSCAT_LOBI_SINGLESIGNON" value="13" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_SINGLESIGNON.message)"/>
+                <task name="msoulscat_LOBi_XSync" symbol="MSOULSCAT_LOBI_XSYNC" value="14" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_XSYNC.message)" eventGUID="{51f9c49b-e50e-4903-b6f7-7781cc24581c}"/>
+                <task name="msoulscat_LOBi_WrappedPST" symbol="MSOULSCAT_LOBI_WRAPPEDPST" value="15" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_WRAPPEDPST.message)" eventGUID="{51f9c49b-e50e-4903-b6f7-7781cc24581d}"/>
+                <task name="msoulscat_SPS_SecureStoreService" symbol="MSOULSCAT_SPS_SECURESTORESERVICE" value="62" message="$(string.LOBiEvents.task.MSOULSCAT_SPS_SECURESTORESERVICE.message)"/>
+              </tasks>
+              <keywords>
+                <keyword mask="0x0001" name="Generic" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_ADMINISTRATION.message)"/>
+                <keyword mask="0x0002" name="Runtime" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_RUNTIME.message)"/>
+                <keyword mask="0x0004" name="BusinessData" message="$(string.LOBiEvents.task.msoulscat_SPS_BusinessData.message)"/>
+                <keyword mask="0x0008" name="CrossSync" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_XSYNC.message)"/>
+                <keyword mask="0x0010" name="Deployment" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_DEPLOYMENT.message)"/>
+                <keyword mask="0x0020" name="Designers" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_DESIGNERS.message)"/>
+                <keyword mask="0x0040" name="WrappedPST" message="$(string.LOBiEvents.task.MSOULSCAT_LOBI_WRAPPEDPST.message)"/>
+              </keywords>
+              <!-- Events
+					MSDN: http://msdn2.microsoft.com/en-us/library/aa382754.aspx
+				-->
+              <events>
+                <event value="10" symbol="GenericVerbose" template="TraceGenericMessage" version="14" level="win:Verbose" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Administration" keywords="Generic"/>
+                <event value="11" symbol="GenericInformational" template="TraceGenericMessage" version="14" level="win:Informational" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Administration" keywords="Generic"/>
+                <event value="12" symbol="GenericWarning" template="TraceGenericMessage" version="14" level="win:Warning" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Administration" keywords="Generic"/>
+                <event value="13" symbol="GenericError" template="TraceGenericMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Administration" keywords="Generic"/>
+                <event value="14" symbol="GenericCritical" template="TraceGenericMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Administration" keywords="Generic"/>
+                <event value="15" symbol="RuntimeVerbose" template="TraceRuntimeMessage" version="14" level="win:Verbose" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="16" symbol="RuntimeInformational" template="TraceRuntimeMessage" version="14" level="win:Informational" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="17" symbol="RuntimeWarning" template="TraceRuntimeMessage" version="14" level="win:Warning" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="18" symbol="RuntimeError" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="19" symbol="RuntimeCritical" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" task="msoulscat_LOBi_Runtime" message="$(string.Verbatim.message)" keywords="Runtime"/>
+                <event value="20" symbol="BusinessDataVerbose" template="TraceBusinessDataMessage" version="14" level="win:Verbose" message="$(string.Verbatim.message)" channel="LOBiDebugChannel" task="msoulscat_SPS_BusinessData" keywords="BusinessData"/>
+                <event value="21" symbol="BusinessDataInformational" template="TraceBusinessDataMessage" version="14" level="win:Informational" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_SPS_BusinessData" keywords="BusinessData"/>
+                <event value="22" symbol="BusinessDataWarning" template="TraceBusinessDataMessage" version="14" level="win:Warning" message="$(string.Verbatim.message)" channel="LOBiDebugChannel" task="msoulscat_SPS_BusinessData" keywords="BusinessData"/>
+                <event value="23" symbol="BusinessDataError" template="TraceBusinessDataMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_SPS_BusinessData" keywords="BusinessData"/>
+                <event value="24" symbol="BusinessDataCritical" template="TraceBusinessDataMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_SPS_BusinessData" keywords="BusinessData"/>
+                <event value="25" symbol="CrossSyncVerbose" template="TraceCrossSyncMessage" version="14" level="win:Verbose" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_XSync" keywords="CrossSync"/>
+                <event value="26" symbol="CrossSyncInformational" template="TraceCrossSyncMessage" version="14" level="win:Informational" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_XSync" keywords="CrossSync"/>
+                <event value="27" symbol="CrossSyncWarning" template="TraceCrossSyncMessage" version="14" level="win:Warning" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_XSync" keywords="CrossSync"/>
+                <event value="28" symbol="CrossSyncError" template="TraceCrossSyncMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_XSync" keywords="CrossSync"/>
+                <event value="29" symbol="CrossSyncCritical" template="TraceCrossSyncMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_XSync" keywords="CrossSync"/>
+                <event value="30" symbol="DeploymentVerbose" template="TraceDeploymentMessage" version="14" channel="LOBiDebugChannel" level="win:Verbose" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="31" symbol="DeploymentInformational" template="TraceDeploymentMessage" version="14" channel="LOBiDebugChannel" level="win:Informational" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="32" symbol="DeploymentWarning" template="TraceDeploymentMessage" version="14" level="win:Warning" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="33" symbol="DeploymentError" template="TraceDeploymentMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="34" symbol="DeploymentCritical" template="TraceDeploymentMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="35" symbol="DesignersVerbose" template="TraceDesignersMessage" version="14" level="win:Verbose" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Designers" keywords="Designers"/>
+                <event value="36" symbol="DesignersInformational" template="TraceDesignersMessage" version="14" level="win:Informational" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Designers" keywords="Designers"/>
+                <event value="37" symbol="DesignersWarning" template="TraceDesignersMessage" version="14" level="win:Warning" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Designers" keywords="Designers"/>
+                <event value="38" symbol="DesignersError" template="TraceDesignersMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Designers" keywords="Designers"/>
+                <event value="39" symbol="DesignersCritical" template="TraceDesignersMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_Designers" keywords="Designers"/>
+                <event value="40" symbol="WrappedPSTVerbose" template="TraceGenericMessage" version="14" level="win:Verbose" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="41" symbol="WrappedPSTInformational" template="TraceGenericMessage" version="14" level="win:Informational" channel="LOBiDebugChannel" message="$(string.Verbatim.message)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="42" symbol="WrappedPSTWarning" template="TraceWrappedPSTMessage" version="14" level="win:Warning" channel="LOBiDebugChannel" message="$(string.WrappedPSTError.message)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="43" symbol="WrappedPSTError" template="TraceWrappedPSTMessage" version="14" level="win:Error" channel="LOBiDebugChannel" message="$(string.WrappedPSTError.message)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="44" symbol="WrappedPSTCritical" template="TraceWrappedPSTMessage" version="14" level="win:Critical" channel="LOBiDebugChannel" message="$(string.WrappedPSTError.message)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="45" symbol="DatabaseVersionMismatch" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message1)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="1001" symbol="BCSSyncStarted" template="TraceRuntimeMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.Verbatim.message2)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="1002" symbol="BCSSyncStopped" template="TraceRuntimeMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.Verbatim.message3)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="1010" symbol="BCSServiceStarted" template="TraceRuntimeMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.Verbatim.message4)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="1011" symbol="BCSServiceStopped" template="TraceRuntimeMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.Verbatim.message5)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <!--Do we need different messages for different services-->
+                <event value="2010" symbol="SolutionDownloadStarted" template="TraceDeploymentStartedMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentStarted.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2011" symbol="SolutionDownloadStopped" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2012" symbol="SolutionDownloadFailed" template="TraceDeploymentFailedMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.DeploymentFailed.message)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2020" symbol="ActivationStarted" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message2)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2021" symbol="ActivationStopped" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message3)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2022" symbol="ActivationFailed" template="TraceDeploymentFailedMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.DeploymentFailed.message2)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2030" symbol="CheckUpdates" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message4)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2031" symbol="UpdatesCheckedNoUpdateFound" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message5)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2032" symbol="UpdatesCheckedNewUpdateFound" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message6)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2033" symbol="UninstallStarted" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message7)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2034" symbol="UninstallStopped" template="TraceDeploymentNormalMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message8)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="2035" symbol="ActivationWarning" template="TraceDeploymentNormalMessage" version="14" level="win:Warning" channel="LOBiApplicationChannel" message="$(string.DeploymentNormal.message9)" task="msoulscat_LOBi_Deployment" keywords="Deployment"/>
+                <event value="3001" symbol="NoSyncDueToOffline" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message6)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3002" symbol="SyncFailureExpiredCredentials" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message7)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3010" symbol="SyncCreateFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message8)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3011" symbol="SyncUpdateFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message9)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3012" symbol="SyncDeleteFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message10)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3013" symbol="SyncReadFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message11)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3014" symbol="SyncAssociateFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message12)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3015" symbol="SyncDisassociateFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message13)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3080" symbol="CacheRepairFailed" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message14)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3081" symbol="CacheEncryptionFailed" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message15)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="3082" symbol="CacheUpgradeFailed" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message37)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>                
+                <event value="5001" symbol="SolutionRegistrationStarted" template="TraceCrossSyncMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.Verbatim.message16)" task="msoulscat_LOBi_XSync" keywords="Runtime"/>
+                <event value="5002" symbol="SolutionRegistrationSucceeded" template="TraceCrossSyncMessage" version="14" level="win:Informational" channel="LOBiApplicationChannel" message="$(string.Verbatim.message17)" task="msoulscat_LOBi_XSync" keywords="Runtime"/>
+                <event value="5003" symbol="SolutionRegistrationFailed" template="TraceCrossSyncMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message18)" task="msoulscat_LOBi_XSync" keywords="Runtime"/>
+                <event value="5004" symbol="ErrorCacheToPSTSync" template="TraceCrossSyncMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message19)" task="msoulscat_LOBi_XSync" keywords="Runtime"/>
+                <event value="5005" symbol="FolderSyncBlocked" template="TraceCrossSyncMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message20)" task="msoulscat_LOBi_XSync" keywords="Runtime"/>
+                <event value="4001" symbol="FolderCreationError" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message21)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="4002" symbol="PSTCreationError" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message22)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="4003" symbol="CreateItemError" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message23)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="4004" symbol="UpdateItemError" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message24)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="4005" symbol="DeleteItemError" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message25)" task="msoulscat_LOBi_WrappedPST" keywords="WrappedPST"/>
+                <event value="6001" symbol="InfoPathAutogenFailure" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message26)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6002" symbol="InfoPathLoadFormFailure" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message27)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6003" symbol="GrooveFailedToLoadSolutionFailure" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message28)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6004" symbol="ActionExecutionFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message29)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6005" symbol="CustomRibbonFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message30)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6006" symbol="RuntimeFolderCriticalFailure" template="TraceRuntimeMessage" version="14" level="win:Critical" channel="LOBiApplicationChannel" message="$(string.Verbatim.message31)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6007" symbol="RuntimeFolderFailure" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message32)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6008" symbol="RuntimeSolutionManifestInvalid" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message33)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6009" symbol="RuntimeRegistrationFailed" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message34)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6010" symbol="RuntimeSolutionUninstallFailed" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message35)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event value="6011" symbol="LoadSolutionManifestFailed" template="TraceRuntimeMessage" version="14" level="win:Error" channel="LOBiApplicationChannel" message="$(string.Verbatim.message36)" task="msoulscat_LOBi_Runtime" keywords="Runtime"/>
+                <event symbol="BdcMetadataException" value="8079" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSss" message="$(string.LOBiEvents.event.BdcMetadataException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcDatabaseAdapterConnectionException" value="8080" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSsss" message="$(string.LOBiEvents.event.BdcDatabaseAdapterConnectionException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcDatabaseAdapterExecutionException" value="8081" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSssss" message="$(string.LOBiEvents.event.BdcDatabaseAdapterExecutionException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcWebServiceProxyGenerationException" value="8082" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSssss" message="$(string.LOBiEvents.event.BdcWebServiceProxyGenerationException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcWebServiceAdapterExecutionException" value="8083" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSsssss" message="$(string.LOBiEvents.event.BdcWebServiceAdapterExecutionException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcWebServiceAdapterWebException" value="8084" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSsssss" message="$(string.LOBiEvents.event.BdcWebServiceAdapterWebException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcServiceApplicationProxyUnexpectedException" value="8085" version="14" channel="LOBiApplicationChannel" level="win:Error" template="LOBiULSss" message="$(string.LOBiEvents.event.BdcServiceApplicationProxyUnexpectedException.message)" task="msoulscat_SPS_BusinessData"/>
+                <event symbol="BdcServiceSqlException" value="8086" version="14" channel="LOBiApplicationChannel" level="win:Critical" template="LOBiULSss" message="$(string.LOBiEvents.event.BdcServiceSqlException.message)" task="msoulscat_SPS_BusinessData"/>
+              </events>
+              <!-- Templates
+					MSDN: http://msdn2.microsoft.com/en-us/library/aa384192(VS.85).aspx
+				-->
+              <templates>
+                <template tid="TraceGenericMessage">
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceRuntimeMessage">
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceBusinessDataMessage">
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceCrossSyncMessage">
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceDeploymentMessage">
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceDesignersMessage">
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceDeploymentStartedMessage">
+                  <data name="DeploymentFrom" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceDeploymentNormalMessage">
+                  <data name="DeploymentFrom" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionName" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionId" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionVersion" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceDeploymentFailedMessage">
+                  <data name="DeploymentFrom" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionName" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionId" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionVersion" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionInstallStage" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="SolutionInstallError" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="TraceWrappedPSTMessage">
+                  <data name="Component" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="ErrCode" inType="win:UInt32" outType="xs:unsignedInt"/>
+                  <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="LOBiULSss">
+                  <data name="string0" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string1" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="LOBiULSsss">
+                  <data name="string0" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string1" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string2" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="LOBiULSssss">
+                  <data name="string0" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string1" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string2" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string3" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+                <template tid="LOBiULSsssss">
+                  <data name="string0" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string1" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string2" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string3" inType="win:UnicodeString" outType="xs:string"/>
+                  <data name="string4" inType="win:UnicodeString" outType="xs:string"/>
+                </template>
+              </templates>
+
+            </provider>
+        </events>
+		
+	</instrumentation>
+	<localization>
+		<resources culture="en-US">
+			<stringTable>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_ADMINISTRATION.message" value="Administration"/>
+                <string id="LOBiEvents.task.msoulscat_SPS_BusinessData.message" value="Business Data"/>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_DEPLOYMENT.message" value="Deployment"/>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_DESIGNERS.message" value="Designers"/>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_RUNTIME.message" value="Runtime"/>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_SINGLESIGNON.message" value="Single Signon"/>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_XSYNC.message" value="Cross Sync"/>
+                <string id="LOBiEvents.task.MSOULSCAT_LOBI_WRAPPEDPST.message" value="Wrapped PST"/>
+                <string id="Verbatim.message" value="%1"/>
+                <string id="Verbatim.message1" value="%1"/>
+                <string id="Verbatim.message2" value="%1"/>
+                <string id="Verbatim.message3" value="%1"/>
+                <string id="Verbatim.message4" value="%1"/>
+                <string id="Verbatim.message5" value="%1"/>
+                <string id="Verbatim.message6" value="%1"/>
+                <string id="Verbatim.message7" value="%1"/>
+                <string id="Verbatim.message8" value="%1"/>
+                <string id="Verbatim.message9" value="%1"/>
+                <string id="Verbatim.message10" value="%1"/>
+                <string id="Verbatim.message11" value="%1"/>
+                <string id="Verbatim.message12" value="%1"/>
+                <string id="Verbatim.message13" value="%1"/>
+                <string id="Verbatim.message14" value="%1"/>
+                <string id="Verbatim.message15" value="%1"/>
+                <string id="Verbatim.message16" value="%1"/>
+                <string id="Verbatim.message17" value="%1"/>
+                <string id="Verbatim.message18" value="%1"/>
+                <string id="Verbatim.message19" value="%1"/>
+                <string id="Verbatim.message20" value="%1"/>
+                <string id="Verbatim.message21" value="%1"/>
+                <string id="Verbatim.message22" value="%1"/>
+                <string id="Verbatim.message23" value="%1"/>
+                <string id="Verbatim.message24" value="%1"/>
+                <string id="Verbatim.message25" value="%1"/>
+                <string id="Verbatim.message26" value="%1"/>
+                <string id="Verbatim.message27" value="%1"/>
+                <string id="Verbatim.message28" value="%1"/>
+                <string id="Verbatim.message29" value="%1"/>
+                <string id="Verbatim.message30" value="%1"/>
+                <string id="Verbatim.message31" value="%1"/>
+                <string id="Verbatim.message32" value="%1"/>
+                <string id="Verbatim.message33" value="%1"/>
+                <string id="Verbatim.message34" value="%1"/>
+                <string id="Verbatim.message35" value="%1"/>
+                <string id="Verbatim.message36" value="%1"/>
+                <string id="Verbatim.message37" value="%1"/>
+                <string id="WrappedPSTError.message" value="Component:%1 Error:%2 Message:%3"/>
+                <string id="DeploymentStarted.message" value="Deployment Url:%1 Message:%2"/>
+                <string id="DeploymentNormal.message" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message2" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message3" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message4" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message5" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message6" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message7" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message8" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentNormal.message9" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Message:%5"/>
+                <string id="DeploymentFailed.message" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Solution Install Stage:%5 Solution Install Error:%6 Message:%7"/>
+                <string id="DeploymentFailed.message2" value="Deployment Url:%1 Solution Name:%2 Solution Id:%3 Solution Version:%4 Solution Install Stage:%5 Solution Install Error:%6 Message:%7"/>
+                <string id="VersionMismatch.message" value="Database version is not the same as what the framework expects. Please regenerate the database.Expected Version : %1 Current Version : %2"/>
+                <string id="LOBiEvents.event.BdcDatabaseAdapterConnectionException.message" value="Could not open connection using '%1' in App Domain '%2'. The full exception text is: %3"/>
+                <string id="LOBiEvents.event.BdcDatabaseAdapterExecutionException.message" value="Could not run query/stored proceedure '%1' using '%2' in App Domain '%3'. The full exception text is: %4"/>
+                <string id="LOBiEvents.event.BdcWebServiceProxyGenerationException.message" value="Could not obtain a proxy to WebService for LobSystem '%1' in App Domain '%2'. The full exception text is: %3. The inner exception text is: %4."/>
+                <string id="LOBiEvents.event.BdcWebServiceAdapterExecutionException.message" value="Could not execute WebMethod %1 on WebService at %2 in App Domain '%3'. The full exception text is: %4. The inner exception text is: %5."/>
+                <string id="LOBiEvents.event.BdcWebServiceAdapterWebException.message" value="Could not execute WebMethod %1 on WebService at %2 in App Domain '%3' because of a Web error. The full exception text is: %4. The inner exception text is: %5."/>
+                <string id="LOBiEvents.event.BdcServiceApplicationProxyUnexpectedException.message" value=" The BDC Service application %1 is not accessible. The full exception text is: %2"/>
+                <string id="LOBiEvents.event.BdcMetadataException.message" value="A Metadata Exception was constructed in App Domain '%1'. The full exception text is: %2"/>
+                <string id="LOBiEvents.event.BdcServiceSqlException.message" value="The BDC Service application failed due to a SQL Exception: SQLServer host %1. The error returned was: '%2'"/>
+                <string id="LOBiEvents.task.MSOULSCAT_SPS_SECURESTORESERVICE.message" value="Secure Store Service"/>
+      </stringTable>
+		</resources>
+	</localization>
+</instrumentationManifest>
