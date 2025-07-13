@@ -1,0 +1,74 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definitions for post-remediation action classes
+
+    DEPENDENCIES: PolicyProcessorNamespace.mof
+
+******************************************************************************/
+
+#pragma autorecover
+#pragma classflags("forceupdate")
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\Root\\Microsoft\\PolicyPlatform\\Processor") 
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Post-remediation action base class
+
+[ 
+    Abstract, 
+    Description("Base class for post-remediation actions"),
+    Version("1.0.0")
+]
+class PolicyPlatform_PostRemediationAction
+{
+};
+
+//////////////////////////////////////////////////////////////////////////////
+// WMI method post-remediation action class
+
+[
+    Description
+    (
+        "WMI method invocation post-remedation action class. State providers that require "
+        "domain-specific actions to be performed (such as restarting an NT service) after "
+        "an enactment for the configuration changes to take effect may pass an instance of "
+        "this class to Microsoft Policy Platform. The instance is passed through the "
+        "IWbemObjectSink::SetStatus method."
+    ),
+    Version("1.0.0")
+]
+class PolicyPlatform_WMIMethodAction : PolicyPlatform_PostRemediationAction
+{
+    [
+        Key,
+        Description
+        (
+            "The namespace of the class or object containing the method to call. The "
+            "namespace can only point at the local machine. "
+        )
+    ]
+    string Namespace;
+
+    [
+        Key,
+        Description
+        (
+            "The object path containing the method to call. To call a static method "
+            "it is sufficient to specify the class name. The object path must be "
+			"relative to the namespace specified in nameSpace property."
+        )
+    ]
+    string ObjectPath;
+
+    [
+        Key,
+        Description("The method to call")
+    ]
+    string Method;
+};
+
