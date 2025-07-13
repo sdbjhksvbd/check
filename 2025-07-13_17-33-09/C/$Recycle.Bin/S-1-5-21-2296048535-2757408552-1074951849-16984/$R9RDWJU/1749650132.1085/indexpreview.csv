@@ -1,0 +1,9 @@
+key,value,"__mv_key","__mv_value"
+"__source","C:\Program Files\Splunk\var\run\splunk\dispatch\1749650132.1085\Crimes_-_2001_to_Present3.csv",,
+"__autoSourcetype",csv,,
+"__autoCharset",AUTO,,
+"__isEofReal",1,,
+"DATETIME_CONFIG","",,
+"LINE_BREAKER","([\r\n]+)",,
+"NO_BINARY_CHECK",1,,
+"SHOULD_LINEMERGE",1,,
