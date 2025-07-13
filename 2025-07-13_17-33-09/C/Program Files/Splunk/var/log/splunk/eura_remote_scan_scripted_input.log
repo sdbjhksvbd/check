@@ -1,0 +1,544 @@
+4.3.0 2025-06-30 12:09:10,803 ERROR 31472 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-06-30 12:09:10,806 INFO 31472 - Skipping to call pipe rest command.
+4.3.0 2025-06-30 16:07:42,516 ERROR 26512 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-06-30 16:07:42,517 INFO 26512 - Skipping to call pipe rest command.
+4.3.0 2025-06-30 20:29:13,946 ERROR 38764 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-06-30 20:29:13,948 INFO 38764 - Skipping to call pipe rest command.
+4.3.0 2025-07-01 00:21:50,231 ERROR 43696 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 00:21:50,234 INFO 43696 - Skipping to call pipe rest command.
+4.3.0 2025-07-01 04:27:17,205 ERROR 35112 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 04:27:17,208 INFO 35112 - Skipping to call pipe rest command.
+4.3.0 2025-07-01 08:25:15,493 ERROR 37428 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 08:25:15,494 INFO 37428 - Skipping to call pipe rest command.
+4.3.0 2025-07-01 12:25:01,314 ERROR 59256 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 12:25:01,315 INFO 59256 - Skipping to call pipe rest command.
+4.3.0 2025-07-01 16:29:40,429 ERROR 65784 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 16:29:40,431 INFO 65784 - Skipping to call pipe rest command.
+4.3.0 2025-07-01 20:29:38,639 ERROR 69264 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-01 20:29:38,641 INFO 69264 - Skipping to call pipe rest command.
+4.3.0 2025-07-02 00:22:57,601 ERROR 65768 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 00:22:57,605 INFO 65768 - Skipping to call pipe rest command.
+4.3.0 2025-07-02 04:39:11,250 ERROR 52780 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 04:39:11,252 INFO 52780 - Skipping to call pipe rest command.
+4.3.0 2025-07-02 08:35:04,997 ERROR 58036 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 08:35:04,999 INFO 58036 - Skipping to call pipe rest command.
+4.3.0 2025-07-02 12:13:44,111 ERROR 66668 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 12:13:44,113 INFO 66668 - Skipping to call pipe rest command.
+4.3.0 2025-07-02 16:16:06,852 ERROR 46276 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 16:16:06,852 INFO 46276 - Skipping to call pipe rest command.
+4.3.0 2025-07-02 20:18:58,370 ERROR 89388 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 20:18:58,374 INFO 89388 - Skipping to call pipe rest command.
+4.3.0 2025-07-03 00:35:13,942 ERROR 100724 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 00:35:13,942 INFO 100724 - Skipping to call pipe rest command.
+4.3.0 2025-07-03 04:34:26,622 ERROR 95144 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 04:34:26,622 INFO 95144 - Skipping to call pipe rest command.
+4.3.0 2025-07-03 08:12:21,109 ERROR 91940 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 08:12:21,113 INFO 91940 - Skipping to call pipe rest command.
+4.3.0 2025-07-03 12:12:32,094 ERROR 95936 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 12:12:32,096 INFO 95936 - Skipping to call pipe rest command.
+4.3.0 2025-07-03 16:27:16,278 ERROR 106352 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 16:27:16,281 INFO 106352 - Skipping to call pipe rest command.
+4.3.0 2025-07-03 20:19:56,334 ERROR 107316 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 20:19:56,336 INFO 107316 - Skipping to call pipe rest command.
+4.3.0 2025-07-06 15:28:35,122 ERROR 63904 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-06 15:28:35,127 INFO 63904 - Skipping to call pipe rest command.
+4.3.0 2025-07-06 16:01:03,436 ERROR 82820 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-06 16:01:03,437 INFO 82820 - Skipping to call pipe rest command.
+4.3.0 2025-07-06 20:11:24,536 ERROR 121360 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-06 20:11:24,536 INFO 121360 - Skipping to call pipe rest command.
+4.3.0 2025-07-07 00:05:09,231 ERROR 94524 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 00:05:09,234 INFO 94524 - Skipping to call pipe rest command.
+4.3.0 2025-07-07 04:12:40,479 ERROR 125104 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 04:12:40,479 INFO 125104 - Skipping to call pipe rest command.
+4.3.0 2025-07-07 08:14:04,780 ERROR 121636 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 08:14:04,780 INFO 121636 - Skipping to call pipe rest command.
+4.3.0 2025-07-07 12:06:58,504 ERROR 136656 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 12:06:58,507 INFO 136656 - Skipping to call pipe rest command.
+4.3.0 2025-07-07 16:11:49,221 ERROR 140992 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 16:11:49,224 INFO 140992 - Skipping to call pipe rest command.
+4.3.0 2025-07-07 20:10:58,625 ERROR 144136 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 20:10:58,629 INFO 144136 - Skipping to call pipe rest command.
+4.3.0 2025-07-08 00:05:07,529 ERROR 145384 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 00:05:07,533 INFO 145384 - Skipping to call pipe rest command.
+4.3.0 2025-07-08 04:10:00,232 ERROR 152256 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 04:10:00,235 INFO 152256 - Skipping to call pipe rest command.
+4.3.0 2025-07-08 08:12:11,929 ERROR 154252 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 08:12:11,934 INFO 154252 - Skipping to call pipe rest command.
+4.3.0 2025-07-08 12:08:39,287 ERROR 150256 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 12:08:39,290 INFO 150256 - Skipping to call pipe rest command.
+4.3.0 2025-07-08 16:13:04,198 ERROR 156168 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 16:13:04,202 INFO 156168 - Skipping to call pipe rest command.
+4.3.0 2025-07-08 20:11:50,468 ERROR 160448 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 20:11:50,471 INFO 160448 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 00:05:21,399 ERROR 157988 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 00:05:21,404 INFO 157988 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 04:10:33,742 ERROR 160260 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 04:10:33,744 INFO 160260 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 04:17:09,033 ERROR 153316 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 04:17:09,036 INFO 153316 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 08:09:32,466 ERROR 145500 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 08:09:32,468 INFO 145500 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 12:09:34,059 ERROR 177632 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 12:09:34,062 INFO 177632 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 16:11:11,540 ERROR 174944 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 16:11:11,545 INFO 174944 - Skipping to call pipe rest command.
+4.3.0 2025-07-09 20:11:39,705 ERROR 184416 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 20:11:39,710 INFO 184416 - Skipping to call pipe rest command.
+4.3.0 2025-07-10 00:00:20,690 ERROR 193648 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 00:00:20,692 INFO 193648 - Skipping to call pipe rest command.
+4.3.0 2025-07-10 04:12:13,657 ERROR 201028 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 04:12:13,661 INFO 201028 - Skipping to call pipe rest command.
+4.3.0 2025-07-10 08:11:40,878 ERROR 199140 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 08:11:40,880 INFO 199140 - Skipping to call pipe rest command.
+4.3.0 2025-07-10 12:04:02,989 ERROR 168460 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 12:04:02,992 INFO 168460 - Skipping to call pipe rest command.
+4.3.0 2025-07-10 16:11:35,927 ERROR 187744 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 16:11:35,930 INFO 187744 - Skipping to call pipe rest command.
+4.3.0 2025-07-10 20:02:29,228 ERROR 212100 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 20:02:29,230 INFO 212100 - Skipping to call pipe rest command.
+4.3.0 2025-07-11 00:11:47,044 ERROR 215260 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 00:11:47,046 INFO 215260 - Skipping to call pipe rest command.
+4.3.0 2025-07-11 04:14:10,999 ERROR 218476 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 04:14:11,001 INFO 218476 - Skipping to call pipe rest command.
+4.3.0 2025-07-11 08:11:30,789 ERROR 223372 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 08:11:30,792 INFO 223372 - Skipping to call pipe rest command.
+4.3.0 2025-07-11 12:11:06,042 ERROR 213348 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 12:11:06,047 INFO 213348 - Skipping to call pipe rest command.
+4.3.0 2025-07-11 16:13:14,413 ERROR 228156 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 16:13:14,415 INFO 228156 - Skipping to call pipe rest command.
+4.3.0 2025-07-11 20:03:10,919 ERROR 233344 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 20:03:10,921 INFO 233344 - Skipping to call pipe rest command.
+4.3.0 2025-07-12 00:11:55,534 ERROR 221636 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 00:11:55,537 INFO 221636 - Skipping to call pipe rest command.
+4.3.0 2025-07-12 04:10:45,361 ERROR 237820 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 04:10:45,364 INFO 237820 - Skipping to call pipe rest command.
+4.3.0 2025-07-12 08:09:28,011 ERROR 245496 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 08:09:28,013 INFO 245496 - Skipping to call pipe rest command.
+4.3.0 2025-07-12 12:11:16,336 ERROR 245968 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 12:11:16,340 INFO 245968 - Skipping to call pipe rest command.
+4.3.0 2025-07-12 16:10:48,854 ERROR 246920 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 16:10:48,856 INFO 246920 - Skipping to call pipe rest command.
+4.3.0 2025-07-12 20:09:35,523 ERROR 254108 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 20:09:35,525 INFO 254108 - Skipping to call pipe rest command.
+4.3.0 2025-07-13 00:05:33,016 ERROR 258360 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 00:05:33,020 INFO 258360 - Skipping to call pipe rest command.
+4.3.0 2025-07-13 04:12:29,987 ERROR 255408 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 04:12:29,990 INFO 255408 - Skipping to call pipe rest command.
+4.3.0 2025-07-13 08:05:25,096 ERROR 265060 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 08:05:25,099 INFO 265060 - Skipping to call pipe rest command.
+4.3.0 2025-07-13 12:07:48,504 ERROR 264876 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 12:07:48,507 INFO 264876 - Skipping to call pipe rest command.
+4.3.0 2025-07-13 16:00:52,847 ERROR 119876 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 16:00:52,850 INFO 119876 - Skipping to call pipe rest command.
+4.3.0 2025-07-13 20:07:17,804 ERROR 269912 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 20:07:17,810 INFO 269912 - Skipping to call pipe rest command.
+4.3.0 2025-07-14 00:12:18,543 ERROR 24552 - Exception occurred while reading remote schedule scan details for user  on host  exception [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\eura_remote_scan_scripted_input.py", line 39, in get_remote_scan_details
+    sessionKey=self.session_key,
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-14 00:12:18,548 INFO 24552 - Skipping to call pipe rest command.
