@@ -1,0 +1,54 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    Creates namespaces required for schemas
+ 
+******************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+
+#pragma namespace("\\\\.\\root")
+
+[
+    Locale(1033) : ToInstance
+]
+Instance of __Namespace
+{
+    Name = "Microsoft";
+};
+
+
+#pragma namespace("\\\\.\\root\\Microsoft")
+[
+    Locale(1033) : ToInstance,
+    NamespaceSecuritySDDL ("O:BAG:BAD:P(A;CI;0x6003F;;;BA)(A;CI;0x6003F;;;SY)(A;CI;0x13;;;IU)(A;CI;0x13;;;LS)(A;CI;0x13;;;NS)")
+]
+Instance of __Namespace
+{
+    Name = "PolicyPlatform";
+};
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform")
+
+[
+    Locale(1033) : ToInstance,
+    NamespaceSecuritySDDL ("O:BAG:BAD:P(A;CI;0x6003F;;;BA)(A;CI;0x6003F;;;SY)")
+]
+Instance of __Namespace
+{
+    Name = "Documents";
+};
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+[
+    Locale(1033) : ToInstance
+]
+Instance of __Namespace
+{
+    Name = "Local";
+};
