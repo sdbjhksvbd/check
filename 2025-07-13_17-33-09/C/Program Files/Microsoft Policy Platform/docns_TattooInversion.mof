@@ -1,0 +1,142 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definitions for information used to determine and convey tattoo information.
+
+    DEPENDENCIES: DocumentSchema.mof, SchemaNamespaces.mof, PolicyDocument.mof, Report.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Used to communicate the set of unreferenced selectors and intended selectors"
+        " from previous enactments. Uses the InversionConfigPoint for the selectors."
+    ),
+    DisplayName("InversionData"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_InversionData : PolicyPlatform_ProcessorRequestBase
+{
+    [ Description("The set of IDs of unreferenced configuration points that were also previously intended") ]
+    uint32 UnreferencedConfigPointIds[];
+
+    [ Description("The set of IDs of previously intended configuration points.") ]
+    uint32 PreviousIntendedConfigPointIds[];
+
+    [
+        Description
+        (
+            "The referenced contexts are contexts which are either:"
+            " A. Used directly by one or more of the Configuration Points in the"
+            " UnreferencedConfigPointIds or PreviousIntendedConfigPointIds, or"
+            " B. Used by one or more of the variables or one of the contexts "
+            " referred to by the configuration points in UnreferencedConfigPointIds"
+            " or PreviousIntendedConfigPointIds"
+        )
+    ]
+    PolicyPlatform_ReportedContext ReferencedContexts[];
+
+    [
+        Description
+        (
+            "The referenced variables are variables which are either:"
+            " A. Used directly by one or more of the Configuration Points in the"
+            " UnreferencedConfigPointIds or PreviousIntendedConfigPointIds, or"
+            " B. Used by one or more of the variables or one of the contexts "
+            " referred to by the configuration points in UnreferencedConfigPointIds"
+            " or PreviousIntendedConfigPointIds"
+        )
+    ]
+    PolicyPlatform_ReportedVariable ReferencedVariables[];
+
+    [
+        Description
+        (
+            "The referenced Configuration Points are either:"
+            " A. Configuration Points whose IDs are in UnreferencedConfigPointIds or"
+            " PreviousIntendedConfigPointIds, or"
+            " B. used by one or more of the variables directly or indirectly "
+            " referred to by the configuration points in UnreferencedConfigPointIds"
+            " or PreviousIntendedConfigPointIds"
+        )
+    ]
+    PolicyPlatform_ReportedAuthoredConfigPoint ReferencedConfigPoints[];
+};
+
+// ***************************************************************************
+[
+    Description
+    (
+        "Used to communicate the set of inverted selectors and intended selectors for"
+        " the current job. Uses the InversionConfigPoint for the selectors."
+    ),
+    DisplayName("InversionReport"),
+    Terminal,
+    Version("1.0.0")
+]
+class PolicyPlatform_InversionReport : PolicyPlatform_Report
+{
+    [ Description("The set of IDs of inverted unreferenced configuration points") ]
+    uint32 InvertedConfigPointIds[];
+
+    [
+        Description
+        (
+            "The set of IDs of configuration points that were intended by the set of in-scope"
+            " policies evaluated by the job unioned with the set of 'previous intended'"
+            " configuration points sent down by the LPA that were referenced by policies not"
+            " in-scope for the job."
+        )
+    ]
+    uint32 IntendedConfigPointIds[];
+
+    [
+        Description
+        (
+            "The referenced contexts are contexts which are either:"
+            " A. Used directly by one or more of the Configuration Points in the"
+            " InvertedConfigPointIds or IntendedConfigPointIds, or"
+            " B. Used by one or more of the variables or one of the contexts "
+            " referred to by the configuration points in InvertedConfigPointIds"
+            " or IntendedConfigPointIds"
+        )
+    ]
+    PolicyPlatform_ReportedContext ReferencedContexts[];
+
+    [
+        Description
+        (
+            "The referenced variables are variables which are either:"
+            " A. Used directly by one or more of the Configuration Points in the"
+            " InvertedConfigPointIds or IntendedConfigPointIds, or"
+            " B. Used by one or more of the variables or one of the contexts "
+            " referred to by the config points in InvertedConfigPointIds"
+            " or IntendedConfigPointIds"
+        )
+    ]
+    PolicyPlatform_ReportedVariable ReferencedVariables[];
+
+    [
+        Description
+        (
+            "The referenced Config Points are either:"
+            " A. Configuration Points whose IDs are in InvertedConfigPointIds or"
+            " IntendedConfigPointIds, or"
+            " B. used by one or more of the variables or contexts directly or indirectly "
+            " referred to by the config points in InvertedConfigPointIds"
+            " or IntendedConfigPointIds"
+        )
+    ]
+    PolicyPlatform_ReportedAuthoredConfigPoint ReferencedConfigPoints[];
+};
