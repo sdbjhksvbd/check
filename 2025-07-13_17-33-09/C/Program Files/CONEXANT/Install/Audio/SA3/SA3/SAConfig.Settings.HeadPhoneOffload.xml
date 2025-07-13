@@ -1,0 +1,5 @@
+<SmartAudioConfiguration>
+  <!--Platform Setting -->
+  <EnabledHeadPhoneOffload>true</EnabledHeadPhoneOffload>
+
+</SmartAudioConfiguration>
