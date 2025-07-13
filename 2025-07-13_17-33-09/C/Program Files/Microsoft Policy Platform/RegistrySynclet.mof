@@ -1,0 +1,412 @@
+/******************************************************************************
+Copyright ? Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    mof source for Registry Synclet.
+
+    This file will be processed by MOFCOMP utility to
+    register the registry synclet classes with the WMI repository
+
+Dependencies:
+    RegistryNamespace.mof
+
+******************************************************************************/
+
+#pragma autorecover
+#pragma classflags("forceupdate")
+
+#pragma namespace ("\\\\.\\Root\\Microsoft\\PolicyPlatform\\Models")
+
+// ------------
+[
+    Abstract,
+    Description
+    (
+        "Represents a value in model instance. Classes derived from this implement a "
+        "specific type of value. This gives us a single base class to represent "
+        "the valid types of value in model instance that will be used in this schema."
+    )
+]
+class Registry_ModelValue
+{
+};
+
+[
+    Description("Represents a 8bit signed integer.")
+]
+class Registry_Sint8Value : Registry_ModelValue
+{
+    sint8 Value;
+};
+
+[
+    Description("Represents a 8bit unsigned integer.")
+]
+class Registry_Uint8Value : Registry_ModelValue
+{
+    uint8 Value;
+};
+
+[
+    Description("Represents a 16bit signed integer.")
+]
+class Registry_Sint16Value : Registry_ModelValue
+{
+    sint16 Value;
+};
+
+[
+    Description("Represents a 16bit unsigned integer.")
+]
+class Registry_Uint16Value : Registry_ModelValue
+{
+    uint16 Value;
+};
+
+[
+    Description("Represents a 32bit signed integer.")
+]
+class Registry_Sint32Value : Registry_ModelValue
+{
+    sint32 Value;
+};
+
+[
+    Description("Represents a 32bit unsigned integer.")
+]
+class Registry_Uint32Value : Registry_ModelValue
+{
+    uint32 Value;
+};
+
+[
+    Description("Represents a 64bit signed integer.")
+]
+class Registry_Sint64Value : Registry_ModelValue
+{
+    sint64 Value;
+};
+
+[
+    Description("Represents a 64bit unsigned integer.")
+]
+class Registry_Uint64Value : Registry_ModelValue
+{
+    uint64 Value;
+};
+
+[
+    Description("Represents a boolean.")
+]
+class Registry_BooleanValue : Registry_ModelValue
+{
+    boolean Value;
+};
+
+[
+    Description("Represents a string.")
+]
+class Registry_StringValue : Registry_ModelValue
+{
+    string Value;
+};
+
+// ------------
+[
+    Abstract,
+    Description
+    (
+        "Represents a value in the registry. Classes derived from this implement a"
+        "specific type of value. This gives us a single base class to represent the" 
+        "valid types of registry value that will be used in this schema."
+    )
+]
+class Registry_StateValue
+{
+};
+
+[
+    Description("Represents a REG_DWORD value in registry.")
+]
+class Registry_DwordValue : Registry_StateValue
+{
+    uint32 Value;
+};
+
+[
+    Description("Represents a REG_QWORD value in registry.")
+]
+class Registry_QwordValue : Registry_StateValue
+{
+    uint64 Value;
+};
+
+[
+    Description("Represents a REG_SZ value in registry.")
+]
+class Registry_SzValue : Registry_StateValue
+{
+    string Value;
+};
+
+[
+    Description("Represents an absent value in registry.")
+]
+class Registry_AbsentValue : Registry_StateValue
+{
+};
+
+[
+    Description("Represents key existence in registry.")
+]
+class Registry_KeyExists : Registry_StateValue
+{
+    boolean Value;
+};
+
+[
+    Description("This class contains information about a path in registry.")
+]
+class Registry_Path
+{
+    [
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        ValueMap{ "0", "1", "2", "3", "4" },
+        Values
+        {
+            "HKEY_CURRENT_USER",
+            "HKEY_LOCAL_MACHINE",
+            "HKEY_CURRENT_CONFIG",
+            "HKEY_CLASSES_ROOT",
+            "HKEY_USERS"
+        },
+        Description("The registry hive.")
+    ]
+    uint8 Hive;
+
+    [
+        Description("The registry key path under which the registry value is mapped.")
+    ]
+    string KeyPath;
+
+    [
+        Description("The registry value name with which a value is associated.")
+    ]
+    string ValueName;
+
+    [
+        ValueMap{ "0", "1", "2", "4", "7", "11" },
+        Values{ "REG_NONE", "REG_SZ", "REG_EXPAND_SZ", "REG_DWORD", "REG_MULTI_SZ", "REG_QWORD" },
+        Description("The registry value type. NULL value is equivalent to REG_NONE.")
+    ]
+    uint8 RegType = 0;
+
+    [
+        ValueMap{ "0", "1" },
+        Values{ "Native", "32bit" },
+        Description
+        (
+            "On 64bit machines, this indicates whether to use the 'native' 64bit path or"
+            " the '32bit' WOW64 path.  On 32bit machines, this property has no meaning as"
+            " the native path is the 32bit path."
+        )
+    ]
+    uint8 KeyPathRedirectionMode = 0;
+};
+
+[
+    Description("This class contains information about a particular registry entry.")
+]
+class Registry_Entry
+{
+    [
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        Description("The mapped path in registry.")
+    ]
+    Registry_Path RegPath;
+
+    [
+        Description("The registry value.")
+    ]
+    Registry_StateValue Value;
+};
+
+[
+    Description("This class contains information about a multi-valued registry entry.")
+]
+class Registry_MultiValuedEntry : Registry_Entry
+{
+    [
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        Description
+        (
+            "The additional values which will match this entry during discovery. "
+            " Note that during reification, only Value in base class Registry_Entry "
+            " will be reified."
+        )
+    ]
+    Registry_StateValue AdditionalDiscoveryValues[];
+};
+
+[
+    Description
+    (
+        "This class contains information about how to map a particular value of"
+        " a CIM property into registry. A particular value of property can map"
+        " to multiple registry entries."
+    )
+]
+class Registry_PropertyValueMapping
+{
+    [
+        Description("The mapped property value.")
+    ]
+    Registry_ModelValue Value;
+
+    [
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        Description("The mapped entries in registry.")
+    ]
+    Registry_Entry RegEntries[];
+};
+
+[
+    Abstract
+]
+class Registry_PropertyMapping
+{
+    [
+        Key,
+        Description("The mapped property name (case sensitive).")
+    ]
+    string PropertyName;
+
+    [
+        ValueMap{ "0", "1", "2" },
+        Values{ "DoNothing", "ApplyDefault", "DeleteData" },
+        Description
+        (
+            "Specifies what to do when the named property is no longer intended (i.e., all"
+            " applicable policy has been removed). A value of NULL is equivalent to zero"
+            " (\"DoNothing\")."
+        )
+    ]
+    uint8 IfNoLongerIntended = 0;
+
+    [
+        Description
+        (
+            "Indicates whether the actual types of values in the registry shall be"
+            " validated against the type specified in this synclet (via the RegType"
+            " property).  A value of NULL is equivalent to \"true\"."
+        )
+    ]
+    boolean ValidateRegType = true;
+    
+    [
+        Description
+        (
+            "This mapping will specify values for Enabler of the property whose name is specified "
+            "in PropertyName. "
+            "EnablerMappings value = NULL means that nothing additional needs to be done during "
+            "discovery/reification of property value."
+            "If EnablerMappings is specified, it should contain mapping for both TRUE and FALSE. "
+            "During discovery, Enabler value = TRUE indicates that the property value "
+            "should be discovered per its own mapping specified in derived class. Enabler value = FALSE "
+            "indicates that NULL returned as the property value."
+            "During reification, non-NULL property value will also update registry state per "
+            "Enabler value = TRUE mapping. NULL property value will update registry state per "
+            "Enabler value = FALSE mapping. "
+        )
+    ]
+    Registry_PropertyValueMapping EnablerMappings[] = NULL;
+
+};
+
+[
+    Description
+    (
+        "This class contains information about how to map CIM property which is"
+        " array of scalars into registry."
+    )
+]
+class Registry_ScalarArrayPropertyMapping : Registry_PropertyMapping
+{
+    [
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        Description("The mapped path in registry.")
+    ]
+    Registry_Path RegPath;
+};
+
+[
+    Description
+    (
+        "This class contains information about how to map CIM property which is"
+        " scalar into registry."
+    )
+]
+class Registry_ScalarPropertyMapping : Registry_PropertyMapping
+{
+    [
+        Description
+        (
+            "The mapped path in registry. Should be null when ValueMappings is specified. "
+            "Only one of RegPath and ValueMappings should be specified."
+        )
+    ]
+    Registry_Path RegPath;
+
+    [
+        Description
+        (
+            "The property value to registry mappings. Should be null when RegPath is specified. "
+            "Only one of RegPath and ValueMappings should be specified."
+        )
+    ]
+    Registry_PropertyValueMapping ValueMappings[];
+};
+
+[
+    Description
+    (
+        "This class contains information about how to map CIM property which is"
+        " embedded object in registry."
+    )
+]
+class Registry_EmbeddedObjectPropertyMapping : Registry_PropertyMapping
+{
+    [
+        Description("The embedded object property mappings.")
+    ]
+    Registry_PropertyMapping Mappings[];
+
+    [
+        Description("Whether the mappings for the embedded object are present in this synclet.")
+    ]
+    boolean MappingsPresent;
+};
+
+// ------------
+[
+    Abstract
+]
+class Registry_Synclet
+{
+    [
+        Key,
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        Description("The class to which this synclet is bound (case sensitive).")
+    ]
+    string ClassName;
+};
+
+class Registry_PropertyMappingSynclet : Registry_Synclet
+{
+    [
+        Not_Null, Required, // Synonyms; Not_Null is WMI-specific.
+        Description("The class property mappings.")
+    ]
+    Registry_PropertyMapping Mappings[];
+};
+
