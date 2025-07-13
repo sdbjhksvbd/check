@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  4.37 : Mikel Hasko
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Albanian
+Shqip
+401
+NÃ« rregull
+Anulim
+
+
+
+&Po
+&Jo
+&Mbyll
+NdihmÃ«
+
+&Vazhdim
+440
+Po pÃ«r tÃ« gjith&a
+Jo pÃ«r tÃ« gjit&ha
+Ndalo
+Rinis
+NÃ« &sfond
+NÃ« pla&n tÃ« parÃ«
+&Pushim
+NÃ« pushim
+Jeni tÃ« sigurt se dÃ«shironi ta anuloni?
+500
+&Skedari
+&Redaktimi
+&Pamja
+&TÃ« parapÃ«lqyerit
+&Veglat
+&Ndihma
+540
+&Hap
+Hap pÃ«rbre&nda
+Hap pÃ«rjas&hta
+&Pamja
+&Redakto
+Ri&emÃ«rto
+&Kopjo tek...
+&Zhvendos tek...
+&Fshi
+N&daj skedarin...
+Kom&bino skedarÃ«t...
+&VetitÃ«
+Ko&menti
+Llogarit shumÃ«n e verifikimit
+
+Krijo njÃ« dosje
+Krijo njÃ« skedar
+&Dil
+600
+S&elekto tÃ« gjithÃ«
+Ã‡se&lekto tÃ« gjithÃ«
+Anasill selekti&min
+Selekto...
+Ã‡selekto...
+Selekto sipas tipit
+Ã‡selekto sipas tipit
+700
+Ikona tÃ« &mÃ«dha
+Ikona tÃ« &vogla
+&ListÃ«
+&Detaje
+730
+&TÃ« parenditur
+Pamje e rrafshtÃ«
+&2 panele
+&Shiritat e veglave
+Hap dosjen rrÃ«njÃ«
+NjÃ« nivel mÃ« lartÃ«
+Historiku i dosjes...
+&Rifresko
+750
+Shiriti i veglave i arkivit
+Shiriti standard i veglave
+Butona tÃ« mÃ«dhenj
+Shfaq tekstin e butonave
+800
+&Shto dosjen tek tÃ« parapÃ«lqyerit si
+ShÃ«nuesi
+900
+&Opsionet...
+&Etapa
+960
+&PÃ«rmbajtjet...
+&PÃ«r 7-Zip...
+1003
+Shtegu
+Emri
+Prapashtesa
+Dosja
+MadhÃ«sia
+MadhÃ«sia e mbÃ«rthimit
+Atributet
+Krijuar mÃ«
+HyrÃ« sÃ« fundi mÃ«
+Modifikuar mÃ«
+I qÃ«ndrueshÃ«m
+I komentuar
+I shifruar
+Ndaj para
+Ndaj pas
+Fjalori
+CRC
+Tipi
+Anti
+Metoda
+Pronari i sistemit
+Sistemi i skedarit
+PÃ«rdoruesi
+Grupi
+Blloku
+Komenti
+Pozicioni
+Prefiksi i shtegut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gabim
+MadhÃ«sia totale
+HapÃ«sira e lirÃ«
+MadhÃ«sia e cluster-it
+Etiketa
+Emri lokal
+Kujdestari
+2100
+Opsionet
+Gjuha
+Gjuha:
+Redaktuesi
+&Redaktuesi:
+
+2200
+Sistemi
+Lidh 7-Zip me:
+2301
+Integro 7-Zip nÃ« kontekst meny
+Kaskado kontekst menynÃ«
+ElementÃ« tÃ« kontekst menysÃ«:
+2320
+<Dosja>
+<Arkivi>
+Hap arkivin
+ZbÃ«rthe skedarÃ«t...
+Shto nÃ« arkiv...
+Testo arkivin
+ZbÃ«rthe kÃ«tu
+ZbÃ«rthe nÃ« {0}
+Shto tek {0}
+Kompreso dhe dÃ«rgo me e-mail...
+Kompreso nÃ« {0} dhe dÃ«rgo me e-mail
+2400
+Dosje
+&Dosja e punÃ«s
+Dosja e pÃ«rkohshme e &sistemit
+Dosja &aktuale
+I sp&ecifikuar:
+PÃ«rdor vetÃ«m pÃ«r njÃ«si tÃ« largueshme
+Specifikoni njÃ« vendndodhje pÃ«r skedarÃ«t e pÃ«rkohshÃ«m tÃ« arkivit.
+2500
+Rregullimet
+Shfaq &artikullin ".."
+Shfaq &ikonat e vÃ«rteta tÃ« skedarÃ«ve
+Shfaq &menynÃ« e sistemit
+Selekto tÃ« tÃ«rÃ« &rreshtin
+Shfaq &vijat e rrjetit
+
+MÃ«nyrÃ« alternative &selektimi
+PÃ«rdor &faqe tÃ« mÃ«dha tÃ« memories
+2900
+PÃ«r 7-Zip
+7-Zip Ã«shtÃ« softuer falas.
+3000
+
+S'ka gabime
+Selektuar {0} objekt(e)
+S'mund tÃ« krijojÃ« dosjen '{0}'
+Operacionet e azhurnimit pÃ«r kÃ«tÃ« arkiv s'pÃ«rkrahen.
+
+
+
+
+Skedari '{0}' u modifikua.\nDoni ta azhurnoni atÃ« edhe nÃ« arkiv?
+S'mund tÃ« azhurnojÃ« skedarin\n'{0}'
+S'mund tÃ« hap redaktuesin.
+
+
+
+
+TepÃ«r shumÃ« artikuj
+3300
+Duke zbÃ«rthyer
+Duke kompresuar
+Duke testuar
+Duke hapur...
+Duke skanuar...
+3400
+ZbÃ«rthe
+Z&bÃ«rthe nÃ«:
+Specifikoni njÃ« vendndodhje pÃ«r skedarÃ«t e zbÃ«rthyer.
+3410
+MÃ«nyra e Shtegut
+Emra tÃ« plotÃ« Shtigjesh
+Pa emra shtigjesh
+3420
+MÃ«nyra e mbishkrimit
+Pyet para se tÃ« mbishkruaj
+Mbishkruaj pa nxitje
+Mbikalo skedarÃ«t ekzistues
+RiemÃ«rto automatikisht
+RiemÃ«rto auto. skedarÃ«t ekzistues
+3500
+Konfirmo zÃ«vendÃ«simin e skedarÃ«ve
+Dosja e destinacionit e pÃ«rmban njÃ« herÃ« skedarin e pÃ«rpunuar.
+DÃ«shironi ta zÃ«vendÃ«soni skedarin ekzistues
+me kÃ«tÃ«?
+{0} bajt
+R&iemÃ«rtim automatik
+3700
+MetodÃ« e papÃ«rkrahshme kompresimi pÃ«r '{0}'.
+Gabim tÃ« dhÃ«nash nÃ« '{0}'. Skedari Ã«shtÃ« i prishur.
+CRC dÃ«shtoi '{0}'. Skedari Ã«shtÃ« i prishur.
+
+
+3800
+Fusni fjalÃ«kalimin
+Fusni fjalÃ«kalimin:
+
+&Trego fjalÃ«kalimin
+
+
+
+FjalÃ«kalimi
+3900
+Koha e kaluar:
+Koha e mbetur:
+MadhÃ«sia:
+ShpejtÃ«sia:
+
+
+Gabime:
+
+4000
+Shto nÃ« arkiv
+&Arkivi:
+&MÃ«nyra e azhurnimit:
+&Formati i arkivit:
+&Niveli i kompresimit:
+Metoda e kompr&esimit:
+Ma&dhÃ«sia e fjalorit:
+Mad&hÃ«sia e fjalÃ«s:
+
+
+&Parametrat:
+Opsionet
+Krijo njÃ« arkiv SF&X
+
+
+
+Shifro em&rat e skedarÃ«ve
+ShfrytÃ«zimi i memo. pÃ«r kompresimin:
+ShfrytÃ«zimi i memo. pÃ«r dekompresimin:
+4050
+Ruaj
+MÃ« i shpejtÃ«
+I shpejtÃ«
+Normal
+Maksimal
+Ultra
+4060
+Shto dhe zÃ«vendÃ«so skedarÃ«t
+Azhurno dhe shto skedarÃ«t
+Azhurno skedarÃ«t ekzistues
+Sinkronizo skedarÃ«t
+4070
+Shfleto
+TÃ« gjithÃ« skedarÃ«t
+
+
+6000
+Kopjo
+Zhvendos
+Kopjo tek:
+Zhvendos tek:
+Duke kopjuar...
+Duke zhvendosur...
+Duke riemÃ«rtuar...
+
+Operacioni s'pÃ«rkrahet.
+Gabim gjatÃ« riemÃ«rtimit tÃ« skedarit apo dosjes
+Konfirmim pÃ«r kopjimin e skedarÃ«ve
+Jeni tÃ« sigurt qÃ« doni tÃ« kopjoni skedarÃ« nÃ« arkiv
+6100
+Konfirmo fshirjen e skedarit
+Konfirmo fshirjen e dosjes
+Konfirmo fshirjen e shumÃ«fishtÃ« tÃ« skedarÃ«ve
+Jeni tÃ« sigurt qÃ« doni tÃ« fshini '{0}'?
+Jeni tÃ« sigurt qÃ« doni tÃ« fshini dosjen '{0}' dhe tÃ«rÃ« pÃ«rmbajtjen e saj?
+Jeni tÃ« sigurt qÃ« doni t'i fshini kÃ«to {0} artikuj?
+Duke fshirÃ«...
+Gabim gjatÃ« fshirjes sÃ« skedarit apo dosjes
+
+6300
+Krijo njÃ« dosje
+Krijo njÃ« skedar
+Emri i dosjes:
+Emri i skedarit:
+Dosje e re
+Skedar i ri
+Gabim gjatÃ« krijimit tÃ« dosjes
+Gabim gjatÃ« krijimit tÃ« skedarit
+6400
+Komenti
+&Komenti:
+Selekto
+Ã‡selekto
+Maska:
+6600
+
+Historiku i dosjes
+Mesazhe diagnostikues
+Mesazhi
+7100
+Kompjuteri
+Rrejti
+
+Sistemi
+7200
+Shto
+ZbÃ«rthe
+Testo
+Kopjo
+Zhvendos
+Fshi
+Info
+7300
+Ndaj skedarin
+&Ndaj nÃ«:
+Ndaj nÃ« &volume (madhÃ«sia jepet nÃ« bajt):
+Duke ndarÃ«...
+
+
+
+
+
+7400
+Kombino skedarÃ«t
+&Kombino nÃ«:
+Duke kombinuar...
+
+
+
+7500
+Duke llogaritur shumÃ«n e verifikimit...
+Informacionet e shumÃ«s sÃ« verifikimit
+Shuma e verifikimit CRC pÃ«r tÃ« dhÃ«nat:
+Shuma e verifikimit CRC pÃ«r tÃ« dhÃ«nat dhe emrat:
+7600
+Etapa
+ShfrytÃ«zimi i memories:
+Kompresimi
+Dekompresimi
+VlerÃ«simi
+VlerÃ«simi total
+Aktualisht
+Rezultati
+
+
+Kalime:
