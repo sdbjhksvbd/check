@@ -1,0 +1,12 @@
+key,value,count,ncount,complete,min,max,sum,sumsq
+,,1,,,,,,
+host,,1,,1,,,,
+,"BEER-PC01",1,,1,,,,
+linecount,,1,1,1,106,106,106.000000,11236.000000
+,106,1,,1,,,,
+punct,,1,,1,,,,
+,",_,,,,_,,_,,,,,,_,_,_,_,,_,,,,,//_::_,___,,,_$,,,,",1,,1,,,,
+source,,1,,1,,,,
+,"C:\Program Files\Splunk\var\run\splunk\dispatch\1749646464.1049\Crimes_-_2001_to_Present.csv.001",1,,1,,,,
+timestamp,,1,,1,,,,
+,none,1,,1,,,,
