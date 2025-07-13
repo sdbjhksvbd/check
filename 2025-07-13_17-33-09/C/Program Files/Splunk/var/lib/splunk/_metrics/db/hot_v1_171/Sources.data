@@ -1,0 +1,6 @@
+0	5	  2294367	1751278865	1752448294	1752448295	
+1	source::C:\Program Files\Splunk\var\log\introspection\disk_objects.log	 14123	1751278865	1752448033	1752448033	
+2	source::C:\Program Files\Splunk\var\log\introspection\resource_usage.log	107526	1751278879	1752448294	1752448295	
+3	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	  2171371	1751278896	1752448282	1752448283	
+4	source::C:\Program Files\Splunk\var\log\splunk\metrics.log.1	  1345	1751289008	1752435045	1752435046	
+5	source::C:\Program Files\Splunk\var\log\introspection\resource_usage.log.1	  2	1751811873	1752181161	1752181162	
