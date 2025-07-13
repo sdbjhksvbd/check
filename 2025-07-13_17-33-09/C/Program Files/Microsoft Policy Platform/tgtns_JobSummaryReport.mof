@@ -1,0 +1,237 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for Job Report document class and its component
+     classes.
+
+    DEPENDENCIES: SchemaNamespaces.mof, Report.mof, Document.mof
+
+******************************************************************************/
+
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// qualifiers
+
+//////////////////////////////////////////////////////////////////////////////
+// Embed
+//   Specifies that instances of this class must only exist as composed parts embedded in parent
+//   instances of the type specified in the qualifier's string value.
+
+qualifier Embed : string, scope (class);
+
+/////////////////////////////////////////////////////////////////////////////////
+// policy scope filter classes
+
+[
+    Abstract,
+    Embed : ToSubClass,
+    Description("Abstract filter")
+]
+class PolicyPlatform_ScopeFilter
+{
+};
+
+[
+    Description("Filter that allows name + authority to be specified")
+]
+class PolicyPlatform_DocumentScopeFilter : PolicyPlatform_ScopeFilter
+{
+    [
+        Required,
+        Description("Name of the authority that generated a document.")
+    ]
+    string Authority;
+
+    [
+        Required,
+        Description("Name of document.")
+    ]
+    string Name;
+};
+
+[
+    Description("Filter that allows an authority to be specified")
+]
+class PolicyPlatform_AuthorityScopeFilter : PolicyPlatform_ScopeFilter
+{
+    [
+        Required,
+        Description("Name of the authority that generated a document.")
+    ]
+    string Authority;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Enactment job summary classes
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("Information about policy document which is referenced by existing policy but does not exist in the store")
+]
+class PolicyPlatform_MissingPolicy
+{
+    [
+        Not_null,
+        Description("Boolean value to indicate whether the missing policy document caused an error that halted processing (this can happen if the missing document is in scope).  Otherwise this serves as a warning.")
+    ]
+    boolean HaltedProcessing;
+
+    [
+        Description("Rule which is referencing the missing policy")
+    ]
+    PolicyPlatform_RuleId ReferencingRuleId;
+
+    [
+        Description("Policy document which was expected to exist in the store")
+    ]
+    PolicyPlatform_DocumentId MissingPolicyId;
+};
+
+
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("Enactment metrics")
+]
+class PolicyPlatform_EnactmentJobMetrics
+{
+    [
+        Not_null,
+        Description("True if an error occurred gathering the stats or false otherwise.")
+    ]
+    boolean DidErrorsOccur;
+
+    [
+        Not_null,
+        Description("The number of ticks which occur in 1 second, used for converting the other tick-based counters.")
+    ]
+    uint64 TicksPerSecond;
+
+    [
+        Not_null,
+        Description("The number of valid policies used to determine intent for the enactment.")
+    ]
+    uint64 PolicyCount;
+
+    [
+        Not_null,
+        Description("The number of valid rules used to determine intent for the enactment.")
+    ]
+    uint64 RuleCount;
+
+    [
+        Not_null,
+        Description("The number of valid rules expressing intent for the enactment.")
+    ]
+    uint64 ActiveRuleCount;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning the enactment.")
+    ]
+    uint64 TotalTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning operations of policy parsing.")
+    ]
+    uint64 PolicyParseTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning operations of discovery.")
+    ]
+    uint64 DiscoveryTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning operations of solving constraints.")
+    ]
+    uint64 SolverTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning miscellaneous processing.")
+    ]
+    uint64 ProcessingTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning operations of reification.")
+    ]
+    uint64 ReifyTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning operations of document discovery.")
+    ]
+    uint64 DocumentDiscoveryTicks;
+
+    [
+        Not_null,
+        Description("The number of ticks spanning operations of document reification.")
+    ]
+    uint64 DocumentReifyTicks;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Description("Summary report for enactment jobs")
+]
+class PolicyPlatform_JobSummaryReport : PolicyPlatform_Report
+{
+    [
+        Not_null,
+        Values { "Remediate", "Simulate", "Inspect" },
+        ValueMap { 0, 1, 2 },
+        Description("Job enactment mode")
+    ]
+    uint32 Mode;
+
+    [
+        Description("Id of the principal for which the enactment was run")
+    ]
+    string PrincipalId;
+
+    [
+        Description("Job description text")
+    ]
+    string Description;
+
+    [
+        Description("Scope filters that narrow the initial set of configuration points to be operated over")
+    ]
+    PolicyPlatform_ScopeFilter ScopeFilters[];
+
+    [
+        Not_null,
+        DisplayInHex,
+        Description("Overall job status code.  Negative values indicate errors; 0 inidcates success; and positive values indicate warnings")
+    ]
+    sint32 ResultCode;
+
+    [
+        Not_null,
+        Description("Job metrics")
+    ]
+    PolicyPlatform_EnactmentJobMetrics Metrics;
+
+    [
+        Description("Information about policy documents which are referenced by existing policy but do not exist in the store")
+    ]
+    PolicyPlatform_MissingPolicy MissingPolicies[];
+};
+
