@@ -1,0 +1,4 @@
+<SmartAudioConfiguration>
+  <!-- Recording Experience -->
+  <MonitorHardwareNoiseCancellation>true</MonitorHardwareNoiseCancellation>
+</SmartAudioConfiguration>
