@@ -1,0 +1,10 @@
+0	9	849947	1750086219	1750292470	1750292471	
+1	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log	 14054	1750086219	1750292470	1750292471	
+2	source::C:\Program Files\Splunk\var\log\splunk\health.log	 88388	1750086230	1750292467	1750292467	
+3	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	736040	1750086237	1750292438	1750292439	
+4	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log	 10651	1750086244	1750292458	1750292459	
+5	source::C:\Program Files\Splunk\var\log\splunk\license_usage.log	  6	1750107600	1750280400	1750280401	
+6	source::C:\Program Files\Splunk\var\log\splunk\metrics.log.1	371	1750149304	1750269232	1750269233	
+7	source::C:\Program Files\Splunk\var\log\splunk\health.log.1	 11	1750180521	1750180521	1750180522	
+8	source::C:\Program Files\Splunk\var\log\splunk\scheduler.log	382	1750226520	1750292040	1750292062	
+9	source::C:\Program Files\Splunk\var\log\splunk\web_service.log	 44	1750292467	1750292467	1750292470	
