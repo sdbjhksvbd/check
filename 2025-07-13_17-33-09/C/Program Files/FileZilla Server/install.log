@@ -1,0 +1,51 @@
+Create folder: C:\Program Files\FileZilla Server\Logs
+Output folder: C:\Program Files\FileZilla Server
+Created uninstaller: C:\Program Files\FileZilla Server\Uninstall.exe
+Output folder: C:\Program Files\FileZilla Server
+Extract: libfilezilla-47.dll
+Extract: libgcc_s_seh-1.dll
+Extract: libgmp-10.dll
+Extract: libgnutls-30.dll
+Extract: libhogweed-6.dll
+Extract: libnettle-8.dll
+Extract: libp11-kit-0.dll
+Extract: libstdc++-6.dll
+Extract: libtasn1-6.dll
+Extract: zlib1.dll
+Extract: COPYING
+Extract: NEWS
+Output folder: C:\Program Files\FileZilla Server
+Extract: filezilla-server-config-converter.exe
+Extract: filezilla-server-crypt.exe
+Extract: filezilla-server-impersonator.exe
+Extract: filezilla-server.exe
+Output folder: C:\Program Files\FileZilla Server
+Extract: filezilla-server-gui.exe
+Extract: libpng16-16.dll
+Extract: wxbase32u_gcc_custom.dll
+Extract: wxmsw32u_core_gcc_custom.dll
+Create folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Uninstall FileZilla Server.lnk
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Administer FileZilla Server.lnk
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Start FileZilla Server.lnk
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Stop FileZilla Server.lnk
+Create folder: C:\Users\Public\Desktop
+Create shortcut: C:\Users\Public\Desktop\Administer FileZilla Server.lnk
+Create shortcut: C:\Users\Public\Desktop\Start FileZilla Server.lnk
+Create shortcut: C:\Users\Public\Desktop\Stop FileZilla Server.lnk
+create service filezilla-server: C:\Program Files\FileZilla Server\filezilla-server.exe 
+Service filezilla-server successfully created.
+AccessControl::GrantOnFile "C:\Users\ronab\AppData\Local\Temp\nscD04A.tmp" "SYSTEM" AddFile
+CheckConfigDirOwnership: ok
+Details follow:
+Owner of `C:\ProgramData\filezilla-server': NT AUTHORITY\SYSTEM
+
+Owner of `C:\ProgramData': NT AUTHORITY\SYSTEM
+
+Owner of `C:\': BUILTIN\Administrators
+CheckConfigVersion: got [ok]
+=====================================
+Take note of the FileZilla Server Administration Interface TLS fingerprints:
+== SHA256 certificate fingerprint: e3:72:b5:90:c7:87:82:9c:cf:bc:89:ee:35:d7:24:f3:2e:59:ec:c4:d9:a4:00:58:7c:0e:19:e9:1b:d2:5a:da
+
+=====================================
