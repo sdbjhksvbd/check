@@ -1,0 +1,4 @@
+<SmartAudioConfiguration>
+  <!-- Special settings -->
+  <EnableISST10Bands>true</EnableISST10Bands>
+</SmartAudioConfiguration>
