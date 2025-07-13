@@ -1,0 +1,6 @@
+<SmartAudioConfiguration>
+  <SplitStreamingMode>3</SplitStreamingMode>
+  <ResetStreamingModesOnDefaultSettings>false</ResetStreamingModesOnDefaultSettings>
+  <ShowMixerPageBoost>true</ShowMixerPageBoost>
+  <HardCodedEndpointNames>true</HardCodedEndpointNames>
+</SmartAudioConfiguration>
