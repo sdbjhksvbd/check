@@ -1,0 +1,108 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for rule prioritization report. 
+
+    DEPENDENCIES: Report.mof, Document.mof, SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+// **********************************************************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description
+    (
+        "The mapping of a pair of rules and an associated config point to the"
+        " Step which prioritized one rule over the other (or determined that they"
+        " were equal)." 
+    )
+]
+class PolicyPlatform_RulePrioritizationDetail
+{
+    
+    [
+        Required,
+        Not_Null,
+        Description
+        (
+            "The Identifier of the first rule which was prioritized. The identifier is a key to a value in the"
+            " Rules from the PolicyMappingsReport."
+        )
+    ]
+    uint32 firstRuleId;
+           
+    [
+        Required,
+        Not_Null,
+        Description
+        (
+            "The Identifier of the second rule which was prioritized. The identifier is a key to a value in the"
+            " Rules from the PolicyMappingsReport."
+        )
+    ] 
+    uint32 secondRuleId;
+    
+    [
+        Description
+        (
+            "The Identifier the configuration point being handled when the rules were prioritized. The identifier"
+            " is a key to a value in the ConfigPoints from the AuthoredConfigPointReport."
+        )
+    ]
+    uint32 authoredConfigPointId = NULL;    
+    
+    [
+        Description
+        (
+            "The Identifier of the last step performed during prioritization. The identifier is a key to a value in the"
+            " Steps from the RulePrioritizationMappingsReport."
+        )
+    ]
+    uint32 stepId = NULL;
+       
+    [
+        Required,
+        Not_Null,
+        Description("The rule which was prioritized highest from the resolution of the Steps."),
+        ValueMap { "0", "1", "2" },
+        Values
+        {
+            "none",
+            "rule-1",
+            "rule-2"
+        }
+    ]
+    uint16 prioritizationResult;
+};
+
+
+
+
+// **********************************************************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Rule Prioritization Report"),
+    Description
+    (
+        "A report which provides details mapping rules and configuration points to the"
+        " rule prioritization objects which were used to prioritize one of the rules"
+        " over the other."
+    )
+] 
+class PolicyPlatform_RulePrioritizationReport : PolicyPlatform_Report
+{
+    [
+        Required,
+        Not_Null
+    ]
+    PolicyPlatform_RulePrioritizationDetail details[];
+};
