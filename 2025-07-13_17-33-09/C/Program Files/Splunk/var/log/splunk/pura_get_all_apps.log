@@ -1,0 +1,96 @@
+4.3.0 2025-07-01 07:04:18,003 INFO 51148 - Fetching apps after 818.7097764459365 secs
+4.3.0 2025-07-01 07:19:30,670 INFO 51148 - Found a synced splunkbase file
+4.3.0 2025-07-01 07:19:30,671 INFO 51148 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751252531.csv
+4.3.0 2025-07-01 07:19:30,870 INFO 51148 - Initial call to splunkbase API
+4.3.0 2025-07-01 07:19:31,384 INFO 51148 - Successfully fetched all the apps
+4.3.0 2025-07-01 07:19:31,408 INFO 51148 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751343571.csv
+4.3.0 2025-07-01 07:19:31,429 INFO 51148 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751343571.csv
+4.3.0 2025-07-01 07:19:31,429 INFO 51148 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751252531.csv as they are previous synced files
+4.3.0 2025-07-02 08:01:02,341 INFO 75764 - Fetching apps after 633.3489474712034 secs
+4.3.0 2025-07-02 08:13:28,946 INFO 75764 - Found a synced splunkbase file
+4.3.0 2025-07-02 08:13:28,946 INFO 75764 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751343571.csv
+4.3.0 2025-07-02 08:13:29,117 INFO 75764 - Initial call to splunkbase API
+4.3.0 2025-07-02 08:13:29,612 INFO 75764 - Successfully fetched all the apps
+4.3.0 2025-07-02 08:13:29,637 INFO 75764 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751433209.csv
+4.3.0 2025-07-02 08:13:29,660 INFO 75764 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751433209.csv
+4.3.0 2025-07-02 08:13:29,661 INFO 75764 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751343571.csv as they are previous synced files
+4.3.0 2025-07-03 07:28:00,006 INFO 99812 - Fetching apps after 12.502459887434236 secs
+4.3.0 2025-07-03 07:28:12,527 INFO 99812 - Found a synced splunkbase file
+4.3.0 2025-07-03 07:28:12,527 INFO 99812 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751433209.csv
+4.3.0 2025-07-03 07:28:12,809 INFO 99812 - Initial call to splunkbase API
+4.3.0 2025-07-03 07:28:13,601 INFO 99812 - Successfully fetched all the apps
+4.3.0 2025-07-03 07:28:13,624 INFO 99812 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751516893.csv
+4.3.0 2025-07-03 07:28:13,645 INFO 99812 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751516893.csv
+4.3.0 2025-07-03 07:28:13,645 INFO 99812 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751433209.csv as they are previous synced files
+4.3.0 2025-07-06 22:00:41,098 INFO 96000 - Fetching apps after 590.2220143602117 secs
+4.3.0 2025-07-06 22:10:31,331 INFO 96000 - Found a synced splunkbase file
+4.3.0 2025-07-06 22:10:31,331 INFO 96000 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751516893.csv
+4.3.0 2025-07-06 22:10:31,509 INFO 96000 - Initial call to splunkbase API
+4.3.0 2025-07-06 22:10:32,048 INFO 96000 - Successfully fetched all the apps
+4.3.0 2025-07-06 22:10:32,068 INFO 96000 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751829032.csv
+4.3.0 2025-07-06 22:10:32,089 INFO 96000 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751829032.csv
+4.3.0 2025-07-06 22:10:32,089 INFO 96000 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751516893.csv as they are previous synced files
+4.3.0 2025-07-07 06:00:01,379 INFO 127928 - Fetching apps after 651.9012588142978 secs
+4.3.0 2025-07-07 06:10:53,310 INFO 127928 - Found a synced splunkbase file
+4.3.0 2025-07-07 06:10:53,310 INFO 127928 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751829032.csv
+4.3.0 2025-07-07 06:10:53,517 INFO 127928 - Initial call to splunkbase API
+4.3.0 2025-07-07 06:10:54,026 INFO 127928 - Successfully fetched all the apps
+4.3.0 2025-07-07 06:10:54,047 INFO 127928 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751857854.csv
+4.3.0 2025-07-07 06:10:54,071 INFO 127928 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751857854.csv
+4.3.0 2025-07-07 06:10:54,071 INFO 127928 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751829032.csv as they are previous synced files
+4.3.0 2025-07-08 06:00:02,917 INFO 113368 - Fetching apps after 337.43141039989337 secs
+4.3.0 2025-07-08 06:05:40,353 INFO 113368 - Found a synced splunkbase file
+4.3.0 2025-07-08 06:05:40,353 INFO 113368 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751857854.csv
+4.3.0 2025-07-08 06:05:40,754 INFO 113368 - Initial call to splunkbase API
+4.3.0 2025-07-08 06:05:41,883 INFO 113368 - Successfully fetched all the apps
+4.3.0 2025-07-08 06:05:41,948 INFO 113368 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751943941.csv
+4.3.0 2025-07-08 06:05:41,990 INFO 113368 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751943941.csv
+4.3.0 2025-07-08 06:05:41,990 INFO 113368 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751857854.csv as they are previous synced files
+4.3.0 2025-07-09 05:59:43,068 INFO 170056 - Fetching apps after 548.7100914878188 secs
+4.3.0 2025-07-09 06:08:51,797 INFO 170056 - Found a synced splunkbase file
+4.3.0 2025-07-09 06:08:51,797 INFO 170056 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751943941.csv
+4.3.0 2025-07-09 06:08:51,974 INFO 170056 - Initial call to splunkbase API
+4.3.0 2025-07-09 06:08:52,717 INFO 170056 - Successfully fetched all the apps
+4.3.0 2025-07-09 06:08:52,749 INFO 170056 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752030532.csv
+4.3.0 2025-07-09 06:08:52,775 INFO 170056 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752030532.csv
+4.3.0 2025-07-09 06:08:52,776 INFO 170056 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1751943941.csv as they are previous synced files
+4.3.0 2025-07-09 06:08:54,626 INFO 174504 - Fetching apps after 526.8770817147279 secs
+4.3.0 2025-07-09 06:17:41,520 INFO 174504 - Found a synced splunkbase file
+4.3.0 2025-07-09 06:17:41,521 INFO 174504 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752030532.csv
+4.3.0 2025-07-09 06:17:41,725 INFO 174504 - Initial call to splunkbase API
+4.3.0 2025-07-09 06:17:42,258 INFO 174504 - Successfully fetched all the apps
+4.3.0 2025-07-09 06:17:42,294 INFO 174504 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752031062.csv
+4.3.0 2025-07-09 06:17:42,315 INFO 174504 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752031062.csv
+4.3.0 2025-07-09 06:17:42,315 INFO 174504 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752030532.csv as they are previous synced files
+4.3.0 2025-07-10 06:00:02,613 INFO 203488 - Fetching apps after 1052.3147971310527 secs
+4.3.0 2025-07-10 06:17:34,961 INFO 203488 - Found a synced splunkbase file
+4.3.0 2025-07-10 06:17:34,962 INFO 203488 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752031062.csv
+4.3.0 2025-07-10 06:17:35,180 INFO 203488 - Initial call to splunkbase API
+4.3.0 2025-07-10 06:17:35,717 INFO 203488 - Successfully fetched all the apps
+4.3.0 2025-07-10 06:17:35,740 INFO 203488 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752117455.csv
+4.3.0 2025-07-10 06:17:35,760 INFO 203488 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752117455.csv
+4.3.0 2025-07-10 06:17:35,760 INFO 203488 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752031062.csv as they are previous synced files
+4.3.0 2025-07-11 06:00:03,617 INFO 219260 - Fetching apps after 1026.7414458538767 secs
+4.3.0 2025-07-11 06:17:10,391 INFO 219260 - Found a synced splunkbase file
+4.3.0 2025-07-11 06:17:10,391 INFO 219260 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752117455.csv
+4.3.0 2025-07-11 06:17:10,576 INFO 219260 - Initial call to splunkbase API
+4.3.0 2025-07-11 06:17:11,063 INFO 219260 - Successfully fetched all the apps
+4.3.0 2025-07-11 06:17:11,084 INFO 219260 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752203831.csv
+4.3.0 2025-07-11 06:17:11,111 INFO 219260 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752203831.csv
+4.3.0 2025-07-11 06:17:11,111 INFO 219260 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752117455.csv as they are previous synced files
+4.3.0 2025-07-12 06:00:02,817 INFO 244172 - Fetching apps after 764.2710938948529 secs
+4.3.0 2025-07-12 06:12:47,126 INFO 244172 - Found a synced splunkbase file
+4.3.0 2025-07-12 06:12:47,127 INFO 244172 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752203831.csv
+4.3.0 2025-07-12 06:12:47,318 INFO 244172 - Initial call to splunkbase API
+4.3.0 2025-07-12 06:12:47,880 INFO 244172 - Successfully fetched all the apps
+4.3.0 2025-07-12 06:12:47,902 INFO 244172 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752289967.csv
+4.3.0 2025-07-12 06:12:47,921 INFO 244172 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752289967.csv
+4.3.0 2025-07-12 06:12:47,921 INFO 244172 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752203831.csv as they are previous synced files
+4.3.0 2025-07-13 06:00:02,655 INFO 252256 - Fetching apps after 506.01427204990733 secs
+4.3.0 2025-07-13 06:08:28,691 INFO 252256 - Found a synced splunkbase file
+4.3.0 2025-07-13 06:08:28,692 INFO 252256 - splunkbase_path- C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752289967.csv
+4.3.0 2025-07-13 06:08:28,898 INFO 252256 - Initial call to splunkbase API
+4.3.0 2025-07-13 06:08:29,461 INFO 252256 - Successfully fetched all the apps
+4.3.0 2025-07-13 06:08:29,495 INFO 252256 - Writing to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752376109.csv
+4.3.0 2025-07-13 06:08:29,514 INFO 252256 - Successfully written to file C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752376109.csv
+4.3.0 2025-07-13 06:08:29,514 INFO 252256 - Deleting C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\local\app_list\splunkbaseapps_1752289967.csv as they are previous synced files
