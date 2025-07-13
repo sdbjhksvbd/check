@@ -1,0 +1,42 @@
+/***************************************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    This file provides cleanup of classes added to a target in the course of setup.  
+    
+    DEPENDENCIES: none
+
+***************************************************************************************************/
+
+// NOTE: Do not use #pragma autorecover, or an autorecovery will also mofcomp this mof file!
+
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Models")
+
+
+#pragma deleteclass("Registry_PropertyMappingSynclet", nofail)
+#pragma deleteclass("Registry_Synclet", nofail)
+#pragma deleteclass("Registry_EmbeddedObjectPropertyMapping", nofail)
+#pragma deleteclass("Registry_ScalarPropertyMapping", nofail)
+#pragma deleteclass("Registry_ScalarArrayPropertyMapping", nofail)
+#pragma deleteclass("Registry_PropertyMapping", nofail)
+#pragma deleteclass("Registry_PropertyValueMapping", nofail)
+#pragma deleteclass("Registry_MultiValuedEntry", nofail)
+#pragma deleteclass("Registry_Entry", nofail)
+#pragma deleteclass("Registry_Path", nofail)
+#pragma deleteclass("Registry_KeyExists", nofail)
+#pragma deleteclass("Registry_AbsentValue", nofail)
+#pragma deleteclass("Registry_SzValue", nofail)
+#pragma deleteclass("Registry_QwordValue", nofail)
+#pragma deleteclass("Registry_DwordValue", nofail)
+#pragma deleteclass("Registry_StateValue", nofail)
+#pragma deleteclass("Registry_StringValue", nofail)
+#pragma deleteclass("Registry_BooleanValue", nofail)
+#pragma deleteclass("Registry_Uint64Value", nofail)
+#pragma deleteclass("Registry_Sint64Value", nofail)
+#pragma deleteclass("Registry_Uint32Value", nofail)
+#pragma deleteclass("Registry_Sint32Value", nofail)
+#pragma deleteclass("Registry_Uint16Value", nofail)
+#pragma deleteclass("Registry_Sint16Value", nofail)
+#pragma deleteclass("Registry_Uint8Value", nofail)
+#pragma deleteclass("Registry_Sint8Value", nofail)
+#pragma deleteclass("Registry_ModelValue", nofail)
