@@ -1,0 +1,93 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for rule to state interchange reports. 
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof,
+    ConfigPointReport.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The binding of a rule and the set of configuration points referenced within it.")
+]
+class PolicyPlatform_RuleToConfigPoints
+{
+    [
+        Required, 
+        Not_Null,
+        Description
+        (
+            "Authored rule."
+        )
+    ]
+    PolicyPlatform_RuleId Rule;
+
+    [
+        Required, 
+        Not_Null,
+        Description
+        (
+            "Set of configuration points referenced by the rule."
+        )
+    ]
+    uint32 ConfigPointIds[];
+};
+
+
+// ***************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Rule to State Report"),
+    Description("A report which provides a mapping from authored rules to encountered state.")
+] 
+class PolicyPlatform_RuleToStateReport : PolicyPlatform_Report
+{
+    [
+        Required, 
+        Not_Null,
+        Description
+        (
+            "Set of entries where each entry contains information about rule and configuration "
+            "points referenced in that rule."
+        )
+    ]
+    PolicyPlatform_RuleToConfigPoints RuleToConfigPointsEntries[];
+
+    [
+        Required, 
+        Not_Null,
+        Description
+        (
+            "Set of entries where each entry contains mapping of authored configuration "
+            "point to set of instance configuration points. Also note that the entries refer to "
+            "resolved authored configuration points in case of dynamically predicated authored "
+            "configuration points."
+        )
+    ]
+    PolicyPlatform_ConfigPointToConfigPoints AuthoredToInstanceConfigPointsEntries[];
+    
+    [
+        Required, 
+        Not_Null,
+        Description
+        (
+            "Set of entries where each entry contains mapping of dynamically predicated "
+            "authored configuration point to a set of resolved authored configuration points "
+            "which are constructed by resolving variable references in dynamic predicate."
+        )
+    ]
+    PolicyPlatform_ConfigPointToConfigPoints DynamicallyPredicatedToResolvedConfigPointsEntries[];
+};
