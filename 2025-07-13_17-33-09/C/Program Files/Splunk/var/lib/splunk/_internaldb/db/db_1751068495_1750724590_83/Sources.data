@@ -1,0 +1,12 @@
+0	11	  1536729	1750724590	1751068495	1751068495	
+1	source::C:\Program Files\Splunk\var\log\splunk\splunkd.log	 12416	1750724590	1751068480	1751068481	
+2	source::C:\Program Files\Splunk\var\log\splunk\splunkd_access.log	 18124	1750724595	1751068495	1751068495	
+3	source::C:\Program Files\Splunk\var\log\splunk\health.log	144540	1750724598	1751068484	1751068485	
+4	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	  1360632	1750724602	1751068478	1751068478	
+5	source::C:\Program Files\Splunk\var\log\splunk\metrics.log.1	620	1750734453	1751039051	1751039052	
+6	source::C:\Program Files\Splunk\var\log\splunk\mongod.log	  4	1750783044	1751063666	1751063667	
+7	source::C:\Program Files\Splunk\var\log\splunk\license_usage.log	  8	1750798800	1751058000	1751058001	
+8	source::C:\Program Files\Splunk\var\log\splunk\health.log.1	 13	1750825811	1750825811	1750825811	
+9	source::C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log	319	1750920045	1750920309	1750920309	
+10	source::C:\Program Files\Splunk\var\log\splunk\web_access.log	 18	1750920045	1750920306	1750920306	
+11	source::C:\Program Files\Splunk\var\log\splunk\web_service.log	 35	1750920045	1750920306	1750920306	
