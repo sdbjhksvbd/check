@@ -1,0 +1,104 @@
+4.3.0 2025-07-01 01:40:54,848 INFO 26348 - Starting to get apps
+4.3.0 2025-07-01 01:40:55,119 ERROR 26348 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-02 02:53:28,049 INFO 79348 - Starting to get apps
+4.3.0 2025-07-02 02:53:28,288 ERROR 79348 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-03 02:38:45,108 INFO 97156 - Starting to get apps
+4.3.0 2025-07-03 02:38:45,391 ERROR 97156 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-06 17:20:53,387 INFO 121088 - Starting to get apps
+4.3.0 2025-07-06 17:20:53,816 ERROR 121088 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-07 01:00:01,615 INFO 44092 - Starting to get apps
+4.3.0 2025-07-07 01:00:01,867 ERROR 44092 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-08 01:00:02,802 INFO 147716 - Starting to get apps
+4.3.0 2025-07-08 01:00:03,173 ERROR 147716 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-09 01:00:02,828 INFO 4752 - Starting to get apps
+4.3.0 2025-07-09 01:00:03,170 ERROR 4752 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 00:59:43,082 INFO 189460 - Starting to get apps
+4.3.0 2025-07-10 00:59:43,394 ERROR 189460 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-10 01:00:01,110 INFO 193456 - Starting to get apps
+4.3.0 2025-07-10 01:00:01,436 ERROR 193456 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-11 01:00:02,776 INFO 213700 - Starting to get apps
+4.3.0 2025-07-11 01:00:03,074 ERROR 213700 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-12 01:00:02,725 INFO 239428 - Starting to get apps
+4.3.0 2025-07-12 01:00:03,036 ERROR 239428 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-13 01:00:02,733 INFO 255856 - Starting to get apps
+4.3.0 2025-07-13 01:00:03,026 ERROR 255856 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
+4.3.0 2025-07-14 01:00:02,821 INFO 147316 - Starting to get apps
+4.3.0 2025-07-14 01:00:03,197 ERROR 147316 - Could not make request to Splunk: [HTTP 401] Client is not authenticated
+Traceback (most recent call last):
+  File "C:\Program Files\Splunk\etc\apps\python_upgrade_readiness_app\bin\pura_scan_apps.py", line 45, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "C:\Program Files\Splunk\Python-3.7\lib\site-packages\splunk\rest\__init__.py", line 643, in simpleRequest
+    raise splunk.AuthenticationFailed
+splunk.AuthenticationFailed: [HTTP 401] Client is not authenticated
