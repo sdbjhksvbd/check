@@ -1,0 +1,4 @@
+0	3	  1817	1751278024	1751278815	1751278816	
+1	source::C:\Program Files\Splunk\var\log\splunk\metrics.log	  1714	1751278024	1751278793	1751278793	
+2	source::C:\Program Files\Splunk\var\log\introspection\disk_objects.log	 18	1751278080	1751278680	1751278681	
+3	source::C:\Program Files\Splunk\var\log\introspection\resource_usage.log	 85	1751278095	1751278815	1751278816	
