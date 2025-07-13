@@ -1,0 +1,11 @@
+{
+  "id": "remote-manage-config-page",
+  "version": "1.0.10-20230707-1926Z-2f27855f",
+  "main": "index.js",
+  "apiVersion": "0.0.1",
+  "peerDependencies": {
+    "react": "^16.12",
+    "react-dom": "^16.12",
+    "styled-components": "~5.1.0"
+  }
+}
