@@ -1,0 +1,6 @@
+# SPLUNK_HOME=C:\Program Files\Splunk
+[default]
+SPLUNK_SERVER_NAME =Splunkd
+
+PYTHONUTF8 = 1
+
