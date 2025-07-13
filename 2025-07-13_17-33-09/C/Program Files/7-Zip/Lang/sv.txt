@@ -1,0 +1,514 @@
+ï»¿;!@Lang2@!UTF-8!
+;       : Andreas M Nilsson, Christoffer Enqvist
+;  4.59 : Bernhard Eriksson
+; 22.00 : (2022-06-20) Mikael Hiort af OrnÃ¤s
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Swedish
+Svenska
+401
+OK
+Avbryt
+
+
+
+&Ja
+&Nej
+&StÃ¤ng
+HjÃ¤lp
+
+F&ortsÃ¤tt
+440
+Ja till &alla
+Nej till a&lla
+Stoppa
+Starta om
+&Bakgrunden
+&FÃ¶rgrunden
+&Pausa
+Pausad
+Ã„r du sÃ¤ker pÃ¥ att du vill avbryta?
+500
+&Arkiv
+&Redigera
+&Visa
+&Favoriter
+Verkt&yg
+&HjÃ¤lp
+540
+&Ã–ppna
+Ã–ppna &internt
+Ã–ppna &externt
+&Visa
+&Redigera
+&Byt namn
+&Kopiera till...
+&Flytta till...
+&Ta bort
+&Dela upp fil...
+&Sammanfoga filer...
+E&genskaper
+Komme&ntera
+BerÃ¤kna kontrollsumma
+Differens
+Skapa mapp
+Skapa fil
+&Avsluta
+Skapa lÃ¤nk
+&Alternativa datastrÃ¶mmar
+600
+Markera &alla
+Avmarkera alla
+&Invertera markering
+Markera...
+Avmarkera...
+Markera efter typ
+Avmarkera efter typ
+700
+St&ora ikoner
+Sm&Ã¥ ikoner
+&Lista
+&Detaljerad lista
+730
+Osorterad
+Platt vy
+&TvÃ¥ paneler
+&VerktygsfÃ¤lt
+Ã–ppna rotmappen
+Upp en nivÃ¥
+Mapphistorik...
+&Uppdatera
+Uppdatera automatiskt
+750
+VerktygsfÃ¤ltet Arkiv
+VerktygsfÃ¤ltet Standard
+Stora knappar
+Visa knapptext
+800
+&LÃ¤gg till i mappen i Favoriter som
+BokmÃ¤rke
+900
+&Alternativ...
+&PrestandamÃ¥tt
+960
+&HjÃ¤lp...
+&Om 7-Zip...
+1003
+SÃ¶kvÃ¤g
+Namn
+FilÃ¤ndelse
+Mapp
+Storlek
+Komprimerad storlek
+Attribut
+Skapad
+AnvÃ¤nd
+Ã„ndrad
+Enhetlig
+Kommenterad
+Krypterad
+Delad fÃ¶re
+Delad efter
+Ordlista
+
+Typ
+Anti
+Metod
+VÃ¤rdoperativsystem
+Filsystem
+AnvÃ¤ndare
+Grupp
+Block
+Kommentar
+Position
+SÃ¶kvÃ¤gsprefix
+Mappar
+Filer
+Version
+Volym
+Flervolym
+FÃ¶rskjutning
+LÃ¤nkar
+Block
+Volymer
+
+64-bitars
+Big-endian
+CPU
+Fysisk storlek
+Huvudets storlek
+Kontrollsumma
+Egenskaper
+Virtuell adress
+ID
+Kortnamn
+Upphovsprogram
+Sektorstorlek
+LÃ¤ge
+Symbolisk lÃ¤nk
+Fel
+Total storlek
+Ledigt utrymme
+Klusterstorlek
+Etikett
+Lokalt namn
+LeverantÃ¶r
+NT-sÃ¤kerhet
+Alternativ datastrÃ¶m
+Aux
+Borttagen
+Ã„r trÃ¤d
+
+
+Feltyp
+Fel
+Fel
+Varningar
+Varning
+DatastrÃ¶mmar
+Alternativa datastrÃ¶mmar
+Storlek pÃ¥ alternativa datastrÃ¶mmar
+Virtuell storlek
+Dekomprimerad storlek
+Total fysisk storlek
+Volymindex
+Undertyp
+Kort kommentar
+Teckentabell
+
+
+
+Storlek pÃ¥ filslut
+Storlek pÃ¥ inbÃ¤ddad stub
+LÃ¤nk
+HÃ¥rd lÃ¤nk
+I-nod
+
+Skrivskyddad
+
+Kopiera lÃ¤nk
+
+
+Metadata Ã¤ndrad
+2100
+Alternativ
+SprÃ¥k
+SprÃ¥k:
+Redigerare
+&Redigerare:
+&Differens:
+2200
+System
+Associera 7-Zip med fÃ¶ljande filtyper:
+Alla anvÃ¤ndare
+2301
+LÃ¤gg till i 7-Zip som alternativ i Utforskarens snabbmeny
+Placera 7-Zip som en undermeny
+Objekt i snabbmenyn:
+Visa ikoner i snabbmenyn
+2320
+<Mapp>
+<Arkiv>
+Ã–ppna arkiv
+Packa upp filer...
+LÃ¤gg till i arkiv...
+Kontrollera arkivet
+Packa upp hÃ¤r
+Packa upp till {0}
+LÃ¤gg till i {0}
+Komprimera och skicka som e-post...
+Komprimera till {0} och skicka som e-post
+2400
+Mappar
+&Arbetsmapp
+&Systemets mapp fÃ¶r temporÃ¤ra filer
+A&ktuell mapp
+&VÃ¤lj mapp:
+AnvÃ¤nd enbart fÃ¶r &flyttbara enheter
+Ange plats dÃ¤r temporÃ¤ra arkivfiler ska sparas.
+2500
+InstÃ¤llningar
+Visa objektet ".." (gÃ¥ till Ã¶verordnad mapp)
+Visa riktiga filikoner
+Visa systemmenyn
+Markera &hel rad
+Visa &stÃ¶dlinjer
+Enkelklick fÃ¶r att Ã¶ppna objekt
+&Alternativt markeringslÃ¤ge
+AnvÃ¤nd &stora minnessidor
+2900
+Om 7-Zip
+7-Zip Ã¤r fri och gratis programvara.
+3000
+Systemet kan inte allokera den begÃ¤rda minnesmÃ¤ngden
+Inga fel pÃ¥trÃ¤ffades
+{0} objekt markerade
+Det gÃ¥r inte att skapa mappen '{0}'
+UppdateringsÃ¥tgÃ¤rder stÃ¶ds inte fÃ¶r det hÃ¤r arkivet.
+Det gÃ¥r inte att Ã¶ppna filen '{0}' som ett arkiv
+Det gÃ¥r inte att Ã¶ppna det krypterade arkivet '{0}'. Fel lÃ¶senord?
+Arkivtypen stÃ¶ds inte
+Filen '{0}' finns redan
+Filen '{0}' har blivit Ã¤ndrad.\nVill du uppdatera den i arkivet?
+Det gÃ¥r inte att uppdatera filen\n'{0}'
+Det gÃ¥r inte att starta redigeraren.
+Filen verkar vara ett virus (filnamnet innehÃ¥ller lÃ¥nga mellanslag).
+Ã…tgÃ¤rden kan inte utfÃ¶ras frÃ¥n en mapp med en sÃ¥ lÃ¥ng sÃ¶kvÃ¤g.
+Du mÃ¥ste vÃ¤lja en fil
+Du mÃ¥ste vÃ¤lja en eller flera filer
+FÃ¶r mÃ¥nga objekt
+Det gÃ¥r inte att Ã¶ppna filen som ett {0}-arkiv
+Filen har Ã¶ppnats som ett {0}-arkiv
+Arkivet har Ã¶ppnats med fÃ¶rskjutning
+3300
+Packar upp
+Komprimerar
+Kontrollerar
+Ã–ppnar...
+Skannar...
+Tar bort
+3320
+LÃ¤gger till
+Uppdaterar
+Analyserar
+Replikerar
+Packar om
+Hoppar Ã¶ver
+Tar bort
+Skapar huvud
+3400
+Packa upp
+&Packa upp till:
+Ange sÃ¶kvÃ¤g fÃ¶r uppackade filer.
+3410
+&SÃ¶kvÃ¤gslÃ¤ge:
+FullstÃ¤ndiga sÃ¶kvÃ¤gar
+Inga sÃ¶kvÃ¤gar
+Absoluta sÃ¶kvÃ¤gar
+Relativa sÃ¶kvÃ¤gar
+3420
+&Ã–verskrivningslÃ¤ge:
+FrÃ¥ga fÃ¶re Ã¶verskrivning
+Skriv Ã¶ver utan att frÃ¥ga
+Hoppa Ã¶ver befintliga filer
+Byt namn automatiskt
+Byt namn pÃ¥ befintliga filer automatiskt
+3430
+Skapa ingen dubblett av rotmappen
+Ã…terstÃ¤ll filsÃ¤kerhet
+3440
+Sprid Zone.Id-strÃ¶m:
+FÃ¶r Office-filer
+3500
+BekrÃ¤fta Ã¶verskrivning av fil
+MÃ¥lmappen innehÃ¥ller redan den behandlade filen.
+Vill du skriva Ã¶ver den befintliga filen
+med den hÃ¤r?
+{0} byte
+Byt namn a&utomatiskt
+3700
+Komprimeringsmetoden stÃ¶ds inte fÃ¶r '{0}'.
+Datafel i '{0}'. Filen Ã¤r korrupt.
+CRC-fel i '{0}'. Filen Ã¤r korrupt.
+Datafel i den krypterade filen '{0}'. Fel lÃ¶senord?
+CRC-fel i den krypterade filen '{0}'. Fel lÃ¶senord?
+3710
+Fel lÃ¶senord?
+3721
+Komprimeringsmetoden stÃ¶ds inte
+Datafel
+CRC-fel
+Data Ã¤r inte tillgÃ¤nglig
+OvÃ¤ntat dataslut
+Det finns data efter nyttolastdataslutet
+Ã„r inte ett arkiv
+Fel i huvudet
+Fel lÃ¶senord
+3763
+Arkivets bÃ¶rjan Ã¤r inte tillgÃ¤nglig
+Arkivets bÃ¶rjan har inte bekrÃ¤ftats
+
+
+
+Funktionen stÃ¶ds inte
+3800
+Ange lÃ¶senord
+Ange lÃ¶senord:
+Upprepa lÃ¶senord:
+&Visa lÃ¶senord
+LÃ¶senorden stÃ¤mmer inte Ã¶verens
+AnvÃ¤nd endast engelska bokstÃ¤ver, siffror och specialtecken (!, #, $, ...) till lÃ¶senord
+LÃ¶senordet Ã¤r fÃ¶r lÃ¥ngt
+LÃ¶senord
+3900
+FÃ¶rfluten tid:
+Ã…terstÃ¥ende tid:
+Total storlek:
+Hastighet:
+Bearbetat:
+Komprimeringsgrad:
+Fel:
+Arkiv:
+4000
+LÃ¤gg till i arkiv
+&Arkiv:
+&UppdateringslÃ¤ge:
+Arkiv&format:
+Komprimeringsniv&Ã¥:
+&Komprimeringsmetod:
+Storlek pÃ¥ &ordlista:
+Storlek pÃ¥ o&rd:
+Storlek pÃ¥ enhetliga block:
+Antal CPU-trÃ¥dar:
+&Parametrar:
+Alternativ
+Skapa sj&Ã¤lvuppackande arkiv
+Komprimera delade filer
+Kryptering
+Krypteringsmetod:
+Kryptera fil&namn
+MinnesanvÃ¤ndning vid komprimering:
+MinnesanvÃ¤ndning vid dekomprimering:
+Ta bort filer efter komprimering
+4040
+Arkivera symboliska lÃ¤nkar utan komprimering
+Arkivera hÃ¥rda lÃ¤nkar utan komprimering
+Arkivera alternativa datastrÃ¶mmar utan komprimering
+Arkivera filsÃ¤kerhet utan komprimering
+4050
+Ingen komprimering
+Snabbaste
+Snabb
+Normal
+Maximal
+Ultra
+4060
+LÃ¤gg till och ersÃ¤tt filer
+LÃ¤gg till och uppdatera befintliga filer
+Uppdatera enbart befintliga filer
+Synkronisera filer
+4070
+BlÃ¤ddra
+Alla filer
+Icke enhetlig
+Enhetlig
+4080
+Tid
+TidsstÃ¤mpelprecision:
+Lagra Ã¤ndringstid
+Lagra skapandetid
+Lagra senaste Ã¥tkomsttid
+Ange den senaste filtiden som arkivets tid
+Ã„ndra inte kÃ¤llfilers senaste Ã¥tkomsttider
+4090
+s
+ns
+6000
+Kopiera
+Flytta
+Kopiera till:
+Flytta till:
+Kopierar...
+Flyttar...
+Byter namn...
+VÃ¤lj mÃ¥lmapp.
+Ã…tgÃ¤rden stÃ¶ds inte fÃ¶r den hÃ¤r mappen.
+Ett fel uppstod vid byte av namn pÃ¥ fil eller mapp
+BekrÃ¤fta kopiering av fil
+Ã„r du sÃ¤ker pÃ¥ att du vill kopiera filerna till arkivet
+6100
+BekrÃ¤fta borttagning av fil
+BekrÃ¤fta borttagning av mapp
+BekrÃ¤fta borttagning av flera filer
+Ã„r du sÃ¤ker pÃ¥ att du vill ta bort '{0}'?
+Ã„r du sÃ¤ker pÃ¥ att du vill ta bort mappen '{0}' och allt dess innehÃ¥ll?
+Ã„r du sÃ¤ker pÃ¥ att du vill ta bort de hÃ¤r {0} objekten?
+Tar bort...
+Ett fel uppstod under borttagning av fil eller mapp
+Systemet kan inte flytta en fil med sÃ¥ lÃ¥ng sÃ¶kvÃ¤g till papperskorgen
+6300
+Skapa mapp
+Skapa fil
+Mappnamn:
+Filnamn:
+Ny mapp
+Ny fil
+Fel vid skapande av mapp
+Fel vid skapande av fil
+6400
+Kommentar
+&Kommentar:
+Markera
+Avmarkera
+Filter:
+6600
+Egenskaper
+Mapphistorik
+Diagnostikmeddelanden
+Meddelande
+7100
+Dator
+NÃ¤tverk
+Dokument
+System
+7200
+LÃ¤gg till
+Packa upp
+Testa
+Kopiera
+Flytta
+Ta bort
+Egenskaper
+7300
+Dela upp fil
+&Dela upp till:
+Dela upp i &volymer, byte:
+Delar upp...
+BekrÃ¤fta uppdelning
+Ã„r det sÃ¤kert du vill dela upp filen i {0} volymer?
+Volymstorleken mÃ¥ste vara mindre Ã¤n storleken pÃ¥ originalfilen.
+Felaktig volymstorlek.
+Angiven volymstorlek: {0} byte.\nÃ„r du sÃ¤ker du vill dela arkivet i sÃ¥dana delar?
+7400
+Sammanfoga filer
+&Sammanfoga till:
+Sammanfogar...
+Markera bara fÃ¶rsta delen av den delade filen
+Det gÃ¥r inte att identifiera filen som en del av en uppdelad fil
+Det gÃ¥r inte att hitta mer Ã¤n en del av den uppdelade filen
+7500
+BerÃ¤knar kontrollsumma...
+Kontrollsummeinformation
+CRC-kontrollsumma fÃ¶r data:
+CRC-kontrollsumma fÃ¶r data och namn:
+7600
+PrestandamÃ¥tt
+MinnesanvÃ¤ndning:
+Komprimering
+Dekomprimering
+Prestanda
+Prestandaresultat
+Aktuellt
+Resultat
+CPU-anv.
+Prest./Anv.
+OmgÃ¥ngar:
+7700
+LÃ¤nk
+Skapa lÃ¤nk
+LÃ¤nk frÃ¥n:
+LÃ¤nk till:
+7710
+LÃ¤nktyp
+HÃ¥rd lÃ¤nk
+Symbolisk fillÃ¤nk
+Symbolisk kataloglÃ¤nk
+Katalogknutpunkt
