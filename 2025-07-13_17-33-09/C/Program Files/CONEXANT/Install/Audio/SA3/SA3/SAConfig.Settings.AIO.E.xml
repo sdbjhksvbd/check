@@ -1,0 +1,4 @@
+<SmartAudioConfiguration>
+  <!-- exclude EP -->
+  <EnumerateHDMIEndpoints>false</EnumerateHDMIEndpoints>
+</SmartAudioConfiguration>
