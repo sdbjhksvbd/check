@@ -1,0 +1,4 @@
+import{o as v,p as c}from"./chunk-7UHH6O2S.js";import{f as o,g as l,j as i,k as t,l as a,r as d}from"./chunk-JNNA6YYS.js";import{c as _,d as f}from"./chunk-GECC65SD.js";import{i as r}from"./chunk-FOXWPXSG.js";var m=r(f(),1),C=r(f(),1),s=r(_(),1),S=r(_(),1),M={};o(M,{default:()=>n});l(M,C);var g,x,n=(x=(g=m.default)==null?void 0:g.default)!=null?x:m.default,b=d(n)`
+    margin-bottom: 0px;
+    margin-top: 3px;
+`,G=({errors:e,errorA11yToggle:L,appearance:h="default"})=>{let p=(0,i.useMemo)(()=>e.length?e.length===1?e[0]:(0,a._)("Please correct the following errors: "):"",[e]);return p?t.createElement(c,{appearance:h,type:"error","aria-live":"assertive",role:"alert","aria-atomic":!0},(0,a._)(p),L?"":v,e.length>1&&t.createElement(b,null,e.map(u=>t.createElement(n.Item,{key:u},(0,a._)(u))))):t.createElement(t.Fragment,null)},P=G,y={};o(y,{default:()=>k});l(y,S);var E,I,k=(I=(E=s.default)==null?void 0:E.default)!=null?I:s.default;export{P as a,k as b};
