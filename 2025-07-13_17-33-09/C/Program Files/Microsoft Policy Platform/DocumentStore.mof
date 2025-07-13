@@ -1,0 +1,148 @@
+/******************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF provider registration for LPA Document Store provider
+
+******************************************************************************/
+
+#pragma autorecover
+#pragma classflags("forceupdate")
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// providers
+
+// Remove old provider registration
+#pragma deleteclass("Win32_ProviderEx", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents:Win32_ProviderEx.Name=\"PolicyPlatform_DocumentStore\"'", nofail)
+#pragma deleteinstance("__MethodProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents:Win32_ProviderEx.Name=\"PolicyPlatform_DocumentStore\"'", nofail)
+
+// Create new provider registration
+instance of __Win32Provider as $DocStoreProvider
+{
+    Name = "PolicyPlatform_DocumentStore";
+
+    HostingModel = "SelfHost";
+
+    ClsId = "{12F246F3-DF68-4252-AE6B-07B9CF73B99A}";
+
+    DefaultMachineName = NULL;
+
+    ClientLoadableCLSID = NULL;
+
+    ImpersonationLevel = 1;
+
+    InitializationReentrancy = 0;
+
+    InitializeAsAdminFirst = TRUE;
+
+    PerLocaleInitialization = FALSE;
+
+    PerUserInitialization = FALSE;
+
+    Pure = TRUE;
+    
+    Version = 1;
+
+    UnloadTimeout = NULL;
+}; 
+
+instance of __InstanceProviderRegistration
+{
+    Provider = $DocStoreProvider;
+
+    SupportsPut = TRUE;
+    SupportsGet = TRUE;
+    SupportsDelete = FALSE;
+    SupportsEnumeration = TRUE;
+
+    QuerySupportLevels = {"WQL:UnarySelect"};
+
+};
+
+instance of __MethodProviderRegistration
+{
+    Provider = $DocStoreProvider;
+};
+
+//
+// Registration methods on DocumentStore
+//
+[
+    Dynamic,
+    Provider("PolicyPlatform_DocumentStore"),
+    Description("Registration.")
+]
+class PolicyPlatform_Registration
+{
+    [
+        Static,
+        Implemented,
+        Description("Registers strategy document with policy platform.")
+    ]
+    uint32 RegisterStrategy(
+        [in, Description("Authority of the strategy document")] string StrategyAuthority,
+        [in, Description("Name of the strategy document")] string StrategyName,
+        [in, Description("Authority of policy documents whose rules will be prioritized by the strategy document")] string PolicyAuthority);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local")
+
+
+//////////////////////////////////////////////////////////////////////////////
+// providers
+
+// Remove old provider registration
+#pragma deleteclass("Win32_ProviderEx", nofail)
+#pragma deleteinstance("__InstanceProviderRegistration.provider='\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents\\Local:Win32_ProviderEx.Name=\"PolicyPlatform_LocalStore\"'", nofail)
+
+// Create new provider registration
+instance of __Win32Provider as $DocStoreProviderBack
+{
+    Name = "PolicyPlatform_LocalStore";
+
+    HostingModel = "SelfHost";
+
+    ClsId = "{12F246F3-DF68-4252-AE6B-07B9CF73B99A}";
+
+    DefaultMachineName = NULL;
+
+    ClientLoadableCLSID = NULL;
+
+    ImpersonationLevel = 1;
+
+    InitializationReentrancy = 0;
+
+    InitializeAsAdminFirst = TRUE;
+
+    PerLocaleInitialization = FALSE;
+
+    PerUserInitialization = FALSE;
+
+    Pure = TRUE;
+
+    Version = 1;
+
+    UnloadTimeout = NULL;
+};
+
+instance of __InstanceProviderRegistration
+{
+    Provider = $DocStoreProviderBack;
+
+    SupportsPut = TRUE;
+    SupportsGet = TRUE;
+    SupportsDelete = TRUE;
+    SupportsEnumeration = TRUE;
+
+    QuerySupportLevels = {"WQL:UnarySelect"};
+
+};
+
