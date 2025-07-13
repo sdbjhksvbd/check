@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adres</s>
+  <s _locID="Classification.Address.Description">De beschrijving van de locatie van een persoon of organisatie, als routebeschrijving voor bezorging</s>
+  <s _locID="Classification.Address.Group">Geografie</s>
+  <s _locID="Classification.City.LabelName">Stad</s>
+  <s _locID="Classification.City.Description">Een permanent stedelijk gebied voor bevolking, handel en cultuur</s>
+  <s _locID="Classification.City.Group">Geografie</s>
+  <s _locID="Classification.Continent.LabelName">Continent</s>
+  <s _locID="Classification.Continent.Description">Een van de voornaamste uitgestrekte grondgebieden op aarde</s>
+  <s _locID="Classification.Continent.Group">Geografie</s>
+  <s _locID="Classification.Country.LabelName">Land/regio</s>
+  <s _locID="Classification.Country.Description">Een natie of staat</s>
+  <s _locID="Classification.Country.Group">Geografie</s>
+  <s _locID="Classification.County.LabelName">Graafschap</s>
+  <s _locID="Classification.County.Description">Een lokale overheidsregio die deel uitmaakt van een provincie of staat</s>
+  <s _locID="Classification.County.Group">Geografie</s>
+  <s _locID="Classification.PostalCode.LabelName">Postcode</s>
+  <s _locID="Classification.PostalCode.Description">Een reeks letters en/of cijfers die worden toegevoegd aan een postadres voor vergemakkelijking van de postbezorging</s>
+  <s _locID="Classification.PostalCode.Group">Geografie</s>
+  <s _locID="Classification.StateorProvince.LabelName">Provincie of staat</s>
+  <s _locID="Classification.StateorProvince.Description">Een territorium met een eigen bestuurlijke en politieke eenheid in een land.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografie</s>
+  <s _locID="Classification.ImageURL.LabelName">Afbeeldings-URL</s>
+  <s _locID="Classification.ImageURL.Description">Een URL (Uniform Resource Locator) die naar een afbeelding verwijst</s>
+  <s _locID="Classification.ImageURL.Group">Afbeelding</s>
+  <s _locID="Classification.WebUrl.LabelName">Web-URL</s>
+  <s _locID="Classification.WebUrl.Description">Een URL (Uniform Resource Locator) die naar een internetlocatie verwijst</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Afbeelding</s>
+  <s _locID="Classification.Image.Description">Een foto of een andere afbeelding, vaak in de bestandsindeling JPEG, GIF of BMP</s>
+  <s _locID="Classification.Image.Group">Afbeelding</s>
+  <s _locID="Classification.Latitude.LabelName">Breedtegraad</s>
+  <s _locID="Classification.Latitude.Description">De geografische coÃ¶rdinaat waarmee de noord-zuidpositie op het aardoppervlak wordt bepaald</s>
+  <s _locID="Classification.Latitude.Group">Geografie</s>
+  <s _locID="Classification.Longitude.LabelName">Lengtegraad</s>
+  <s _locID="Classification.Longitude.Description">De geografische coÃ¶rdinaat waarmee de oost-westpositie op het aardoppervlak wordt bepaald</s>
+  <s _locID="Classification.Longitude.Group">Geografie</s>
+  <s _locID="Classification.Place.LabelName">Plaats</s>
+  <s _locID="Classification.Place.Description">Een geografisch gebied of punt</s>
+  <s _locID="Classification.Place.Group">Geografie</s>
+  <s _locID="Classification.Organization.LabelName">Organisatie</s>
+  <s _locID="Classification.Organization.Description">Een groep personen die voor een bepaald doel bij elkaar zijn ingedeeld; een netwerk</s>
+  <s _locID="Classification.Organization.Group">Organisatie</s>
+  <s _locID="Classification.Company.LabelName">Bedrijf</s>
+  <s _locID="Classification.Company.Description">Een zakelijke onderneming</s>
+  <s _locID="Classification.Company.Group">Organisatie</s>
+  <s _locID="Classification.Product.LabelName">Product</s>
+  <s _locID="Classification.Product.Description">Iets wat wordt geproduceerd, verbouwd of verworven zodat het kan worden verkocht</s>
+  <s _locID="Classification.Product.Group">Product</s>
+  <s _locID="Classification.Date.LabelName">Datum</s>
+  <s _locID="Classification.Date.Description">De tijd genoteerd in de vorm van een dag, maand, kwartaal of jaar</s>
+  <s _locID="Classification.Date.Group">Kalender</s>
+</strings>
