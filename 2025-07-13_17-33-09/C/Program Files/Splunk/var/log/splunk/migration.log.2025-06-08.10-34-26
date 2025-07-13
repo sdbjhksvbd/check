@@ -1,0 +1,84 @@
+
+Migrating to:
+VERSION=8.2.0
+BUILD=e053ef3c985f
+PRODUCT=splunk
+PLATFORM=Windows-AMD64
+
+Copying 'C:\Program Files\Splunk\etc\myinstall\splunkd.xml' to 'C:\Program Files\Splunk\etc\myinstall\splunkd.xml-migrate.bak'.
+
+Checking saved search compatibility...
+
+Checking for possible timezone configuration errors...
+
+Handling deprecated files...
+
+Checking script configuration...
+
+
+Handling Windows scripted inputs...
+
+Copying 'C:\Program Files\Splunk\etc\myinstall\splunkd.xml.cfg-default' to 'C:\Program Files\Splunk\etc\myinstall\splunkd.xml'.
+Deleting 'C:\Program Files\Splunk\etc\system\local\field_actions.conf'.
+
+The following apps might contain lookup table files that are not exported to other apps:
+
+	splunk_monitoring_console
+
+Such lookup table files could only be used within their source app.  To export them globally and allow other apps to access them, add the following stanza to each C:\Program Files\Splunk\etc\apps\<app_name>\metadata\local.meta file:
+
+	[lookups]
+	export = system
+
+For more information, see http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/SetPermissions#Make_objects_globally_available.
+
+Checking for possible UI view conflicts...
+ App "splunk_monitoring_console" has an overriding copy of the "alerts.xml" view, thus the new version may not be in effect. location=C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\default\data\ui\views
+ App "splunk_monitoring_console" has an overriding copy of the "reports.xml" view, thus the new version may not be in effect. location=C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\default\data\ui\views
+ App "splunk_monitoring_console" has an overriding copy of the "dashboards.xml" view, thus the new version may not be in effect. location=C:\Program Files\Splunk\etc\apps\splunk_monitoring_console\default\data\ui\views
+Removing legacy manager XML files...
+Removing legacy nav XML files...
+DMC is not set up, no need to migrate nav bar.
+Removing System Activity dashboards...
+Removing splunkclouduf XML file...
+Removing splunkclouduf view XML files...
+Distributed Search is not configured on this instance
+Removing legacy search.xml file from splunk_instrumentation...
+Deleting 'C:\Program Files\Splunk\share\splunk\search_mrsparkle\modules'.
+Moving 'C:\Program Files\Splunk\share\splunk\search_mrsparkle\modules.new' to 'C:\Program Files\Splunk\share\splunk\search_mrsparkle\modules'.
+
+Checking for the modules related files and folders that should not be present after upgrade.
+
+Checking for the Advanced XML dashboard templates that should not be present after upgrade.
+
+Checking for the 'Getting Started' app that should not be present after upgrade.
+
+Running migration for [cacheTiming] of scripted authentication....
+
+
+
+It seems that the Splunk default certificates are being used. If certificate validation is turned on using the default certificates (not-recommended), this may result in loss of communication in mixed-version Splunk environments after upgrade.
+
+"C:\Program Files\Splunk\etc\auth\ca.pem": already a renewed Splunk certificate: skipping renewal
+"C:\Program Files\Splunk\etc\auth\cacert.pem": already a renewed Splunk certificate: skipping renewal
+Clustering migration already complete, no further changes required.
+
+Generating checksums for datamodel and report acceleration bucket summaries for all indexes.
+If you have defined many indexes and summaries, summary checksum generation may take a long time.
+Processed 1 out of 10 configured indexes.
+Processed 2 out of 10 configured indexes.
+Processed 3 out of 10 configured indexes.
+Processed 4 out of 10 configured indexes.
+Processed 5 out of 10 configured indexes.
+Processed 6 out of 10 configured indexes.
+Processed 7 out of 10 configured indexes.
+Processed 8 out of 10 configured indexes.
+Processed 9 out of 10 configured indexes.
+Processed 10 out of 10 configured indexes.
+Finished generating checksums for datamodel and report acceleration bucket summaries for all indexes.
+[App Key Value Store migration] Checking if migration is needed. Upgrade type 1. This can take up to 600seconds.
+[App Key Value Store migration] Migration is not required.
+[App Key Value Store migration] Checking if migration is needed. Upgrade type 2. This can take up to 600seconds.
+[App Key Value Store migration] Migration is not required.
+[DFS] Performing migration.
+[DFS] Finished migration.
