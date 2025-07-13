@@ -1,0 +1,495 @@
+ï»¿;!@Lang2@!UTF-8!
+; 20.02 : 2020-10-20 : Shamsiddinov Zafar
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Uzbek
+Oâ€˜zbekcha
+401
+OK
+Bekor qilmoq
+
+
+
+&Ha
+&Yoâ€˜q
+&Yopmoq
+Koâ€˜mak
+
+&Davom etmoq
+440
+Bariga &ha
+Bariga &yoâ€˜q
+Toâ€˜xtatmoq
+Qaytadan
+&Fonda
+&Fonda emas
+&Pauza qilmoq
+Pauza qilindi
+Bekor qilinsinmi?
+500
+&Fayl
+&Tahrirlamoq
+&Koâ€˜rinish
+&Tanlanganlar
+&Jihozlar
+&Koâ€˜mak
+540
+&Ochmoq
+&Ichkarida ochmoq
+&Tashqariga ochmoq
+&Koâ€˜rinish
+&Tahrirlamoq
+&Qayta nomlamoq
+&Quyidagiga nusxalamoq...
+&Quyidagiga koâ€˜chirmoq...
+&Olib tashlamoq
+&Faylni boâ€˜lmoq...
+&Fayllarni birlashtirmoq...
+&Xususiyatlar
+&Sharh...
+Yakuniy summa
+Taqqoslamoq
+Jild tuzmoq
+Fayl tuzmoq
+&Dasturdan chiqmoq
+Havola
+&Muqobil oqimlar
+600
+&Barini tanlamoq
+Barini tanlamaslik
+&Teskari tanlash
+Tanlamoq...
+Tanlamaslik...
+Turi boâ€˜yicha tanlamoq
+Turi boâ€˜yicha tanlamaslik
+700
+&Yirik ikonkalarda
+&Kichik ikonkalarda
+&Roâ€˜yxatsimon
+&Tafsilotli
+730
+Saralamaslik
+Bejirim koâ€˜rinish
+&2 ta panelda
+&Jihozlar
+Asosiy jildni ochmoq
+Bir pogâ€˜ona yuqoriga
+Jildlar tarixi...
+&Yangilamoq
+Avtomatik yangilamoq
+750
+Arxiv jihozini koâ€˜rsatmoq
+Standart jihozni koâ€˜rsatmoq
+Yirik tugmalarda koâ€˜rsatmoq
+Tugmalar matnini koâ€˜rsatmoq
+800
+&Tanlanganlarga jild qoâ€˜shmoq
+Xatchoâ€˜p
+900
+&Tanlovlar...
+&Samaradorlikni sinamoq
+960
+&Maâ€™lumotnoma...
+&7-Zip dasturi haqida...
+1003
+Yoâ€˜lak
+Nomi
+Kengaytmasi
+Jildi
+Hajmi
+Siqilgan hajmi
+Xossalari
+Tuzilgan sanasi
+Soâ€˜nggi murojaat
+Yangilangan sanasi
+Uzluksizligi
+Sharhlanganligi
+Shifrlanganligi
+Boâ€˜linishdan oldin
+Boâ€˜linishdan keyin
+Lugâ€˜at
+
+Turi
+Anti
+Uslub
+Tizim
+Fayl tizimi
+Foydalanuvchi
+Guruh
+Blok
+Sharh
+Oâ€˜rni
+Joylashuv prefiksi
+Jildlar
+Fayllar
+Versiya
+Jild
+Koâ€˜pjildli
+Aralash
+Havolalar
+Bloklar
+Jildlar
+
+64-bit
+Big-endian
+CPU
+Fizik hajmi
+Sarlavhalar hajmi
+Nazorat summasi
+Tafsilotlar
+Virtual Manzil
+ID
+Qisqacha nomi
+Ilova tuzuvchisi
+Sektor hajmi
+Uslubi
+Ramziy havola
+Xatolik
+Jami hajmi
+Boâ€˜sh joy
+Klaster hajmi
+Yorliq
+Mahalliy nomi
+Provayder
+NT Xavfsizlik
+Muqobil oqim
+Aux
+Olib tashlangan
+Shajara
+
+
+Xatolik turi
+Xatoliklar
+Xatolar
+Ogohlantirishlar
+Ogohlantirish
+Oqimlar
+Muqobil oqimlar
+Muqobil oqimlar hajmi
+Virtual hajmi
+Siqilmagan hajmi
+Jami fizik hajm
+Qism koâ€˜rsatkichi
+OstTur
+Qisqa sharh
+Kodlash
+
+
+
+Qoldiq hajmi
+Ichki blok hajmi
+Havola
+Mahkam havola
+iNode
+
+Faqat oâ€˜qishga
+2100
+Tanlovlar
+Til
+Dastur tilini tanlang:
+Muharrir
+&Tanlangan muharrir:
+&Taqqoslovchi dastur:
+2200
+Tizim
+7-Zip bilan birikkan formatlar:
+Barcha foyd-chilar
+2301
+7-Zip dasturini kontekst menyuga biriktirmoq
+Kontekst menyuni ichma-ich qilmoq
+Kontekst menyu tarkibi:
+Kontekst menyuda ikonkalar koâ€˜rinsin
+2320
+<Jild>
+<Arxiv>
+Arxivni ochmoq
+Fayllarni ajratmoq...
+Arxivga qoâ€˜shmoq...
+Arxivni sinamoq
+Bu yerga ajratmoq
+{0}ga ajratmoq
+{0}ga qoâ€˜shmoq
+Siqmoq va pochtaga joâ€˜natmoq...
+{0}ga siqmoq va pochta qilmoq
+2400
+Jildlar
+&Ishchi jild
+&Tizim vaqtinchalik jildi
+&Joriy
+&Tayinlamoq:
+Faqat olinuvchi (fleshka va shu kabilar) qurilmalardan foydalanmoq
+Vaqtinchalik arxivlar uchun joyni tayinlang.
+2500
+Tanlovlar
+".." elementini koâ€˜rsatmoq
+Asl fayl ikonkasini koâ€˜rsatmoq
+Tizim menyusini koâ€˜rsatmoq
+&Barcha satrlarda kursordan foydalanmoq
+&Qatorlarni chiziq bilan ajratmoq
+Elementni bir marta bosib ochmoq
+&Muqobil tanlash uslubidan foydalanmoq
+&Katta hajmli xotiradan foydalanmoq
+2900
+7-Zip dasturi haqida
+7-Zip bepul dasturiy taâ€™minot hisoblanadi.
+3000
+Tizim kerakli hajmdagi xotirani ajrata olmaydi.
+Xatolik mavjud emas!
+{0} ta element tanlangan
+'{0}' jildini tuzib boâ€˜lmadi.
+Ushbu arxiv turini yangilab boâ€˜lmaydi.
+'{0}' faylini arxiv kabi ochib boâ€˜laydi.
+Parollangan '{0}' arxivni ochib boâ€˜lmadi. Parol xatomasmikan?
+Nomaâ€™lum arxiv formati!
+{0} fayli allaqachon mavjud.
+'{0}' fayli yangilandi.\nBu faylni arxiv ichida yangilashni xohlaysizmi?
+Faylni yangilab boâ€˜lmadi\n'{0}'
+Muharrirni ochib boâ€˜lmadi.
+Fayl virusga oâ€˜xshaydi (fayl nomida uzun boâ€˜shliqlarni mavjud).
+Amaliyotni uzoq yoâ€˜lga ega boâ€˜lgan jilddan chaqirish mumkin emas.
+Bitta faylni tanlashingiz kerak
+Siz bir yoki bir nechta faylni tanlashingiz kerak
+Juda koâ€˜p narsalar tanlangan.
+{0} faylni arxiv kabi ochib boâ€˜lmadi.
+{0} fayli arxiv kabi ochilgan.
+Arxiv aralash tarzda ochilgan.
+3300
+Ajratilmoqda
+Siqilmoqda
+Sinalmoqda
+Ochilmoqda...
+Tekshirilmoqda...
+Olib tashlanmoqda
+3320
+Qoâ€˜shilmoqda
+Yangilanmoqda
+Tahlil qilinmoqda
+Koâ€˜chirilmoqda
+Qayta qadoqlanmoqda
+Oâ€˜tkazib yuborilmoqda
+Olib tashlanmoqda
+Sarlavha tuzilmoqda
+3400
+Ajratmoq
+&Quyidagiga ajratmoq:
+Ajratiladigan fayllar uchun joyni koâ€˜rsating.
+3410
+Yoâ€˜l rejimi:
+Toâ€˜liq yoâ€˜l nomlari
+Yoâ€˜l nomlari yoâ€˜q
+Mutlaq yoâ€˜l nomlari
+Nisbiy yoâ€˜l nomlari
+3420
+Qayta yozish rejimi:
+Yozishdan oldin soâ€˜ramoq
+Soâ€˜rovsiz qayta yozmoq
+Mavjud fayllarni oâ€˜tkazib yubormoq
+Avtomatik nomini oâ€˜zgartirmoq
+Mavjud fayllarning nomini avtomatik oâ€˜zgartirmoq
+3430
+Asosiy jildning takrorlanishini yoâ€˜q qilmoq
+Fayl xavfsizligini tiklamoq
+3500
+Faylni almashtirishni tasdiqlamoq
+Koâ€˜rsatilgan jildda allaqachon jarayon ketmoqda.
+Mavjud faylni almashtirmoq
+qaysi biriga?
+{0} bayt
+&Avtomatik qayta nomlamoq
+3700
+'{0}' uchun qoâ€˜llanilmaydigan siqish uslubi tanlangan.
+'{0}'dagi maâ€™lumotlar xatosi. Fayl buzilgan.
+CRC '{0}'da bajarilmadi. Fayl buzilgan.
+Shifrlangan '{0}' faylidagi maâ€™lumotlar xatosi. Parol notoâ€˜gâ€˜rimikan?
+'{0}' shifrlangan faylida CRC bajarilmadi. Parol notoâ€˜gâ€˜rimikan?
+3710
+Parol notoâ€˜gâ€˜rimi?
+3721
+Qoâ€˜llanilmaydigan siqish uslubi
+Maâ€™lumot xatoligi
+CRC bajarilmadi
+Mavjud boâ€˜lmagan maâ€™lumotlar
+Maâ€™lumotlarning kutilmagan tugashi
+Ma'lumotlarni yuklash tugaganidan keyin baâ€™zi ma'lumotlar mavjud.
+Arxiv emas
+Sarlavha xatosi
+Parol notoâ€˜gâ€˜ri
+3763
+Arxiv mavjud emas
+Arxivning tasdiqlanmagan boshlanishi
+
+
+
+Qoâ€˜llab-quvvatlanmaydigan xususiyat
+3800
+Parolni kiritmoq
+Parolni kiriting:
+Parolni qayta kiriting:
+& Parolni koâ€˜rsatish
+Parollar mos kelmaydi!
+Parol uchun faqat inglizcha harflar, raqamlar va maxsus belgilar (!, #, $, ...)dan foydalaning.
+Parol juda uzun!
+Parol
+3900
+Oâ€˜tgan vaqt:
+Qolgan vaqt:
+Jami hajm:
+Tezlik:
+Hajm:
+Siqish darajasi:
+Xatoliklar:
+Arxivlar:
+4000
+Arxivga qoâ€˜shmoq
+&Arxiv:
+&Yangilash uslubi:
+Arxiv &formati:
+Siqish &darajasi:
+Siqish &uslubi:
+&Lugâ€˜at hajmi:
+&Soâ€˜z hajmi:
+Blok hajmi:
+CPU oqimlari soni:
+&Koâ€˜rsatkichlar:
+Tanlovlar
+SF&X arxiv tuzmoq
+Ochiq fayllarni siqmoq
+Shifrlamoq
+Shifrlash uslubi:
+&Fayl nomini shifrlash
+Siqishda xotiradan foydalanish:
+Ajratishda xotiradan foydalanish:
+Siqib boâ€˜lingach fayl(lar)ni oâ€˜chirmoq
+4040
+Ramziy havolalarni saqlamoq
+Mahkam havolalarni saqlamoq
+Muqobil maâ€™lumot oqimlarini saqlamoq
+Kirish huquqini saqlamoq
+4050
+Siqmaslik
+Tezkor
+Tez
+Oâ€˜rtacha
+Kuchli
+Juda kuchli
+4060
+Fayllarni qoâ€˜shmoq va almashtirmoq
+Fayllarni yangilamoq va qoâ€˜shmoq
+Mavjud fayllarni yangilamoq
+Fayllarni sinxronlashtirmoq
+4070
+Koâ€˜rib chiqmoq
+Barcha fayllar
+Fayl hajmi boâ€˜yicha
+Uzluksizlik boâ€˜yicha
+6000
+Nusxalamoq
+Koâ€˜chirmoq
+Bunga nusxalamoq:
+Bunga koâ€˜chirmoq:
+Nusxalamoqda...
+Koâ€˜chirilmoqda...
+Qayta nomlanmoqda...
+Belgilangan jildni tanlang.
+Ushbu jildda operatsiya qoâ€˜llab-quvvatlanmaydi.
+Fayl yoki jildni qayta nomlashda xatolik yuz berdi.
+Fayl nusxasini tasdiqlang.
+Fayllarni arxivga koâ€˜chirishni xohlaysizmi?
+6100
+Faylni oâ€˜chirishni tasdiqlash
+Jildni oâ€˜chirishni tasdiqlash
+Bir nechta faylni oâ€˜chirishni tasdiqlash
+'{0}'ni oâ€˜chirishni xohlaysizmi?
+'{0}' jildini va barcha tarkibini oâ€˜chirishni xohlaysizmi?
+{0} ta elementni oâ€˜chirishni xohlaysizmi?
+Olib tashlanmoqda...
+Fayl yoki jildni oâ€˜chirishda xatolik yuz berdi.
+Tizim uzun yoâ€˜lli faylni Savatga koâ€˜chira olmaydi.
+6300
+Jild yaratmoq
+Fayl yaratmoq
+Jild nomi:
+Fayl nomi:
+Yangi jild
+Yangi fayl
+Jild yaratishda xatolik yuz berdi!
+Fayl yaratishda xatolik yuz berdi!
+6400
+Sharh
+&Sharh:
+Tanlamoq
+Tanlamaslik
+Niqob:
+6600
+Xususiyatlari
+Jildlar tarixi
+Diagnostik xabarlar
+Xabar
+7100
+Kompyuter
+Tarmoq
+Hujjatlar
+Tizim
+7200
+Qoâ€˜shmoq
+Ajratmoq
+Sinamoq
+Nusxalamoq
+Koâ€˜chirmoq
+Olib tashlamoq
+Maâ€™lumot
+7300
+Faylni boâ€˜lmoq
+&Boâ€˜lish:
+&Hajmlarga boâ€˜lish, baytlar:
+Boâ€˜linmoqda...
+Boâ€˜linishni tasdiqlang
+Haqiqatan ham faylni {0} ta qismga boâ€˜lishni xohlaysizmi?
+Qism hajmi asl fayl hajmidan kichik bo'lishi kerak!
+Qism hajmi notoâ€˜gâ€˜ri
+Belgilangan qism hajmi: {0} bayt. \nArxivni bunday hajmlarga boâ€˜lishni xohlaysizmi?
+7400
+Fayllarni birlashtirmoq
+&Birlashtirish:
+Birlashtirilmoqda...
+Ajratilgan faylning faqat birinchi qismini tanlang
+Fayl ajratilgan qism sifatida aniqlanmadi.
+Split faylning bir nechta qismini topib boâ€˜lmadi.
+7500
+Nazorat summasi hisoblanmoqda...
+Nazorat summasi toâ€˜gâ€˜risida
+Maâ€™lumotlar uchun CRC summasi:
+Maâ€™lumotlar va nomlar uchun CRC summasi:
+7600
+Samaradorlikni sinamoq
+Xotiradan foydalanish:
+Siqish
+Ajratish
+Reyting
+Jami reyting
+Joriy
+Yakuniy
+Yuklama
+Reyting / Yuklama
+Oâ€˜tilmalar:
+7700
+Havola
+Havola
+Havola manbai:
+Havola moâ€˜ljali:
+7710
+Havola turi
+Mahkam havola
+Ramziy havola fayli
+Ramziy havola jildi
+Bogâ€˜lanish nuqtasi
