@@ -1,0 +1,8 @@
+<SmartAudioConfiguration>
+  <DefaultSkin>SmartAudio.HP5Dot1.Default</DefaultSkin>
+
+  <SplitStreamingMode>3</SplitStreamingMode>
+  <ResetStreamingModesOnDefaultSettings>false</ResetStreamingModesOnDefaultSettings>
+  <ShowMixerPageBoost>true</ShowMixerPageBoost>
+  <HardCodedEndpointNames>true</HardCodedEndpointNames>
+</SmartAudioConfiguration>
