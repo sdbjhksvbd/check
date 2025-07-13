@@ -1,0 +1,76 @@
+sid,search,"splunk_server","_time","is_realtime",provenance,"api_et","api_lt","event_count","exec_time","result_count","scan_count","search_et","search_lt",status,"total_run_time","__mv_sid","__mv_search","__mv_splunk_server","__mv__time","__mv_is_realtime","__mv_provenance","__mv_api_et","__mv_api_lt","__mv_event_count","__mv_exec_time","__mv_result_count","__mv_scan_count","__mv_search_et","__mv_search_lt","__mv_status","__mv_total_run_time"
+"rt_md_1700569878.3","| metadata type=sourcetypes | search totalCount > 0","BEER-PC01","1700569878.620811",1,"UI:Search",,,0,1700569879,0,0,,,failed,"35.363",,,,,,,,,,,,,,,,
+"rt_md_1700569909.6","| metadata type=sourcetypes | search totalCount > 0","BEER-PC01","1700569909.756164",1,"UI:Search",,,0,1700569910,0,0,,,canceled,"11.17",,,,,,,,,,,,,,,,
+"1700569920.10","| inputlookup prices.csv","BEER-PC01","1700569920.631206",0,"UI:Search","1700481600.000000000","1700569920.000000000",0,1700569921,17,0,"1700481600.000000000","1700569920.000000000",completed,"0.065",,,,,,,,,,,,,,,,
+"1700569938.11","search source=""tutorialdata.zip:*"" | head 10","BEER-PC01","1700569938.682835",0,"UI:Search","1700481600.000000000","1700569938.000000000",0,1700569939,0,0,"1700481600.000000000","1700569938.000000000",completed,"0.113",,,,,,,,,,,,,,,,
+"1700569942.13","search source=""tutorialdata.zip:*""","BEER-PC01","1700569942.765339",0,"UI:Search","1700481600.000000000","1700569942.000000000",0,1700569943,0,0,"1700481600.000000000","1700569942.000000000",completed,"0.115",,,,,,,,,,,,,,,,
+"1700569950.14","search source=""tutorialdata.zip:*""","BEER-PC01","1700569950.025752",0,"UI:Search",,,85580,1700569950,0,85580,,,failed,"33.884",,,,,,,,,,,,,,,,
+"1700569953.16","search source=""tutorialdata.zip:*"" | head 10","BEER-PC01","1700569953.692498",0,"UI:Search",,,10,1700569954,10,50,,,completed,"0.213",,,,,,,,,,,,,,,,
+"1700570292.17","search source=""tutorialdata.zip:*""| stats mode(clientip) by date_mday| stats count by mode(clientip)","BEER-PC01","1700570292.290122",0,"UI:Search",,,109864,1700570292,3,109864,,,completed,"0.735",,,,,,,,,,,,,,,,
+"1700570323.19","search source=""tutorialdata.zip:*"" | stats mode(clientip) by date_mday","BEER-PC01","1700570323.041645",0,"UI:Search",,,109864,1700570323,8,109864,,,completed,"0.661",,,,,,,,,,,,,,,,
+"1700570368.21","search source=""tutorialdata.zip:*""","BEER-PC01","1700570368.752184",0,"UI:Search",,,109864,1700570369,7695,109864,,,completed,"4.41",,,,,,,,,,,,,,,,
+"1700570915.35","search source=""tutorialdata.zip:*"" | stats avg(date_mday) as avg_mday min(mday)","BEER-PC01","1700570915.176923",0,"UI:Search",,,109864,1700570915,1,109864,,,completed,"0.428",,,,,,,,,,,,,,,,
+"1700570927.36","search source=""tutorialdata.zip:*"" | stats avg(date_mday) as avg_mday min(date_mday) as min_mday","BEER-PC01","1700570927.440885",0,"UI:Search",,,109864,1700570927,1,109864,,,completed,"0.355",,,,,,,,,,,,,,,,
+"1700571000.39","search source=""tutorialdata.zip:*"" action=""purchase"" | stats avg(date_mday) as avg_mday min(date_mday) as min_mday","BEER-PC01","1700571000.292228",0,"UI:Search",,,5737,1700571000,1,5737,,,completed,"0.167",,,,,,,,,,,,,,,,
+"1700571024.40","search source=""tutorialdata.zip:*""  | stats avg(date_mday) as avg_mday min(date_mday) as min_mday | where action=""purchase""","BEER-PC01","1700571024.310269",0,"UI:Search",,,109864,1700571024,0,109864,,,completed,"0.34500000000000003",,,,,,,,,,,,,,,,
+"1700571038.42","search source=""tutorialdata.zip:*"" | stats avg(date_mday) as avg_mday min(date_mday) as min_mday","BEER-PC01","1700571038.081590",0,"UI:Search",,,109864,1700571038,1,109864,,,completed,"0.334",,,,,,,,,,,,,,,,
+"1700571170.43","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+|stats count(referer_domain) as count by referer_domain
+|sort -count 
+|head 1","BEER-PC01","1700571170.780441",0,"UI:Search",,,2713,1700571171,1,109864,,,completed,"0.562",,,,,,,,,,,,,,,,
+"1700571225.44","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+|stats count(referer_domain) as count_domain by referer_domain
+|sort -count","BEER-PC01","1700571225.040580",0,"UI:Search",,,2713,1700571225,3,109864,,,completed,"0.604",,,,,,,,,,,,,,,,
+"1700571229.45","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+|stats count(referer_domain) as count_domain by referer_domain
+|sort -count_domain","BEER-PC01","1700571229.951675",0,"UI:Search",,,2713,1700571230,3,109864,,,completed,"0.551",,,,,,,,,,,,,,,,
+"1700571301.46","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+|stats count(referer_domain) as count_domain by referer_domain
+| top referer_domain","BEER-PC01","1700571301.850655",0,"UI:Search",,,2713,1700571302,3,109864,,,completed,"0.885",,,,,,,,,,,,,,,,
+"1700571324.47","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+|stats count(referer_domain) as count_domain by referer_domain","BEER-PC01","1700571324.246873",0,"UI:Search",,,2713,1700571324,3,109864,,,completed,"0.541",,,,,,,,,,,,,,,,
+"1700571379.48","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+ |top referer_domain as top_referer","BEER-PC01","1700571379.665685",0,"UI:Search",,,2713,1700571379,0,109864,,,completed,"0.646",,,,,,,,,,,,,,,,
+"1700571386.49","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+ | top referer_domain","BEER-PC01","1700571386.470690",0,"UI:Search",,,2713,1700571386,3,109864,,,completed,"0.539",,,,,,,,,,,,,,,,
+"1700571396.50","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+ | top 1 referer_domain","BEER-PC01","1700571396.144635",0,"UI:Search",,,2713,1700571396,1,109864,,,completed,"0.561",,,,,,,,,,,,,,,,
+"1700571400.51","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+ | top  referer_domain","BEER-PC01","1700571400.159669",0,"UI:Search",,,2713,1700571400,3,109864,,,completed,"0.559",,,,,,,,,,,,,,,,
+"1700571431.52","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+ | top 1 referer_domain","BEER-PC01","1700571431.421594",0,"UI:Search",,,2713,1700571431,1,109864,,,completed,"0.578",,,,,,,,,,,,,,,,
+"1700571446.55","search source=""tutorialdata.zip:*"" referer_domain!=""http://www.buttercupgames.com""
+ | top 1 referer_domain | table refere_domain","BEER-PC01","1700571446.336295",0,"UI:Search",,,2713,1700571446,0,109864,,,completed,"0.622",,,,,,,,,,,,,,,,
+"1700571480.61","search source=""tutorialdata.zip:*"" | table 0","BEER-PC01","1700571480.674536",0,"UI:Search",,,109864,1700571481,0,109864,,,completed,"0.987",,,,,,,,,,,,,,,,
+"1700571489.62","search source=""tutorialdata.zip:*"" | table *","BEER-PC01","1700571489.476670",0,"UI:Search",,,109864,1700571489,109864,109864,,,completed,"3.753",,,,,,,,,,,,,,,,
+"1700571499.63","search source=""tutorialdata.zip:*"" | table * -AcctID","BEER-PC01","1700571499.478978",0,"UI:Search",,,109864,1700571499,109864,109864,,,completed,"3.794",,,,,,,,,,,,,,,,
+"1700571762.68","search source=""tutorialdata.zip:*"" | eval a=2+2","BEER-PC01","1700571762.503568",0,"UI:Search",,,109864,1700571762,7695,109864,,,completed,"4.188",,,,,,,,,,,,,,,,
+"1700571769.69","search source=""tutorialdata.zip:*"" | eval a=2+2 | table *","BEER-PC01","1700571769.083056",0,"UI:Search",,,109864,1700571769,109864,109864,,,completed,"3.613",,,,,,,,,,,,,,,,
+"1700571782.70","search source=""tutorialdata.zip:*"" | eval a=""bigi"" | table *","BEER-PC01","1700571782.624583",0,"UI:Search",,,109864,1700571782,109864,109864,,,completed,"3.6630000000000003",,,,,,,,,,,,,,,,
+"1700572376.86","search source=""tutorialdata.zip:*"" |","BEER-PC01","1700572376.340457",0,"UI:Search",,,109864,1700572376,7695,109864,,,completed,"4.45",,,,,,,,,,,,,,,,
+"1700572419.93","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by pu","BEER-PC01","1700572419.132950",0,"UI:Search",,,5737,1700572419,0,5737,,,completed,"0.148",,,,,,,,,,,,,,,,
+"1700572421.94","search source=""tutorialdata.zip:*"" action=""purchase""","BEER-PC01","1700572421.391246",0,"UI:Search",,,5737,1700572421,5737,5737,,,completed,"1.69",,,,,,,,,,,,,,,,
+"1700572485.95","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by mday","BEER-PC01","1700572485.947758",0,"UI:Search",,,5737,1700572486,0,5737,,,completed,"0.162",,,,,,,,,,,,,,,,
+"1700572495.96","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday","BEER-PC01","1700572495.986553",0,"UI:Search",,,5737,1700572496,8,5737,,,completed,"0.14200000000000002",,,,,,,,,,,,,,,,
+"1700572520.97","search source=""tutorialdata.zip:*"" action=""purchase""","BEER-PC01","1700572520.167839",0,"UI:Search",,,5737,1700572520,5737,5737,,,completed,"1.286",,,,,,,,,,,,,,,,
+"1700572531.98","search source=""tutorialdata.zip:*"" action=""purchase""| stats count by date_mday date_month","BEER-PC01","1700572531.553770",0,"UI:Search",,,5737,1700572531,8,5737,,,completed,"0.187",,,,,,,,,,,,,,,,
+"1700573258.106","search source=""tutorialdata.zip:*"" action=""purchase""| stats count by date_mday date_month | search date_mday = 1","BEER-PC01","1700573258.024513",0,"UI:Search",,,157,1700573258,1,157,,,completed,"0.14300000000000002",,,,,,,,,,,,,,,,
+"1700573268.107","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month","BEER-PC01","1700573268.041719",0,"UI:Search",,,157,1700573268,1,157,,,completed,"0.153",,,,,,,,,,,,,,,,
+"1700573280.108","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | table count","BEER-PC01","1700573280.158571",0,"UI:Search",,,157,1700573280,1,157,,,completed,"0.14100000000000001",,,,,,,,,,,,,,,,
+"1700573299.109","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | fields count","BEER-PC01","1700573299.201211",0,"UI:Search",,,157,1700573299,1,157,,,completed,"0.152",,,,,,,,,,,,,,,,
+"1700573338.110","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month | eval total_firstDay = [search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | fields count ]","BEER-PC01","1700573338.638132",0,"UI:Search",,,0,1700573339,0,0,,,failed,"0.01",,,,,,,,,,,,,,,,
+"1700573343.111","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month | eval total_firstDay = [ | search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | fields count ]","BEER-PC01","1700573343.186090",0,"UI:Search",,,0,1700573343,0,0,,,failed,"0.01",,,,,,,,,,,,,,,,
+"1700573451.112","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count as date_purchase by date_mday date_month","BEER-PC01","1700573451.376835",0,"UI:Search",,,5737,1700573451,8,5737,,,completed,"0.152",,,,,,,,,,,,,,,,
+"1700573500.113","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count as date_purchase by date_mday date_month | eval total_firstDay=if(date_mday=1, count)","BEER-PC01","1700573500.365183",0,"UI:Search",,,0,1700573500,0,0,,,failed,"0.011",,,,,,,,,,,,,,,,
+"1700573505.114","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count as date_purchase by date_mday date_month | eval total_firstDay=if(date_mday=1, count,0)","BEER-PC01","1700573505.406337",0,"UI:Search",,,5737,1700573505,8,5737,,,completed,"0.181",,,,,,,,,,,,,,,,
+"1700573521.115","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count as date_purchase by date_mday date_month | eval total_firstDay=if(date_mday=1, date_purchase,0)","BEER-PC01","1700573521.429585",0,"UI:Search",,,5737,1700573521,8,5737,,,completed,"0.192",,,,,,,,,,,,,,,,
+"1700573526.116","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count as date_purchase by date_mday date_month | eval total_firstDay=if(date_mday=1, date_purchase,date_purchase)","BEER-PC01","1700573526.683055",0,"UI:Search",,,5737,1700573527,8,5737,,,completed,"0.171",,,,,,,,,,,,,,,,
+"1700573716.117","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month | eval total_firstDay = [ | search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | return count ]","BEER-PC01","1700573716.292447",0,"UI:Search",,,0,1700573717,0,0,,,failed,"0.008",,,,,,,,,,,,,,,,
+"1700573728.118","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | return count","BEER-PC01","1700573728.232232",0,"UI:Search",,,157,1700573728,1,157,,,completed,"0.853",,,,,,,,,,,,,,,,
+"1700573746.119","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | table *","BEER-PC01","1700573746.944252",0,"UI:Search",,,157,1700573747,1,157,,,completed,"0.126",,,,,,,,,,,,,,,,
+"1700573752.120","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month | table count","BEER-PC01","1700573752.022592",0,"UI:Search",,,157,1700573752,1,157,,,completed,"0.136",,,,,,,,,,,,,,,,
+"1700573799.121","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month | eval total_firstDay = 12","BEER-PC01","1700573799.948934",0,"UI:Search",,,5737,1700573800,8,5737,,,completed,"0.164",,,,,,,,,,,,,,,,
+"1700574386.122","search source=""tutorialdata.zip:*"" action=""purchase"" date_mday=1 | stats count by date_mday date_month |","BEER-PC01","1700574386.307563",0,"UI:Search",,,157,1700574386,1,157,,,completed,"0.121",,,,,,,,,,,,,,,,
+"1700574396.123","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month","BEER-PC01","1700574396.335137",0,"UI:Search",,,5737,1700574396,8,5737,,,completed,"0.17300000000000001",,,,,,,,,,,,,,,,
+"1700574424.124","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month | eventstats first(count) as count_firstDay","BEER-PC01","1700574424.278654",0,"UI:Search",,,5737,1700574424,8,5737,,,completed,"0.158",,,,,,,,,,,,,,,,
+"1700574589.126","search source=""tutorialdata.zip:*"" action=""purchase"" | stats count by date_mday date_month | eventstats first(count) as count_firstDay | eval growthInPercentage=(count/count_firstDay)*100","BEER-PC01","1700574589.987469",0,"UI:Search",,,5737,1700574590,8,5737,,,completed,"0.171",,,,,,,,,,,,,,,,
