@@ -1,0 +1,404 @@
+ï»¿;!@Lang2@!UTF-8!
+;  9.07 : Atabek Murtazaev
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Karakalpak - Latin
+Qaraqalpaqsha - LatÄ±n
+401
+OK
+Biykar etiw
+
+
+
+&Awa
+&Yaq
+&JabÄ±w
+Ja'rdem
+
+&Dawam etiw
+440
+&BarlÄ±g'Ä±na awa
+Ba&rlÄ±g'Ä±na yaq
+ToqtatÄ±w
+Qaytadan baslaw
+&ArtqÄ± fong'a
+AldÄ±ng'Ä± &fong'a
+&Pauza
+Pauza qÄ±lÄ±ng'an
+AnÄ±q biykar etiwdi qa'leysizbe?
+500
+&Fayl
+&Du'zetiw
+&Ko'rinis
+&SaylandÄ±lar
+A's&baplar
+&Ja'rdem
+540
+&AshÄ±w
+&Ä°shinde ashÄ±w
+&SÄ±rtÄ±nda ashÄ±w
+&Ko'riw
+&Du'zetiw
+AtÄ±n o'&zgertiw
+Bul jerge &nusqasÄ±n alÄ±w...
+Bul jerge ko'shiriw...
+O'shiriw
+&FayldÄ± bo'liw...
+FayllardÄ± &biriktiriw...
+Sazlawla&r
+Kom&mentariy...
+Qadag'alaw summasÄ±
+Diff
+Papka jaratÄ±w
+Fayl jaratÄ±w
+Sh&Ä±g'Ä±w
+600
+BarlÄ±g'Ä±n &saylaw
+SaylawdÄ± alÄ±p taslaw
+SaylawdÄ± &teris awdarÄ±w
+Saylaw...
+SaylawdÄ± alÄ±p taslaw...
+Tu'ri boyÄ±nsha saylaw
+Tu'ri boyÄ±nsha saylawdÄ± alÄ±p taslaw
+700
+U'&lken ikonalar
+Kishi &ikonalar
+&Dizim
+&Keste
+730
+Ta'rtipsiz
+Tegis ko'rinis
+&2 panel
+&A'sbaplar paneli
+Derek papkasÄ±n ashÄ±w
+Bir da'reje joqarÄ±g'a ko'teriliw
+Papkalar tariyxÄ±...
+&Jan'alaw
+750
+Arxivator knopkalar paneli
+Standart knopkalar paneli
+U'lken knopkalar
+Knopkalar tekstin ko'rsetiw
+800
+&PapkanÄ± saylandÄ±larg'a qosÄ±w
+Belgi
+900
+&Sazlawlar...
+&O'nimlilikti tekseriw
+960
+&MazmunÄ±...
+&7-Zip haqqÄ±nda...
+1003
+Jol
+AtÄ±
+Ken'eytpe
+Papka
+Ko'lemi
+QÄ±sÄ±lg'andag'Ä± ko'lemi
+AttributlarÄ±
+JaratÄ±lg'an
+AshÄ±lg'an
+O'zgertilgen
+U'ziliksiz
+Kommentariy berilgen
+Shifrlengen
+deyin bo'lingen
+keyin bo'lingen
+So'zlik
+CRC
+Tu'ri
+Anti
+UsÄ±l
+BasqarÄ±wshÄ± OS
+Fayl sistemasÄ±
+PaydalanÄ±wshÄ±
+Topar
+Blok
+Kommentariy
+OrnÄ±
+Jol prefiksi
+Papkalar
+Fayllar
+Versiya
+Tom
+Ko'p tomlÄ±
+JÄ±ljÄ±w
+Siltewler
+Bloklar
+Tomlar
+
+64-bit
+Big-endian
+Protsessor
+FizikalÄ±q ko'lemi
+Baslama ko'lemi
+Qadag'alaw summasÄ±
+Xarakteristika
+Virtual adresi
+ID
+QÄ±sqa atÄ±
+JaratÄ±wshÄ± bag'darlama
+Sektor ko'lemi
+Rejim
+Siltew
+Qa'te
+UlÄ±wma ko'lem
+Bos orÄ±n
+Klaster ko'lemi
+Belgi
+Jergilikli atÄ±
+Provayder
+2100
+Sazlawlar
+Til
+Til:
+Redaktor
+&Redaktor:
+&Diff:
+2200
+Sistema
+To'mendegi fayllardÄ± 7-Zip penen baylanÄ±stÄ±rÄ±w:
+2301
+7-Zip ti qabÄ±q kontekst menyuine qosÄ±w
+KaskadlÄ± kontekst menyu
+Kontekst menyu elementleri:
+2320
+<Papka>
+<Arxiv>
+Arxivti ashÄ±w
+FayllardÄ± shÄ±g'arÄ±p alÄ±w...
+Arxivke qosÄ±w...
+Arxivti sÄ±naw
+UsÄ± jerge shÄ±g'arÄ±w
+MÄ±na jerge shÄ±g'arÄ±w: {0}
+MÄ±nag'an qosÄ±w: {0}
+QÄ±sÄ±w ha'm email arqalÄ± jiberiw...
+MÄ±nag'an qÄ±sÄ±w: {0} ha'm email arqalÄ± jiberiw
+2400
+Papkalar
+&Ä°slewshi papka
+&SistemanÄ±n' waqtÄ±nshalÄ±q papkasÄ±
+Ha'zirgi &papka
+&Ko'rsetilgen:
+Tek alÄ±nbalÄ± tasÄ±g'Ä±shlar ushÄ±n paydalanÄ±w
+WaqtÄ±nshalÄ±q arxiv fayllardÄ±n' ornÄ±n ko'rsetin'.
+2500
+Sazlawlar
+".." elementti ko'rsetiw
+FayldÄ±n' haqÄ±yqÄ±y ikonalarÄ±n ko'rsetiw
+Sistema menyuin ko'rsetiw
+&TolÄ±q joldÄ± saylaw
+Tor &sÄ±zÄ±qlarÄ±n ko'rsetiw
+Elementti bir basÄ±wdan ashÄ±w
+SaylawdÄ±n' &alternativ usÄ±lÄ±
+U'lken &yad betlerin paydalanÄ±w
+2900
+7-Zip haqqÄ±nda
+7-Zip bul biypul bag'darlama
+3000
+Sistema kerekli bolg'an yad mug'darÄ±n ajÄ±rata almadÄ±
+Qa'te tabÄ±lmadÄ±
+{0} obekt saylang'an
+'{0}' papkasÄ±n jaratÄ±w iske aspadÄ±
+Bul arxiv ushÄ±n jan'alaw operatsiyalarÄ± qollanÄ±lmaydÄ±.
+'{0}' faylÄ±n arxiv sÄ±patÄ±nda ashÄ±w iske aspadÄ±
+Shifrlang'an '{0}' arxivin ashÄ±w iske aspadÄ±. Parol qa'te emespe?
+Qollanbaytug'Ä±n arxiv tu'ri
+{0} faylÄ± a'lle qashan bar (jaratÄ±lg'an)
+'{0}' faylÄ± o'zgertilgen.\nOnÄ± arxiv ishinde jan'alawdÄ± qa'leysizbe?
+MÄ±na fayldÄ± jan'alaw iske aspadÄ±\n'{0}'
+RedaktordÄ± ashÄ±w iske aspadÄ±.
+Fayl virusqa uqsaydÄ± (fayl atÄ±nda uzÄ±n bos orÄ±nlar qollanÄ±lg'an).
+Operatsiya uzun jollÄ± papkadan ju'klene almaydÄ±.
+Siz bir fayl saylawÄ±n'Ä±z kerek
+Siz bir yamasa onnan ko'p fayllardÄ± saylawÄ±n'Ä±z kerek
+Elementler sanÄ± dÄ±m ko'p
+3300
+ShÄ±g'arÄ±lmaqta
+QÄ±sÄ±lmaqta
+SÄ±naw
+AshÄ±lmaqta...
+Skanerlenbekte...
+3400
+ShÄ±g'arÄ±w
+&Bul jerge shÄ±g'arÄ±w:
+ShÄ±g'arÄ±latug'Ä±n fayllar ushÄ±n orÄ±n ko'rsetin'.
+3410
+Jol usÄ±lÄ±
+TolÄ±q jol atlarÄ±
+JolsÄ±z
+3420
+U'stinen jazÄ±w usÄ±lÄ±
+U'stine jazÄ±wdan aldÄ±n soraw
+Soramastan u'stine jazÄ±w
+AldÄ±nnan bar fayllardÄ± o'tkizip jiberiw
+Avtomat ta'rizde qayta at beriw
+AldÄ±nnan bar fayllarg'a avtomat ta'rizde qayta at beriw
+3500
+FayldÄ±n' u'stinen jazÄ±wdÄ± tastÄ±yqlaw
+TayÄ±nlang'an papka a'lle qashan islengen fayldÄ± o'z ishine alg'an.
+Siz bar fayldÄ±
+mÄ±na fayl menen almastÄ±rÄ±wdÄ± qa'leysizbe?
+{0} bayt
+A&vtomat ta'rizde qayta at beriw
+3700
+'{0}' faylÄ± ushÄ±n tanÄ±s bolmag'an qÄ±sÄ±w usÄ±lÄ±.
+'{0}' faylÄ±nda mag'lÄ±wmat qa'tesi tabÄ±ldÄ±. Fayl buzÄ±lg'an.
+'{0}' faylÄ±nda CRC qa'tesi tabÄ±ldÄ±. Fayl buzÄ±lg'an.
+'{0}' shifrlang'an faylÄ±nda mag'lÄ±wmat qa'tesi tabÄ±ldÄ±. Parol qa'te emespe?
+'{0}' shifrlang'an faylÄ±nda CRC qa'tesi tabÄ±ldÄ±. Parol qa'te emespe?
+3800
+Paroldi kiritiw
+Paroldi kiritin':
+Paroldi qayta kiritin':
+Paroldi &ko'rsetiw
+Paroller sa'ykes kelmedi
+Parol ushÄ±n tek latÄ±n a'lipbesi ha'riplerin, sanlar ha'm arnawlÄ± simvollardÄ± (!, #, $, ...) paydalanÄ±n'
+Parol dÄ±m uzÄ±n
+Parol
+3900
+O'tken waqÄ±t:
+Qalg'an waqÄ±t:
+TolÄ±q ko'lem:
+Tezlik:
+Ä°slengen ko'lem:
+QÄ±sÄ±w da'rejesi:
+Qa'teler:
+Arxivler:
+4000
+Arxivke qosÄ±w
+&Arxiv:
+&Jan'alaw usÄ±lÄ±:
+Arxiv &formatÄ±:
+QÄ±sÄ±w &da'rejesi:
+QÄ±sÄ±w &usÄ±lÄ±:
+&So'zlik ko'lemi:
+So'z &ko'lemi:
+Blok ko'lemi:
+CPU ag'Ä±mlar sanÄ±:
+&Parametrler:
+Sazlawlar
+SF&X arxivin jaratÄ±w
+JazÄ±w ushÄ±n ashÄ±lg'an fayllardÄ± qÄ±sÄ±w
+Shifrlaw
+Shifrlaw usÄ±lÄ±:
+Fayl a&tlarÄ±n shifrlaw
+QÄ±sÄ±wg'a arnalg'an yad:
+AjÄ±ratÄ±wg'a arnalg'an yad:
+4050
+QÄ±sÄ±wsÄ±z
+En' tez
+Tez
+Qa'dimgi
+En' joqarÄ±
+Ultra
+4060
+FayllardÄ± qosÄ±w ha'm almastÄ±rÄ±w
+FayllardÄ± jan'alaw ha'm qosÄ±w
+Bar fayllardÄ± jan'alaw
+FayllardÄ± sinxronlastÄ±rÄ±w
+4070
+Belgilew
+BarlÄ±q fayllar
+Fayl ko'lemi boyÄ±nsha
+U'ziliksiz
+6000
+NusqasÄ±n alÄ±w
+Ko'shiriw
+MÄ±na papkag'a nusqasÄ±n alÄ±w:
+MÄ±na papkag'a ko'shiriw:
+Nusqa alÄ±nbaqta...
+Ko'shirilmekte...
+Qayta at berilmekte...
+PapkanÄ± saylan'.
+Ko'rsetilgen operatsiya bul papka ushÄ±n qollanÄ±lmaydÄ±.
+Fayl yaki papkag'a qayta at beriwde qa'te ju'z berdi
+FayldÄ±n' nusqasÄ±n alÄ±wdÄ± tastÄ±yqlan'
+Siz bul fayllardÄ± anÄ±q arxivke ko'shiriwdi qa'leysizbe
+6100
+Fayl o'shiriliwin tastÄ±yqlaw
+Papka o'shiriliwin tastÄ±yqlaw
+Fayllar toparÄ±nÄ±n' o'shiriliwin tastÄ±yqlaw
+'{0}' degendi anÄ±q o'shiriwdi qa'leysizbe?
+'{0}' papkasÄ± ha'm onÄ±n' ishindegilerdi anÄ±q o'shiriwdi qa'leysizbe?
+Bul obektlerdi ({0} dana) anÄ±q o'shiriwdi qa'leysizbe?
+O'shirilmekte...
+Fayl yaki papkanÄ± o'shiriwde qa'te ju'z berdi
+Sistema uzÄ±n jollÄ± fayllardÄ± sebetke ko'shire almaydÄ±
+6300
+Papka jaratÄ±w
+Fayl jaratÄ±w
+Papka atÄ±:
+Fayl atÄ±:
+Jan'a papka
+Jan'a fayl
+PapkanÄ± jaratÄ±wda qa'te ju'z berdi
+FayldÄ± jaratÄ±wda qa'te ju'z berdi
+6400
+Kommentariy
+&Kommentariy:
+Saylaw
+SaylawdÄ± alÄ±p taslaw
+Maska:
+6600
+Sazlawlar
+Papkalar tariyxÄ±
+Diagnostik xabarlar
+Xabar
+7100
+Kompyuter
+Tarmaq
+Hu'jjetler
+Sistema
+7200
+QosÄ±w
+ShÄ±g'arÄ±w
+SÄ±naw
+Nusqa alÄ±w
+Ko'shiriw
+O'shiriw
+Mag'lÄ±wmat
+7300
+FayldÄ± bo'liw
+&MÄ±nag'an bo'liw:
+Tomlarg'a &bo'liw (baytlarda):
+Bo'linbekte...
+Bo'liwdi tastÄ±yqlan'
+Siz fayldÄ± {0} bo'lekke anÄ±q bo'liwdi qa'leysizbe?
+Bo'lek ko'lemi original fayl ko'leminen kishi bolÄ±wÄ± kerek
+Tom ko'lemi natuwrÄ± berilgen
+TomnÄ±n' ko'rsetilgen ko'lemi: {0} bayt.\nArxivti bunday tomlarg'a anÄ±q bo'liwdi qa'leysizbe?
+7400
+FayllardÄ± biriktiriw
+&MÄ±nag'an biriktiriw:
+Biriktirilmekte...
+Bo'lingen fayldÄ±n' tek birinshi bo'legin saylaw kerek
+Fayl bo'lingen fayldÄ±n' bo'legi retinde tanÄ±lmadÄ±
+Bo'lingen fayldÄ±n' birden ko'p bo'legi tabÄ±lmadÄ±
+7500
+Qadag'alaw summasÄ±n esaplaw...
+Qadag'alaw summasÄ± mag'lÄ±wmatÄ±
+Mag'lÄ±wmatlar ushÄ±n CRC qadag'alaw summasÄ±:
+Mag'lÄ±wmatlar ha'm atamalar ushÄ±n CRC qadag'alaw summasÄ±:
+7600
+O'nimlilikti tekseriw
+Yad ko'lemi:
+QÄ±sÄ±w
+AjÄ±ratÄ±w
+Reyting
+UlÄ±wma reyting
+Ha'zirgi
+Ja'mi
+AwÄ±rlÄ±q
+Reyting / AwÄ±r.
+O'tkenler:
