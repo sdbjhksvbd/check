@@ -1,0 +1,354 @@
+[props/dfm_stderr-too_small]
+owner = nobody
+version = 8.1.0
+modtime = 1700569634.583449800
+
+[props/dfm_stdout-too_small]
+owner = nobody
+version = 8.1.0
+modtime = 1700569634.614692000
+
+[props/first_install-too_small]
+owner = nobody
+version = 8.1.0
+modtime = 1700569634.630347200
+
+[props/export_metrics-too_small]
+owner = nobody
+version = 8.1.0
+modtime = 1700569645.506498600
+
+[props/splunk_instrumentation-too_small]
+owner = nobody
+version = 8.1.0
+modtime = 1700569676.456074100
+
+[props/www1%2Fsecure]
+owner = 12345678
+version = 8.1.0
+modtime = 1700569854.971573000
+
+[sourcetypes/tutorialdata.zip%3A.%5Cwww1%2Fsecure.log_Tue_Nov_21_14%3A30%3A54_2023_1167783095]
+owner = 12345678
+version = 8.1.0
+modtime = 1700569855.055347900
+
+[props/vendor_sales%2Fvendor_sales]
+owner = 12345678
+version = 8.1.0
+modtime = 1700569855.927018300
+
+[sourcetypes/tutorialdata.zip%3A.%5Cvendor_sales%2Fvendor_sales.log_Tue_Nov_21_14%3A30%3A55_2023_1549025375]
+owner = 12345678
+version = 8.1.0
+modtime = 1700569856.038720500
+
+[props/splunk_secure_gateway_version_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368142.938292600
+
+[props/splunk_secure_gateway_udf_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368142.974369200
+
+[props/splunk_secure_gateway_udf_data-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.022578100
+
+[props/splunk_secure_gateway_subscription_update_message-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.065192400
+
+[props/splunk_secure_gateway_subscription_search_requests-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.109314200
+
+[props/splunk_secure_gateway_subscription_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.147349300
+
+[props/splunk_secure_gateway_subscription_requests-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.190512500
+
+[props/cloudgateway_untracked-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.257618000
+
+[props/splunk_secure_gateway_subscription_manager-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.317313800
+
+[props/splunk_secure_gateway_subscription_loader-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.363537500
+
+[props/splunk_secure_gateway_subscription_client-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.411154900
+
+[props/splunk_secure_gateway_splunk_service-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.465790400
+
+[props/splunk_secure_gateway_spacebridge_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.515501900
+
+[props/splunk_secure_gateway_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.565198900
+
+[props/splunk_secure_gateway_parse_dashboard_definition-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.660961000
+
+[props/splunk_secure_gateway_modular_input-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.722643300
+
+[props/splunk_secure_gateway_metrics-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.772273200
+
+[props/splunk_secure_gateway_message_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.822349500
+
+[props/splunk_secure_gateway_kvstore_writer-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.884032200
+
+[props/splunk_secure_gateway_kvstore_service-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.928586200
+
+[props/splunk_secure_gateway_generic_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368143.986256400
+
+[props/splunk_secure_gateway_process_manager-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.033417100
+
+[props/splunk_secure_gateway_drilldown_helpers-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.074481000
+
+[props/splunk_secure_gateway_dashboard_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.142717000
+
+[props/splunk_secure_gateway_dashboard_request_json-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.196310100
+
+[props/splunk_secure_gateway_dashboard_meta-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.257000100
+
+[props/splunk_secure_gateway_dashboard_data-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.321672200
+
+[props/splunk_secure_gateway_dashboard_app_info-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.382764000
+
+[props/splunk_secure_gateway_connectivity_test_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.439401700
+
+[props/splunk_secure_gateway_process_trellis-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.488235500
+
+[props/splunk_secure_gateway_async_splunk_client-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.536351900
+
+[props/splunk_secure_gateway_async-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.593519200
+
+[props/splunk_secure_gateway_app_list_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.655161000
+
+[props/splunk_secure_gateway_alerts_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.717815100
+
+[props/splunk_secure_gatewaytoken_refresh_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.777381700
+
+[props/splunk_secure_gateway-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.829037000
+
+[props/splunk_secure_gateway_subscription_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368144.956929000
+
+[props/splunk_secure_gateway_event_handler-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368145.088192600
+
+[props/splunk_secure_gateway_client_config_request_processor-too_small]
+owner = nobody
+version = 8.2.0
+modtime = 1749368145.221492200
+
+[props/pura_send_email-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274001.972899600
+
+[props/eura_email_notification_scripted_input-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274001.998686900
+
+[props/eura_remote_scan_scripted_input-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.038035800
+
+[props/jura_remote_scan_scripted_input-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.078826800
+
+[props/pura_email_notification_scripted_input-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.116673000
+
+[props/pura_python_toggle_utils-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.162419700
+
+[props/pura_remote_scan_scripted_input-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.197312500
+
+[props/pura_storage_utils-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.227666900
+
+[props/pura_utils-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751274002.258979100
+
+[props/pura_utils-2]
+owner = admin
+version = 9.2.1
+modtime = 1751278080.749427000
+
+[sourcetypes/C%3A%5CProgram_Files%5CSplunk%5Cvar%5Clog%5Csplunk%5Cpura_utils.log_Mon_Jun_30_13%3A08%3A00_2025_523559326]
+owner = admin
+version = 9.2.1
+modtime = 1751278080.901139600
+
+[props/pura_telemetry-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751288594.761168500
+
+[props/pura_remote_latest_report-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751288594.790702600
+
+[props/eura_remote_latest_report-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751300019.788747100
+
+[props/eura_telemetry-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751300019.820148600
+
+[props/jura_remote_latest_report-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751300019.863965300
+
+[props/jura_telemetry-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751300019.903440100
+
+[props/eura_scan_apps-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751323254.980133100
+
+[props/pura_scan_apps-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751323255.014142600
+
+[props/jura_scan_apps-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751334754.785296800
+
+[props/pura_get_all_apps-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1751342658.396057300
+
+[props/eura_send_email-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1752104025.944139300
+
+[props/jura_send_email-too_small]
+owner = admin
+version = 9.2.1
+modtime = 1752104025.979792900
