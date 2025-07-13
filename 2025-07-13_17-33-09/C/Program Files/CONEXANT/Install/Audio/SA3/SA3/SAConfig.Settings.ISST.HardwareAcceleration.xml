@@ -1,0 +1,5 @@
+<SmartAudioConfiguration>
+  <!--Platform Setting -->
+  <DisabledHardwareAcceleration>true</DisabledHardwareAcceleration>
+
+</SmartAudioConfiguration>
