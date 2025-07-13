@@ -1,0 +1,11 @@
+07-13-2025 00:00:01.394 +0300 INFO  SearchTelemetrySingleton - record_search_telemetry=1
+07-13-2025 00:00:01.395 +0300 WARN  SearchTelemetrySingleton - Config setting remote_search_telemetry_file_limit=-1114177552 is invalid. Will use 30
+07-13-2025 00:00:01.404 +0300 WARN  SearchTelemetrySingleton - Unable to read configuration for index_remote_search_telemetry from limits.conf, defaulting to false
+07-13-2025 00:00:01.404 +0300 INFO  SearchTelemetrySingleton - Loaded config settings: telemetry file limit = 500, event size limit = 1000000, component size limit = 10000
+07-13-2025 00:00:02.113 +0300 INFO  SearchTelemetry - set search status to success
+07-13-2025 00:00:04.402 +0300 INFO  SearchTelemetry - set search status to success
+07-13-2025 00:00:05.396 +0300 INFO  SearchTelemetry - set search status to success
+07-13-2025 00:00:05.474 +0300 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+07-13-2025 00:00:05.475 +0300 INFO  SearchTelemetry - Component=search_commands length=10198 exceeded max=10000. Truncating component
+07-13-2025 00:00:05.475 +0300 INFO  SearchTelemetrySingleton - Copying search_telemetry.json from dispatch dir to var/run/splunk/search_telemetry
+07-13-2025 00:00:05.489 +0300 INFO  SearchTelemetrySingleton - Done copying search_telemetry.json to C:\Program Files\Splunk\var\run\splunk\search_telemetry\fb1e0fe7d83cbcd7_scheduler__nobody_c3BsdW5rX3NlY3VyZV9nYXRld2F5__RMD517c0938212b6a825_at_1752354000_8_search_telemetry.json
