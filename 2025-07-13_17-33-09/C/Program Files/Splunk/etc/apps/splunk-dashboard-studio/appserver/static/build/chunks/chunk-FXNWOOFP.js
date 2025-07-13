@@ -1,0 +1,1 @@
+import{b as a}from"./chunk-NP732JJA.js";import{i as R}from"./chunk-FOXWPXSG.js";var e=R(a(),1),s=t=>{let n=(0,e.useRef)(t);return(0,e.useLayoutEffect)(()=>{n.current=t}),(0,e.useCallback)((...r)=>n.current(...r),[])},u=s;export{u as a};
