@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Alamat</s>
+  <s _locID="Classification.Address.Description">Deskripsi lokasi perorangan atau organisasi sebagai petunjuk arah untuk pengiriman</s>
+  <s _locID="Classification.Address.Group">Geografi</s>
+  <s _locID="Classification.City.LabelName">Kota</s>
+  <s _locID="Classification.City.Description">Pusat urban permanen untuk populasi, perdagangan, dan kebudayaan</s>
+  <s _locID="Classification.City.Group">Geografi</s>
+  <s _locID="Classification.Continent.LabelName">Benua</s>
+  <s _locID="Classification.Continent.Description">Salah satu daratan utama di bumi</s>
+  <s _locID="Classification.Continent.Group">Geografi</s>
+  <s _locID="Classification.Country.LabelName">Negara/Kawasan</s>
+  <s _locID="Classification.Country.Description">Negara atau negara bagian</s>
+  <s _locID="Classification.Country.Group">Geografi</s>
+  <s _locID="Classification.County.LabelName">Kotamadya</s>
+  <s _locID="Classification.County.Description">Kawasan pemerintahan lokal; bagian dari negara bagian atau provinsi</s>
+  <s _locID="Classification.County.Group">Geografi</s>
+  <s _locID="Classification.PostalCode.LabelName">Kode Pos</s>
+  <s _locID="Classification.PostalCode.Description">Rangkaian huruf dan/atau angka yang ditambahkan ke alamat pos untuk membantu pengiriman surat</s>
+  <s _locID="Classification.PostalCode.Group">Geografi</s>
+  <s _locID="Classification.StateorProvince.LabelName">Negara Bagian atau Provinsi</s>
+  <s _locID="Classification.StateorProvince.Description">Wilayah yang diatur sebagai unit administratif atau politik dalam lingkup negara atau kawasan.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografi</s>
+  <s _locID="Classification.ImageURL.LabelName">URL Gambar</s>
+  <s _locID="Classification.ImageURL.Description">URL (Uniform resource locator) yang mengarah ke gambar</s>
+  <s _locID="Classification.ImageURL.Group">Gambar</s>
+  <s _locID="Classification.WebUrl.LabelName">URL Web</s>
+  <s _locID="Classification.WebUrl.Description">URL (Uniform resource locator) yang mengarah ke lokasi Web</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Gambar</s>
+  <s _locID="Classification.Image.Description">Foto atau gambar lain, biasanya dalam format file JPEG, GIFF, atau BMP</s>
+  <s _locID="Classification.Image.Group">Gambar</s>
+  <s _locID="Classification.Latitude.LabelName">Garis lintang</s>
+  <s _locID="Classification.Latitude.Description">Koordinat geografis yang menentukan posisi utara-selatan pada permukaan bumi</s>
+  <s _locID="Classification.Latitude.Group">Geografi</s>
+  <s _locID="Classification.Longitude.LabelName">Garis bujur</s>
+  <s _locID="Classification.Longitude.Description">Koordinat geografis yang menentukan posisi timur-barat pada permukaan bumi</s>
+  <s _locID="Classification.Longitude.Group">Geografi</s>
+  <s _locID="Classification.Place.LabelName">Tempat</s>
+  <s _locID="Classification.Place.Description">Area atau lokasi geografis</s>
+  <s _locID="Classification.Place.Group">Geografi</s>
+  <s _locID="Classification.Organization.LabelName">Organisasi</s>
+  <s _locID="Classification.Organization.Description">Sekelompok orang yang diatur untuk tujuan tertentu; suatu asosiasi</s>
+  <s _locID="Classification.Organization.Group">Organisasi</s>
+  <s _locID="Classification.Company.LabelName">Perusahaan</s>
+  <s _locID="Classification.Company.Description">Perusahaan bisnis</s>
+  <s _locID="Classification.Company.Group">Organisasi</s>
+  <s _locID="Classification.Product.LabelName">Produk</s>
+  <s _locID="Classification.Product.Description">Sesuatu yang didirikan, dikembangkan, atau diperoleh agar dapat dijual</s>
+  <s _locID="Classification.Product.Group">Produk</s>
+  <s _locID="Classification.Date.LabelName">Tanggal</s>
+  <s _locID="Classification.Date.Description">Waktu dalam arti hari, bulan, kuartal, atau tahun</s>
+  <s _locID="Classification.Date.Group">Kalender</s>
+</strings>
