@@ -1,0 +1,384 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for various reports. 
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof,
+    ConfigPointReport.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+		
+
+
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("More detailed information about rules which contributed to status of each"
+    " other in rule status report.")
+]
+class PolicyPlatform_Detail
+{
+    [
+        Description("Unique Id of the detail in the scope of the enactment.")
+    ]
+    uint32 Id;
+    
+    [
+        Values{"feasibility", "relation", "complexity", "discovery"} : ToSubClass,
+        ValueMap{0, 1, 2, 3} : ToSubClass
+    ]
+    uint32 ConflictType;
+    
+    PolicyPlatform_RuleId ConflictingRules[];
+    
+    PolicyPlatform_RuleId InEffectRules[];
+    
+    PolicyPlatform_RuleId NotInEffectRules[];
+};
+
+
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("An instance rule, containing its associated instance"
+    " configuration points.")
+]
+class PolicyPlatform_InstanceRule
+{
+    [
+        Description("Ids of configuration points associated with the instance rule.")
+    ]
+    uint32 ConfigPointIds[];
+};
+
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("An extension of the Detail object which also contains details"
+    " for non-conformant instance rules corresponding to a conflicting rule in"
+    " ConflictingRules property.  The instance of this class is created only when"
+    " size of ConflictingRules property is one and when the quantifier in the"
+    " conflicting rule is universal.")
+]
+class PolicyPlatform_SingleRuleFeasibilityDetail : PolicyPlatform_Detail
+{
+    [
+        Description("Non-conformant instance rules corresponding to a conflicting"
+        " rule in the base class's ConflictingRules property.")
+    ]
+    PolicyPlatform_InstanceRule NotConformantInstanceRules[];
+};
+
+
+// ***************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Rule Status Detail Report"),
+    Description("A report which gives more details on rule statuses in rule status report.")
+] 
+class PolicyPlatform_RuleStatusDetailReport : PolicyPlatform_Report
+{
+    PolicyPlatform_Detail Details[];
+};
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//
+//  New Rule Status Report items
+//
+//////////////////////////////////////////////////////////////////////////////////
+
+[
+    Abstract,
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The binding of a rule and status classification.")
+]
+class PolicyPlatform_RuleStatus
+{
+    string RuleName;
+    
+    [
+        Values{"conformant", "not-conformant", "not-applicable", "error"} : ToSubClass,
+        ValueMap{0, 1, 2, 3} : ToSubClass,
+        Required : ToSubClass
+    ]
+    uint32 Classification;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as resolving to conformance.")
+]
+class PolicyPlatform_ConformantStatus : PolicyPlatform_RuleStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"conformant"} : ToSubClass,
+        ValueMap{0} : ToSubClass
+    ]
+    uint32 Classification = 0;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as resolving to non-conformance.")
+]
+class PolicyPlatform_NotConformantStatus : PolicyPlatform_RuleStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"not-conformant"} : ToSubClass,
+        ValueMap{1} : ToSubClass
+    ]
+    uint32 Classification = 1;
+
+    [
+        Description("Id in the detail report which gives more details on cause"
+        " and effect of this rule status.")
+    ]
+    uint32 DetailId;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as non-applicable.")
+]
+class PolicyPlatform_NotApplicableStatus : PolicyPlatform_RuleStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"not-applicable"} : ToSubClass,
+        ValueMap{2} : ToSubClass
+    ]
+    uint32 Classification = 2;
+
+    [
+        Description("Id in the detail report which gives more details on cause and"
+        " effect of this rule status.")
+    ]
+    uint32 DetailId;
+
+    [
+        Description("Type of conflict that caused this rule to be not applicable."),
+        Values{"not-conformant", "relational", "processing", "discovery" } : ToSubClass,
+        ValueMap{0, 1, 2, 3} : ToSubClass
+    ]
+    uint32 ReasonType;
+};
+
+// ***************************************************************************
+[
+    Abstract,
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as in error.")
+]
+class PolicyPlatform_RuleErrorStatus : PolicyPlatform_RuleStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"error"} : ToSubClass,
+        ValueMap{3} : ToSubClass
+    ]
+    uint32 Classification = 3;
+
+    [
+        Values{"relational", "processing", "discovery", "remediation"} : ToSubClass,
+        ValueMap{0, 1, 2, 3} : ToSubClass,
+        Required : ToSubClass
+    ]
+    uint32 ErrorType;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as in error due to a relational issue.")
+]
+class PolicyPlatform_RelationalErrorStatus : PolicyPlatform_RuleErrorStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"error"} : ToSubClass,
+        ValueMap{3} : ToSubClass
+    ]
+    uint32 Classification = 3;
+
+    [
+        Override("RuleStatusError.ErrorCode"),
+        Values{"relational"} : ToSubClass,
+        ValueMap{0} : ToSubClass
+    ]
+    uint32 ErrorType = 0;
+    
+    [
+        Values{"post-conditional", "negated"} : ToSubClass,
+        ValueMap{0, 1} : ToSubClass,
+        Required : ToSubClass
+    ]
+    uint32 CycleType;
+    
+    [
+        Description("Id in the detail report which gives more details on cause and"
+        " effect of this rule status.")
+    ]
+    uint32 DetailId;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as in error due to a processing complexity issue.")
+]
+class PolicyPlatform_ProcessingErrorStatus : PolicyPlatform_RuleErrorStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"error"} : ToSubClass,
+        ValueMap{3} : ToSubClass
+    ]
+    uint32 Classification = 3;
+
+    [
+        Override("RuleStatusError.ErrorCode"),
+        Values{"processing"} : ToSubClass,
+        ValueMap{1} : ToSubClass
+    ]
+    uint32 ErrorType = 1;
+    
+    [
+        Values{"memory", "time"} : ToSubClass,
+        ValueMap{0, 1} : ToSubClass,
+        Required : ToSubClass
+    ]
+    uint32 ComplexityType;
+    
+    [
+        Description("Id in the detail report which gives more details on cause and"
+        " effect of this rule status.")
+    ]
+    uint32 DetailId;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as in error due to a discovery issue.")
+]
+class PolicyPlatform_DiscoveryErrorStatus : PolicyPlatform_RuleErrorStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"error"} : ToSubClass,
+        ValueMap{3} : ToSubClass
+    ]
+    uint32 Classification = 3;
+
+    [
+        Override("RuleStatusError.ErrorCode"),
+        Values{"discovery"} : ToSubClass,
+        ValueMap{2} : ToSubClass
+    ]
+    uint32 ErrorType = 2;
+    
+    [
+        Description("Set of Ids in synchronization error report for discovery error details.")
+    ]
+    uint32 DiscoveryErrorIds[];
+    
+    [
+        Description("Id in the detail report which gives more details on cause and"
+        " effect of this rule status.")
+    ]
+    uint32 DetailId;
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The classification of a rule as in error due to a remediation issue.")
+]
+class PolicyPlatform_RemediationErrorStatus : PolicyPlatform_RuleErrorStatus
+{
+    string RuleName;
+    
+    [
+        Override("RuleStatus.Classification"),
+        Values{"error"} : ToSubClass,
+        ValueMap{3} : ToSubClass
+    ]
+    uint32 Classification = 3;
+
+    [
+        Override("RuleStatusError.ErrorCode"),
+        Values{"remediation"} : ToSubClass,
+        ValueMap{3} : ToSubClass
+    ]
+    uint32 ErrorType = 3;
+
+    [
+        Description("Set of Ids in the synchronization error report for reification error details.")
+    ]
+    uint32 ReificationErrorIds[];
+};
+
+// ***************************************************************************
+[
+    Version("1.0.0"),
+    Embed : ToSubClass,
+    Description("The grouping of rules and their status classifications by policy documents.")
+]
+class PolicyPlatform_PolicyStatus
+{
+    PolicyPlatform_DocumentId PolicyId;
+    
+    PolicyPlatform_RuleStatus RuleStatuses[];
+};
+
+// ***************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Rule Status Report"),
+    Description("A report which attributes status to all rules involved in enactment.")
+] 
+class PolicyPlatform_RuleStatusReport : PolicyPlatform_Report
+{
+    PolicyPlatform_PolicyStatus PolicyStatuses[];
+};
+
+
