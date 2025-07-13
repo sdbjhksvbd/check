@@ -1,0 +1,19 @@
+exporters:
+  prometheus:
+    endpoint: "127.0.0.1:4318"
+processors:
+  batch: {}
+service:
+  pipelines:
+    metrics:
+      exporters:
+        - prometheus
+      processors:
+        - batch
+      receivers:
+        - prometheus
+  telemetry:
+    logs:
+      level: info
+    metrics:
+      level: none
