@@ -1,0 +1,152 @@
+2025-06-12 18:44:08,711 +0300 INFO	pdfgen_endpoint:548 - splunkdConnectionTimeout=30
+2025-06-12 18:44:08,788 +0300 ERROR	pdfgen_endpoint:513 - Could not access or parse email stanza of alert_actions.conf. Error=[HTTP 402] Current license does not allow the requested action
+2025-06-12 18:44:08,788 +0300 INFO	pdfgen_endpoint:470 - pdf time-of-report=1749743048.788037
+2025-06-12 18:44:08,811 +0300 INFO	pdfgen_endpoint:451 - pdf-init locale=en_US
+2025-06-12 18:44:08,828 +0300 INFO	pdfgen_endpoint:456 - pdf-init server_zoneinfo=### SERIALIZED TIMEZONE FORMAT 1.0;Y10800 YW 4A 65 72 75 73 61 6C 65 6D 20 44 61 79 6C 69 67 68 74 20 54 69 6D 65;Y7200 NW 4A 65 72 75 73 61 6C 65 6D 20 53 74 61 6E 64 61 72 64 20 54 69 6D 65;@7772400 0;@22888800 1;@39826800 0;@54338400 1;@71276400 0;@86392800 1;@102726000 0;@117842400 1;@134175600 0;@149292000 1;@165625200 0;@180741600 1;@197679600 0;@212191200 1;@229129200 0;@244245600 1;@260578800 0;@275695200 1;@292028400 0;@307144800 1;@323478000 0;@338594400 1;@354927600 0;@370044000 1;@386982000 0;@401493600 1;@418431600 0;@433548000 1;@449881200 0;@464997600 1;@481330800 0;@496447200 1;@512780400 0;@527896800 1;@544230000 0;@559346400 1;@576284400 0;@591400800 1;@607734000 0;@622850400 1;@639183600 0;@654300000 1;@670633200 0;@685749600 1;@702082800 0;@717199200 1;@734137200 0;@748648800 1;@765586800 0;@780703200 1;@797036400 0;@812152800 1;@828486000 0;@843602400 1;@859935600 0;@875052000 1;@891385200 0;@906501600 1;@923439600 0;@937951200 1;@954889200 0;@970005600 1;@986338800 0;@1001455200 1;@1017788400 0;@1032904800 1;@1049238000 0;@1064354400 1;@1081292400 0;@1095804000 1;@1112313600 0;@1128812400 1;@1143763200 0;@1159657200 1;@1175212800 0;@1189897200 1;@1206662400 0;@1223161200 1;@1238112000 0;@1254006000 1;@1269561600 0;@1284246000 1;@1301616000 0;@1317510000 1;@1333065600 0;@1348354800 1;@1364515200 0;@1382828400 1;@1395964800 0;@1414278000 1;@1427414400 0;@1445727600 1;@1458864000 0;@1477782000 1;@1490313600 0;@1509231600 1;@1521763200 0;@1540681200 1;@1553817600 0;@1572130800 1;@1585267200 0;@1603580400 1;@1616716800 0;@1635634800 1;@1648166400 0;@1667084400 1;@1679616000 0;@1698534000 1;@1711670400 0;@1729983600 1;@1743120000 0;@1761433200 1;@1774569600 0;@1792882800 1;@1806019200 0;@1824937200 1;@1838073600 0;@1856386800 1;@1869523200 0;@1887836400 1;@1900972800 0;@1919286000 1;@1932422400 0;@1950735600 1;@1963872000 0;@1982790000 1;@1995321600 0;@2014239600 1;@2027376000 0;@2045689200 1;@2058825600 0;@2077138800 1;@2090275200 0;@2108588400 1;@2121724800 0;@2140038000 1;@2153174400 0;@2172092400 1;@2184624000 0;@2203542000 1;@2216678400 0;@2234991600 1;@2248128000 0;@2266441200 1;@2279577600 0;@2297890800 1;@2311027200 0;@2329340400 1;@2342476800 0;@2361394800 1;@2374531200 0;@2392844400 1;@2405980800 0;@2424294000 1;@2437430400 0;@2455743600 1;@2468880000 0;@2487193200 1;@2500329600 0;@2519247600 1;@2531779200 0;@2550697200 1;@2563833600 0;@2582146800 1;@2595283200 0;@2613596400 1;@2626732800 0;@2645046000 1;@2658182400 0;@2676495600 1;@2689632000 0;F;$
+2025-06-12 18:44:09,087 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search2_1749743025.79 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200  | stats first(req_time) first(itemId) first(other) as price by clientip
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200 
+| stats first(req_time) first(itemId) first(other) as price by clientip
+2025-06-12 18:44:09,188 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search3_1749743025.81 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie   | stats dc(itemId) as numItems | eval countUnpurchesed=numItems-[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200     | stats dc(itemId) as numPurchesed     |  return $numPurchesed]  |  table countUnpurchesed
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie  
+| stats dc(itemId) as numItems
+| eval countUnpurchesed=numItems-[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200
+    | stats dc(itemId) as numPurchesed
+    |  return $numPurchesed] 
+|  table countUnpurchesed
+2025-06-12 18:44:09,302 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search4_1749743025.80 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie | stats count by referer_domain | sort - by count
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie
+| stats count by referer_domain
+| sort - by count
+2025-06-12 18:44:09,415 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search5_1749743025.82 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200  | transaction itemId maxspan=1s mvlist="_time"  | search eventcount = 2 | dedup clientip | eval price=mvindex(other,1)  | eval purchaseTime=mvindex(req_time,0) | table clientip purchaseTime productId price  | sort clientip
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200
+ | transaction itemId maxspan=1s mvlist="_time"
+ | search eventcount = 2
+| dedup clientip
+| eval price=mvindex(other,1) 
+| eval purchaseTime=mvindex(req_time,0)
+| table clientip purchaseTime productId price 
+| sort clientip
+2025-06-12 18:44:09,565 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search6_1749743025.83 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200  | transaction itemId maxspan=1s mvlist="_time"  | search eventcount = 2 [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200  | transaction itemId maxspan=1s mvlist="_time"  | search eventcount = 2 | top 1 categoryId | table categoryId] | top 5 productId | lookup prices.csv productId
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200
+ | transaction itemId maxspan=1s mvlist="_time"
+ | search eventcount = 2
+[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart.do" OR "/cart/success.do" status=200
+ | transaction itemId maxspan=1s mvlist="_time"
+ | search eventcount = 2
+| top 1 categoryId
+| table categoryId]
+| top 5 productId
+| lookup prices.csv productId
+2025-06-12 18:44:09,693 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search7_1749743025.84 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie   | transaction JSESSIONID mvlist=true | eval indexSuccess=mvfind(file, "success.do") | search indexSuccess="*" | eval timeSuccess=strptime(mvindex(req_time,indexSuccess), "%d/%b/%Y:%H:%M:%S")  | eval timeLogin=strptime(mvindex(req_time,0), "%d/%b/%Y:%H:%M:%S")  | eval timeToPurchase=timeSuccess-timeLogin | stats min(timeToPurchase) as minPurchaseTime
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie  
+| transaction JSESSIONID mvlist=true
+| eval indexSuccess=mvfind(file, "success.do")
+| search indexSuccess="*"
+| eval timeSuccess=strptime(mvindex(req_time,indexSuccess), "%d/%b/%Y:%H:%M:%S") 
+| eval timeLogin=strptime(mvindex(req_time,0), "%d/%b/%Y:%H:%M:%S") 
+| eval timeToPurchase=timeSuccess-timeLogin
+| stats min(timeToPurchase) as minPurchaseTime
+2025-06-12 18:44:09,812 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search8_1749743025.85 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200 | streamstats window=2 min(_time) as prevTime max(_time) as purchaseTime | eval maxSecsDiffBetweenPurchases=purchaseTime-prevTime | stats max(maxSecsDiffBetweenPurchases)
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200
+| streamstats window=2 min(_time) as prevTime max(_time) as purchaseTime
+| eval maxSecsDiffBetweenPurchases=purchaseTime-prevTime
+| stats max(maxSecsDiffBetweenPurchases)
+2025-06-12 18:44:09,943 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search9_1749743025.86 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200 | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2 | search      [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200     | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do"     | eval catId=mvfilter(categoryId!="NULL")     | top 1 catId     | table catId     | rename catId as categoryId] | eval prodId=mvfilter(productId!="NULL") | rename prodId as productId | top 5 productId | lookup prices.csv productId
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| search 
+    [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+    | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do"
+    | eval catId=mvfilter(categoryId!="NULL")
+    | top 1 catId
+    | table catId
+    | rename catId as categoryId]
+| eval prodId=mvfilter(productId!="NULL")
+| rename prodId as productId
+| top 5 productId
+| lookup prices.csv productId
+2025-06-12 18:44:10,044 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search10_1749743025.87 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200 | eval date=substr(req_time,0,11) | stats sum(other) as income count max(_time) as timeToSort by date | sort timeToSort | fields - timeToSort | streamstats window=2 first(income) as prevIncome last(income) as lastIncome | eval growthPerc=(lastIncome-prevIncome)/prevIncome*100 | reverse
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase uri_path="/cart/success.do" status=200
+| eval date=substr(req_time,0,11)
+| stats sum(other) as income count max(_time) as timeToSort by date
+| sort timeToSort
+| fields - timeToSort
+| streamstats window=2 first(income) as prevIncome last(income) as lastIncome
+| eval growthPerc=(lastIncome-prevIncome)/prevIncome*100
+| reverse
+2025-06-12 18:44:10,127 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search11_1749743025.88 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200 | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2 | dedup clientip | eval successIndex=mvfind(file, "success.do") | eval timePurchase=mvindex(req_time, successIndex) | eval price=mvindex(other, successIndex) | eval clientip=mvindex(clientip, successIndex) | eval prodId = mvfilter(productId!="NULL") | table clientip timePurchase price prodId itemId | sort clientip
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| dedup clientip
+| eval successIndex=mvfind(file, "success.do")
+| eval timePurchase=mvindex(req_time, successIndex)
+| eval price=mvindex(other, successIndex)
+| eval clientip=mvindex(clientip, successIndex)
+| eval prodId = mvfilter(productId!="NULL")
+| table clientip timePurchase price prodId itemId
+| sort clientip
+2025-06-12 18:44:10,244 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search12_1749743025.89 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2 | eval prodId=mvfilter(productId!="NULL") | table prodId | streamstats window=2 max(prodId) as prod1 min(prodId) as prod2 | eval followingSales = prod1+ "---->" + prod2 | stats count by followingSales | sort - count
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| eval prodId=mvfilter(productId!="NULL")
+| table prodId
+| streamstats window=2 max(prodId) as prod1 min(prodId) as prod2
+| eval followingSales = prod1+ "---->" + prod2
+| stats count by followingSales
+| sort - count
+2025-06-12 18:44:10,346 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search13_1749743026.90 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie      [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie status=200      | dedup clientip      |  table clientip] | search action="purchase" | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2 | eval prodId=mvfilter(productId!="NULL") | stats count as countOfPurchases dc(prodId) by clientip
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie 
+    [search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie status=200 
+    | dedup clientip 
+    |  table clientip]
+| search action="purchase"
+| transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+| eval prodId=mvfilter(productId!="NULL")
+| stats count as countOfPurchases dc(prodId) by clientip
+2025-06-12 18:44:10,469 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search14_1749743026.91 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie | top 1 clientip by date_wday | eval dayIndex=case(date_wday=="sunday",1,date_wday=="monday",2,date_wday=="tuesday",3,date_wday=="wednesday",4,date_wday=="thursday",5,date_wday=="friday",6,date_wday=="saturday",7) | sort dayIndex | fields - dayIndex
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie
+| top 1 clientip by date_wday
+| eval dayIndex=case(date_wday=="sunday",1,date_wday=="monday",2,date_wday=="tuesday",3,date_wday=="wednesday",4,date_wday=="thursday",5,date_wday=="friday",6,date_wday=="saturday",7)
+| sort dayIndex
+| fields - dayIndex
+2025-06-12 18:44:10,590 +0300 WARNING	pdfgen_search:140 - Job sid=admin__admin__search__search15_1749743026.92 does not match search query
+	expected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie  | stats dc(productId) as numProducts | eval countUnpurchesed=numProducts-[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200     | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2     | eval prodId=mvfilter(productId!="NULL")      | stats dc(prodId) as numPurchesed     |  return $numPurchesed]  |  table countUnpurchesed
+	detected query=source="tutorialdata.zip:*" sourcetype=access_combined_wcookie 
+| stats dc(productId) as numProducts
+| eval countUnpurchesed=numProducts-[search source="tutorialdata.zip:*" sourcetype=access_combined_wcookie action=purchase status=200
+    | transaction JSESSIONID,itemId mvlist=true maxspan=10s endswith="success.do" maxevents=2
+    | eval prodId=mvfilter(productId!="NULL") 
+    | stats dc(prodId) as numPurchesed
+    |  return $numPurchesed] 
+|  table countUnpurchesed
+2025-06-12 18:44:10,992 +0300 INFO	pdfrenderer:429 - normalize page settings; settings={'pdf.footer_enabled': True, 'pdf.header_center': 'description', 'pdf.footer_left': 'logo', 'pdf.footer_center': 'title', 'pdf.footer_right': 'timestamp,pagination', 'pdf.html_image_rendering': True}
+2025-06-12 18:44:10,992 +0300 INFO	pdfrenderer:429 - normalize page settings; elements={'logo': ['pdf.footer_left'], 'title': ['pdf.footer_center'], 'timestamp': ['pdf.footer_right'], 'pagination': ['pdf.footer_right']}
+2025-06-12 18:44:12,613 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['Time', 'Event']
+2025-06-12 18:44:14,110 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['clientip', 'first(req_time)', 'first(itemId)', 'price']
+2025-06-12 18:44:14,256 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['countUnpurchesed']
+2025-06-12 18:44:14,330 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['referer_domain', 'count']
+2025-06-12 18:44:14,513 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['clientip', 'purchaseTime', 'productId', 'price']
+2025-06-12 18:44:14,604 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['productId', 'count', 'percent', 'Code', 'price', 'product_name', 'sale_price']
+2025-06-12 18:44:14,717 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['minPurchaseTime']
+2025-06-12 18:44:14,789 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['max(maxSecsDiffBetweenPurchases)']
+2025-06-12 18:44:14,861 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['productId', 'count', 'percent', 'Code', 'price', 'product_name', 'sale_price']
+2025-06-12 18:44:14,933 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['date', 'income', 'count', 'growthPerc', 'lastIncome', 'prevIncome']
+2025-06-12 18:44:15,145 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['clientip', 'timePurchase', 'price', 'prodId', 'itemId']
+2025-06-12 18:44:15,310 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['followingSales', 'count']
+2025-06-12 18:44:15,508 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['clientip', 'countOfPurchases', 'dc(prodId)']
+2025-06-12 18:44:15,606 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['date_wday', 'clientip', 'count', 'percent']
+2025-06-12 18:44:15,684 +0300 INFO	pdfgen_table:1045 - renderTable> headerRow: ['countUnpurchesed']
+2025-06-12 18:44:21,336 +0300 INFO	pdfgen_endpoint:294 - Generated pdf, filename = tutorialdata-2025-06-12.pdf
