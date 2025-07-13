@@ -1,0 +1,533 @@
+;!@Lang2@!UTF-8!
+;  4.59 : Lucian Nan
+; 23.00 : 2023-07-22 : Marius Hudea
+; 24.05 : 2024-05-19 : Miloiu Andrei-Valentin
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Romanian
+RomÃ¢nÄƒ
+401
+Bine
+Anulare
+
+
+
+&Da
+&Nu
+ÃŽn&chide
+Ajutor
+
+&ContinuÄƒ
+440
+Da, pentru &toate
+Nu, pentru t&oate
+OpreÅŸte
+RestarteazÄƒ
+ÃŽn &fundal
+La &suprafaÅ£Äƒ
+&PauzÄƒ
+ÃŽn pauzÄƒ
+EÅŸti sigur cÄƒ vrei sÄƒ anulezi?
+500
+&FiÅŸier
+&EditeazÄƒ
+&VizualizeazÄƒ
+Fav&orite
+&Unelte
+&Ajutor
+540
+&Deschide
+Deschide Ã®&n
+Deschide Ã®n &afarÄƒ
+&VizualizezÄƒ
+&EditeazÄƒ
+&RedenumeÅŸte
+&CopiazÄƒ la...
+&MutÄƒ la...
+Åžter&ge
+SegmenteazÄƒ &fiÅŸierul...
+Com&binÄƒ segmente...
+&ProprietÄƒÅ£i
+Comen&tariu
+CalculeazÄƒ cod verificare
+DiferenÈ›Äƒ
+CreazÄƒ director
+CreazÄƒ fiÅŸier
+&IeÅŸire
+ScurtÄƒturÄƒ
+Fluxuri de date &alternative
+600
+&SelecteazÄƒ toate
+&DeselecteazÄƒ toate
+&InverseazÄƒ selecÅ£ia
+SelecteazÄƒ...
+DeselecteazÄƒ...
+SelecteazÄƒ dupÄƒ tip
+DeselecteazÄƒ dupÄƒ tip
+700
+PIctograme m&ari
+Pictograme m&ici
+&ListÄƒ
+&Detalii
+730
+Nesortat
+Vedere &planÄƒ
+&2 panouri
+Bare de &instrumente
+Deschide directorul rÄƒdÄƒcinÄƒ
+Un nivel mai sus
+Istoria directoarelor...
+&ÃŽmprospÄƒteazÄƒ
+ÃŽmprospÄƒtare automatÄƒ
+750
+Bara de instrumente ArhivÄƒ
+Bara de instrumente Standard
+Butoane mari
+AratÄƒ text sub butoane
+800
+&AdaugÄƒ directorul Ã®n Favorite ca
+ÃŽnregistrarea
+900
+&OpÅ£iuni...
+&Test performanÈ›Äƒ
+910
+È˜terge fiÈ™ierele temporare...
+960
+&ConÅ£inut...
+&Despre 7-Zip...
+1003
+Cale
+Nume
+Extensie
+Director
+MÄƒrime
+MÄƒrime compresatÄƒ
+Atribute
+Creat
+Accesat
+Modificat
+Solid
+Comentariu
+Criptat
+ÃŽmparte Ã®nainte
+ÃŽmparte dupÄƒ
+DicÅ£ionar
+
+Tip
+Anti
+Metoda
+SO gazdÄƒ
+FiÅŸier de sistem
+Utilizator
+Grup
+Bloc
+Comentariu
+PoziÅ£ia
+Prefixul destinaÅ£iei
+Directoare
+FiÅŸiere
+Versiune
+Volum
+Multivolum
+Ofset
+ScurtÄƒturi
+Blocuri
+Volume
+
+64-bit
+Big-endian
+Procesor
+MÄƒrime fizicÄƒ
+MÄƒrimea antetelor
+Checksum
+Caracteristici
+Adresa virtualÄƒ
+ID
+Nume scurt
+AplicaÈ›ia creatoare
+MÄƒrimea sectorului
+Mod
+LegÄƒturÄƒ simbolicÄƒ
+Eroare
+MÄƒrimea totalÄƒ
+SpaÅ£iu liber
+MÄƒrime cluster
+EtichetÄƒ
+Nume local
+Distribuitor
+Securitate NT
+Flux de date alternativ
+Aux
+È˜terse
+Este Vizualizare ArborescentÄƒ
+
+
+Tip eroare
+Erori
+Erori
+Avertismente
+Avertismente
+Fluxuri de date
+Fluxuri de date alternative
+MÄƒrime fluxuri de date alternative
+MÄƒrime virtualÄƒ
+MÄƒrime decompresatÄƒ
+MÄƒrime fizicÄƒ totalÄƒ
+Index volum
+SubTip
+Comentariu scurt
+Cod limbaj
+
+
+
+MÄƒrime coadÄƒ
+MÄƒrime conÈ›inut non-archivÄƒ
+LegÄƒturÄƒ
+LegÄƒturÄƒ Grea
+iNode
+
+Doar pentru citire
+
+CopiazÄƒ legÄƒtura
+
+
+InformaÈ›ia modificatÄƒ
+2100
+OpÅ£iuni
+Limbaj
+Limbaj:
+Editor
+&Editor:
+&Diferente:
+2200
+Sistem
+AsociazÄƒ 7-Zip cu:
+ToÈ›i utilizatorii
+2301
+IntegreazÄƒ 7-Zip Ã®n meniul contextual
+Meniu contextual Ã®n cascadÄƒ
+ÃŽnregistrÄƒri Ã®n meniu contextual:
+Pictograme in meniu contextual
+2320
+<Director>
+<ArhivÄƒ>
+Deschide arhiva
+DezarhiveazÄƒ fiÅŸierele...
+AdaugÄƒ Ã®ntr-o arhivÄƒ...
+TesteazÄƒ arhiva
+DezarhiveazÄƒ aici
+DezarhiveazÄƒ Ã®n {0}
+AdaugÄƒ Ã®n {0}
+ArhiveazÄƒ ÅŸi trimite email...
+ArhiveazÄƒ Ã®n {0} ÅŸi trimite email
+2400
+Directoare
+&Directorul de lucru
+Directorul &temporar al sistemului de operare
+&Actual
+&Specificat:
+FoloseÈ™te doar cÃ¢nd se fac operaÈ›ii pe disc detaÈ™abil
+Alege o locaÈ›ie pentru arhivele temporare.
+2500
+SetÄƒri
+AratÄƒ obiectul ".."
+AratÄƒ pictogramele reale ale fiÅŸierului
+AratÄƒ meniul sistemului
+SelecteazÄƒ &tot rÃ¢ndul
+AratÄƒ liniile de &ghidare
+Click simplu pentru a deschide un obiect
+Mod de selecÈ›ie &alternativ
+UtilizeazÄƒ pagini &mari de memorie
+2900
+Despre 7-Zip
+7-Zip este software gratuit.
+3000
+Sistemul nu poate aloca memoria necesarÄƒ
+Nu sunt erori
+{0} obiect(e) selectat(e)
+Nu pot crea directorul '{0}'
+OperaÅ£iile de actualizare nu sunt suportate pentru aceastÄƒ arhivÄƒ.
+Nu pot deschide fiÅŸierul '{0}' ca arhivÄƒ
+Nu pot deschide arhiva criptatÄƒ '{0}'. Parola greÅŸitÄƒ?
+Tip de arhivÄƒ nesuportat
+FiÈ™ierul {0} existÄƒ deja
+FiÅŸierul '{0}' a fost modificat.\nDoreÅŸti sÄƒ Ã®l actualizezi Ã®n arhivÄƒ?
+Nu pot actualiza fiÅŸierul\n'{0}'
+Nu pot porni editorul.
+Acest fiÈ™ier pare a fi un virus (numele fiÈ™ierului conÈ›ine multe spaÈ›ii Ã®n nume).
+Comanda nu poate fi pornitÄƒ dintr-un director cu lungime cale mare.
+Trebuie sÄƒ alegi un fiÈ™ier
+Trebuie sÄƒ alegi unul sau mai multe fiÈ™iere
+Prea multe obiecte
+Nu pot deschide fiÅŸierul ca arhivÄƒ {0}
+FiÈ™ierul este deschis ca arhivÄƒ {0}
+Arhiva este deschisÄƒ cu offset
+3300
+Dezarhivez
+Arhivez
+Testez
+Deschid...
+Citesc...
+Sterg
+3320
+Adaug
+Actualizez
+Analizez
+Reproduc
+Reconstruiesc
+Sar peste
+Sterg
+Creez antet
+3400
+DezarhiveazÄƒ
+DezarhiveazÄƒ Ã®n:
+Alege o destinaÅ£ie pentru fiÅŸierele dezarhivate.
+3410
+Mod cale:
+Cale completÄƒ
+FÄƒrÄƒ cale
+Cale absolutÄƒ
+Cale relativÄƒ
+3420
+Mod suprascriere
+ÃŽntreabÄƒ Ã®nainte de a suprascrie
+Suprascrie farÄƒ a Ã®ntreba
+Sari peste fiÅŸierele existente
+Auto redenumire
+Auto redenumeÅŸte fiÅŸierele existente
+3430
+EliminÄƒ director rÄƒdÄƒcinÄƒ duplicat
+RestaureazÄƒ informaÈ›ia de securitate a fiÈ™ierelor
+3440
+PropagheazÄƒ flux alternativ Zone.Id
+Pentru fiÈ™iere Office
+3500
+ConfirmÄƒ Ã®nlocuirea fiÅŸierului
+FiÅŸierul existÄƒ deja Ã®n directorul destinaÅ£ie.
+DoreÈ™ti sÄƒ Ã®nlocuieÈ™ti fiÅŸierul existent
+cu acest fiÈ™ier?
+{0} octeÅ£i
+Redenumire a&utomatÄƒ
+3700
+MetodÄƒ de arhivare nesuportatÄƒ pentru '{0}'.
+Eroare de date la '{0}'. FiÅŸierul este corupt.
+Verificarea CRC a eÅŸuat pentru '{0}'. FiÅŸierul este corupt.
+Erori de date la fiÅŸierul criptat '{0}'. ParolÄƒ greÅŸitÄƒ?
+Verificarea CRC a eÅŸuat pentru fiÅŸierul criptat '{0}'. ParolÄƒ greÅŸitÄƒ?
+3710
+ParolÄƒ greÈ™itÄƒ?
+3721
+MetodÄƒ de compresie nesuportatÄƒ
+Eroare date
+Verificare CRC eÈ™uatÄƒ
+Datele necesare nu sunt disponibile
+SfÃ¢rÈ™it neaÈ™teptat al datelor
+ExistÄƒ date dupÄƒ sfÃ¢rÈ™itul datelor esenÈ›iale
+Nu este arhivÄƒ
+Eroare Ã®n antete
+ParolÄƒ greÈ™itÄƒ
+3763
+ÃŽnceputul arhivei nu este disponibil
+ÃŽnceputul arhivei nu este confirmat
+
+
+
+OpÈ›iune nesuportatÄƒ
+3800
+Introdu parola
+Introdu parola:
+Reintrodu parola:
+&AratÄƒ parola
+Parolele nu sunt identice
+UtilizaÅ£i numai litere, cifre ÅŸi caracterele speciale (!, #, $, ...) pentru parolÄƒ
+Parola este prea lungÄƒ
+Parola
+3900
+Timp trecut:
+Timp rÄƒmas:
+MÄƒrime totalÄƒ:
+Viteza:
+Procesat:
+Rata de comprimare:
+Erori:
+Arhive:
+4000
+AdaugÄƒ la arhivÄƒ
+&ArhiveazÄƒ:
+Mod a&ctualizare:
+&Format arhivÄƒ:
+&Nivel compresie:
+&Metoda compresie:
+MÄƒrime &dicÅ£ionar:
+MÄƒrime &cuvÃ¢nt:
+MÄƒrime bloc solid:
+NumÄƒr fire execuÈ›ie simultane:
+&Parametrii:
+OpÅ£iuni
+CreazÄƒ arhivÄƒ SF&X
+ArhiveazÄƒ fiÅŸierele partajate
+Criptare
+Metoda de criptare:
+CripteazÄƒ &numele fiÅŸierelor
+Memorie necesarÄƒ estimatÄƒ pentru arhivare:
+Memorie necesarÄƒ estimatÄƒ pentru dezarhivare:
+È˜terge fiÈ™ierele dupÄƒ arhivare
+4040
+AdaugÄƒ legÄƒturi simbolice
+AdaugÄƒ legÄƒturi grele
+AdaugÄƒ fluxuri de date alternative
+AdaugÄƒ informaÈ›ia de securitate a fiÈ™ierelor
+4050
+Stocare
+Foarte rapid
+Rapid
+Normal
+Maxim
+Ultra
+4060
+AdaugÄƒ ÅŸi Ã®nlocuieÅŸte fiÅŸierele
+ActualizeazÄƒ ÅŸi adaugÄƒ fiÅŸierele
+ActualizeazÄƒ fiÅŸierele existente
+SincronizeazÄƒ fiÅŸierele
+4070
+CautÄƒ
+Toate fiÅŸierele
+Non-solid
+Solid
+4080
+Timp
+Precizie timp:
+AdaugÄƒ timpul ultimei modificari
+AdaugÄƒ timpul creare
+Adauga timpul ultimei accesÄƒri
+Timpul arhivei e cel mai recent timp al fiÈ™ierelor arhivate
+Nu schimba timpul ultimei accesÄƒri la fiÈ™ierele sursÄƒ
+4090
+sec
+ns
+6000
+CopiazÄƒ
+MutÄƒ
+CopiazÄƒ la:
+MutÄƒ la:
+Copiez...
+Mut...
+Redenumesc...
+Alege directorul destinaÅ£ie.
+OperaÅ£ia nu este suportatÄƒ.
+Eroare la redenumirea fiÅŸierului sau directorului
+ConfirmÄƒ copierea fiÅŸierului
+EÅŸti sigur cÄƒ vrei sÄƒ copiezi fiÅŸierele Ã®n arhiva
+6100
+ConfirmÄƒ ÅŸtergerea fiÅŸierului
+ConfirmÄƒ ÅŸtergerea directorului
+ConfirmÄƒ ÅŸtergerea mai multor fiÅŸiere
+EÅŸti sigur cÄƒ vrei sÄƒ ÅŸtergi '{0}'?
+EÅŸti sigur cÄƒ vrei sÄƒ ÅŸtergi directorul '{0}' ÅŸi tot conÅ£inutul lui?
+EÅŸti sigur cÄƒ vrei sÄƒ ÅŸtergi aceste {0} obiecte?
+Åžterg...
+Eroare la ÅŸtergerea fiÅŸierului sau directorului
+Sistemul nu poate muta un fiÅŸier cu cale lungÄƒ Ã®n coÅŸul de gunoi
+6300
+CreazÄƒ director
+CreazÄƒ fiÅŸier
+Numele directorului:
+Numele fiÅŸierului:
+Director nou
+FiÅŸier nou
+Eroare la crearea directorului
+Eroare la crearea fiÅŸierului
+6400
+Comentariu
+&Comentariu:
+SelecteazÄƒ
+DeselecteazÄƒ
+Masca:
+6600
+ProprietÄƒÅ£i
+Istoria directoarelor
+Mesaje de diagnosticare
+Mesaj
+7100
+Computer
+ReÅ£ea
+Documente
+Sistem
+7200
+ArhiveazÄƒ
+DezarhiveazÄƒ
+TesteazÄƒ
+CopiazÄƒ
+MutÄƒ
+Åžterge
+InformaÈ›ii
+7300
+SegmenteazÄƒ fiÅŸierul
+Ã®mparte Ã®n:
+ÃŽmparte Ã®n &volume, octeÅ£i:
+ÃŽmpart...
+ConfirmÄƒ Ã®mpÄƒrÅ£irea
+EÅŸti sigur cÄƒ vrei sÄƒ imparÅ£i arhiva Ã®n {0} volume?
+Dimensiunea volumului trebuie sÄƒ fie mai micÄƒ decÃ¢t dimensiunea fiÅŸierului original
+Dimensiunea volumului este incorectÄƒ
+Dimensiunea volumului specificat: {0} octeÅ£i.\nEÅŸti sigur cÄƒ vrei sÄƒ Ã®mparÅ£i arhiva Ã®n mai multe volume (pÄƒrÅ£i)?
+7400
+UneÅŸte fiÅŸierele
+&UneÅŸte Ã®n:
+Unesc...
+Alege doar prima parte din fiÅŸierul segmentat
+Nu pot detecta fiÈ™ierul ca parte a fiÈ™ierului segmentat
+Nu gÄƒsesc mai mult de o parte din fiÈ™ierul segmentat
+7500
+Calculez suma de control...
+InformaÅ£ii despre suma de control
+Suma de control CRC pentru conÅ£inut:
+Suma de control CRC pentru conÅ£inut ÅŸi nume:
+7600
+Test de performanÈ›Äƒ
+Memorie utilizatÄƒ:
+Arhivez
+Dezarhivez
+Rata
+Rata totalÄƒ
+Actual
+Rezultate
+Utilizarea procesorului
+Rata / Utilizare
+Finalizate:
+7700
+LegÄƒturÄƒ
+LegÄƒturÄƒ
+LegÄƒturÄƒ de la:
+LegÄƒturÄƒ cÄƒtre:
+7710
+Tip legÄƒturÄƒ
+LegaturÄƒ grea
+LegaturÄƒ simbolicÄƒ fiÈ™ier
+LegaturÄƒ simbolicÄƒ director
+LegÄƒturÄƒ director de tip joncÈ›iune
+7800
+Cerere de utilizare a memoriei
+SchimbÄƒ limita permisÄƒ pentru urmÄƒtoarele operaÈ›ii
+&RepetÄƒ acÈ›iunea selectatÄƒ pentru operaÈ›ia curentÄƒ
+AcÈ›iune
+7810
+AceastÄƒ operaÈ›iune a fost blocatÄƒ de 7-Zip.
+AceastÄƒ operaÈ›iune necesitÄƒ o cantitate mare de memorie (RAM).
+dimensiunea necesarÄƒ de utilizare a memoriei
+limita permisÄƒ de utilizare a memoriei
+limita permisÄƒ de utilizare setatÄƒ de 7-Zip
+MÄƒrimea RAM
+Cantitatea maximÄƒ de utilizare a memoriei RAM permisÄƒ pentru despachetarea arhivelor:
+7820
+&Permite despachetarea arhivei
+&Omite despachetarea arhivei
+Despachetarea arhivei a fost omisÄƒ.
