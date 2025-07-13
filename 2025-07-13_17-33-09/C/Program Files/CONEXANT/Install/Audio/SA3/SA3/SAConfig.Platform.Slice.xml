@@ -1,0 +1,5 @@
+<SmartAudioConfiguration>
+  <!-Special Setting->
+  <SliceGuiEnabled>true</SliceGuiEnabled>
+  <SliceSwitchBranding>true</SliceSwitchBranding>
+</SmartAudioConfiguration>
