@@ -1,0 +1,51 @@
+/*****************************************************************************
+Copyright © Microsoft Corporation.  All rights reserved.
+
+Synopsis:
+    MOF encoded definition for instance configuration point report. 
+
+    DEPENDENCIES: Report.mof, DocumentSchema.mof, SchemaNamespaces.mof
+
+***************************************************************************************************/
+
+#pragma autorecover
+
+//////////////////////////////////////////////////////////////////////////////
+// namespaces
+#pragma namespace("\\\\.\\root\\Microsoft\\PolicyPlatform\\Documents")
+
+
+// ***************************************************************************
+[ 
+    Version("1.0.0"),
+    DisplayName ("Instance Configuration Point Report"),
+    Description
+    (
+      "A report which assigns an Id to configuration points and containers."
+      " Other reports will use the Ids of the configuration points to refer to a"
+      " particular configuration point contained within this report."
+      " The configuration points in this report may also refer to the Ids of containers"
+      " which are also contained in this report."
+    )
+] 
+class PolicyPlatform_InstanceConfigPointReport : PolicyPlatform_Report
+{
+    [ 
+      Description
+      (
+        "A set of containers whose members will be referenced by some configuration"
+        " points or some containers in this report."
+      )
+    ] 
+    PolicyPlatform_ReportedContainer ReferencedContainers[];
+    
+    [ 
+      Description
+      (
+        "A set of configuration points whose members will be referenced by other reports."
+        " Some configuration points may also refer to members in set of containers. Other "
+        " reports will use Id of configuration point when referring to a configuration point."
+      )
+    ] 
+    PolicyPlatform_ReportedInstanceConfigPoint ConfigPoints[];
+};
