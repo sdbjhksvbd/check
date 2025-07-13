@@ -1,0 +1,38 @@
+packages:
+- file: identity-0.0.1-ac30d8f.tar.gz
+  name: identity
+  signature: '-----BEGIN PGP SIGNATURE-----
+
+
+    iQIzBAABCgAdFiEEWMMzELejVMEnnbZpXvoB7bPNRCAFAmTSnDcACgkQXvoB7bPN
+
+    RCCHDQ//aj7p3Xkc7Q+Kte7CmilgAYyzJl8+gj4EvomEeEYPuvDD/1A/oWyLhLY5
+
+    sB2K9DNtRIqoIGqy6RxapcLfdiLVEU3OBHc6FGzlXVdqy8o0vrZaL1zHhb10JfRt
+
+    dbU7VQuTMoF1ChEyB/veFpjYgxv8OsBCRuV6VdtOZwI0wzqxEpf4xwkjtEljWg9H
+
+    LbAfGK48WggYOf3QybErIV11RR9ZQpOd+WVwCGxW7VxK0ShHYhXz8U5xLH8O85aO
+
+    n009fkh/QWndIiBdxB0tCLRke4vgPZ/sI05XiX6Pt32gCp8ISxtaUDIoe+8zU3wf
+
+    I/6msdzsxU0bgvdLkTtY9Tuuf3nFkVbhjHkQZkUFKGRFzNxx+1OT9NVNcif+MskA
+
+    /DwZkRir4q9p3MjY0QVm/FPuar/MBvtUDsa3Gd7wxz0vNB+UpfL/qhl8S6rf6pha
+
+    yBhZixYQfPeN9cmaFf25AjhhNWEs2lc399Y7vv2qOVYLHI758s9zXeywkSMLDTQ0
+
+    VnfMENR1ZK9Biwra0KAnoo3HBo/XUcCljr264Ey7ugNY72N628ccrONWWmU5j29X
+
+    ORWtQCn+pqEh2gp2/3fieJx4OCXG+i1iqp3ZFXaJxL198E48RVDnjuGCaYkxcoZu
+
+    8V6DbO2/G0KFrK2np5HJypSHe8j+XJ5ymQIHmiPGhJsUJhRZ4xs=
+
+    =i1eG
+
+    -----END PGP SIGNATURE-----
+
+    '
+  version:
+    id: 0.0.1-ac30d8f
+    semver: v0.1.1
