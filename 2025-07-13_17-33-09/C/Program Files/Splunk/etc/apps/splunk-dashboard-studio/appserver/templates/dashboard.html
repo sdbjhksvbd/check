@@ -1,0 +1,35 @@
+<%!
+if cherrypy.config['product_type'] == 'hunk':
+        faviconFile = 'favicon_hunk.ico'
+elif cherrypy.config['product_type'] == 'enterprise':
+        faviconFile = 'favicon.ico'
+else:
+        faviconFile = 'favicon.ico'
+
+app_name = cherrypy.request.path_info.split('/')[3]
+app_root = "/" + "/".join(["static","app",app_name])
+config_qs = dict(autoload=1)
+%>\
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="listen to your data" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="${make_url('/static/build/css/bootstrap-enterprise.css')}" />
+    ## This is loaded by a fetch in pages/dashboard/index.jsx which is later used for the
+    ## redirection modal and configuring the charting library
+    <link rel="preload" href="${make_url('/splunkd/__raw/services/web-features?output_mode=json')}" as="fetch" crossorigin="use-credentials" />
+</head>
+<body>
+    <script src="${make_url('/config', _qs=config_qs)}"></script>
+    <script src="${make_url('/static/js/i18n.js')}"></script>
+    <script src="${make_url('/i18ncatalog?autoload=1')}"></script>
+    <script>
+        __splunkd_partials__ = ${json_decode(splunkd)};
+    </script>
+    <script type="module" src="${make_url('/static/app/splunk-dashboard-studio/build/%s.js' % (page))}"></script>
+</body>
+</html>
