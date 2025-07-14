@@ -1,0 +1,318 @@
+7.165.0.2 : 10:41:31.544 : C:\PROGRAM FILES\CONEXANT\MICTRAY\SETUP64.EXE "
+7.165.0.2 : 10:41:31.544 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.165.0.2
+7.165.0.2 : 10:41:31.544 :   Version = V7.165.0.2
+7.165.0.2 : 10:41:31.544 :   OS Platform = OS_WIN10-64
+7.165.0.2 : 10:41:31.544 :   dwSetupConfig = 20100 : dwMode = 80220002
+7.165.0.2 : 10:41:31.544 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -U -IMICTRAY
+7.165.0.2 : 10:41:31.544 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -IMICTRAY
+7.165.0.2 : 10:41:31.544 :     ENTRY: CSetupDlg::RunSetupDlg
+7.165.0.2 : 10:41:31.544 :       ENTRY: CUninstall :: SetupUninstallEnviroment
+7.165.0.2 : 10:41:31.544 :         ENTRY: CUninstall::IsAlternateUninstallerFileCase
+7.165.0.2 : 10:41:31.544 :         EXIT:  CUninstall::IsAlternateUninstallerFileCase: bRetVal=0
+7.165.0.2 : 10:41:31.544 :         ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.165.0.2 : 10:41:31.544 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 10:41:31.544 :         ENTRY: CDevNode::IsDeleteLogFilesOnUninstall
+7.165.0.2 : 10:41:31.544 :         EXIT:  CDevNode::IsDeleteLogFilesOnUninstall : bRetVal = 0
+7.165.0.2 : 10:41:31.544 :         ENTRY: CDevNode::GetUCIFlagsValue
+7.165.0.2 : 10:41:31.544 :         EXIT:  CDevNode::GetUCIFlagsValue : dwUCIFlags = 0
+7.165.0.2 : 10:41:31.544 :       EXIT:  CUninstall :: SetupUninstallEnviroment : bRetVal = 1
+7.165.0.2 : 10:41:31.544 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:31.544 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.544 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 10:41:31.544 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 10:41:31.544 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.544 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 10:41:31.544 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 10:41:31.544 :       ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.165.0.2 : 10:41:31.544 :         ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.165.0.2 : 10:41:31.544 :         EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.165.0.2 : 10:41:31.544 :       EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.165.0.2 : 10:41:31.544 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:31.544 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.544 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 10:41:31.544 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 10:41:31.544 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.544 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 10:41:31.544 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 10:41:31.544 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.165.0.2 : 10:41:31.544 :         ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.165.0.2 : 10:41:31.544 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:31.544 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.544 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.165.0.2 : 10:41:31.544 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 10:41:31.544 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.165.0.2 : 10:41:31.544 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 10:41:31.544 :         m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.165.0.2 : 10:41:31.544 :         m_pSetupParms->csParentFilePath=,
+7.165.0.2 : 10:41:31.544 :         MyPaths = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.559 :         EXIT:  KINIFile::Initialize
+7.165.0.2 : 10:41:31.559 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 4
+7.165.0.2 : 10:41:31.559 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:31.559 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.559 :           ENTRY: KINIFile::LocateINIFileNames
+7.165.0.2 : 10:41:31.559 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.559 :           szTestFile = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.559 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.165.0.2 : 10:41:31.559 :           ENTRY: CINIFile::SortINIFiles
+7.165.0.2 : 10:41:31.559 :           EXIT:  CINIFile::SortINIFiles
+7.165.0.2 : 10:41:31.559 :           ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 10:41:31.559 :             ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 10:41:31.559 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.165.0.2 : 10:41:31.559 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.165.0.2 : 10:41:31.575 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\PRINTENUM\{F27BF2B1-3ACE-4A4D-B22D-AB8013987E1A}
+7.165.0.2 : 10:41:31.591 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 10:41:31.591 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 10:41:31.591 :           szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 10:41:31.591 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 10:41:31.591 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.591 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.165.0.2 : 10:41:31.591 :             dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.591 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.165.0.2 : 10:41:31.591 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.165.0.2 : 10:41:31.591 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.165.0.2 : 10:41:31.591 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.165.0.2 : 10:41:31.591 :             ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:31.606 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.606 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.165.0.2 : 10:41:31.606 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.165.0.2 : 10:41:31.606 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.165.0.2 : 10:41:31.606 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.165.0.2 : 10:41:31.606 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.165.0.2 : 10:41:31.606 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.165.0.2 : 10:41:31.606 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.165.0.2 : 10:41:31.606 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.165.0.2 : 10:41:31.606 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.165.0.2 : 10:41:31.606 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.165.0.2 : 10:41:31.606 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.165.0.2 : 10:41:31.606 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.165.0.2 : 10:41:31.606 :       ENTRY: CINIFile::UninstallINIFiles : pszDeviceID= MICTRAY
+7.165.0.2 : 10:41:31.606 :         ENTRY: KINIFile::Initialize : pszDeviceID = MICTRAY
+7.165.0.2 : 10:41:31.606 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:31.606 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.622 :         m_szDriverPath = MICTRAY
+7.165.0.2 : 10:41:31.622 :         m_pSetupParms->csParentFilePath=,
+7.165.0.2 : 10:41:31.622 :         MyPaths = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.622 :         EXIT:  KINIFile::Initialize
+7.165.0.2 : 10:41:31.622 :         ENTRY: KINIFile::UninstallINIFiles
+7.165.0.2 : 10:41:31.622 :         szUninstallPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.622 :           ENTRY: KINIFile::LocateINIFileNames
+7.165.0.2 : 10:41:31.622 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:31.622 :           szTestFile = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.622 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.165.0.2 : 10:41:31.622 :           ENTRY: CINIFile::SortINIFiles
+7.165.0.2 : 10:41:31.622 :           EXIT:  CINIFile::SortINIFiles
+7.165.0.2 : 10:41:31.622 :           ENTRY: KINIFile::DoInstallAppSectionOnly : pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.622 :             ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 10:41:31.622 :               ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 10:41:31.622 :                 ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.165.0.2 : 10:41:31.638 :                 EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.165.0.2 : 10:41:31.653 :               pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 10:41:31.669 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 10:41:31.669 :             szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 10:41:31.669 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 10:41:31.669 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.669 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.165.0.2 : 10:41:31.669 :               dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.669 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.165.0.2 : 10:41:31.669 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.165.0.2 : 10:41:31.669 :             ENTRY: KINIFile::InstallDefinedApps
+7.165.0.2 : 10:41:31.669 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = UninstallApp
+7.165.0.2 : 10:41:31.669 :               ENTRY: KINIFile::InstallDefinedApps2
+7.165.0.2 : 10:41:31.669 :               szInstallAppSection = InstallApp64.RunAfterInstallation, pszInstallTag = UninstallApp
+7.165.0.2 : 10:41:31.669 :                 ENTRY: IsDeviceGuardCase
+7.165.0.2 : 10:41:31.669 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.165.0.2 : 10:41:31.669 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :               szInstallAppType = UninstallApp
+7.165.0.2 : 10:41:31.669 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.165.0.2 : 10:41:31.669 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X100
+7.165.0.2 : 10:41:31.669 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 256
+7.165.0.2 : 10:41:31.669 :               Flags: szBuffer = 0x100, dwFlags = 100
+7.165.0.2 : 10:41:31.669 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 ENTRY: KINIFile::ISRepairWA
+7.165.0.2 : 10:41:31.669 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.165.0.2 : 10:41:31.669 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 10:41:31.669 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.165.0.2 : 10:41:31.669 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 10:41:31.669 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.669 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 10:41:31.669 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.165.0.2 : 10:41:31.669 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 10:41:31.684 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.165.0.2 : 10:41:31.684 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /delete /tn \microsoft\windows\conexant\mictray /f
+7.165.0.2 : 10:41:31.684 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.165.0.2 : 10:41:31.684 :                 ENTRY: KINIFile::StartAnApp
+7.165.0.2 : 10:41:31.684 :                 pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdline = /delete /tn \microsoft\windows\conexant\mictray /f, dwFlags = 1342177536
+7.165.0.2 : 10:41:31.684 :                   ENTRY: CFileUtils::SpawnApp
+7.165.0.2 : 10:41:31.684 :                   pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdArg = /delete /tn \microsoft\windows\conexant\mictray /fd
+7.165.0.2 : 10:41:31.684 :                   bWaitForProcess = 1, dwStartAppTimeOut = 240000, dwFlags = 1342177536
+7.165.0.2 : 10:41:31.684 :                   csWorkingDir = C:\WINDOWS\system32\
+7.165.0.2 : 10:41:31.684 :                   szExeName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.684 :                   pszCmdArg = /delete /tn \microsoft\windows\conexant\mictray /f
+7.165.0.2 : 10:41:31.684 :                   Trying to Spawn with ShellExecuteExA
+7.165.0.2 : 10:41:31.747 :                   Child process signalled success
+7.165.0.2 : 10:41:31.747 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.165.0.2 : 10:41:31.747 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.165.0.2 : 10:41:31.747 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.165.0.2 : 10:41:31.747 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe, pszCmdline = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.165.0.2 : 10:41:31.747 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :               szInstallAppType = UninstallApp
+7.165.0.2 : 10:41:31.747 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.165.0.2 : 10:41:31.747 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X100
+7.165.0.2 : 10:41:31.747 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 256
+7.165.0.2 : 10:41:31.747 :               Flags: szBuffer = 0x100, dwFlags = 100
+7.165.0.2 : 10:41:31.747 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :                 ENTRY: KINIFile::ISRepairWA
+7.165.0.2 : 10:41:31.747 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.165.0.2 : 10:41:31.747 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.747 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 10:41:31.747 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.165.0.2 : 10:41:31.747 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 10:41:31.763 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.763 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.763 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 10:41:31.763 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.165.0.2 : 10:41:31.763 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 10:41:31.763 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.165.0.2 : 10:41:31.763 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /delete /tn \microsoft\windows\conexant /f
+7.165.0.2 : 10:41:31.763 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.165.0.2 : 10:41:31.763 :                 ENTRY: KINIFile::StartAnApp
+7.165.0.2 : 10:41:31.763 :                 pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdline = /delete /tn \microsoft\windows\conexant /f, dwFlags = 1342177536
+7.165.0.2 : 10:41:31.763 :                   ENTRY: CFileUtils::SpawnApp
+7.165.0.2 : 10:41:31.763 :                   pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdArg = /delete /tn \microsoft\windows\conexant /fd
+7.165.0.2 : 10:41:31.763 :                   bWaitForProcess = 1, dwStartAppTimeOut = 240000, dwFlags = 1342177536
+7.165.0.2 : 10:41:31.763 :                   csWorkingDir = C:\WINDOWS\system32\
+7.165.0.2 : 10:41:31.763 :                   szExeName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.763 :                   pszCmdArg = /delete /tn \microsoft\windows\conexant /f
+7.165.0.2 : 10:41:31.763 :                   Trying to Spawn with ShellExecuteExA
+7.165.0.2 : 10:41:31.794 :                   Child process signalled success
+7.165.0.2 : 10:41:31.794 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.165.0.2 : 10:41:31.794 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.165.0.2 : 10:41:31.794 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.165.0.2 : 10:41:31.794 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe, pszCmdline = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 10:41:31.794 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.165.0.2 : 10:41:31.794 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.165.0.2 : 10:41:31.794 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.165.0.2 : 10:41:31.794 :           EXIT:  KINIFile::DoInstallAppSectionOnly : dwRetVal = 0
+7.165.0.2 : 10:41:31.794 :           ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 10:41:31.794 :             ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 10:41:31.794 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.165.0.2 : 10:41:31.809 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.165.0.2 : 10:41:31.825 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 10:41:31.825 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 10:41:31.825 :           szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 10:41:31.825 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 10:41:31.825 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.825 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.165.0.2 : 10:41:31.825 :             dwFlags = 68681728, pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:31.825 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.165.0.2 : 10:41:31.825 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.165.0.2 : 10:41:31.825 :           ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 10:41:31.825 :           EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.165.0.2 : 10:41:31.825 :           ENTRY: KINIFile::UninstallPreCopyFiles : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 10:41:31.825 :           EXIT:  KINIFile::UninstallPreCopyFiles
+7.165.0.2 : 10:41:31.825 :           ENTRY: KINIFile::UninstallInstallShield
+7.165.0.2 : 10:41:31.825 :           EXIT:  KINIFile::UninstallInstallShield
+7.165.0.2 : 10:41:31.825 :           ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 10:41:31.825 :             ENTRY: CDevNode::RegOpenClassDeviceKey
+7.165.0.2 : 10:41:31.825 :             EXIT:  CDevNode::RegOpenClassDeviceKey
+7.165.0.2 : 10:41:31.841 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:31.841 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:31.841 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:31.841 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:31.841 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:31.841 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:31.841 :             ENTRY: CInf::ResetDeleteOnRebootList
+7.165.0.2 : 10:41:31.841 :             EXIT:  CInf::ResetDeleteOnRebootList
+7.165.0.2 : 10:41:31.841 :             ENTRY: CFileUtils::DeleteAFile
+7.165.0.2 : 10:41:31.841 :             pszFileToDelete = C:\WINDOWS\system32\MicTray64.exe, dwFlags = 2
+7.165.0.2 : 10:41:31.841 :               ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\WINDOWS\SYSTEM32\MICTRAY64.EXE
+7.165.0.2 : 10:41:31.841 :                 ENTRY: CFileUtils::TerminateApp1
+7.165.0.2 : 10:41:31.841 :                 csFileNamePath = C:\WINDOWS\SYSTEM32\MICTRAY64.EXE, dwProcessID = 6996
+7.165.0.2 : 10:41:31.841 :                   ENTRY: CFileUtils::IsFullNameProcessRunning : csFileNamePath = C:\WINDOWS\SYSTEM32\MICTRAY64.EXE
+7.165.0.2 : 10:41:31.841 :                   csTestAppWithPath = C:\Windows\System32\MicTray64.exe
+7.165.0.2 : 10:41:31.841 :                   Found Process Running
+7.165.0.2 : 10:41:31.841 :                   EXIT:  CFileUtils::IsFullNameProcessRunning : bRetVal = 1
+7.165.0.2 : 10:41:31.841 :                 EXIT:  CFileUtils::TerminateApp1 : bRetVal = 1
+7.165.0.2 : 10:41:31.841 :               EXIT:  CFileUtils::TerminateApp : bRetVal = 1
+7.165.0.2 : 10:41:32.357 :             GetLastError() = 2
+7.165.0.2 : 10:41:32.357 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\WINDOWS\system32\MicTray64.exe
+7.165.0.2 : 10:41:32.357 :               csFolderToDelete = C:\WINDOWS\SYSTEM32
+7.165.0.2 : 10:41:32.357 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.165.0.2 : 10:41:32.357 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.165.0.2 : 10:41:32.357 :             ENTRY: CFileUtils::DeleteAFile
+7.165.0.2 : 10:41:32.357 :             pszFileToDelete = C:\WINDOWS\system32\MicTray64.xml, dwFlags = 2
+7.165.0.2 : 10:41:32.357 :             GetLastError() = 2
+7.165.0.2 : 10:41:32.357 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\WINDOWS\system32\MicTray64.xml
+7.165.0.2 : 10:41:32.357 :               csFolderToDelete = C:\WINDOWS\SYSTEM32
+7.165.0.2 : 10:41:32.357 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.165.0.2 : 10:41:32.357 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.165.0.2 : 10:41:32.357 :             ENTRY: CFileUtils::DeleteAFile
+7.165.0.2 : 10:41:32.357 :             pszFileToDelete = C:\Program Files\Conexant\MicTray\setup64.exe, dwFlags = 2
+7.165.0.2 : 10:41:32.357 :               ENTRY: CFileUtils::DeleteAFile
+7.165.0.2 : 10:41:32.357 :               pszFileToDelete = C:\Users\Public\MicTray.log, dwFlags = 2
+7.165.0.2 : 10:41:32.357 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.165.0.2 : 10:41:32.357 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.165.0.2 : 10:41:32.357 :           HKLM: klAddRegInfoList.GetCount() = 14, cslKeyList.GetCount() = 4
+7.165.0.2 : 10:41:32.372 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:32.372 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:32.372 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:32.372 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:32.372 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:32.372 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 10:41:32.372 :             ENTRY: CShortCut::DeleteShortcut
+7.165.0.2 : 10:41:32.372 :             EXIT:  CShortCut::DeleteShortcut : bRetVal = 0
+7.165.0.2 : 10:41:32.372 :             ENTRY: CCabFile::UninstallIniDefinedCabs
+7.165.0.2 : 10:41:32.372 :             pszINIFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 10:41:32.372 :             EXIT:  CCabFile::UninstallIniDefinedCabs
+7.165.0.2 : 10:41:32.490 :           EXIT:  KINIFile::UninstallINIFiles : dwRetFlags = 135266304
+7.165.0.2 : 10:41:32.490 :         EXIT:  CINIFile::UninstallINIFiles : dwRetVal = 135266304
+7.165.0.2 : 10:41:32.490 :         ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.165.0.2 : 10:41:32.490 :           ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.165.0.2 : 10:41:32.490 :           EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.165.0.2 : 10:41:32.490 :         EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.165.0.2 : 10:41:32.490 :         ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:32.490 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:32.490 :         ENTRY: CINIFile::CINIFile
+7.165.0.2 : 10:41:32.490 :           ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 10:41:32.490 :           m_szINIPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:32.490 :           EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 10:41:32.490 :         EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 10:41:32.490 :         ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.165.0.2 : 10:41:32.490 :           ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.165.0.2 : 10:41:32.490 :             ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:32.490 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:32.490 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.165.0.2 : 10:41:32.490 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 10:41:32.490 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.165.0.2 : 10:41:32.490 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 10:41:32.490 :           m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.165.0.2 : 10:41:32.490 :           m_pSetupParms->csParentFilePath=,
+7.165.0.2 : 10:41:32.490 :           MyPaths = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:32.490 :           EXIT:  KINIFile::Initialize
+7.165.0.2 : 10:41:32.490 :           ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 8
+7.165.0.2 : 10:41:32.490 :             ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 10:41:32.490 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:32.490 :             ENTRY: KINIFile::LocateINIFileNames
+7.165.0.2 : 10:41:32.490 :             pszInstallPath = C:\PROGRAM FILES\CONEXANT\MICTRAY\
+7.165.0.2 : 10:41:32.490 :             EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 0
+7.165.0.2 : 10:41:32.490 :           EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.165.0.2 : 10:41:32.490 :         EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.165.0.2 : 10:41:32.490 :       EXIT:  CSetupDlg::RunSetupDlg
+7.165.0.2 : 10:41:32.490 :     EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.165.0.2 : 10:41:32.490 :     ENTRY: CSetupApp::SetupRetVal
+7.165.0.2 : 10:41:32.490 :       ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.165.0.2 : 10:41:32.490 :       EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.165.0.2 : 10:41:32.506 :       ENTRY: CSetupApp::ExitInstance()
+7.165.0.2 : 10:41:32.662 :         ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.165.0.2 : 10:41:32.662 :         CFileUtils::SignalMonitorAppSyncInfo : szFileName = C:\PROGRAM FILES\CONEXANT\MICTRAY\SETUP64.EXE
+7.165.0.2 : 10:41:32.662 :         EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.165.0.2 : 10:41:32.662 :       EXIT:  CSetupApp::ExitInstance()
