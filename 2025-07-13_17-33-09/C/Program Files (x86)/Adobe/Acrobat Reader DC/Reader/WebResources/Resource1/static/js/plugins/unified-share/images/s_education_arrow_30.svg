@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-s_education_arrow_30">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="s_education_arrow_30" clip-path="url(#clip-s_education_arrow_30)">
+    <g id="Group_24" data-name="Group 24" transform="translate(-323 -269)">
+      <line id="Line_4" data-name="Line 4" x2="22" transform="translate(325.5 283.5)" fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 4"/>
+      <path id="Path_31" data-name="Path 31" d="M1050.063,643.26l4.745,4.745-4.745,4.745" transform="translate(-703.763 -364.526)" fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
