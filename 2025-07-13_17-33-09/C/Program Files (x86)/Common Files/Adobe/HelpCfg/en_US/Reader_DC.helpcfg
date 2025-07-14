@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpcfg date="2015-02-02" version="2.0" appId="null" pubId="null">
+<product
+id="en_US_Reader_DC"
+label="Adobe Reader"
+baseUrl="http://help.adobe.com/"
+path="HelpCfg/en_US/"
+helpServiceURL="http://community.adobe.com/chcservices/services/redirect"
+ionId="adobereader_product_adobelr"
+searchOptions="Community|Adobe"
+searchAdobeRefinement="site=adobereader_all"
+searchDefault="Community"
+/>
+<package
+id="en_US_Reader_DC_Reference"
+label="Adobe Reader Reference"
+baseUrl="http://helpx.adobe.com"
+path=""
+packageGenerator="day"
+helpmapPath="reader/using/dc/helpmap.txt"
+contextSensitivity="yes"
+downloadPdf="pdf/adobe_reader_reference.pdf"
+/>
+</helpcfg>
