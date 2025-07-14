@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({COPYRIGHT:"Â©2012-2015 Adobe Systems Incorporated, All Rights Reserved.",HELP:"YardÄ±m",PRIVACY:"Gizlilik",TERMS:"KoÅŸullar",COOKIES:"TanÄ±mlama Bilgileri",PRIVACY_POLICY:"Gizlilik Ä°lkeleri ve TanÄ±mlama Bilgileri",TERMS_OF_USE:"KullanÄ±m KoÅŸullarÄ±",WELCOME_MSG:"Adobe Belge Hizmetleri'ni kullanÄ±n ve dosyalarÄ±nÄ±za dilediÄŸiniz aygÄ±ttan eriÅŸin",LOAD_FAILURES:"YÃ¼kleme HatalarÄ±",MODULES_NOT_LOADED:"Åžu modÃ¼ller yÃ¼klenemedi:<br/><br/><%= modules %>",SIGN_IN:"Oturum AÃ§",CREATE_ACCOUNT:"Hesap OluÅŸtur",FORGOT_PASSWORD:"Oturum aÃ§ma ile ilgili sorun mu yaÅŸÄ±yorsunuz?",EMAIL_VERIFICATION:"E-posta DoÄŸrulama",PDF_SERVICES:"Â Â /Â Â PDF hizmetleri",ACCOUNT:"Hesap",LINK_CREATIVE_CLOUD_ACCOUNT:"Creative Cloud HesabÄ± BaÄŸla...",LINK_DROPBOX_ACCOUNT:"Dropbox HesabÄ± BaÄŸla...",MANAGE_SUB:"PlanÄ±m...",USER_ACCOUNT:"KullanÄ±cÄ± HesabÄ±...",ASK_US_A_QUESTION:"Bize Soru Sorun...",SUPPORT:"Destek...",CHAT_WITH_US:"Bizimle Sohbet Edin...",ABOUT_APP:"Document Cloud HakkÄ±nda...",SIGN_OUT:"Oturumu Kapat",SHOW_PROGRESS:"Ä°lerleme Durumunu GÃ¶ster",PROGRESS_COMPLETE:"Ä°ÅŸlem TamamlandÄ±",REMOVE_HISTORY:"GeÃ§miÅŸi Sil",OPERATION_IN_PROGRESS_DLG_TITLE:"Ä°ÅŸlem Devam Ediyor",OPERATION_IN_PROGRESS_DLG_MSG:"Åžu anda devam eden bir iÅŸlem var. Devam ettiÄŸinizde bu iÅŸlem iptal edilecek. Devam etmek istiyor musunuz?",QUOTA_LEGEND:"<%= using %> / <%= allotment %>",STORAGE_EXCEEDED_LEARN_MORE:"Depolama KotasÄ± AÅŸÄ±ldÄ± (<a class='quota-display-learn-more'>Daha fazla bilgi</a>)",ABOUT_DLG_TITLE:"Document Cloud HakkÄ±nda",ABOUT_DLG_COPYRIGHT_PARA:"Copyright Â© 2012-2015 Adobe Systems Incorporated and its licensors. All Rights Reserved.",ABOUT_DLG_TRADEMARK_PARA:"Adobe, the Adobe logo, and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.",ABOUT_DLG_PORTIONS_PARA:"BÃ¶lÃ¼mlerde kullanÄ±lanlar:",ABOUT_DLG_MICROSOFT_PARA:"Microsoft Windows Media Technologies. Copyright Â© 1999-2002, 2006 Microsoft Corporation. All Rights Reserved.",ABOUT_DLG_IRIS_PARA:"OCR technology by Image Recognition Integrated Systems S.A. Copyright Â© 1987 - 2012, I.R.I.S. S.A. All rights reserved.",ABOUT_DLG_SOLID_PARA:"Copyright Â© 2003-2011 Solid Documents, LLC",ABOUT_DLG_THIRD_PARTY_PARA:"ÃœÃ§Ã¼ncÃ¼ taraf yazÄ±lÄ±mlarÄ±yla ilgili ÃœÃ§Ã¼ncÃ¼ Taraf bildirimleri, hÃ¼kÃ¼mler ve koÅŸullar <%= thirdPartyLink %> adresinde bulunabilir ve burada referans olarak verilmiÅŸtir.",ABOUT_DLG_BUILD_NUMBER:"Derleme: <%= buildNum %>",NO_CONNECTION_TITLE:"Internet BaÄŸlantÄ±sÄ± Yok",NO_CONNECTION_MSG:"Bu alandaki Ã¶zellikler iÃ§in Internet baÄŸlantÄ±sÄ± gereklidir. LÃ¼tfen bilgisayarÄ±nÄ±zÄ± Internet'e baÄŸlayÄ±n ve tekrar deneyin.",NETWORK_FAILURE:"AÄŸ BaÄŸlantÄ±sÄ± HatasÄ±",NETWORK_DISCONNECTED:"AÄŸ baÄŸlantÄ±sÄ± algÄ±lanamÄ±yor. Reader aÄŸ baÄŸlantÄ±sÄ± olmadÄ±ÄŸÄ±nda tam performans saÄŸlayamayabilir"});
