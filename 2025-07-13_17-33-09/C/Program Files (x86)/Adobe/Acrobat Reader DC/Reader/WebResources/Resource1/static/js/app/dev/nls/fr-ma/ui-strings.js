@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({COPYRIGHT:"Â©2012-2015 Adobe Systems Incorporated. All Rights Reserved.",HELP:"Aide",PRIVACY:"ConfidentialitÃ©",TERMS:"Conditions",COOKIES:"Cookies",PRIVACY_POLICY:"Politique de confidentialitÃ© et cookies",TERMS_OF_USE:"Conditions d'utilisation",WELCOME_MSG:"Utilisez les services de document Adobe et accÃ©dez Ã  vos fichiers sur nâ€™importe quel appareil.",LOAD_FAILURES:"Ã‰checs de chargement",MODULES_NOT_LOADED:"Ã‰chec du chargement des modules suivantsÂ :<br/><br/><%= modules %>",SIGN_IN:"Se connecter",CREATE_ACCOUNT:"CrÃ©er un compte",FORGOT_PASSWORD:"Des problÃ¨mes de connexionÂ ?",EMAIL_VERIFICATION:"VÃ©rification de lâ€™adresse e-mail",PDF_SERVICES:"Â Â /Â Â PDF services",ACCOUNT:"Compte",LINK_CREATIVE_CLOUD_ACCOUNT:"Lier le compte Creative Cloud...",LINK_DROPBOX_ACCOUNT:"Lier le compte Dropbox...",MANAGE_SUB:"Ma formule...",USER_ACCOUNT:"Compte dâ€™utilisateur...",ASK_US_A_QUESTION:"Posez-nous une question...",SUPPORT:"Assistance technique...",CHAT_WITH_US:"Converser avec nous...",ABOUT_APP:"Ã€ propos de Document Cloudâ€¦",SIGN_OUT:"Fermer la session",SHOW_PROGRESS:"Afficher la progression",PROGRESS_COMPLETE:"Progression terminÃ©e",REMOVE_HISTORY:"Supprimer lâ€™historique",OPERATION_IN_PROGRESS_DLG_TITLE:"OpÃ©ration en cours",OPERATION_IN_PROGRESS_DLG_MSG:"Une opÃ©ration est actuellement en cours. Le fait de continuer annulera cette opÃ©ration. Voulez-vous continuerÂ ?",QUOTA_LEGEND:"<%= using %> sur <%= allotment %>",STORAGE_EXCEEDED_LEARN_MORE:"CapacitÃ© de stockage dÃ©passÃ©e (<a class='quota-display-learn-more'>En savoir plus</a>)",ABOUT_DLG_TITLE:"Ã€ propos de Document Cloud",ABOUT_DLG_COPYRIGHT_PARA:"Copyright Â© 2012-2015 Adobe Systems Incorporated and its licensors. All Rights Reserved.",ABOUT_DLG_TRADEMARK_PARA:"Adobe, the Adobe logo, and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.",ABOUT_DLG_PORTIONS_PARA:"Portions utilize:",ABOUT_DLG_MICROSOFT_PARA:"Microsoft Windows Media Technologies. Copyright Â© 1999-2002, 2006 Microsoft Corporation. All Rights Reserved.",ABOUT_DLG_IRIS_PARA:"OCR technology by Image Recognition Integrated Systems S.A. Copyright Â© 1987 - 2012, I.R.I.S. S.A. All rights reserved.",ABOUT_DLG_SOLID_PARA:"Copyright Â© 2003-2011 Solid Documents, LLC",ABOUT_DLG_THIRD_PARTY_PARA:"Les mentions, clauses et conditions sâ€™appliquant aux logiciels tiers se trouvent sur le site <%= thirdPartyLink %> et sont incluses par rÃ©fÃ©rence.",ABOUT_DLG_BUILD_NUMBER:"VersionÂ : <%= buildNum %>",NO_CONNECTION_TITLE:"Aucune connexion Internet",NO_CONNECTION_MSG:"Les fonctionnalitÃ©s dans cette section nÃ©cessitent une connexion Internet. Connectez votre ordinateur Ã  Internet et rÃ©essayez.",NETWORK_FAILURE:"Ã‰chec de la connexion rÃ©seau",NETWORK_DISCONNECTED:"Il ne semble pas y avoir de connexion rÃ©seau. Il se peut quâ€™AdobeÂ Reader ne soit pas totalement opÃ©rationnel en lâ€™absence de connexion rÃ©seau."});
