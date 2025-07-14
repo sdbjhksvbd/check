@@ -1,0 +1,6 @@
+<Application xmlns="http://ns.adobe.com/acrobat/app/2014" title="AI Assistant" av2Title="AI Assistant" id="GenAIAssistantApp" description="Chat with your documents, use key insights to draft content, and more with AI Assistant" av2Description="Chat with your documents, use key insights to draft content, and more with AI Assistant" showLabels="true" majorVersion="1" minorVersion="0">
+	<Layouts>
+		<Layout name="Default" OpenInDocumentTab="true">
+		</Layout>
+	</Layouts>
+</Application>
