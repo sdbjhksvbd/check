@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "YENÄ° OLUÅžTUR"
+   },
+   "explanationofflinedisabled": {
+      "message": "Ä°nternet'e baÄŸlÄ± deÄŸilsiniz. Google DokÃ¼manlar'Ä± Ä°nternet baÄŸlantÄ±sÄ± olmadan kullanmak iÃ§in, Ä°nternet'e baÄŸlanabildiÄŸinizde Google DokÃ¼manlar ana sayfasÄ±nda Ayarlar'a gidin ve Ã§evrimdÄ±ÅŸÄ± senkronizasyonu etkinleÅŸtirin."
+   },
+   "explanationofflineenabled": {
+      "message": "Ä°nternet'e baÄŸlÄ± deÄŸilsiniz. Ancak, yine de mevcut dosyalarÄ± dÃ¼zenleyebilir veya yeni dosyalar oluÅŸturabilirsiniz."
+   },
+   "extdesc": {
+      "message": "DokÃ¼man, e-tablo ve sunu oluÅŸturun, bunlarÄ± dÃ¼zenleyin ve gÃ¶rÃ¼ntÃ¼leyin. TÃ¼m bu iÅŸlemleri internet eriÅŸimi olmadan yapabilirsiniz."
+   },
+   "extname": {
+      "message": "Google DokÃ¼manlar Ã‡evrimdÄ±ÅŸÄ±"
+   },
+   "learnmore": {
+      "message": "Daha Fazla Bilgi"
+   },
+   "popuphelptext": {
+      "message": "Ä°nternet baÄŸlantÄ±nÄ±z olsun veya olmasÄ±n, nerede olursanÄ±z olun yazÄ±n, dÃ¼zenleyin, baÅŸka kullanÄ±cÄ±larla birlikte Ã§alÄ±ÅŸÄ±n."
+   }
+}
