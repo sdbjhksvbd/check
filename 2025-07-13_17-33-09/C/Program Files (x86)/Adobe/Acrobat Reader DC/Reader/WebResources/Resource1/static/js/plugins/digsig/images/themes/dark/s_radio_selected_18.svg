@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-s_radio_selected-default-dark_18_1);
+      }
+
+      .cls-2 {
+        fill: #2f2f2f;
+      }
+
+      .cls-3 {
+        fill: #2d2d2d;
+      }
+
+      .cls-4 {
+        fill: #378ef0;
+      }
+    </style>
+    <clipPath id="clip-s_radio_selected-default-dark_18_1">
+      <rect width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="s_radio_selected-default-dark_18_1" data-name="s_radio_selected-default-dark_18 â€“ 1" class="cls-1">
+    <path id="Shape" class="cls-2" d="M10.5,3.5a1,1,0,0,0-1.707-.707L4.75,6.836,3.207,5.293A1,1,0,1,0,1.793,6.707l2.25,2.25a1,1,0,0,0,1.414,0l4.75-4.75A1,1,0,0,0,10.5,3.5Z" transform="translate(3 3)"/>
+    <circle id="Radio_Background" data-name="Radio Background" class="cls-3" cx="7" cy="7" r="7" transform="translate(2 2)"/>
+    <path id="Radio_Border" data-name="Radio Border" class="cls-4" d="M-7,0A7,7,0,0,0,0,7,7,7,0,0,0,7,0,7,7,0,0,0,0-7,7,7,0,0,0-7,0m5,0A2,2,0,0,1,0-2,2,2,0,0,1,2,0,2,2,0,0,1,0,2,2,2,0,0,1-2,0" transform="translate(9 9)"/>
+  </g>
+</svg>
