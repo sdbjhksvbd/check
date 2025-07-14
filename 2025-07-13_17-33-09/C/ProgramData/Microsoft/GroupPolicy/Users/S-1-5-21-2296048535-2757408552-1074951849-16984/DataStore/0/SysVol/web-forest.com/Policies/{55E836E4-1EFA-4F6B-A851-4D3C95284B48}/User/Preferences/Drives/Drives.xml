@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Drives clsid="{8FDDCC1A-0C3C-43cd-A6B4-71A6DF20DA8C}"><Drive clsid="{935D1B74-9CB8-4e3c-9914-7DD559B7A417}" name="U:" status="U:" image="0" changed="2023-06-27 12:17:03" uid="{7311E53C-1441-495C-B8A3-0852DFB6F51E}"><Properties action="C" thisDrive="NOCHANGE" allDrives="NOCHANGE" userName="" path="\\nablack02\homedir$\users\%username%" label="" persistent="0" useLetter="1" letter="U"/></Drive>
+</Drives>
