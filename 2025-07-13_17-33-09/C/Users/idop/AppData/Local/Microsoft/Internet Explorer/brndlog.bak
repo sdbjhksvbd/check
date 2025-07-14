@@ -1,0 +1,111 @@
+06/08/2025 09:38:03 Checking for existence of Branding Active Setup stub...
+06/08/2025 09:38:03 InternetExplorerBrandGUID didn't exist: Branding component not installed
+06/08/2025 09:38:03 Inf Version is set to "11,00,19041,1".
+06/08/2025 09:38:03 Branding conditions failed. Applying only default branding.
+
+06/08/2025 09:38:03     COM initialized with S_FALSE success code.
+
+06/08/2025 09:38:03 Branding Internet Explorer...
+06/08/2025 09:38:03 Command line is "/mode:isp /peruser".
+
+06/08/2025 09:38:03 Global branding settings are:
+06/08/2025 09:38:03     Context is (0x01C00008) "Internet Content Providers, running from per-user stub";
+06/08/2025 09:38:03     Settings file is        "C:\Program Files (x86)\Internet Explorer\Signup\install.ins";
+06/08/2025 09:38:03     Target folder path is   "C:\Program Files (x86)\Internet Explorer\Signup".
+06/08/2025 09:38:03 Done.
+
+06/08/2025 09:38:03     About to clear previous branding...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing migration of old settings...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing wininet setup...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing deletion of connection settings...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing zones HKCU settings...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing local machine policies and restrictions...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing current user policies and restrictions...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing legacy policies and restrictions...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing general customizations...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing Help->About customization...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing browser toolbar buttons...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing root certificates...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing default favorites and/or quick links...
+06/08/2025 09:38:03     Creating separate thread for processing default favorites...
+
+06/08/2025 09:38:03     COM initialized with S_OK success code.
+06/08/2025 09:38:03         Determining favorites attributes...
+06/08/2025 09:38:03             <Favorites> folder location is "C:\Users\idop\Favorites".
+06/08/2025 09:38:03         marked as Low Integrity,
+06/08/2025 09:38:03         Title     - "Bing",
+06/08/2025 09:38:03         URL       - "http://go.microsoft.com/fwlink/p/?LinkId=255142",
+06/08/2025 09:38:03         Icon file - "%ProgramFiles%\Internet Explorer\Images\bing.ico",
+06/08/2025 09:38:03         not marked IEAK created,
+06/08/2025 09:38:03         Done.
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing deletion of favorites and/or quick links...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing favorites...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing ordering of favorites...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing quick links...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing ordering of quick links...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing connection settings...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Processing TrustedPublisherLockdown restriction...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Creating feeds...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Creating start pages...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Creating search providers...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Installing Activities...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Installing Unattend Favorite bar items...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Installing Unattend Activites...
+06/08/2025 09:38:03     Done.
+
+06/08/2025 09:38:03     Refreshing browser settings...
+06/08/2025 09:38:03     Posted update request to the hidden browser window!
+06/08/2025 09:38:03     Broadcasting "Windows settings change" to all top level windows...
+06/08/2025 09:38:03     Done.
+06/08/2025 09:38:03 Done.
+06/08/2025 09:38:03 Done.
