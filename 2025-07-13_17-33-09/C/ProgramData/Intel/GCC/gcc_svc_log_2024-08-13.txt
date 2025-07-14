@@ -1,0 +1,11 @@
+2024-08-13 15:34:47.8439 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 207 
+2024-08-13 15:34:47.8439 INFO 	ControlAPIHandler. Initialize for ControlAPI. Started:  
+2024-08-13 15:34:47.8439 INFO 	ControlAPIHandler. Initialize. ctlInit failed 
+2024-08-13 15:34:47.8439 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 100 
+2024-08-13 15:34:47.8439 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 1 
+2024-08-13 15:34:47.8439 ERROR 	GraphicsAdapterInfoPayload. GetEscapeInterface: Found no valid driver for intel hardware hardware. 
+2024-08-13 15:34:47.8439 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 5 
+2024-08-13 15:34:47.8439 ERROR 	EscapeCallYangra. GetPowerConservationData. Driver Escape Failed. 
+2024-08-13 15:34:47.8439 INFO 	PlatformCapability. ALSSensorReadingChangedAsync. Lace is not supported 
+2024-08-13 15:34:47.8439 INFO 	PlatformCapability. ALSSensorReadingChangedAsync. Unsupported Platform 
+2024-08-13 15:38:45.1329 INFO 	ControlAPIHandler. Close. Error closing handle. Status: CTL_RESULT_ERROR_NOT_INITIALIZED 
