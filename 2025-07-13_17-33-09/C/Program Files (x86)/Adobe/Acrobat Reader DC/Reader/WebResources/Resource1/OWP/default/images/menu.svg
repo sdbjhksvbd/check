@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7353 3707 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff13dc;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #5b5b5b;
+      }
+    </style>
+  </defs>
+  <g id="Smock_Search_22_N_1x" data-name="Smock_Search_22_N@1x" transform="translate(7364 3707)">
+    <rect id="ToDelete" class="cls-1" width="22" height="22" transform="translate(-11)"/>
+    <g id="Group_7585" data-name="Group 7585" transform="translate(-1)">
+      <rect id="Rectangle_6829" data-name="Rectangle 6829" class="cls-2" width="15.108" height="1.954" rx="0.977" transform="translate(-7 5)"/>
+      <rect id="Rectangle_6830" data-name="Rectangle 6830" class="cls-2" width="15.108" height="1.954" rx="0.977" transform="translate(-7 10.211)"/>
+      <rect id="Rectangle_6831" data-name="Rectangle 6831" class="cls-2" width="15.108" height="1.954" rx="0.977" transform="translate(-7 15.422)"/>
+    </g>
+  </g>
+</svg>
