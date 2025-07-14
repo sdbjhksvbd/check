@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5039 824 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-s_organize_18);
+      }
+
+      .cls-2 {
+        fill: #8d8d8d;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-s_organize_18">
+      <rect x="5039" y="824" width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="s_organize_18" class="cls-1">
+    <rect class="cls-3" x="5039" y="824" width="18" height="18"/>
+    <g id="Group_56170" data-name="Group 56170" transform="translate(5038 823)">
+      <path id="Fill-1" class="cls-2" d="M20.619,3.524A1.528,1.528,0,0,0,19.1,2H14.524A1.528,1.528,0,0,0,13,3.524v12.19a1.528,1.528,0,0,0,1.524,1.524H19.1a1.528,1.528,0,0,0,1.524-1.524V3.524Zm-6.1,0H19.1v12.19H14.524V3.524Z" transform="translate(-2.619)"/>
+      <path id="Fill-3" class="cls-2" d="M7.333,12.524H9.619V11H7.333v1.524Zm0,6.857H9.619V17.857H7.333v1.524ZM4.286,12.524H6.571V11H4.286v1.524Zm0,6.857H6.571V17.857H4.286v1.524ZM2,13.286H3.524V11H2v2.286Zm0,3.048H3.524V14.048H2v2.286Zm0,3.048H3.524V17.1H2v2.286Z" transform="translate(0 -2.143)"/>
+      <path id="Fill-4" class="cls-2" d="M9.871,4.116A4.069,4.069,0,0,0,7.106,5.19a5.441,5.441,0,0,0-.526.5L8.378,7.5c.236.244.16.442-.183.442l-4.51.175a.628.628,0,0,1-.625-.625l.175-4.51c0-.343.2-.419.442-.183L5.46,4.5c.175-.175.381-.411.579-.571A5.67,5.67,0,0,1,9.871,2.47s-.046,1.691,0,1.646" transform="translate(-0.252 -0.112)"/>
+    </g>
+  </g>
+</svg>
