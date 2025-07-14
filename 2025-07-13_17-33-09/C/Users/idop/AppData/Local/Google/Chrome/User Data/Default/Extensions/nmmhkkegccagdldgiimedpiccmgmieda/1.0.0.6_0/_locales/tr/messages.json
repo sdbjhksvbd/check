@@ -1,0 +1,23 @@
+{
+   "app_description": {
+      "message": "Chrome Web MaÄŸazasÄ± Ã–demeleri"
+   },
+   "app_name": {
+      "message": "Chrome Web MaÄŸazasÄ± Ã–demeleri"
+   },
+   "craw_app_unavailable": {
+      "message": "Uygulama ÅŸu anda kullanÄ±lamÄ±yor."
+   },
+   "craw_connect_to_network": {
+      "message": "LÃ¼tfen bir aÄŸa baÄŸlanÄ±n."
+   },
+   "iap_unavailable": {
+      "message": "Uygulama Ä°Ã§i Ã–demeler ÅŸu anda kullanÄ±lamaz."
+   },
+   "jwt_retrieve_failed": {
+      "message": "The transaction could not be completed."
+   },
+   "please_sign_in": {
+      "message": "LÃ¼tfen Chrome'da oturum aÃ§Ä±n."
+   }
+}
