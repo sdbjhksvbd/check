@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "LOO UUS"
+   },
+   "explanationofflinedisabled": {
+      "message": "Teil ei ole vÃµrguÃ¼hendust. Teenuse Googleâ€™i dokumendid kasutamiseks ilma Interneti-Ã¼henduseta avage jÃ¤rgmine kord, kui olete Internetiga Ã¼hendatud, teenuse Googleâ€™i dokumendid avalehel seaded ja lÃ¼litage sisse vÃµrguÃ¼henduseta sÃ¼nkroonimine."
+   },
+   "explanationofflineenabled": {
+      "message": "Teil ei ole vÃµrguÃ¼hendust, kuid saate endiselt saadaolevaid faile muuta vÃµi uusi luua."
+   },
+   "extdesc": {
+      "message": "Saate luua, muuta ja vaadata oma dokumente, arvustustabeleid ning esitlusi ilma Interneti-Ã¼henduseta."
+   },
+   "extname": {
+      "message": "VÃµrguÃ¼henduseta Googleâ€™i dokumendid"
+   },
+   "learnmore": {
+      "message": "Lisateave"
+   },
+   "popuphelptext": {
+      "message": "Kirjutage, muutke ja tehke koostÃ¶Ã¶d Ã¼kskÃµik kus olenemata sellest, kas teil on Interneti-Ã¼hendus."
+   }
+}
