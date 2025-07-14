@@ -1,0 +1,514 @@
+[INFO] Logger started at 2025-06-11 16:04:54
+[INFO] Executable name: C:\Users\idop\Downloads\burpsuite_community_windows-x64_v2025_4_5.exe
+[INFO] install4j version: 11.0.2 (build 11108)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=22
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\idop\AppData\Local\install4j...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+install4j.exeDir=C:\Users\idop\Downloads\
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=Asia/Jerusalem
+java.vm.specification.version=22
+os.name=Windows 11
+user.country=US
+sun.boot.library.path=c:\users\idop\appdata\local\install4j...
+sun.java.command=C:\Users\idop\Downloads\burpsuite_com...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=159483529
+user.home=C:\Users\idop
+user.language=en
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2024-07-16
+java.home=c:\users\idop\appdata\local\install4j...
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+jdk.lang.Process.allowAmbiguousCommands=false
+exe4j.moduleName=C:\Users\idop\Downloads\burpsuite_com...
+exe4j.tempDir=C:\Users\idop\AppData\Local\install4j...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=22.0.2+9-70
+user.name=idop
+stdout.encoding=Cp1252
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+exe4j.semaphoreName=Local\c:_users_idop_downloads_burpsui...
+install4j.appDir=C:\Users\idop\AppData\Local\install4j\t\
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\idop\AppData\Local\Temp\
+java.version=22.0.2
+user.dir=C:\Users\idop\AppData\Local\install4j...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+native.encoding=Cp1252
+java.library.path=c:\users\idop\appdata\local\install4j...
+java.vm.info=mixed mode
+stderr.encoding=Cp1252
+java.vendor=Oracle Corporation
+java.vm.version=22.0.2+9-70
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=66.0
+exe4j.launchName=C:\Users\idop\Downloads\burpsuite_com...
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=true[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property linuxPrivilegeRequirement: None
+       Property failIfNotObtainedLinux: false
+       Property failIfNotObtainedMac: false
+       Property failIfNotObtainedWin: false
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: false
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Response file C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\response.varfile does not exist
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=Burp Suite Community Edition[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: false
+       Property triggerReboot: true
+       Property validateApplicationId: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-console-l1-1-0.dll; size: 22008 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:42 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-console-l1-2-0.dll; size: 21968 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 22016 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-debug-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 21968 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-fibers-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-file-l1-1-0.dll; size: 26120 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-file-l1-2-0.dll; size: 22016 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-file-l2-1-0.dll; size: 22016 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-handle-l1-1-0.dll; size: 21968 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-heap-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 21984 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-localization-l1-2-0.dll; size: 21984 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-memory-l1-1-0.dll; size: 22008 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 21984 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 22016 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 21968 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-profile-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-string-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-synch-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-synch-l1-2-0.dll; size: 22008 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 22024 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:43 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-core-util-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 22008 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 26120 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 21984 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-math-l1-1-0.dll; size: 30160 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 30216 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-private-l1-1-0.dll; size: 75264 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-process-l1-1-0.dll; size: 21968 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 26120 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 26120 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-string-l1-1-0.dll; size: 26080 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-time-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 22024 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\attach.dll; size: 29288 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\awt.dll; size: 1474664 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\dt_shmem.dll; size: 36968 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\dt_socket.dll; size: 36456 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\extnet.dll; size: 24168 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\fontmanager.dll; size: 864872 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\freetype.dll; size: 547432 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\instrument.dll; size: 52328 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\j2gss.dll; size: 50792 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\j2pkcs11.dll; size: 80488 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jaas.dll; size: 28264 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jabswitch.exe; size: 45160 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jaccessinspector.exe; size: 106600 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jaccesswalker.exe; size: 70760 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\java.dll; size: 118376 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\java.exe; size: 49768 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\javaaccessbridge.dll; size: 307304 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\javajpeg.dll; size: 181864 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:44 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\javaw.exe; size: 49768 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jawt.dll; size: 21096 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jdb.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jdwp.dll; size: 235624 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jimage.dll; size: 33384 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jli.dll; size: 84584 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jrunscript.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\jsound.dll; size: 61032 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\keytool.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\kinit.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\klist.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\ktab.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\lcms.dll; size: 257128 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\management.dll; size: 29288 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\management_ext.dll; size: 35944 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\mlib_image.dll; size: 525416 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\msvcp140.dll; size: 578384 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\net.dll; size: 59496 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\nio.dll; size: 79976 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\prefs.dll; size: 25704 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\rmi.dll; size: 21096 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\rmiregistry.exe; size: 23656 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\server\jvm.dll; size: 13487208 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\splashscreen.dll; size: 216168 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\sspi_bridge.dll; size: 44648 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\sunmscapi.dll; size: 48744 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\syslookup.dll; size: 27752 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\ucrtbase.dll; size: 1123808 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\vcruntime140.dll; size: 109440 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\vcruntime140_1.dll; size: 49560 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\verify.dll; size: 54888 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:45 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\w2k_lsa_auth.dll; size: 31336 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\windowsaccessbridge-64.dll; size: 72296 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\bin\zip.dll; size: 84072 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\jaxp.properties; size: 8160 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\logging.properties; size: 2732 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\net.properties; size: 6671 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\java.policy; size: 2294 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\java.security; size: 65787 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\policy\limited\default_local.policy; size: 647 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\policy\limited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\policy\limited\exempt_local.policy; size: 566 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\policy\README.txt; size: 2390 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\policy\unlimited\default_local.policy; size: 193 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\security\policy\unlimited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\conf\sound.properties; size: 1210 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\classfile_constants.h; size: 22155 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\jawt.h; size: 12458 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\jdwpTransport.h; size: 8166 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\jni.h; size: 76018 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\jvmti.h; size: 85726 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\jvmticmlr.h; size: 4771 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\win32\bridge\AccessBridgeCallbacks.h; size: 5518 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\win32\bridge\AccessBridgeCalls.h; size: 36050 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\win32\bridge\AccessBridgePackages.h; size: 77582 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\win32\jawt_md.h; size: 1895 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\include\win32\jni_md.h; size: 1510 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\ADDITIONAL_LICENSE_INFO; size: 2114 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\aes.md; size: 1444 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\asm.md; size: 1582 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\ASSEMBLY_EXCEPTION; size: 1514 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\c-libutl.md; size: 1556 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\cldr.md; size: 2075 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:46 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\icu.md; size: 12409 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\LICENSE; size: 19274 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\public_suffix.md; size: 17783 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\siphash.md; size: 8256 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\unicode.md; size: 9133 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\wepoll.md; size: 1454 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.base\zlib.md; size: 1010 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.compiler\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.compiler\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.compiler\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.datatransfer\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.datatransfer\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.datatransfer\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\colorimaging.md; size: 167 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\freetype.md; size: 30422 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\giflib.md; size: 1288 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\harfbuzz.md; size: 3627 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\jpeg.md; size: 3474 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\lcms.md; size: 2544 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\libpng.md; size: 6980 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.desktop\mesa3d.md; size: 5732 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.instrument\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.instrument\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.instrument\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.logging\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.logging\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.logging\LICENSE; size: 33 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:47 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.management\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.management\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.management\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.management.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.management.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.management.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.naming\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.naming\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.naming\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.net.http\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.net.http\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.net.http\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.prefs\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.prefs\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.prefs\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.scripting\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.scripting\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.scripting\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.se\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.se\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.se\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.security.jgss\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.security.jgss\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.security.jgss\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.security.sasl\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.security.sasl\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.security.sasl\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.sql\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.sql\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.sql\LICENSE; size: 33 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:48 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.sql.rowset\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.sql.rowset\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.sql.rowset\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.transaction.xa\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.transaction.xa\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.transaction.xa\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\bcel.md; size: 11195 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\dom.md; size: 3761 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\jcup.md; size: 1448 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\xalan.md; size: 13477 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml\xerces.md; size: 11848 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml.crypto\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml.crypto\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml.crypto\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\java.xml.crypto\santuario.md; size: 11499 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.accessibility\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.accessibility\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.accessibility\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.attach\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.attach\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.attach\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.charsets\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.charsets\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.charsets\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.cryptoki\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.cryptoki\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.cryptoki\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.cryptoki\pkcs11cryptotoken.md; size: 3923 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.cryptoki\pkcs11wrapper.md; size: 2131 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.ec\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.ec\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.ec\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.mscapi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:49 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.mscapi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.crypto.mscapi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.internal.jvmstat\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.internal.jvmstat\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.internal.jvmstat\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.jdi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.jdi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.jdi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.jdwp.agent\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.jdwp.agent\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.jdwp.agent\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.management\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.management\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.management\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.net\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.net\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.net\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.security.auth\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.security.auth\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.security.auth\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.security.jgss\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.security.jgss\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.security.jgss\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.unsupported\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.unsupported\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.unsupported\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.zipfs\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.zipfs\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\legal\jdk.zipfs\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\classlist; size: 81600 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\fontconfig.bfc; size: 4836 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\fontconfig.properties.src; size: 12612 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\jawt.lib; size: 1682 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\jrt-fs.jar; size: 110118 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\jvm.cfg; size: 29 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\jvm.lib; size: 1126318 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\modules; size: 75546708 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:04:50 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\psfont.properties.ja; size: 3793 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\psfontj2d.properties; size: 11390 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\security\blocked.certs; size: 2527 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\security\cacerts; size: 134104 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\security\default.policy; size: 9994 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\security\public_suffix_list.dat; size: 230480 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\src.zip; size: 12978528 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\tzdb.dat; size: 104163 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\lib\tzmappings; size: 16163 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\jre\release; size: 554 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\bgupdater.exe; size: 925144 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 02 16:50:24 IDT 2025, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4jdel.exe; size: 95936 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 02 16:50:24 IDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4jinst.dll; size: 313528 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\BurpSuiteCommunity.exe; size: 638936 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 02 16:50:24 IDT 2025, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\BurpSuiteCommunity.vmoptions; size: 345 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 02 16:50:24 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\burpsuite_community.jar; size: 107121920 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 02 16:50:24 IDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\chromium-win64-137.0.7151.56.zip; size: 168971691 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\uninstall.exe; size: 925144 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 02 16:50:24 IDT 2025, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\inst_jre.cfg; size: 71 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:05:42 IDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4jruntime.jar; size: 2646295 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:05:42 IDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\MessagesDefault; size: 34993 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4jparams.conf; size: 86624 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\stats.properties; size: 285 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\launchers.xml; size: 218 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\user.jar; size: 21190 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\user\flatlaf.jar; size: 852755 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_0_1ov2nc9.utf8; size: 34993 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_10_1ov2nc9_un9apv.png; size: 1884 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_11_1ov2nc9_1xth8wx.png; size: 4609 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_12_1ov2nc9_259ij1.png; size: 8252 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_13_1ov2nc9_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_13_1ov2nc9_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_13_1ov2nc9_18gg8kx@2x_dark.png; size: 15837 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_13_1ov2nc9_18gg8kx_dark.png; size: 8891 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_1_1ov2nc9.properties; size: 810 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_2_1ov2nc9_s10jxd.png; size: 187 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_3_1ov2nc9_1wtyary.png; size: 294 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_4_1ov2nc9_1kltmxr.png; size: 331 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_5_1ov2nc9_1onbq37.png; size: 453 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_6_1ov2nc9_1wlpo3p.png; size: 505 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_7_1ov2nc9_xvjhy2.ico; size: 21252 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_8_1ov2nc9_x7nby6.png; size: 756 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\i4j_extf_9_1ov2nc9_vd2dea.png; size: 1187 bytes; exists: false
+       Install file: C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\.install4j\installer.ico; size: 32606 bytes; exists: false
+       Execute action successful after 41070 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: []
+       Property programGroupName: Burp Suite Community Edition
+       Property uninstallerMenuName: Burp Suite Community Edition Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\Users\idop\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Burp Suite Community Edition\Burp Suite Community Edition.lnk; size: 2322 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:05:42 IDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Users\idop\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Burp Suite Community Edition\Burp Suite Community Edition Uninstaller.lnk; size: 2259 bytes; exists: false
+       File options set to: [fileTime: Wed Jun 11 16:05:43 IDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 956 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: Burp Suite Community Edition 2025.4.5
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 32 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 1108]: Execute action
+       Property description: Burp Suite Project File
+       Property extension: burp
+       Property launcherId: 70
+       Property persistentProperties: {}
+       Property unixIconFile: i4j_extf_6_1ov2nc9_1wlpo3p.png
+       Property unixMimeType: application/x-extension-burp
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_7_1ov2nc9_xvjhy2.ico
+       Property restartFinder: false
+       Property rollbackSupported: true
+       Property selected: true
+       Property unix: true
+       Property windows: true
+       using internal name BurpSuiteCommunity
+       Execute action successful after 12 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 761]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\burpbrowser]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: true
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       The file "C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\burpbrowser" does not exist
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 599]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_11
+       Property rollbackSupported: false
+       Execute action successful after 10387 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 680]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [chromium-win64-137.0.7151.56.zip]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: false
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       Backing up C:\Users\idop\AppData\Local\Programs\BurpSuiteCommunity\chromium-win64-137.0.7151.56.zip
+       Execute action successful after 5 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished at 2025-06-11 16:06:02
