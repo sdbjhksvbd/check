@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalDataInfo>
+<EulaScreen IsEulaScreenInstalled="false"> </EulaScreen>
+<ApplicationDependency IsTapDriverInstalled="false" IsServiceInstalled="false"></ApplicationDependency>
+  <SettingsPreferences IsProtectMeAlways="false" IsUserControl="true" IsProtectUnknown="false" IsVPNConnected="false">
+  </SettingsPreferences>
+</LocalDataInfo>
