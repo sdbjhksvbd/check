@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?><NTServices clsid="{2CFB484A-4E96-4b5d-A0B6-093D2F91E6AE}">
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}" name="W32Time" image="2" changed="2020-01-01 17:39:14" uid="{49C06F16-0BA0-4E48-A10E-CD9D83419E08}" policyApplied="1">
+<Properties startupType="AUTOMATIC" serviceName="W32Time" serviceAction="START" timeout="30"></Properties></NTService></NTServices>
