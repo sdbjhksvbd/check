@@ -1,0 +1,4 @@
+7.231.4.0 : 06:16:48.645 :     ENTRY: RunCoInstaller : InstallFunction = 30
+7.231.4.0 : 06:16:48.645 :     CreateMutex - Global\CNXT_COINST_RUNNING
+7.231.4.0 : 06:16:48.645 :     DIF_NEWDEVICEWIZARD_FINISHINSTALL
+7.231.4.0 : 06:16:48.645 :     EXIT:  RunCoInstaller
