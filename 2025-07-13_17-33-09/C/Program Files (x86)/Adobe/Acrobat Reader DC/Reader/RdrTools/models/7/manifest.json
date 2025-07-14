@@ -1,0 +1,40 @@
+{
+    "id": "2",
+    "name": "classification",
+    "author": "adobe",
+    "version": 1,
+    "targets":{
+      
+        "WinML": {
+            "components": [
+              {
+                "name": "secured_file",
+                "path": "7",
+                "encryption": {
+                  "key": "none"
+                }
+              }],
+          "inputs": [
+            {
+              "name": "input",
+              "required": true,
+              "featureType": "tensor",
+              "tensor": {
+                "shape": [ 1, 800 ],
+                "dataType": "float"
+              }
+            }
+          ],
+          "outputs": [
+            {
+              "name": "output",
+              "featureType": "tensor",
+              "tensor": {
+                "shape": [1, 12 ],
+                "dataType": "float"
+              }
+            }
+          ]
+        }
+    }
+}
