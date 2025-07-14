@@ -1,0 +1,65 @@
+2025/07/01-04:08:53.108 6c74 Reusing MANIFEST C:\Users\idop\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/01-04:08:53.118 6c74 Recovering log #53
+2025/07/01-04:08:53.119 6c74 Level-0 table #57: started
+2025/07/01-04:08:53.123 6c74 Level-0 table #57: 42532 bytes OK
+2025/07/01-04:08:53.126 6c74 Delete type=0 #53
+2025/07/01-10:02:03.727 bf94 Level-0 table #60: started
+2025/07/01-10:02:03.735 bf94 Level-0 table #60: 41481 bytes OK
+2025/07/01-10:02:03.756 bf94 Delete type=0 #58
+2025/07/01-21:47:17.143 bf94 Level-0 table #62: started
+2025/07/01-22:52:02.649 bf94 Level-0 table #62: 41303 bytes OK
+2025/07/01-22:52:02.655 bf94 Delete type=0 #59
+2025/07/02-03:53:23.073 bf94 Level-0 table #64: started
+2025/07/02-03:53:23.094 bf94 Level-0 table #64: 37430 bytes OK
+2025/07/02-03:53:23.101 bf94 Delete type=0 #61
+2025/07/02-03:53:23.104 bf94 Compacting 4@0 + 1@1 files
+2025/07/02-03:53:23.117 bf94 Generated table #65@0: 8 keys, 37909 bytes
+2025/07/02-03:53:23.117 bf94 Compacted 4@0 + 1@1 files => 37909 bytes
+2025/07/02-03:53:23.119 bf94 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/02-03:53:23.121 bf94 Delete type=2 #55
+2025/07/02-03:53:23.122 bf94 Delete type=2 #57
+2025/07/02-03:53:23.122 bf94 Delete type=2 #60
+2025/07/02-03:53:23.123 bf94 Delete type=2 #62
+2025/07/02-03:53:23.123 bf94 Delete type=2 #64
+2025/07/02-07:52:29.440 bf94 Level-0 table #67: started
+2025/07/02-09:26:04.240 bf94 Level-0 table #67: 36870 bytes OK
+2025/07/02-09:26:04.284 bf94 Delete type=0 #63
+2025/07/02-09:26:31.841 bf94 Level-0 table #69: started
+2025/07/02-09:26:32.032 bf94 Level-0 table #69: 35389 bytes OK
+2025/07/02-09:26:32.056 bf94 Delete type=0 #66
+2025/07/02-09:26:37.369 bf94 Level-0 table #71: started
+2025/07/02-09:26:37.374 bf94 Level-0 table #71: 35509 bytes OK
+2025/07/02-09:26:37.376 bf94 Delete type=0 #68
+2025/07/02-09:28:12.721 bf94 Level-0 table #73: started
+2025/07/02-09:28:12.727 bf94 Level-0 table #73: 38032 bytes OK
+2025/07/02-09:28:12.730 bf94 Delete type=0 #70
+2025/07/02-09:28:12.732 6c74 Compacting 4@0 + 1@1 files
+2025/07/02-09:28:12.741 6c74 Generated table #74@0: 8 keys, 38480 bytes
+2025/07/02-09:28:12.742 6c74 Compacted 4@0 + 1@1 files => 38480 bytes
+2025/07/02-09:28:12.743 6c74 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/02-09:28:12.745 6c74 Delete type=2 #65
+2025/07/02-09:28:12.746 6c74 Delete type=2 #67
+2025/07/02-09:28:12.746 6c74 Delete type=2 #69
+2025/07/02-09:28:12.746 6c74 Delete type=2 #71
+2025/07/02-09:28:12.746 6c74 Delete type=2 #73
+2025/07/02-10:54:44.916 bf94 Level-0 table #76: started
+2025/07/02-10:54:44.926 bf94 Level-0 table #76: 45011 bytes OK
+2025/07/02-10:54:44.930 bf94 Delete type=0 #72
+2025/07/02-11:41:01.552 bf94 Level-0 table #78: started
+2025/07/02-11:41:01.556 bf94 Level-0 table #78: 19680 bytes OK
+2025/07/02-11:41:01.558 bf94 Delete type=0 #75
+2025/07/02-11:59:22.775 bf94 Level-0 table #80: started
+2025/07/02-11:59:22.786 bf94 Level-0 table #80: 36706 bytes OK
+2025/07/02-11:59:22.788 bf94 Delete type=0 #77
+2025/07/02-13:22:32.759 bf94 Level-0 table #82: started
+2025/07/02-13:22:32.762 bf94 Level-0 table #82: 37737 bytes OK
+2025/07/02-13:22:32.764 bf94 Delete type=0 #79
+2025/07/02-13:22:32.765 bf94 Compacting 4@0 + 1@1 files
+2025/07/02-13:22:32.769 bf94 Generated table #83@0: 8 keys, 35178 bytes
+2025/07/02-13:22:32.770 bf94 Compacted 4@0 + 1@1 files => 35178 bytes
+2025/07/02-13:22:32.770 bf94 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/02-13:22:32.771 bf94 Delete type=2 #74
+2025/07/02-13:22:32.772 bf94 Delete type=2 #76
+2025/07/02-13:22:32.772 bf94 Delete type=2 #78
+2025/07/02-13:22:32.772 bf94 Delete type=2 #80
+2025/07/02-13:22:32.772 bf94 Delete type=2 #82
