@@ -1,0 +1,1 @@
+2024-10-19 12:06:11.7921 INFO 	ControlAPIHandler. Close. Error closing handle. Status: CTL_RESULT_ERROR_NOT_INITIALIZED 
