@@ -1,0 +1,33 @@
+ï»¿Started executable C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0\burpsuite_community_windows-x64_v2025_5_6.exe at Sun Jul 13 10:46:43 2025
+
+[0:0] restrict DLL directories
+[0:19] sun.locale.formatasdefault is false
+[0:34] manual language/country is en
+[0:51] ignoring java options environment variables
+[0:66] using _putenv_s in ucrtbase.dll 00007FF85F48D610 00007FF79CD10310
+[0:81] change working directory to C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0
+[0:95] single instance mode
+[0:109] semaphore name Local\c:_users_idop_appdata_roaming_burpsuite_updates_f0f34ac0_burpsuite_community_windows-x64_v2025_5_6.exe, code 0, value 0000000000000050
+[0:122] Init done
+[0:135] Checking dark mode on Windows 11
+[0:150] Dark mode: 0 0
+[0:200] Starting work
+[0:230] starting at 712192
+[0:257] verifying integrity length 330991882
+[1:680] checksums: 3281862633 3281862633 -1013104663 -1013104663
+[1:697] tempPath is C:\Users\idop\AppData\Local\install4j\t
+[1:713] tempFile is C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp
+[1:727] Temp dir3: C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804
+[1:742] native lib dir is ${launcher:sys.launcherTempDirectory}\user
+[1:757] expanding2 ${launcher:sys.launcherTempDirectory} to C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804.
+[1:773] Adding DLL directory C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804\user
+[1:791] Setting PATH (native libs) C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804\user;c:\users\idop\appdata\local\programs\burpsuitecommunity\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\WINDOWS\CCM;C:\Program Files\Wireshark\;C:\Users\idop\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\idop\AppData\Local\Programs\Python\Python313\;C:\Users\idop\AppData\Local\Microsoft\WindowsApps;
+[1:827] extracting files
+[1:853] Included files: 27
+[1:875] Canceled installer
+[1:918] extracting C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804\i4jruntime.jar (size: 2646295)
+[2:14] Cleaning up cancel 00000000000002C0 1.
+[2:49] emptying C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804
+[2:77] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4j980A.tmp_dir1752392804\i4jruntime.jar
+[2:100] schedule deletion 0 1
+[2:125] deletion file name C:\Users\idop\AppData\Local\install4j\t\i4d9991.tmp
