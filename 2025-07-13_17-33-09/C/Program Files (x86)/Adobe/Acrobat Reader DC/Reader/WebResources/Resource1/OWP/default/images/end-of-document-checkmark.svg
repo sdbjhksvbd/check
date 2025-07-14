@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-S_IlluCheckmark_40">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="S_IlluCheckmark_40" clip-path="url(#clip-S_IlluCheckmark_40)">
+    <rect width="40" height="40" fill="#fff"/>
+    <path id="Path_2" data-name="Path 2" d="M20,2A18,18,0,1,1,2,20,18.021,18.021,0,0,1,20,2m0-2A20,20,0,1,0,40,20,20,20,0,0,0,20,0ZM16.983,28.692a1,1,0,0,0,.724-.362L30.771,12.524a1,1,0,0,0-1.542-1.274L16.866,26.209l-5.841-5.841a1,1,0,0,0-1.414,1.414L16.229,28.4a1,1,0,0,0,.707.293Z" fill="#b3b3b3"/>
+  </g>
+</svg>
