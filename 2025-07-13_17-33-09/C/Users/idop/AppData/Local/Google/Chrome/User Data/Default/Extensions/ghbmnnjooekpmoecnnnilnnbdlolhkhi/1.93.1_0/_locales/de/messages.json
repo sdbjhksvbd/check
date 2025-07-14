@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "NEU ERSTELLEN"
+   },
+   "explanationofflinedisabled": {
+      "message": "Sie sind offline. Um Google Docs ohne Internetverbindung zu verwenden, gehen Sie auf der Google Docs-Startseite auf \"Einstellungen\" und schalten die Offlinesynchronisierung ein, wenn Sie das nÃ¤chste Mal mit dem Internet verbunden sind."
+   },
+   "explanationofflineenabled": {
+      "message": "Sie sind offline, aber kÃ¶nnen weiterhin verfÃ¼gbare Dateien bearbeiten oder neue Dateien erstellen."
+   },
+   "extdesc": {
+      "message": "Mit der Erweiterung kÃ¶nnen Sie Dokumente, Tabellen und PrÃ¤sentationen bearbeiten, erstellen und aufrufenÂ â€“ ganz ohne Internetverbindung."
+   },
+   "extname": {
+      "message": "Google Docs Offline"
+   },
+   "learnmore": {
+      "message": "Weitere Informationen"
+   },
+   "popuphelptext": {
+      "message": "Mit oder ohne Internetverbindung: Sie kÃ¶nnen von Ã¼berall Dokumente erstellen, Ã¤ndern und zusammen mit anderen Nutzern bearbeiten."
+   }
+}
