@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "CREAR NOVO"
+   },
+   "explanationofflinedisabled": {
+      "message": "EstÃ¡s sen conexiÃ³n. Para utilizar Documentos de Google sen conexiÃ³n a Internet, accede Ã¡s opciÃ³ns de configuraciÃ³n na pÃ¡xina de inicio de Documentos de Google e activa a sincronizaciÃ³n sen conexiÃ³n a prÃ³xima vez que esteas conectado a Internet."
+   },
+   "explanationofflineenabled": {
+      "message": "EstÃ¡s sen conexiÃ³n. AÃ­nda podes editar os ficheiros dispoÃ±ibles ou crear outros novos."
+   },
+   "extdesc": {
+      "message": "Modifica, crea e consulta os teus documentos, follas de cÃ¡lculo e presentaciÃ³ns sen necesidade de acceder a Internet."
+   },
+   "extname": {
+      "message": "Documentos de Google sen conexiÃ³n"
+   },
+   "learnmore": {
+      "message": "MÃ¡is informaciÃ³n"
+   },
+   "popuphelptext": {
+      "message": "Escribe, edita e colabora esteas onde esteas, tanto se tes conexiÃ³n a Internet como se non a tes."
+   }
+}
