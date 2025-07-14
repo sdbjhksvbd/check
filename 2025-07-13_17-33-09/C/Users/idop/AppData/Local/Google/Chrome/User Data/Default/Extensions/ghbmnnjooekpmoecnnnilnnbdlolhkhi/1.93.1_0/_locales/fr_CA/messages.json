@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "CRÃ‰ER"
+   },
+   "explanationofflinedisabled": {
+      "message": "Vous Ãªtes hors connexion. Pour utiliser GoogleÂ Documents sans connexion Internet, accÃ©dez aux paramÃ¨tres sur la page d'accueil GoogleÂ Documents et activez la synchronisation hors ligne la prochaine fois que vous Ãªtes connectÃ© Ã  Internet."
+   },
+   "explanationofflineenabled": {
+      "message": "Vous Ãªtes hors connexion, mais vous pouvez toujours modifier les fichiers disponibles ou en crÃ©er."
+   },
+   "extdesc": {
+      "message": "Modifiez, crÃ©ez et consultez vos documents, vos feuilles de calcul et vos prÃ©sentations, le tout sans accÃ¨s Ã  Internet."
+   },
+   "extname": {
+      "message": "GoogleÂ Documents hors connexion"
+   },
+   "learnmore": {
+      "message": "En savoir plus"
+   },
+   "popuphelptext": {
+      "message": "Ã‰crivez, modifiez et collaborez oÃ¹ que vous soyez, avec ou sans connexion Internet."
+   }
+}
