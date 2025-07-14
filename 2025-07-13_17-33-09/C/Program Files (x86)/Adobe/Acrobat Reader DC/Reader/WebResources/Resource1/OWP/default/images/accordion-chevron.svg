@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2493 -908 12 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0f;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #959595;
+      }
+    </style>
+  </defs>
+  <g id="Accordion_Chevron" data-name="Accordion Chevron" transform="translate(2505 -898) rotate(180)">
+    <rect id="Frame" class="cls-1" width="6" height="10"/>
+    <path id="Shape" class="cls-2" d="M6,5a1,1,0,0,0-.293-.707l-4-4A1,1,0,1,0,.293,1.707L3.586,5,.293,8.293A1,1,0,1,0,1.707,9.707l4-4A1,1,0,0,0,6,5Z"/>
+    <path id="Shape-2" data-name="Shape" class="cls-2" d="M6,5a1,1,0,0,0-.293-.707l-4-4A1,1,0,1,0,.293,1.707L3.586,5,.293,8.293A1,1,0,1,0,1.707,9.707l4-4A1,1,0,0,0,6,5Z" transform="translate(6)"/>
+  </g>
+</svg>
