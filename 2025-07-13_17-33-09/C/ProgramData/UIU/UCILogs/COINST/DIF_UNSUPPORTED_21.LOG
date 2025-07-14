@@ -1,0 +1,4 @@
+7.231.4.0 : 09:58:49.562 :   ENTRY: RunCoInstaller : InstallFunction = 21
+7.231.4.0 : 09:58:49.562 :   CreateMutex - Global\CNXT_COINST_RUNNING
+7.231.4.0 : 09:58:49.562 :   RunCoInstaller - DIF_NOT_SUPPORTED : InstallFunction = 15
+7.231.4.0 : 09:58:49.562 :   EXIT:  RunCoInstaller
