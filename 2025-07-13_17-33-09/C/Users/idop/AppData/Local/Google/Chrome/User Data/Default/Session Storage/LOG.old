@@ -1,0 +1,13 @@
+2025/07/02-09:26:38.915 2988 Reusing MANIFEST C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\Session Storage/MANIFEST-000001
+2025/07/02-09:26:38.917 2988 Recovering log #111
+2025/07/02-09:26:38.926 2988 Reusing old log C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\Session Storage/000111.log 
+2025/07/02-10:11:38.814 f614 Level-0 table #115: started
+2025/07/02-10:11:38.821 f614 Level-0 table #115: 27350 bytes OK
+2025/07/02-10:11:38.823 f614 Delete type=0 #111
+2025/07/02-10:52:08.346 f614 Level-0 table #117: started
+2025/07/02-10:52:08.354 f614 Level-0 table #117: 28513 bytes OK
+2025/07/02-10:52:08.356 f614 Delete type=0 #114
+2025/07/02-11:13:42.096 f614 Compacting 3@0 + 1@1 files
+2025/07/02-11:13:42.107 f614 Generated table #118@0: 3100 keys, 89231 bytes
+2025/07/02-11:13:42.108 f614 Compacted 3@0 + 1@1 files => 89231 bytes
+2025/07/02-11:13:42.108 f614 compacted to: files[ 0 1 1 0 0 0 0 ]
