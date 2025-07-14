@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({SEND_FOR_SIGN:"[__ Send For Sign __]",LP_TITLE:"[__ _ Send for Signature _ __]",LP_SUBTITLE:"[__ _ _ _ _ _ Send documents for signature in a few simple steps. _ _ _ _ _ __]",LP_SELECT_FILE_BTN_LABEL:"[__ _ _ _ Select Files to Send for Signature _ _ _ __]",LP_RDR_ACTION_BTN1_LABEL:"[__Start__]",LP_RDR_APP_INFO_TXT_1:"[__ _ _ _ _ _ Click Start to complete steps to send for signature: _ _ _ _ _ __]",LP_RDR_APP_INFO_TXT_2:"[__ _ _Step 1: Add recipients _ ___]",LP_RDR_APP_INFO_TXT_3:"[__ _ _ Step 2: Add fields and send _ _ __]",LP_ACR_ACTION_BTN1_LABEL:"[__ Prepare Form __]",LP_ACR_ACTION_BTN2_LABEL:"[__ Ready to Send __]",LP_ACR_ACTION_BTN_SEPARATOR:"[__or__]",LP_ACR_ACTION_BTN1_INFO:"[__ _ _ _ _ _ Add fields and signature locations before sending. _ _ _ _ _ __]",LP_ACR_ACTION_BTN2_INFO:"[__ _ _ Add recipients and then send. _ _ __]",SFS_ADD_FILES:"[__Add Files__]",SELECTED_FILES:"[__ _Selected Files ___]",FILE_SELECT_TITLE:"[__ Select Files __]",FILE_SELECT_ACTION_BTN:"[__Continue__]",FILE_SELECT_FILTER_DESCR:"[__ _Adobe PDF files ___]",SINGLE_DOC_PROGRESS_LABEL:"[__ _Uploading file ___]",MULTIPLE_DOCS_PROGRESS_LABEL:"[__ _Uploading files ___]",SFS_ERR_GENERIC_TITLE:"[__ _Could not Send ___]",SFS_ERR_TITLE_FAILED_TO_SEND:'[__ _ _ _"<%= name %>" failed to send. _ _ ___]',SFS_ERR_CLOSE_BTN:"[__Close__]",SFS_ERR_BODY_UNSUPPORTED_TYPE:"[__ _ _ The file is not a PDF file. _ _ __]",SFS_ERR_BODY_UNSUPPORTED_TYPE_N:"[__ _ _ The files are not PDF files. _ _ __]",SFS_ERR_TITLE_PDF_IS_PORTFOLIO:'[__ _ _ _ _ _ _"<%= name %>" is a PDF Portfolio and cannot be sent. _ _ _ _ _ ___]',SFS_ERR_BODY_PDF_IS_PORTFOLIO:"[__ _ _ _ _ _ _ _ _ _To convert an individual file from the portfolio, extract it and send that file. _ _ _ _ _ _ _ _ ___]",SFS_ERR_TITLE_SOURCE_IS_ENCRYPTED:'[__ _ _ _ _ _ _"<%= name %>" is password protected and cannot be sent. _ _ _ _ _ ___]',SFS_ERR_BODY_SOURCE_IS_ENCRYPTED:"[__ _ _ _ _ _ _ To send this document, remove the protection and try again. _ _ _ _ _ _ __]",SFS_ERR_TITLE_SOURCE_IS_POLICY_PROTECTED:'[__ _ _ _ _ _ _"<%= name %>" is policy protected and cannot be sent. _ _ _ _ _ ___]',SFS_ERR_BODY_PDF_POLICY_PROTECTED:"The file's security settings do not allow send.",SFS_ERR_TITLE_SOURCE_IS_DYNAMIC_XFA:'[__ _ _ _ _ _ "<%= name %>" is a dynamic XFA and cannot be sent. _ _ _ _ _ __]',SFS_ERR_BODY_SOURCE_IS_DYNAMIC_XFA:"[__ _ _ _ _ _ _PDF files containing Dyanamic XFA forms cannot be sent. _ _ _ _ _ ___]",SFS_ERR_GENERAL_WORKFLOW_FAILURE:"[__ _ _ _ _An error has occurred. Please try again. _ _ _ ___]",SFS_ERR_LARGE_FILE_SIZE:"[__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Your document exceeds the maximum size of file supported for your subscription level. Please try a different document or contact your account administrator. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __]"});
