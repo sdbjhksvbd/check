@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) 2016 Microsoft Corporation -->
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/PolicyDefinitions">
+  <displayName>OneDrive Grup Ä°lkesi AyarlarÄ±</displayName>
+  <description>OneDrive eÅŸitleme uygulamasÄ±na (OneDrive.exe) ve Ã¶zellikle uygulamadaki kurumsal iÅŸlevselliÄŸe yÃ¶nelik Ã§eÅŸitli Grup Ä°lkesi ayarlarÄ±.</description>
+  <resources>
+    <stringTable>
+      <!-- general -->
+      <string id="OneDriveNGSCSettingCategory">OneDrive</string>
+      <string id="NucleusSettingCategory">Liste EÅŸitleme</string>
+
+      <!-- block syncing personal OneDrive -->
+      <string id="DisablePersonalSync">KullanÄ±cÄ±larÄ±n kiÅŸisel OneDrive hesaplarÄ±nÄ± eÅŸitlemesini engelle</string>
+      <string id="DisablePersonalSync_help">Bu ayar, kullanÄ±cÄ±larÄ±n kiÅŸisel OneDrive dosyalarÄ±nÄ± eÅŸitlemek iÃ§in Microsoft hesabÄ± ile oturum aÃ§masÄ±nÄ± engellemenizi saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±larÄ±n kiÅŸisel OneDrive hesaplarÄ± iÃ§in bir eÅŸitleme iliÅŸkisi ayarlamasÄ± engellenir. Bu ayarÄ± etkinleÅŸtirdiÄŸinizde kiÅŸisel OneDrive hesaplarÄ±nÄ± zaten eÅŸitleyen kullanÄ±cÄ±lar eÅŸitleme iÅŸlemine devam edemez (ve bu kullanÄ±cÄ±lara eÅŸitlemenin durdurulduÄŸunu bildiren bir ileti gÃ¶sterilir), ancak bilgisayarla eÅŸitlenen tÃ¼m dosyalar bilgisayarda kalÄ±r.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar kiÅŸisel OneDrive hesaplarÄ±nÄ± eÅŸitleyebilir.</string>
+
+      <!-- turn on GPOSetUpdateRing for app updates -->
+      <string id="GPOSetUpdateRing">EÅŸitleme uygulamasÄ± gÃ¼ncelleÅŸtirme halkasÄ±nÄ± ayarlayÄ±n</string>
+      <string id="GPOSetUpdateRing_help">OneDrive eÅŸitleme uygulamasÄ±na (OneDrive.exe) yapÄ±lan gÃ¼ncelleÅŸtirmeler, ilk olarak Insider, daha sonra YapÄ±m ve son olarak ErtelenmiÅŸ Ã¼yeler olmak Ã¼zere, Ã¼Ã§ halka halinde yayÄ±mlanÄ±r. Bu ayarlar kuruluÅŸunuzdaki kullanÄ±cÄ±lar iÃ§in eÅŸitleme uygulamasÄ± sÃ¼rÃ¼mÃ¼nÃ¼ belirtmenizi saÄŸlar. Bu ayarlarÄ± etkinleÅŸtirdiÄŸinizde ve bir halka seÃ§tiÄŸinizde, kullanÄ±cÄ±lar bunu deÄŸiÅŸtiremezler.
+
+Insider halkasÄ± kullanÄ±cÄ±larÄ±, OneDrive'a gelen yeni Ã¶zellikleri Ã¶nizlemelerine izin veren derlemeler alÄ±rlar.
+
+YapÄ±m halkasÄ± kullanÄ±cÄ±larÄ±, kullanÄ±labilir olan en son Ã¶zellikleri alÄ±rlar.
+
+ErtelenmiÅŸ halka kullanÄ±cÄ±larÄ± en son yeni Ã¶zellikler, hata dÃ¼zeltmeleri ve performans iyileÅŸtirmeleri alÄ±r. Bu zil halka, gÃ¼ncelleÅŸtirmeleri iÃ§ aÄŸ konumundan daÄŸÄ±tmanÄ±za ve daÄŸÄ±tÄ±mÄ±n zamanlamasÄ±nÄ± denetlemenize olanak tanÄ±r (60 gÃ¼nlÃ¼k bir pencerede).
+
+Bu ayarÄ±nÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, YapÄ±m halkasÄ±nda kullanÄ±cÄ±lar OneDrive eÅŸitleme uygulamasÄ± gÃ¼ncelleÅŸtirmelerini kullanÄ±labilir olunca alÄ±rlar. KullanÄ±cÄ±lar Insider halkasÄ±nda gÃ¼ncelleÅŸtirmeleri almak iÃ§in Office veya Windows Insider programlarÄ±na katÄ±labilir.</string>
+
+      <string id="Enterprise">ErtelenmiÅŸ</string>
+      <string id="Production">Ãœretim</string>
+      <string id="Insider">Insider Ã¼yeleri</string>
+
+      <!-- set default location of the OneDrive folder -->
+      <string id="DefaultRootDir">OneDrive klasÃ¶rÃ¼nÃ¼n varsayÄ±lan konumunu ayarla</string>
+      <string id="DefaultRootDir_help">Bu ayar, kullanÄ±cÄ±larÄ±n bilgisayarlarÄ±nda OneDrive klasÃ¶rÃ¼nÃ¼n varsayÄ±lan konumu olarak belirli bir yol ayarlamanÄ±zÄ± saÄŸlar. VarsayÄ±lan olarak yol %userprofile% altÄ±ndadÄ±r.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, OneDrive - {organization name} klasÃ¶rÃ¼nÃ¼n varsayÄ±lan konumu OneDrive.admx dosyasÄ±nda belirttiÄŸiniz yol olur. KullanÄ±cÄ±larÄ±n belirttiÄŸiniz konumu deÄŸiÅŸtirmesini engellemek iÃ§in "KullanÄ±cÄ±larÄ±n OneDrive klasÃ¶rlerinin konumunu deÄŸiÅŸtirmesini engelle" ayarÄ±nÄ± etkinleÅŸtirin.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, OneDrive - {organization name} klasÃ¶rÃ¼nÃ¼n varsayÄ±lan konumu %userprofile% altÄ±nda olur.</string>
+
+      <!-- disable changing the default location of the OneDrive folder -->
+      <string id="DisableCustomRoot">KullanÄ±cÄ±larÄ±n kendi OneDrive klasÃ¶rlerinin konumunu deÄŸiÅŸtirmesini engelle</string>
+      <string id="DisableCustomRoot_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ± kurulumu sÄ±rasÄ±nda kullanÄ±cÄ±larÄ±n OneDrive - {organization name} klasÃ¶rlerinin konumunu deÄŸiÅŸtirmesini engellemenize olanak tanÄ±r.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, OneDrive Kurulumunda "Konumu deÄŸiÅŸtir" baÄŸlantÄ±sÄ± gizlenir. OneDrive klasÃ¶rÃ¼, varsayÄ±lan konumda veya "OneDrive klasÃ¶rÃ¼nÃ¼n varsayÄ±lan konumunu ayarla" ayarÄ±nÄ± etkinleÅŸtirdiyseniz belirttiÄŸiniz Ã¶zel konumda oluÅŸturulur.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar OneDrive Kurulumunda "Konumu deÄŸiÅŸtir" baÄŸlantÄ±sÄ±na tÄ±klayarak OneDrive klasÃ¶rlerinin konumunu deÄŸiÅŸtirebilir.</string>
+
+      <!-- Enable auto start for OneDrive -->
+      <string id="EnableAutoStart">Windowsâ€™da oturum aÃ§arken OneDriveâ€™Ä± otomatik olarak baÅŸlat</string>
+      <string id="EnableAutoStart_help">Bu ayar, kullanÄ±cÄ±nÄ±n tercihlerini geÃ§ersiz kÄ±larak OneDrive'Ä±n Windows'da her oturum aÃ§tÄ±klarÄ±nda otomatik olarak baÅŸlamasÄ±nÄ± saÄŸlar. 
+      
+Bu ayarÄ± yapÄ±landÄ±rÄ±rsanÄ±z, kullanÄ±cÄ± Windows'da oturum aÃ§tÄ±ysa OneDrive otomatik olarak baÅŸlayacaktÄ±r. AyarÄ±n OneDrive eÅŸitleme iÃ§in bu ayar etkinleÅŸtirildikten sonra uygulamanÄ±n yeniden baÅŸlatÄ±lmasÄ± gerekir.
+
+Bu ayarÄ± yapÄ±landÄ±rmazsanÄ±z veya 1'den farklÄ± bir deÄŸere ayarlarsanÄ±z, kullanÄ±cÄ± OneDrive'Ä± otomatik olarak baÅŸlatmayÄ± (varsayÄ±lan seÃ§enek) veya OneDrive'Ä±n uygulama ayarlarÄ±ndan baÅŸlamasÄ±nÄ± devre dÄ±ÅŸÄ± OneDrive eÅŸitleme tercih edebilirsiniz.</string>
+
+      <!-- Enable Automatic Upload Bandwidth Limiting -->
+      <string id="AutomaticUploadBandwidthPercentage">EÅŸitleme uygulamasÄ±nÄ±n karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ±, aktarÄ±m hÄ±zÄ±nÄ±n bir yÃ¼zdesiyle sÄ±nÄ±rla</string>
+      <string id="AutomaticUploadBandwidthPercentage_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe) dosyalarÄ± karÅŸÄ±ya yÃ¼klemek iÃ§in kullanabileceÄŸi bilgisayarÄ±n karÅŸÄ±ya yÃ¼kleme aktarÄ±m hÄ±zÄ±nÄ±n yÃ¼zdesini belirterek bir bilgisayardaki farklÄ± karÅŸÄ±ya yÃ¼kleme gÃ¶revlerinin performansÄ±nÄ± dengelemenizi saÄŸlar. Bunu yÃ¼zde olarak ayarlama, eÅŸitleme uygulamasÄ±nÄ±n aktarÄ±m hÄ±zÄ±ndaki artÄ±ÅŸlara ve dÃ¼ÅŸÃ¼ÅŸlere yanÄ±t vermesini saÄŸlar. Ayarlanan yÃ¼zde deÄŸeri ne kadar dÃ¼ÅŸÃ¼kse, dosyalar karÅŸÄ±ya daha yavaÅŸ yÃ¼klenir. %50 veya daha yÃ¼ksek bir deÄŸer Ã¶neririz. EÅŸitleme uygulamasÄ± bir dakika kÄ±sÄ±tlama olmadan dÃ¼zenli aralÄ±klarla karÅŸÄ±ya yÃ¼kleme gerÃ§ekleÅŸtirir ve ardÄ±ndan ayarladÄ±ÄŸÄ±nÄ±z karÅŸÄ±ya yÃ¼kleme yÃ¼zdesine gÃ¶re hÄ±zÄ± dÃ¼ÅŸÃ¼rÃ¼r. Bu, kÃ¼Ã§Ã¼k dosyalarÄ±n hÄ±zlÄ± bir ÅŸekilde yÃ¼klenmesini saÄŸlarken, bÃ¼yÃ¼k yÃ¼kleme iÅŸlemlerinin de bilgisayarÄ±n yÃ¼kleme hÄ±zÄ± Ã¼zerinde aÄŸÄ±rlÄ±k oluÅŸturmasÄ±nÄ± Ã¶nler.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, bilgisayarlar OneDrive'a dosya yÃ¼klenirken belirttiÄŸiniz karÅŸÄ±ya yÃ¼kleme aktarÄ±m hÄ±zÄ± yÃ¼zdesini kullanÄ±r ve kullanÄ±cÄ±lar bu ayarÄ± deÄŸiÅŸtiremez.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sabit bir deÄŸerle (KB/saniye cinsinden) sÄ±nÄ±rlamayÄ± veya aktarÄ±m hÄ±zÄ±ndaki artÄ±ÅŸlara ve dÃ¼ÅŸÃ¼ÅŸlere uyumlu hareket edilmesi iÃ§in karÅŸÄ±ya yÃ¼kleme aktarÄ±m hÄ±zÄ±nÄ±n %70'ini kullanan "Otomatik olarak ayarla" seÃ§imini yaparak ayarlayabilir.
+
+Ã–nemli: Bu ayarÄ± etkinleÅŸtirir veya devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z ve ardÄ±ndan YapÄ±landÄ±rÄ±lmadÄ± olarak deÄŸiÅŸtirirseniz son yapÄ±landÄ±rma geÃ§erli olur. KarÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sÄ±nÄ±rlamak iÃ§in "EÅŸitleme uygulamasÄ±nÄ±n karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sabit bir hÄ±zla sÄ±nÄ±rla" seÃ§imi yerine bu ayarÄ± etkinleÅŸtirmenizi Ã¶neririz. Her iki ayarÄ± da aynÄ± anda etkinleÅŸtirmemeniz gerekir.</string>
+      <!-- Enable Upload Bandwidth Limiting -->
+      <string id="UploadBandwidthLimit">EÅŸitleme uygulamasÄ±nÄ±n karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sabit bir hÄ±zla sÄ±nÄ±rla</string>
+      <string id="UploadBandwidthLimit_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe) dosyalarÄ± karÅŸÄ±ya yÃ¼kleyebileceÄŸi en yÃ¼ksek hÄ±zÄ± yapÄ±landÄ±rmanÄ±zÄ± saÄŸlar. Bu hÄ±z, kilobayt/saniye cinsinden sabit bir deÄŸerdir. HÄ±z ne kadar dÃ¼ÅŸÃ¼k olursa, bilgisayar dosyalarÄ± o kadar yavaÅŸ karÅŸÄ±ya yÃ¼kler. Ayarlanabilen en dÃ¼ÅŸÃ¼k hÄ±z 1 KB/sn ve en yÃ¼ksek hÄ±z 100.000 KB/sn'dir. KullanÄ±cÄ± arabirimi girilen hÄ±zÄ± gÃ¶sterse bile, 50 KB/sn'den dÃ¼ÅŸÃ¼k tÃ¼m deÄŸerler sÄ±nÄ±rÄ± 50 KB/sn olarak ayarlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, bilgisayarlar belirttiÄŸiniz en yÃ¼ksek karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± kullanÄ±r ve kullanÄ±cÄ±lar bunu OneDrive ayarlarÄ±nda deÄŸiÅŸtiremez.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sabit bir deÄŸerle (KB/saniye cinsinden) sÄ±nÄ±rlamayÄ± seÃ§ebilir veya aktarÄ±m hÄ±zÄ±ndaki artÄ±ÅŸ ve azalÄ±ÅŸlara karÅŸÄ±lÄ±k olarak karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ±n %70'ini kullanacak olan "Otomatik olarak ayarla" seÃ§eneÄŸini belirleyebilir.
+
+KarÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sÄ±nÄ±rlamak iÃ§in bu ayarÄ± kullanmak yerine, "EÅŸitleme uygulamasÄ±nÄ±n karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± aktarÄ±m hÄ±zÄ±nÄ±n bir yÃ¼zdesine sÄ±nÄ±rla" ayarÄ±nÄ± etkinleÅŸtirerek deÄŸiÅŸen koÅŸullara gÃ¶re ayarlama yapan bir sÄ±nÄ±r belirlemenizi Ã¶neririz. Ä°ki ayarÄ± aynÄ± anda etkinleÅŸtirmemeniz gerekir.</string>
+
+      <!-- Enable Download Bandwidth Limiting -->
+      <string id="DownloadBandwidthLimit">EÅŸitleme uygulamasÄ±nÄ±n indirme hÄ±zÄ±nÄ± sabit bir hÄ±zla sÄ±nÄ±rla</string>
+      <string id="DownloadBandwidthLimit_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe) dosyalarÄ± indirebileceÄŸi en yÃ¼ksek hÄ±zÄ± yapÄ±landÄ±rmanÄ±zÄ± saÄŸlar. Bu hÄ±z kilobayt/saniye cinsinden sabit bir deÄŸerdir ve yalnÄ±zca eÅŸitleme iÅŸlemlerinde uygulanÄ±r, gÃ¼ncelleÅŸtirmeleri indirmede geÃ§erli deÄŸildir. HÄ±z ne kadar dÃ¼ÅŸÃ¼k olursa, dosyalar o kadar yavaÅŸ iner. Ayarlanabilen en dÃ¼ÅŸÃ¼k hÄ±z 1 KB/sn ve en yÃ¼ksek hÄ±z 100.000 KB/sn'dir. KullanÄ±cÄ± arabirimi girilen hÄ±zÄ± gÃ¶sterse bile 50 KB/sn'den dÃ¼ÅŸÃ¼k girilen her deÄŸer sÄ±nÄ±rÄ± 50 KB/sn olarak ayarlar.
+Bu ayarÄ± etkinleÅŸtirirseniz, bilgisayarlar belirttiÄŸiniz en yÃ¼ksek indirme hÄ±zÄ±nÄ± kullanÄ±r ve kullanÄ±cÄ±lar bu ayarÄ± deÄŸiÅŸtiremez.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar OneDrive eÅŸitleme uygulamasÄ± ayarlarÄ±nda indirme hÄ±zÄ±nÄ± sÄ±nÄ±rlamayÄ± seÃ§ebilir.</string>
+
+      <!-- prevent OneDrive sync app (OneDrive.exe) from generating network traffic (checking for updates, etc.) until the user signs in to OneDrive -->
+      <string id="PreventNetworkTrafficPreUserSignIn">KullanÄ±cÄ±lar oturum aÃ§ana kadar eÅŸitleme uygulamasÄ±nÄ±n aÄŸ trafiÄŸi oluÅŸturmasÄ±nÄ± Ã¶nle</string>
+      <string id="PreventNetworkTrafficPreUserSignIn_help">Bu ayar, kullanÄ±cÄ±lar eÅŸitleme uygulamasÄ±nda oturum aÃ§ana veya bilgisayara dosya eÅŸitlemeye baÅŸlayana kadar OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe) aÄŸ trafiÄŸi oluÅŸturmasÄ±nÄ± engellemenizi saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, eÅŸitleme uygulamasÄ±nÄ±n otomatik olarak baÅŸlamasÄ± iÃ§in kullanÄ±cÄ±larÄ±n bilgisayarda OneDrive eÅŸitleme uygulamasÄ±nda oturum aÃ§masÄ± veya bilgisayarda OneDrive ya da SharePoint dosyalarÄ±nÄ± eÅŸitlemeyi seÃ§mesi gerekir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar Windows'da oturum aÃ§tÄ±ÄŸÄ±nda OneDrive eÅŸitleme uygulamasÄ± da otomatik olarak baÅŸlatÄ±lÄ±r.
+
+Ã–nemli: Bu ayarÄ± etkinleÅŸtirdikten veya devre dÄ±ÅŸÄ± bÄ±raktÄ±ktan sonra yeniden YapÄ±landÄ±rÄ±lmamÄ±ÅŸ olarak deÄŸiÅŸtirirseniz, son yapÄ±landÄ±rma uygulanmaya devam eder. </string>
+
+      <!-- Silent Account Config -->
+      <string id="SilentAccountConfig">KullanÄ±cÄ±larÄ±n OneDrive eÅŸitleme uygulamasÄ± oturumlarÄ±nÄ± Windows kimlik bilgileriyle arka planda aÃ§</string>
+      <string id="SilentAccountConfig_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nda (OneDrive.exe) Windows kimlik bilgileriyle arka planda kullanÄ±cÄ± oturumu aÃ§manÄ±zÄ± saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirdiÄŸinizde bilgisayarda birincil Windows hesabÄ±yla (bilgisayarÄ± etki alanÄ±na eklemek iÃ§in kullanÄ±lan hesap) oturum aÃ§mÄ±ÅŸ kullanÄ±cÄ±lar, hesaplarÄ±na ait kimlik bilgilerini girmeden eÅŸitleme uygulamasÄ±nÄ± ayarlayabilir. EÅŸitlenecek klasÃ¶rleri seÃ§mek ve OneDrive klasÃ¶rÃ¼nÃ¼n konumunu deÄŸiÅŸtirmek iÃ§in OneDrive Kurulumu bu kullanÄ±cÄ±lar iÃ§in yine de gÃ¶rÃ¼ntÃ¼lenir. KullanÄ±cÄ±, eski OneDrive Ä°ÅŸ eÅŸitleme uygulamasÄ±nÄ± (Groove.exe) uygulamasÄ±nÄ± kullanÄ±yorsa yeni eÅŸitleme uygulamasÄ±, eÅŸitleme iÅŸlemi yapan kullanÄ±cÄ±nÄ±n OneDrive'Ä±nÄ± Ã¶nceki uygulamadan devralÄ±r ve eÅŸitleme ayarlarÄ±nÄ± korur. Bu ayar Ä°steÄŸe BaÄŸlÄ± Dosyalar'Ä±n etkin olmadÄ±ÄŸÄ± bilgisayarlarda sÄ±k sÄ±k "KullanÄ±cÄ±nÄ±n OneDrive'Ä±nÄ±n otomatik olarak indirebileceÄŸi Ã¶ÄŸe boyutu Ã¼st sÄ±nÄ±rÄ±nÄ± otomatik olarak ayarla" ve "OneDrive klasÃ¶rÃ¼ iÃ§in varsayÄ±lan konumu ayarla" ayarÄ±yla birlikte kullanÄ±lÄ±r
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z kullanÄ±cÄ±larÄ±n eÅŸitlemeyi ayarlamak iÃ§in iÅŸ veya okul hesabÄ±yla oturum aÃ§masÄ± gerekir.
+
+</string>
+
+      <!-- DiskSpaceCheckThresholdMB -->
+      <string id="DiskSpaceCheckThresholdMB">Bir kullanÄ±cÄ±nÄ±n otomatik olarak indirebileceÄŸi OneDrive boyutu Ã¼st sÄ±nÄ±rÄ±nÄ± ayarla</string>
+      <string id="DiskSpaceCheckThresholdMB_help">Bu ayar "KullanÄ±cÄ±larÄ±n OneDrive eÅŸitleme uygulamasÄ± oturumlarÄ±nÄ± Windows kimlik bilgileriyle sessizce aÃ§" ayarÄ± ile birlikte kullanÄ±lÄ±r. Bu ayar, OneDrive'da belirtilen miktardan fazla iÃ§eriÄŸi bulunan kullanÄ±cÄ±lardan OneDrive eÅŸitleme uygulamasÄ± (OneDrive.exe) kurulumu sÄ±rasÄ±nda eÅŸitlenecek klasÃ¶rleri seÃ§mesini ister.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, OneDrive Kurulumu sÄ±rasÄ±nda belirttiÄŸiniz deÄŸerden daha fazla iÃ§eriÄŸe sahip kullanÄ±cÄ±lara KlasÃ¶r SeÃ§in iletiÅŸim kutusu varsayÄ±lan olarak gÃ¶sterilir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar eÅŸitleme uygulamasÄ±nÄ± ayarlarken tÃ¼m dosyalar eÅŸitlenmek Ã¼zere seÃ§ilir.</string>
+
+      <!-- Settings below control behavior of Files-On-Demand (Cloud Files) -->
+      <string id="FilesOnDemandEnabled">OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar'Ä± Kullan</string>
+      <string id="FilesOnDemandEnabled_help">Bu ayar, OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar'Ä±n kuruluÅŸunuz iÃ§in etkin olup olmadÄ±ÄŸÄ±nÄ± denetlemenize izin verir.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar varsayÄ±lan olarak etkinleÅŸtirilir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z, OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar aÃ§Ä±kÃ§a devre dÄ±ÅŸÄ± bÄ±rakÄ±lÄ±r ve kullanÄ±cÄ±lar bunu aÃ§amaz.
+
+Bu ayarÄ± yapÄ±landÄ±rmazsanÄ±z, OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar kullanÄ±cÄ±lar tarafÄ±ndan aÃ§Ä±labilir veya kapatÄ±labilir.</string>
+
+      <string id="DehydrateSyncedTeamSites">EÅŸitlenen ekip sitesi dosyalarÄ±nÄ± yalnÄ±zca Ã§evrimiÃ§i kullanÄ±lan dosyalara dÃ¶nÃ¼ÅŸtÃ¼r</string>
+      <string id="DehydrateSyncedTeamSites_help">Bu ayar, OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar ile birlikte kullanÄ±lÄ±r. BirÃ§ok kullanÄ±cÄ± aynÄ± ekip sitelerini eÅŸitlediÄŸinde, bu ayar, eÅŸitlenen ekip sitesi dosyalarÄ±nÄ± yalnÄ±zca Ã§evrimiÃ§i kullanÄ±lan dosyalara dÃ¶nÃ¼ÅŸtÃ¼rerek bant geniÅŸliÄŸini korumanÄ±zÄ± ve cihazlarda yer aÃ§manÄ±zÄ± saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar etkin olmadan Ã¶nce eÅŸitlenen ekip sitesi dosyalarÄ± yalnÄ±zca Ã§evrimiÃ§i kullanÄ±lan dosyalara dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lÃ¼r. (Bu, tek seferlik bir eylemdir.)
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar ekip sitesi dosyalarÄ±nÄ± yalnÄ±zca Ã§evrimiÃ§i hale getirmedikÃ§e bu dosyalar yerel olarak kullanÄ±labilir olmaya devam eder.</string>
+
+      <!-- Restrict syncing with other organizations -->
+      <string id="AllowTenantList">OneDrive hesaplarÄ±nÄ±n yalnÄ±zca belirli kuruluÅŸlar iÃ§in eÅŸitlenmesine izin ver</string>
+      <string id="AllowTenantList_help">Bu ayar, bir izin verilen kiracÄ± kimlikleri listesi belirterek, kullanÄ±cÄ±larÄ±n dosyalarÄ± kolay bir ÅŸekilde baÅŸka kuruluÅŸlara yÃ¼klemesini engellemenizi saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar izin verilmeyen bir kuruluÅŸtaki hesabÄ± eklemeyi denediÄŸinde hata iletisi alÄ±r. KullanÄ±cÄ±, hesabÄ± zaten eklemiÅŸse dosyalarÄ±n eÅŸitlenmesi durdurulur.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z kullanÄ±cÄ±lar herhangi bir kuruluÅŸtan hesap ekleyebilir.
+
+Bunun yerine belirli kuruluÅŸlarÄ± engellemek iÃ§in "Belirli kuruluÅŸlar iÃ§in OneDrive hesaplarÄ±nÄ±n eÅŸitlenmesini engelle" ilkesini kullanÄ±n.
+
+Bu ayar, "Belirli kuruluÅŸlar iÃ§in OneDrive hesaplarÄ±nÄ±n eÅŸitlenmesini engelle" ilkesinden daha yÃ¼ksek Ã¶nceliÄŸe sahiptir. Ä°ki ilkeyi aynÄ± anda etkinleÅŸtirmeyin.</string>
+
+      <string id="BlockTenantList">Belirli kuruluÅŸlar iÃ§in OneDrive hesaplarÄ±nÄ±n eÅŸitlenmesini engelle</string>
+      <string id="BlockTenantList_help">Bu ayar, bir engellenen kiracÄ± kimlikleri listesi belirterek, kullanÄ±cÄ±larÄ±n dosyalarÄ± kolay bir ÅŸekilde baÅŸka bir kuruluÅŸa yÃ¼klemesini engellemenizi saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar engellenen bir kuruluÅŸtaki hesabÄ± eklemeyi denediÄŸinde hata iletisi alÄ±r. KullanÄ±cÄ±, hesabÄ± zaten eklemiÅŸse dosyalarÄ±n eÅŸitlenmesi durdurulur.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z kullanÄ±cÄ±lar herhangi bir kuruluÅŸtan hesap ekleyebilir.
+
+Bunun yerine bir izin verilen kuruluÅŸlar listesi belirtmek iÃ§in "OneDrive hesaplarÄ±nÄ±n yalnÄ±zca belirli kuruluÅŸlar iÃ§in eÅŸitlenmesine izin ver" ilkesini kullanÄ±n.
+
+"OneDrive hesaplarÄ±nÄ±n yalnÄ±zca belirli kuruluÅŸlar iÃ§in eÅŸitlenmesine izin ver" ilkesi etkinse bu ayar Ã‡ALIÅžMAZ. Ä°ki ilkeyi aynÄ± anda etkinleÅŸtirmeyin.</string>
+
+      <!-- SharePoint Server 2019 settings -->
+      <string id="SharePointOnPremFrontDoorUrl">SharePoint Server URL'sini ve kuruluÅŸ adÄ±nÄ± belirtin</string>
+      <string id="SharePointOnPremFrontDoorUrl_help">Bu ayar, kullanÄ±cÄ±larÄ±n OneDrive eÅŸitleme uygulamasÄ±nÄ± (OneDrive.exe) kullanarak SharePoint Server 2019'da dosyalarÄ± eÅŸitlemesine izin vermenizi saÄŸlar. URL, SharePoint Server'Ä±n konumunu tanÄ±mlar ve eÅŸitleme uygulamasÄ±nÄ±n kimlik doÄŸrulamasÄ± yaparak eÅŸitlemeyi ayarlamasÄ±nÄ± saÄŸlar. KuruluÅŸ adÄ±, Dosya Gezgini'nde oluÅŸturulacak olan OneDrive ve SharePoint klasÃ¶r adlarÄ±nÄ± belirtmenizi saÄŸlar. KuruluÅŸ adÄ± isteÄŸe baÄŸlÄ±dÄ±r. KuruluÅŸ adÄ±nÄ± saÄŸlamazsanÄ±z, eÅŸitleme uygulamasÄ± ad olarak URL'nin ilk bÃ¶lÃ¼mÃ¼nÃ¼ kullanÄ±r. Ã–rneÄŸin, office.sharepoint.com URL'sinden "Office" kÄ±smÄ± alÄ±nÄ±r ve OneDrive klasÃ¶r adÄ± "OneDrive - Office" olur.
+
+Bu ayarÄ± etkinleÅŸtirirseniz ve SharePoint Server URL'sini saÄŸlarsanÄ±z, kullanÄ±cÄ±lar SharePoint Server 2019'da dosyalarÄ± eÅŸitleyebilir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z ya da SharePoint Server URL'sini saÄŸlamazsanÄ±z, kullanÄ±cÄ±lar SharePoint Server 2019'da dosya eÅŸitleyemez. </string>
+
+      <string id="SharePointOnPremPrioritization">Karma bir ortamda OneDrive konumunu belirtin</string>
+      <string id="SharePointOnPremPrioritization_help">Bu ayar, kimlik hem SharePoint Online'da hem de SharePoint Server 2019'da mevcutsa, OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe) iki kimlik saÄŸlayÄ±cÄ±sÄ±nda da kimlik doÄŸrulamasÄ± yapÄ±p yapmamasÄ± gerektiÄŸini belirler. Bu ayarÄ± kullanmak iÃ§in "SharePoint Server URL'sini ve kuruluÅŸ adÄ±nÄ± belirtin" ayarÄ±nÄ± da etkinleÅŸtirmeniz gerekir. Bu ayar yalnÄ±zca OneDrive Ä°ÅŸ eÅŸitleme iÅŸlevini etkiler. Bu ayar, SharePoint Online veya SharePoint Server 2019'daki ekip sitelerini eÅŸitleme iÅŸlemini etkilemez.
+
+Bu ayarÄ± etkinleÅŸtirirseniz iki seÃ§enek kullanabilirsiniz:
+
+SharePoint Online: EÅŸitleme uygulamasÄ± ilk olarak SharePoint Online'da kullanÄ±cÄ±nÄ±n OneDrive hesabÄ±nÄ± arar. EÅŸitleme uygulamasÄ± kullanÄ±cÄ± iÃ§in SharePoint Online ile zaten yapÄ±landÄ±rÄ±lmÄ±ÅŸsa, bu kullanÄ±cÄ± iÃ§in SharePoint Server 2019'da bir OneDrive Ä°ÅŸ Ã¶rneÄŸi yapÄ±landÄ±rmaya Ã§alÄ±ÅŸÄ±r.
+
+SharePoint Server 2019: EÅŸitleme uygulamasÄ± ilk olarak SharePoint Server 2019'da kullanÄ±cÄ±nÄ±n OneDrive Ä°ÅŸ hesabÄ±nÄ± arar. EÅŸitleme uygulamasÄ± kullanÄ±cÄ± iÃ§in SharePoint Server 2019 ile zaten yapÄ±landÄ±rÄ±lmÄ±ÅŸsa, bu kullanÄ±cÄ± iÃ§in SharePoint Online'da bir OneDrive Ã¶rneÄŸi yapÄ±landÄ±rmaya Ã§alÄ±ÅŸÄ±r.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, eÅŸitleme uygulamasÄ± ilk olarak SharePoint Online'da kullanÄ±cÄ±nÄ±n OneDrive hesabÄ±nÄ± arar.</string>
+
+      <string id="PrioritizeSPO">SharePoint Online</string>
+      <string id="PrioritizeSharePointOnPrem">SharePoint Server 2019</string>
+
+      <!-- Disable tutorial in the FRE -->
+      <string id="DisableFRETutorial">OneDrive Kurulumu sonunda gÃ¶rÃ¼ntÃ¼lenen Ã¶ÄŸreticiyi devre dÄ±ÅŸÄ± bÄ±rak</string>
+      <string id="DisableFRETutorial_help">Bu ayar, OneDrive Kurulumu sonunda bir web tarayÄ±cÄ±sÄ±nda Ã¶ÄŸreticinin baÅŸlamasÄ±nÄ± engellemenizi saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar OneDrive Kurulumunu tamamlandÄ±ktan sonra Ã¶ÄŸreticiyi gÃ¶rmez.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, Ã¶ÄŸretici OneDrive Kurulumunun sonunda gÃ¶rÃ¼nÃ¼r.</string>
+
+      <!-- Disable Animation in the FRE-->
+      <string id="DisableFREAnimation">OneDrive Kurulumu sÄ±rasÄ±nda gÃ¶rÃ¼ntÃ¼lenen animasyonu devre dÄ±ÅŸÄ± bÄ±rak</string>
+      <string id="DisableFREAnimation_help">Bu ayar OneDrive Kurulumu sÄ±rasÄ±nda animasyonun gÃ¶sterilmesini engellemenizi saÄŸlar.</string>
+
+      <!-- Block KFM -->
+      <string id="BlockKnownFolderMove">KullanÄ±cÄ±larÄ±n bilinen Windows klasÃ¶rlerini OneDrive'a taÅŸÄ±nmasÄ±nÄ± engelle</string>
+      <string id="BlockKnownFolderMove_help">Bu ayar, kullanÄ±cÄ±larÄ±n Belgeler, Resimler ve MasaÃ¼stÃ¼ klasÃ¶rlerini herhangi bir OneDrive Ä°ÅŸ hesabÄ±na taÅŸÄ±masÄ±nÄ± Ã¶nler.
+Not: Bilinen klasÃ¶rlerin kiÅŸisel OneDrive hesaplarÄ±na taÅŸÄ±nmasÄ±, etki alanÄ±na katÄ±lan bilgisayarlarda zaten engellenir.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, "Ã–nemli klasÃ¶rler iÃ§in korumayÄ± ayarla" penceresi kullanÄ±cÄ±lara gÃ¶sterilmez ve "KorumayÄ± baÅŸlat" komutu devre dÄ±ÅŸÄ± bÄ±rakÄ±lÄ±r. KullanÄ±cÄ± bilinen klasÃ¶rleri zaten taÅŸÄ±dÄ±ysa, bu klasÃ¶rlerdeki dosyalar OneDrive'da kalÄ±r. "KullanÄ±cÄ±larÄ±n bilinen Windows klasÃ¶rlerini OneDrive'a taÅŸÄ±masÄ±nÄ± iste" veya "Bilinen Windows klasÃ¶rlerini sessizce OneDrive'a taÅŸÄ±" seÃ§eneÄŸini etkinleÅŸtirirseniz, bu ayar uygulanmaz.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar bilinen klasÃ¶rlerini taÅŸÄ±mayÄ± seÃ§ebilir.</string>
+
+      <string id="BlockKnownFolderMoveDefaultOption">Evet</string>
+      <string id="BlockKnownFolderMoveRestoreFolder">HayÄ±r</string>
+
+      <!-- KFMOptInWithWizard -->
+      <string id="KFMOptInWithWizard">KullanÄ±cÄ±larÄ±n bilinen Windows klasÃ¶rlerini OneDrive'a taÅŸÄ±masÄ±nÄ± iste </string>
+      <string id="KFMOptInWithWizard_help">Bu ayar, kullanÄ±cÄ±lardan Belgeler, Resimler ve MasaÃ¼stÃ¼ klasÃ¶rlerini OneDrive'a taÅŸÄ±malarÄ±nÄ± isteyen "BT bÃ¶lÃ¼mÃ¼nÃ¼z Ã¶nemli klasÃ¶rlerinizi korumanÄ±zÄ± istiyor" penceresini gÃ¶rÃ¼ntÃ¼ler. Bu Ã¶zellik ÅŸirket iÃ§indeki SharePoint iÃ§in etkin deÄŸildir.
+
+Bu ayarÄ± etkinleÅŸtirip kiracÄ± kimliÄŸinizi saÄŸlarsanÄ±z, OneDrive hesaplarÄ±nÄ± eÅŸitleyen kullanÄ±cÄ±lar oturum aÃ§tÄ±klarÄ±nda "BT bÃ¶lÃ¼mÃ¼nÃ¼z Ã¶nemli klasÃ¶rlerinizi korumanÄ±zÄ± istiyor" penceresini gÃ¶rÃ¼rler. Pencereyi kapatÄ±rlarsa, bilinen Ã¼Ã§ klasÃ¶r taÅŸÄ±nana kadar etkinlik merkezinde bir anÄ±msatÄ±cÄ± bildirimi gÃ¶rÃ¼nÃ¼r. Bir kullanÄ±cÄ± bilinen klasÃ¶rlerini farklÄ± bir OneDrive hesabÄ±na yÃ¶nlendirdiyse, klasÃ¶rleri kuruluÅŸunuzun hesabÄ±na yÃ¶nlendirmesi istenir (mevcut dosyalar geride bÄ±rakÄ±lÄ±r).
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, "BT bÃ¶lÃ¼mÃ¼nÃ¼z Ã¶nemli klasÃ¶rlerinizi korumanÄ±zÄ± istiyor" penceresi otomatik olarak gÃ¶sterilmez.</string>
+
+      <!-- KFMOptInNoWizard -->
+      <string id="KFMOptInNoWizard">Bilinen Windows klasÃ¶rlerini sessizce OneDrive'a taÅŸÄ±</string>
+      <string id="KFMOptInNoWizard_help">Bu ayar, bilinen klasÃ¶rleri kullanÄ±cÄ± etkileÅŸimi olmadan OneDrive'a yÃ¶nlendirmenizi saÄŸlar. SÃ¼rÃ¼mÃ¼ 18.171.0823.0001'den eski olan eÅŸitleme uygulamalarÄ±nda bu ayar, yalnÄ±zca bilinen boÅŸ klasÃ¶rleri (veya Ã¶nceden farklÄ± bir OneDrive hesabÄ±na yÃ¶nlendirilmiÅŸ olan bilinen klasÃ¶rleri) OneDrive'a yÃ¶nlendirir. Sonraki sÃ¼rÃ¼mlerde bu ayar, iÃ§erik barÄ±ndÄ±ran bilinen klasÃ¶rleri yeniden yÃ¶nlendirir ve iÃ§erikleri OneDrive'a taÅŸÄ±r. Bu ayarÄ± "KullanÄ±cÄ±lardan bilinen Windows klasÃ¶rlerini OneDrive'a taÅŸÄ±masÄ±nÄ± iste" ayarÄ± ile birlikte kullanmanÄ±zÄ± Ã¶neririz. Bilinen klasÃ¶rleri sessizce taÅŸÄ±ma iÅŸlemi baÅŸarÄ±lÄ± olmazsa, kullanÄ±cÄ±lardan bu hatanÄ±n dÃ¼zeltilmesi ve devam etmeleri istenir.
+
+Bu ayarÄ± etkinleÅŸtirip kiracÄ± kimliÄŸinizi saÄŸlarsanÄ±z, klasÃ¶rleri yeniden yÃ¶nlendirildikten sonra kullanÄ±cÄ±lara bir bildirim gÃ¶sterilip gÃ¶sterilmeyeceÄŸini seÃ§ebilirsiniz.
+
+TÃ¼m klasÃ¶rleri aynÄ± anda taÅŸÄ±yabilir veya taÅŸÄ±mak istediÄŸiniz klasÃ¶rleri seÃ§ebilirsiniz. Bir klasÃ¶r taÅŸÄ±ndÄ±ktan sonra bu ilke, klasÃ¶r iÃ§in onay kutusunu temizleseniz bile o klasÃ¶rÃ¼ bir daha etkilemez. 
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±larÄ±nÄ±zÄ±n bilinen klasÃ¶rleri OneDrive'a sessizce yÃ¶nlendirilmez ve/veya taÅŸÄ±nmaz.
+
+    </string>
+      <string id="KFMOptInNoWizardToast">Evet</string>
+      <string id="KFMOptInNoWizardNoToast">HayÄ±r</string>
+
+      <!-- Block KFM Opt Out -->
+      <string id="KFMBlockOptOut">KullanÄ±cÄ±larÄ±n bilinen Windows klasÃ¶rlerini kendi bilgisayarlarÄ±na yeniden yÃ¶nlendirmesini engelle</string>
+      <string id="KFMBlockOptOut_help">Bu ayar, kullanÄ±cÄ±larÄ± Belgeler, Resimler ve MasaÃ¼stÃ¼ klasÃ¶rlerini OneDrive'a yÃ¶nlendirmeye zorlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, "BT bÃ¶lÃ¼mÃ¼nÃ¼z Ã¶nemli klasÃ¶rlerinizi korumanÄ±zÄ± istiyor" penceresindeki "KorumayÄ± durdur" dÃ¼ÄŸmesi devre dÄ±ÅŸÄ± bÄ±rakÄ±lÄ±r ve bilinen klasÃ¶rlerden birinin eÅŸitlemesini durdurmaya Ã§alÄ±ÅŸan kullanÄ±cÄ±lar bir hatayla karÅŸÄ±laÅŸÄ±r.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar bilinen klasÃ¶rlerini kendi bilgisayarlarÄ±na yeniden yÃ¶nlendirmeyi seÃ§ebilir. </string>
+
+      <!-- KFMForceWindowsDisplayLanguage -->
+      <string id="KFMForceWindowsDisplayLanguage">OneDriveâ€™da bilinen klasÃ¶rleri saÄŸlarken her zaman kullanÄ±cÄ±nÄ±n Windows gÃ¶rÃ¼ntÃ¼leme dilini kullan</string>
+      <string id="KFMForceWindowsDisplayLanguage_help">Bilinen Windows klasÃ¶rlerini OneDriveâ€™a taÅŸÄ±rken, bu klasÃ¶rler kullanÄ±cÄ± farklÄ± bir tercih edilen dil ayarlamadÄ±ÄŸÄ± sÃ¼rece varsayÄ±lan olarak kullanÄ±cÄ±nÄ±n Windows gÃ¶rÃ¼ntÃ¼leme dilinde saÄŸlanÄ±r. Bu ayar kullanÄ±cÄ±nÄ±n tercih edilen dil ayarÄ±nÄ± geÃ§ersiz kÄ±lmanÄ±za olanak tanÄ±r. Her iki Bilinen KlasÃ¶r TaÅŸÄ±ma ayarÄ±yla da Ã§alÄ±ÅŸÄ±r ("Bilinen Windows klasÃ¶rlerini sessizce OneDriveâ€™a taÅŸÄ±" ve "KullanÄ±cÄ±larÄ±n bilinen Windows klasÃ¶rlerini OneDriveâ€™a taÅŸÄ±masÄ±nÄ± iste").
+
+Bu ayarÄ± etkinleÅŸtirmeniz durumunda, kullanÄ±cÄ± farklÄ± bir tercih edilen dil ayarlasa bile, bilinen klasÃ¶rler kullanÄ±cÄ±nÄ±n Windows gÃ¶rÃ¼ntÃ¼leme dili kullanÄ±larak saÄŸlanÄ±r.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakmanÄ±z veya yapÄ±landÄ±rmamanÄ±z ve kullanÄ±cÄ±nÄ±n bir tercih edilen dil ayarlamasÄ± durumunda, kullanÄ±cÄ±nÄ±n bilinen klasÃ¶rleri OneDriveâ€™da bu dil kullanÄ±larak saÄŸlanÄ±r. KullanÄ±cÄ±nÄ±n bilgisayarÄ±ndaki bilinen klasÃ¶rler kullanÄ±cÄ±nÄ±n tercih ettiÄŸi dilde gÃ¶rÃ¼nÃ¼r.</string>
+
+      <!-- AutoMountTeamSites -->
+      <string id="AutoMountTeamSites">Ekip sitesi kitaplÄ±klarÄ±nÄ± otomatik olarak eÅŸitlenecek ÅŸekilde yapÄ±landÄ±r</string>
+      <string id="AutoMountTeamSites_help">Bu ayar, kullanÄ±cÄ±larÄ±n OneDrive eÅŸitleme uygulamasÄ±nda (OneDrive.exe) bir sonraki oturum aÃ§Ä±ÅŸlarÄ±nda otomatik olarak eÅŸitlenecek SharePoint ekip sitesi kitaplÄ±klarÄ±nÄ± belirlemenizi saÄŸlar. Bir kullanÄ±cÄ± oturum aÃ§tÄ±ktan sonra kÃ¼tÃ¼phanenin eÅŸitlenmeye baÅŸlamasÄ± 8 saat kadar sÃ¼rebilir. Bu ayarÄ± kullanmak iÃ§in OneDrive Ä°steÄŸe BaÄŸlÄ± Dosyalar'Ä± etkinleÅŸtirmeniz gerekir ve bu ayar yalnÄ±zca Windows 10 (1709) Fall Creators Update veya Ã¼zerini Ã§alÄ±ÅŸtÄ±ran bilgisayarlardaki kullanÄ±cÄ±lar iÃ§in geÃ§erlidir. AynÄ± kitaplÄ±k iÃ§in bu ayarÄ± 1.000'den fazla cihaza etkinleÅŸtirmeyin. Ä°yi bir eÅŸitleme deneyimi saÄŸlamak iÃ§in bu Ã¶zelliÄŸi bÃ¼yÃ¼k kitaplÄ±k kÃ¼melerinde etkinleÅŸtirmeyi engelleyin (En gÃ¼ncel yÃ¶nergeler iÃ§in bkz. https://learn.microsoft.com/en-us/sharepoint/use-group-policy#AutoMountTeamSites). Bu Ã¶zellik ÅŸirket iÃ§i SharePoint siteleri iÃ§in etkinleÅŸtirilmiyor.
+
+Bu ayarÄ± etkinleÅŸtirirseniz OneDrive eÅŸitleme uygulamasÄ±, kullanÄ±cÄ±nÄ±n bir sonraki oturum aÃ§Ä±ÅŸÄ±nda yalnÄ±zca Ã§evrimiÃ§i dosyalar olarak belirtilen kitaplÄ±klarÄ±n iÃ§eriÄŸini otomatik olarak indirir. KullanÄ±cÄ± kitaplÄ±klarÄ± eÅŸitlemeyi durduramaz.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z, belirttiÄŸiniz ekip sitesi kitaplÄ±klarÄ± yeni kullanÄ±cÄ±lar iÃ§in otomatik olarak eÅŸitlenmez. Mevcut kullanÄ±cÄ±lar kitaplÄ±klarÄ± eÅŸitlemeyi durdurmayÄ± seÃ§ebilir, ancak kitaplÄ±klar otomatik olarak eÅŸitlemeyi durdurmaz.</string>
+
+      <!-- Disable Pause On Battery Saver  -->
+      <string id="DisablePauseOnBatterySaver">CihazlarÄ±n pil tasarrufu modu aÃ§Ä±k olduÄŸunda eÅŸitlemeye devam et</string>
+      <string id="DisablePauseOnBatterySaver_help">Bu ayar, pil tasarrufu modunun aÃ§Ä±k olduÄŸu cihazlar iÃ§in otomatik duraklatma Ã¶zelliÄŸini kapatmanÄ±za olanak tanÄ±r. 
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar pil tasarrufu modunu aÃ§tÄ±ÄŸÄ±nda eÅŸitleme devam eder. OneDrive eÅŸitlemeyi otomatik olarak duraklatmaz.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, pil tasarrufu modu algÄ±landÄ±ÄŸÄ±nda eÅŸitleme otomatik olarak duraklatÄ±lÄ±r ve bir bildirim gÃ¶rÃ¼ntÃ¼lenir. KullanÄ±cÄ±lar, bildirimde "Yine de EÅŸitle" seÃ§eneÄŸine tÄ±klayarak eÅŸitlemeyi duraklatmamayÄ± seÃ§ebilir. EÅŸitleme duraklatÄ±ldÄ±ÄŸÄ±nda, kullanÄ±cÄ±lar gÃ¶rev Ã§ubuÄŸundaki bildirim alanÄ±nda bulunan OneDrive bulut simgesine tÄ±klayÄ±p etkinlik merkezinin Ã¼st kÄ±smÄ±nda yer alan uyarÄ± seÃ§eneÄŸine tÄ±klayarak eÅŸitlemeyi sÃ¼rdÃ¼rebilir.</string>
+
+      <!-- Disable Pause On Metered Network -->
+      <string id="DisablePauseOnMeteredNetwork">Tarifeli aÄŸlarda eÅŸitlemeye devam et</string>
+      <string id="DisablePauseOnMeteredNetwork_help">Bu ayar, cihazlar tarifeli aÄŸa baÄŸlandÄ±ÄŸÄ±nda otomatik duraklatma Ã¶zelliÄŸini kapatmanÄ±za olanak tanÄ±r.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, cihazlar tarifeli bir aÄŸda olduÄŸunda eÅŸitleme iÅŸlemi devam eder. OneDrive eÅŸitlemeyi otomatik olarak duraklatmaz.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, tarifeli bir aÄŸ algÄ±landÄ±ÄŸÄ±nda eÅŸitleme otomatik olarak duraklatÄ±lÄ±r ve bir bildirim gÃ¶rÃ¼ntÃ¼lenir. KullanÄ±cÄ±lar, bildirimde "Yine de EÅŸitle" seÃ§eneÄŸine tÄ±klayarak eÅŸitlemeyi duraklatmamayÄ± seÃ§ebilir. EÅŸitleme duraklatÄ±ldÄ±ÄŸÄ±nda kullanÄ±cÄ±lar, gÃ¶rev Ã§ubuÄŸundaki bildirim alanÄ±nda bulunan OneDrive bulut simgesine tÄ±klayÄ±p etkinlik merkezinin Ã¼st kÄ±smÄ±nda yer alan uyarÄ± seÃ§eneÄŸine tÄ±klayarak eÅŸitlemeyi sÃ¼rdÃ¼rebilir.</string>
+
+      <!-- Local Mass Delete Threshold -->
+      <string id="LocalMassDeleteFileDeleteThreshold">Yerel bilgisayarlarÄ±nda birden Ã§ok OneDrive dosyasÄ±nÄ± silen kullanÄ±cÄ±lara sor</string>
+      <string id="LocalMassDeleteFileDeleteThreshold_help">Bu ilke, kullanÄ±cÄ±ya dosyalarÄ±n buluttan da silineceÄŸi bildirilmeden Ã¶nce bir kullanÄ±cÄ±nÄ±n yerel OneDrive klasÃ¶rÃ¼nden kaÃ§ dosya silebileceÄŸine iliÅŸkin eÅŸiÄŸi ayarlar.
+
+Bu ilkeyi etkinleÅŸtirirseniz, kullanÄ±cÄ±lar yerel bilgisayarlarÄ±nda OneDrive'dan belirtilen sayÄ±dan fazla dosya silerse bir bildirim alÄ±r. KullanÄ±cÄ±ya bulut dosyalarÄ±nÄ± kaldÄ±rmaya devam etme veya yerel dosyalarÄ± geri yÃ¼kleme seÃ§eneÄŸine sahip olur.
+
+Not: Bu ilkeyi etkinleÅŸtirseniz bile, kullanÄ±cÄ±lar Ã¶nceki bir bildirimdeki "DosyalarÄ± her zaman kaldÄ±r" onay kutusunu seÃ§tiyse veya OneDrive eÅŸitleme uygulamasÄ± ayarlarÄ±nda "Bulutta Ã§ok fazla dosya silindiÄŸinde bana bildir" onay kutusunun iÅŸaretini kaldÄ±rdÄ±ysa bildirim alamaz.
+
+Bu ilkeyi devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z, kullanÄ±cÄ±lar yerel bilgisayarlarÄ±nda Ã§ok sayÄ±da OneDrive dosyasÄ±nÄ± sildiÄŸinde bildirim almaz.
+
+Bu ilkeyi yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar kÄ±sa bir sÃ¼re iÃ§inde 200'den fazla dosyayÄ± sildiÄŸinde bir bildirim alÄ±r.</string>
+
+
+      <!-- Forced local mass delete prompt -->
+      <string id="ForcedLocalMassDeleteDetection">KullanÄ±cÄ±larÄ±n bÃ¼yÃ¼k silme iÅŸlemlerini onaylamasÄ±nÄ± gerektir</string>
+      <string id="ForcedLocalMassDeleteDetection_help">Bu ayar kullanÄ±cÄ±larÄ±n, Ã§ok sayÄ±da eÅŸitlenmiÅŸ dosyayÄ± silerken buluttaki dosyalarÄ± silmek isteyip istemediÄŸini onaylamasÄ±nÄ± saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar Ã§ok sayÄ±da eÅŸitlenmiÅŸ dosyayÄ± silerken her zaman bir uyarÄ± gÃ¶rÃ¼ntÃ¼lenir. KullanÄ±cÄ± silme iÅŸlemini 7 gÃ¼n iÃ§inde onaylamazsa dosyalar silinmez.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±r veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar uyarÄ±yÄ± gizleyebilir ve buluttaki dosyalarÄ± her zaman silebilir.</string>
+
+      <!-- Block B2BSync aka Cross Tenant Sync -->
+      <string id="BlockExternalSync">KullanÄ±cÄ±larÄ±n diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan kitaplÄ±klarÄ± ve klasÃ¶rleri eÅŸitlemesini engelleyin</string>
+      <string id="BlockExternalSync_help">Bu ayar, kuruluÅŸunuzdaki kullanÄ±cÄ±larÄ±n farklÄ± bir kuruluÅŸtaki kullanÄ±cÄ±lar tarafÄ±ndan paylaÅŸÄ±lan OneDrive Ä°ÅŸ veya SharePoint iÃ§eriÄŸini eÅŸitlemesine izin verilip verilmeyeceÄŸini denetler. Bu, B2B Sync adÄ± verilen bir iÅŸbirliÄŸi Ã¶zelliÄŸidir.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar bir dÄ±ÅŸ kuruluÅŸtan paylaÅŸÄ±lan bir OneDrive Ä°ÅŸ veya SharePoint kitaplÄ±ÄŸÄ±nÄ± veya klasÃ¶rÃ¼nÃ¼ eÅŸitlemeye baÅŸlayamaz. Zaten eÅŸitlenmekte olan paylaÅŸÄ±lan kitaplÄ±klar veya klasÃ¶rler eÅŸitlenmeyi durdurur.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±r veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar dÄ±ÅŸ kuruluÅŸlardan paylaÅŸÄ±lan OneDrive Ä°ÅŸ ve SharePoint kitaplÄ±klarÄ±nÄ± ve klasÃ¶rlerini eÅŸitleyebilir.
+
+B2B Sync hakkÄ±nda daha fazla bilgi edinmek iÃ§in bkz. https://learn.microsoft.com/en-us/sharepoint/b2b-sync</string>
+
+      <!-- Allow OneDrive to disable permission inheritance within read-only folders -->
+      <string id="PermitDisablePermissionInheritance">OneDrive'Ä±n eÅŸitlenen salt okunur klasÃ¶rlerde Windows izinlerini devralmayÄ± devre dÄ±ÅŸÄ± bÄ±rakmasÄ±na izin verin</string>
+      <string id="PermitDisablePermissionInheritance_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nÄ±n, kullanÄ±cÄ±nÄ±n bilgisayarÄ±nda eÅŸitleme olan salt okunur klasÃ¶rlerdeki tÃ¼m devralÄ±nan izinleri kaldÄ±rmasÄ±na olanak tanÄ±r.
+
+Bu ayarÄ± etkinleÅŸtiriseniz, OneDrive eÅŸitleme uygulamasÄ± eÅŸitleme hÄ±zÄ±nÄ± artÄ±rmak iÃ§in salt okunur klasÃ¶rlerde izin mirasÄ±nÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±r.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±r sanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, OneDrive eÅŸitleme uygulamasÄ± salt okunur klasÃ¶rlerde izin devralmasÄ±nÄ± korur. EÅŸitleme hÄ±zÄ± Ã¶nemli Ã¶lÃ§Ã¼de daha yavaÅŸ olabilir.</string>
+
+      <!-- Automatically adjust the sync app upload rate based on bandwidth availability -->
+      <string id="EnableAutomaticUploadBandwidthManagement">OneDrive iÃ§in otomatik karÅŸÄ±ya yÃ¼kleme bant geniÅŸliÄŸi yÃ¶netimini etkinleÅŸtirin</string>
+      <string id="EnableAutomaticUploadBandwidthManagement_help">Bu ayar OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe), yalnÄ±zca kullanÄ±lmayan bant geniÅŸliÄŸi olduÄŸunda verileri arka planda karÅŸÄ±ya yÃ¼klemesine izin verir. EÅŸitleme uygulamasÄ±nÄ±n, aÄŸ baÄŸlantÄ±sÄ±nÄ± kullanan diÄŸer uygulamalarÄ± engellememesini saÄŸlar. Bu ayar, Windows LEDBAT (DÃ¼ÅŸÃ¼k Ekstra Gecikmeyle Arka Planda AktarÄ±m) protokolÃ¼ ile desteklenir. LEDBAT, gecikme artÄ±ÅŸÄ± (bant geniÅŸliÄŸini kullanan baÅŸka TCP baÄŸlantÄ±larÄ± olduÄŸunu gÃ¶sterir) algÄ±ladÄ±ÄŸÄ±nda, eÅŸitleme istemcisi diÄŸer baÄŸlantÄ±larÄ± engellememek iÃ§in kendi bant geniÅŸliÄŸi kullanÄ±mÄ±nÄ± azaltÄ±r. AÄŸ baÄŸlantÄ±sÄ±ndaki gecikme azaldÄ±ÄŸÄ±nda bu, boÅŸta bant geniÅŸliÄŸi olduÄŸunu gÃ¶sterir ve eÅŸitleme uygulamasÄ± karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± artÄ±rÄ±r, kullanÄ±lmayan bant geniÅŸliÄŸini kullanmaya baÅŸlar.
+
+Bu ayarÄ± etkinleÅŸtirdiÄŸinizde eÅŸitleme uygulamasÄ±nÄ±n karÅŸÄ±ya yÃ¼kleme hÄ±zÄ± iÃ§in, kullanÄ±labilen bant geniÅŸliÄŸine gÃ¶re "Otomatik olarak ayarla" seÃ§eneÄŸi belirlenir ve diÄŸer kullanÄ±cÄ±lar bunu deÄŸiÅŸtiremez.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±r veya yapÄ±landÄ±rmazsÄ±nÄ±z, kullanÄ±cÄ±lar karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± sabit bir deÄŸerle (KB/saniye olarak) sÄ±nÄ±rlayabilir veya "Otomatik olarak ayarla" seÃ§eneÄŸini belirleyebilir.
+
+Ã–nemli
+Bu ayarÄ± etkinleÅŸtirdikten veya devre dÄ±ÅŸÄ± bÄ±raktÄ±ktan sonra YapÄ±landÄ±rÄ±lmadÄ± olarak deÄŸiÅŸtirirseniz son yapÄ±landÄ±rma etkili olmaya devam eder. "EÅŸitleme uygulamasÄ±nÄ± sabit bir hÄ±zla sÄ±nÄ±rla" seÃ§eneÄŸinin yerine bu ayarÄ± etkinleÅŸtirmeniz Ã¶nerilir. AynÄ± anda iki ayarÄ± da etkinleÅŸtirmeyin. AynÄ± cihazda her iki ayar da etkinleÅŸtirilirse, bu ayar "EÅŸitleme uygulamasÄ±nÄ±n karÅŸÄ±ya yÃ¼kleme hÄ±zÄ±nÄ± aktarÄ±m hÄ±zÄ±nÄ±n bir yÃ¼zdesiyle sÄ±nÄ±rla" seÃ§eneÄŸini geÃ§ersiz kÄ±lar.</string>
+
+      <!-- MinDiskSpaceLimitInMB -->
+      <!-- configurable limit where low disk space error will occur-->
+      <string id="MinDiskSpaceLimitInMB">KullanÄ±cÄ±nÄ±n disk alanÄ± azaldÄ±ÄŸÄ±nda dosya indirmesini engelle</string>
+      <string id="MinDiskSpaceLimitInMB_help">Bu ayar, en az miktarda kullanÄ±labilir disk alanÄ± belirtmenize ve kullanÄ±cÄ±larÄ±n bu tutardan daha azÄ± olduÄŸunda OneDrive sync uygulamasÄ±nÄ±n (OneDrive.exe) dosya indirmesini engellemenize olanak tanÄ±r.
+
+KullanÄ±cÄ±lara yer aÃ§mak iÃ§in seÃ§enekler istenir.</string>
+
+      <!-- WarningMinDiskSpaceLimitInMB -->
+      <!-- configurable limit where user will be notified they are approaching low disk space -->
+      <string id="WarningMinDiskSpaceLimitInMB">Disk alanÄ± dÃ¼ÅŸÃ¼k olan kullanÄ±cÄ±larÄ± uyar</string>
+      <string id="WarningMinDiskSpaceLimitInMB_help">Bu ayar, kullanÄ±labilir disk alanÄ± alt sÄ±nÄ±rÄ±nÄ± belirlemenize ve OneDrive eÅŸitleme uygulamasÄ± (OneDrive.exe), depolama alanÄ±nÄ±n bu sÄ±nÄ±rÄ±n altÄ±nda kalmasÄ±na neden olan bir dosya indirdiÄŸinde kullanÄ±cÄ±yÄ± uyarmanÄ±za olanak saÄŸlar.
+
+KullanÄ±cÄ±larÄ±n yer aÃ§masÄ±na yardÄ±m etmek iÃ§in seÃ§enekler sunulur.</string>
+
+      <!-- EnableODIgnoreListFromGPO -->
+      <string id="EnableODIgnoreListFromGPO">Belirli dosya tÃ¼rlerinin yÃ¼klenmesini hariÃ§ tutma</string>
+      <string id="EnableODIgnoreListFromGPO_help">Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nÄ±n (OneDrive.exe) belirli dosyalarÄ± OneDrive veya SharePoint'e yÃ¼klemesini Ã¶nlemek iÃ§in anahtar kelimeler girmenizi saÄŸlar. "setup.exe" gibi tam adlar girebilir veya bir karakter serisini temsil etmek iÃ§in joker karakter olarak yÄ±ldÄ±z iÅŸaretini (*) kullanabilirsiniz.  
+
+Bu ayarÄ± etkinleÅŸtirirseniz eÅŸitleme uygulamasÄ±, belirttiÄŸiniz anahtar kelimelerle eÅŸleÅŸen yeni dosyalarÄ± yÃ¼klemez. Atlanan dosyalar iÃ§in hata gÃ¶rÃ¼nmez ve dosyalar yerel OneDrive klasÃ¶rÃ¼nde kalÄ±r. Bu ayarÄ± etkinleÅŸtirdikten sonra OneDrive eÅŸitleme uygulamasÄ±nÄ±n yeniden baÅŸlatÄ±lmasÄ± gerekir. 
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z eÅŸitleme uygulamasÄ±, tÃ¼m eÅŸitlenmiÅŸ klasÃ¶rlere desteklenen tÃ¼m dosyalarÄ± yÃ¼kler.</string>
+
+      <!-- Disable First Delete Dialog -->
+      <string id="DisableFirstDeleteDialog">"Silinen dosyalar her yerde kaldÄ±rÄ±lÄ±r" anÄ±msatÄ±cÄ±sÄ±nÄ± gizleme</string>
+      <string id="DisableFirstDeleteDialog_help">Bir kullanÄ±cÄ± yerel dosyalarÄ± eÅŸitlenmiÅŸ bir konumdan silerse, dosyalarÄ±n artÄ±k kullanÄ±cÄ±nÄ±n tÃ¼m aygÄ±tlarÄ±nda ve web'de kullanÄ±lamayacaÄŸÄ±nÄ± belirten bir uyarÄ± iletisi gÃ¶rÃ¼ntÃ¼lenir. Bu ayar, uyarÄ± iletisini gizlemenize olanak tanÄ±r.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, kullanÄ±cÄ±lar dosyalarÄ± yerel olarak sildiklerinde "Silinen dosyalar her yerde kaldÄ±rÄ±lÄ±r" anÄ±msatÄ±cÄ±sÄ±nÄ± gÃ¶rmezler.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar "Bu anÄ±msatÄ±cÄ±yÄ± bir daha gÃ¶sterme" seÃ§eneÄŸini belirleyene kadar anÄ±msatÄ±cÄ± gÃ¶rÃ¼ntÃ¼lenir.</string>
+
+      <!-- IgnoreWebProxy -->
+      <string id="IgnoreWebProxy">EÅŸitleme istemcisinin normal web proxy algÄ±lama mantÄ±ÄŸÄ±nÄ± yok saymasÄ±nÄ± saÄŸlayÄ±n</string>
+      <string id="IgnoreWebProxy_help">Bu ayar, OneDrive eÅŸitleme istemcisinin varsayÄ±lan web proxy algÄ±lama mantÄ±ÄŸÄ±nÄ± yapÄ±p yapmayacaÄŸÄ±nÄ± denetler.
+
+Bu ayarÄ± etkinleÅŸtirirseniz eÅŸitleme istemcisi normal web proxy algÄ±lama sÃ¼recini uygulamaz ve iletiÅŸim kurmasÄ± gereken internet web uÃ§ noktalarÄ±yla doÄŸrudan baÄŸlantÄ± kurmaya Ã§alÄ±ÅŸÄ±r.  Bu, yapÄ±landÄ±rÄ±lmÄ±ÅŸ web proxy ayarlarÄ±nÄ±n ve otomatik proxy betiÄŸinin olmamasÄ±na eÅŸdeÄŸerdir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z, senkronizasyon istemcisi aÄŸÄ±nÄ±zda bir web proxy yapÄ±landÄ±rÄ±lÄ±p yapÄ±landÄ±rÄ±lmadÄ±ÄŸÄ±nÄ± algÄ±lar ve yapÄ±landÄ±rÄ±lmÄ±ÅŸsa bunu kullanÄ±r.
+
+Daha fazla bilgi iÃ§in bkz. https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-proxy-server-settings</string>
+
+      <!-- EnableSyncAdminReports -->
+      <string id="EnableSyncAdminReports">OneDrive iÃ§in eÅŸitleme sistem durumu raporlamasÄ±nÄ± etkinleÅŸtir</string>
+      <string id="EnableSyncAdminReports_help">OneDrive eÅŸitleme sistem durumu panosu, eÅŸitleme uygulamasÄ± cihazlarÄ± ve sistem durumu hakkÄ±nda raporlama saÄŸlar. Bu ayar, OneDrive eÅŸitleme uygulamasÄ±nÄ±n eÅŸitleme cihazÄ± ve sistem durumu verilerini yÃ¶netim raporlarÄ±na derlemesini saÄŸlar. Bu raporlar, bir kuruluÅŸ genelindeki yaygÄ±n hatalarÄ± proaktif olarak tanÄ±mlamanÄ±zÄ±, araÅŸtÄ±rmanÄ±zÄ± ve Ã§Ã¶zmenizi saÄŸlar.
+
+Bu ayarÄ± etkinleÅŸtirirseniz, OneDrive eÅŸitleme uygulamasÄ± cihaz ve sistem durumu verilerini yÃ¶netim raporlarÄ±nda raporlar. Bu ayarÄ±, rapor almak istediÄŸiniz cihazlarda etkinleÅŸtirmeniz gerekir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsanÄ±z veya yapÄ±landÄ±rmazsanÄ±z OneDrive eÅŸitleme uygulamasÄ± cihazÄ± ve sistem durumu verileri OneDrive eÅŸitleme sistem durumu panosunda gÃ¶rÃ¼nmez.</string>
+
+      <!-- Disable Get Feedback -->
+      <string id="EnableFeedbackAndSupport">â€¯KullanÄ±cÄ±larÄ±n geri bildirim ve destek iÃ§in Microsoftâ€™a baÅŸvurmasÄ±na izin ver</string>
+      <string id="EnableFeedbackAndSupport_help">Bu ayar, kuruluÅŸunuzdaki kullanÄ±cÄ±larÄ±n eÅŸitleme uygulamasÄ±ndaki kullanÄ±cÄ± deneyimleri aracÄ±lÄ±ÄŸÄ±yla Microsoft ile doÄŸrudan iletiÅŸim kurup kuramayacaklarÄ±nÄ± belirtir. KullanÄ±cÄ±larÄ±n dÃ¼ÅŸÃ¼ncelerini paylaÅŸmasÄ±na izin vererek, OneDrive'Ä± geliÅŸtirmemize yardÄ±mcÄ± olmalarÄ± saÄŸlanÄ±r.
+
+Bu ayarÄ± etkinleÅŸtirir veya yapÄ±landÄ±rmazsanÄ±z, kullanÄ±cÄ±lar geri bildirim ve destek iÃ§in doÄŸrudan Microsoft'a baÅŸvurarmak Ã¼zere OneDrive eÅŸitleme uygulamasÄ±ndaki deneyimleri kullanabilir.
+
+Bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±raksanÄ±z, kullanÄ±cÄ±lar eÅŸitleme uygulamasÄ±ndaki destek, geri bildirim veya Ã¶neriler iÃ§in Microsoft'a baÅŸvuramaz. KullanÄ±cÄ±lar yardÄ±m iÃ§eriÄŸine ve kendi kendine yardÄ±m araÃ§larÄ±na eriÅŸmeye devam eder.</string>
+
+      <!-- Disable Nucleus List Sync -->
+      <string id="DisableListSync">Listeler eÅŸitlemesinin bu cihazda Ã§alÄ±ÅŸmasÄ±nÄ± engelleme</string>
+      <string id="DisableListSync_help">VarsayÄ±lan olarak, Microsoft Listeler kullanÄ±cÄ±larÄ± iÃ§in Listeler eÅŸitlemesi aÃ§Ä±ktÄ±r. Bu, kullanÄ±cÄ±larÄ±n Ã§evrimdÄ±ÅŸÄ±yken bile listelerine eriÅŸmelerine ve listelerini dÃ¼zenlemelerine olanak saÄŸlar. Bu ilkeyi etkinleÅŸtirirseniz Listeler eÅŸitlemesinin cihazda Ã§alÄ±ÅŸmasÄ± engellenir.</string>
+
+      <!-- Block Nucleus External List Sync -->
+      <string id="BlockExternalListSync">KullanÄ±cÄ±larÄ±n diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan listeleri eÅŸitlemesini engelleme</string>
+      <string id="BlockExternalListSync_help">
+      Bu ayarÄ± etkinleÅŸtirmek, kuruluÅŸunuzdaki kullanÄ±cÄ±larÄ±n diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan listeleri eÅŸitlemesini engeller. Bir bilgisayarda ayar etkinleÅŸtirildikten (deÄŸer 1) sonra, diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan listeler eÅŸitlenmez. KullanÄ±cÄ±larÄ±nÄ±zÄ±n dÄ±ÅŸ listeleri eÅŸitlemesine izin vermek iÃ§in ayarÄ± (deÄŸer 0) devre dÄ±ÅŸÄ± bÄ±rakÄ±n.
+
+</string>
+
+      <!-- Disable Nucleus Silent Config -->
+      <string id="DisableNucleusSilentConfig">KullanÄ±cÄ±larÄ±n web'deki Ã§evrimdÄ±ÅŸÄ± deneyimlerde sessiz oturum aÃ§masÄ±nÄ± engelleme</string>
+      <string id="DisableNucleusSilentConfig_help">Web Ã¼zerinde Microsoft Listeler ve OneDrive'daki Ã§evrimdÄ±ÅŸÄ± deneyimler, kullanÄ±cÄ±larÄ±n Microsoft Entra ID kimlik bilgileriyle otomatik olarak oturum aÃ§masÄ±nÄ± saÄŸlayacak ÅŸekilde ayarlanmÄ±ÅŸtÄ±r. Bu ayarÄ± etkinleÅŸtirirseniz daha Ã¶nce web Ã¼zerinde Microsoft Listeler ve OneDrive'daki Ã§evrimdÄ±ÅŸÄ± deneyimleri kullanmÄ±ÅŸ olan ve Microsoft Entra'ya katÄ±lmÄ±ÅŸ bir cihazda oturum aÃ§mÄ±ÅŸ olan kiÅŸiler artÄ±k kimlik bilgilerini girmeden Ã§evrimdÄ±ÅŸÄ± deneyimleri ayarlayamazlar.
+      </string>
+
+      <!-- Disable Nucleus Offline Mode for Files -->
+      <string id="DisableOfflineMode">KuruluÅŸunuzdaki kullanÄ±cÄ±larÄ±n web Ã¼zerinde OneDrive'da Ã§evrimdÄ±ÅŸÄ± modu etkinleÅŸtirmesini engelleme</string>
+      <string id="DisableOfflineMode_help">VarsayÄ±lan olarak, Ã§evrimdÄ±ÅŸÄ± mod web Ã¼zerinde OneDrive kullanÄ±cÄ±larÄ± iÃ§in aÃ§Ä±lÄ±r. Bu ilkeyi etkinleÅŸtirirseniz web Ã¼zerinde OneDrive'da Ã§evrimdÄ±ÅŸÄ± mod cihazdaki tÃ¼m kullanÄ±cÄ±lar iÃ§in devre dÄ±ÅŸÄ± bÄ±rakÄ±lÄ±r.      </string>
+
+      <!-- Disable Nucleus Offline Mode for external libraries -->
+      <string id="DisableOfflineModeForExternalLibraries">KuruluÅŸunuzdaki kullanÄ±cÄ±larÄ±n, diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan kitaplÄ±klar ve klasÃ¶rler iÃ§in Web Ã¼zerinde OneDrive'da Ã§evrimdÄ±ÅŸÄ± modu etkinleÅŸtirmesini engelleme</string>
+      <string id="DisableOfflineModeForExternalLibraries_help">Bu ayarÄ±n etkinleÅŸtirilmesi, kuruluÅŸunuzdaki kullanÄ±cÄ±larÄ±n diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan kitaplÄ±klar ve klasÃ¶rler iÃ§in Ã§evrimdÄ±ÅŸÄ± modu etkinleÅŸtirmesini engeller. Ayar bir bilgisayarda etkinleÅŸtirildikten sonra (deÄŸer 1), diÄŸer kuruluÅŸlar tarafÄ±ndan paylaÅŸÄ±lan kitaplÄ±klar ve klasÃ¶rler, web Ã¼zerinde OneDrive'da onlarla Ã§alÄ±ÅŸÄ±rken Ã§evrimdÄ±ÅŸÄ± modu etkinleÅŸtirme seÃ§eneÄŸine sahip olmaz. KullanÄ±cÄ±larÄ±nÄ±zÄ±n, diÄŸer kuruluÅŸlardan paylaÅŸÄ±lan kitaplÄ±klar ve klasÃ¶rlerle Ã§alÄ±ÅŸÄ±rken Web Ã¼zerinde OneDrive'da Ã§evrimdÄ±ÅŸÄ± modu etkinleÅŸtirmesine veya devre dÄ±ÅŸÄ± bÄ±rakmasÄ±na izin vermek iÃ§in ayarÄ± (deÄŸer 0) devre dÄ±ÅŸÄ± bÄ±rakÄ±n.
+      </string>
+
+      <!-- Disable auto configuration -->
+      <string id="DisableAutoConfig">OneDrive eÅŸitleme uygulamasÄ±nda oturum aÃ§mÄ±ÅŸ kullanÄ±cÄ±larÄ± Microsoft uygulamalarÄ±nda kullanÄ±labilen mevcut kimlik bilgileriyle sessizce devre dÄ±ÅŸÄ± bÄ±rak</string>
+      <string id="DisableAutoConfig_help">Bu ayar EÅŸitleme istemcisinin otomatik olarak oturum aÃ§Ä±p aÃ§amayacaÄŸÄ±nÄ± belirler.
+
+YÃ¶neticiler bu ayarÄ± etkinleÅŸtirirse (1 deÄŸeri), EÅŸitlemeâ€™nin Microsoft uygulamalarÄ±nda kullanÄ±labilen mevcut AAD kimlik bilgileriyle otomatik olarak oturum aÃ§masÄ±nÄ± engeller.
+
+YÃ¶neticiler bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±r (0 deÄŸeri) veya yapÄ±landÄ±rmazsa, EÅŸitleme otomatik olarak oturum aÃ§ar.
+      </string>
+
+      <!-- Disable New Account Detection -->
+      <string id="DisableNewAccountDetection">Bir kullanÄ±cÄ±yÄ± Microsoft uygulamalarÄ± tarafÄ±ndan kullanÄ±labilen mevcut bir kimlik bilgisini kullanarak OneDrive'da oturum aÃ§maya teÅŸvik etmek iÃ§in bildirim ve etkinlik merkezi iletisini devre dÄ±ÅŸÄ± bÄ±rakÄ±n</string>
+      <string id="DisableNewAccountDetection_help">YÃ¶neticiler bu ayarÄ± etkinleÅŸtirirse (deÄŸer 1), kullanÄ±cÄ± OneDrive'da oturum aÃ§mak iÃ§in kullanÄ±labilecek yeni hesaplar hakkÄ±nda bildirim ve etkinlik merkezi iletisini gÃ¶remez.
+
+YÃ¶neticiler bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsa (deÄŸer 0) veya yapÄ±landÄ±rmazsa kullanÄ±cÄ±, OneDrive cihazda yeni bir hesap algÄ±larsa bildirimi ve etkinlik merkezi iletisini gÃ¶rebilir.
+      </string>
+        
+      <!-- Enable Added Folder Hard-delete On Unmount -->
+      <string id="AddedFolderHardDeleteOnUnmount">Ã‡Ä±karÄ±ldÄ±ÄŸÄ±nda eklenen bir klasÃ¶rÃ¼n iÃ§eriÄŸini kalÄ±cÄ± olarak siler</string>
+      <string id="AddedFolderHardDeleteOnUnmount_help">Bu ayar, eklenen bir klasÃ¶rÃ¼n baÄŸlantÄ±sÄ±nÄ± kaldÄ±rmak iÃ§in bir istekle karÅŸÄ±laÅŸtÄ±ÄŸÄ±nda EÅŸitleme istemcisinin davranÄ±ÅŸÄ±nÄ± belirler.
+
+YÃ¶neticiler bu ayarÄ± etkinleÅŸtirirse (deÄŸer 1), Eklenen bir KlasÃ¶rÃ¼n baÄŸlantÄ±sÄ±nÄ±n kaldÄ±rÄ±lmasÄ± istendiÄŸinde, EÅŸitleme istemcisi klasÃ¶rÃ¼n tÃ¼m iÃ§eriÄŸini kalÄ±cÄ± olarak siler.
+
+YÃ¶neticiler bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsa (deÄŸer 0) veya yapÄ±landÄ±rmazsa, EÅŸitleme varsayÄ±lan olarak baÄŸlanmamÄ±ÅŸ klasÃ¶rÃ¼n iÃ§eriklerini geri dÃ¶nÃ¼ÅŸÃ¼m kutusuna taÅŸÄ±r.
+      </string>
+
+      <!-- Enable Added Folder Hard-delete On Permissions Loss -->
+      <string id="AddedFolderUnmountOnPermissionsLoss">KullanÄ±cÄ± klasÃ¶r izinlerini kaybettiÄŸinde, eklenen bir klasÃ¶rÃ¼n iÃ§eriÄŸini kalÄ±cÄ± olarak siler</string>
+      <string id="AddedFolderUnmountOnPermissionsLoss_help">Bu ayar, kullanÄ±cÄ± eklenen bir klasÃ¶re yÃ¶nelik izinleri kaybettiÄŸinde EÅŸitleme istemcisinin davranÄ±ÅŸÄ±nÄ± belirler.
+
+YÃ¶neticiler bu ayarÄ± etkinleÅŸtirirse (deÄŸer 1), EÅŸitleme istemcisi kullanÄ±cÄ±nÄ±n Eklenen KlasÃ¶r izinlerini kaybettiÄŸini algÄ±ladÄ±ÄŸÄ±nda, EÅŸitleme istemcisi klasÃ¶rÃ¼n ve klasÃ¶rdeki tÃ¼m iÃ§eriÄŸi kalÄ±cÄ± olarak siler.
+
+YÃ¶neticiler bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±rsa (deÄŸer 0) veya yapÄ±landÄ±rmazsa, EÅŸitleme varsayÄ±lan olarak klasÃ¶rÃ¼ hatalÄ± olarak iÅŸaretler ve kullanÄ±cÄ±dan bu ayarÄ± kaldÄ±rmasÄ± istenir. KullanÄ±cÄ± kaldÄ±rma iÅŸlemini onayladÄ±ÄŸÄ±nda, klasÃ¶rÃ¼n iÃ§eriÄŸi geri dÃ¶nÃ¼ÅŸÃ¼m kutusuna taÅŸÄ±nÄ±r.
+      </string>
+
+      <!-- Confirm shared file deletion prompt -->
+      <string id="SharedContentDeleteConfirmation">KullanÄ±cÄ±dan paylaÅŸÄ±lan iÃ§eriÄŸi sildiÄŸinde onaylamasÄ±nÄ± iste</string>
+      <string id="SharedContentDeleteConfirmation_help">Birden Ã§ok kullanÄ±cÄ±nÄ±n eriÅŸimi olan yerel eÅŸitlenmiÅŸ dosyalar silindiÄŸinde, diÄŸer kullanÄ±cÄ±larÄ±n bu iÃ§eriÄŸe artÄ±k eriÅŸemeyeceÄŸini belirten bir iletiÅŸim kutusu gÃ¶rÃ¼ntÃ¼lenir ve OneDrive Ã§evrimiÃ§i olarak silinmeden Ã¶nce bu eylemi onaylamalarÄ±nÄ± ister. OnaylandÄ±ktan sonra, diÄŸer paylaÅŸÄ±lan iÃ§eriÄŸin kÄ±sa bir sÃ¼re iÃ§in silmesi ek onaylara neden olamaz. DiÄŸer iÃ§erik eÅŸitlenmeye devam ediyor.
+
+KullanÄ±cÄ±larÄ±n onay iletiÅŸim kutusunu gizlemesini engellemek iÃ§in bu ayarÄ± etkinleÅŸtirin. KullanÄ±cÄ± paylaÅŸÄ±lan iÃ§eriÄŸi her sildiÄŸinde, Ã¶ÄŸe Ã§evrimiÃ§i herkes iÃ§in silinmeden Ã¶nce onayÄ± gerekir.
+
+Silme onayÄ± iletisini gÃ¶stermeden bu ayarÄ± devre dÄ±ÅŸÄ± bÄ±rakÄ±n. Silmeler bulutta hemen yapÄ±lacak.
+
+KullanÄ±cÄ±larÄ±n yukarÄ±da belirtilen efektlerle uyarÄ±yÄ± gizlemeyi seÃ§ebilmeleri iÃ§in bu ayarÄ± yapÄ±landÄ±rmazsanÄ±z.
+      </string>
+
+    </stringTable>
+    <presentationTable>
+      <presentation id="GPOSetUpdateRing_Pres">
+        <dropdownList refId="GPOSetUpdateRing_Dropdown" noSort="true" defaultItem="0">GÃ¼ncelleÅŸtirme halkasÄ±:</dropdownList>
+      </presentation>
+
+      <presentation id="AutomaticUploadBandwidthPercentage_Pres">
+        <text>KarÅŸÄ±ya dosya yÃ¼klenirken kullanÄ±lacak en yÃ¼ksek bant geniÅŸliÄŸi yÃ¼zdesini seÃ§in.</text>
+        <text>10 ile 99 arasÄ±ndaki deÄŸerler geÃ§erlidir.</text>
+        <decimalTextBox refId="BandwidthSpinBox" defaultValue="70" spinStep="1">Bant geniÅŸliÄŸi:</decimalTextBox>
+      </presentation>
+
+      <presentation id="UploadBandwidthLimit_Pres">
+        <text>KarÅŸÄ±ya dosya yÃ¼klenirken kullanÄ±lacak en yÃ¼ksek bant geniÅŸliÄŸi miktarÄ±nÄ± seÃ§in.</text>
+        <text>1 ile 100000 arasÄ±ndaki deÄŸerler geÃ§erlidir.</text>
+        <decimalTextBox refId="UploadRateValue" defaultValue="125">Bant geniÅŸliÄŸi:</decimalTextBox>
+      </presentation>
+
+      <presentation id="DownloadBandwidthLimit_Pres">
+        <text>Dosya indirirken kullanÄ±lacak en yÃ¼ksek bant geniÅŸliÄŸi miktarÄ±nÄ± seÃ§in.</text>
+        <text>1 ile 100000 arasÄ±ndaki deÄŸerler geÃ§erlidir.</text>
+        <decimalTextBox refId="DownloadRateValue" defaultValue="125">Bant geniÅŸliÄŸi:</decimalTextBox>
+      </presentation>
+
+       <presentation id="DiskSpaceCheckThresholdMB_Pres">
+        <text>KiracÄ± kimliÄŸini ve bir kullanÄ±cÄ±nÄ±n eÅŸitlemek istediÄŸi klasÃ¶rleri seÃ§mesi istenmeden Ã¶nceki en yÃ¼ksek OneDrive boyutunu belirtin. </text>
+        <text>DeÄŸer adÄ± alanÄ±na kiracÄ± kimliÄŸini girin. DeÄŸer alanÄ±na boyutu girin.</text>
+        <text>0 ile 4294967295 MB (dahil) arasÄ±ndaki deÄŸerler geÃ§erlidir.</text>
+        <listBox refId="DiskSpaceCheckThresholdMBList">Boyut Ã¼st sÄ±nÄ±rÄ±: </listBox>
+      </presentation>
+
+      <presentation id="DefaultRootDir_Pres">
+       <text>KiracÄ± kimliÄŸini ve varsayÄ±lan yolu belirtin. </text>
+        <text>DeÄŸer adÄ± alanÄ±na kiracÄ± kimliÄŸini girin. DeÄŸer alanÄ±na yolu girin.</text>
+        <listBox refId="DefaultRootDirList">Yol: </listBox>
+      </presentation>
+
+      <presentation id="DisableCustomRoot_Pres">
+        <text>KiracÄ± kimliÄŸini ve ayarÄ±n deÄŸerini belirtin. </text>
+        <text>DeÄŸer adÄ± alanÄ±na kiracÄ± kimliÄŸini girin. DeÄŸer alanÄ±na, ayarÄ± etkinleÅŸtirmek iÃ§in 1 veya devre dÄ±ÅŸÄ± bÄ±rakmak iÃ§in 0 girin.</text>
+        <listBox refId="DisableCustomRootList">Konum ayarÄ±nÄ± deÄŸiÅŸtir: </listBox>
+      </presentation>
+
+      <presentation id="AllowTenantList_Pres">
+        <text>KiracÄ± kimliÄŸini belirtin</text>
+        <text>DeÄŸer alanÄ±na, bu listeye eklemek istediÄŸiniz kiracÄ± kimliÄŸini girin.</text>
+        <text> </text>
+        <listBox refId="AllowTenantListBox">KiracÄ± KimliÄŸi: </listBox>
+      </presentation>
+
+      <presentation id="BlockTenantList_Pres">
+        <text>KiracÄ± kimliÄŸini belirtin</text>
+        <text>DeÄŸer alanÄ±na, bu listeye eklemek istediÄŸiniz kiracÄ± kimliÄŸini girin.</text>
+        <text> </text>
+        <listBox refId="BlockTenantListBox">KiracÄ± KimliÄŸi: </listBox>
+       </presentation>
+
+      <presentation id="SharePointOnPremFrontDoorUrl_Pres">
+        <text>KullanÄ±cÄ±nÄ±n OneDrive Ä°ÅŸ hesabÄ±nÄ± barÄ±ndÄ±ran SharePoint Server URL'sini ve kuruluÅŸun adÄ±nÄ± girin.</text>
+        <textBox refId="SharePointOnPremFrontDoorUrlBox">
+          <label>SharePoint Server 2019 URL'si:</label>
+        </textBox>
+        <textBox refId="SharePointOnPremTenantNameBox">
+          <label>KuruluÅŸ adÄ±:</label>
+        </textBox>
+      </presentation>
+
+      <presentation id="SharePointOnPremPrioritization_Pres">
+        <dropdownList refId="SharePointOnPremPrioritization_Dropdown" noSort="true" defaultItem="0">Ä°lk olarak ÅŸurada kimlik doÄŸrulamasÄ± yap:</dropdownList>
+      </presentation>
+
+      <presentation id="BlockKnownFolderMove_Pres">
+        <dropdownList refId="BlockKnownFolderMove_Dropdown" noSort="true" defaultItem="0">Bilinen klasÃ¶rlerini zaten taÅŸÄ±mÄ±ÅŸ olan kullanÄ±cÄ±lar iÃ§in, bu klasÃ¶rlerin OneDrive'a yÃ¶nlendirilmesini isterseniz:</dropdownList>
+      </presentation>
+
+      <presentation id="KFMOptInWithWizard_Pres">
+        <textBox refId="KFMOptInWithWizard_TextBox">
+          <label>KiracÄ± KimliÄŸi:</label>
+        </textBox>
+      </presentation>
+
+      <presentation id="KFMOptInNoWizard_Pres">
+        <textBox refId="KFMOptInNoWizard_TextBox">
+          <label>KiracÄ± KimliÄŸi:</label>
+        </textBox>
+        <dropdownList refId="KFMOptInNoWizard_Dropdown" noSort="true" defaultItem="0">KlasÃ¶rler yeniden yÃ¶nlendirildikten sonra kullanÄ±cÄ±lara bildirim gÃ¶ster:</dropdownList>
+        <text>KlasÃ¶r SeÃ§enekleri:</text>
+        <checkBox refId="KFMOptInNoWizard_Desktop_Checkbox" defaultChecked="true">MasaÃ¼stÃ¼</checkBox>
+        <checkBox refId="KFMOptInNoWizard_Documents_Checkbox" defaultChecked="true">Belgeler</checkBox>
+        <checkBox refId="KFMOptInNoWizard_Pictures_Checkbox" defaultChecked="true">Resimler</checkBox>
+      </presentation>
+      <presentation id="AutoMountTeamSites_Pres">
+        <text>EÅŸitlenecek bir kitaplÄ±k belirtmek iÃ§in:
+
+Bir web tarayÄ±cÄ±sÄ±nÄ± aÃ§Ä±n, genel olarak Office 365 veya SharePoint YÃ¶netim organizasyon ve kitaplÄ±ÄŸÄ±na GÃ¶zat eÅŸitlemek iÃ§in oturum aÃ§Ä±n.
+
+Otomatik olarak eÅŸitlemek istediÄŸiniz kitaplÄ±ÄŸÄ± "EÅŸitleme" dÃ¼ÄŸmesini tÄ±klatÄ±n ve "KitaplÄ±k kodu Kopyala"'Ä± tÄ±klatÄ±n
+
+"GÃ¶ster" Ã¶ÄŸesini tÄ±klatÄ±n ve sonra kitaplÄ±k deÄŸer adÄ± alanÄ±nda tanÄ±mlayÄ±n ve sonra kitaplÄ±k kimliÄŸi deÄŸer alanÄ±na girmek iÃ§in kolay bir ad girin.
+        </text>
+        <listBox refId="AutoMountTeamSitesListBox">KitaplÄ±klar:</listBox>
+      </presentation>
+
+      <presentation id="MinDiskSpaceLimitInMB_Pres">
+        <text>DeÄŸer alanÄ±na, boÅŸ kalmasÄ±nÄ± istediÄŸiniz disk alanÄ± alt sÄ±nÄ±rÄ±nÄ± girin.</text>
+        <text>GeÃ§erli deÄŸerler 0 - 10240000 MB arasÄ±ndadÄ±r</text>
+        <decimalTextBox refId="minDiskSpaceMB" defaultValue="200">KullanÄ±labilir disk alanÄ± alt sÄ±nÄ±rÄ±:</decimalTextBox>
+      </presentation>
+
+      <presentation id="WarningMinDiskSpaceLimitInMB_Pres">
+        <text>DeÄŸer alanÄ±na kullanÄ±labilir disk alanÄ±nÄ± girin. KullanÄ±cÄ±, disk alanÄ± bu miktarÄ±n altÄ±na dÃ¼ÅŸtÃ¼ÄŸÃ¼nde bir uyarÄ± alÄ±r. Bu ilkeyi â€œKullanÄ±cÄ±nÄ±n disk alanÄ± azaldÄ±ÄŸÄ±nda dosya indirmesini engelle"  seÃ§eneÄŸi ile birlikte kullanÄ±yorsanÄ±z, bu ayarÄ±n deÄŸeri, indirmeleri engelleme deÄŸerinden bÃ¼yÃ¼k olmalÄ±dÄ±r.</text>
+        <text>GeÃ§erli deÄŸerler 0 - 10240000 MB arasÄ±ndadÄ±r</text>
+        <decimalTextBox refId="warningMinDiskSpaceMB" defaultValue="500">KullanÄ±labilir disk alanÄ± alt sÄ±nÄ±rÄ±:</decimalTextBox>
+      </presentation>
+
+      <presentation id="LocalMassDeleteFileDeleteThreshold_Pres">
+        <text>KullanÄ±cÄ±larÄ±n iÅŸlemi onaylamasÄ± gerekmeden tek seferde silebileceÄŸi dosya sayÄ±sÄ± Ã¼st sÄ±nÄ±rÄ±nÄ± belirtin.</text>
+        <text>1 ile 100000 arasÄ±ndaki deÄŸerler geÃ§erlidir.</text>
+        <decimalTextBox refId="LMDFileDeleteThresholdBox" defaultValue="200">Dosya sayÄ±sÄ±:</decimalTextBox>
+      </presentation>
+
+      <presentation id="EnableODIgnoreListFromGPO_Pres">
+        <text>Anahtar kelimeleri belirtmek iÃ§in "GÃ¶ster"i seÃ§in, ardÄ±ndan DeÄŸer alanÄ±na anahtar kelimeleri girin.</text>
+        <text>Ã–rneÄŸin, .pst uzantÄ±lÄ± tÃ¼m dosyalarÄ± engellemek iÃ§in "*.pst" girin. AdlarÄ± "gider" ile baÅŸlayan dosyalarÄ± engellemek iÃ§in "gider*"â€¯ girin. AdlarÄ±nda "satÄ±ÅŸ" geÃ§en tÃ¼m dosyalarÄ± engellemek iÃ§in "*satÄ±ÅŸ*" girin. Anahtar sÃ¶zcÃ¼kler bÃ¼yÃ¼k/kÃ¼Ã§Ã¼k harfe duyarlÄ± deÄŸildir. Ã–rneÄŸin, "simgeler.JPEG" girerseniz "simgeler.jpeg" de engellenecektir. </text>
+        <text> </text>
+        <listBox refId="EnableODIgnoreListFromGPOListBox">Anahtar sÃ¶zcÃ¼kler: </listBox>
+      </presentation>
+
+      <presentation id="EnableODIgnoreFolderListFromGPO_Pres">
+        <text>Anahtar kelimeleri belirtmek iÃ§in "GÃ¶ster"i seÃ§in, ardÄ±ndan DeÄŸer alanÄ±na anahtar kelimeleri girin.</text>
+        <text>Ã–rneÄŸin, "foo" adlÄ± tÃ¼m klasÃ¶rleri engellemek iÃ§in "foo" girin. AdlarÄ± "gider" ile baÅŸlayan klasÃ¶rleri engellemek iÃ§in "gider*"â€¯ girin. AdlarÄ±nda "satÄ±ÅŸ" geÃ§en tÃ¼m klasÃ¶rleri engellemek iÃ§in "*satÄ±ÅŸ*" girin. Anahtar sÃ¶zcÃ¼kler bÃ¼yÃ¼k/kÃ¼Ã§Ã¼k harfe duyarlÄ± deÄŸildir. Ã–rneÄŸin, "SÄ°MGELER" girerseniz bu da "simgeler" Ã¶ÄŸelerini engelleyecektir. </text>
+        <text> </text>
+        <listBox refId="EnableODIgnoreFolderListFromGPOListBox">Anahtar sÃ¶zcÃ¼kler: </listBox>
+      </presentation>
+
+      <presentation id="EnableSyncAdminReports_Pres">
+      </presentation>
+      <presentation id="GranularFeedbackControl_Pres">
+        <text>KullanÄ±cÄ±larÄ±n ÅŸunu yapmak Ã¼zere Microsoft ile iletiÅŸim kurmasÄ±na izin ver: </text>
+        <checkBox refId="GranularFeedbackControl_SendFeedback_Checkbox" defaultChecked="true">Geri Bildirim GÃ¶nderin</checkBox>
+        <checkBox refId="GranularFeedbackControl_ReceiveSurveys_Checkbox" defaultChecked="true">KullanÄ±cÄ± memnuniyeti anketleri alÄ±n</checkBox>
+        <checkBox refId="GranularFeedbackControl_ContactSupport_Checkbox" defaultChecked="true">OneDrive Destek birimine baÅŸvurunâ€‹</checkBox>
+      </presentation>
+
+      <presentation id="DisableAutoConfig_Pres">
+        <text>Otomatik eÅŸitleme iÃ§in devre dÄ±ÅŸÄ± bÄ±rakÄ±lmÄ±ÅŸ hesap tÃ¼rÃ¼nÃ¼ seÃ§in</text>
+        <text>AAD deÄŸeri: 1</text>
+        <decimalTextBox refId="DisableAutoConfigTypes" defaultValue="0">Devre DÄ±ÅŸÄ± BÄ±rakÄ±lmÄ±ÅŸ Hesap TÃ¼rleri:</decimalTextBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
