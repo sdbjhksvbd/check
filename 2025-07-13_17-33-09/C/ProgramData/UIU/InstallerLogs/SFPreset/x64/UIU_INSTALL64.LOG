@@ -1,0 +1,425 @@
+7.160.0.2 : 06:16:27.004 : C:\Program Files\Conexant\Install\Audio\SFPreset\x64\Setup64.exe -
+7.160.0.2 : 06:16:27.004 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.160.0.2
+7.160.0.2 : 06:16:27.004 :   Version = V7.160.0.2
+7.160.0.2 : 06:16:27.004 :   OS Platform = OS_WIN10-64
+7.160.0.2 : 06:16:27.004 :   dwSetupConfig = 20100 : dwMode = D0020011
+7.160.0.2 : 06:16:27.004 :   Found Mutex - CNXT_COINST_RUNNING
+7.160.0.2 : 06:16:27.004 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-INI=SFPRESET.INI, SFPRESET -FNAME="SFPreset" -FNAME="SFPreset" -NR
+7.160.0.2 : 06:16:27.004 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-FNAME="SFPreset" -FNAME="SFPreset" -NR
+7.160.0.2 : 06:16:27.004 :     ENTRY: CSetupDlg::RunSetupDlg
+7.160.0.2 : 06:16:27.004 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.160.0.2 : 06:16:27.004 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.160.0.2 : 06:16:27.004 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.160.0.2 : 06:16:27.004 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=0
+7.160.0.2 : 06:16:27.004 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.004 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.004 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:27.004 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.004 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.004 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.004 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:27.004 :       ENTRY: CInstall::SetUserInfoReg
+7.160.0.2 : 06:16:27.004 :       EXIT:  CInstall::SetUserInfoReg
+7.160.0.2 : 06:16:27.004 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.004 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.004 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:27.004 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.004 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.004 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.004 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:27.019 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.019 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.019 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:27.019 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.019 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.019 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.019 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:27.019 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.019 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.019 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.019 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.035 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.035 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:27.035 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.035 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:27.035 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.160.0.2 : 06:16:27.035 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 06:16:27.035 :         MyPaths = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.035 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 06:16:27.035 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 1
+7.160.0.2 : 06:16:27.035 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.035 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.035 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 06:16:27.035 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.035 :           szTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.035 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.160.0.2 : 06:16:27.035 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 06:16:27.035 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 06:16:27.050 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:27.050 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:27.050 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.082 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.082 :               csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.082 :               pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.082 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.097 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.097 :               csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.097 :               pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.097 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.097 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.097 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:27.097 :           szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:27.097 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.097 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:27.097 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.097 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:27.097 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:27.097 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:27.097 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.097 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:27.097 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:27.097 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:27.097 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:27.097 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:27.097 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:27.097 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:27.097 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 06:16:27.097 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.097 :       ENTRY: CINIFile::InstallINIFiles
+7.160.0.2 : 06:16:27.097 :       pszDeviceID = CNXTAPP, pszINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.097 :         ENTRY: KINIFile::Initialize : pszDeviceID = CNXTAPP
+7.160.0.2 : 06:16:27.097 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.097 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.113 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.113 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:27.113 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.160.0.2 : 06:16:27.113 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.160.0.2 : 06:16:27.113 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 06:16:27.113 :         MyPaths = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.113 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 06:16:27.113 :         ENTRY: KINIFile::InstallINIFiles : pszINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.113 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 06:16:27.113 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.113 :           szTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.113 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.160.0.2 : 06:16:27.113 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 06:16:27.113 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 06:16:27.113 :           ENTRY: KINIFile :: GetUninstallerPath : pszINIInstallPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.144 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:27.144 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.160 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.160 :               csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.160 :               pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.160 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.175 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.175 :               csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.175 :               pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.191 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.191 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.191 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:27.191 :           m_szUninstallerPath = C:\PROGRAM FILES\CONEXANT\SFPRESET
+7.160.0.2 : 06:16:27.191 :           EXIT:  KINIFile :: GetUninstallerPath : bRetVal = 1
+7.160.0.2 : 06:16:27.208 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:27.208 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:27.208 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.223 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.223 :               csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.223 :               pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.223 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.255 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.255 :               csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.255 :               pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.255 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.255 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.255 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:27.255 :           szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:27.255 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:27.255 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.274 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:27.274 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:27.274 :               m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.306 :                 ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.306 :                 csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.306 :                 pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.306 :                 EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.321 :                 ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.321 :                 csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.321 :                 pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.321 :                 EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.321 :               pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.321 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:27.321 :             szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:27.321 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:27.321 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.321 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:27.321 :               dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.321 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:27.321 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:27.321 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.160.0.2 : 06:16:27.321 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.160.0.2 : 06:16:27.321 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.321 :             szTempINIFileName = C:\WINDOWS\TEMP\CustomINI6022993b141\\SFPreset.ini
+7.160.0.2 : 06:16:27.321 :             szTempTempINIFileName = C:\WINDOWS\TEMP\SFPreset.ini
+7.160.0.2 : 06:16:27.321 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.160.0.2 : 06:16:27.321 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.321 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset
+7.160.0.2 : 06:16:27.353 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.353 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.160.0.2 : 06:16:27.353 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:27.353 :             KINIFile::InstallDefinedApps : pszInstallSection = HdAudModel.82a5.NTAMD64, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:27.353 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:27.353 :               szInstallAppSection = InstallApp, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:27.353 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:27.353 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:27.353 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:27.353 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:27.368 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:27.368 :             csPath = C:\Users\Public\Documents\Conexant
+7.160.0.2 : 06:16:27.384 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:27.384 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.384 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:27.384 :               m_hClassDeviceKey = 852
+7.160.0.2 : 06:16:27.384 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:27.384 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:27.384 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:27.384 :               ENTRY: CInf::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:27.384 :               EXIT:  CInf::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:27.384 :               ENTRY: CFileUtils::CopyAFile
+7.160.0.2 : 06:16:27.384 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\SFPreset\x64\setup64.exe, pszDestinationFile=C:\Program Files\Conexant\SFPreset\setup64.exe, dwDestFlag=0
+7.160.0.2 : 06:16:27.384 :               Creating folder C:\Program Files\Conexant\SFPreset
+7.160.0.2 : 06:16:27.384 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.160.0.2 : 06:16:27.384 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 06:16:27.384 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.160.0.2 : 06:16:27.384 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.399 :               ENTRY: CCabFile::InstallIniCabSection
+7.160.0.2 : 06:16:27.399 :               pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini, pszCabSection = PresetCabFile.82a5
+7.160.0.2 : 06:16:27.431 :                 ENTRY: CCabFile :: ExtractCabFile
+7.160.0.2 : 06:16:27.431 :                 pszCabFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.82a5.cab, pszCabExtractPath = C:\ProgramData\SoundResearch\
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\82a50419, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.431 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.431 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.431 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\AnyContent\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\Movie\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                   ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:27.446 :                   pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\Voice\Preset.bin, dwFlags = 0
+7.160.0.2 : 06:16:27.446 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :                 EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.160.0.2 : 06:16:27.446 :               EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.160.0.2 : 06:16:27.446 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.160.0.2 : 06:16:27.446 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:27.446 :             KINIFile::InstallDefinedApps : pszInstallSection = HdAudModel.82a5.NTAMD64, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:27.446 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:27.446 :               szInstallAppSection = InstallApp, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:27.446 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:27.446 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:27.446 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:27.446 :             ENTRY: CShortCut::CreateShortcut
+7.160.0.2 : 06:16:27.446 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.446 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.478 :             EXIT:  CShortCut::CreateShortcut
+7.160.0.2 : 06:16:27.493 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.493 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 06:16:27.493 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.493 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.160.0.2 : 06:16:27.493 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.493 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.160.0.2 : 06:16:27.493 :             ENTRY: KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:27.493 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.493 :             szUninstallININame = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 06:16:27.493 :               ENTRY: CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:27.493 :                 ENTRY: CFileUtils::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:27.493 :                 EXIT:  CFileUtils::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:27.493 :               EXIT:  CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:27.493 :             EXIT:  KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:27.493 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:27.493 :               ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.493 :               EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset
+7.160.0.2 : 06:16:27.493 :               ENTRY: CFileUtils::GetFolderSize : csFolderPath = C:\Program Files\Conexant\Install\Audio\SFPreset
+7.160.0.2 : 06:16:27.493 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\Setup.exe, size = 7435096
+7.160.0.2 : 06:16:27.493 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.8299.cab, size = 14448
+7.160.0.2 : 06:16:27.493 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.82a5.cab, size = 22650
+7.160.0.2 : 06:16:27.493 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.844c.cab, size = 15365
+7.160.0.2 : 06:16:27.493 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.8455.cab, size = 15899
+7.160.0.2 : 06:16:27.509 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.8456.cab, size = 14960
+7.160.0.2 : 06:16:27.509 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.8457.cab, size = 14665
+7.160.0.2 : 06:16:27.509 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFP\SFP.cab, size = 22650
+7.160.0.2 : 06:16:27.509 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\SFPreset.ini, size = 11705
+7.160.0.2 : 06:16:27.509 :               csTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\Setup64.exe, size = 8449368
+7.160.0.2 : 06:16:27.509 :               EXIT:  CFileUtils::GetFolderSize : llRetVal = 16016806
+7.160.0.2 : 06:16:27.509 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:27.509 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.509 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.160.0.2 : 06:16:27.509 :       EXIT:  CINIFile::InstallINIFiles : dwRetVal = 1
+7.160.0.2 : 06:16:27.509 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.509 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.509 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:27.509 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.509 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.509 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.509 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:27.509 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.509 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.509 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.509 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.509 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.509 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:27.509 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.509 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:27.509 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.160.0.2 : 06:16:27.509 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 06:16:27.509 :         MyPaths = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.509 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 06:16:27.509 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 2
+7.160.0.2 : 06:16:27.509 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.509 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.509 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 06:16:27.509 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.509 :           szTestFile = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.509 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.160.0.2 : 06:16:27.509 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 06:16:27.509 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 06:16:27.540 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:27.540 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:27.540 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.556 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.556 :               csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.556 :               pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.556 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.571 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.571 :               csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.571 :               pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.571 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.571 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.571 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:27.587 :           szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:27.587 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:27.587 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.587 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:27.587 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\SFPreset\\SFPreset.ini
+7.160.0.2 : 06:16:27.587 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:27.587 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:27.587 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:27.587 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:27.587 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.587 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.587 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:27.587 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:27.587 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:27.587 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:27.587 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:27.587 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:27.587 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:27.587 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:27.587 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:27.587 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:27.587 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 06:16:27.587 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:27.587 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:27.587 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.587 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:27.587 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.587 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\x64\
+7.160.0.2 : 06:16:27.587 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.587 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:27.603 :       ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:27.603 :       EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:27.634 :       ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.634 :       csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.634 :       pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 06:16:27.634 :       EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.651 :       ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 06:16:27.651 :       csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.651 :       pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 06:16:27.651 :       EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 06:16:27.697 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.160.0.2 : 06:16:27.697 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.160.0.2 : 06:16:27.697 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.160.0.2 : 06:16:27.697 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.697 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SFPreset\
+7.160.0.2 : 06:16:27.697 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:27.697 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.160.0.2 : 06:16:27.697 :     EXIT:  CSetupDlg::RunSetupDlg
+7.160.0.2 : 06:16:27.697 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:27.697 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.160.0.2 : 06:16:27.697 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.160.0.2 : 06:16:27.697 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.160.0.2 : 06:16:27.697 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.160.0.2 : 06:16:27.697 :   ENTRY: CSetupApp::SetupRetVal
+7.160.0.2 : 06:16:27.697 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:27.697 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:27.697 :     ENTRY: CSetupApp::ExitInstance()
+7.160.0.2 : 06:16:27.697 :     EXIT:  CSetupApp::ExitInstance()
