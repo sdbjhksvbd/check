@@ -1,0 +1,11 @@
+<Application xmlns="http://ns.adobe.com/acrobat/app/2014" title="Convert PDF" av2Title="Convert to PDF" description="Convert a PDF to Word, Powerpoint, Excel or create PDFs from these native formats" av2Description="Turn almost any file into a PDF" id="ConvertPDFApp" majorVersion="1" minorVersion="0" inline="true">
+	<Commands>
+	</Commands>
+	<Layouts>
+		<Layout name="Default">
+			<ContentView>
+				<Component name="ConvertPDFRHPView" fontSize="12"/>
+			</ContentView>
+		</Layout>
+	</Layouts>
+</Application>
