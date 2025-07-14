@@ -1,0 +1,1 @@
+"use strict";(self["webpackJsonp-desktop-app"]=self["webpackJsonp-desktop-app"]||[]).push([[78995],{"0BTc":(p,e,s)=>{s.r(e),s.d(e,{default:()=>c});const c=s.p+"409edc3d2c2e3bdc8aa0f9fae4bbfc85.jpg"}}]);
