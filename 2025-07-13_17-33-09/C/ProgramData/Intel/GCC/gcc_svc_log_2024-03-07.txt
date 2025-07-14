@@ -1,0 +1,13 @@
+2024-03-07 03:29:48.9987 ERROR 	ConfigService. Error parsing config file: The process has no package identity. (Exception from HRESULT: 0x80073D54) 
+2024-03-07 03:29:49.0612 DEBUG 	ConfigService. Using AllComponents filter for logging. 
+2024-03-07 03:29:49.0612 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 207 
+2024-03-07 03:29:49.0612 INFO 	ControlAPIHandler. Initialize for ControlAPI. Started:  
+2024-03-07 03:29:49.0768 INFO 	ControlAPIHandler. Initialize. ctlInit failed 
+2024-03-07 03:29:49.0768 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 100 
+2024-03-07 03:29:49.0768 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 1 
+2024-03-07 03:29:49.0768 ERROR 	GraphicsAdapterInfoPayload. GetEscapeInterface: Found no valid driver for intel hardware hardware. 
+2024-03-07 03:29:49.0768 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 5 
+2024-03-07 03:29:49.0768 ERROR 	EscapeCallYangra. GetPowerConservationData. Driver Escape Failed. 
+2024-03-07 03:29:49.0768 INFO 	PlatformCapability. ALSSensorReadingChangedAsync. Lace is not supported 
+2024-03-07 03:29:49.0768 INFO 	PlatformCapability. ALSSensorReadingChangedAsync. Unsupported Platform 
+2024-03-07 04:46:05.7113 INFO 	ControlAPIHandler. Close. Error closing handle. Status: CTL_RESULT_ERROR_NOT_INITIALIZED 
