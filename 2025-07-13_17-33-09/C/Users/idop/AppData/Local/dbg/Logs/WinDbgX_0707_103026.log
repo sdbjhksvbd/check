@@ -1,0 +1,247 @@
+2025-07-07:10:15:13:571 : Information : DbgX.Shell.dll : OS Version: (Windows 10 Enterprise.10.0.26100) (26100.1.amd64fre.ge_release.240331-1435) (64-bit)
+2025-07-07:10:15:13:656 : Information : DbgX.Services.dll : No setting file found
+2025-07-07:10:15:13:698 : Information : DbgX.Debugger.dll : (E) Home directory is: C:\ProgramData\Dbg
+2025-07-07:10:15:13:717 : Information : DbgXUI.dll : Startup script on application start is: 
+
+2025-07-07:10:15:13:732 : Information : DbgX.External.dll : EulaState is accepted
+2025-07-07:10:15:14:001 : Information : DbgXUI.dll : AddressEvaluationViewModel.AddressExpression set to: @$scopeip
+2025-07-07:10:15:14:815 : Information : DbgX.Shell.dll : Version: 1.2504.15001.0
+2025-07-07:10:15:15:862 : Information : DbgX.Shell.dll : Command line: "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\DbgX.Shell.dll"
+2025-07-07:10:15:15:883 : Information : DbgX.Services.dll : WldpQuerySecurityPolicy(Microsoft.WindbgX, Settings, EnableRestrictedMode, ...) returned HRESULT STATUS_NOT_FOUND
+2025-07-07:10:15:15:914 : Information : DbgXUI.dll : Evaluating address expression '@$scopeip'
+2025-07-07:10:15:15:917 : Information : DbgXUI.dll : Target not in state for evaluation: NoSession, NoTarget
+2025-07-07:10:15:15:918 : Information : DbgXUI.dll : Address expression not evaluated: '@$scopeip'
+2025-07-07:10:15:15:954 : Information : DbgX.Shell.dll : Total startup time: 4906 ms
+2025-07-07:10:15:15:956 : Information : DbgX.Shell.dll :     Phase 'Process startup' time: 946 ms, started at 0 ms
+2025-07-07:10:15:15:956 : Information : DbgX.Shell.dll :     Phase 'Compatibility mitigations' time: 20 ms, started at 1023 ms
+2025-07-07:10:15:15:956 : Information : DbgX.Shell.dll :     Phase 'Composition catalog' time: 916 ms, started at 1056 ms
+2025-07-07:10:15:15:956 : Information : DbgX.Shell.dll :     Phase 'Create main window' time: 1122 ms, started at 1058 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Merging resource dictionaries' time: 82 ms, started at 2180 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Compose components' time: 255 ms, started at 2266 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Setting main window viewmodel' time: 33 ms, started at 2557 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Startup listeners' time: 99 ms, started at 2590 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'ViewManager initialization' time: 457 ms, started at 2690 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Main window show' time: 1756 ms, started at 3149 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Shell startup listeners' time: 21 ms, started at 4795 ms
+2025-07-07:10:15:15:957 : Information : DbgX.Shell.dll :     Phase 'Command line processing' time: 30 ms, started at 4816 ms
+2025-07-07:10:15:16:059 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_d7f954e9cce645db934b5d307e49c820,password=11ab703716bb "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:10:15:16:132 : Information : DbgX.Debugger.dll : (E) Added process EngHost (113744) to job object 4d907318-86a2-4986-a782-23c744e2a840
+2025-07-07:10:15:16:347 : Information : DbgX.Debugger.dll : (E) DebugConnect returned S_OK
+2025-07-07:10:15:16:361 : Information : DbgX.Debugger.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:10:15:16:373 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:10:15:16:375 : Information : DbgX.Debugger.dll : (E) Code level changed to SOURCE
+2025-07-07:10:15:16:380 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:10:15:16:384 : Information : DbgX.Debugger.dll : (E) Symbol path = '', source path = '' (Checking for client refresh)
+2025-07-07:10:15:16:386 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x1bc50): SetParentHWndRequest: ParentHWND '203286'
+2025-07-07:10:15:16:386 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : SetParentHWndRequest: ParentHWND '203286'
+2025-07-07:10:15:16:387 : Warning : DbgX.Debugger.dll : (E) Invalid request for current state (NoSession) : ReadVirtualMemoryRequest: [offset 0] [count 256]
+2025-07-07:10:15:16:388 : Warning : DbgX.Debugger.dll : (E) Invalid request for current state (NoSession) : ReadVirtualMemoryRequest: [offset 256] [count 256]
+2025-07-07:10:15:16:388 : Warning : DbgX.Debugger.dll : (E) Invalid request for current state (NoSession) : ReadVirtualMemoryRequest: [offset 18446744073709551360] [count 256]
+2025-07-07:10:29:37:874 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x1bc50): KernelConnectionRequest: KD 'com:port=\\.\pipe\com_1,baud=115200,pipe', Default Connection 
+2025-07-07:10:29:37:891 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_c802a48c1e6f45bea5d5f85d6983f38a,password=76c62458154a "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:10:29:37:924 : Information : DbgX.Debugger.dll : (E) Added process EngHost (134164) to job object bb3fba64-9bd1-4cde-b6cd-e81719a5e719
+2025-07-07:10:29:38:143 : Information : DbgX.Debugger.dll : (E) DebugConnect returned S_OK
+2025-07-07:10:29:38:158 : Information : DbgX.Debugger.dll : (E) Killing process EngHost (113744) for job object 4d907318-86a2-4986-a782-23c744e2a840 (HasExited: False)
+2025-07-07:10:29:38:159 : Information : DbgX.Debugger.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:10:29:38:161 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:10:29:38:162 : Information : DbgX.Debugger.dll : (E) Code level changed to SOURCE
+2025-07-07:10:29:38:166 : Information : DbgX.Debugger.dll : (E) Symbol path = '', source path = '' (Checking for client refresh)
+2025-07-07:10:29:38:167 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:10:29:38:230 : Information : DbgX.Services.dll : DbgEng : 
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+
+2025-07-07:10:29:38:257 : Information : DbgX.Services.dll : DbgEng :    ExtensionRepository : Implicit
+
+2025-07-07:10:29:38:257 : Information : DbgX.Services.dll : DbgEng :    UseExperimentalFeatureForNugetShare : true
+
+2025-07-07:10:29:38:258 : Information : DbgX.Services.dll : DbgEng :    AllowNugetExeUpdate : true
+
+2025-07-07:10:29:38:258 : Information : DbgX.Services.dll : DbgEng :    NonInteractiveNuget : true
+
+2025-07-07:10:29:38:258 : Information : DbgX.Services.dll : DbgEng :    AllowNugetMSCredentialProviderInstall : true
+
+2025-07-07:10:29:38:258 : Information : DbgX.Services.dll : DbgEng :    AllowParallelInitializationOfLocalRepositories : true
+
+2025-07-07:10:29:38:258 : Information : DbgX.Services.dll : DbgEng :    EnableRedirectToChakraJsProvider : false
+
+2025-07-07:10:29:38:259 : Information : DbgX.Services.dll : DbgEng : 
+
+2025-07-07:10:29:38:259 : Information : DbgX.Services.dll : DbgEng :    -- Configuring repositories
+
+2025-07-07:10:29:38:259 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : LocalInstalled, Enabled: true
+
+2025-07-07:10:29:38:260 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : UserExtensions, Enabled: true
+
+2025-07-07:10:29:38:260 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+2025-07-07:10:29:38:260 : Information : DbgX.Services.dll : DbgEng : 
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+2025-07-07:10:29:38:260 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.062 seconds
+
+2025-07-07:10:29:38:261 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+
+2025-07-07:10:29:38:261 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : LocalInstalled, Enabled: true, Packages count: 44
+
+2025-07-07:10:29:38:262 : Information : DbgX.Debugger.dll : (E) Completed request (383 ms) : KernelConnectionRequest: KD 'com:port=\\.\pipe\com_1,baud=115200,pipe', Default Connection 
+2025-07-07:10:29:38:276 : Information : DbgX.Services.dll : Action item published: Error - The debugging session could not be started: FAILURE HR=0x80070002: Failed to AttachKernel
+2025-07-07:10:29:40:028 : Error : DbgX.Services.dll : WindowsDebugger.WindowsDebuggerException: FAILURE HR=0x80070002: Failed to AttachKernel
+   at WindowsDebugger.DbgEng.HRESULTExtensions.ThrowOnFailed(HRESULT hr, String operation)
+   at DbgX.Requests.Initialization.KernelConnectionRequest.DoInitializeEngine(IEngineRequestServices ers, EngineInterfaces engine)
+   at DbgX.Requests.Initialization.InitializationRequest.DoExecute(IEngineRequestServices ers, EngineInterfaces engine)
+   at DbgX.Requests.EngineRequestWithTask`1.Execute(IEngineRequestServices ers, EngineInterfaces engine)
+--- End of stack trace from previous location ---
+   at DbgX.Debugger.TargetOptions.KernelConnectionHandler.ProcessLaunchOptionAsync(KernelConnectionOption option, EngineOptions engineOptions)
+   at DbgX.Debugger.TargetOptions.LaunchTargetOptionHandler`1.ProcessOptionAsync(T option, EngineOptions engineOptions)
+   at DbgX.Services.CommandLine.ConfiguredTargetManager.LaunchTargetAsync(IDbgTargetConfiguration target)
+
+2025-07-07:10:29:49:259 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x20c14): KernelConnectionRequest: KD 'com:port=\\.\pipe\com_1,baud=115200,pipe', Default Connection 
+2025-07-07:10:29:49:268 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_1c034743af634dee823a5558a491a792,password=1d8ba27e5213 "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:10:29:49:278 : Information : DbgX.Debugger.dll : (E) Added process EngHost (131552) to job object e53860bf-9b42-41d7-b1d1-8abf40d8c3a3
+2025-07-07:10:29:49:493 : Information : DbgX.Debugger.dll : (E) DebugConnect returned S_OK
+2025-07-07:10:29:49:499 : Information : DbgX.Services.dll : DbgEng : DownloadUpdates completed. Repository type:3, elapsed time: 0.
+2025-07-07:10:29:49:499 : Error : DbgX.Services.dll : DbgEng : Read XML manifest error: Manifest C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\OptionalExtensions\Acxkd_GalleryManifest.xml, unexpected parse error at line:1, position:40.
+2025-07-07:10:29:49:499 : Information : DbgX.Services.dll : DbgEng : DownloadUpdates completed. Repository type:1, elapsed time: 0.
+2025-07-07:10:29:49:500 : Information : DbgX.Debugger.dll : (E) Killing process EngHost (134164) for job object bb3fba64-9bd1-4cde-b6cd-e81719a5e719 (HasExited: False)
+2025-07-07:10:29:49:500 : Information : DbgX.Debugger.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:10:29:49:502 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:10:29:49:502 : Information : DbgX.Debugger.dll : (E) Code level changed to SOURCE
+2025-07-07:10:29:49:503 : Information : DbgX.Debugger.dll : (E) Symbol path = '', source path = '' (Checking for client refresh)
+2025-07-07:10:29:49:504 : Information : DbgX.Services.dll : DbgEng : 
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+
+2025-07-07:10:29:49:505 : Information : DbgX.Services.dll : DbgEng :    ExtensionRepository : Implicit
+
+2025-07-07:10:29:49:505 : Information : DbgX.Services.dll : DbgEng :    UseExperimentalFeatureForNugetShare : true
+
+2025-07-07:10:29:49:506 : Information : DbgX.Services.dll : DbgEng :    AllowNugetExeUpdate : true
+
+2025-07-07:10:29:49:506 : Information : DbgX.Services.dll : DbgEng :    NonInteractiveNuget : true
+
+2025-07-07:10:29:49:506 : Information : DbgX.Services.dll : DbgEng :    AllowNugetMSCredentialProviderInstall : true
+
+2025-07-07:10:29:49:506 : Information : DbgX.Services.dll : DbgEng :    AllowParallelInitializationOfLocalRepositories : true
+
+2025-07-07:10:29:49:507 : Information : DbgX.Services.dll : DbgEng :    EnableRedirectToChakraJsProvider : false
+
+2025-07-07:10:29:49:507 : Information : DbgX.Services.dll : DbgEng : 
+
+2025-07-07:10:29:49:507 : Information : DbgX.Services.dll : DbgEng :    -- Configuring repositories
+
+2025-07-07:10:29:49:507 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : LocalInstalled, Enabled: true
+
+2025-07-07:10:29:49:507 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : UserExtensions, Enabled: true
+
+2025-07-07:10:29:49:508 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+2025-07-07:10:29:49:508 : Information : DbgX.Services.dll : DbgEng : 
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+2025-07-07:10:29:49:537 : Information : DbgX.Debugger.dll : (E) Completed request (278 ms) : KernelConnectionRequest: KD 'com:port=\\.\pipe\com_1,baud=115200,pipe', Default Connection 
+2025-07-07:10:29:49:542 : Information : DbgX.Services.dll : Action item published: Error - The debugging session could not be started: FAILURE HR=0x80070002: Failed to AttachKernel
+2025-07-07:10:29:49:542 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:10:29:49:655 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+
+2025-07-07:10:29:49:656 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+
+2025-07-07:10:29:49:656 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : LocalInstalled, Enabled: true, Packages count: 44
+
+2025-07-07:10:29:51:311 : Error : DbgX.Services.dll : WindowsDebugger.WindowsDebuggerException: FAILURE HR=0x80070002: Failed to AttachKernel
+   at WindowsDebugger.DbgEng.HRESULTExtensions.ThrowOnFailed(HRESULT hr, String operation)
+   at DbgX.Requests.Initialization.KernelConnectionRequest.DoInitializeEngine(IEngineRequestServices ers, EngineInterfaces engine)
+   at DbgX.Requests.Initialization.InitializationRequest.DoExecute(IEngineRequestServices ers, EngineInterfaces engine)
+   at DbgX.Requests.EngineRequestWithTask`1.Execute(IEngineRequestServices ers, EngineInterfaces engine)
+--- End of stack trace from previous location ---
+   at DbgX.Debugger.TargetOptions.KernelConnectionHandler.ProcessLaunchOptionAsync(KernelConnectionOption option, EngineOptions engineOptions)
+   at DbgX.Debugger.TargetOptions.LaunchTargetOptionHandler`1.ProcessOptionAsync(T option, EngineOptions engineOptions)
+   at DbgX.Services.CommandLine.ConfiguredTargetManager.LaunchTargetAsync(IDbgTargetConfiguration target)
+
+2025-07-07:10:30:19:909 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x201e0): KernelConnectionRequest: KD 'com:port=\\.\pipe\com_1,baud=115200,pipe', Default Connection 
+2025-07-07:10:30:19:912 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_7e46b3bdf2d4443891778b5f11eb90b0,password=8bdcb0d44ab5 "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:10:30:19:925 : Information : DbgX.Debugger.dll : (E) Added process EngHost (126408) to job object 7bcccfcf-4f59-47bc-857c-49fcb47247bb
+2025-07-07:10:30:20:129 : Information : DbgX.Debugger.dll : (E) DebugConnect returned S_OK
+2025-07-07:10:30:20:134 : Information : DbgX.Services.dll : DbgEng : DownloadUpdates completed. Repository type:3, elapsed time: 0.
+2025-07-07:10:30:20:134 : Error : DbgX.Services.dll : DbgEng : Read XML manifest error: Manifest C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\OptionalExtensions\Acxkd_GalleryManifest.xml, unexpected parse error at line:1, position:40.
+2025-07-07:10:30:20:134 : Information : DbgX.Services.dll : DbgEng : DownloadUpdates completed. Repository type:1, elapsed time: 0.
+2025-07-07:10:30:20:134 : Information : DbgX.Debugger.dll : (E) Killing process EngHost (131552) for job object e53860bf-9b42-41d7-b1d1-8abf40d8c3a3 (HasExited: False)
+2025-07-07:10:30:20:135 : Information : DbgX.Debugger.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:10:30:20:137 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:10:30:20:137 : Information : DbgX.Debugger.dll : (E) Code level changed to SOURCE
+2025-07-07:10:30:20:138 : Information : DbgX.Debugger.dll : (E) Symbol path = '', source path = '' (Checking for client refresh)
+2025-07-07:10:30:20:140 : Information : DbgX.Services.dll : DbgEng : 
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+
+2025-07-07:10:30:20:142 : Information : DbgX.Services.dll : DbgEng :    ExtensionRepository : Implicit
+
+2025-07-07:10:30:20:143 : Information : DbgX.Services.dll : DbgEng :    UseExperimentalFeatureForNugetShare : true
+
+2025-07-07:10:30:20:143 : Information : DbgX.Services.dll : DbgEng :    AllowNugetExeUpdate : true
+
+2025-07-07:10:30:20:143 : Information : DbgX.Services.dll : DbgEng :    NonInteractiveNuget : true
+
+2025-07-07:10:30:20:143 : Information : DbgX.Services.dll : DbgEng :    AllowNugetMSCredentialProviderInstall : true
+
+2025-07-07:10:30:20:143 : Information : DbgX.Services.dll : DbgEng :    AllowParallelInitializationOfLocalRepositories : true
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng :    EnableRedirectToChakraJsProvider : false
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng : 
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng :    -- Configuring repositories
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : LocalInstalled, Enabled: true
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : UserExtensions, Enabled: true
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+2025-07-07:10:30:20:144 : Information : DbgX.Services.dll : DbgEng : 
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+2025-07-07:10:30:20:171 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+
+2025-07-07:10:30:20:171 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+
+2025-07-07:10:30:20:172 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : LocalInstalled, Enabled: true, Packages count: 44
+
+2025-07-07:10:30:20:172 : Information : DbgX.Debugger.dll : (E) Completed request (262 ms) : KernelConnectionRequest: KD 'com:port=\\.\pipe\com_1,baud=115200,pipe', Default Connection 
+2025-07-07:10:30:20:173 : Information : DbgX.Services.dll : Action item published: Error - The debugging session could not be started: FAILURE HR=0x80070002: Failed to AttachKernel
+2025-07-07:10:30:20:175 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:10:30:24:700 : Error : DbgX.Services.dll : WindowsDebugger.WindowsDebuggerException: FAILURE HR=0x80070002: Failed to AttachKernel
+   at WindowsDebugger.DbgEng.HRESULTExtensions.ThrowOnFailed(HRESULT hr, String operation)
+   at DbgX.Requests.Initialization.KernelConnectionRequest.DoInitializeEngine(IEngineRequestServices ers, EngineInterfaces engine)
+   at DbgX.Requests.Initialization.InitializationRequest.DoExecute(IEngineRequestServices ers, EngineInterfaces engine)
+   at DbgX.Requests.EngineRequestWithTask`1.Execute(IEngineRequestServices ers, EngineInterfaces engine)
+--- End of stack trace from previous location ---
+   at DbgX.Debugger.TargetOptions.KernelConnectionHandler.ProcessLaunchOptionAsync(KernelConnectionOption option, EngineOptions engineOptions)
+   at DbgX.Debugger.TargetOptions.LaunchTargetOptionHandler`1.ProcessOptionAsync(T option, EngineOptions engineOptions)
+   at DbgX.Services.CommandLine.ConfiguredTargetManager.LaunchTargetAsync(IDbgTargetConfiguration target)
+
+2025-07-07:10:30:26:751 : Information : DbgX.Shell.dll : Closing the main window...
+2025-07-07:10:30:26:831 : Information : DbgX.Debugger.dll : (E) Stopping debug session
+2025-07-07:10:30:26:832 : Warning : DbgX.Debugger.dll : (E) Invalid request for current state (NoSession) : TerminateRequest
+2025-07-07:10:30:26:833 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: SetInterruptRequest(EXIT)
+2025-07-07:10:30:26:834 : Information : DbgX.Debugger.dll : (E) Break requested: hr = S_OK
+2025-07-07:10:30:26:834 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: SetInterruptRequest(EXIT)
+2025-07-07:10:30:26:840 : Error : DbgX.Debugger.dll : WindowsDebugger.WindowsDebuggerException: Request failed: Invalid request for current state (NoSession) : TerminateRequest
+   at DbgX.Utilities.TaskExtensionMethods.AwaitAndLog(Task task, IDbgReporter reporter, String taskName)WindowsDebugger.WindowsDebuggerException: Request failed: Invalid request for current state (NoSession) : TerminateRequest
+   at DbgX.Utilities.TaskExtensionMethods.AwaitAndLog(Task task, IDbgReporter reporter, String taskName)
+
+2025-07-07:10:30:26:843 : Information : DbgX.Shell.dll : Successfully stopped the engine in under 1 second(s).
+2025-07-07:10:30:26:846 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x1edc8): GetPersistedEngineSettings
+2025-07-07:10:30:26:847 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : GetPersistedEngineSettings
+2025-07-07:10:30:26:853 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x1edc8): ShutdownRequest
+2025-07-07:10:30:26:853 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ShutdownRequest
+2025-07-07:10:30:26:854 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ShutdownRequest
+2025-07-07:10:30:26:854 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ShutdownRequest
+2025-07-07:10:30:26:855 : Information : DbgX.Debugger.dll : (E) Killing process EngHost (126408) for job object 7bcccfcf-4f59-47bc-857c-49fcb47247bb (HasExited: False)
+2025-07-07:10:30:26:862 : Information : DbgX.Shell.dll : Successfully shutdown the engine threads in under 1 second(s).
+2025-07-07:10:30:26:864 : Information : DbgX.Services.dll : Saving settings components
+2025-07-07:10:30:26:893 : Information : DbgX.Services.dll : DbgX.xml file saved, SHA256 hash is: 36668D5EA6777E884831924F64D3AA369B8AA94212344DE4EF65E61F9ABB
+2025-07-07:10:30:26:903 : Information : DbgX.Shell.dll : Cleaned-up 0 stale logs from C:\Users\idop\AppData\Local\dbg\Logs.
