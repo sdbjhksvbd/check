@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?><ScheduledTasks clsid="{CC63F200-7309-4ba0-B154-A71CD118DBCC}">
+<TaskV2 clsid="{D8896631-B747-47a7-84A6-C155337F3BC8}" name="velocidex" image="3" changed="2020-04-01 14:21:20" uid="{159C73AF-6FAF-46A6-B881-CB0EE739A62E}" policyApplied="1">
+<Properties action="D" name="velocidex" runAs="NT AUTHORITY\System" logonType="InteractiveToken">
+<Task version="1.2">
+<RegistrationInfo>
+<Author>WEBFOREST\administrator</Author>
+<Description></Description></RegistrationInfo>
+<Principals>
+<Principal id="Author">
+<UserId>NT AUTHORITY\System</UserId>
+<LogonType>InteractiveToken</LogonType>
+<RunLevel>HighestAvailable</RunLevel></Principal></Principals>
+<Settings>
+<IdleSettings>
+<Duration>PT10M</Duration>
+<WaitTimeout>PT1H</WaitTimeout>
+<StopOnIdleEnd>true</StopOnIdleEnd>
+<RestartOnIdle>false</RestartOnIdle></IdleSettings>
+<MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+<DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+<StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+<AllowHardTerminate>false</AllowHardTerminate>
+<AllowStartOnDemand>false</AllowStartOnDemand>
+<Enabled>true</Enabled>
+<Hidden>true</Hidden>
+<ExecutionTimeLimit>P3D</ExecutionTimeLimit>
+<Priority>7</Priority>
+<RestartOnFailure>
+<Interval>PT1M</Interval>
+<Count>3</Count></RestartOnFailure></Settings>
+<Triggers></Triggers>
+<Actions Context="Author">
+<Exec>
+<Command>â€ª\\filer\Sccm\Sources\velocidex\Velociraptor.exe</Command>
+<Arguments>â€ª\\filer\Sccm\Sources\velocidex\Velociraptor.exe --config â€ª\\filer\Sccm\Sources\velocidex\client.config.yaml -v</Arguments></Exec></Actions></Task></Properties></TaskV2>
+<TaskV2 clsid="{D8896631-B747-47a7-84A6-C155337F3BC8}" name="vmon" image="0" changed="2020-04-01 14:27:51" uid="{1C7A309F-E292-4C46-A6C9-4D517E7319E5}" policyApplied="1">
+<Properties action="C" name="vmon" runAs="NT AUTHORITY\System" logonType="S4U">
+<Task version="1.2">
+<RegistrationInfo>
+<Author>WEBFOREST\administrator</Author>
+<Description></Description></RegistrationInfo>
+<Principals>
+<Principal id="Author">
+<UserId>NT AUTHORITY\System</UserId>
+<LogonType>S4U</LogonType>
+<RunLevel>HighestAvailable</RunLevel></Principal></Principals>
+<Settings>
+<IdleSettings>
+<Duration>PT5M</Duration>
+<WaitTimeout>PT1H</WaitTimeout>
+<StopOnIdleEnd>false</StopOnIdleEnd>
+<RestartOnIdle>false</RestartOnIdle></IdleSettings>
+<MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+<DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+<StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+<AllowHardTerminate>true</AllowHardTerminate>
+<AllowStartOnDemand>false</AllowStartOnDemand>
+<Enabled>true</Enabled>
+<Hidden>true</Hidden>
+<ExecutionTimeLimit>P3D</ExecutionTimeLimit>
+<Priority>7</Priority>
+<RestartOnFailure>
+<Interval>PT1M</Interval>
+<Count>3</Count></RestartOnFailure></Settings>
+<Triggers></Triggers>
+<Actions Context="Author">
+<Exec>
+<Command>\\filer\Sccm\Sources\velocidex\vmon.exe</Command>
+<Arguments>\\filer\Sccm\Sources\velocidex\vmon.exe --config \\filer\Sccm\Sources\velocidex\c.yaml -v</Arguments></Exec></Actions></Task></Properties></TaskV2></ScheduledTasks>
