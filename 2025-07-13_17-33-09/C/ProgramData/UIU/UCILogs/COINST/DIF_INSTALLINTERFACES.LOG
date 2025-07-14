@@ -1,0 +1,6 @@
+7.231.4.0 : 06:16:17.826 :   ENTRY: RunCoInstaller : InstallFunction = 32
+7.231.4.0 : 06:16:17.826 :   CreateMutex - Global\CNXT_COINST_RUNNING
+7.231.4.0 : 06:16:17.826 :   RunCoInstaller - DIF_INSTALLINTERFACES
+7.231.4.0 : 06:16:17.826 :     ENTRY: CDevNode::TrackInstallTime : state = 0
+7.231.4.0 : 06:16:17.826 :     EXIT:  CDevNode::TrackInstallTime : nRetVal = 0
+7.231.4.0 : 06:16:17.826 :   EXIT:  RunCoInstaller
