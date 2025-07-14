@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5039 1096 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-s_duplicate_18);
+      }
+
+      .cls-2 {
+        fill: #ff13dc;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill: #8d8d8d;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-s_duplicate_18">
+      <rect x="5039" y="1096" width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="s_duplicate_18" class="cls-1">
+    <rect class="cls-4" x="5039" y="1096" width="18" height="18"/>
+    <g id="Group_56377" data-name="Group 56377" transform="translate(55 -56)">
+      <rect id="ToDelete" class="cls-2" width="16" height="16" transform="translate(4985 1153)"/>
+      <path id="Path_20448" data-name="Path 20448" class="cls-3" d="M3.333,4A.667.667,0,0,1,4,3.333h8.667V2.667A.667.667,0,0,0,12,2H2.667A.667.667,0,0,0,2,2.667V12a.667.667,0,0,0,.667.667h.667Z" transform="translate(4984.333 1152.333)"/>
+      <path id="Path_20449" data-name="Path 20449" class="cls-3" d="M16,6H6.667A.667.667,0,0,0,6,6.667V16a.667.667,0,0,0,.667.667H16A.667.667,0,0,0,16.667,16V6.667A.667.667,0,0,0,16,6Zm-1.667,6H12v2.333a.333.333,0,0,1-.333.333H11a.333.333,0,0,1-.333-.333V12H8.333A.333.333,0,0,1,8,11.667V11a.333.333,0,0,1,.333-.333h2.333V8.333A.333.333,0,0,1,11,8h.667A.333.333,0,0,1,12,8.333v2.333h2.333a.333.333,0,0,1,.333.333v.667A.333.333,0,0,1,14.333,12Z" transform="translate(4983 1151)"/>
+    </g>
+  </g>
+</svg>
