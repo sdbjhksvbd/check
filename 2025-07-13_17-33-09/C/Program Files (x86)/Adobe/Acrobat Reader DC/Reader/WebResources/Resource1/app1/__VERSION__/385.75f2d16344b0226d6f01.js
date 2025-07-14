@@ -1,0 +1,2 @@
+"use strict";(self["webpackJsonp-dc-desktop-app"]=self["webpackJsonp-dc-desktop-app"]||[]).push([[385],{"7Hdn":(e,s,r)=>{r.r(s),r.d(s,{default:()=>UrlListProvider});var t=r("plsW"),i=r("DJg0");class UrlListProvider{ready(){return Promise.resolve(this)}async OpenFiles(e){const s={selectedURLs:e.map((e=>e.url))};(0,i.bL)(s)}}UrlListProvider.getInstance=t.providerUtil.getSingletonFunction(UrlListProvider)}}]);
+//# sourceMappingURL=private/385.75f2d16344b0226d6f01.map
