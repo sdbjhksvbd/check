@@ -1,0 +1,23 @@
+{
+   "app_description": {
+      "message": "PÅ‚atnoÅ›ci w sklepie Chrome Web Store"
+   },
+   "app_name": {
+      "message": "PÅ‚atnoÅ›ci w sklepie Chrome Web Store"
+   },
+   "craw_app_unavailable": {
+      "message": "Aplikacja jest obecnie niedostÄ™pna."
+   },
+   "craw_connect_to_network": {
+      "message": "PoÅ‚Ä…cz siÄ™ z sieciÄ…."
+   },
+   "iap_unavailable": {
+      "message": "PÅ‚atnoÅ›ci w ramach aplikacji sÄ… teraz niedostÄ™pne."
+   },
+   "jwt_retrieve_failed": {
+      "message": "The transaction could not be completed."
+   },
+   "please_sign_in": {
+      "message": "Zaloguj siÄ™ w Chrome."
+   }
+}
