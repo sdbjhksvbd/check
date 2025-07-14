@@ -1,0 +1,1 @@
+"use strict";(self["webpackJsonp-desktop-app"]=self["webpackJsonp-desktop-app"]||[]).push([[37757],{"44jv":(e,t,p)=>{p.r(t),p.d(t,{default:()=>__WEBPACK_DEFAULT_EXPORT__});var n=p("YWiy"),a=p("0rPo");const __WEBPACK_DEFAULT_EXPORT__=e=>{let{contentProp:t}=e;return n.createElement("span",{tabIndex:0,role:"button"},n.createElement(a.Heading,{level:4},t.text))}}}]);
