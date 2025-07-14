@@ -1,0 +1,23 @@
+{
+   "app_description": {
+      "message": "Chrome Internetes Ã¡ruhÃ¡z FizetÃ©si rendszere"
+   },
+   "app_name": {
+      "message": "Chrome Internetes Ã¡ruhÃ¡z FizetÃ©si rendszere"
+   },
+   "craw_app_unavailable": {
+      "message": "Az alkalmazÃ¡s jelenleg nem Ã©rhetÅ‘ el."
+   },
+   "craw_connect_to_network": {
+      "message": "KÃ©rjÃ¼k, csatlakozzon egy hÃ¡lÃ³zathoz."
+   },
+   "iap_unavailable": {
+      "message": "Az alkalmazÃ¡son belÃ¼li fizetÃ©s jelenleg nem Ã©rhetÅ‘ el."
+   },
+   "jwt_retrieve_failed": {
+      "message": "The transaction could not be completed."
+   },
+   "please_sign_in": {
+      "message": "Jelentkezzen be a Chrome-ba."
+   }
+}
