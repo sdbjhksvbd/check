@@ -1,0 +1,132 @@
+ï»¿Started executable C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0\burpsuite_community_windows-x64_v2025_5_5.exe at Wed Jul  2 09:28:19 2025
+
+[0:0] restrict DLL directories
+[0:13] sun.locale.formatasdefault is false
+[0:23] manual language/country is en
+[0:33] ignoring java options environment variables
+[0:43] using _putenv_s in ucrtbase.dll 00007FF85F48D610 00007FF6AF990310
+[0:53] change working directory to C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0
+[0:64] single instance mode
+[0:74] semaphore name Local\c:_users_idop_appdata_roaming_burpsuite_updates_f0f34ac0_burpsuite_community_windows-x64_v2025_5_5.exe, code 0, value 0000000000000204
+[0:87] Init done
+[0:98] Checking dark mode on Windows 11
+[0:108] Dark mode: 0 0
+[0:146] Starting work
+[0:167] starting at 712192
+[0:194] verifying integrity length 329987631
+[1:616] checksums: 885245255 885245255 885245255 885245255
+[1:631] tempPath is C:\Users\idop\AppData\Local\install4j\t
+[1:643] tempFile is C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp
+[1:659] Temp dir3: C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700
+[1:670] native lib dir is ${launcher:sys.launcherTempDirectory}\user
+[1:682] expanding2 ${launcher:sys.launcherTempDirectory} to C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700.
+[1:696] Adding DLL directory C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user
+[1:711] Setting PATH (native libs) C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user;c:\users\idop\appdata\local\programs\burpsuitecommunity\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\WINDOWS\CCM;C:\Users\idop\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\idop\AppData\Local\Programs\Python\Python313\;C:\Users\idop\AppData\Local\Microsoft\WindowsApps;
+[1:727] extracting files
+[1:742] Included files: 27
+[1:757] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4jruntime.jar (size: 2646295)
+[1:774] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_10_1ov2nc9_un9apv.png (size: 1884)
+[1:791] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_3_1ov2nc9_1wtyary.png (size: 294)
+[1:806] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4jparams.conf (size: 86624)
+[1:821] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_7_1ov2nc9_xvjhy2.ico (size: 21252)
+[1:837] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_6_1ov2nc9_1wlpo3p.png (size: 505)
+[1:854] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_0_1ov2nc9.utf8 (size: 34993)
+[1:878] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_1_1ov2nc9.properties (size: 810)
+[1:894] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\launchers.xml (size: 218)
+[1:911] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre.tar.gz (size: 47842563)
+[2:43] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_4_1ov2nc9_1kltmxr.png (size: 331)
+[2:60] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_12_1ov2nc9_259ij1.png (size: 8252)
+[2:75] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx@2x_dark.png (size: 15837)
+[2:92] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_9_1ov2nc9_vd2dea.png (size: 1187)
+[2:107] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_2_1ov2nc9_s10jxd.png (size: 187)
+[2:123] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx.png (size: 9202)
+[2:140] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\MessagesDefault (size: 34993)
+[2:158] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx_dark.png (size: 8891)
+[2:175] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_5_1ov2nc9_1onbq37.png (size: 453)
+[2:190] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\stats.properties (size: 285)
+[2:206] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user.jar (size: 21190)
+[2:220] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\installer.ico (size: 32606)
+[2:236] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx@2x.png (size: 15419)
+[2:249] creating directory C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user
+[2:265] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user\burpsuite_community.jar (size: 107259478)
+[2:606] creating directory C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user
+[2:624] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user\flatlaf.jar (size: 852755)
+[2:641] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_11_1ov2nc9_1xth8wx.png (size: 4609)
+[2:659] extracting C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_8_1ov2nc9_x7nby6.png (size: 756)
+[2:677] extracting files done
+[2:691] Current working dir: C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700
+[2:705] Full JRE path: C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre.tar.gz
+[2:718] JRE included
+[2:732] extracting JRE
+[2:747] extracting .\bin\api-ms-win-core-console-l1-1-0.dll (size 22008)
+[2:762] extracting .\bin\api-ms-win-core-console-l1-2-0.dll (size 21968)
+[2:777] extracting .\bin\api-ms-win-core-datetime-l1-1-0.dll (size 22016)
+[2:794] extracting .\bin\api-ms-win-core-debug-l1-1-0.dll (size 22024)
+[2:808] extracting .\bin\api-ms-win-core-errorhandling-l1-1-0.dll (size 21968)
+[2:822] extracting .\bin\api-ms-win-core-fibers-l1-1-0.dll (size 22024)
+[2:838] extracting .\bin\api-ms-win-core-file-l1-1-0.dll (size 26120)
+[2:852] extracting .\bin\api-ms-win-core-file-l1-2-0.dll (size 22016)
+[2:880] extracting .\bin\api-ms-win-core-file-l2-1-0.dll (size 22016)
+[2:900] extracting .\bin\api-ms-win-core-handle-l1-1-0.dll (size 21968)
+[2:917] extracting .\bin\api-ms-win-core-heap-l1-1-0.dll (size 22024)
+[2:932] extracting .\bin\api-ms-win-core-interlocked-l1-1-0.dll (size 22024)
+[2:948] extracting .\bin\api-ms-win-core-libraryloader-l1-1-0.dll (size 21984)
+[2:967] extracting .\bin\api-ms-win-core-localization-l1-2-0.dll (size 21984)
+[2:982] extracting .\bin\api-ms-win-core-memory-l1-1-0.dll (size 22008)
+[2:998] extracting .\bin\api-ms-win-core-namedpipe-l1-1-0.dll (size 21984)
+[3:12] Canceled installer
+[3:46] Cleaning up cancel 00000000000002B4 1.
+[3:72] deleting bundled jre C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre
+[3:90] emptying C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre
+[3:110] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin (5)
+[3:132] emptying C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin
+[3:161] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-console-l1-1-0.dll
+[3:186] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-console-l1-2-0.dll
+[3:210] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-datetime-l1-1-0.dll
+[3:234] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-debug-l1-1-0.dll
+[3:257] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll
+[3:283] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-fibers-l1-1-0.dll
+[3:303] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-file-l1-1-0.dll
+[3:330] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-file-l1-2-0.dll
+[3:357] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-file-l2-1-0.dll
+[3:395] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-handle-l1-1-0.dll
+[3:442] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-heap-l1-1-0.dll
+[3:472] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll
+[3:496] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll
+[3:523] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-localization-l1-2-0.dll
+[3:548] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-memory-l1-1-0.dll
+[3:572] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll
+[3:597] emptying C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700
+[3:617] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4jparams.conf
+[3:633] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4jruntime.jar
+[3:649] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_0_1ov2nc9.utf8
+[3:664] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_10_1ov2nc9_un9apv.png
+[3:681] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_11_1ov2nc9_1xth8wx.png
+[3:696] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_12_1ov2nc9_259ij1.png
+[3:709] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx.png
+[3:723] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx@2x.png
+[3:737] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx@2x_dark.png
+[3:752] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_13_1ov2nc9_18gg8kx_dark.png
+[3:765] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_1_1ov2nc9.properties
+[3:780] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_2_1ov2nc9_s10jxd.png
+[3:794] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_3_1ov2nc9_1wtyary.png
+[3:806] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_4_1ov2nc9_1kltmxr.png
+[3:819] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_5_1ov2nc9_1onbq37.png
+[3:833] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_6_1ov2nc9_1wlpo3p.png
+[3:846] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_7_1ov2nc9_xvjhy2.ico
+[3:859] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_8_1ov2nc9_x7nby6.png
+[3:873] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\i4j_extf_9_1ov2nc9_vd2dea.png
+[3:886] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\installer.ico
+[3:911] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre (1)
+[3:925] emptying C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre
+[3:938] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\jre.tar.gz
+[3:955] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\launchers.xml
+[3:971] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\MessagesDefault
+[3:988] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\stats.properties
+[4:1] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user (1)
+[4:15] emptying C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user
+[4:28] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user\burpsuite_community.jar
+[4:43] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user\flatlaf.jar
+[4:57] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jD960.tmp_dir1751437700\user.jar
+[4:74] schedule deletion 0 1
+[4:89] deletion file name C:\Users\idop\AppData\Local\install4j\t\i4dE2E7.tmp
