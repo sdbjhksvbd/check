@@ -1,0 +1,1 @@
+"use strict";(self["webpackJsonp-desktop-app"]=self["webpackJsonp-desktop-app"]||[]).push([[58861],{"8JGL":(p,e,s)=>{s.r(e),s.d(e,{default:()=>o});const o=s.p+"SelectSignTool.webm"}}]);
