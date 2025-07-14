@@ -1,0 +1,6 @@
+<Application xmlns="http://ns.adobe.com/acrobat/app/2014" title="Create a Project" av2Title="Create a Project" id="WorkspacesApp" description="Organize materials, chat with your personalized AI Assistant, set goals, and share with others-all in one place" av2Description="Organize materials, chat with your personalized AI Assistant, set goals, and share with others-all in one place" showLabels="true" majorVersion="1" minorVersion="0">
+	<Layouts>
+		<Layout name="Default" OpenInDocumentTab="true">
+		</Layout>
+	</Layouts>
+</Application>
