@@ -1,0 +1,23 @@
+{
+   "app_description": {
+      "message": "Thanh toÃ¡n trÃªn cá»­a hÃ ng Chrome trá»±c tuyáº¿n"
+   },
+   "app_name": {
+      "message": "Thanh toÃ¡n trÃªn cá»­a hÃ ng Chrome trá»±c tuyáº¿n"
+   },
+   "craw_app_unavailable": {
+      "message": "á»¨ng dá»¥ng hiá»‡n khÃ´ng kháº£ dá»¥ng."
+   },
+   "craw_connect_to_network": {
+      "message": "Vui lÃ²ng káº¿t ná»‘i vá»›i máº¡ng."
+   },
+   "iap_unavailable": {
+      "message": "Thanh toÃ¡n trong á»©ng dá»¥ng hiá»‡n khÃ´ng kháº£ dá»¥ng."
+   },
+   "jwt_retrieve_failed": {
+      "message": "The transaction could not be completed."
+   },
+   "please_sign_in": {
+      "message": "Vui lÃ²ng Ä‘Äƒng nháº­p vÃ o Chrome."
+   }
+}
