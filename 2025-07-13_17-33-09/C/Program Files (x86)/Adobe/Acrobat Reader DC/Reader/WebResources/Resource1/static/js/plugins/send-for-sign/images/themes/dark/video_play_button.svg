@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_296536" data-name="Group 296536" transform="translate(-10 -7)">
+    <g id="Icon">
+      <rect id="Canvas" width="18" height="18" transform="translate(10 7)" fill="#6e6e6e" opacity="0"/>
+    </g>
+    <g id="Icons_on_Artboards" data-name="Icons on Artboards" transform="translate(9.25 7)">
+      <path id="Path_586041" data-name="Path 586041" d="M3.421,16.75a1.169,1.169,0,0,1-.838-.357,1.189,1.189,0,0,1-.333-.83V2.438a1.189,1.189,0,0,1,.333-.83,1.169,1.169,0,0,1,.838-.357H4.686a1.626,1.626,0,0,1,.842.236L16.15,7.929a1.259,1.259,0,0,1,0,2.146L5.517,16.515a1.622,1.622,0,0,1-.833.235Zm.329-1.5h.929L15.025,9,4.686,2.75H3.75Z" fill="#b9b9b9"/>
+    </g>
+  </g>
+</svg>
