@@ -1,0 +1,271 @@
+7.195.0.2 : 06:16:43.083 : C:\Program Files\Conexant\Install\Audio\Flow\Flow\Setup.exe -
+7.195.0.2 : 06:16:43.083 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.195.0.2
+7.195.0.2 : 06:16:43.083 :   Version = V7.195.0.2
+7.195.0.2 : 06:16:43.083 :   OS Platform = OS_WIN10-64
+7.195.0.2 : 06:16:43.083 :   dwSetupConfig = 20104 : dwMode = 80000
+7.195.0.2 : 06:16:43.083 :   Found Mutex - CNXT_COINST_RUNNING
+7.195.0.2 : 06:16:43.083 :   CSetupApp::GetSetupModeInfo : csCmdLine = -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -INI=FLOWSETUP.INI, FLOWSETUP -FNAME="FlowSetup"
+7.195.0.2 : 06:16:43.083 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -FNAME="FlowSetup"
+7.195.0.2 : 06:16:43.083 :     ENTRY: KillThisGuy : csAppToTerminate = FLOWTRAY.EXE
+7.195.0.2 : 06:16:43.083 :     EXIT:  KillThisGuy : bRetVal = 0
+7.195.0.2 : 06:16:43.083 :     ENTRY: CSetupApp::CloseAnyRequestedAppWindows
+7.195.0.2 : 06:16:43.083 :       ENTRY: SendExitMsgToApp
+7.195.0.2 : 06:16:43.083 :       csAppName = FLOW.EXE, uExitMsg = 4, dwFlags = 2
+7.195.0.2 : 06:16:43.083 :         ENTRY: FindProcessID : csAppName = FLOW.EXE
+7.195.0.2 : 06:16:43.083 :         EXIT:  FindProcessID : bRetVal = 0
+7.195.0.2 : 06:16:43.083 :       EXIT:  SendExitMsgToApp : bRetVal = 0
+7.195.0.2 : 06:16:43.083 :     EXIT:  CSetupApp::CloseAnyRequestedAppWindows
+7.195.0.2 : 06:16:43.083 :     ENTRY: CSetupDlg::RunSetupDlg
+7.195.0.2 : 06:16:43.083 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.195.0.2 : 06:16:43.083 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.195.0.2 : 06:16:43.083 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.195.0.2 : 06:16:43.083 :       csSetupExe = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\Setup64.exe
+7.195.0.2 : 06:16:43.083 :       csCmdline = -32TO64="C:\Program Files\Conexant\Install\Audio\Flow\Flow\" -S -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -INI=FLOWSETUP.INI, FLOWSETUP -FNAME="FlowSetup" -FNAME="FlowSetup"
+7.195.0.2 : 06:16:43.083 :         ENTRY: CSetupApp::SpawnAnotherUIU
+7.195.0.2 : 06:16:43.083 :         pszExeName=C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\Setup64.exe, pszCmdArg=-32TO64="C:\Program Files\Conexant\Install\Audio\Flow\Flow\" -S -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -INI=FLOWSETUP.INI, FLOWSETUP -FNAME="FlowSetup" -FNAME="FlowSetup", bWaitForProcess=1
+7.195.0.2 : 06:16:43.083 :         csWorkingDir = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.083 :         Trying to Spawn with ShellExecuteExA
+7.195.0.2 : 06:16:43.083 :         szExeName = "C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\Setup64.exe"
+7.195.0.2 : 06:16:43.083 :         szCmdLine = -32TO64="C:\Program Files\Conexant\Install\Audio\Flow\Flow\" -S -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -INI=FLOWSETUP.INI, FLOWSETUP -FNAME="FlowSetup" -FNAME="FlowSetup"
+7.195.0.2 : 06:16:48.083 :         dwRetVal & ~RETVAL_SPAWNAPP_SUCCESS = 0
+7.195.0.2 : 06:16:48.083 :         EXIT:  CSetupApp::SpawnAnotherUIU : dwRetVal = 8
+7.195.0.2 : 06:16:48.083 :         ENTRY: CInstall::ReadRegHWRetVal
+7.195.0.2 : 06:16:48.083 :         EXIT:  CInstall::ReadRegHWRetVal
+7.195.0.2 : 06:16:48.083 :       *pdwStatus = 1
+7.195.0.2 : 06:16:48.083 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=1
+7.195.0.2 : 06:16:48.083 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.195.0.2 : 06:16:48.083 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.195.0.2 : 06:16:48.083 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.195.0.2 : 06:16:48.083 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.083 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:48.083 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:48.083 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.083 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.195.0.2 : 06:16:48.083 :     EXIT:  CSetupDlg::RunSetupDlg
+7.195.0.2 : 06:16:48.083 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.083 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.195.0.2 : 06:16:48.083 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.195.0.2 : 06:16:48.083 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.2 : 06:16:48.083 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.2 : 06:16:48.083 :   ENTRY: CSetupApp::SetupRetVal
+7.195.0.2 : 06:16:48.083 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.083 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.083 :     ENTRY: CSetupApp::ExitInstance()
+7.195.0.2 : 06:16:48.083 :     EXIT:  CSetupApp::ExitInstance()
+7.195.0.2 : 06:16:42.973 :                   szExeName = "C:\Program Files\Conexant\Install\Audio\Flow\Flow\Setup.exe"
+7.195.0.2 : 06:16:42.973 :                   pszCmdArg =  -L2=detail -FNAME="Application" -NR
+7.195.0.2 : 06:16:42.973 :                   Trying to Spawn with ShellExecuteExA
+7.195.0.2 : 06:16:48.083 :                   Child process signalled success
+7.195.0.2 : 06:16:48.083 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.195.0.2 : 06:16:48.083 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.195.0.2 : 06:16:48.083 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.195.0.2 : 06:16:48.083 :                 pszRootPath = Flow\Setup.exe, pszCmdline = "C:\Program Files\Conexant\Install\Audio\Flow\Flow\Setup.exe"
+7.195.0.2 : 06:16:48.083 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.195.0.2 : 06:16:48.083 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.195.0.2 : 06:16:48.083 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.195.0.2 : 06:16:48.083 :             ENTRY: CShortCut::CreateShortcut
+7.195.0.2 : 06:16:48.083 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.083 :             pszInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.083 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.083 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.083 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.083 :               m_szDecorationTag = 
+7.195.0.2 : 06:16:48.083 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.083 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.083 :             EXIT:  CShortCut::CreateShortcut
+7.195.0.2 : 06:16:48.083 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.083 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.083 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.083 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:48.083 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.083 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.083 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.083 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.195.0.2 : 06:16:48.083 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.083 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.195.0.2 : 06:16:48.083 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.083 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.195.0.2 : 06:16:48.083 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.195.0.2 : 06:16:48.083 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.195.0.2 : 06:16:48.083 :             ENTRY: KINIFile::DoMicTrayVerification : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.083 :             EXIT:  KINIFile::DoMicTrayVerification
+7.195.0.2 : 06:16:48.083 :             ENTRY: KINIFile::DeleteRollbackFiles
+7.195.0.2 : 06:16:48.098 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.098 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.098 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.098 :               m_szDecorationTag = 
+7.195.0.2 : 06:16:48.098 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.098 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.098 :             EXIT:  KINIFile::DeleteRollbackFiles
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.098 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.195.0.2 : 06:16:48.098 :       EXIT:  CINIFile::InstallINIFiles : dwRetVal = 1
+7.195.0.2 : 06:16:48.098 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.098 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:48.098 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.098 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:48.098 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.098 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:48.098 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.098 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.098 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.098 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.195.0.2 : 06:16:48.098 :         m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 06:16:48.098 :         MyPaths = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :         EXIT:  KINIFile::Initialize
+7.195.0.2 : 06:16:48.098 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 2
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 06:16:48.098 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :           szTestFile = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.195.0.2 : 06:16:48.098 :           ENTRY: CINIFile::SortINIFiles
+7.195.0.2 : 06:16:48.098 :           EXIT:  CINIFile::SortINIFiles
+7.195.0.2 : 06:16:48.098 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.098 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.098 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.098 :           m_szDecorationTag = 
+7.195.0.2 : 06:16:48.098 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.098 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 06:16:48.098 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 06:16:48.098 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.098 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.098 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.098 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.098 :               pszSectionTag = HdAudModel.Flow1
+7.195.0.2 : 06:16:48.098 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:48.098 :               csTestDeviceTag = HdAudModel.Flow1
+7.195.0.2 : 06:16:48.098 :               pszDeviceTag = HdAudModel.Flow1
+7.195.0.2 : 06:16:48.098 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.098 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.098 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.098 :               pszSectionTag = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.098 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:48.098 :               csTestDeviceTag = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.098 :               pszDeviceTag = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.098 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :             pszInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.098 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :           szINFFileName= FlowCombined.ini, pszInstallSection = HdAudModel.Flow2, pdwFlags = 1048576
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.098 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 06:16:48.098 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\\FlowCombined.ini
+7.195.0.2 : 06:16:48.098 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 06:16:48.098 :           pszInstallSection = HdAudModel.Flow2, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.098 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.098 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 06:16:48.098 :           pszInstallSection = HdAudModel.Flow2, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 06:16:48.098 :           pszInstallSection = HdAudModel.Flow2, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 06:16:48.098 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 06:16:48.098 :           pszInstallSection = HdAudModel.Flow2, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.098 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 06:16:48.098 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.195.0.2 : 06:16:48.098 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.098 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.098 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:48.098 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.098 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:48.098 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.098 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:48.098 :       ENTRY: CVistaWaveRT::ProcessINIFile
+7.195.0.2 : 06:16:48.098 :       csINIFilePath = C:\Program Files\Conexant\Install\Audio\Flow\, csDeviceID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.098 :         ENTRY: CVistaWaveRT::LocateRTWaveINIFiles : csINIFilePath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.098 :         EXIT:  CVistaWaveRT::LocateRTWaveINIFiles : pcslINIFileList->GetCount() = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOWCOMBINED.INI
+7.195.0.2 : 06:16:48.114 :           ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :         m_szDecorationTag = 
+7.195.0.2 : 06:16:48.114 :         m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.114 :         EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.114 :         ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.195.0.2 : 06:16:48.114 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :           ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :         pszSectionTag = HdAudModel.Flow1
+7.195.0.2 : 06:16:48.114 :         EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:48.114 :         csTestDeviceTag = HdAudModel.Flow1
+7.195.0.2 : 06:16:48.114 :         pszDeviceTag = HdAudModel.Flow1
+7.195.0.2 : 06:16:48.114 :         EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :           ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :         pszSectionTag = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.114 :         EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:48.114 :         csTestDeviceTag = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.114 :         pszDeviceTag = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.114 :         EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CVistaWaveRT::GetInstallSection
+7.195.0.2 : 06:16:48.114 :         pszInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.114 :         EXIT:  CVistaWaveRT::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:48.114 :         ENTRY: CVistaWaveRT::ProcessINIFile
+7.195.0.2 : 06:16:48.114 :         CVistaWaveRT::ProcessINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOWCOMBINED.INI , szInstallSection = HdAudModel.Flow2
+7.195.0.2 : 06:16:48.114 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags2
+7.195.0.2 : 06:16:48.114 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOWCOMBINED.INI
+7.195.0.2 : 06:16:48.114 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:48.114 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.114 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.114 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags2 : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags1
+7.195.0.2 : 06:16:48.114 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOWCOMBINED.INI
+7.195.0.2 : 06:16:48.114 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.114 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:48.114 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.114 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.114 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags1 : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :         EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :       EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.195.0.2 : 06:16:48.114 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.195.0.2 : 06:16:48.114 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.195.0.2 : 06:16:48.114 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.195.0.2 : 06:16:48.114 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.114 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:48.114 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\
+7.195.0.2 : 06:16:48.114 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.114 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.195.0.2 : 06:16:48.114 :     EXIT:  CSetupDlg::RunSetupDlg
+7.195.0.2 : 06:16:48.114 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.114 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.195.0.2 : 06:16:48.114 :     ENTRY: CSetupApp::IsLastUIURunning
+7.195.0.2 : 06:16:48.114 :       ENTRY: CFileUtils::NumberOfUIUInstancesRunning
+7.195.0.2 : 06:16:48.114 :       Found UIU Process Running : szProcessName = C:\Program Files\Conexant\Install\Audio\Flow\Setup.exe
+7.195.0.2 : 06:16:48.114 :       EXIT:  CFileUtils::NumberOfUIUInstancesRunning : dwUIUCnt = 1
+7.195.0.2 : 06:16:48.114 :     EXIT:  CSetupApp::IsLastUIU: IsLastUIURunning=1
+7.195.0.2 : 06:16:48.114 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.195.0.2 : 06:16:48.114 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.2 : 06:16:48.114 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.2 : 06:16:48.114 :   ENTRY: CSetupApp::SetupRetVal
+7.195.0.2 : 06:16:48.114 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.114 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.114 :     ENTRY: CSetupApp::ExitInstance()
+7.195.0.2 : 06:16:48.114 :       ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.195.0.2 : 06:16:48.114 :       CFileUtils::SignalMonitorAppSyncInfo : szFileName = C:\Program Files\Conexant\Install\Audio\Flow\Setup.exe
+7.195.0.2 : 06:16:48.114 :       EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.195.0.2 : 06:16:48.114 :     EXIT:  CSetupApp::ExitInstance()
