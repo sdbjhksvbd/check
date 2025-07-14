@@ -1,0 +1,6 @@
+<Application xmlns="http://ns.adobe.com/acrobat/app/2014" title="Generative summary" av2Title="Generative summary" id="GenAISummaryApp" description="Quickly understand documents and navigate to key sections with generative summary" av2Description="Quickly understand documents and navigate to key sections with generative summary" showLabels="true" majorVersion="1"  minorVersion="0">
+	<Layouts>
+		<Layout name="Default">
+		</Layout>
+	</Layouts>
+</Application>
