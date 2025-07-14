@@ -1,0 +1,28 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<TargetConfig Name="com:port=\\.\pipe\com_1,baud=115200,pipe" LastUsed="2025-07-07T07:55:28.3957657Z">
+  <EngineConfig />
+  <EngineOptions>
+    <Property name="InitialBreak" value="false" />
+    <Property name="InitialModuleBreak" value="true" />
+    <Property name="Elevate" value="false" />
+  </EngineOptions>
+  <TargetOptions>
+    <Option name="KernelConnect">
+      <Property name="ConnectionString" value="com:port=\\.\pipe\com_1,baud=115200,pipe" />
+      <Property name="ConnectionType" value="Default" />
+      <Property name="QuietMode" value="false" />
+      <Property name="InitialBreak" value="true" />
+    </Option>
+    <Option name="RestoreCommandHistory">
+      <Property name="History">
+        <Property value="!poolused 2" />
+        <Property value="!poolfind" />
+        <Property value="!poolfind -nonpaged -tag &quot;ABCD&quot;" />
+        <Property value="g" />
+      </Property>
+    </Option>
+    <Option name="RestoreBreakpoints">
+      <Property name="Breakpoints" />
+    </Option>
+  </TargetOptions>
+</TargetConfig>
