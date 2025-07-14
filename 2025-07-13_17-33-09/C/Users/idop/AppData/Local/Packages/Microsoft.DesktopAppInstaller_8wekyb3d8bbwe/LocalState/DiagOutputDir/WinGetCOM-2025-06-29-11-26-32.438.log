@@ -1,0 +1,529 @@
+2025-06-29 11:26:32.663 [CORE] WinGet, version [1.11.400], activity [{3B0F461F-A179-4BD9-8B76-25F026AD0456}]
+2025-06-29 11:26:32.663 [CORE] OS: Windows.Desktop v10.0.26100.4349
+2025-06-29 11:26:32.663 [CORE] Command line Args: "C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.26.400.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe" -Embedding
+2025-06-29 11:26:32.663 [CORE] Package: Microsoft.DesktopAppInstaller v1.26.400.0
+2025-06-29 11:26:32.663 [CORE] IsCOMCall:1; Caller: Microsoft.StorePurchaseApp_8wekyb3d8bbwe
+2025-06-29 11:26:32.699 [CORE] Default proxy is not set
+2025-06-29 11:26:32.699 [REPO] REST HTTP Client helper does not use proxy
+2025-06-29 11:26:32.699 [REPO] REST HTTP Client helper does not use proxy
+2025-06-29 11:26:32.791 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-29 11:26:32.816 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-29 11:26:33.151 [REPO] Response status: 200
+2025-06-29 11:26:33.151 [REPO] Response status: 200
+2025-06-29 11:26:33.155 [REPO] Authentication node not found. Assuming authentication type none.
+2025-06-29 11:26:33.155 [REPO] Authentication node not found. Assuming authentication type none.
+2025-06-29 11:26:33.220 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-06-29 11:26:33.273 [REPO] Reading MSI UpgradeCodes
+2025-06-29 11:26:33.323 [REPO] Reading MSI UpgradeCodes
+2025-06-29 11:26:34.084 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-06-29 11:26:34.087 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-06-29 11:26:34.089 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-06-29 11:26:34.090 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-06-30 11:26:32.329 [REPO] REST HTTP Client helper does not use proxy
+2025-06-30 11:26:32.329 [REPO] REST HTTP Client helper does not use proxy
+2025-06-30 11:26:32.418 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-30 11:26:32.421 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-30 11:26:32.844 [REPO] Response status: 200
+2025-06-30 11:26:32.844 [REPO] Authentication node not found. Assuming authentication type none.
+2025-06-30 11:26:32.845 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-06-30 11:26:32.847 [REPO] Response status: 200
+2025-06-30 11:26:32.848 [REPO] Authentication node not found. Assuming authentication type none.
+2025-06-30 11:26:32.856 [REPO] Reading MSI UpgradeCodes
+2025-06-30 11:26:32.912 [REPO] Reading MSI UpgradeCodes
+2025-06-30 11:26:33.247 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-06-30 11:26:33.250 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-06-30 11:26:33.252 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-06-30 11:26:33.254 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-01 11:38:26.664 [REPO] REST HTTP Client helper does not use proxy2025-07-01 11:38:26.664 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-01 11:38:26.796 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information2025-07-01 11:38:26.796 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+
+2025-07-01 11:38:26.835 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(2) tid(fb48) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 11:38:26.835 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(1) tid(ffd0) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 11:38:26.839 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(1) tid(ffd0) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(1) tid(ffd0) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 11:38:26.839 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(2) tid(fb48) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(2) tid(fb48) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 11:38:26.839 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(1) tid(ffd0) 80072EE7 
+2025-07-01 11:38:26.839 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(2) tid(fb48) 80072EE7 
+2025-07-01 11:38:26.840 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(3) tid(fb48) 80072EE7 
+2025-07-01 11:38:26.840 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(4) tid(ffd0) 80072EE7 
+2025-07-01 11:38:26.842 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error2025-07-01 11:38:26.842 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+
+2025-07-01 13:35:34.150 [REPO] REST HTTP Client helper does not use proxy2025-07-01 13:35:34.150 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-01 13:35:34.203 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 13:35:34.222 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(3) tid(e8f8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 13:35:34.222 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(3) tid(e8f8) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(3) tid(e8f8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 13:35:34.222 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(5) tid(e8f8) 80072EE7 
+2025-07-01 13:35:34.223 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(6) tid(e8f8) 80072EE7 
+2025-07-01 13:35:34.223 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 13:35:34.229 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 13:35:34.237 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(4) tid(fd4c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 13:35:34.237 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(4) tid(fd4c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(4) tid(fd4c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 13:35:34.237 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(7) tid(fd4c) 80072EE7 
+2025-07-01 13:35:34.237 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(8) tid(fd4c) 80072EE7 
+2025-07-01 13:35:34.237 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 15:32:09.533 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 15:32:09.534 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 15:32:09.595 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 15:32:09.595 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 15:32:09.612 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(6) tid(a70c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 15:32:09.612 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(5) tid(f8cc) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 15:32:09.612 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(5) tid(a70c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(6) tid(a70c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 15:32:09.612 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(9) tid(a70c) 80072EE7 
+2025-07-01 15:32:09.612 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(6) tid(f8cc) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(5) tid(f8cc) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 15:32:09.612 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(10) tid(f8cc) 80072EE7 
+2025-07-01 15:32:09.612 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(11) tid(a70c) 80072EE7 
+2025-07-01 15:32:09.612 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 15:32:09.612 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(12) tid(f8cc) 80072EE7 
+2025-07-01 15:32:09.612 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 17:34:52.267 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 17:34:52.267 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 17:34:52.322 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 17:34:52.322 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 17:34:52.338 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(7) tid(10b98) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 17:34:52.338 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(8) tid(10cc8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 17:34:52.338 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(7) tid(10b98) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(7) tid(10b98) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 17:34:52.338 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(13) tid(10b98) 80072EE7 
+2025-07-01 17:34:52.338 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(8) tid(10cc8) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(8) tid(10cc8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 17:34:52.338 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(14) tid(10b98) 80072EE7 
+2025-07-01 17:34:52.338 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(15) tid(10cc8) 80072EE7 
+2025-07-01 17:34:52.338 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 17:34:52.339 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(16) tid(10cc8) 80072EE7 
+2025-07-01 17:34:52.339 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 19:34:37.076 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 19:34:37.076 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 19:34:37.134 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 19:34:37.153 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(9) tid(f1b4) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 19:34:37.153 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(9) tid(f1b4) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(9) tid(f1b4) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 19:34:37.153 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(17) tid(f1b4) 80072EE7 
+2025-07-01 19:34:37.153 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(18) tid(f1b4) 80072EE7 
+2025-07-01 19:34:37.153 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 19:34:37.170 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 19:34:37.178 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(10) tid(109bc) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 19:34:37.179 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(10) tid(109bc) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(10) tid(109bc) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 19:34:37.179 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(19) tid(109bc) 80072EE7 
+2025-07-01 19:34:37.179 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(20) tid(109bc) 80072EE7 
+2025-07-01 19:34:37.179 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 21:29:32.612 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 21:29:32.613 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 21:29:32.672 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 21:29:32.691 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(11) tid(114c8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 21:29:32.691 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(11) tid(114c8) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(11) tid(114c8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 21:29:32.691 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(21) tid(114c8) 80072EE7 
+2025-07-01 21:29:32.691 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(22) tid(114c8) 80072EE7 
+2025-07-01 21:29:32.691 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 21:29:32.733 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 21:29:32.755 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(12) tid(10db4) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 21:29:32.755 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(12) tid(10db4) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(12) tid(10db4) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 21:29:32.755 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(23) tid(10db4) 80072EE7 
+2025-07-01 21:29:32.755 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(24) tid(10db4) 80072EE7 
+2025-07-01 21:29:32.755 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 23:29:12.077 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 23:29:12.077 [REPO] REST HTTP Client helper does not use proxy
+2025-07-01 23:29:12.213 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 23:29:12.221 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-01 23:29:12.230 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(13) tid(12404) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 23:29:12.231 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(13) tid(12404) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(13) tid(12404) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 23:29:12.231 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(25) tid(12404) 80072EE7 
+2025-07-01 23:29:12.231 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(14) tid(1154c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-01 23:29:12.231 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(26) tid(12404) 80072EE7 
+2025-07-01 23:29:12.231 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(14) tid(1154c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(14) tid(1154c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-01 23:29:12.231 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(27) tid(1154c) 80072EE7 
+2025-07-01 23:29:12.231 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-01 23:29:12.231 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(28) tid(1154c) 80072EE7 
+2025-07-01 23:29:12.231 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 01:26:45.428 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 01:26:45.428 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 01:26:45.502 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 01:26:45.521 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(15) tid(11a14) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 01:26:45.521 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(15) tid(11a14) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(15) tid(11a14) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 01:26:45.521 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(29) tid(11a14) 80072EE7 
+2025-07-02 01:26:45.522 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(30) tid(11a14) 80072EE7 
+2025-07-02 01:26:45.522 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 01:26:45.537 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 01:26:45.545 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(16) tid(c790) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 01:26:45.545 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(16) tid(c790) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(16) tid(c790) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 01:26:45.545 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(31) tid(c790) 80072EE7 
+2025-07-02 01:26:45.546 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(32) tid(c790) 80072EE7 
+2025-07-02 01:26:45.546 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 03:36:39.152 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 03:36:39.152 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 03:36:39.225 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 03:36:39.243 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(17) tid(e850) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 03:36:39.244 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(17) tid(e850) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(17) tid(e850) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 03:36:39.244 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(33) tid(e850) 80072EE7 
+2025-07-02 03:36:39.244 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(34) tid(e850) 80072EE7 
+2025-07-02 03:36:39.244 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 03:36:39.271 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 03:36:39.281 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(18) tid(d1a8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 03:36:39.281 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(18) tid(d1a8) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(18) tid(d1a8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 03:36:39.281 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(35) tid(d1a8) 80072EE7 
+2025-07-02 03:36:39.282 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(36) tid(d1a8) 80072EE7 
+2025-07-02 03:36:39.282 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 05:32:20.106 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 05:32:20.106 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 05:32:20.160 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 05:32:20.162 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 05:32:20.177 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(20) tid(864c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 05:32:20.177 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(19) tid(12d58) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 05:32:20.177 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(19) tid(864c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(20) tid(864c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 05:32:20.177 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(20) tid(12d58) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(19) tid(12d58) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 05:32:20.178 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(37) tid(864c) 80072EE7 
+2025-07-02 05:32:20.178 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(38) tid(12d58) 80072EE7 
+2025-07-02 05:32:20.178 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(39) tid(12d58) 80072EE7 
+2025-07-02 05:32:20.178 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(40) tid(864c) 80072EE7 
+2025-07-02 05:32:20.178 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 05:32:20.178 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 07:33:21.937 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 07:33:21.937 [REPO] REST HTTP Client helper does not use proxy
+2025-07-02 07:33:22.001 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 07:33:22.018 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(21) tid(f7e4) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 07:33:22.018 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(21) tid(f7e4) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(21) tid(f7e4) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 07:33:22.018 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(41) tid(f7e4) 80072EE7 
+2025-07-02 07:33:22.019 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(42) tid(f7e4) 80072EE7 
+2025-07-02 07:33:22.019 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 07:33:22.044 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 07:33:22.052 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(22) tid(420c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-02 07:33:22.052 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(22) tid(420c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(22) tid(420c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-02 07:33:22.052 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(43) tid(420c) 80072EE7 
+2025-07-02 07:33:22.052 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(44) tid(420c) 80072EE7 
+2025-07-02 07:33:22.052 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-02 09:26:35.517 [REPO] REST HTTP Client helper does not use proxy2025-07-02 09:26:35.517 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-02 09:26:35.569 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 09:26:35.575 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-02 09:26:36.054 [REPO] Response status: 200
+2025-07-02 09:26:36.056 [REPO] Response status: 200
+2025-07-02 09:26:36.059 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-02 09:26:36.059 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-02 09:26:36.067 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-07-02 09:26:36.088 [REPO] Reading MSI UpgradeCodes
+2025-07-02 09:26:36.198 [REPO] Reading MSI UpgradeCodes
+2025-07-02 09:26:36.684 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-02 09:26:36.688 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-02 09:26:36.690 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-02 09:26:36.692 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-03 09:30:39.095 [REPO] REST HTTP Client helper does not use proxy2025-07-03 09:30:39.095 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-03 09:30:39.168 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information2025-07-03 09:30:39.168 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+
+2025-07-03 09:30:39.199 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(24) tid(17d6c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-03 09:30:39.199 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(23) tid(170e8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-03 09:30:39.203 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(24) tid(170e8) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(23) tid(170e8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-03 09:30:39.203 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(23) tid(17d6c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(24) tid(17d6c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-03 09:30:39.203 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(45) tid(170e8) 80072EE7 
+2025-07-03 09:30:39.203 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(46) tid(17d6c) 80072EE7 
+2025-07-03 09:30:39.204 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(47) tid(170e8) 80072EE7 
+2025-07-03 09:30:39.204 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(48) tid(17d6c) 80072EE7 
+2025-07-03 09:30:39.206 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-03 09:30:39.206 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-03 11:26:32.700 [REPO] REST HTTP Client helper does not use proxy
+2025-07-03 11:26:32.700 [REPO] REST HTTP Client helper does not use proxy
+2025-07-03 11:26:32.774 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information2025-07-03 11:26:32.774 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+
+2025-07-03 11:26:32.917 [REPO] Response status: 200
+2025-07-03 11:26:32.918 [REPO] Response status: 200
+2025-07-03 11:26:32.919 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-03 11:26:32.919 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-03 11:26:32.923 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-07-03 11:26:32.940 [REPO] Reading MSI UpgradeCodes
+2025-07-03 11:26:33.004 [REPO] Reading MSI UpgradeCodes
+2025-07-03 11:26:33.361 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-03 11:26:33.365 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-03 11:26:33.367 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-03 11:26:33.368 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-06 13:40:50.078 [REPO] REST HTTP Client helper does not use proxy2025-07-06 13:40:50.078 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-06 13:40:50.156 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-06 13:40:50.156 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-06 13:40:50.193 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(25) tid(1ad50) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-06 13:40:50.193 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(26) tid(16e4c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-07-06 13:40:50.196 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(26) tid(16e4c) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(26) tid(16e4c) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-06 13:40:50.196 [FAIL] WindowsPackageManager.dll!00007FFFA059B456: ReturnHr(25) tid(1ad50) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFFA04B4E0D: (caller: 00007FFFA05BDD76) Exception(25) tid(1ad50) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+2025-07-06 13:40:50.196 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(49) tid(16e4c) 80072EE7 
+2025-07-06 13:40:50.196 [FAIL] WindowsPackageManager.dll!00007FFFA03F6CA7: LogHr(50) tid(1ad50) 80072EE7 
+2025-07-06 13:40:50.197 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(51) tid(1ad50) 80072EE7 
+2025-07-06 13:40:50.197 [FAIL] WindowsPackageManager.dll!00007FFFA023DCBA: LogHr(52) tid(16e4c) 80072EE7 
+2025-07-06 13:40:50.199 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-06 13:40:50.199 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+2025-07-06 15:28:22.006 [REPO] REST HTTP Client helper does not use proxy
+2025-07-06 15:28:22.006 [REPO] REST HTTP Client helper does not use proxy
+2025-07-06 15:28:22.098 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-06 15:28:22.132 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-06 15:28:22.277 [REPO] Response status: 2002025-07-06 15:28:22.277 [REPO] Response status: 200
+
+2025-07-06 15:28:22.280 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-06 15:28:22.280 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-06 15:28:22.284 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-07-06 15:28:22.302 [REPO] Reading MSI UpgradeCodes
+2025-07-06 15:28:22.386 [REPO] Reading MSI UpgradeCodes
+2025-07-06 15:28:22.805 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-06 15:28:22.808 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-06 15:28:22.811 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-06 15:28:22.812 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 09:55:47.692 [REPO] REST HTTP Client helper does not use proxy
+2025-07-07 09:55:47.767 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 09:55:48.099 [REPO] Response status: 200
+2025-07-07 09:55:48.102 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 09:55:48.191 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 09:55:48.199 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 09:55:48.206 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/packageManifests/XPDC2RH70K22MN?Market=US
+2025-07-07 09:55:48.296 [REPO] Response status: 200
+2025-07-07 09:55:48.458 [REPO] Found multiple results for Id [XPDC2RH70K22MN] in tracking catalog for: msstore
+2025-07-07 09:55:53.030 [REPO] REST HTTP Client helper does not use proxy
+2025-07-07 09:55:53.070 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 09:55:53.151 [REPO] Response status: 200
+2025-07-07 09:55:53.151 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 09:55:53.170 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 09:55:53.171 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 09:55:53.173 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/packageManifests/XP9KHM4BK9FZ7Q?Market=US
+2025-07-07 09:55:53.255 [REPO] Response status: 200
+2025-07-07 09:55:53.258 [REPO] Found multiple results for Id [XP9KHM4BK9FZ7Q] in tracking catalog for: msstore
+2025-07-07 09:55:53.395 [REPO] REST HTTP Client helper does not use proxy
+2025-07-07 09:55:53.433 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 09:55:53.512 [REPO] Response status: 200
+2025-07-07 09:55:53.512 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 09:55:53.535 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 09:55:53.536 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 09:55:53.540 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/packageManifests/XP8LFCZM790F6B?Market=US
+2025-07-07 09:55:53.582 [REPO] REST HTTP Client helper does not use proxy
+2025-07-07 09:55:53.619 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 09:55:53.636 [REPO] Response status: 200
+2025-07-07 09:55:53.638 [REPO] Found multiple results for Id [XP8LFCZM790F6B] in tracking catalog for: msstore
+2025-07-07 09:55:53.920 [REPO] Response status: 200
+2025-07-07 09:55:53.920 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 09:55:53.936 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 09:55:53.937 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 09:55:53.940 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/packageManifests/XPFNZKSKLBP7RJ?Market=US
+2025-07-07 09:55:54.021 [REPO] Response status: 200
+2025-07-07 09:55:54.024 [REPO] Found multiple results for Id [XPFNZKSKLBP7RJ] in tracking catalog for: msstore
+2025-07-07 09:55:55.412 [REPO] REST HTTP Client helper does not use proxy
+2025-07-07 09:55:55.458 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 09:55:55.543 [REPO] Response status: 200
+2025-07-07 09:55:55.543 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 09:55:55.564 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 09:55:55.566 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 15:27:07.244 [REPO] REST HTTP Client helper does not use proxy2025-07-07 15:27:07.244 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-07 15:27:07.310 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 15:27:07.310 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-07 15:27:07.682 [REPO] Response status: 200
+2025-07-07 15:27:07.685 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 15:27:07.687 [REPO] Response status: 200
+2025-07-07 15:27:07.688 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-07 15:27:07.758 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 15:27:07.762 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-07 15:27:07.765 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-07 15:27:07.767 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-08 15:28:20.515 [REPO] REST HTTP Client helper does not use proxy
+2025-07-08 15:28:20.515 [REPO] REST HTTP Client helper does not use proxy
+2025-07-08 15:28:20.592 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-08 15:28:20.592 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-07-08 15:28:20.958 [REPO] Response status: 200
+2025-07-08 15:28:20.959 [REPO] Response status: 200
+2025-07-08 15:28:20.960 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-08 15:28:20.960 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-08 15:28:20.963 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-07-08 15:28:20.982 [REPO] Reading MSI UpgradeCodes
+2025-07-08 15:28:21.053 [REPO] Reading MSI UpgradeCodes
+2025-07-08 15:28:21.459 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-08 15:28:21.463 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-08 15:28:21.465 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-08 15:28:21.467 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-13 10:15:31.428 [REPO] REST HTTP Client helper does not use proxy2025-07-13 10:15:31.428 [REPO] REST HTTP Client helper does not use proxy
+
+2025-07-13 10:15:32.102 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information2025-07-13 10:15:32.102 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+
+2025-07-13 10:15:32.533 [REPO] Response status: 200
+2025-07-13 10:15:32.536 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-13 10:15:32.541 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-07-13 10:15:32.558 [REPO] Reading MSI UpgradeCodes
+2025-07-13 10:15:32.645 [REPO] Reading MSI UpgradeCodes
+2025-07-13 10:15:32.815 [REPO] Response status: 200
+2025-07-13 10:15:32.816 [REPO] Authentication node not found. Assuming authentication type none.
+2025-07-13 10:15:33.149 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-13 10:15:33.153 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
+2025-07-13 10:15:33.155 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-07-13 10:15:33.156 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
