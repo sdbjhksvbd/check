@@ -1,0 +1,18 @@
+<Application xmlns="http://ns.adobe.com/acrobat/app/2014" title="Create PDF" av2Title="Create a PDF" description="Create a PDF from any format" richTooltip = "Create PDFs from images, Microsoft files, scanned files, web pages, or a blank page." av2Description="Create PDFs from images, Microsoft Office files, and more" id="CPDFAppFull" majorVersion="1" minorVersion="0">
+	<Commands>
+	</Commands>
+	<Layouts>
+		<Layout name="Default">
+                        <TopBarLeft align="Left">
+                                <Component type="Label" label="Create a PDF" fontSize="18" bold="true"/>
+                                <Component type="Bitmap" name="AV2PremiumIndicatorCPDFDeeperExp" width="16" height="16" colorize="false"/>
+			</TopBarLeft>
+                        <TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp"/>
+			</TopBarRight>
+			<ContentView>
+				<Component name="CreatePDFView" type="Custom"/>
+			</ContentView>
+		</Layout>
+	</Layouts>
+</Application>
