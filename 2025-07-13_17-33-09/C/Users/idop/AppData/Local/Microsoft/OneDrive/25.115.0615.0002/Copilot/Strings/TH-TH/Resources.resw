@@ -1,0 +1,6 @@
+<root>
+  <data name="OneDrive_CreateFAQ_Description">
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸„à¸³à¸–à¸²à¸¡à¸—à¸µà¹ˆà¸–à¸²à¸¡à¸šà¹ˆà¸­à¸¢à¸”à¹‰à¸§à¸¢ Copilot</value>
+    <comment>Description of the action that generates FAQ from a file in user's OneDrive</comment>
+  </data>
+</root>
