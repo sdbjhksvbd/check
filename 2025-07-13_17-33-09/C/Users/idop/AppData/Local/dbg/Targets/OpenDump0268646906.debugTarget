@@ -1,0 +1,20 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<TargetConfig Name="C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp" LastUsed="2025-07-07T08:08:26.4240895Z">
+  <EngineConfig />
+  <EngineOptions />
+  <TargetOptions>
+    <Option name="OpenDump">
+      <Property name="DumpPath" value="C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp" />
+    </Option>
+    <Option name="RestoreCommandHistory">
+      <Property name="History">
+        <Property value="!poolused 2" />
+        <Property value="nt!MmNonPagedPoolStart L1" />
+        <Property value="nt!MmNonPagedPoolStart" />
+        <Property value="dd nt!MmNonPagedPoolStart" />
+        <Property value="dd nt!MmNonPagedPoolStart L1" />
+        <Property value="!poolfind Mm*" />
+      </Property>
+    </Option>
+  </TargetOptions>
+</TargetConfig>
