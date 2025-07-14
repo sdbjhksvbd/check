@@ -1,0 +1,372 @@
+2025-07-07:10:49:33:238 : Information : DbgX.Shell.dll : OS Version: (Windows 10 Enterprise.10.0.26100) (26100.1.amd64fre.ge_release.240331-1435) (64-bit)
+2025-07-07:10:49:33:322 : Information : DbgX.Services.dll : DbgX.xml file loaded, SHA256 hash is: 36668D5EA6777E884831924F64D3AA369B8AA94212344DE4EF65E61F9ABB
+2025-07-07:10:49:33:355 : Information : DbgX.Debugger.dll : (E) Home directory is: C:\ProgramData\Dbg
+2025-07-07:10:49:33:370 : Information : DbgXUI.dll : Startup script on application start is: 
+
+2025-07-07:10:49:33:378 : Information : DbgX.External.dll : EulaState is accepted
+2025-07-07:10:49:33:678 : Information : DbgXUI.dll : AddressEvaluationViewModel.AddressExpression set to: @$scopeip
+2025-07-07:10:49:34:175 : Information : DbgX.Shell.dll : Version: 1.2504.15001.0
+2025-07-07:10:49:34:841 : Information : DbgX.Shell.dll : Command line: "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\DbgX.Shell.dll" -z "C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp"
+2025-07-07:10:49:34:860 : Information : DbgX.Services.dll : WldpQuerySecurityPolicy(Microsoft.WindbgX, Settings, EnableRestrictedMode, ...) returned HRESULT STATUS_NOT_FOUND
+2025-07-07:10:49:34:891 : Information : DbgXUI.dll : Evaluating address expression '@$scopeip'
+2025-07-07:10:49:34:894 : Information : DbgXUI.dll : Target not in state for evaluation: NoSession, NoTarget
+2025-07-07:10:49:34:894 : Information : DbgXUI.dll : Address expression not evaluated: '@$scopeip'
+2025-07-07:10:49:34:998 : Information : DbgX.Shell.dll : Total startup time: 3617 ms
+2025-07-07:10:49:35:000 : Information : DbgX.Shell.dll :     Phase 'Process startup' time: 437 ms, started at 0 ms
+2025-07-07:10:49:35:000 : Information : DbgX.Shell.dll :     Phase 'Compatibility mitigations' time: 3 ms, started at 482 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'Create main window' time: 544 ms, started at 489 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'Composition catalog' time: 127 ms, started at 489 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'Merging resource dictionaries' time: 60 ms, started at 1034 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'Compose components' time: 761 ms, started at 1097 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'Setting main window viewmodel' time: 28 ms, started at 1882 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'Startup listeners' time: 95 ms, started at 1910 ms
+2025-07-07:10:49:35:001 : Information : DbgX.Shell.dll :     Phase 'ViewManager initialization' time: 422 ms, started at 2006 ms
+2025-07-07:10:49:35:002 : Information : DbgX.Shell.dll :     Phase 'Main window show' time: 1187 ms, started at 2429 ms
+2025-07-07:10:49:35:002 : Information : DbgX.Shell.dll :     Phase 'Shell startup listeners' time: 12 ms, started at 3450 ms
+2025-07-07:10:49:35:002 : Information : DbgX.Shell.dll :     Phase 'Command line processing' time: 37 ms, started at 3463 ms
+2025-07-07:10:49:35:005 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_671ee31c99844e0996469843553131f0,password=6cc587004dbb "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:10:49:35:031 : Information : DbgX.Debugger.dll : (E) Added process EngHost (133748) to job object cdaeb438-f4ce-4ba1-8d04-1a931fbd08af
+2025-07-07:10:49:35:246 : Information : DbgX.Debugger.dll : (E) DebugConnect returned S_OK
+2025-07-07:10:49:35:257 : Information : DbgX.Debugger.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:10:49:35:262 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:10:49:35:265 : Information : DbgX.Debugger.dll : (E) Code level changed to SOURCE
+2025-07-07:10:49:35:268 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:10:49:35:269 : Information : DbgX.Debugger.dll : (E) Symbol path = '', source path = '' (Checking for client refresh)
+2025-07-07:10:49:35:270 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x20a74): SetParentHWndRequest: ParentHWND '5638414'
+2025-07-07:10:49:35:271 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : SetParentHWndRequest: ParentHWND '5638414'
+2025-07-07:10:49:35:271 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x20a74): OpenDumpFileRequest: Dump File 'C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp'
+2025-07-07:10:49:35:285 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_9153e9a55c3a4db7a6f71734ba71d510,password=2df0b3a44496 "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:10:49:35:295 : Information : DbgX.Debugger.dll : (E) Added process EngHost (135592) to job object f05caff8-e9ba-40b4-8ea3-c353d8d1f4b9
+2025-07-07:10:49:35:512 : Information : DbgX.Debugger.dll : (E) DebugConnect returned S_OK
+2025-07-07:10:49:35:518 : Information : DbgX.Debugger.dll : (E) Killing process EngHost (133748) for job object cdaeb438-f4ce-4ba1-8d04-1a931fbd08af (HasExited: False)
+2025-07-07:10:49:35:518 : Information : DbgX.Debugger.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:10:49:35:520 : Information : DbgX.Debugger.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:10:49:35:520 : Information : DbgX.Debugger.dll : (E) Code level changed to SOURCE
+2025-07-07:10:49:35:522 : Information : DbgX.Debugger.dll : (E) Symbol path = '', source path = '' (Checking for client refresh)
+2025-07-07:10:49:35:523 : Information : DbgX.Debugger.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:10:49:35:535 : Information : DbgX.Services.dll : DbgEng : 
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+
+2025-07-07:10:49:35:553 : Information : DbgX.Services.dll : DbgEng :    ExtensionRepository : Implicit
+
+2025-07-07:10:49:35:553 : Information : DbgX.Services.dll : DbgEng :    UseExperimentalFeatureForNugetShare : true
+
+2025-07-07:10:49:35:554 : Information : DbgX.Services.dll : DbgEng :    AllowNugetExeUpdate : true
+
+2025-07-07:10:49:35:554 : Information : DbgX.Services.dll : DbgEng :    NonInteractiveNuget : true
+
+2025-07-07:10:49:35:554 : Information : DbgX.Services.dll : DbgEng :    AllowNugetMSCredentialProviderInstall : true
+
+2025-07-07:10:49:35:554 : Information : DbgX.Services.dll : DbgEng :    AllowParallelInitializationOfLocalRepositories : true
+
+2025-07-07:10:49:35:554 : Information : DbgX.Services.dll : DbgEng :    EnableRedirectToChakraJsProvider : false
+
+2025-07-07:10:49:35:555 : Information : DbgX.Services.dll : DbgEng : 
+
+2025-07-07:10:49:35:555 : Information : DbgX.Services.dll : DbgEng :    -- Configuring repositories
+
+2025-07-07:10:49:35:555 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : LocalInstalled, Enabled: true
+
+2025-07-07:10:49:35:555 : Information : DbgX.Services.dll : DbgEng :       ----> Repository : UserExtensions, Enabled: true
+
+2025-07-07:10:49:35:555 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+2025-07-07:10:49:35:556 : Information : DbgX.Services.dll : DbgEng : 
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+2025-07-07:10:49:35:577 : Information : DbgX.Services.dll : DbgEng : 
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+
+2025-07-07:10:49:35:577 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+
+2025-07-07:10:49:35:578 : Information : DbgX.Services.dll : DbgEng :    ----> Repository : LocalInstalled, Enabled: true, Packages count: 44
+
+2025-07-07:10:49:35:596 : Information : DbgX.Debugger.dll : (E) Current target type is DumpKernel
+2025-07-07:10:49:35:597 : Information : DbgX.Debugger.dll : (E) Calling WaitForEvent
+2025-07-07:10:49:35:602 : Information : DbgX.Services.dll : ServiceManager : Service '{507c628c-ddc3-4829-91af-01e1bf541b7b}' added to the service container
+2025-07-07:10:49:35:603 : Information : DbgX.Services.dll : ServiceManager : Service '{91d9084f-a8ac-4d4f-88e1-5e65e8a64c60}' added to the service container
+2025-07-07:10:49:35:603 : Information : DbgX.Services.dll : Verbose : ELFBin : Checking for ELF signature
+2025-07-07:10:49:35:603 : Information : DbgX.Services.dll : Verbose : ELFBin : File header does not match ELF signature.  Not processing as an ELF file
+2025-07-07:10:49:35:604 : Information : DbgX.Services.dll : Verbose : ELFBin : Checking for KDump signature
+2025-07-07:10:49:35:604 : Information : DbgX.Services.dll : Verbose : ELFBin : File header does not match KDump signature.  Not processing as a KDump file
+2025-07-07:10:49:35:626 : Information : DbgX.Services.dll : DbgEng : DownloadUpdates completed. Repository type:3, elapsed time: 0.
+2025-07-07:10:49:35:626 : Error : DbgX.Services.dll : DbgEng : Read XML manifest error: Manifest C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\OptionalExtensions\Acxkd_GalleryManifest.xml, unexpected parse error at line:1, position:40.
+2025-07-07:10:49:35:627 : Information : DbgX.Services.dll : DbgEng : DownloadUpdates completed. Repository type:1, elapsed time: 0.
+2025-07-07:10:49:35:658 : Information : DbgX.Services.dll : DbgEng : Connected to KD target version 7601.24291.amd64fre.win7sp1_ldr_escrow.181110-1429
+2025-07-07:10:49:35:667 : Information : DbgX.Services.dll : Activity started: Downloading file ntkrnlmp.exe
+2025-07-07:10:49:35:670 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 5BE77B8B5dc000
+2025-07-07:10:49:35:671 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\5BE77B8B5dc000\ntkrnlmp.exe
+2025-07-07:10:49:35:672 : Information : DbgX.Services.dll : Activity completed (4 ms): Downloading file ntkrnlmp.exe
+2025-07-07:10:49:35:675 : Information : DbgX.Services.dll : Activity started: Loading symbols for ntkrnlmp
+2025-07-07:10:49:35:719 : Information : DbgX.Services.dll : Activity started: Downloading file ntkrnlmp.pdb
+2025-07-07:10:49:35:722 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 0D850C4D902640DFB487885688EA42131
+2025-07-07:10:49:35:722 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\0D850C4D902640DFB487885688EA42131\ntkrnlmp.pdb
+2025-07-07:10:49:35:723 : Information : DbgX.Services.dll : Activity completed (3 ms): Downloading file ntkrnlmp.pdb
+2025-07-07:10:49:35:887 : Information : DbgX.Services.dll : Activity completed (212 ms): Loading symbols for ntkrnlmp
+2025-07-07:10:49:36:089 : Information : DbgX.Services.dll : ServiceManager : Service '{507c628c-ddc3-4829-91af-01e1bf541b7b}' added to the service container
+2025-07-07:10:49:36:089 : Information : DbgX.Services.dll : ServiceManager : Service '{91d9084f-a8ac-4d4f-88e1-5e65e8a64c60}' added to the service container
+2025-07-07:10:49:36:089 : Information : DbgX.Services.dll : ServiceManager : Service '{a3371693-c1eb-4acd-a459-891ad2354f7e}' added to the service container
+2025-07-07:10:49:36:089 : Information : DbgX.Services.dll : ServiceManager : Service '{bfc2f315-ab73-4876-bced-1d6cd5d3a8c3}' added to the service container
+2025-07-07:10:49:36:090 : Information : DbgX.Services.dll : ServiceManager : Service '{0e1096d0-9e8d-46fe-94a5-fcd06b38ff21}' added to the service container
+2025-07-07:10:49:36:090 : Information : DbgX.Services.dll : ServiceManager : Service '{8514f5bc-5827-4794-bf0f-619c8fd2e84e}' added to the service container
+2025-07-07:10:49:36:090 : Information : DbgX.Services.dll : ServiceManager : Service '{355ed9b0-8af4-4b91-8ad0-c71af8adf5ec}' added to the service container
+2025-07-07:10:49:36:090 : Information : DbgX.Services.dll : ServiceManager : Service '{39b29a74-4608-4a1d-8102-d68f7391e8b5}' added to the service container
+2025-07-07:10:49:36:090 : Information : DbgX.Services.dll : ServiceManager : Service '{0516bf7f-2644-4ea4-a151-b55ae016b213}' added to the service container
+2025-07-07:10:49:36:091 : Information : DbgX.Services.dll : ServiceManager : Service '{7b88e717-f162-4cfe-b643-54c1122d0670}' added to the service container
+2025-07-07:10:49:36:091 : Information : DbgX.Services.dll : ServiceManager : Service '{f656ec69-9e28-41ba-bc6a-caf8a5cec8ed}' added to the service container
+2025-07-07:10:49:36:091 : Information : DbgX.Services.dll : ServiceManager : Service '{da9dcfae-3cb4-48a8-a5ea-6b63abcb5ce7}' added to the service container
+2025-07-07:10:49:36:091 : Information : DbgX.Services.dll : ServiceManager : Service '{4561b256-6818-4039-9915-fc8a0f53e338}' added to the service container
+2025-07-07:10:49:36:091 : Information : DbgX.Services.dll : DbgEng : Connected to KD target version 7601.24291.amd64fre.win7sp1_ldr_escrow.181110-1429
+2025-07-07:10:49:36:092 : Information : DbgX.Services.dll : Activity started: Downloading file ntkrnlmp.exe
+2025-07-07:10:49:36:096 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 5BE77B8B5dc000
+2025-07-07:10:49:36:096 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\5BE77B8B5dc000\ntkrnlmp.exe
+2025-07-07:10:49:36:097 : Information : DbgX.Services.dll : Activity completed (4 ms): Downloading file ntkrnlmp.exe
+2025-07-07:10:49:36:100 : Information : DbgX.Services.dll : Activity started: Loading symbols for ntkrnlmp
+2025-07-07:10:49:36:102 : Information : DbgX.Services.dll : Activity started: Downloading file ntkrnlmp.pdb
+2025-07-07:10:49:36:108 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 0D850C4D902640DFB487885688EA42131
+2025-07-07:10:49:36:109 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\0D850C4D902640DFB487885688EA42131\ntkrnlmp.pdb
+2025-07-07:10:49:36:109 : Information : DbgX.Services.dll : Activity completed (6 ms): Downloading file ntkrnlmp.pdb
+2025-07-07:10:49:36:112 : Information : DbgX.Services.dll : Activity completed (12 ms): Loading symbols for ntkrnlmp
+2025-07-07:10:49:36:152 : Information : DbgX.Services.dll : Activity started: Loading symbols for Unknown_Module_00000000`00000000
+2025-07-07:10:49:36:157 : Information : DbgX.Services.dll : Activity started: Downloading file Unknown_Module_00000000`00000000
+2025-07-07:10:49:36:159 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 000000000000000000000000000000001000
+2025-07-07:10:49:36:626 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/index2.txt
+2025-07-07:10:49:36:798 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/Unknown_Module_00000000%6000000000/000000000000000000000000000000001000/Unknown_Module_00000000%6000000000
+2025-07-07:10:49:36:949 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/Unknown_Module_00000000%6000000000/000000000000000000000000000000001000/Unknown_Module_00000000%600000000_
+2025-07-07:10:49:37:093 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/Unknown_Module_00000000%6000000000/000000000000000000000000000000001000/file.ptr
+2025-07-07:10:49:37:094 : Warning : DbgX.Services.dll : SymSrv : Failed to retrieve file, error code: 80190194
+2025-07-07:10:49:37:095 : Information : DbgX.Services.dll : Activity completed (937 ms): Downloading file Unknown_Module_00000000`00000000
+2025-07-07:10:49:37:098 : Information : DbgX.Services.dll : Activity started: Downloading file Unknown_Module_00000000`00000000
+2025-07-07:10:49:37:100 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 000000000000000000000000000000001000
+2025-07-07:10:49:37:139 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/Unknown_Module_00000000%6000000000/000000000000000000000000000000001000/Unknown_Module_00000000%6000000000
+2025-07-07:10:49:37:184 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/Unknown_Module_00000000%6000000000/000000000000000000000000000000001000/Unknown_Module_00000000%600000000_
+2025-07-07:10:49:37:228 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_NOT_FOUND - /download/symbols/Unknown_Module_00000000%6000000000/000000000000000000000000000000001000/file.ptr
+2025-07-07:10:49:37:228 : Warning : DbgX.Services.dll : SymSrv : Failed to retrieve file, error code: 80190194
+2025-07-07:10:49:37:228 : Information : DbgX.Services.dll : Activity completed (130 ms): Downloading file Unknown_Module_00000000`00000000
+2025-07-07:10:49:37:233 : Information : DbgX.Services.dll : Activity completed (1080 ms): Loading symbols for Unknown_Module_00000000`00000000
+2025-07-07:10:49:37:249 : Information : DbgX.Debugger.dll : (E) Session state change: ACTIVE
+2025-07-07:10:49:37:253 : Information : DbgX.Debugger.dll : (E) WaitForEvent returned: S_OK
+2025-07-07:10:49:37:254 : Information : DbgX.Debugger.dll : (E) Engine state changed during WaitForEvent: BREAK
+2025-07-07:10:49:37:257 : Information : DbgX.Debugger.dll : (E) Engine state change from request: BREAK
+2025-07-07:10:49:37:257 : Information : DbgX.Debugger.dll : (E) Completed request (1985 ms) : OpenDumpFileRequest: Dump File 'C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp'
+2025-07-07:10:49:37:259 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 4
+2025-07-07:10:49:37:259 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 0] [count 256]
+2025-07-07:10:49:37:261 : Information : DbgX.Debugger.dll : (E) Completed request (2 ms) : ReadVirtualMemoryRequest: [offset 0] [count 256]
+2025-07-07:10:49:37:261 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 3
+2025-07-07:10:49:37:261 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 256] [count 256]
+2025-07-07:10:49:37:261 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 256] [count 256]
+2025-07-07:10:49:37:262 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 2
+2025-07-07:10:49:37:262 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446744073709551360] [count 256]
+2025-07-07:10:49:37:262 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446744073709551360] [count 256]
+2025-07-07:10:49:37:262 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 1
+2025-07-07:10:49:37:263 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r2  Debugger.State.Views 
+2025-07-07:10:49:37:269 : Information : DbgX.Debugger.dll : (E) Completed request (6 ms) : ModelQueryRequest: -r2  Debugger.State.Views 
+2025-07-07:10:49:37:271 : Information : DbgX.Debugger.dll : (E) Refresh: Memory, Registers, DebuggerState, Scope, ConnectionState, Modules
+2025-07-07:10:49:37:271 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:37:274 : Information : DbgX.Services.dll : Activity started: Loading symbols for kdcom
+2025-07-07:10:49:37:276 : Information : DbgX.Services.dll : Activity started: Downloading file kdcom.dll
+2025-07-07:10:49:37:278 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 4D4D8061a000
+2025-07-07:10:49:37:279 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\kdcom.dll\4D4D8061a000\kdcom.dll
+2025-07-07:10:49:37:279 : Information : DbgX.Services.dll : Activity completed (2 ms): Downloading file kdcom.dll
+2025-07-07:10:49:37:282 : Information : DbgX.Services.dll : Activity started: Downloading file kdcom.pdb
+2025-07-07:10:49:37:285 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: D3D855684F404CBA87F9AD4037E357342
+2025-07-07:10:49:37:285 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\kdcom.pdb\D3D855684F404CBA87F9AD4037E357342\kdcom.pdb
+2025-07-07:10:49:37:286 : Information : DbgX.Services.dll : Activity completed (3 ms): Downloading file kdcom.pdb
+2025-07-07:10:49:37:288 : Information : DbgX.Services.dll : Activity completed (13 ms): Loading symbols for kdcom
+2025-07-07:10:49:37:292 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r1  @$bphit 
+2025-07-07:10:49:37:293 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ModelQueryRequest: -r1  @$bphit 
+2025-07-07:10:49:37:293 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:37:321 : Information : DbgXUI.dll : Evaluating address expression '@$scopeip'
+2025-07-07:10:49:37:326 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r1  @$scopeip 
+2025-07-07:10:49:37:327 : Information : DbgX.Debugger.dll : (E) Completed request (1 ms) : ModelQueryRequest: -r1  @$scopeip 
+2025-07-07:10:49:37:327 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:37:375 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): IsPointer64BitRequest
+2025-07-07:10:49:37:376 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : IsPointer64BitRequest
+2025-07-07:10:49:37:376 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:37:379 : Information : DbgXUI.dll : Address expression evaluation finished: '@$scopeip' -> 'FFFFF80000BBFDEC'
+2025-07-07:10:49:37:386 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849408] [count 256]
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849408] [count 256]
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 2
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849664] [count 256]
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849664] [count 256]
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 1
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849152] [count 256]
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849152] [count 256]
+2025-07-07:10:49:37:387 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:37:444 : Information : DbgX.Debugger.dll : (E) No messages waiting, dispatching callbacks
+2025-07-07:10:49:37:491 : Information : DbgX.Debugger.dll : Finding source line information for current frame
+2025-07-07:10:49:37:553 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r2  @$curprocess.Debug.Breakpoints 
+2025-07-07:10:49:37:555 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ModelQueryRequest: -r2  @$curprocess.Debug.Breakpoints 
+2025-07-07:10:49:37:555 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 24
+2025-07-07:10:49:37:555 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): SourceLocationRequest (current address)
+2025-07-07:10:49:37:561 : Information : DbgX.Debugger.dll : (E) GetLineByInlineContextWide failed. Symbols are not loaded or no source information available
+2025-07-07:10:49:37:563 : Information : DbgX.Debugger.dll : (E) Completed request (6 ms) : SourceLocationRequest: '0xFFFFF80000BBFDEC'
+2025-07-07:10:49:37:563 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 23
+2025-07-07:10:49:37:563 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849408] [count 256]
+2025-07-07:10:49:37:563 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849408] [count 256]
+2025-07-07:10:49:37:563 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 22
+2025-07-07:10:49:37:563 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849664] [count 256]
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849664] [count 256]
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 21
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849152] [count 256]
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849152] [count 256]
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 20
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): GetPromptTextRequest
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : GetPromptTextRequest
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 19
+2025-07-07:10:49:37:564 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r1  Debugger.Utility.Objects.Aggregate(@$curframe.LocalVariables, @$curframe.Parameters) 
+2025-07-07:10:49:37:697 : Information : DbgX.Services.dll : Activity started: Loading symbols for hal
+2025-07-07:10:49:37:701 : Information : DbgX.Services.dll : Activity started: Downloading file hal.dll
+2025-07-07:10:49:37:713 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 5BE7850248000
+2025-07-07:10:49:37:713 : Warning : DbgX.Services.dll : SymSrv : Failed to retrieve file, error code: 80070003
+2025-07-07:10:49:37:713 : Information : DbgX.Services.dll : Activity completed (12 ms): Downloading file hal.dll
+2025-07-07:10:49:37:716 : Information : DbgX.Services.dll : Activity started: Downloading file hal.dll
+2025-07-07:10:49:37:719 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: 5BE7850248000
+2025-07-07:10:49:38:606 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_OK - /download/symbols/hal.dll/5BE7850248000/hal.dll
+2025-07-07:10:49:38:607 : Information : DbgX.Services.dll : Activity started: Copying hal.dll from https://msdl.microsoft.com/download/symbols
+2025-07-07:10:49:39:722 : Information : DbgX.Services.dll : Activity completed (1114 ms): Copying hal.dll from https://msdl.microsoft.com/download/symbols
+2025-07-07:10:49:39:725 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\hal.dll\5BE7850248000\hal.dll
+2025-07-07:10:49:39:726 : Information : DbgX.Services.dll : Activity completed (2009 ms): Downloading file hal.dll
+2025-07-07:10:49:39:728 : Information : DbgX.Services.dll : Activity started: Downloading file hal.pdb
+2025-07-07:10:49:39:729 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: B4FC6293DC254F18A389A02CFCB8634B2
+2025-07-07:10:49:39:730 : Warning : DbgX.Services.dll : SymSrv : Failed to retrieve file, error code: 80070003
+2025-07-07:10:49:39:730 : Information : DbgX.Services.dll : Activity completed (2 ms): Downloading file hal.pdb
+2025-07-07:10:49:39:732 : Information : DbgX.Services.dll : Activity started: Downloading file hal.pdb
+2025-07-07:10:49:39:734 : Information : DbgX.Services.dll : SymSrv : The index string for the request is: B4FC6293DC254F18A389A02CFCB8634B2
+2025-07-07:10:49:40:738 : Information : DbgX.Services.dll : SymSrv : StoreWinInet::get HTTP_STATUS_OK - /download/symbols/hal.pdb/B4FC6293DC254F18A389A02CFCB8634B2/hal.pdb
+2025-07-07:10:49:40:739 : Information : DbgX.Services.dll : Activity started: Copying hal.pdb from https://msdl.microsoft.com/download/symbols
+2025-07-07:10:49:42:268 : Information : DbgX.Services.dll : Activity completed (1528 ms): Copying hal.pdb from https://msdl.microsoft.com/download/symbols
+2025-07-07:10:49:42:276 : Information : DbgX.Services.dll : SymSrv : File found: C:\ProgramData\Dbg\sym\hal.pdb\B4FC6293DC254F18A389A02CFCB8634B2\hal.pdb
+2025-07-07:10:49:42:277 : Information : DbgX.Services.dll : Activity completed (2544 ms): Downloading file hal.pdb
+2025-07-07:10:49:42:278 : Information : DbgX.Services.dll : Activity completed (4581 ms): Loading symbols for hal
+2025-07-07:10:49:42:289 : Information : DbgX.Debugger.dll : (E) Completed request (4724 ms) : ModelQueryRequest: -r1  Debugger.Utility.Objects.Aggregate(@$curframe.LocalVariables, @$curframe.Parameters) 
+2025-07-07:10:49:42:289 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 18
+2025-07-07:10:49:42:289 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r2  @$curprocess.Threads.Select(x => new {Value = __iserror(x.ToDisplayString()) ? "<unknown thread start>" : x.ToDisplayString(), Index = __iserror(x.Index) ? " " : x.Index,Id = x.Id,Name = x.Name}) 
+2025-07-07:10:49:42:460 : Information : DbgX.Debugger.dll : (E) Completed request (170 ms) : ModelQueryRequest: -r2  @$curprocess.Threads.Select(x => new {Value = __iserror(x.ToDisplayString()) ? "<unknown thread start>" : x.ToDisplayString(), Index = __iserror(x.Index) ? " " : x.Index,Id = x.Id,Name = x.Name}) 
+2025-07-07:10:49:42:460 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 17
+2025-07-07:10:49:42:460 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ScriptProvidersEnumerationRequest
+2025-07-07:10:49:42:469 : Information : DbgX.Debugger.dll : (E) Completed request (8 ms) : ScriptProvidersEnumerationRequest
+2025-07-07:10:49:42:469 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 16
+2025-07-07:10:49:42:469 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628847360] [count 256]
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628847360] [count 256]
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 15
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628847616] [count 256]
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628847616] [count 256]
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 14
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628847104] [count 256]
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628847104] [count 256]
+2025-07-07:10:49:42:470 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 13
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628847872] [count 256]
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628847872] [count 256]
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 12
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628848128] [count 256]
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628848128] [count 256]
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 11
+2025-07-07:10:49:42:471 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628848384] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628848384] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 10
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628848640] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628848640] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 9
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628848896] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628848896] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 8
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628849920] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628849920] [count 256]
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 7
+2025-07-07:10:49:42:472 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628850176] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628850176] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 6
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628850432] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628850432] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 5
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628850688] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628850688] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 4
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628850944] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628850944] [count 256]
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 3
+2025-07-07:10:49:42:473 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628851200] [count 256]
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628851200] [count 256]
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 2
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628851456] [count 256]
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628851456] [count 256]
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 1
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ReadVirtualMemoryRequest: [offset 18446735277628851712] [count 256]
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ReadVirtualMemoryRequest: [offset 18446735277628851712] [count 256]
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Refresh: Modules
+2025-07-07:10:49:42:474 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:42:525 : Information : DbgX.Debugger.dll : (E) No messages waiting, dispatching callbacks
+2025-07-07:10:49:42:552 : Information : DbgX.Debugger.dll : Finding source line information for current frame
+2025-07-07:10:49:42:625 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ThreadIndexRequest
+2025-07-07:10:49:42:627 : Information : DbgX.Debugger.dll : (E) Completed request (1 ms) : ThreadIndexRequest
+2025-07-07:10:49:42:627 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 6
+2025-07-07:10:49:42:627 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r2  @$curprocess.Debug.Breakpoints 
+2025-07-07:10:49:42:628 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ModelQueryRequest: -r2  @$curprocess.Debug.Breakpoints 
+2025-07-07:10:49:42:628 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 5
+2025-07-07:10:49:42:628 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): SourceLocationRequest (current address)
+2025-07-07:10:49:42:628 : Information : DbgX.Debugger.dll : (E) GetLineByInlineContextWide failed. Symbols are not loaded or no source information available
+2025-07-07:10:49:42:629 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : SourceLocationRequest: '0xFFFFF80000BBFDEC'
+2025-07-07:10:49:42:629 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 4
+2025-07-07:10:49:42:629 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): GetPromptTextRequest
+2025-07-07:10:49:42:629 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : GetPromptTextRequest
+2025-07-07:10:49:42:629 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 3
+2025-07-07:10:49:42:629 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r1  Debugger.Utility.Objects.Aggregate(@$curframe.LocalVariables, @$curframe.Parameters) 
+2025-07-07:10:49:42:631 : Information : DbgX.Debugger.dll : (E) Completed request (1 ms) : ModelQueryRequest: -r1  Debugger.Utility.Objects.Aggregate(@$curframe.LocalVariables, @$curframe.Parameters) 
+2025-07-07:10:49:42:631 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 2
+2025-07-07:10:49:42:631 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ModelQueryRequest: -r2  @$curprocess.Threads.Select(x => new {Value = __iserror(x.ToDisplayString()) ? "<unknown thread start>" : x.ToDisplayString(), Index = __iserror(x.Index) ? " " : x.Index,Id = x.Id,Name = x.Name}) 
+2025-07-07:10:49:42:673 : Information : DbgX.Debugger.dll : (E) Completed request (42 ms) : ModelQueryRequest: -r2  @$curprocess.Threads.Select(x => new {Value = __iserror(x.ToDisplayString()) ? "<unknown thread start>" : x.ToDisplayString(), Index = __iserror(x.Index) ? " " : x.Index,Id = x.Id,Name = x.Name}) 
+2025-07-07:10:49:42:674 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 1
+2025-07-07:10:49:42:674 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ScriptProvidersEnumerationRequest
+2025-07-07:10:49:42:674 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ScriptProvidersEnumerationRequest
+2025-07-07:10:49:42:674 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:42:720 : Information : DbgX.Debugger.dll : (E) Executing request(on 0x211a8): ThreadIndexRequest
+2025-07-07:10:49:42:720 : Information : DbgX.Debugger.dll : (E) Completed request (0 ms) : ThreadIndexRequest
+2025-07-07:10:49:42:720 : Information : DbgX.Debugger.dll : (E) Looking for request: Items: 0
+2025-07-07:10:49:42:770 : Information : DbgX.Debugger.dll : (E) No messages waiting, dispatching callbacks
+2025-07-07:10:50:12:574 : Information : DbgXUI.dll : Executing command: !poolfind -nonpaged -tag "ABCD"
+2025-07-07:10:50:12:641 : Information : DbgX.dll : (E) Executing request(on 0x211a8): ExecuteRequest: '!poolfind -nonpaged -tag "ABCD"'
+2025-07-07:11:08:26:770 : Information : DbgX.Shell.dll : Closing the main window...
+2025-07-07:11:08:26:811 : Information : DbgX.dll : (E) Stopping debug session
+2025-07-07:11:08:26:813 : Information : DbgX.dll : (E) Executing secondary thread request: SetInterruptRequest(EXIT)
+2025-07-07:11:08:26:814 : Information : DbgX.dll : (E) Break requested: hr = S_OK
+2025-07-07:11:08:26:814 : Information : DbgX.dll : (E) Completed secondary thread request: SetInterruptRequest(EXIT)
+2025-07-07:11:08:26:990 : Information : DbgX.dll : (E) ExecuteWide returned S_OK
+2025-07-07:11:08:26:990 : Information : DbgX.dll : (E) Completed request (1094330 ms) : ExecuteRequest: '!poolfind -nonpaged -tag "ABCD"'
+2025-07-07:11:08:26:990 : Information : DbgX.dll : (E) Looking for request: Items: 1
+2025-07-07:11:08:26:990 : Information : DbgX.dll : (E) Executing request(on 0x211a8): TerminateRequest
+2025-07-07:11:08:27:035 : Information : DbgX.dll : (E) Session state change: END_SESSION_ACTIVE_TERMINATE
+2025-07-07:11:08:27:041 : Information : DbgX.Debugger.dll : Symbol path saved to DbgX.xml in EngineSettings: srv*
+2025-07-07:11:08:27:062 : Information : DbgX.Services.dll : Saving target configuration
+2025-07-07:11:08:27:066 : Information : DbgX.Services.dll : Target configuration filename: C:\Users\idop\AppData\Local\dbg\Targets\OpenDump0268646907.debugTarget
+2025-07-07:11:08:27:072 : Information : DbgX.Services.dll : Target configuration added to recent list
+2025-07-07:11:08:27:155 : Information : DbgX.Debugger.dll : Starting EngHost: C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64\EngHost.exe npipe:pipe=DbgX_d0578e3d53334609968605d2b4410310,password=a072eb199318 "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2504.15001.0_x64__8wekyb3d8bbwe\amd64" "C:\ProgramData\Dbg"
+2025-07-07:11:08:27:168 : Information : DbgX.dll : (E) Added process EngHost (58788) to job object 0b25f977-8b2e-4fbc-8f4a-3b03c62d545b
+2025-07-07:11:08:27:381 : Information : DbgX.dll : (E) DebugConnect returned S_OK
+2025-07-07:11:08:27:386 : Information : DbgX.dll : (E) Killing process EngHost (135592) for job object f05caff8-e9ba-40b4-8ea3-c353d8d1f4b9 (HasExited: False)
+2025-07-07:11:08:27:387 : Information : DbgX.dll : (E) Changed client, isPrimaryClient=True
+2025-07-07:11:08:27:389 : Information : DbgX.dll : (E) Executing secondary thread request: ChangeClientRequest
+2025-07-07:11:08:27:389 : Information : DbgX.dll : (E) Code level changed to SOURCE
+2025-07-07:11:08:27:390 : Information : DbgX.dll : (E) Loading engine settings
+2025-07-07:11:08:27:392 : Information : DbgX.dll : (E) ChangeSymbolState(DEBUG_CSS.PATHS)
+2025-07-07:11:08:27:392 : Information : DbgX.dll : (E) ChangeSymbolState(DEBUG_CSS.PATHS)
+2025-07-07:11:08:27:392 : Information : DbgX.dll : (E) Symbol path after loading engine settings: srv*
+2025-07-07:11:08:27:394 : Information : DbgX.dll : (E) Symbol path = 'srv*', source path = '' (Checking for client refresh)
+2025-07-07:11:08:27:394 : Information : DbgX.dll : (E) Engine state change from request: NO_DEBUGGEE
+2025-07-07:11:08:27:394 : Information : DbgX.dll : (E) Completed request (403 ms) : TerminateRequest
+2025-07-07:11:08:27:394 : Information : DbgX.dll : (E) Refresh: DebuggerState, ConnectionState, Breakpoints, Views, Modules
+2025-07-07:11:08:27:397 : Information : DbgX.Shell.dll : Successfully stopped the engine in under 1 second(s).
+2025-07-07:11:08:27:395 : Information : DbgX.dll : (E) Completed secondary thread request: ChangeClientRequest
+2025-07-07:11:08:27:399 : Information : DbgX.dll : (E) Executing request(on 0xe5a4): GetPersistedEngineSettings
+2025-07-07:11:08:27:399 : Information : DbgX.dll : (E) Completed request (0 ms) : GetPersistedEngineSettings
+2025-07-07:11:08:27:400 : Information : DbgX.Debugger.dll : Symbol path saved to DbgX.xml in EngineSettings: srv*
+2025-07-07:11:08:27:403 : Information : DbgX.dll : (E) Executing request(on 0xe5a4): ShutdownRequest
+2025-07-07:11:08:27:403 : Information : DbgX.dll : (E) Completed request (0 ms) : ShutdownRequest
+2025-07-07:11:08:27:403 : Information : DbgX.dll : (E) Executing secondary thread request: ShutdownRequest
+2025-07-07:11:08:27:403 : Information : DbgX.dll : (E) Completed secondary thread request: ShutdownRequest
+2025-07-07:11:08:27:415 : Information : DbgX.dll : (E) Killing process EngHost (58788) for job object 0b25f977-8b2e-4fbc-8f4a-3b03c62d545b (HasExited: False)
+2025-07-07:11:08:27:420 : Information : DbgX.Shell.dll : Successfully shutdown the engine threads in under 1 second(s).
+2025-07-07:11:08:27:422 : Information : DbgX.Services.dll : Saving settings components
+2025-07-07:11:08:27:429 : Information : DbgX.Services.dll : DbgX.xml file saved, SHA256 hash is: 65B9DCBB6D3C9DCBDB059C6E789D4F98D3A22A09A4A3D63B24E69571B31DBEA
+2025-07-07:11:08:27:432 : Information : DbgX.Shell.dll : Cleaned-up 0 stale logs from C:\Users\idop\AppData\Local\dbg\Logs.
