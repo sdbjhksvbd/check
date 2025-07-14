@@ -1,0 +1,52 @@
+7.160.0.2 : 06:16:28.350 : C:\Program Files\Conexant\Install\Audio\sspconfig\Setup.exe -
+7.160.0.2 : 06:16:28.350 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.160.0.2
+7.160.0.2 : 06:16:28.350 :   Version = V7.160.0.2
+7.160.0.2 : 06:16:28.350 :   OS Platform = OS_WIN10-64
+7.160.0.2 : 06:16:28.350 :   dwSetupConfig = 20100 : dwMode = 481000
+7.160.0.2 : 06:16:28.350 :   CreateMutex - I_AM_THE_ROOT_UIU
+7.160.0.2 : 06:16:28.350 :   Found Mutex - CNXT_COINST_RUNNING
+7.160.0.2 : 06:16:28.350 :   CSetupApp::GetSetupModeInfo : csCmdLine = -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-INI=SSPCONFIG.INI, SSPCONFIG -FNAME="SSPConfig"
+7.160.0.2 : 06:16:28.350 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-FNAME="SSPConfig"
+7.160.0.2 : 06:16:28.350 :     ENTRY: CSetupDlg::RunSetupDlg
+7.160.0.2 : 06:16:28.350 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.160.0.2 : 06:16:28.350 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.160.0.2 : 06:16:28.350 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.160.0.2 : 06:16:28.350 :       csSetupExe = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\Setup64.exe
+7.160.0.2 : 06:16:28.350 :       csCmdline = -32TO64="C:\Program Files\Conexant\Install\Audio\sspconfig\" -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-INI=SSPCONFIG.INI, SSPCONFIG -FNAME="SSPConfig" -FNAME="SSPConfig" -NR
+7.160.0.2 : 06:16:28.350 :         ENTRY: CSetupApp::SpawnAnotherUIU
+7.160.0.2 : 06:16:28.350 :         pszExeName=C:\Program Files\Conexant\Install\Audio\sspconfig\x64\Setup64.exe, pszCmdArg=-32TO64="C:\Program Files\Conexant\Install\Audio\sspconfig\" -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-INI=SSPCONFIG.INI, SSPCONFIG -FNAME="SSPConfig" -FNAME="SSPConfig" -NR, bWaitForProcess=1
+7.160.0.2 : 06:16:28.350 :         csWorkingDir = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.350 :         Trying to Spawn with ShellExecuteExA
+7.160.0.2 : 06:16:28.350 :         szExeName = "C:\Program Files\Conexant\Install\Audio\sspconfig\x64\Setup64.exe"
+7.160.0.2 : 06:16:28.350 :         szCmdLine = -32TO64="C:\Program Files\Conexant\Install\Audio\sspconfig\" -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-INI=SSPCONFIG.INI, SSPCONFIG -FNAME="SSPConfig" -FNAME="SSPConfig" -NR
+7.160.0.2 : 06:16:28.873 :         dwRetVal & ~RETVAL_SPAWNAPP_SUCCESS = 0
+7.160.0.2 : 06:16:28.873 :         EXIT:  CSetupApp::SpawnAnotherUIU : dwRetVal = 8
+7.160.0.2 : 06:16:28.873 :         ENTRY: CInstall::ReadRegHWRetVal
+7.160.0.2 : 06:16:28.873 :         EXIT:  CInstall::ReadRegHWRetVal
+7.160.0.2 : 06:16:28.873 :       *pdwStatus = 1
+7.160.0.2 : 06:16:28.873 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=1
+7.160.0.2 : 06:16:28.873 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.160.0.2 : 06:16:28.873 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.160.0.2 : 06:16:28.873 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.160.0.2 : 06:16:28.873 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.873 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.873 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.873 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupDlg::RunSetupDlg
+7.160.0.2 : 06:16:28.873 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:28.873 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.160.0.2 : 06:16:28.873 :     ENTRY: CSetupApp::IsLastUIURunning
+7.160.0.2 : 06:16:28.873 :       ENTRY: CFileUtils::NumberOfUIUInstancesRunning
+7.160.0.2 : 06:16:28.873 :       Found UIU Process Running : szProcessName = C:\Program Files\Conexant\Install\Audio\sspconfig\Setup.exe
+7.160.0.2 : 06:16:28.873 :       EXIT:  CFileUtils::NumberOfUIUInstancesRunning : dwUIUCnt = 1
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupApp::IsLastUIU: IsLastUIURunning=1
+7.160.0.2 : 06:16:28.873 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.160.0.2 : 06:16:28.873 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.160.0.2 : 06:16:28.873 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.160.0.2 : 06:16:28.873 :   ENTRY: CSetupApp::SetupRetVal
+7.160.0.2 : 06:16:28.873 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:28.873 :     ENTRY: CSetupApp::ExitInstance()
+7.160.0.2 : 06:16:28.873 :       ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.160.0.2 : 06:16:28.873 :       EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupApp::ExitInstance()
