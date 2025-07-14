@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <assemblyIdentity type="win32" name="Adobe.Reader.Dependencies" version="10.0.0.0" processorArchitecture="x86" publicKeyToken="0000000000000000"/>
+        <file name="A3DUtils.dll" />
+        <file name="ACE.dll" />
+        <file name="AGM.dll" />
+        <file name="AXE8SharedExpat.dll" />
+        <file name="AXSLE.dll" />
+        <file name="Acrofx32.dll" />
+        <file name="AdobeLinguistic.dll" />
+        <file name="AdobeXMP.dll" />
+        <file name="BIBUtils.dll" />
+        <file name="CoolType.dll" />
+        <file name="ExtendScript.dll" />
+        <file name="JP2KLib.dll" />
+        <file name="Onix32.dll" />
+        <file name="PDFPrevHndlr.dll" />
+        <file name="ScCore.dll" />
+        <file name="ViewerPS.dll" />
+        <file name="adoberfp.dll" />
+        <file name="ahclient.dll" />
+        <file name="authplay.dll" />
+        <file name="ccme_base.dll" />
+        <file name="cryptocme2.dll" />
+        <file name="ccme_ecc.dll" />
+        <file name="icucnv40.dll" />
+        <file name="icudt40.dll" />
+        <file name="icudt40_cjk.dll" />
+        <file name="icudt40_full.dll" />
+        <file name="icuuc40.dll" />
+        <file name="logsession.dll" />
+        <file name="pe.dll" />
+        <file name="rt3d.dll" />
+        <file name="sqlite.dll" />
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls"
+          version="6.0.0.0"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          language="*"
+        />
+    </dependentAssembly>
+  </dependency>
+</assembly>
