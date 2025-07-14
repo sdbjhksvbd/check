@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5039 892 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-s_comment_18);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #8d8d8d;
+      }
+
+      .cls-2 {
+        stroke: #8d8d8d;
+        stroke-width: 0.5px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-s_comment_18">
+      <rect x="5039" y="892" width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="s_comment_18" class="cls-1">
+    <rect class="cls-4" x="5039" y="892" width="18" height="18"/>
+    <g id="Group_56378" data-name="Group 56378" transform="translate(54.5 162)">
+      <path id="Path_19285" data-name="Path 19285" class="cls-2" d="M0,7.309C0,3.23,3.825,0,8.5,0S17,3.23,17,7.309s-3.825,7.309-8.5,7.309a9.237,9.237,0,0,1-1.53-.085,5.14,5.14,0,0,1-4.589,1.53.393.393,0,0,1-.255-.68A6.677,6.677,0,0,0,3.4,13.173,6.956,6.956,0,0,1,0,7.309Zm6.544,6.459a.374.374,0,0,1,.425-.085,9.413,9.413,0,0,0,1.615.17c4.249,0,7.649-2.89,7.649-6.459C16.148,3.74,12.748.85,8.5.85S.85,3.74.85,7.309a6.128,6.128,0,0,0,3.23,5.269.649.649,0,0,1,.17.425A5.472,5.472,0,0,1,3.23,15.3,4.356,4.356,0,0,0,6.544,13.768Z" transform="translate(4985 731)"/>
+      <rect id="Rectangle_29076" data-name="Rectangle 29076" class="cls-3" width="8.729" height="0.919" rx="0.459" transform="translate(4989.594 736.972)"/>
+      <rect id="Rectangle_29077" data-name="Rectangle 29077" class="cls-3" width="6.891" height="0.919" rx="0.459" transform="translate(4989.594 738.81)"/>
+    </g>
+  </g>
+</svg>
