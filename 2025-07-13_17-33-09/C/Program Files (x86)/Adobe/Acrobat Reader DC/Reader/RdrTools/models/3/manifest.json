@@ -1,0 +1,76 @@
+{
+    "id": "1",
+    "name": "grogu_colorado",
+    "description": "",
+    "author": "adobe",
+    "version": 1,
+    "targets": {
+      "WinML": {
+        "components": [
+          {
+            "name": "secured_file",
+            "path": "3",
+            "encryption": {
+              "key" :  "none"
+            }
+          }
+        ],
+        "inputs": [
+          {
+            "name": "serving_default_extra0:0",
+            "required": true,
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 7, 512, 512 ],
+              "dataType": "float"
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "name": "StatefulPartitionedCall:0",
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 1024, 7],
+              "dataType": "float"
+            }
+          },
+		  {
+            "name": "StatefulPartitionedCall:1",
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 1024, 1],
+              "dataType": "float"
+            }
+          },
+		  {
+            "name": "StatefulPartitionedCall:2",
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 1024, 4],
+              "dataType": "float"
+            }
+          },
+		  {
+            "name": "StatefulPartitionedCall:3",
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 1024],
+              "dataType": "int64"
+            }
+          },
+		  {
+            "name": "StatefulPartitionedCall:4",
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 1024],
+              "dataType": "float"
+            }
+          }
+        ]
+      }
+    }
+    
+  }
+  
+  
