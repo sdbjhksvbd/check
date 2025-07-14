@@ -1,0 +1,410 @@
+7.165.0.2 : 06:16:29.285 : C:\Program Files\Conexant\Install\Audio\MicTray\x64\Setup64.exe -
+7.165.0.2 : 06:16:29.285 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.165.0.2
+7.165.0.2 : 06:16:29.285 :   Version = V7.165.0.2
+7.165.0.2 : 06:16:29.285 :   OS Platform = OS_WIN10-64
+7.165.0.2 : 06:16:29.285 :   dwSetupConfig = 20100 : dwMode = D0020011
+7.165.0.2 : 06:16:29.285 :   Found Mutex - CNXT_COINST_RUNNING
+7.165.0.2 : 06:16:29.285 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-KMICTRAY.EXE,MICTRAY64.EXE -INI=MICTRAY.INI, MICTRAY -FNAME="MicTray" -FNAME="MicTray" -NR
+7.165.0.2 : 06:16:29.285 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-KMICTRAY.EXE,MICTRAY64.EXE -FNAME="MicTray" -FNAME="MicTray" -NR
+7.165.0.2 : 06:16:29.285 :     ENTRY: CSetupDlg::RunSetupDlg
+7.165.0.2 : 06:16:29.285 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.165.0.2 : 06:16:29.285 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.165.0.2 : 06:16:29.285 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.165.0.2 : 06:16:29.285 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=0
+7.165.0.2 : 06:16:29.285 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.285 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.285 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 06:16:29.285 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 06:16:29.285 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.285 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 06:16:29.285 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 06:16:29.285 :       ENTRY: CInstall::SetUserInfoReg
+7.165.0.2 : 06:16:29.285 :       EXIT:  CInstall::SetUserInfoReg
+7.165.0.2 : 06:16:29.285 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.285 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.285 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 06:16:29.285 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 06:16:29.285 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.300 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 06:16:29.300 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 06:16:29.300 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.300 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.300 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 06:16:29.300 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 06:16:29.300 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.300 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 06:16:29.300 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 06:16:29.300 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.300 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.300 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.300 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.300 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.300 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 06:16:29.300 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.300 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 06:16:29.300 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.165.0.2 : 06:16:29.300 :         m_pSetupParms->csParentFilePath=,
+7.165.0.2 : 06:16:29.300 :         MyPaths = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.300 :         EXIT:  KINIFile::Initialize
+7.165.0.2 : 06:16:29.300 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 1
+7.165.0.2 : 06:16:29.300 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.300 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.300 :           ENTRY: KINIFile::LocateINIFileNames
+7.165.0.2 : 06:16:29.300 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.300 :           szTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.300 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.165.0.2 : 06:16:29.300 :           ENTRY: CINIFile::SortINIFiles
+7.165.0.2 : 06:16:29.300 :           EXIT:  CINIFile::SortINIFiles
+7.165.0.2 : 06:16:29.300 :           ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 06:16:29.300 :             ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 06:16:29.300 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.300 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.316 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.316 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 06:16:29.316 :           szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 06:16:29.316 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.316 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.165.0.2 : 06:16:29.316 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.316 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.165.0.2 : 06:16:29.316 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.165.0.2 : 06:16:29.316 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.165.0.2 : 06:16:29.316 :             ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.316 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.165.0.2 : 06:16:29.316 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.165.0.2 : 06:16:29.316 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.165.0.2 : 06:16:29.316 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.165.0.2 : 06:16:29.316 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.165.0.2 : 06:16:29.316 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.165.0.2 : 06:16:29.316 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.165.0.2 : 06:16:29.316 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.165.0.2 : 06:16:29.316 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.165.0.2 : 06:16:29.316 :       ENTRY: CINIFile::InstallINIFiles
+7.165.0.2 : 06:16:29.316 :       pszDeviceID = CNXTAPP, pszINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.316 :         ENTRY: KINIFile::Initialize : pszDeviceID = CNXTAPP
+7.165.0.2 : 06:16:29.316 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.316 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.332 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.332 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 06:16:29.332 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.165.0.2 : 06:16:29.332 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.165.0.2 : 06:16:29.332 :         m_pSetupParms->csParentFilePath=,
+7.165.0.2 : 06:16:29.332 :         MyPaths = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:29.332 :         EXIT:  KINIFile::Initialize
+7.165.0.2 : 06:16:29.332 :         ENTRY: KINIFile::InstallINIFiles : pszINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.332 :           ENTRY: KINIFile::LocateINIFileNames
+7.165.0.2 : 06:16:29.332 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.332 :           szTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.332 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.165.0.2 : 06:16:29.332 :           ENTRY: CINIFile::SortINIFiles
+7.165.0.2 : 06:16:29.332 :           EXIT:  CINIFile::SortINIFiles
+7.165.0.2 : 06:16:29.332 :           ENTRY: KINIFile :: GetUninstallerPath : pszINIInstallPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:29.332 :             ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 06:16:29.332 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.332 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.347 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.347 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 06:16:29.347 :           m_szUninstallerPath = C:\PROGRAM FILES\CONEXANT\MICTRAY
+7.165.0.2 : 06:16:29.347 :           EXIT:  KINIFile :: GetUninstallerPath : bRetVal = 1
+7.165.0.2 : 06:16:29.347 :           ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 06:16:29.347 :             ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 06:16:29.347 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.347 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.363 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.363 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 06:16:29.363 :           szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 06:16:29.378 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 06:16:29.378 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.378 :             ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 06:16:29.378 :               ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 06:16:29.378 :               m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.378 :               KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:29.394 :               pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.394 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 06:16:29.394 :             szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.394 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.165.0.2 : 06:16:29.394 :               dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.394 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.165.0.2 : 06:16:29.394 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.394 :             szTempINIFileName = C:\WINDOWS\TEMP\CustomINI6022993d18a\\MicTray.ini
+7.165.0.2 : 06:16:29.394 :             szTempTempINIFileName = C:\WINDOWS\TEMP\MicTray.ini
+7.165.0.2 : 06:16:29.394 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::InstallDefinedApps
+7.165.0.2 : 06:16:29.394 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = PreInstallApp
+7.165.0.2 : 06:16:29.394 :               ENTRY: KINIFile::InstallDefinedApps2
+7.165.0.2 : 06:16:29.394 :               szInstallAppSection = InstallApp64.RunAfterInstallation, pszInstallTag = PreInstallApp
+7.165.0.2 : 06:16:29.394 :                 ENTRY: IsDeviceGuardCase
+7.165.0.2 : 06:16:29.394 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.165.0.2 : 06:16:29.394 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.165.0.2 : 06:16:29.394 :             csPath = C:\Users\Public\Documents\Conexant
+7.165.0.2 : 06:16:29.394 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.165.0.2 : 06:16:29.394 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.394 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.165.0.2 : 06:16:29.394 :               m_hClassDeviceKey = 844
+7.165.0.2 : 06:16:29.394 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.165.0.2 : 06:16:29.410 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 06:16:29.410 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 06:16:29.410 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 06:16:29.410 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 06:16:29.410 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 06:16:29.410 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.165.0.2 : 06:16:29.410 :               ENTRY: CInf::ResetDeleteOnRebootList
+7.165.0.2 : 06:16:29.410 :               EXIT:  CInf::ResetDeleteOnRebootList
+7.165.0.2 : 06:16:29.410 :               ENTRY: CFileUtils::CopyAFile
+7.165.0.2 : 06:16:29.410 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\MicTray\MicTray\MicTray64.exe, pszDestinationFile=C:\WINDOWS\system32\MicTray64.exe, dwDestFlag=0
+7.165.0.2 : 06:16:29.410 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.165.0.2 : 06:16:29.410 :               ENTRY: CFileUtils::CopyAFile
+7.165.0.2 : 06:16:29.410 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\MicTray\MicTray\MicTray64.xml, pszDestinationFile=C:\WINDOWS\system32\MicTray64.xml, dwDestFlag=0
+7.165.0.2 : 06:16:29.410 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.165.0.2 : 06:16:29.410 :               ENTRY: CFileUtils::CopyAFile
+7.165.0.2 : 06:16:29.410 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\MicTray\x64\setup64.exe, pszDestinationFile=C:\Program Files\Conexant\MicTray\setup64.exe, dwDestFlag=0
+7.165.0.2 : 06:16:29.410 :               Creating folder C:\Program Files\Conexant\MicTray
+7.165.0.2 : 06:16:29.410 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.165.0.2 : 06:16:29.410 :               ENTRY: CFileUtils::DeleteAFile
+7.165.0.2 : 06:16:29.410 :               pszFileToDelete = C:\Users\Public\MicTray.log, dwFlags = 2
+7.165.0.2 : 06:16:29.410 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.165.0.2 : 06:16:29.410 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.165.0.2 : 06:16:29.410 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.165.0.2 : 06:16:29.410 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini, pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.410 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 0
+7.165.0.2 : 06:16:29.410 :             ENTRY: KINIFile::InstallDefinedApps
+7.165.0.2 : 06:16:29.410 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = InstallApp
+7.165.0.2 : 06:16:29.410 :               ENTRY: KINIFile::InstallDefinedApps2
+7.165.0.2 : 06:16:29.410 :               szInstallAppSection = InstallApp64.RunAfterInstallation, pszInstallTag = InstallApp
+7.165.0.2 : 06:16:29.410 :                 ENTRY: IsDeviceGuardCase
+7.165.0.2 : 06:16:29.410 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.165.0.2 : 06:16:29.410 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :               szInstallAppType = InstallApp
+7.165.0.2 : 06:16:29.410 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.165.0.2 : 06:16:29.410 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X80100
+7.165.0.2 : 06:16:29.410 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 524544
+7.165.0.2 : 06:16:29.410 :               Flags: szBuffer = 0x80100, dwFlags = 80100
+7.165.0.2 : 06:16:29.410 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 ENTRY: KINIFile::ISRepairWA
+7.165.0.2 : 06:16:29.410 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.165.0.2 : 06:16:29.410 :               bInstallAppDeferred (1) == TRUE
+7.165.0.2 : 06:16:29.410 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 06:16:29.410 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.165.0.2 : 06:16:29.410 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 06:16:29.410 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.410 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 06:16:29.410 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.165.0.2 : 06:16:29.410 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 06:16:29.425 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.165.0.2 : 06:16:29.425 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /Create /XML C:\WINDOWS\system32\MicTray64.xml /TN \Microsoft\Windows\Conexant\MicTray
+7.165.0.2 : 06:16:29.425 :                 (SCHTASKS) csOrigXMLFile =  C:\WINDOWS\system32\MicTray64.xml 
+7.165.0.2 : 06:16:29.425 :                 (SCHTASKS) csNewXMLFile = C:\WINDOWS\TEMP\6022993D1A9.xml
+7.165.0.2 : 06:16:29.425 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.165.0.2 : 06:16:29.425 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 1
+7.165.0.2 : 06:16:29.425 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.165.0.2 : 06:16:29.425 :               dwInstallAppDeferredOrder = 1
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = ExeArgInfo_1, szRegValueData = C:\WINDOWS\system32\schtasks.exe /Create /XML C:\WINDOWS\system32\MicTray64.xml /TN \Microsoft\Windows\Conexant\MicTray
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = FlagsInfo_1, szRegValueData = 1342701824
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = UninstallInfo4_1, szUninstallDisplayName = 
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = UninstallInfo5_1, szUninstallArgs = 
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = UninstallInfo6_1, m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.165.0.2 : 06:16:29.425 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :               szInstallAppType = InstallApp
+7.165.0.2 : 06:16:29.425 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.165.0.2 : 06:16:29.425 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X80100
+7.165.0.2 : 06:16:29.425 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 524544
+7.165.0.2 : 06:16:29.425 :               Flags: szBuffer = 0x80100, dwFlags = 80100
+7.165.0.2 : 06:16:29.425 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 ENTRY: KINIFile::ISRepairWA
+7.165.0.2 : 06:16:29.425 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.165.0.2 : 06:16:29.425 :               bInstallAppDeferred (1) == TRUE
+7.165.0.2 : 06:16:29.425 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 06:16:29.425 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.165.0.2 : 06:16:29.425 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 06:16:29.425 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.165.0.2 : 06:16:29.425 :                 szDescription = Task Scheduler Configuration Tool
+7.165.0.2 : 06:16:29.425 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.165.0.2 : 06:16:29.425 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.165.0.2 : 06:16:29.425 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.165.0.2 : 06:16:29.425 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /Run /TN \Microsoft\Windows\Conexant\MicTray
+7.165.0.2 : 06:16:29.425 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.165.0.2 : 06:16:29.425 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 2
+7.165.0.2 : 06:16:29.425 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.165.0.2 : 06:16:29.425 :               dwInstallAppDeferredOrder = 2
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = ExeArgInfo_2, szRegValueData = C:\WINDOWS\system32\schtasks.exe /Run /TN \Microsoft\Windows\Conexant\MicTray
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = FlagsInfo_2, szRegValueData = 1342701824
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = UninstallInfo4_2, szUninstallDisplayName = 
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = UninstallInfo5_2, szUninstallArgs = 
+7.165.0.2 : 06:16:29.425 :               DeferStartAnApp: szRegValueName = UninstallInfo6_2, m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.165.0.2 : 06:16:29.425 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.165.0.2 : 06:16:29.425 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.165.0.2 : 06:16:29.425 :             ENTRY: CShortCut::CreateShortcut
+7.165.0.2 : 06:16:29.425 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.425 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.425 :             EXIT:  CShortCut::CreateShortcut
+7.165.0.2 : 06:16:29.425 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.425 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.165.0.2 : 06:16:29.425 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.425 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.165.0.2 : 06:16:29.425 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.425 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.165.0.2 : 06:16:29.425 :             ENTRY: KINIFile::SetupForUninstall
+7.165.0.2 : 06:16:29.425 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini, pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:29.425 :             szUninstallININame = C:\PROGRAM FILES\CONEXANT\MICTRAY\\MicTray.ini
+7.165.0.2 : 06:16:29.425 :               ENTRY: CCabFile::SetupUninstallIniDefinedCabs
+7.165.0.2 : 06:16:29.425 :               EXIT:  CCabFile::SetupUninstallIniDefinedCabs
+7.165.0.2 : 06:16:29.425 :             EXIT:  KINIFile::SetupForUninstall
+7.165.0.2 : 06:16:29.425 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.165.0.2 : 06:16:29.425 :               ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:29.425 :               EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray
+7.165.0.2 : 06:16:29.425 :               ENTRY: CFileUtils::GetFolderSize : csFolderPath = C:\Program Files\Conexant\Install\Audio\MicTray
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\MicTray\MicTray.exe, size = 2003032
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\MicTray\MicTray.xml, size = 2990
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\MicTray\MicTray64.exe, size = 2758232
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\MicTray\MicTray64.xml, size = 2988
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\MicTray.ini, size = 9843
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\Setup.exe, size = 7441016
+7.165.0.2 : 06:16:29.425 :               csTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\x64\Setup64.exe, size = 8458872
+7.165.0.2 : 06:16:29.425 :               EXIT:  CFileUtils::GetFolderSize : llRetVal = 20676973
+7.165.0.2 : 06:16:29.425 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.165.0.2 : 06:16:29.425 :             ENTRY: KINIFile::DoMicTrayVerification : pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:29.425 :             Found MicTray
+7.165.0.2 : 06:16:34.444 :             DeleteFile = 0
+7.165.0.2 : 06:16:34.444 :             csSrcFile = C:\Program Files\CONEXANT\Install\Audio\MicTray\MicTray\MicTray64.exe
+7.165.0.2 : 06:16:34.444 :             csDstFile = C:\WINDOWS\SYSTEM32\MicTray64.exe
+7.165.0.2 : 06:16:34.444 :               ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\WINDOWS\SYSTEM32\MicTray64.exe
+7.165.0.2 : 06:16:34.444 :               EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.165.0.2 : 06:16:34.444 :             CopyFile = 1
+7.165.0.2 : 06:16:34.444 :               ENTRY: CFileUtils::SpawnApp
+7.165.0.2 : 06:16:34.444 :               pszExeName = C:\WINDOWS\SYSTEM32\schtasks.exe, pszCmdArg = /Run /TN \Microsoft\Windows\Conexant\MicTrayd
+7.165.0.2 : 06:16:34.444 :               bWaitForProcess = 1, dwStartAppTimeOut = 120000, dwFlags = 0
+7.165.0.2 : 06:16:34.444 :               csWorkingDir = C:\WINDOWS\SYSTEM32\
+7.165.0.2 : 06:16:34.444 :               szExeName = C:\WINDOWS\SYSTEM32\schtasks.exe
+7.165.0.2 : 06:16:34.444 :               pszCmdArg = /Run /TN \Microsoft\Windows\Conexant\MicTray
+7.165.0.2 : 06:16:34.444 :               Trying to Spawn with ShellExecuteExA
+7.165.0.2 : 06:16:34.505 :               Child process signalled success
+7.165.0.2 : 06:16:34.505 :               EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435457
+7.165.0.2 : 06:16:34.505 :             EXIT:  KINIFile::DoMicTrayVerification
+7.165.0.2 : 06:16:34.505 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.165.0.2 : 06:16:34.505 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.165.0.2 : 06:16:34.505 :       EXIT:  CINIFile::InstallINIFiles : dwRetVal = 1
+7.165.0.2 : 06:16:34.505 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:34.505 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:34.505 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 06:16:34.505 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 06:16:34.505 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:34.505 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 06:16:34.505 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 06:16:34.505 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.505 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.505 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:34.505 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:34.505 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.505 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 06:16:34.505 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.505 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 06:16:34.505 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.165.0.2 : 06:16:34.505 :         m_pSetupParms->csParentFilePath=,
+7.165.0.2 : 06:16:34.521 :         MyPaths = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:34.521 :         EXIT:  KINIFile::Initialize
+7.165.0.2 : 06:16:34.521 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 2
+7.165.0.2 : 06:16:34.521 :           ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:34.521 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:34.521 :           ENTRY: KINIFile::LocateINIFileNames
+7.165.0.2 : 06:16:34.521 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:34.521 :           szTestFile = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:34.521 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.165.0.2 : 06:16:34.521 :           ENTRY: CINIFile::SortINIFiles
+7.165.0.2 : 06:16:34.521 :           EXIT:  CINIFile::SortINIFiles
+7.165.0.2 : 06:16:34.521 :           ENTRY: KINIFile::GetINIInfo
+7.165.0.2 : 06:16:34.521 :             ENTRY: KINIFile::GetInstallSection
+7.165.0.2 : 06:16:34.521 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.521 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.537 :             pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:34.537 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.165.0.2 : 06:16:34.537 :           szINFFileName= MicTray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.165.0.2 : 06:16:34.537 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.165.0.2 : 06:16:34.537 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:34.537 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.165.0.2 : 06:16:34.537 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\MicTray\\MicTray.ini
+7.165.0.2 : 06:16:34.537 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.165.0.2 : 06:16:34.537 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.165.0.2 : 06:16:34.537 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.165.0.2 : 06:16:34.537 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.165.0.2 : 06:16:34.537 :             ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:34.537 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:34.537 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.165.0.2 : 06:16:34.537 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.165.0.2 : 06:16:34.537 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.165.0.2 : 06:16:34.537 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.165.0.2 : 06:16:34.537 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.165.0.2 : 06:16:34.537 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.165.0.2 : 06:16:34.537 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.165.0.2 : 06:16:34.537 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.165.0.2 : 06:16:34.537 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.165.0.2 : 06:16:34.537 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.165.0.2 : 06:16:34.537 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.165.0.2 : 06:16:34.537 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.165.0.2 : 06:16:34.537 :       ENTRY: KINIFile::GetLocalPath
+7.165.0.2 : 06:16:34.537 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:34.537 :       ENTRY: CINIFile::CINIFile
+7.165.0.2 : 06:16:34.537 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 06:16:34.537 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\x64\
+7.165.0.2 : 06:16:34.537 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 06:16:34.537 :       EXIT:  CINIFile::CINIFile(null)
+7.165.0.2 : 06:16:34.537 :       ENTRY: CVistaWaveRT::ProcessINIFile
+7.165.0.2 : 06:16:34.537 :       csINIFilePath = C:\Program Files\Conexant\Install\Audio\MicTray\, csDeviceID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.537 :         ENTRY: CVistaWaveRT::LocateRTWaveINIFiles : csINIFilePath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:34.537 :         EXIT:  CVistaWaveRT::LocateRTWaveINIFiles : pcslINIFileList->GetCount() = 1
+7.165.0.2 : 06:16:34.537 :         ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.165.0.2 : 06:16:34.537 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.165.0.2 : 06:16:34.552 :         ENTRY: CVistaWaveRT::GetInstallSection
+7.165.0.2 : 06:16:34.552 :         pszInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:34.552 :         EXIT:  CVistaWaveRT::GetInstallSection : bRetVal = 1
+7.165.0.2 : 06:16:34.552 :         ENTRY: CVistaWaveRT::ProcessINIFile
+7.165.0.2 : 06:16:34.552 :         CVistaWaveRT::ProcessINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\MICTRAY\MICTRAY.INI , szInstallSection = TASKS.NTAMD64
+7.165.0.2 : 06:16:34.552 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags2
+7.165.0.2 : 06:16:34.552 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags2 : bRetVal = 0
+7.165.0.2 : 06:16:34.552 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags1
+7.165.0.2 : 06:16:34.552 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags1 : bRetVal = 0
+7.165.0.2 : 06:16:34.552 :         EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.165.0.2 : 06:16:34.552 :       EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.165.0.2 : 06:16:34.552 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.165.0.2 : 06:16:34.552 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.165.0.2 : 06:16:34.552 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.165.0.2 : 06:16:34.552 :         ENTRY: CINIFile::ReInitialize
+7.165.0.2 : 06:16:34.552 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\MicTray\
+7.165.0.2 : 06:16:34.568 :         EXIT:  CINIFile::ReInitialize
+7.165.0.2 : 06:16:34.568 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.165.0.2 : 06:16:34.568 :     EXIT:  CSetupDlg::RunSetupDlg
+7.165.0.2 : 06:16:34.568 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.165.0.2 : 06:16:34.568 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.165.0.2 : 06:16:34.568 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.165.0.2 : 06:16:34.568 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.165.0.2 : 06:16:34.568 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.165.0.2 : 06:16:34.568 :   ENTRY: CSetupApp::SetupRetVal
+7.165.0.2 : 06:16:34.568 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.165.0.2 : 06:16:34.568 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.165.0.2 : 06:16:34.568 :     ENTRY: CSetupApp::ExitInstance()
+7.165.0.2 : 06:16:34.568 :     EXIT:  CSetupApp::ExitInstance()
