@@ -1,0 +1,193 @@
+<Application xmlns="http://ns.adobe.com/acrobat/app/2014" title="Combine Files" av2Title="Combine files" id="CombinePDFRdrApp" description="Combine multiple files into a single PDF" av2Description="Merge multiple files into a single PDF" requiresDoc="false" richTooltip = "Merge multiple files into a single PDF for easy storing and sharing." majorVersion="1" minorVersion="0" inAppUpsellEnabled="true">
+	<Commands>
+		<Command name="NewDocCombineFiles"/>
+	</Commands>
+	
+	<Layouts>
+		<Layout name="Default">
+		    <TopBar align="Center">
+				<Component name="MultiFileViewInsertPages" AV2ShowLabel="true"/>
+				<Component name="InsertFromTemplate" />
+				<Component name="DeleteCombineNodes"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileThumbnailViewSelector"/>
+				<Component name="MultiFileListViewSelector"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileViewOption" AV2ShowLabel="true"/>
+			</TopBar>
+			<TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp" label="Back"/>
+				<Component type="PushButton" buttonType="buttonCTA" name="MultiFileViewPerformCombine"/>
+			</TopBarRight>
+			<ContentView>
+				<Component name="CombineLandingView" type="Custom" columns="1" hAlign="center" vAlign="near">
+				<Component type="Table" columns="1" hAlign="center" vAlign="center">
+						<Component type="Label" label="Combine and merge multiple files into one PDF" fontSize="22" bold="true"/>
+						</Component>
+					<Component type="Table" border="2" borderColor="Border" columns="1" hAlign="center" vAlign="center">
+						<Component type="Bitmap" name="CombineInitialGraphicBitmapIcon" width="130" height="130" />
+						<Component type="Label" label="Drag and drop your files" fontSize="16" multiline="true" hAlign="center" width="580" topOffset="18" bold="true" />
+						<Component type="Label" label="Select PDFs or a mix of PDF documents and other files." fontSize="16" multiline="true" hAlign="center" width="380" />
+						</Component>
+						<Component type="Table" columns="2" hAlign="center" vAlign="center" topOffset="1" colSpacing="1">
+							<Component type="PushButton" buttonType="secondary" name="CombineAddOpenFilesExecute" label="Add open files" vAlign="center" fontSize="14" bold="true"/>
+							<Component type="PushButton" buttonType="buttonCTA" name="CombineAddFilesExecute" vAlign="center" fontSize="14" bold="true"/>
+						</Component>
+						<Component type="Table" columns="1" hAlign="center" vAlign="center" topOffset="10" rowSpacing="2">
+							<Component type="HyperLink" label="Help" name="HelpLink"/>
+					</Component>
+				</Component>
+			</ContentView>
+		</Layout>
+		
+		<Layout name="DefaultListViewLandingPage">
+		    <TopBar align="Center">
+				<Component name="MultiFileViewInsertPages" AV2ShowLabel="true"/>
+				<Component name="InsertFromTemplate" />
+				<Component name="DeleteCombineNodes"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileThumbnailViewSelector"/>
+				<Component name="MultiFileListViewSelector"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileViewOption" AV2ShowLabel="true"/>
+				<Component name="MultiFileViewDocMoveUp"/>
+				<Component name="MultiFileViewDocMoveDown"/>
+			</TopBar>
+			<TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp" label="Back"/>
+				<Component type="PushButton" buttonType="buttonCTA" name="MultiFileViewPerformCombine"/>
+			</TopBarRight>
+		</Layout>
+		
+		<Layout name="CombineContainerLayout">
+			<ContentView>
+				<Component name="MultiFileViewContainer" type="custom"/>
+			</ContentView>
+		</Layout>
+
+		<Layout name="CombineThumbnailViewTopbarLayout">
+			<TopBar align="Center">
+				<Component name="MultiFileViewInsertPages" AV2ShowLabel="true"/>
+				<Component name="InsertFromTemplate" />
+				<Component name="DeleteCombineNodes"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileThumbnailViewSelector"/>
+				<Component name="MultiFileListViewSelector"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileViewOption" AV2ShowLabel="true"/>
+			</TopBar>
+			<TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp" label="Back"/>
+				<Component type="PushButton" buttonType="buttonCTA" name="MultiFileViewPerformCombine"/>
+			</TopBarRight>
+		</Layout>
+		
+		<Layout name="CombineListViewTopbarLayout">
+			<TopBar align="Center">
+				<Component name="MultiFileViewInsertPages" AV2ShowLabel="true"/>
+				<Component name="InsertFromTemplate" />
+				<Component name="DeleteCombineNodes"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileThumbnailViewSelector"/>
+				<Component name="MultiFileListViewSelector"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileViewOption" AV2ShowLabel="true"/>
+				<Component name="MultiFileViewDocMoveUp"/>
+				<Component name="MultiFileViewDocMoveDown"/>
+			</TopBar>
+			<TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp" label="Back"/>
+				<Component type="PushButton" buttonType="buttonCTA" name="MultiFileViewPerformCombine"/>
+			</TopBarRight>
+		</Layout>
+
+		<Layout name="AV2CombineLandingPageView">
+			<TopBarLeft showInAV2UI = "true">
+				<Component type="Label" name="CombinePDFRdrApp" label="Combine files" fontSize="18" bold="true" />
+				<Component type="Bitmap" name="AV2PremiumIndicator" width="16" height="16" colorize="false"/>
+			</TopBarLeft>
+		    <TopBar align="Center">
+				<Component name="MultiFileViewInsertPages" AV2ShowLabel="true"/>
+				<Component name="InsertFromTemplate" AV2ShowLabel="true"/>
+				<Component name="DeleteCombineNodes"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileThumbnailViewSelector"/>
+				<Component name="MultiFileListViewSelector"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileViewOption" AV2ShowLabel="true"/>
+				<Component name="AV2MultiFileViewDocMoveUp" type="Custom"/>
+				<Component name="AV2MultiFileViewDocMoveDown" type="Custom"/>
+			</TopBar>
+			<TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp" label="Close"/>
+				<Component type="PushButton" buttonType="buttonCTA" name="MultiFileViewPerformCombine" label="Combine with free trial"/>
+			</TopBarRight>
+			<ContentView>
+				<Component name="CombineLandingView" type="Custom" columns="1" hAlign="center" vAlign="near">
+				<Component type="Table" columns="1" hAlign="center" >
+						<Component type="Label" label="Combine multiple files into one PDF with free trial" fontSize="22" bold="true" />
+						</Component>
+				<Component type="Table" columns="5" hAlign="center" vAlign="center">
+						<Component type="Bitmap" name="CombineDeepExpIcon1" width="80" height="24" />
+						<Component type="Bitmap" name="CombineDeepExpIcon2" width="80" height="24" />
+						<Component type="Bitmap" name="CombineDeepExpIcon3" width="90" height="24" />
+						<Component type="Bitmap" name="CombineDeepExpIcon2" width="80" height="24" />
+						<Component type="Bitmap" name="CombineDeepExpIcon4" width="80" height="24" colorize="false" />
+		
+						<Component type="Label" label="Select files" width="80" bold="true" fontSize="12" multiline="true" hAlign="center" />
+						<Component type="Label" label="" fontSize="14" multiline="true" hAlign="center" />
+						<Component type="Label" label="Rearrange pages" bold="true" width="90" fontSize="12" multiline="true" hAlign="center" />
+						<Component type="Label" label="" fontSize="14" multiline="true" hAlign="center" />
+						<Component type="Label" label="Combine" width="80" bold="true" fontSize="12" multiline="true" hAlign="center" />
+				</Component>
+					<Component type="Table" border="3" dottedBorder="true" dottedBorderDashLength = "6" dottedBorderCornerRadius="6" borderColor="Border" columns="1" hAlign="center" topOffset="41" bottomOffset="41" leftOffset="9" rightOffset="9" vAlign="near" >
+						<Component type="Table" columns="1" hAlign="center" >
+						<Component type="Table" columns="1" hAlign="center" bottomOffset="13">
+						<Component type="Bitmap" name="CombineInitialGraphicBitmapIcon" width="130" height="130"/>
+						</Component>
+						<Component type="Table" columns="1" hAlign="center" bottomOffset="4">
+						<Component type="Label" label="Drag and drop your files" fontSize="16" multiline="true" hAlign="center" width="380" bold="true" />
+						</Component>
+						<Component type="Label" label="Select PDFs or a mix of PDF documents and other files." fontSize="14" multiline="true" hAlign="center" width="380" />
+						</Component>
+						</Component>
+						<Component type="Table" columns="2" hAlign="center" bottomOffset="0" colSpacing="0">
+							<Component type="PushButton" buttonType="secondary" name="CombineAddOpenFilesExecute" label="Add open files" vAlign="center" fontSize="14" bold="true"/>
+							<Component type="PushButton" buttonType="buttonCTA" name="CombineAddFilesExecute" vAlign="center" fontSize="14" bold="true"/>
+						</Component>
+						<Component type="Table" columns="1" hAlign="center" rowSpacing="2">
+							<Component type="HyperLink" label="Help" name="HelpLink"/>
+					</Component>
+				</Component>
+			</ContentView>
+		</Layout>
+
+		<Layout name="AV2CombineMultiFilePageView">
+			<TopBarLeft showInAV2UI = "true">
+				<Component type="Label" name="CombinePDFRdrApp" label="Combine files" fontSize="18" bold="true" />
+				<Component type="Bitmap" name="AV2PremiumIndicator" width="16" height="16" colorize="false"/>
+			</TopBarLeft>
+		    <TopBar align="Center">
+				<Component name="MultiFileViewInsertPages" AV2ShowLabel="true"/>
+				<Component name="InsertFromTemplate" AV2ShowLabel="true"/>
+				<Component name="DeleteCombineNodes"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileThumbnailViewSelector"/>
+				<Component name="MultiFileListViewSelector"/>
+				<Component type="Separator"/>
+				<Component name="MultiFileViewOption" AV2ShowLabel="true"/>
+				<Component name="AV2MultiFileViewDocMoveUp" type="Custom"/>
+				<Component name="AV2MultiFileViewDocMoveDown" type="Custom"/>
+			</TopBar>
+			<TopBarRight align="Right">
+				<Component type="PushButton" buttonType="secondary" name="ExitApp" label="Close"/>
+				<Component type="PushButton" buttonType="buttonCTA" name="MultiFileViewPerformCombine" label="Combine with free trial"/>
+			</TopBarRight>
+			<ContentView>
+				<Component name="MultiFileViewContainer" type="custom"/>
+			</ContentView>
+		</Layout>
+
+
+	</Layouts>
+</Application>
