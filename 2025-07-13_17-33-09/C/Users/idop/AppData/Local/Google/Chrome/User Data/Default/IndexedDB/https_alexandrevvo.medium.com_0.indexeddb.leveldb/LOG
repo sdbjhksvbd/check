@@ -1,0 +1,6 @@
+2025/07/07-10:32:36.879 138b8 Creating DB C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_alexandrevvo.medium.com_0.indexeddb.leveldb since it was missing.
+2025/07/07-10:32:36.886 138b8 Reusing MANIFEST C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_alexandrevvo.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/07-11:43:10.106 138b8 Level-0 table #5: started
+2025/07/07-11:43:10.110 138b8 Level-0 table #5: 12896 bytes OK
+2025/07/07-11:43:10.111 138b8 Delete type=0 #3
+2025/07/07-11:43:10.112 138b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
