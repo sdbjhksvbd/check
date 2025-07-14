@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o:SkyDriveSignInUpsell xmlns:o="urn:schemas-microsoft-com:office:office">
+  <o:ButtonTaskTitle>OneDrive</o:ButtonTaskTitle>
+  <o:SlabTitle>Save to OneDrive</o:SlabTitle>
+  <o:FirstParagraph>Use OneDrive to access your files from anywhere and share with anyone.</o:FirstParagraph>
+  <o:SecondParagraph />
+  <o:LearnMoreLinkText>Learn more</o:LearnMoreLinkText>
+  <o:LearnMoreLinkUrl>https://officeredir.microsoft.com/r/rlidSkyDriveUpsellLearnMore</o:LearnMoreLinkUrl>
+  <o:SignInButtonText>Sign In</o:SignInButtonText>
+  <o:SignUpLinkText>Sign up</o:SignUpLinkText>
+  <o:SignUpLinkUrl>https://onedrive.com/about</o:SignUpLinkUrl>
+</o:SkyDriveSignInUpsell>
