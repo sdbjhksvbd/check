@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({COPYRIGHT:"Â©2012-2015 Adobe Systems Incorporated, All Rights Reserved.",HELP:"Laguntza",PRIVACY:"Pribatutasuna",TERMS:"Baldintzak",COOKIES:"Cookieak",PRIVACY_POLICY:"Pribatutasun-politika eta cookie-ak",TERMS_OF_USE:"Erabiltzeko baldintzak",WELCOME_MSG:"Erabili Adobe-ren dokumentu-zerbitzuak eta atzitu zure fitxategiak edozein gailutatik",LOAD_FAILURES:"Kargatu erroreak",MODULES_NOT_LOADED:"Ezin izan dira hurrengo moduluak kargatu:<br/><br/><%= modules %>",SIGN_IN:"Hasi saioa",CREATE_ACCOUNT:"Sortu kontua",FORGOT_PASSWORD:"Saioa hasteko arazorik duzu?",EMAIL_VERIFICATION:"Helbide elektronikoaren egiaztapena",PDF_SERVICES:"Â Â /Â Â PDF zerbitzuak",ACCOUNT:"Kontua",LINK_CREATIVE_CLOUD_ACCOUNT:"Estekatu Creative Cloud kontua...",LINK_DROPBOX_ACCOUNT:"Estekatu Dropbox kontua...",MANAGE_SUB:"Nire plana...",USER_ACCOUNT:"Erabiltzaile-kontua...",ASK_US_A_QUESTION:"Egiguzu galdera bat...",SUPPORT:"Laguntza...",CHAT_WITH_US:"Hitz egin gurekin...",ABOUT_APP:"Document Cloud zerbitzuari buruz...",SIGN_OUT:"Amaitu saioa",SHOW_PROGRESS:"Erakutsi progresioa",PROGRESS_COMPLETE:"Progresioa osatuta",REMOVE_HISTORY:"Kendu historia",OPERATION_IN_PROGRESS_DLG_TITLE:"Eragiketa abian dago",OPERATION_IN_PROGRESS_DLG_MSG:"Eragiketa bat abian dago. Jarraitzen baduzu bertan behera utziko duzu eragiketa hori. Jarraitu nahi duzu?",QUOTA_LEGEND:"<%= using %> / <%= allotment %>",STORAGE_EXCEEDED_LEARN_MORE:"Biltegiratze kopurua gainditu da (<a class='quota-display-learn-more'>Lortu informazio gehiago</a>)",ABOUT_DLG_TITLE:"Document Cloud zerbitzuari buruz",ABOUT_DLG_COPYRIGHT_PARA:"Copyright Â© 2012-2015 Adobe Systems Incorporated and its licensors. All Rights Reserved.",ABOUT_DLG_TRADEMARK_PARA:"Adobe, the Adobe logo, and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.",ABOUT_DLG_PORTIONS_PARA:"Zatiek hau erabiltzen dute:",ABOUT_DLG_MICROSOFT_PARA:"Microsoft Windows Media Technologies. Copyright Â© 1999-2002, 2006 Microsoft Corporation. All Rights Reserved.",ABOUT_DLG_IRIS_PARA:"OCR technology by Image Recognition Integrated Systems S.A. Copyright Â© 1987 - 2012, I.R.I.S. S.A. All rights reserved.",ABOUT_DLG_SOLID_PARA:"Copyright Â© 2003-2011 Solid Documents, LLC",ABOUT_DLG_THIRD_PARTY_PARA:"Hirugarrenen softwareari dagozkion abisuak, zehaztapenak eta baldintzak dokumentu honetan aipamenez sartzen dira eta hemen aurki daitezke: <%= thirdPartyLink %>.",ABOUT_DLG_BUILD_NUMBER:"Konpilazioa: <%= buildNum %>",NO_CONNECTION_TITLE:"Ez dago Interneteko konexiorik",NO_CONNECTION_MSG:"Eremu honetako eginbideak Interneteko konektagarritasuna behar dute. Konektatu ordenagailua Internetera eta saiatu berriro.",NETWORK_FAILURE:"Sare-konexioak huts egin du",NETWORK_DISCONNECTED:"Ematen du sare-konexiorik ez duzula. Baliteke Reader-ek behar bezala ez funtzionatzea sare-konexiorik ez baduzu."});
