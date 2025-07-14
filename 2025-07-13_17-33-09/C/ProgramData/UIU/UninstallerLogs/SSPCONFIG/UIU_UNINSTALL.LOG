@@ -1,0 +1,420 @@
+7.160.0.2 : 10:41:35.919 : C:\PROGRAM FILES\CONEXANT\SSPCONFIG\SETUP64.EXE "
+7.160.0.2 : 10:41:35.919 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.160.0.2
+7.160.0.2 : 10:41:35.919 :   Version = V7.160.0.2
+7.160.0.2 : 10:41:35.919 :   OS Platform = OS_WIN10-64
+7.160.0.2 : 10:41:35.919 :   dwSetupConfig = 20100 : dwMode = 80220002
+7.160.0.2 : 10:41:35.919 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -U -ISSPCONFIG
+7.160.0.2 : 10:41:35.919 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -ISSPCONFIG
+7.160.0.2 : 10:41:35.919 :     ENTRY: CSetupDlg::RunSetupDlg
+7.160.0.2 : 10:41:35.919 :       ENTRY: CUninstall :: SetupUninstallEnviroment
+7.160.0.2 : 10:41:35.919 :         ENTRY: CUninstall::IsAlternateUninstallerFileCase
+7.160.0.2 : 10:41:35.919 :         EXIT:  CUninstall::IsAlternateUninstallerFileCase: bRetVal=0
+7.160.0.2 : 10:41:35.919 :         ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:35.919 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:35.919 :         ENTRY: CDevNode::IsDeleteLogFilesOnUninstall
+7.160.0.2 : 10:41:35.919 :         EXIT:  CDevNode::IsDeleteLogFilesOnUninstall : bRetVal = 0
+7.160.0.2 : 10:41:35.919 :         ENTRY: CDevNode::GetUCIFlagsValue
+7.160.0.2 : 10:41:35.919 :         EXIT:  CDevNode::GetUCIFlagsValue : dwUCIFlags = 0
+7.160.0.2 : 10:41:35.919 :       EXIT:  CUninstall :: SetupUninstallEnviroment : bRetVal = 1
+7.160.0.2 : 10:41:35.919 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:35.919 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.919 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 10:41:35.919 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 10:41:35.919 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.919 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 10:41:35.919 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 10:41:35.919 :       ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:35.919 :         ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.160.0.2 : 10:41:35.919 :         EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.160.0.2 : 10:41:35.919 :       EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:35.919 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:35.919 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.919 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 10:41:35.919 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 10:41:35.919 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.919 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 10:41:35.919 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 10:41:35.919 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.160.0.2 : 10:41:35.934 :         ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.160.0.2 : 10:41:35.934 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:35.934 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.934 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:35.934 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:35.934 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:35.934 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:35.934 :         m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.160.0.2 : 10:41:35.934 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 10:41:35.934 :         MyPaths = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.934 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 10:41:35.934 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 4
+7.160.0.2 : 10:41:35.934 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:35.934 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.934 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 10:41:35.934 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.934 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:35.934 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:35.934 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:35.934 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 3
+7.160.0.2 : 10:41:35.934 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 10:41:35.950 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 10:41:35.950 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 10:41:35.950 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 10:41:35.950 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 10:41:35.950 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 10:41:35.950 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 10:41:35.950 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 10:41:35.950 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:35.950 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:35.950 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:35.950 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:35.950 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\PRINTENUM\{F27BF2B1-3ACE-4A4D-B22D-AB8013987E1A}
+7.160.0.2 : 10:41:35.965 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:35.965 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:35.965 :           szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 10:41:35.965 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:35.965 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:35.965 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:35.965 :             dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:35.965 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:35.965 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:35.965 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:35.965 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.965 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:35.965 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.965 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:35.965 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:35.965 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.965 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:35.965 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:35.965 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.965 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:35.965 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:35.965 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.965 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:35.981 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:35.981 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:35.981 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:35.981 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:35.981 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\PRINTENUM\{F27BF2B1-3ACE-4A4D-B22D-AB8013987E1A}
+7.160.0.2 : 10:41:35.997 :             pszInstallSection = TASKS
+7.160.0.2 : 10:41:35.997 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:35.997 :           szINFFileName= CopyConfig.ini, pszInstallSection = TASKS, pdwFlags = 1048576
+7.160.0.2 : 10:41:35.997 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:35.997 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:35.997 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:35.997 :             dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:35.997 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:35.997 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:35.997 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:35.997 :           pszInstallSection = TASKS, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.997 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:35.997 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:35.997 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:35.997 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:35.997 :           pszInstallSection = TASKS, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.997 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:35.997 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:35.997 :           pszInstallSection = TASKS, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.997 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:35.997 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:35.997 :           pszInstallSection = TASKS, dwCoinstStatus = 4
+7.160.0.2 : 10:41:35.997 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:35.997 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:35.997 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:35.997 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:35.997 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:35.997 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\PRINTENUM\{F27BF2B1-3ACE-4A4D-B22D-AB8013987E1A}
+7.160.0.2 : 10:41:36.012 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.012 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.012 :           [***REBOOT***]: From KINIFile::GetINIInfo - GetINIFlagValue(REBOOT_LABEL)
+7.160.0.2 : 10:41:36.012 :           szINFFileName= CxProper.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048577
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.012 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.012 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.012 :             dwFlags = 1048577, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.012 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.012 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:36.012 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:36.012 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:36.012 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:36.012 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:36.012 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:36.012 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:36.012 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:36.012 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:36.012 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:36.012 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 10:41:36.012 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 10:41:36.012 :       ENTRY: CINIFile::UninstallINIFiles : pszDeviceID= SSPCONFIG
+7.160.0.2 : 10:41:36.012 :         ENTRY: KINIFile::Initialize : pszDeviceID = SSPCONFIG
+7.160.0.2 : 10:41:36.012 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:36.012 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.028 :         m_szDriverPath = SSPCONFIG
+7.160.0.2 : 10:41:36.028 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 10:41:36.028 :         MyPaths = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.028 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 10:41:36.028 :         ENTRY: KINIFile::UninstallINIFiles
+7.160.0.2 : 10:41:36.028 :         szUninstallPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.028 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 10:41:36.028 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.028 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.028 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.028 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.028 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 3
+7.160.0.2 : 10:41:36.028 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 10:41:36.044 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 10:41:36.044 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 10:41:36.044 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 10:41:36.044 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 10:41:36.044 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 10:41:36.044 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 10:41:36.044 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 10:41:36.044 :           ENTRY: KINIFile::DoInstallAppSectionOnly : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.044 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:36.044 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:36.044 :                 ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.044 :                 EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.059 :               pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.059 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.059 :             [***REBOOT***]: From KINIFile::GetINIInfo - GetINIFlagValue(REBOOT_LABEL)
+7.160.0.2 : 10:41:36.059 :             szINFFileName= CxProper.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048577
+7.160.0.2 : 10:41:36.059 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.059 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.059 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.059 :               dwFlags = 1048577, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.059 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.059 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.059 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 10:41:36.059 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:36.059 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 10:41:36.059 :               szInstallAppSection = CxProper.InstallApp, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:36.059 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 10:41:36.059 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 10:41:36.059 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 10:41:36.059 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 10:41:36.059 :           EXIT:  KINIFile::DoInstallAppSectionOnly : dwRetVal = 0
+7.160.0.2 : 10:41:36.075 :           ENTRY: KINIFile::DoInstallAppSectionOnly : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.075 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:36.075 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:36.075 :                 ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.075 :                 EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.090 :               pszInstallSection = TASKS
+7.160.0.2 : 10:41:36.090 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.090 :             szINFFileName= CopyConfig.ini, pszInstallSection = TASKS, pdwFlags = 1048576
+7.160.0.2 : 10:41:36.090 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.090 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.090 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.090 :               dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.090 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.090 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.090 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 10:41:36.090 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:36.090 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 10:41:36.090 :               szInstallAppSection = InstallApp, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:36.090 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 10:41:36.090 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 10:41:36.090 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 10:41:36.090 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 10:41:36.090 :           EXIT:  KINIFile::DoInstallAppSectionOnly : dwRetVal = 0
+7.160.0.2 : 10:41:36.090 :           ENTRY: KINIFile::DoInstallAppSectionOnly : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.090 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:36.090 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:36.090 :                 ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.106 :                 EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.106 :               pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.106 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.106 :             szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 10:41:36.106 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.106 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.106 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.106 :               dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.106 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.106 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.106 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 10:41:36.106 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:36.106 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 10:41:36.106 :               szInstallAppSection = InstallApp, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:36.106 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 10:41:36.106 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 10:41:36.106 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 10:41:36.106 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 10:41:36.106 :           EXIT:  KINIFile::DoInstallAppSectionOnly : dwRetVal = 0
+7.160.0.2 : 10:41:36.106 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:36.122 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:36.122 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.122 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.122 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.122 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.122 :           [***REBOOT***]: From KINIFile::GetINIInfo - GetINIFlagValue(REBOOT_LABEL)
+7.160.0.2 : 10:41:36.122 :           szINFFileName= CxProper.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048577
+7.160.0.2 : 10:41:36.122 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.122 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.122 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.122 :             dwFlags = 68681729, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.122 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.122 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.122 :           ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.122 :           EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 10:41:36.122 :           ENTRY: KINIFile::UninstallPreCopyFiles : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.122 :           EXIT:  KINIFile::UninstallPreCopyFiles
+7.160.0.2 : 10:41:36.122 :           ENTRY: KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:36.137 :           EXIT:  KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:36.137 :           ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.137 :             ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:36.137 :             EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:36.137 :           EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.137 :         HKLM: klAddRegInfoList.GetCount() = 1, cslKeyList.GetCount() = 1
+7.160.0.2 : 10:41:36.137 :           ENTRY: CShortCut::DeleteShortcut
+7.160.0.2 : 10:41:36.137 :           EXIT:  CShortCut::DeleteShortcut : bRetVal = 0
+7.160.0.2 : 10:41:36.137 :           ENTRY: CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:36.137 :           pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 10:41:36.137 :           EXIT:  CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:36.248 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:36.248 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:36.248 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.263 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.263 :             pszInstallSection = TASKS
+7.160.0.2 : 10:41:36.263 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.263 :           szINFFileName= CopyConfig.ini, pszInstallSection = TASKS, pdwFlags = 1048576
+7.160.0.2 : 10:41:36.263 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.263 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.263 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.263 :             dwFlags = 68681728, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.263 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.263 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.263 :           ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS
+7.160.0.2 : 10:41:36.263 :           EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 10:41:36.263 :           ENTRY: KINIFile::UninstallPreCopyFiles : pszInstallSection = TASKS
+7.160.0.2 : 10:41:36.263 :           EXIT:  KINIFile::UninstallPreCopyFiles
+7.160.0.2 : 10:41:36.279 :           ENTRY: KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:36.279 :           EXIT:  KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:36.279 :           ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS
+7.160.0.2 : 10:41:36.279 :             ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:36.279 :             EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:36.279 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.279 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.279 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.279 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.279 :             ENTRY: CInf::ResetDeleteOnRebootList
+7.160.0.2 : 10:41:36.279 :             EXIT:  CInf::ResetDeleteOnRebootList
+7.160.0.2 : 10:41:36.279 :             ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.279 :             pszFileToDelete = C:\WINDOWS\system32\drivers\SSPTunePt.DAT, dwFlags = 2
+7.160.0.2 : 10:41:36.279 :             GetLastError() = 2
+7.160.0.2 : 10:41:36.279 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\WINDOWS\system32\drivers\SSPTunePt.DAT
+7.160.0.2 : 10:41:36.279 :               csFolderToDelete = C:\WINDOWS\SYSTEM32\DRIVERS
+7.160.0.2 : 10:41:36.279 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.279 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.279 :             ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.279 :             pszFileToDelete = C:\WINDOWS\system32\cxapo.prop, dwFlags = 2
+7.160.0.2 : 10:41:36.279 :             GetLastError() = 2
+7.160.0.2 : 10:41:36.279 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\WINDOWS\system32\cxapo.prop
+7.160.0.2 : 10:41:36.279 :               csFolderToDelete = C:\WINDOWS\SYSTEM32
+7.160.0.2 : 10:41:36.279 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.279 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.279 :           EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.295 :           ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.295 :           EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.295 :           ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.295 :           EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.295 :           ENTRY: CShortCut::DeleteShortcut
+7.160.0.2 : 10:41:36.295 :           EXIT:  CShortCut::DeleteShortcut : bRetVal = 0
+7.160.0.2 : 10:41:36.295 :           ENTRY: CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:36.295 :           pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 10:41:36.310 :           EXIT:  CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:36.420 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:36.420 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:36.420 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.435 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:36.451 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.451 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:36.451 :           szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 10:41:36.451 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:36.451 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.451 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:36.451 :             dwFlags = 68681728, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.451 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.451 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:36.451 :           ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.451 :           EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 10:41:36.451 :           ENTRY: KINIFile::UninstallPreCopyFiles : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.451 :           EXIT:  KINIFile::UninstallPreCopyFiles
+7.160.0.2 : 10:41:36.451 :           ENTRY: KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:36.451 :           EXIT:  KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:36.451 :           ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 10:41:36.451 :             ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:36.451 :             EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:36.451 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.451 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             ENTRY: CInf::ResetDeleteOnRebootList
+7.160.0.2 : 10:41:36.467 :             EXIT:  CInf::ResetDeleteOnRebootList
+7.160.0.2 : 10:41:36.467 :             ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.467 :             pszFileToDelete = C:\Program Files\Conexant\SSPConfig\setup64.exe, dwFlags = 2
+7.160.0.2 : 10:41:36.467 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.467 :               pszFileToDelete = C:\Program Files\Conexant\SSPConfig\CxProper.exe, dwFlags = 2
+7.160.0.2 : 10:41:36.467 :                 ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\CXPROPER.EXE
+7.160.0.2 : 10:41:36.467 :                 EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.160.0.2 : 10:41:36.467 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.467 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 10:41:36.467 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\SSPCONFIG
+7.160.0.2 : 10:41:36.467 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.467 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.467 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.467 :           HKLM: klAddRegInfoList.GetCount() = 7, cslKeyList.GetCount() = 1
+7.160.0.2 : 10:41:36.467 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:36.467 :             ENTRY: CShortCut::DeleteShortcut
+7.160.0.2 : 10:41:36.467 :             EXIT:  CShortCut::DeleteShortcut : bRetVal = 0
+7.160.0.2 : 10:41:36.467 :             ENTRY: CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:36.467 :             pszINIFileName = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 10:41:36.467 :             EXIT:  CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:36.592 :           EXIT:  KINIFile::UninstallINIFiles : dwRetFlags = 135266305
+7.160.0.2 : 10:41:36.592 :         EXIT:  CINIFile::UninstallINIFiles : dwRetVal = 135266305
+7.160.0.2 : 10:41:36.592 :         ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:36.592 :           ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.160.0.2 : 10:41:36.592 :           EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.160.0.2 : 10:41:36.592 :         EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:36.592 :         ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:36.592 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.592 :         ENTRY: CINIFile::CINIFile
+7.160.0.2 : 10:41:36.592 :           ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 10:41:36.607 :           m_szINIPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.607 :           EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 10:41:36.607 :         EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 10:41:36.607 :         ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.160.0.2 : 10:41:36.607 :           ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.160.0.2 : 10:41:36.607 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:36.607 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.607 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:36.607 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:36.623 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:36.623 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:36.623 :           m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.160.0.2 : 10:41:36.623 :           m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 10:41:36.623 :           MyPaths = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.623 :           EXIT:  KINIFile::Initialize
+7.160.0.2 : 10:41:36.623 :           ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 8
+7.160.0.2 : 10:41:36.623 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:36.623 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.623 :             ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 10:41:36.623 :             pszInstallPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\
+7.160.0.2 : 10:41:36.623 :             EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 0
+7.160.0.2 : 10:41:36.623 :           EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 10:41:36.638 :         EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 10:41:36.638 :       EXIT:  CSetupDlg::RunSetupDlg
+7.160.0.2 : 10:41:36.638 :     EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.160.0.2 : 10:41:36.638 :     ENTRY: CSetupApp::SetupRetVal
+7.160.0.2 : 10:41:36.638 :       ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.160.0.2 : 10:41:36.638 :       EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.160.0.2 : 10:41:36.638 :       ENTRY: CSetupApp::ExitInstance()
+7.160.0.2 : 10:41:37.990 :         ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.160.0.2 : 10:41:37.990 :         EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.160.0.2 : 10:41:37.990 :       EXIT:  CSetupApp::ExitInstance()
