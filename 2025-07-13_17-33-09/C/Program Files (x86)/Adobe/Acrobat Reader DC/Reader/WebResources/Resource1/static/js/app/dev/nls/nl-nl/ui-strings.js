@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({COPYRIGHT:"Â©2012-2015 Adobe Systems Incorporated, All Rights Reserved.",HELP:"Help",PRIVACY:"Privacy",TERMS:"Gebruiksvoorwaarden",COOKIES:"Cookies",PRIVACY_POLICY:"Privacybeleid en cookies",TERMS_OF_USE:"Gebruiksvoorwaarden",WELCOME_MSG:"Gebruik Adobe Document Services om uw bestanden vanaf elk willekeurig apparaat te openen",LOAD_FAILURES:"Laden mislukt",MODULES_NOT_LOADED:"De volgende modules kunnen niet worden geladen: <br/><br/><%= modules %>",SIGN_IN:"Aanmelden",CREATE_ACCOUNT:"Account maken",FORGOT_PASSWORD:"Aanmeldingsproblemen?",EMAIL_VERIFICATION:"E-mailverificatie",PDF_SERVICES:"Â Â /Â Â PDF-services",ACCOUNT:"Account",LINK_CREATIVE_CLOUD_ACCOUNT:"Creative Cloud-account koppelen...",LINK_DROPBOX_ACCOUNT:"Dropbox-account koppelen...",MANAGE_SUB:"Mijn abonnement...",USER_ACCOUNT:"Gebruikersaccount...",ASK_US_A_QUESTION:"Stel ons een vraag...",SUPPORT:"Ondersteuning...",CHAT_WITH_US:"Chat met ons...",ABOUT_APP:"Over Document Cloud...",SIGN_OUT:"Afmelden",SHOW_PROGRESS:"Voortgang tonen",PROGRESS_COMPLETE:"Voortgang voltooid",REMOVE_HISTORY:"Historie verwijderen",OPERATION_IN_PROGRESS_DLG_TITLE:"Bewerking in uitvoering",OPERATION_IN_PROGRESS_DLG_MSG:"De huidige bewerking wordt geannuleerd als u doorgaat. Wilt u doorgaan?",QUOTA_LEGEND:"<%= using %> van <%= allotment %>",STORAGE_EXCEEDED_LEARN_MORE:"Opslagruimte overschreden (<a class='quota-display-learn-more'>Meer informatie</a>)",ABOUT_DLG_TITLE:"Informatie over Document Cloud",ABOUT_DLG_COPYRIGHT_PARA:"Copyright Â© 2012-2015 Adobe Systems Incorporated and its licensors. All Rights Reserved.",ABOUT_DLG_TRADEMARK_PARA:"Adobe, the Adobe logo, and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.",ABOUT_DLG_PORTIONS_PARA:"Portions utilize:",ABOUT_DLG_MICROSOFT_PARA:"Microsoft Windows Media Technologies. Copyright Â© 1999-2002, 2006 Microsoft Corporation. All Rights Reserved.",ABOUT_DLG_IRIS_PARA:"OCR technology by Image Recognition Integrated Systems S.A. Copyright Â© 1987 - 2012, I.R.I.S. S.A. All rights reserved.",ABOUT_DLG_SOLID_PARA:"Copyright Â© 2003-2011 Solid Documents, LLC",ABOUT_DLG_THIRD_PARTY_PARA:"Kennisgevingen en voorwaarden met betrekking tot software van derden vindt u op <%= thirdPartyLink %> en zijn hierin door verwijzing opgenomen.",ABOUT_DLG_BUILD_NUMBER:"Build: <%= buildNum %>",NO_CONNECTION_TITLE:"Geen internetverbinding",NO_CONNECTION_MSG:"Voor de functies in dit gebied is internetverbinding nodig. Zorg dat de computer is verbonden met internet en probeer het opnieuw.",NETWORK_FAILURE:"Netwerkverbindingsfout",NETWORK_DISCONNECTED:"Er is geen netwerkverbinding. Zonder netwerkverbinding beschikt Reader niet over alle functies"});
