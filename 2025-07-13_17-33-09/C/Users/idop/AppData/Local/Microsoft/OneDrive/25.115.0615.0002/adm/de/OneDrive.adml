@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) 2016 Microsoft Corporation -->
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/PolicyDefinitions">
+  <displayName>OneDrive-Gruppenrichtlinieneinstellungen</displayName>
+  <description>Verschiedene Gruppenrichtlinieneinstellungen fÃ¼r die OneDrive-Synchronisierungs-App (OneDrive.exe), insbesondere die fÃ¼r die UnternehmensfunktionalitÃ¤t in der App spezifischen Einstellungen.</description>
+  <resources>
+    <stringTable>
+      <!-- general -->
+      <string id="OneDriveNGSCSettingCategory">OneDrive</string>
+      <string id="NucleusSettingCategory">Listensynchronisierung</string>
+
+      <!-- block syncing personal OneDrive -->
+      <string id="DisablePersonalSync">Benutzer an der Synchronisierung persÃ¶nlicher OneDrive-Konten hindern</string>
+      <string id="DisablePersonalSync_help">Mit dieser Einstellung kÃ¶nnen Sie Benutzer daran hindern, sich mit einem Microsoft-Konto anzumelden, um ihre persÃ¶nlichen OneDrive-Dateien zu synchronisieren.
+
+Wenn Sie diese Einstellung aktivieren, werden Benutzer daran gehindert, eine Synchronisierungsbeziehung fÃ¼r ihr persÃ¶nliches OneDrive-Konto einzurichten. Benutzer, die ihr persÃ¶nliches OneDrive bereits synchronisieren, wenn Sie diese Einstellung aktivieren, kÃ¶nnen die Synchronisierung nicht fortsetzen (und ihnen wird eine Meldung angezeigt, dass die Synchronisierung beendet ist), aber alle auf den Computer synchronisierten Dateien bleiben auf dem Computer.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer ihre persÃ¶nlichen OneDrive-Konten synchronisieren.</string>
+
+      <!-- turn on GPOSetUpdateRing for app updates -->
+      <string id="GPOSetUpdateRing">Updatering fÃ¼r Synchronisierungs-App festlegen</string>
+      <string id="GPOSetUpdateRing_help">Updates der OneDrive-Synchronisierungs-App (OneDrive. exe) werden Ã¼ber drei Ringe fÃ¼r die Ã–ffentlichkeit freigegeben: zuerst fÃ¼r Insider, dann fÃ¼r die Production und schlieÃŸlich verzÃ¶gert. Diese Einstellung ermÃ¶glicht es Ihnen, die Synchronisierungs-App-Version fÃ¼r Benutzer in Ihrer Organisation festzulegen. Wenn Sie diese Einstellung aktivieren und einen Ring auswÃ¤hlen, kÃ¶nnen die Benutzer diese nicht Ã¤ndern.
+
+Insider-Ring-Benutzer erhalten Builds, die ihnen eine Vorschau auf die neuen Features von OneDrive anzeigt.
+
+Production-Ring-Benutzer erhalten die neuesten Features, sobald diese verfÃ¼gbar sind.
+
+VerzÃ¶gerte-Ring-Benutzer erhalten neue Funktionen, Fehlerbehebungen und Leistungsverbesserungen als letzte. Dieser Ring ermÃ¶glicht es Ihnen, Updates von einem internen Netzwerkstandort aus bereitzustellen und die Anzeigedauer der Bereitstellung (innerhalb eines 60-tÃ¤gigen Fensters) zu steuern.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, erhalten die Benutzer OneDrive-Synchronisierungs-App-Updates, wenn diese im Production Ring verfÃ¼gbar werden. Benutzer kÃ¶nnen sich mit Office- oder Windows-Insider-Programmen verknÃ¼pfen, um die Updates des Insider-Rings zu erhalten.</string>
+
+      <string id="Enterprise">ZurÃ¼ckgestellt</string>
+      <string id="Production">Produktion</string>
+      <string id="Insider">Insider</string>
+
+      <!-- set default location of the OneDrive folder -->
+      <string id="DefaultRootDir">Standardspeicherort des OneDrive-Ordners festlegen</string>
+      <string id="DefaultRootDir_help">Mit dieser Einstellung kÃ¶nnen Sie einen bestimmten Pfad als Standardspeicherort des OneDrive-Ordners auf den Computern der Benutzer festlegen. StandardmÃ¤ÃŸig befindet sich der Pfad unter %userprofile%.
+
+Wenn Sie diese Einstellung aktivieren, wird der Speicherort des Ordners "OneDrive â€“ {organization name}" standardmÃ¤ÃŸig auf den Pfad festgelegt, den Sie in der Datei "OneDrive.admx" angeben. Um Benutzer daran zu hindern, den von Ihnen angegebenen Speicherort zu Ã¤ndern, aktivieren Sie die Einstellung "Benutzer am Ã„ndern des Speicherorts ihres OneDrive-Ordners hindern".
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, wird der Standardspeicherort des Ordners "OneDrive â€“ {organization name}" Ã¼ber %userprofile% festgelegt.</string>
+
+      <!-- disable changing the default location of the OneDrive folder -->
+      <string id="DisableCustomRoot">Benutzer am Ã„ndern des Speicherorts ihres OneDrive-Ordners hindern</string>
+      <string id="DisableCustomRoot_help">Mit dieser Einstellung kÃ¶nnen Sie verhindern, dass Benutzer den Speicherort ihres OneDrive - {organization name} Ordners wÃ¤hrend der Einrichtung der OneDrive-Synchronisierungs-App Ã¤ndern.
+
+Wenn Sie diese Einstellung aktivieren, wird der Link "Standort Ã¤ndern" in OneDrive Setup ausgeblendet. Der OneDrive-Ordner wird am Standardspeicherort oder an dem benutzerdefinierten Speicherort erstellt, den Sie angegeben haben, wenn Sie die Einstellung "Standardspeicherort fÃ¼r den OneDrive-Ordner festlegen" aktiviert haben.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer auf den Link "Speicherort Ã¤ndern" klicken, um den Speicherort ihres OneDrive-Ordners in OneDrive-Setup zu Ã¤ndern.</string>
+
+      <!-- Enable auto start for OneDrive -->
+      <string id="EnableAutoStart">OneDrive beim Anmelden bei Windows automatisch starten</string>
+      <string id="EnableAutoStart_help">Diese Einstellung setzt die Auswahl eines Benutzers auÃŸer Kraft und stellt sicher, dass OneDrive bei jeder Anmeldung bei Windows automatisch gestartet wird. 
+      
+Wenn Sie diese Einstellung konfigurieren, wird OneDrive automatisch gestartet, wenn sich ein Benutzer bei Windows anmeldet. Die OneDrive-Synchronisation App muss neu gestartet werden, nachdem diese Einstellung aktiviert wurde, damit die Einstellung wirksam wird.
+
+Wenn Sie diese Einstellung nicht konfigurieren oder auf einen anderen Wert als 1 festlegen, kann der Benutzer OneDrive automatisch starten (Standardeinstellung), oder den Start von OneDrive in OneDrive-Synchronisation App-Einstellungen deaktivieren.</string>
+
+      <!-- Enable Automatic Upload Bandwidth Limiting -->
+      <string id="AutomaticUploadBandwidthPercentage">Uploadrate der Synchronisierungs-App auf einen Prozentsatz des Durchsatzes begrenzen</string>
+      <string id="AutomaticUploadBandwidthPercentage_help">Mit dieser Einstellung kÃ¶nnen Sie die Leistung verschiedener Upload-Aufgaben auf einem Computer ausgleichen, indem Sie den Prozentsatz des Upload-Durchsatzes des Computers angeben, den die OneDrive-Synchronisierungs-App (OneDrive.exe) zum Hochladen von Dateien verwenden kann. Das Festlegen dieses Werts als Prozentsatz erlaubt es der Synchronisierungs-App, sowohl auf Anstiege als auch auf Verringerung des Durchsatzes zu reagieren. Je niedriger der von Ihnen festgelegte Prozentsatz ist, desto langsamer werden Dateien hochgeladen. Wir empfehlen einen Wert von 50 % oder hÃ¶her. Die Synchronisierungs-App lÃ¤dt regelmÃ¤ÃŸig eine Minute lang ohne EinschrÃ¤nkung hoch und verlangsamt sich dann auf den von Ihnen festgelegten Upload-Prozentsatz. Dadurch kÃ¶nnen kleine Dateien schnell hochgeladen werden, wÃ¤hrend gleichzeitig verhindert wird, dass groÃŸe Uploads den Upload-Durchsatz des Computers dominieren.
+
+Wenn Sie diese Einstellung aktivieren, verwenden Computer den Prozentsatz des Upload-Durchsatzes, den Sie beim Hochladen von Dateien auf OneDrive angeben, und Benutzer kÃ¶nnen ihn nicht Ã¤ndern.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer die Upload-Rate auf einen festen Wert (in KB/Sekunde) begrenzen oder sie auf â€žAutomatisch anpassenâ€œ einstellen, wodurch 70 % des Upload-Durchsatzes verwendet werden, um auf ErhÃ¶hungen und Verringerungen des Durchsatzes zu reagieren.
+
+Wichtig: Wenn Sie diese Einstellung aktivieren oder deaktivieren und sie dann wieder auf â€žNicht konfiguriertâ€œ Ã¤ndern, bleibt die letzte Konfiguration wirksam. Wir empfehlen, diese Einstellung anstelle von â€žUpload-Geschwindigkeit der Synchronisierungs-App auf eine feste Rate begrenzenâ€œ zu aktivieren, um die Upload-Rate zu begrenzen. Sie sollten nicht beide Einstellungen gleichzeitig aktivieren.</string>
+      <!-- Enable Upload Bandwidth Limiting -->
+      <string id="UploadBandwidthLimit">Uploadgeschwindigkeit der Synchronisierungs-App auf eine feste Rate begrenzen</string>
+      <string id="UploadBandwidthLimit_help">Mit dieser Einstellung kÃ¶nnen Sie die Maximalgeschwindigkeit konfigurieren, mit der die OneDrive-Synchronisierungs-App (OneDrive.exe) Dateien hochladen kann. Dieses Rate ist ein fester Wert in KB/s. Je niedriger die Rate ist, desto langsamer lÃ¤dt der Computer Dateien hoch. Die Mindestrate, die festgelegt werden kann, ist 1 KB/s, und die Maximalrate ist 100.000 KB/s. Jede Eingabe, die niedriger als 50 KB/s ist, legt das Limit auf 50 KB/s fest, selbst wenn in der BenutzeroberflÃ¤che die eingegebene Rate angezeigt wird.
+
+Wenn Sie diese Einstellung aktivieren, verwenden Computer die von Ihnen angegebene maximale Uploadrate, und Benutzer kÃ¶nnen sie nicht in den OneDrive-Einstellungen Ã¤ndern.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer entscheiden, ob sie die Uploadrate auf einen festen Wert (in KB/s) festlegen mÃ¶chten, oder ob sie ihn auf "Automatisch anpassen" festlegen, wodurch 70 % des Uploaddurchsatzes verwendet werden, um auf Anstiege und AbfÃ¤lle des Durchsatzes zu reagieren.
+
+Anstatt diese Einstellung zu verwenden, um die Uploadrate zu begrenzen, empfehlen wir, "Uploadrate der Synchronisierungs-App auf einen Prozentsatz des Durchsatzes begrenzen" zu aktivieren, um ein Limit festzulegen, das sich an sich Ã¤ndernde Bedingungen anpasst. Sie sollten nicht beide Einstellungen gleichzeitig aktivieren.</string>
+
+      <!-- Enable Download Bandwidth Limiting -->
+      <string id="DownloadBandwidthLimit">Downloadgeschwindigkeit der Synchronisierungs-App auf eine feste Rate begrenzen</string>
+      <string id="DownloadBandwidthLimit_help">Mit dieser Einstellung kÃ¶nnen Sie die maximale Geschwindigkeit konfigurieren, mit der die OneDrive-Synchronisation App (OneDrive.exe) Dateien herunterladen kann. Diese Rate ist ein fester Wert in Kilobytes pro Sekunde und gilt nur fÃ¼r die Synchronisierung, nicht fÃ¼r das Herunterladen von Updates. Je niedriger die Rate ist, desto langsamer werden Dateien heruntergeladen. Die Mindestrate, die festgelegt werden kann, ist 1 KB/s, und die maximale Rate betrÃ¤gt 100.000 KB/s. Bei Eingaben unter 50 KB/s wird der Grenzwert auf 50 KB/s festgelegt, selbst wenn die eingegebene Rate auf der BenutzeroberflÃ¤che angezeigt wird.
+
+Wenn Sie diese Einstellung aktivieren, verwenden Computer die von Ihnen angegebene maximale Downloadrate, und Benutzer kÃ¶nnen sie nicht Ã¤ndern.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer die Downloadrate in OneDrive-Synchronisation App-Einstellungen einschrÃ¤nken.</string>
+
+      <!-- prevent OneDrive sync app (OneDrive.exe) from generating network traffic (checking for updates, etc.) until the user signs in to OneDrive -->
+      <string id="PreventNetworkTrafficPreUserSignIn">Die Synchronisierungs-App am Generieren von Netzwerkdatenverkehr hindern, bis sich Benutzer anmelden</string>
+      <string id="PreventNetworkTrafficPreUserSignIn_help">Mit dieser Einstellung kÃ¶nnen Sie die OneDrive-Synchronisierungs-App (OneDrive.exe) an der Generierung von Netzwerkdatenverkehr (nach Updates suchen usw.) hindern, bis sich Benutzer bei der Synchronisierungs-App anmelden oder die Synchronisierung von Dateien auf dem Computer starten.
+
+Wenn Sie diese Einstellung aktivieren, mÃ¼ssen sich Benutzer bei der OneDrive-Synchronisierungs-App auf dem Computer anmelden oder auswÃ¤hlen, dass OneDrive- oder SharePoint-Dateien auf dem Computer synchronisiert werden, damit die Synchronisierungs-App automatisch gestartet wird.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, startet die OneDrive-Synchronisierungs-App automatisch, wenn sich Benutzer bei Windows anmelden.
+
+Wichtig: Wenn Sie diese Einstellung aktivieren oder deaktivieren und sie dann wieder zurÃ¼ck auf "Nicht konfiguriert" festlegen, bleibt die letzte Konfiguration wirksam. </string>
+
+      <!-- Silent Account Config -->
+      <string id="SilentAccountConfig">Benutzer automatisch mit ihren Windows-Anmeldeinformationen bei der OneDrive-Synchronisierungs-App anmelden</string>
+      <string id="SilentAccountConfig_help">Mit dieser Einstellung kÃ¶nnen Sie Benutzer automatisch mit ihren Windows-Anmeldeinformationen bei der OneDrive-Synchronisierungs-App (OneDrive.exe) anmelden.
+
+Wenn Sie diese Einstellung aktivieren, kÃ¶nnen Benutzer, die bei ihrem PC mit dem primÃ¤ren Windows-Konto (das Konto, das fÃ¼r den Beitritt des PCs zur DomÃ¤ne verwendet wird) angemeldet sind, die Synchronisierungs-App einrichten, ohne die Anmeldeinformationen fÃ¼r das Konto eingeben zu mÃ¼ssen. Den Benutzern wird weiterhin die OneDrive-Einrichtung angezeigt, sodass sie Ordner fÃ¼r die Synchronisierung auswÃ¤hlen und den Speicherort ihres OneDrive-Ordners Ã¤ndern kÃ¶nnen. Wenn ein Benutzer die vorherige OneDrive for Business-Synchronisierungs-App (Groove.exe) verwendet, versucht die neue Synchronisierungs-App, die Synchronisierung des OneDrive des Benutzers von der vorherigen App zu Ã¼bernehmen und dabei die Synchronisierungseinstellungen des Benutzers beizubehalten. Diese Einstellung wird hÃ¤ufig zusammen mit "Maximale GrÃ¶ÃŸe des OneDrive eines Benutzers festlegen, die automatisch heruntergeladen werden kann" auf PCs verwendet, die "Dateien bei Bedarf" nicht besitzen und den "Standardspeicherort des OneDrive-Ordners festlegen".
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, mÃ¼ssen sich Benutzer mit ihrem GeschÃ¤fts-, Schul- oder Unikonto anmelden, um die Synchronisierung einzurichten.
+
+</string>
+
+      <!-- DiskSpaceCheckThresholdMB -->
+      <string id="DiskSpaceCheckThresholdMB">Maximale GrÃ¶ÃŸe des OneDrive eines Benutzers festlegen, die automatisch heruntergeladen werden kann</string>
+      <string id="DiskSpaceCheckThresholdMB_help">Diese Einstellung wird zusammen mit "Benutzer automatisch mit ihren Windows-Anmeldeinformationen bei der OneDrive-Synchronisierungs-App anmelden" verwendet. Mit dieser Einstellung kÃ¶nnen Sie Benutzer, die mehr als eine festgelegte Menge von Inhalt auf OneDrive haben, auffordern, wÃ¤hrend der Einrichtung der OneDrive-Synchronisierungs-App (OneDrive.exe) Ordner fÃ¼r die Synchronisierung auszuwÃ¤hlen.
+
+Wenn Sie diese Einstellung aktivieren, wird Benutzern, die mehr Inhalt als den von Ihnen festgelegten Wert besitzen, wÃ¤hrend der Einrichtung von OneDrive standardmÃ¤ÃŸig das Dialogfeld "Ordner auswÃ¤hlen" angezeigt.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, werden, wenn Benutzer die Synchronisierungs-App einrichten, alle Dateien zur Synchronisierung ausgewÃ¤hlt.</string>
+
+      <!-- Settings below control behavior of Files-On-Demand (Cloud Files) -->
+      <string id="FilesOnDemandEnabled">OneDrive-Dateien bei Bedarf verwenden</string>
+      <string id="FilesOnDemandEnabled_help">Diese Einstellung erlaubt es Ihnen, zu kontrollieren, ob "OneDrive-Dateien bei Bedarf" fÃ¼r Ihre Organisation aktiviert ist.
+
+Wenn Sie diese Einstellung aktivieren, wird "OneDrive-Dateien bei Bedarf" standardmÃ¤ÃŸig aktiviert.
+
+Wenn Sie diese Einstellung deaktivieren, wird "OneDrive-Dateien bei Bedarf" explizit deaktiviert, und Benutzer kÃ¶nnen es nicht aktivieren.
+
+Wenn Sie diese Einstellung nicht konfigurieren, kÃ¶nnen Benutzer "OneDrive-Dateien bei Bedarf" aktivieren und deaktivieren.</string>
+
+      <string id="DehydrateSyncedTeamSites">Synchronisierte Teamwebsitedateien in reine Onlinedateien konvertieren</string>
+      <string id="DehydrateSyncedTeamSites_help">Diese Einstellung wird zusammen mit "OneDrive-Dateien bei Bedarf" verwendet. Wenn viele Benutzer dieselben Teamwebsites synchronisieren, kÃ¶nnen Sie mit dieser Einstellung Bandbreite freihalten und Speicherplatz auf GerÃ¤ten freigeben, indem Sie synchronisierte Teamwebsitedateien in reine Onlinedateien umwandeln lassen.
+
+Wenn Sie diese Einstellung aktivieren, werden Teamwebsitedateien, die bereits synchronisiert wurden, bevor "OneDrive-Dateien bei Bedarf" aktiviert wurde, in reine Onlinedateien konvertiert (als einmalige Aktion).
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, bleiben Teamwebsitedateien lokal verfÃ¼gbar, es sei denn, Benutzer entscheiden sich, sie in "Nur online" umzuwandeln.</string>
+
+      <!-- Restrict syncing with other organizations -->
+      <string id="AllowTenantList">Synchronisierung von OneDrive-Konten nur fÃ¼r bestimmte Organisationen zulassen</string>
+      <string id="AllowTenantList_help">Mit dieser Einstellung kÃ¶nnen Sie verhindern, dass Benutzer problemlos Dateien in andere Organisationen hochladen kÃ¶nnen, indem Sie eine Liste zulÃ¤ssiger Mandanten-IDs angeben. 
+
+Wenn Sie diese Einstellung aktivieren, erhalten Benutzer einen Fehler, wenn sie versuchen, ein Konto aus einer Organisation hinzuzufÃ¼gen, die nicht zulÃ¤ssig ist. Wenn ein Benutzer das Konto bereits hinzugefÃ¼gt hat, werden die Dateien nicht mehr synchronisiert.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer Konten aus jeder Organisation hinzufÃ¼gen. 
+
+Um stattdessen bestimmte Organisationen zu blockieren, verwenden Sie "Synchronisierung von OneDrive-Konten nur fÃ¼r bestimmte Organisationen sperren".
+
+Diese Einstellung hat Vorrang vor "Synchronisierung von OneDrive-Konten nur fÃ¼r bestimmte Organisationen sperren". Aktivieren Sie nicht beide Richtlinien gleichzeitig.</string>
+
+      <string id="BlockTenantList">Synchronisierung von OneDrive-Konten nur fÃ¼r bestimmte Organisationen sperren</string>
+      <string id="BlockTenantList_help">Mit dieser Einstellung kÃ¶nnen Sie verhindern, dass Benutzer problemlos Dateien in andere Organisationen hochladen kÃ¶nnen, indem Sie eine Liste gesperrter Mandanten-IDs angeben. 
+
+Wenn Sie diese Einstellung aktivieren, erhalten Benutzer einen Fehler, wenn sie versuchen, ein Konto aus einer Organisation hinzuzufÃ¼gen, die gesperrt ist. Wenn ein Benutzer das Konto bereits hinzugefÃ¼gt hat, werden die Dateien nicht mehr synchronisiert.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer Konten aus jeder Organisation hinzufÃ¼gen. 
+
+Um stattdessen eine Liste zulÃ¤ssiger Organisationen anzugeben, verwenden Sie "Synchronisierung von OneDrive-Konten nur fÃ¼r bestimmte Organisationen zulassen".
+
+Diese Einstellung funktioniert NICHT, wenn Sie "Synchronisierung von OneDrive-Konten nur fÃ¼r bestimmte Organisationen zulassen" aktiviert haben. Aktivieren Sie nicht beide Richtlinien gleichzeitig.</string>
+
+      <!-- SharePoint Server 2019 settings -->
+      <string id="SharePointOnPremFrontDoorUrl">SharePoint-Server-URL und Organisationsnamen angeben</string>
+      <string id="SharePointOnPremFrontDoorUrl_help">Mit dieser Einstellung kÃ¶nnen Sie Benutzern gestatten, die OneDrive-Synchronisierungs-App (OneDrive.exe) fÃ¼r die Synchronisierung von Dateien in SharePoint Server 2019 zu verwenden. Die URL definiert den Speicherort des SharePoint-Servers und ermÃ¶glicht der Synchronisierungs-App die Authentifizierung und Einrichtung der Synchronisierung. Mit dem Organisationsnamen kÃ¶nnen Sie die OneDrive- und SharePoint-Ordnernamen angeben, die im Datei-Explorer erstellt werden sollen. Der Organisationsname ist optional. Wenn Sie ihn nicht angeben, verwendet die Synchronisierungs-App das erste Segment der URL als den Namen. Aus "office.sharepoint.com" wÃ¼rde beispielsweise "Office", und der OneDrive-Ordnername wÃ¼rde "OneDrive â€“ Office."
+
+Wenn Sie diese Einstellung aktivieren und die SharePoint-Server-URL angeben, kÃ¶nnen Benutzer Dateien in SharePoint Server 2019 synchronisieren.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren oder die SharePoint-Server-URL nicht angeben, kÃ¶nnen Benutzer keine Dateien in SharePoint Server 2019 synchronisieren. </string>
+
+      <string id="SharePointOnPremPrioritization">OneDrive-Speicherort in einer Hybridumgebung angeben</string>
+      <string id="SharePointOnPremPrioritization_help">Diese Einstellung definiert, ob sich die OneDrive-Synchronisierungs-App (OneDrive.exe) bei SharePoint Online oder bei SharePoint Server 2019 authentifizieren sollte, wenn die IdentitÃ¤t bei beiden IdentitÃ¤tsanbietern vorhanden ist. Um diese Einstellung zu verwenden, mÃ¼ssen Sie ebenfalls "SharePoint-Server-URL und Organisationsnamen angeben" aktivieren. Diese Einstellung wirkt sich nur auf OneDrive for Business-Synchronisierungsfunktionen aus. Sie hat keine Auswirkungen auf die Synchronisierung von Teamwebsites in SharePoint Online oder SharePoint Server 2019.
+
+Wenn Sie diese Einstellung aktivieren, kÃ¶nnen Sie eine von zwei Optionen auswÃ¤hlen:
+
+SharePoint Online: Die Synchronisierungs-App sucht zuerst in SharePoint Online nach dem OneDrive eines Benutzers. Wenn die Synchronisierungs-App bereits mit SharePoint Online fÃ¼r den Benutzer konfiguriert ist, versucht sie, eine OneDrive for Business-Instanz fÃ¼r diesen Benutzer in SharePoint Server 2019 zu konfigurieren.
+
+SharePoint Server 2019: Die Synchronisierungs-App sucht zuerst in SharePoint Sever 2019 nach dem OneDrive for Business eines Benutzers. Wenn die Synchronisierungs-App bereits mit SharePoint Server 2019 fÃ¼r den Benutzer konfiguriert ist, versucht sie, eine OneDrive-Instanz fÃ¼r diesen Benutzer in SharePoint Online zu konfigurieren.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, sucht die Synchronisierungs-App zuerst in SharePoint Online nach dem OneDrive des Benutzers.</string>
+
+      <string id="PrioritizeSPO">SharePoint Online</string>
+      <string id="PrioritizeSharePointOnPrem">SharePoint Server 2019</string>
+
+      <!-- Disable tutorial in the FRE -->
+      <string id="DisableFRETutorial">Das Lernprogramm deaktivieren, das am Ende der OneDrive-Einrichtung angezeigt wird</string>
+      <string id="DisableFRETutorial_help">Mit dieser Einstellung kÃ¶nnen Sie verhindern, dass das Lernprogramm am Ende der OneDrive-Einrichtung in einem Webbrowser gestartet wird.
+
+Wenn Sie diese Einstellung aktivieren, wird das Lernprogramm Benutzern nach Abschluss der OneDrive-Einrichtung nicht angezeigt.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, wird das Lernprogramm am Ende der OneDrive-Einrichtung angezeigt.</string>
+
+      <!-- Disable Animation in the FRE-->
+      <string id="DisableFREAnimation">Deaktivieren der Animation, die wÃ¤hrend des OneDrive-Setups angezeigt wird</string>
+      <string id="DisableFREAnimation_help">Mit dieser Einstellung kÃ¶nnen Sie verhindern, dass die Animation wÃ¤hrend des OneDrive-Setups angezeigt wird.</string>
+
+      <!-- Block KFM -->
+      <string id="BlockKnownFolderMove">Benutzer am Verschieben ihrer bekannten Windows-Ordner auf OneDrive hindern</string>
+      <string id="BlockKnownFolderMove_help">Diese Einstellung verhindert, dass Benutzer ihre Ordner "Dokumente", "Bilder" und "Desktop" in ein OneDrive for Business Konto verschieben.
+
+Hinweis: Das Verschieben bekannter Ordner in persÃ¶nliche OneDrive-Konten ist bereits auf in die DomÃ¤ne eingebundenen PCs blockiert.
+
+Wenn Sie diese Einstellung aktivieren, werden Benutzer nicht zum Fenster "Schutz wichtiger Ordner einrichten" aufgefordert, und der Befehl "Schutz starten" wird deaktiviert. Wenn der Benutzer seine bekannten Ordner bereits verschoben hat, bleiben die Dateien in diesen Ordnern auf OneDrive. Um die bekannten Ordner zurÃ¼ck zum GerÃ¤t des Benutzers umzuleiten, wÃ¤hlen Sie "Nein" aus. Diese Einstellung wird nicht wirksam, wenn Sie "Benutzer zum Verschieben bekannter Windows-Ordner nach OneDrive auffordern" oder "Windows-bekannte Ordner automatisch nach OneDrive verschieben" aktivieren.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer ihre bekannten Ordner verschieben.</string>
+
+      <string id="BlockKnownFolderMoveDefaultOption">Ja</string>
+      <string id="BlockKnownFolderMoveRestoreFolder">Nein</string>
+
+      <!-- KFMOptInWithWizard -->
+      <string id="KFMOptInWithWizard">Benutzer zum Verschieben bekannter Windows-Ordner auf OneDrive auffordern </string>
+      <string id="KFMOptInWithWizard_help">Diese Einstellung zeigt das Fenster "Ihre IT-Abteilung mÃ¶chte, dass Sie Ihre wichtigen Ordner schÃ¼tzen" an, in dem Benutzer aufgefordert werden, ihre Ordner "Dokumente", "Bilder" und "Desktop" auf OneDrive zu verschieben. Diese Funktion ist fÃ¼r lokales SharePoint nicht aktiviert.
+
+Wenn Sie diese Einstellung aktivieren und Ihre Mandanten-ID angeben, wird Benutzern, die ihr OneDrive synchronisieren, das Fenster "Ihre IT-Abteilung mÃ¶chte, dass Sie Ihre wichtigen Ordner schÃ¼tzen" angezeigt, wenn sie angemeldet sind. Wenn sie das Fenster schlieÃŸen, wird im AktivitÃ¤tscenter so lange eine Erinnerungsbenachrichtigung angezeigt, bis sie alle drei bekannten Ordner verschieben. Wenn ein Benutzer seine bekannten Ordner bereits an ein anderes OneDrive-Konto umgeleitet hat, wird er aufgefordert, die Ordner auf das Konto fÃ¼r Ihre Organisation umzuleiten (wobei vorhandene Dateien zurÃ¼ckgelassen werden).
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, wird das Fenster "Ihre IT-Abteilung mÃ¶chte, dass Sie Ihre wichtigen Ordner schÃ¼tzen" Ihren Benutzern nicht automatisch angezeigt.</string>
+
+      <!-- KFMOptInNoWizard -->
+      <string id="KFMOptInNoWizard">Bekannte Windows-Ordner automatisch auf OneDrive verschieben</string>
+      <string id="KFMOptInNoWizard_help">Mit dieser Einstellung kÃ¶nnen Sie bekannte Ordner ohne Benutzerinteraktion auf OneDrive umleiten. In niedrigeren Builds der Synchronisierungs-App als 18.171.0823.0001 leitet diese Einstellung nur leere bekannte Ordner auf OneDrive um (oder bekannte Ordner sind bereits an ein anderes OneDrive-Konto umgeleitet). In spÃ¤teren Builds werden bekannte Ordner mit Inhalten umgeleitet, und der Inhalt wird auf OneDrive verschoben. Wir empfehlen die Verwendung dieser Einstellung zusammen mit â€žBenutzer zum Verschieben bekannter Windows-Ordner auf OneDrive auffordernâ€œ. Wenn das automatische Verschieben bekannter Ordner nicht erfolgreich ist, werden Benutzer aufgefordert, den Fehler zu korrigieren und fortzufahren.
+
+Wenn Sie diese Einstellung aktivieren und Ihre Mandanten-ID angeben, kÃ¶nnen Sie wÃ¤hlen, ob Benutzern eine Benachrichtigung angezeigt werden soll, nachdem ihre Ordner umgeleitet wurden.
+
+Sie kÃ¶nnen alle Ordner order nur ausgewÃ¤hlte Ordner verschieben. Nachdem ein Ordner verschoben wurde, hat diese Richtlinie auch dann keine Auswirkungen auf diesen Ordner mehr, wenn Sie das KontrollkÃ¤stchen fÃ¼r den Ordner deaktivieren. 
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, werden die bekannten Ordner Ihrer Benutzer nicht automatisch auf OneDrive umgeleitet und/oder verschoben.
+
+    </string>
+      <string id="KFMOptInNoWizardToast">Ja</string>
+      <string id="KFMOptInNoWizardNoToast">Nein</string>
+
+      <!-- Block KFM Opt Out -->
+      <string id="KFMBlockOptOut">Benutzer am Umleiten ihrer bekannten Windows-Ordner auf ihren PC hindern</string>
+      <string id="KFMBlockOptOut_help">Diese Einstellung zwingt Benutzer, die Umleitung ihrer Ordner "Dokumente", "Bilder" und "Desktop" auf OneDrive beizubehalten.
+
+ Wenn Sie diese Einstellung aktivieren, wird die SchaltflÃ¤che "Schutz beenden" im Fenster "Ihre IT-Abteilung mÃ¶chte, dass Sie Ihre wichtigen Ordner schÃ¼tzen" deaktiviert, und Benutzer erhalten einen Fehler, wenn sie versuchen, die Synchronisierung eines bekannten Ordners zu beenden.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer auswÃ¤hlen, dass ihre bekannten Ordner wieder zurÃ¼ck auf ihren PC umgeleitet werden. </string>
+
+      <!-- KFMForceWindowsDisplayLanguage -->
+      <string id="KFMForceWindowsDisplayLanguage">Verwenden Sie immer die Anzeigesprache des Benutzers, wenn bekannte Ordner in OneDrive bereitgestellt werden.</string>
+      <string id="KFMForceWindowsDisplayLanguage_help">Wenn Sie bekannte Windows-Ordner nach OneDrive verschieben, werden diese standardmÃ¤ÃŸig in der Windows-Anzeigesprache des Benutzers bereitgestellt, es sei denn, der Benutzer legt eine andere bevorzugte Sprache fest. Mit dieser Einstellung kÃ¶nnen Sie die bevorzugte Spracheinstellung des Benutzers Ã¼berschreiben. Es funktioniert mit den beiden Einstellungen fÃ¼r die verschiebung von bekannten Ordnern ("Automatisches Verschieben von Windows-bekannten Ordnern auf OneDrive" und "Benutzer auffordern, bekannte Windows-Ordner nach OneDrive zu verschieben").
+
+Wenn Sie diese Einstellung aktivieren, werden bekannte Ordner mithilfe der Windows-Anzeigesprache des Benutzers bereitgestellt, auch wenn der Benutzer eine andere bevorzugte Sprache festlegt.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren und der Benutzer eine bevorzugte Sprache festgelegt hat, werden die bekannten Ordner in OneDrive in dieser Sprache bereitgestellt. Die bekannten Ordner auf ihrem PC werden in ihrer bevorzugten Sprache angezeigt.</string>
+
+      <!-- AutoMountTeamSites -->
+      <string id="AutoMountTeamSites">Teamwebsitebibliotheken fÃ¼r die automatische Synchronisierung konfigurieren</string>
+      <string id="AutoMountTeamSites_help">Mit dieser Einstellung kÃ¶nnen Sie SharePoint-Teamwebsitebibliotheken angeben, die bei der nÃ¤chsten Anmeldung bei der OneDrive-Synchronisierungs-App (OneDrive. exe) automatisch synchronisiert werden sollen. Nachdem sich ein Benutzer angemeldet hat, kann es bis zu 8 Stunden dauern, bis die Bibliothek mit der Synchronisierung beginnt. Um die Einstellung zu verwenden, mÃ¼ssen Sie OneDrive Files On-Demand aktivieren, und die Einstellung gilt nur fÃ¼r Benutzer auf Computern, auf denen Windows 10 (1709) Fall Creators Update oder hÃ¶her ausgefÃ¼hrt wird. Aktivieren Sie diese Einstellung nicht fÃ¼r dieselbe Bibliothek auf mehr als 1.000 GerÃ¤ten. Um eine gute Synchronisierung zu gewÃ¤hrleisten, sollten Sie diese Funktion nicht fÃ¼r groÃŸe Bibliotheksgruppen aktivieren (die aktuellsten Anleitungen finden Sie unter https://learn. microsoft. com/en-us/sharepoint/use-group-policy#AutoMountTeamSites). Dieses Feature ist fÃ¼r lokale SharePoint-Websites nicht aktiviert.
+
+Wenn Sie diese Einstellung aktivieren, lÃ¤dt die OneDrive-Synchronisierungs-App den Inhalt der Bibliotheken, die Sie als reine Onlinedateien angegeben haben, automatisch herunter, wenn sich der Benutzer das nÃ¤chste Mal anmeldet. Der Benutzer kann die Synchronisierung der Bibliotheken nicht beenden.
+
+Wenn Sie diese Einstellung deaktivieren, werden die von Ihnen angegebenen Teamwebsitebibliotheken nicht automatisch fÃ¼r neue Benutzer synchronisiert. Bestehende Benutzer kÃ¶nnen die Synchronisierung der Bibliotheken beenden, aber die Bibliotheken beenden nicht automatisch die Synchronisierung.</string>
+
+      <!-- Disable Pause On Battery Saver  -->
+      <string id="DisablePauseOnBatterySaver">Synchronisierung fortsetzen, wenn GerÃ¤te den Stromsparmodus aktiviert haben</string>
+      <string id="DisablePauseOnBatterySaver_help">Mit dieser Einstellung kÃ¶nnen Sie die automatische Anhaltefunktion fÃ¼r GerÃ¤te deaktivieren, die den Stromsparmodus aktiviert haben.
+
+Wenn Sie diese Einstellung aktivieren, wird die Synchronisierung fortgesetzt, wenn Benutzer den Stromsparmodus aktivieren. OneDrive hÃ¤lt die Synchronisierung nicht automatisch an.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, wird die Synchronisierung automatisch angehalten, wenn der Stromsparmodus erkannt wird, und es wird eine Benachrichtigung angezeigt. Benutzer kÃ¶nnen sich entschlieÃŸen, die Synchronisierung nicht anzuhalten, indem Sie in der Benachrichtigung auf "Trotzdem synchronisieren" klicken. Wenn die Synchronisierung angehalten ist, kÃ¶nnen Benutzer die Synchronisierung fortsetzen, indem Sie im Infobereich der Taskleiste auf das OneDrive-Wolkensymbol klicken und dann am oberen Rand des AktivitÃ¤tscenters auf die Benachrichtigung klicken.</string>
+
+      <!-- Disable Pause On Metered Network -->
+      <string id="DisablePauseOnMeteredNetwork">Synchronisierung in getakteten Netzwerk fortsetzen</string>
+      <string id="DisablePauseOnMeteredNetwork_help">Mit dieser Einstellung kÃ¶nnen Sie die automatische Anhaltefunktion fÃ¼r GerÃ¤te deaktivieren, die sich mit getakteten Netzwerken verbinden.
+
+Wenn Sie diese Einstellung aktivieren, wird die Synchronisierung fortgesetzt, wenn sich GerÃ¤te in einem getakteten Netzwerk befinden. OneDrive hÃ¤lt die Synchronisierung nicht automatisch an.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, wird die Synchronisierung automatisch angehalten, wenn ein getaktetes Netzwerk erkannt wird, und es wird eine Benachrichtigung angezeigt. Benutzer kÃ¶nnen sich entschlieÃŸen, die Synchronisierung nicht anzuhalten, indem Sie in der Benachrichtigung auf "Trotzdem synchronisieren" klicken. Wenn die Synchronisierung angehalten ist, kÃ¶nnen Benutzer die Synchronisierung fortsetzen, indem Sie im Infobereich der Taskleiste auf das OneDrive-Wolkensymbol klicken und dann am oberen Rand des AktivitÃ¤tscenters auf die Benachrichtigung klicken.</string>
+
+      <!-- Local Mass Delete Threshold -->
+      <string id="LocalMassDeleteFileDeleteThreshold">Benutzer benachrichtigen, wenn sie mehrere OneDrive-Dateien auf ihrem lokalen Computer lÃ¶schen</string>
+      <string id="LocalMassDeleteFileDeleteThreshold_help">Diese Richtlinie legt den Schwellenwert fÃ¼r die Anzahl der Dateien fest, die ein Benutzer aus einem lokalen OneDrive-Ordner lÃ¶schen kann, bevor der Benutzer darÃ¼ber informiert wird, dass die Dateien ebenfalls aus der Cloud gelÃ¶scht werden.
+
+Wenn Sie diese Richtlinie aktivieren, wird Benutzern eine Benachrichtigung angezeigt, wenn sie mehr als die angegebene Anzahl von Dateien von OneDrive auf ihrem lokalen Computer lÃ¶schen. Der Benutzer erhÃ¤lt die Option, weiterhin die Cloud-Dateien zu entfernen oder die lokalen Dateien wiederherzustellen
+
+Hinweis: Auch wenn Sie diese Richtlinie aktivieren, erhalten Benutzer keine Benachrichtigungen, wenn sie das KontrollkÃ¤stchen â€žDateien immer entfernenâ€œ bei einer vorherigen Benachrichtigung aktiviert haben oder wenn sie das KontrollkÃ¤stchen â€žBenachrichtigen, wenn viele Dateien in der Cloud gelÃ¶scht werdenâ€œ in den Einstellungen der OneDrive-Synchronisierungs-App deaktiviert haben.
+
+Wenn Sie diese Richtlinie deaktivieren, erhalten Benutzer keine Benachrichtigung, wenn sie zahlreiche OneDrive-Dateien auf ihrem lokalen Computer lÃ¶schen.
+
+Wenn Sie diese Richtlinie nicht konfigurieren, wird Benutzern eine Benachrichtigung angezeigt, wenn sie innerhalb eines kurzen Zeitraums mehr als 200 Dateien lÃ¶schen.</string>
+
+
+      <!-- Forced local mass delete prompt -->
+      <string id="ForcedLocalMassDeleteDetection">Benutzer mÃ¼ssen umfangreiche LÃ¶schvorgÃ¤nge bestÃ¤tigen</string>
+      <string id="ForcedLocalMassDeleteDetection_help">Mit dieser Einstellung kÃ¶nnen Benutzer bestÃ¤tigen, dass sie Dateien in der Cloud, wenn sie eine groÃŸe Anzahl von synchronisierten Dateien lÃ¶schen mÃ¶chten.
+
+Wenn Sie diese Einstellung aktivieren, erscheint eine Warnung immer wenn Benutzer eine groÃŸe Anzahl von synchronisierten Dateien lÃ¶schen. Ein Benutzer nicht innerhalb von 7 Tagen einen LÃ¶schvorgang bestÃ¤tigen, werden die Dateien nicht gelÃ¶scht.
+
+Ob Sie deaktivieren diese Einstellung nicht konfigurieren, kÃ¶nnen Benutzer Warnung ausblenden und immer lÃ¶schen in der Cloud.</string>
+
+      <!-- Block B2BSync aka Cross Tenant Sync -->
+      <string id="BlockExternalSync">Benutzer am Synchronisieren von Bibliotheken und Ordnern hindern, die aus anderen Organisationen geteilt wurden</string>
+      <string id="BlockExternalSync_help">Diese Einstellung steuert, ob Benutzer in Ihrer Organisation OneDrive for Business- oder SharePoint-Inhalte synchronisieren dÃ¼rfen, die von Benutzern in einer anderen Organisation freigegeben wurden. Dies ist ein Feature fÃ¼r die Zusammenarbeit mit dem Namen B2B Sync.
+
+Wenn Sie diese Einstellung aktivieren, kÃ¶nnen Benutzer keine OneDrive for Business- oder SharePoint-Bibliotheken oder -Ordner synchronisieren, die von einer externen Organisation freigegeben wurden. Alle freigegebenen Bibliotheken oder Ordner, die bereits synchronisiert werden, werden nicht mehr synchronisiert.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer OneDrive for Business und SharePoint-Bibliotheken und -Ordner synchronisieren, die von externen Organisationen freigegeben wurden.
+
+Weitere Informationen zur B2B-Synchronisierung finden Sie unter: https://learn.microsoft.com/en-us/sharepoint/b2b-sync</string>
+
+      <!-- Allow OneDrive to disable permission inheritance within read-only folders -->
+      <string id="PermitDisablePermissionInheritance">OneDrive das Deaktivieren der Windows-Berechtigungsvererbung in schreibgeschÃ¼tzt synchronisierten Ordnern gestatten</string>
+      <string id="PermitDisablePermissionInheritance_help">Mit dieser Einstellung kann die OneDrive-Synchronisierungs-App alle geerbten Berechtigungen in schreibgeschÃ¼tzten Ordnern entfernen, die auf dem PC eines Benutzers synchronisiert werden.
+
+Wenn Sie diese Einstellung aktivieren, kann die OneDrive-Synchronisierungs-App die Berechtigungsvererbung in schreibgeschÃ¼tzten Ordnern deaktivieren, um die Synchronisierungsgeschwindigkeit zu verbessern.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, behÃ¤lt die OneDrive-Synchronisierungs-App die Berechtigungsvererbung in schreibgeschÃ¼tzten Ordnern bei. Die Synchronisierungsgeschwindigkeit kann deutlich langsamer sein.</string>
+
+      <!-- Automatically adjust the sync app upload rate based on bandwidth availability -->
+      <string id="EnableAutomaticUploadBandwidthManagement">Automatische Uploadbandbreitenverwaltung fÃ¼r OneDrive aktivieren</string>
+      <string id="EnableAutomaticUploadBandwidthManagement_help">Diese Einstellung gestattet der OneDrive-Synchronisierungs-App (OneDrive.exe) das Hochladen von im Hintergrund nur, wenn ungenutzte Bandbreite verfÃ¼gbar ist. Sie verhindert, dass die Synchronisierungs-App andere Apps stÃ¶rt, die das Netzwerk verwenden. Diese Einstellung wird unterstÃ¼tzt vom Windows LEDBAT-Protokoll (Low Extra Delay Background Transport). Wenn LEDBAT erhÃ¶hte Wartezeiten erkennt, die darauf hindeuten, dass andere TCP-Verbindungen Bandbreite belegen, verringert die Synchronisierungs-App ihren eigenen Verbrauch, um StÃ¶rungen zu verhindern. Wenn sich die Netzwerkwartezeit wieder verringert und Bandbreite freigegeben wird, erhÃ¶ht die Synchronisierungs-App die Uploadgeschwindigkeit und belegt die nicht verwendete Bandbreite.
+
+Wenn Sie diese Einstellung aktivieren, wird die Uploadgeschwindigkeit der Synchronisierungs-App auf "Automatisch anpassen" festgelegt, basierend auf der BandbreitenverfÃ¼gbarkeit, und Benutzer kÃ¶nnen diese Einstellung nicht Ã¤ndern.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer die Uploadgeschwindigkeit auf einen festen Wert (in KB/s) begrenzen oder sie auf "Automatisch anpassen" festlegen.
+
+Wichtig
+Wenn Sie diese Einstellung aktivieren oder deaktivieren und dann wieder zurÃ¼ck auf "Nicht konfiguriert" festlegen, bleibt die letzte Konfiguration wirksam. Wir empfehlen, diese Einstellung anstelle von "Uploadgeschwindigkeit der Synchronisierungs-App auf eine feste Rate begrenzen" zu aktivieren. Sie sollten nicht beide Einstellungen gleichzeitig aktivieren. Diese Einstellung setzt "Uploadrate der Synchronisierungs-App auf einen Prozentsatz des Durchsatzes begrenzen" auÃŸer Kraft, wenn beide auf demselben GerÃ¤t aktiviert sind.</string>
+
+      <!-- MinDiskSpaceLimitInMB -->
+      <!-- configurable limit where low disk space error will occur-->
+      <string id="MinDiskSpaceLimitInMB">Download von Dateien sperren, wenn Benutzer wenig Speicherplatz haben.</string>
+      <string id="MinDiskSpaceLimitInMB_help">Mit dieser Einstellung kÃ¶nnen Sie eine Mindestmenge fÃ¼r verfÃ¼gbaren DatentrÃ¤gerspeicherplatz angeben und die OneDrive-Synchronisierungs-App (OneDrive.exe) am Herunterladen von Dateien hindern, wenn Benutzer Ã¼ber weniger als diese Menge verfÃ¼gen.
+
+Benutzer werden zusammen mit Optionen aufgefordert, beim Freigeben von Speicherplatz zu helfen.</string>
+
+      <!-- WarningMinDiskSpaceLimitInMB -->
+      <!-- configurable limit where user will be notified they are approaching low disk space -->
+      <string id="WarningMinDiskSpaceLimitInMB">Benutzer mit wenig Speicherplatz warnen</string>
+      <string id="WarningMinDiskSpaceLimitInMB_help">Mit dieser Einstellung kÃ¶nnen Sie eine Mindestmenge fÃ¼r verfÃ¼gbaren DatentrÃ¤gerspeicherplatz angeben und Benutzer warnen, wenn die OneDrive-Synchronisierungs-App (OneDrive.exe) eine Datei herunterlÃ¤dt, die dazu fÃ¼hrt, dass diese Menge unterschritten wird.
+
+Benutzer werden zusammen mit Optionen aufgefordert, beim Freigeben von Speicherplatz zu helfen.</string>
+
+      <!-- EnableODIgnoreListFromGPO -->
+      <string id="EnableODIgnoreListFromGPO">SchlieÃŸen Sie das Hochladen bestimmter Dateitypen aus</string>
+      <string id="EnableODIgnoreListFromGPO_help">Mit dieser Einstellung kÃ¶nnen Sie SchlÃ¼sselwÃ¶rter eingeben, um zu verhindern, dass die OneDrive-Synchronisierungs-App (OneDrive.exe) bestimmte Dateien auf OneDrive oder SharePoint hochlÃ¤dt. Sie kÃ¶nnen vollstÃ¤ndige Namen eingeben, z. B. "setup.exe" oder das Sternchen (*) als Platzhalterzeichen verwenden, um eine Reihe von Zeichen darzustellen.
+
+Wenn Sie diese Einstellung aktivieren, lÃ¤dt die Synchronisierungs-App keine neuen Dateien hoch, die mit den von Ihnen angegebenen SchlÃ¼sselwÃ¶rtern Ã¼bereinstimmen. FÃ¼r die Ã¼bersprungenen Dateien werden keine Fehler angezeigt, und die Dateien verbleiben im lokalen OneDrive-Ordner. Die OneDrive-Synchronisierungs-App muss neu gestartet werden, nachdem diese Einstellung aktiviert wurde, damit die Einstellung wirksam wird.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, lÃ¤dt die Synchronisierungs-App alle unterstÃ¼tzten Dateien in alle synchronisierten Ordner hoch.</string>
+
+      <!-- Disable First Delete Dialog -->
+      <string id="DisableFirstDeleteDialog">Ausblenden der Erinnerung "GelÃ¶schte Dateien werden Ã¼berall entfernt"</string>
+      <string id="DisableFirstDeleteDialog_help">Wenn ein Benutzer lokale Dateien von einem synchronisierten Speicherort lÃ¶scht, wird eine Warnmeldung angezeigt, dass die Dateien nicht mehr auf allen GerÃ¤ten des Benutzers und im Web verfÃ¼gbar sind. Mit dieser Einstellung kÃ¶nnen Sie die Warnmeldung ausblenden.
+
+Wenn Sie diese Einstellung aktivieren, wird die Erinnerung "GelÃ¶schte Dateien werden Ã¼berall entfernt" nicht angezeigt, wenn sie Dateien lokal lÃ¶schen.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, wird die Erinnerung angezeigt, bis die Benutzer "Diese Erinnerung nicht mehr anzeigen" auswÃ¤hlen.</string>
+
+      <!-- IgnoreWebProxy -->
+      <string id="IgnoreWebProxy">Synchronisierungsclient veranlassen, die normale Webproxy-Erkennungslogik zu ignorieren</string>
+      <string id="IgnoreWebProxy_help">Diese Einstellung steuert, ob der OneDrive-Synchronisierungsclient seine standardmÃ¤ÃŸige Web-Proxy-Erkennungslogik ausfÃ¼hrt oder nicht.
+
+Wenn Sie diese Einstellung aktivieren, fÃ¼hrt der Synchronisierungsclient nicht seine normale Web-Proxy-Erkennung durch und versucht, direkte Verbindungen zu den Internet-Webendpunkten herzustellen, mit denen er kommunizieren muss.  Dies ist gleichbedeutend damit, dass keine Web-Proxy-Einstellungen konfiguriert sind und kein automatisches Proxy-Skript vorhanden ist.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, erkennt der Synchronisierungsclient, ob ein Web-Proxy in Ihrem Netzwerk konfiguriert ist, und verwendet ihn in diesem Fall.
+
+Weitere Informationen finden Sie unter https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-proxy-server-settings</string>
+
+      <!-- EnableSyncAdminReports -->
+      <string id="EnableSyncAdminReports">Aktivieren der Berichterstellung zur SynchronisierungsintegritÃ¤t fÃ¼r OneDrive</string>
+      <string id="EnableSyncAdminReports_help">Der OneDrive-Synchronisation Health Dashboard bietet Berichte zu Synchronisierungs-App-GerÃ¤ten und IntegritÃ¤t. Mit dieser Einstellung kann die OneDrive-Synchronisation App SynchronisierungsgerÃ¤te- und IntegritÃ¤tsdaten in Administratorberichte kompilieren. Diese Berichte ermÃ¶glichen es Ihnen, hÃ¤ufige Fehler in einer organization proaktiv zu identifizieren, zu untersuchen und zu beheben.
+
+Wenn Sie diese Einstellung aktivieren, meldet die OneDrive-Synchronisation App GerÃ¤te- und IntegritÃ¤tsdaten in Administratorberichten. Sie mÃ¼ssen diese Einstellung auf den GerÃ¤ten aktivieren, von denen Sie Berichte abrufen mÃ¶chten.
+
+Wenn Sie diese Einstellung deaktivieren oder nicht konfigurieren, werden OneDrive-Synchronisation GerÃ¤te- und IntegritÃ¤tsdaten der App nicht im OneDrive-Synchronisation IntegritÃ¤ts-Dashboard angezeigt.</string>
+
+      <!-- Disable Get Feedback -->
+      <string id="EnableFeedbackAndSupport">â€¯Benutzer dÃ¼rfen sich fÃ¼r Feedback und Support an Microsoft wenden</string>
+      <string id="EnableFeedbackAndSupport_help">Diese Einstellung gibt an, ob Benutzer in Ihrer Organisation direkt mit Microsoft Ã¼ber Benutzererfahrungen in der Synchronisierungs-App kommunizieren kÃ¶nnen. Das Teilen von Gedanken durch Benutzer hilft uns, OneDrive zu verbessern.
+
+Wenn Sie diese Einstellung aktivieren oder nicht konfigurieren, kÃ¶nnen Benutzer die Erfahrungen in der OneDrive-Synchronisierungs-App verwenden, um sich direkt an Microsoft zu wenden, um Feedback und Support zu erhalten.
+
+Wenn Sie diese Einstellung deaktivieren, kÃ¶nnen Sich Benutzer nicht an Microsoft wenden, um Support, Feedback oder VorschlÃ¤ge innerhalb der Synchronisierungs-App zu erhalten. Benutzer haben weiterhin Zugriff auf Hilfeinhalte und Selbsthilfetools.</string>
+
+      <!-- Disable Nucleus List Sync -->
+      <string id="DisableListSync">Verhindern, dass die Listensynchronisierung auf diesem GerÃ¤t ausgefÃ¼hrt wird</string>
+      <string id="DisableListSync_help">Die Listensynchronisierung ist standardmÃ¤ÃŸig fÃ¼r Benutzer von Microsoft Listen aktiviert, sodass Benutzer auch offline auf ihre Listen zugreifen und sie bearbeiten kÃ¶nnen. Wenn Sie diese Richtlinie aktivieren, wird die AusfÃ¼hrung der Listensynchronisierung auf dem GerÃ¤t blockiert.</string>
+
+      <!-- Block Nucleus External List Sync -->
+      <string id="BlockExternalListSync">Benutzer am Synchronisieren von Listen hindern, die von anderen Organisationen freigegeben wurden</string>
+      <string id="BlockExternalListSync_help">Durch Aktivieren dieser Einstellung wird verhindert, dass Benutzer in Ihrer Organisation Listen synchronisieren, die von anderen Organisationen freigegeben werden. Nachdem die Einstellung (Wert 1) auf einem Computer aktiviert wurde, werden von anderen Organisationen freigegebene Listen nicht synchronisiert. Deaktivieren Sie die Einstellung (Wert 0), damit Ihre Benutzer externe Listen synchronisieren kÃ¶nnen.
+      </string>
+
+      <!-- Disable Nucleus Silent Config -->
+      <string id="DisableNucleusSilentConfig">Verhindern Sie, dass sich Benutzer unbemerkt bei Offline-Erlebnissen im Web anmelden kÃ¶nnen</string>
+      <string id="DisableNucleusSilentConfig_help">Offlineerfahrungen in Microsoft Listen und OneDrive im Web sind so eingerichtet, dass Benutzer sich automatisch mit ihren Microsoft Entra-ID-Anmeldeinformationen anmelden. Wenn Sie diese Einstellung aktivieren, kÃ¶nnen Personen, die zuvor Offlineerfahrungen in Microsoft Listen und auf OneDrive im Web verwendet haben und sich auf einem Microsoft Entra beigetretenen GerÃ¤t angemeldet haben, keine Offlineerfahrungen mehr einrichten, ohne ihre Anmeldeinformationen einzugeben.</string>
+
+      <!-- Disable Nucleus Offline Mode for Files -->
+      <string id="DisableOfflineMode">Verhindern, dass Benutzer in Ihrer Organisation den Offlinemodus in OneDrive im Web aktivieren</string>
+      <string id="DisableOfflineMode_help">StandardmÃ¤ÃŸig ist der Offlinemodus fÃ¼r Benutzer von OneDrive im Web aktiviert. Wenn Sie diese Richtlinie aktivieren, wird der Offlinemodus auf OneDrive im Web fÃ¼r alle Benutzer auf dem GerÃ¤t deaktiviert.      </string>
+
+      <!-- Disable Nucleus Offline Mode for external libraries -->
+      <string id="DisableOfflineModeForExternalLibraries">Benutzer auf Ihrer Organisation daran hindern, den Offlinemodus in OneDrive im Web fÃ¼r Bibliotheken und Ordner zu aktivieren, die von anderen Organisationen freigegeben sind</string>
+      <string id="DisableOfflineModeForExternalLibraries_help">Durch Aktivieren dieser Einstellung wird verhindert, dass Benutzer in Ihrer Organisation den Offlinemodus fÃ¼r Bibliotheken und Ordner aktivieren, die von anderen Organisationen freigegeben werden. Nachdem die Einstellung (Wert 1) auf einem Computer aktiviert wurde, haben Bibliotheken und Ordner, die von anderen Organisationen freigegeben wurden, nicht die MÃ¶glichkeit, den Offlinemodus zu aktivieren, wenn Sie mit ihnen in OneDrive im Web arbeiten. Deaktivieren Sie die Einstellung (Wert 0), damit Ihre Benutzer den Offlinemodus in OneDrive im Web aktivieren oder deaktivieren kÃ¶nnen, wenn sie mit Bibliotheken und Ordnern arbeiten, die von anderen Organisationen freigegeben werden.
+      </string>
+
+      <!-- Disable auto configuration -->
+      <string id="DisableAutoConfig">Deaktivieren Sie die unbeaufsichtigte Anmeldung von Benutzern bei der OneDrive-Synchronisierungs-App mit vorhandenen Anmeldeinformationen, die Microsoft-Anwendungen zur VerfÃ¼gung gestellt werden</string>
+      <string id="DisableAutoConfig_help">Mit dieser Einstellung wird festgelegt, ob sich der Synchronisierungsclient automatisch anmelden kann.
+
+Wenn Administratoren diese Einstellung aktivieren (Wert 1), verhindert dies, dass die Synchronisierung automatisch mit vorhandenen AAD-Anmeldeinformationen signiert, die Microsoft-Anwendungen zur VerfÃ¼gung gestellt werden.
+
+Wenn Administratoren diese Einstellung deaktivieren (Wert 0) oder nicht konfigurieren, wird die Synchronisierung automatisch angemeldet.
+      </string>
+
+      <!-- Disable New Account Detection -->
+      <string id="DisableNewAccountDetection">Deaktivieren Sie das Popup und die AktivitÃ¤tscenternachrichten, um Benutzer zu ermutigen, sich bei OneDrive mit vorhandenen Anmeldeinformationen anzumelden, die den Microsoft-Anwendungen zur VerfÃ¼gung gestellt werden.</string>
+      <string id="DisableNewAccountDetection_help">Wenn Administratoren diese Einstellung aktivieren (Wert 1), werden dem Benutzer weder das Popup noch die Nachricht im AktivitÃ¤tscenter zu neuen Konten, die fÃ¼r die Anmeldung bei OneDrive verwendet werden kÃ¶nnen, angezeigt.
+
+Wenn Administratoren diese Einstellung deaktivieren (Wert 0) oder nicht konfigurieren, wird dem Benutzer das Popup und die Nachricht im AktivitÃ¤tscenter angezeigt, wenn OneDrive ein neues Konto auf dem GerÃ¤t erkennt.
+      </string>
+        
+      <!-- Enable Added Folder Hard-delete On Unmount -->
+      <string id="AddedFolderHardDeleteOnUnmount">LÃ¶scht den Inhalt eines hinzugefÃ¼gten Ordners endgÃ¼ltig, wenn die Bereitstellung aufgehoben wird</string>
+      <string id="AddedFolderHardDeleteOnUnmount_help">Diese Einstellung bestimmt das Verhalten des Synchronisierungsclients, wenn eine Anforderung zum Aufheben der Bereitstellung eines hinzugefÃ¼gten Ordners auftritt.
+
+Wenn Administratoren diese Einstellung aktivieren (Wert 1), lÃ¶scht der Synchronisierungsclient beim Empfang einer Aufhebung der Bereitstellung eines hinzugefÃ¼gten Ordners den gesamten Inhalt des Ordners endgÃ¼ltig.
+
+Wenn Administratoren diese Einstellung deaktivieren (Wert 0) oder nicht konfigurieren, wird die Synchronisierung standardmÃ¤ÃŸig den Inhalt des nicht bereitgestellten Ordners in den Papierkorb verschieben.      </string>
+
+      <!-- Enable Added Folder Hard-delete On Permissions Loss -->
+      <string id="AddedFolderUnmountOnPermissionsLoss">LÃ¶scht den Inhalt eines hinzugefÃ¼gten Ordners endgÃ¼ltig, wenn der Benutzer die Berechtigungen fÃ¼r den Ordner verliert</string>
+      <string id="AddedFolderUnmountOnPermissionsLoss_help">Diese Einstellung bestimmt das Verhalten des Synchronisierungsclients, wenn der Benutzer die Berechtigungen fÃ¼r einen hinzugefÃ¼gten Ordner verliert.
+
+Wenn Administratoren diese Einstellung aktivieren (Wert 1), lÃ¶scht der Synchronisierungsclient den gesamten Inhalt des Ordners und den Ordner selbst endgÃ¼ltig, wenn der Synchronisierungsclient feststellt, dass die Berechtigungen fÃ¼r einen hinzugefÃ¼gten Ordner verloren gegangen sind.
+
+Wenn Administratoren diese Einstellung deaktivieren (Wert 0) oder nicht konfigurieren, markiert die Synchronisierung standardmÃ¤ÃŸig den Ordner als fehlerhaft und fordert den Benutzer auf, ihn zu entfernen. Wenn der Benutzer die Entfernung bestÃ¤tigt, wird der Inhalt des Ordners in den Papierkorb verschoben.      </string>
+
+      <!-- Confirm shared file deletion prompt -->
+      <string id="SharedContentDeleteConfirmation">Benutzer zum BestÃ¤tigen auffordern, wenn er freigegebene Inhalte lÃ¶scht</string>
+      <string id="SharedContentDeleteConfirmation_help">Wenn lokal synchronisierte Dateien gelÃ¶scht werden, auf die mehrere Benutzer Zugriff haben, wird ein Dialogfeld angezeigt, in dem der Benutzer darÃ¼ber informiert wird, dass andere Benutzer keinen Zugriff mehr auf diese Inhalte haben, und sie bitten, die Aktion zu bestÃ¤tigen, bevor OneDrive LÃ¶schvorgÃ¤nge online verteilt. Nach der BestÃ¤tigung verursachen LÃ¶schvorgÃ¤nge anderer geteilter Inhalte fÃ¼r einen kurzen Zeitraum keine weiteren BestÃ¤tigungen. Andere Inhalte werden weiterhin synchronisiert.
+
+Aktivieren Sie diese Einstellung, um zu verhindern, dass Benutzer das BestÃ¤tigungsdialogfeld ausblenden. Jedes Mal, wenn der Benutzer geteilte Inhalte lÃ¶scht, ist seine BestÃ¤tigung erforderlich, bevor das Element fÃ¼r jeden online gelÃ¶scht wird.
+
+Deaktivieren Sie diese Einstellung, um die LÃ¶schbestÃ¤tigungsmeldung nicht anzuzeigen. LÃ¶schvorgÃ¤nge werden sofort in der Cloud durchgefÃ¼hrt.
+
+Konfigurieren Sie diese Einstellung nicht, sodass Benutzer die Warnung mit den oben genannten Auswirkungen ausblenden kÃ¶nnen.
+      </string>
+
+    </stringTable>
+    <presentationTable>
+      <presentation id="GPOSetUpdateRing_Pres">
+        <dropdownList refId="GPOSetUpdateRing_Dropdown" noSort="true" defaultItem="0">Updatering:</dropdownList>
+      </presentation>
+
+      <presentation id="AutomaticUploadBandwidthPercentage_Pres">
+        <text>WÃ¤hlen Sie den maximalen Prozentsatz der Bandbreite aus, der beim Hochladen von Dateien verwendet werden darf.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 10 und 99.</text>
+        <decimalTextBox refId="BandwidthSpinBox" defaultValue="70" spinStep="1">Bandbreite:</decimalTextBox>
+      </presentation>
+
+      <presentation id="UploadBandwidthLimit_Pres">
+        <text>WÃ¤hlen Sie die maximale Bandbreitenmenge aus, die beim Hochladen von Dateien verwendet werden darf.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 1 und 100.000.</text>
+        <decimalTextBox refId="UploadRateValue" defaultValue="125">Bandbreite:</decimalTextBox>
+      </presentation>
+
+      <presentation id="DownloadBandwidthLimit_Pres">
+        <text>WÃ¤hlen Sie die maximale Bandbreitenmenge aus, die beim Herunterladen von Dateien verwendet werden darf.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 1 und 100.000.</text>
+        <decimalTextBox refId="DownloadRateValue" defaultValue="125">Bandbreite:</decimalTextBox>
+      </presentation>
+
+       <presentation id="DiskSpaceCheckThresholdMB_Pres">
+        <text>Geben Sie die Mandanten-ID und die maximale GrÃ¶ÃŸe des OneDrive eines Benutzers an, ab der Benutzer aufgefordert werden, die Ordner auszuwÃ¤hlen, die synchronisiert werden sollen. </text>
+        <text>Geben Sie in das Feld "Wertname" die Mandanten-ID ein. Geben Sie in das Feld "Wert" die GrÃ¶ÃŸe ein.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 0 und 4.294.967.295 MB (inklusive).</text>
+        <listBox refId="DiskSpaceCheckThresholdMBList">Maximale GrÃ¶ÃŸe: </listBox>
+      </presentation>
+
+      <presentation id="DefaultRootDir_Pres">
+       <text>Geben Sie die Mandanten-ID und den Standardpfad an. </text>
+        <text>Geben Sie in das Feld "Wertname" die Mandanten-ID ein. Geben Sie in das Feld "Wert" den Pfad ein.</text>
+        <listBox refId="DefaultRootDirList">Pfad: </listBox>
+      </presentation>
+
+      <presentation id="DisableCustomRoot_Pres">
+        <text>Geben Sie die Mandanten-ID und den Wert der Einstellung an. </text>
+        <text>Geben Sie in das Feld "Wertname" die Mandanten-ID ein. Geben Sie in das Feld "Wert" 1 ein, um die Einstellung zu aktivieren, oder 0, um sie zu deaktivieren.</text>
+        <listBox refId="DisableCustomRootList">Speicherorteinstellung Ã¤ndern: </listBox>
+      </presentation>
+
+      <presentation id="AllowTenantList_Pres">
+        <text>Mandanten-ID angeben</text>
+        <text>Geben Sie im Feld "Wert" die Mandanten-ID ein, die dieser Liste hinzugefÃ¼gt werden soll.</text>
+        <text> </text>
+        <listBox refId="AllowTenantListBox">Mandanten-ID: </listBox>
+      </presentation>
+
+      <presentation id="BlockTenantList_Pres">
+        <text>Mandanten-ID angeben</text>
+        <text>Geben Sie im Feld "Wert" die Mandanten-ID ein, die dieser Liste hinzugefÃ¼gt werden soll.</text>
+        <text> </text>
+        <listBox refId="BlockTenantListBox">Mandanten-ID: </listBox>
+       </presentation>
+
+      <presentation id="SharePointOnPremFrontDoorUrl_Pres">
+        <text>Geben Sie eine URL zu dem SharePoint-Server an, der das OneDrive for Business des Benutzers hostet, und den Organisationsnamen.</text>
+        <textBox refId="SharePointOnPremFrontDoorUrlBox">
+          <label>SharePoint Server 2019-URL:</label>
+        </textBox>
+        <textBox refId="SharePointOnPremTenantNameBox">
+          <label>Name der Organisation:</label>
+        </textBox>
+      </presentation>
+
+      <presentation id="SharePointOnPremPrioritization_Pres">
+        <dropdownList refId="SharePointOnPremPrioritization_Dropdown" noSort="true" defaultItem="0">Zuerst authentifizieren bei:</dropdownList>
+      </presentation>
+
+      <presentation id="BlockKnownFolderMove_Pres">
+        <dropdownList refId="BlockKnownFolderMove_Dropdown" noSort="true" defaultItem="0">FÃ¼r Benutzer, die ihre bekannten Ordner bereits verschoben haben, und mÃ¶chten, dass diese Ordner weiterhin auf OneDrive umgeleitet werden:</dropdownList>
+      </presentation>
+
+      <presentation id="KFMOptInWithWizard_Pres">
+        <textBox refId="KFMOptInWithWizard_TextBox">
+          <label>Mandanten-ID:</label>
+        </textBox>
+      </presentation>
+
+      <presentation id="KFMOptInNoWizard_Pres">
+        <textBox refId="KFMOptInNoWizard_TextBox">
+          <label>Mandanten-ID:</label>
+        </textBox>
+        <dropdownList refId="KFMOptInNoWizard_Dropdown" noSort="true" defaultItem="0">Benachrichtigung fÃ¼r Benutzer anzeigen, nachdem Ordner umgeleitet wurden:</dropdownList>
+        <text>Ordneroptionen:</text>
+        <checkBox refId="KFMOptInNoWizard_Desktop_Checkbox" defaultChecked="true">Desktop</checkBox>
+        <checkBox refId="KFMOptInNoWizard_Documents_Checkbox" defaultChecked="true">Dokumente</checkBox>
+        <checkBox refId="KFMOptInNoWizard_Pictures_Checkbox" defaultChecked="true">Bilder</checkBox>
+      </presentation>
+      <presentation id="AutoMountTeamSites_Pres">
+        <text>Eine Bibliothek synchronisieren angeben:
+
+Ã–ffnen Sie einen Webbrowser, melden Sie sich bei Office 365 als oder SharePoint-Administrator fÃ¼r Ihre Organisation und Durchsuchen der Bibliothek synchronisieren.
+
+Klicken Sie auf die SchaltflÃ¤che "Synchronisieren" der Bibliothek automatisch synchronisiert und dann auf "Bibliothek ID kopieren"
+
+Klicken Sie auf "Anzeigen" und geben Sie dann einen Anzeigenamen zu der Bibliothek im Feld Wert geben die Bibliothek-ID in das Feld Wert..
+        </text>
+        <listBox refId="AutoMountTeamSitesListBox">Bibliotheken:</listBox>
+      </presentation>
+
+      <presentation id="MinDiskSpaceLimitInMB_Pres">
+        <text>Geben Sie in das Feld "Wert" die Mindestmenge an Speicherplatz ein, die verfÃ¼gbar bleiben soll.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 0 und 10.240.000 MB.</text>
+        <decimalTextBox refId="minDiskSpaceMB" defaultValue="200">Mindestens verfÃ¼gbarer Speicherplatz:</decimalTextBox>
+      </presentation>
+
+      <presentation id="WarningMinDiskSpaceLimitInMB_Pres">
+        <text>Geben Sie im Feld Wert den verfÃ¼gbaren Speicherplatz ein, unterhalb dessen Benutzer eine Warnung erhalten. Wenn Sie diese Richtlinie zusammen mit "Dateidownloads blockieren verwenden, wenn Benutzer nicht genÃ¼gend Speicherplatz haben" verwenden, sollte der Wert fÃ¼r diese Einstellung grÃ¶ÃŸer als der Wert fÃ¼r das Blockieren von Downloads sein.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 0 und 10.240.000 MB.</text>
+        <decimalTextBox refId="warningMinDiskSpaceMB" defaultValue="500">Mindestens verfÃ¼gbarer Speicherplatz:</decimalTextBox>
+      </presentation>
+
+      <presentation id="LocalMassDeleteFileDeleteThreshold_Pres">
+        <text>Geben Sie die maximale Anzahl von Dateien an, die Benutzer gleichzeitig lÃ¶schen kÃ¶nnen, bevor sie den Vorgang bestÃ¤tigen mÃ¼ssen.</text>
+        <text>GÃ¼ltige Werte liegen zwischen 1 und 100.000.</text>
+        <decimalTextBox refId="LMDFileDeleteThresholdBox" defaultValue="200">Anzahl der Dateien:</decimalTextBox>
+      </presentation>
+
+      <presentation id="EnableODIgnoreListFromGPO_Pres">
+        <text>Um SchlÃ¼sselwÃ¶rter anzugeben, wÃ¤hlen Sie "Anzeigen", und geben Sie dann die SchlÃ¼sselwÃ¶rter in das Feld Wert ein.</text>
+        <text>Geben Sie zum Beispiel â€ž*.pstâ€œ ein, um alle Dateien mit der Erweiterung â€ž.pstâ€œ zu blockieren. Geben Sie â€žexpense*â€œ ein,â€¯um Dateien zu blockieren, deren Namen mit â€žexpenseâ€œ beginnen. Geben Sie â€ž*Verkauf*â€œ ein, um alle Dateien zu blockieren, deren Name mit â€žVerkaufâ€œ beginnt. Bei SchlÃ¼sselwÃ¶rtern wird nicht zwischen GroÃŸ- und Kleinschreibung unterschieden. Wenn Sie z.Â B. â€žicons.JPEGâ€œ eingeben, wird auch â€žicons.jpegâ€œ blockiert. </text>
+        <text> </text>
+        <listBox refId="EnableODIgnoreListFromGPOListBox">SchlÃ¼sselwÃ¶rter: </listBox>
+      </presentation>
+
+      <presentation id="EnableODIgnoreFolderListFromGPO_Pres">
+        <text>Um SchlÃ¼sselwÃ¶rter anzugeben, wÃ¤hlen Sie "Anzeigen" aus, und geben Sie dann die SchlÃ¼sselwÃ¶rter in das Feld "Wert" ein.</text>
+        <text>Geben Sie zum Beispiel â€žfooâ€œ ein, um alle Ordner mit dem Namen â€žfooâ€œ zu blockieren. Geben Sie â€žexpense*â€œ ein,â€¯um Ordner zu blockieren, deren Namen mit â€žexpenseâ€œ beginnen. Geben Sie â€ž*sales*â€œ ein, um alle Ordner zu blockieren, deren Name â€žsalesâ€œ enthÃ¤lt. Bei SchlÃ¼sselwÃ¶rtern wird nicht zwischen GroÃŸ- und Kleinschreibung unterschieden. Wenn Sie z.Â B. â€žICONSâ€œ eingeben, wird auch â€žiconsâ€œ blockiert. </text>
+        <text> </text>
+        <listBox refId="EnableODIgnoreFolderListFromGPOListBox">SchlÃ¼sselwÃ¶rter: </listBox>
+      </presentation>
+
+      <presentation id="EnableSyncAdminReports_Pres">
+      </presentation>
+      <presentation id="GranularFeedbackControl_Pres">
+        <text>Benutzern die Kontaktaufnahme mit Microsoft fÃ¼r Folgendes gestatten: </text>
+        <checkBox refId="GranularFeedbackControl_SendFeedback_Checkbox" defaultChecked="true">Feedback senden</checkBox>
+        <checkBox refId="GranularFeedbackControl_ReceiveSurveys_Checkbox" defaultChecked="true">Umfragen zur Benutzerzufriedenheit empfangen</checkBox>
+        <checkBox refId="GranularFeedbackControl_ContactSupport_Checkbox" defaultChecked="true">OneDrive-Support kontaktierenâ€‹</checkBox>
+      </presentation>
+
+      <presentation id="DisableAutoConfig_Pres">
+        <text>WÃ¤hlen Sie den Kontotyp aus, der fÃ¼r die automatische Synchronisierung deaktiviert ist.</text>
+        <text>Wert fÃ¼r AAD: 1</text>
+        <decimalTextBox refId="DisableAutoConfigTypes" defaultValue="0">Deaktivierte Kontotypen:</decimalTextBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
