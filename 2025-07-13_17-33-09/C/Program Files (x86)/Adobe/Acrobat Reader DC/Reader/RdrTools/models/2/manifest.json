@@ -1,0 +1,44 @@
+{
+    "id": "1",
+    "name": "plgclassifier",
+    "description": "PDF PLG Classifier",
+    "author": "adobe",
+    "version": 1,
+    "targets": {
+      "WinML": {
+        "components": [
+          {
+            "name": "secured_file",
+            "path": "2",
+            "encryption": {
+              "key" :  "none"
+            }
+          }
+        ],
+        "inputs": [
+          {
+            "name": "input",
+            "required": true,
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 10],
+              "dataType": "float"
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "name": "output",
+            "featureType": "tensor",
+            "tensor": {
+              "shape": [1, 2],
+              "dataType": "float"
+            }
+          }
+        ]
+      }
+    }
+    
+  }
+  
+  
