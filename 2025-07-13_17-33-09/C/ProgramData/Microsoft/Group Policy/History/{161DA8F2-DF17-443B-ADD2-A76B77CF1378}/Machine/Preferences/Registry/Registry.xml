@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?><RegistrySettings clsid="{A3CCFC41-DFDB-43a5-8D26-0FE8B954DA51}">
+<Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="GroupPolicyRefreshTime" status="GroupPolicyRefreshTime" image="10" changed="2016-09-12 14:01:56" uid="{00FD7262-08BF-420F-A077-FACEF255EC44}" policyApplied="1">
+<Properties action="C" displayDecimal="1" default="0" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\System" name="GroupPolicyRefreshTime" type="REG_DWORD" value="0000000A"></Properties></Registry></RegistrySettings>
