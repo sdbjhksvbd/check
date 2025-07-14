@@ -1,0 +1,6 @@
+2025/06/26-17:11:45.492 9c88 Creating DB C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_doganoo.medium.com_0.indexeddb.leveldb since it was missing.
+2025/06/26-17:11:45.498 9c88 Reusing MANIFEST C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_doganoo.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/26-17:13:44.589 796c Level-0 table #5: started
+2025/06/26-17:13:44.591 796c Level-0 table #5: 14840 bytes OK
+2025/06/26-17:13:44.593 796c Delete type=0 #3
+2025/06/26-17:13:44.593 796c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
