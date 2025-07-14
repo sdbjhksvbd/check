@@ -1,0 +1,11 @@
+{
+  "name": "com.microsoft.defender.browser_extension.native_message_host",
+  "description": "Native host for Microsoft Defender Browser Extension",
+  "path": "mpextms.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://echcggldkblhodogklpincgchnpgcdco/",
+    "chrome-extension://lcmcgbabdcbngcbcfabdncmoppkajglo/",
+    "chrome-extension://nhepdlojobjcnniaggfkkgeekccgmaji/"
+  ]
+} 
