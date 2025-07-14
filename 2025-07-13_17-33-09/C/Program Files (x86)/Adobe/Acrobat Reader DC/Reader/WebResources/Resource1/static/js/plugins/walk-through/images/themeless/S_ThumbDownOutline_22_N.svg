@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-name="S_ThumbDown_22_N@1x" height="22" id="S_ThumbDown_22_N_1x" viewBox="0 0 22 22" width="22">
+  <defs>
+    <style>
+	.fill {
+        fill: #707070;
+      }
+  </style>
+  </defs>
+  <title>S_ThumbDown_22_N@1x</title>
+  <rect id="ToDelete" fill="#d7373f " opacity="0" width="22" height="22" /><rect class="fill" height="10.5" rx="0.5" ry="0.5" width="3.5" x="2" y="3" />
+  <path class="fill" d="M19.281,12.833H13.467a32.046,32.046,0,0,1,.583,5.3c0,.969-.6,1.7-1.167,1.7a1.073,1.073,0,0,1-1.167-1.167,6.609,6.609,0,0,0-1.468-3.651,27,27,0,0,0-3.2-2.79V3.5s1.638.019,8.167,0a2.3,2.3,0,0,1,2.145,1.414l2.992,6.293A1.167,1.167,0,0,1,19.281,12.833Z" />
+  </svg>
