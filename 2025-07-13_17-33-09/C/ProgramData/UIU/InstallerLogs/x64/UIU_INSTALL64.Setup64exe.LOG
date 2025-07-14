@@ -1,0 +1,1169 @@
+7.195.0.2 : 06:16:43.176 : C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\Setup64.exe -
+7.195.0.2 : 06:16:43.176 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.195.0.2
+7.195.0.2 : 06:16:43.176 :   Version = V7.195.0.2
+7.195.0.2 : 06:16:43.176 :   OS Platform = OS_WIN10-64
+7.195.0.2 : 06:16:43.176 :   dwSetupConfig = 20100 : dwMode = D0020011
+7.195.0.2 : 06:16:43.176 :   Found Mutex - CNXT_COINST_RUNNING
+7.195.0.2 : 06:16:43.176 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -INI=FLOWSETUP.INI, FLOWSETUP -FNAME="FlowSetup" -FNAME="FlowSetup"
+7.195.0.2 : 06:16:43.176 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -L2=DETAIL -FNAME="Application" -NR-SRM=FLOW.EXE,UTILSTATUS,4 -KFLOWTRAY.EXE -FNAME="FlowSetup" -FNAME="FlowSetup"
+7.195.0.2 : 06:16:43.176 :     ENTRY: CSetupDlg::RunSetupDlg
+7.195.0.2 : 06:16:43.176 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.195.0.2 : 06:16:43.176 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.195.0.2 : 06:16:43.176 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.195.0.2 : 06:16:43.176 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=0
+7.195.0.2 : 06:16:43.176 :       ENTRY: CDevNode::FindInstalledCnxtDevice
+7.195.0.2 : 06:16:43.192 :       pszBusDeviceID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.192 :       EXIT:  CDevNode::FindInstalledCnxtDevice : bRetVal = 1
+7.195.0.2 : 06:16:43.192 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.192 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:43.192 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:43.192 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:43.192 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:43.192 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:43.192 :       ENTRY: CInstall::SetUserInfoReg
+7.195.0.2 : 06:16:43.192 :       csUserPath = C:\WINDOWS\system32\config\systemprofile\
+7.195.0.2 : 06:16:43.192 :       EXIT:  CInstall::SetUserInfoReg
+7.195.0.2 : 06:16:43.192 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.192 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:43.192 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:43.192 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:43.192 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:43.192 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:43.192 :       ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOW\FLOWSETUP.INI
+7.195.0.2 : 06:16:43.192 :         ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.192 :         EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:43.192 :       m_szDecorationTag = 
+7.195.0.2 : 06:16:43.192 :       m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:43.192 :       EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:43.192 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.192 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:43.192 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:43.192 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:43.192 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:43.192 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:43.192 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.192 :         ENTRY: KINIFile::Initialize : pszDeviceID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.192 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.192 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.192 :           ENTRY: CDevNode::FindDevNode : pszPNPID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.192 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.192 :           ENTRY: CDevNode::FindDevNode : pszPNPID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.192 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.192 :         m_szDriverPath = {5c4c3332-344d-483c-8739-259e934c9cc8}\0001, m_ClassType = 2
+7.195.0.2 : 06:16:43.192 :         m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 06:16:43.192 :         MyPaths = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.192 :         EXIT:  KINIFile::Initialize
+7.195.0.2 : 06:16:43.192 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 1
+7.195.0.2 : 06:16:43.192 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.192 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.192 :           ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 06:16:43.192 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.192 :           szTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.192 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.195.0.2 : 06:16:43.192 :           ENTRY: CINIFile::SortINIFiles
+7.195.0.2 : 06:16:43.192 :           EXIT:  CINIFile::SortINIFiles
+7.195.0.2 : 06:16:43.192 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.192 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.192 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:43.192 :           m_szDecorationTag = 
+7.195.0.2 : 06:16:43.192 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:43.192 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:43.192 :           ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 06:16:43.192 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 06:16:43.192 :             m_pSetupParms->csPNPIDFromUCI = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.192 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\DRIVERENUM\{B2BB9760-2DD5-4085-86F1-E916233F10FF}#CONEXANTAPO_SA3HSA&5&52B33D9&0
+7.195.0.2 : 06:16:43.208 :               ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.208 :               EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.208 :             KINIFile::GetInstallSection : csTestDeviceID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.208 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.208 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.208 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.208 :               pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.208 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.208 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:43.208 :               csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.208 :               pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.208 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:43.254 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.254 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:43.254 :           szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 06:16:43.254 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 06:16:43.254 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.254 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 06:16:43.254 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.254 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:43.254 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:43.254 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 06:16:43.254 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 1
+7.195.0.2 : 06:16:43.254 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.254 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.254 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 06:16:43.254 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 06:16:43.254 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 1
+7.195.0.2 : 06:16:43.254 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 06:16:43.254 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 06:16:43.254 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 1
+7.195.0.2 : 06:16:43.254 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 06:16:43.254 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 06:16:43.254 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 1
+7.195.0.2 : 06:16:43.254 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:43.254 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:43.254 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.254 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:43.254 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.254 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:43.254 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.254 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:43.254 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.254 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:43.254 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.254 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:43.254 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.254 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:43.254 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.254 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:43.254 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.254 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:43.254 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.254 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:43.254 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.254 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:43.254 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:43.254 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.254 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:43.270 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:43.270 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:43.270 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 06:16:43.270 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.195.0.2 : 06:16:43.270 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.195.0.2 : 06:16:43.270 :       ENTRY: CINIFile::InstallINIFiles
+7.195.0.2 : 06:16:43.270 :       pszDeviceID = CNXTAPP, pszINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.270 :         ENTRY: KINIFile::Initialize : pszDeviceID = CNXTAPP
+7.195.0.2 : 06:16:43.270 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.270 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.270 :           ENTRY: CDevNode::FindDevNode : pszPNPID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.270 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.270 :         m_szDriverPath = {5c4c3332-344d-483c-8739-259e934c9cc8}\0001
+7.195.0.2 : 06:16:43.270 :         m_szDriverPath = {5c4c3332-344d-483c-8739-259e934c9cc8}\0001, m_ClassType = 2
+7.195.0.2 : 06:16:43.270 :         m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 06:16:43.270 :         MyPaths = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:43.270 :         EXIT:  KINIFile::Initialize
+7.195.0.2 : 06:16:43.270 :         ENTRY: KINIFile::InstallINIFiles : pszINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.270 :           ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 06:16:43.270 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.270 :           szTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.270 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.195.0.2 : 06:16:43.270 :           ENTRY: CINIFile::SortINIFiles
+7.195.0.2 : 06:16:43.270 :           EXIT:  CINIFile::SortINIFiles
+7.195.0.2 : 06:16:43.270 :           ENTRY: KINIFile :: GetUninstallerPath : pszINIInstallPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:43.270 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOW\\FLOWSETUP.INI
+7.195.0.2 : 06:16:43.270 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.270 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:43.270 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:43.270 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:43.270 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:43.270 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 06:16:43.270 :             m_pSetupParms->csPNPIDFromUCI = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.270 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\DRIVERENUM\{B2BB9760-2DD5-4085-86F1-E916233F10FF}#CONEXANTAPO_SA3HSA&5&52B33D9&0
+7.195.0.2 : 06:16:43.286 :               ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.286 :               EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.286 :             KINIFile::GetInstallSection : csTestDeviceID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.286 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.286 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.286 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.286 :               pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.286 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.286 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:43.286 :               csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.286 :               pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.286 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:43.333 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.333 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:43.333 :           m_szUninstallerPath = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 06:16:43.333 :           EXIT:  KINIFile :: GetUninstallerPath : bRetVal = 1
+7.195.0.2 : 06:16:43.333 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.333 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.333 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:43.333 :           m_szDecorationTag = 
+7.195.0.2 : 06:16:43.333 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:43.333 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:43.333 :           ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 06:16:43.333 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 06:16:43.333 :             m_pSetupParms->csPNPIDFromUCI = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.333 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\DRIVERENUM\{B2BB9760-2DD5-4085-86F1-E916233F10FF}#CONEXANTAPO_SA3HSA&5&52B33D9&0
+7.195.0.2 : 06:16:43.348 :               ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.348 :               EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.348 :             KINIFile::GetInstallSection : csTestDeviceID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.348 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.348 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.348 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.348 :               pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.349 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.349 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:43.349 :               csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.349 :               pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.349 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:43.396 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.396 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:43.396 :           szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 06:16:43.396 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 06:16:43.396 :           ENTRY: KINIFile::IsVerifyIfProcessedINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.396 :           EXIT:  KINIFile::IsVerifyIfProcessedINIFile : bRetVal = 0
+7.195.0.2 : 06:16:43.396 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.396 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.396 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.396 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:43.396 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:43.396 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:43.396 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:43.396 :             ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 06:16:43.396 :               ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 06:16:43.396 :               m_pSetupParms->csPNPIDFromUCI = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:43.396 :               KINIFile::GetInstallSection : szDeviceInstanceId = SWD\DRIVERENUM\{B2BB9760-2DD5-4085-86F1-E916233F10FF}#CONEXANTAPO_SA3HSA&5&52B33D9&0
+7.195.0.2 : 06:16:43.396 :                 ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.396 :                 EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:43.396 :               KINIFile::GetInstallSection : csTestDeviceID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:43.396 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.396 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.396 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.396 :                 pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.396 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:43.396 :                 ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:43.396 :                 csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.396 :                 pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.396 :                 EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:43.459 :               pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.459 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:43.459 :             szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 06:16:43.459 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 06:16:43.459 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.459 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 06:16:43.459 :               dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.459 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:43.459 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:43.459 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.195.0.2 : 06:16:43.459 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.195.0.2 : 06:16:43.459 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.459 :             szTempINIFileName = C:\WINDOWS\TEMP\CustomINI6022994b1cb\\FlowSetup.ini
+7.195.0.2 : 06:16:43.459 :             szTempTempINIFileName = C:\WINDOWS\TEMP\FlowSetup.ini
+7.195.0.2 : 06:16:43.459 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.195.0.2 : 06:16:43.459 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:43.459 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow
+7.195.0.2 : 06:16:43.459 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:43.459 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:43.459 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:43.459 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:43.459 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:43.459 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:43.459 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:43.459 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.195.0.2 : 06:16:43.459 :             ENTRY: KINIFile::InstallDefinedApps
+7.195.0.2 : 06:16:43.459 :             KINIFile::InstallDefinedApps : pszInstallSection = HdAudModel.2017.NTAMD64.10, pszInstallTag = PreInstallApp
+7.195.0.2 : 06:16:43.459 :               ENTRY: KINIFile::InstallDefinedApps2
+7.195.0.2 : 06:16:43.459 :               szInstallAppSection = InstallApp.RunAfterInstallation, pszInstallTag = PreInstallApp
+7.195.0.2 : 06:16:43.459 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 06:16:43.474 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :               szRootPath = C:\WINDOWS\CxSvc\CxMonSvc.exe
+7.195.0.2 : 06:16:43.474 :               szInstallAppType = PreInstallApp
+7.195.0.2 : 06:16:43.474 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\CxSvc\CxMonSvc.exe
+7.195.0.2 : 06:16:43.474 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :               szExeName = C:\WINDOWS\CxSvc\CxMonSvc.exe
+7.195.0.2 : 06:16:43.474 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :               szInstallAppType = PreInstallApp
+7.195.0.2 : 06:16:43.474 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X100
+7.195.0.2 : 06:16:43.474 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 256
+7.195.0.2 : 06:16:43.474 :               Flags: szBuffer = 0x100, dwFlags = 100
+7.195.0.2 : 06:16:43.474 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 06:16:43.474 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :               szExeName(EXIST) = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 ENTRY: KINIFile::ISRepairWA
+7.195.0.2 : 06:16:43.474 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:43.474 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:43.474 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:43.474 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.195.0.2 : 06:16:43.474 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:43.474 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.195.0.2 : 06:16:43.474 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /delete /tn \microsoft\windows\Conexant\FLOW /f
+7.195.0.2 : 06:16:43.474 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.195.0.2 : 06:16:43.474 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 2
+7.195.0.2 : 06:16:43.474 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.195.0.2 : 06:16:43.474 :                 ENTRY: KINIFile::StartAnApp
+7.195.0.2 : 06:16:43.474 :                 pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdline = /delete /tn \microsoft\windows\Conexant\FLOW /f, dwFlags = 1342177536
+7.195.0.2 : 06:16:43.474 :                   ENTRY: CFileUtils::SpawnApp
+7.195.0.2 : 06:16:43.474 :                   pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdArg = /delete /tn \microsoft\windows\Conexant\FLOW /fd
+7.195.0.2 : 06:16:43.474 :                   bWaitForProcess = 1, dwStartAppTimeOut = 0, dwFlags = 1342177536
+7.195.0.2 : 06:16:43.474 :                   csWorkingDir = C:\WINDOWS\system32\
+7.195.0.2 : 06:16:43.474 :                   szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:43.474 :                   pszCmdArg = /delete /tn \microsoft\windows\Conexant\FLOW /f
+7.195.0.2 : 06:16:43.474 :                   Trying to Spawn with ShellExecuteExA
+7.195.0.2 : 06:16:43.531 :                   Child process signalled success
+7.195.0.2 : 06:16:43.531 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:43.531 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:44.554 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.195.0.2 : 06:16:44.554 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe, pszCmdline = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.195.0.2 : 06:16:44.554 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :               szInstallAppType = PreInstallApp
+7.195.0.2 : 06:16:44.554 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X100
+7.195.0.2 : 06:16:44.554 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 256
+7.195.0.2 : 06:16:44.554 :               Flags: szBuffer = 0x100, dwFlags = 100
+7.195.0.2 : 06:16:44.554 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.195.0.2 : 06:16:44.554 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 06:16:44.554 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 06:16:44.554 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :               szExeName(EXIST) = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 ENTRY: KINIFile::ISRepairWA
+7.195.0.2 : 06:16:44.554 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.195.0.2 : 06:16:44.554 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:44.554 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.195.0.2 : 06:16:44.554 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:44.554 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:44.554 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.195.0.2 : 06:16:44.554 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:44.554 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.195.0.2 : 06:16:44.554 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /delete /tn \microsoft\windows\Conexant\SA3 /f
+7.195.0.2 : 06:16:44.554 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.195.0.2 : 06:16:44.554 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 3
+7.195.0.2 : 06:16:44.554 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.195.0.2 : 06:16:44.554 :                 ENTRY: KINIFile::StartAnApp
+7.195.0.2 : 06:16:44.554 :                 pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdline = /delete /tn \microsoft\windows\Conexant\SA3 /f, dwFlags = 1342177536
+7.195.0.2 : 06:16:44.554 :                   ENTRY: CFileUtils::SpawnApp
+7.195.0.2 : 06:16:44.554 :                   pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdArg = /delete /tn \microsoft\windows\Conexant\SA3 /fd
+7.195.0.2 : 06:16:44.554 :                   bWaitForProcess = 1, dwStartAppTimeOut = 0, dwFlags = 1342177536
+7.195.0.2 : 06:16:44.554 :                   csWorkingDir = C:\WINDOWS\system32\
+7.195.0.2 : 06:16:44.554 :                   szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:44.554 :                   pszCmdArg = /delete /tn \microsoft\windows\Conexant\SA3 /f
+7.195.0.2 : 06:16:44.554 :                   Trying to Spawn with ShellExecuteExA
+7.195.0.2 : 06:16:44.603 :                   Child process signalled success
+7.195.0.2 : 06:16:44.603 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:44.603 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:45.617 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.195.0.2 : 06:16:45.617 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe, pszCmdline = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.195.0.2 : 06:16:45.617 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :               szInstallAppType = PreInstallApp
+7.195.0.2 : 06:16:45.617 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X100
+7.195.0.2 : 06:16:45.617 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 256
+7.195.0.2 : 06:16:45.617 :               Flags: szBuffer = 0x100, dwFlags = 100
+7.195.0.2 : 06:16:45.617 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.195.0.2 : 06:16:45.617 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 06:16:45.617 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 06:16:45.617 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :               szExeName(EXIST) = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 ENTRY: KINIFile::ISRepairWA
+7.195.0.2 : 06:16:45.617 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.195.0.2 : 06:16:45.617 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:45.617 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.195.0.2 : 06:16:45.617 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:45.617 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:45.617 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.195.0.2 : 06:16:45.617 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:45.617 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.195.0.2 : 06:16:45.617 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /delete /tn \microsoft\windows\Conexant\MicTray /f
+7.195.0.2 : 06:16:45.617 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.195.0.2 : 06:16:45.617 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 4
+7.195.0.2 : 06:16:45.617 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.195.0.2 : 06:16:45.617 :                 ENTRY: KINIFile::StartAnApp
+7.195.0.2 : 06:16:45.617 :                 pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdline = /delete /tn \microsoft\windows\Conexant\MicTray /f, dwFlags = 1342177536
+7.195.0.2 : 06:16:45.617 :                   ENTRY: CFileUtils::SpawnApp
+7.195.0.2 : 06:16:45.617 :                   pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdArg = /delete /tn \microsoft\windows\Conexant\MicTray /fd
+7.195.0.2 : 06:16:45.617 :                   bWaitForProcess = 1, dwStartAppTimeOut = 0, dwFlags = 1342177536
+7.195.0.2 : 06:16:45.617 :                   csWorkingDir = C:\WINDOWS\system32\
+7.195.0.2 : 06:16:45.617 :                   szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:45.617 :                   pszCmdArg = /delete /tn \microsoft\windows\Conexant\MicTray /f
+7.195.0.2 : 06:16:45.617 :                   Trying to Spawn with ShellExecuteExA
+7.195.0.2 : 06:16:45.648 :                   Child process signalled success
+7.195.0.2 : 06:16:45.648 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:45.648 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:46.666 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.195.0.2 : 06:16:46.666 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe, pszCmdline = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.195.0.2 : 06:16:46.666 :               szRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :               szInstallAppType = PreInstallApp
+7.195.0.2 : 06:16:46.666 :                 ENTRY: ConvertHexStrToDecNum : pszHexDword = 0X100
+7.195.0.2 : 06:16:46.666 :                 EXIT:  ConvertHexStrToDecNum : ucRetVal = 256
+7.195.0.2 : 06:16:46.666 :               Flags: szBuffer = 0x100, dwFlags = 100
+7.195.0.2 : 06:16:46.666 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.195.0.2 : 06:16:46.666 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 06:16:46.666 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 06:16:46.666 :               szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :               szExeName(EXIST) = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 ENTRY: KINIFile::ISRepairWA
+7.195.0.2 : 06:16:46.666 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.195.0.2 : 06:16:46.666 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:46.666 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.195.0.2 : 06:16:46.666 :               CFileUtils::IsUIUFile(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:46.666 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 szFileName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                 szDescription = Task Scheduler Configuration Tool
+7.195.0.2 : 06:16:46.666 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.195.0.2 : 06:16:46.666 :               CFileUtils::IsUIU7File(C:\WINDOWS\system32\schtasks.exe) == FALSE
+7.195.0.2 : 06:16:46.666 :                 ENTRY: KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS)
+7.195.0.2 : 06:16:46.666 :                 (SCHTASKS) pszExeName = C:\WINDOWS\system32\schtasks.exe, pszArgs = /delete /tn \microsoft\windows\Conexant /f
+7.195.0.2 : 06:16:46.666 :                 EXIT:  KINIFile::CheckForTaskSchedulerDelayWA (SCHTASKS) dwRetVal = 0
+7.195.0.2 : 06:16:46.666 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 5
+7.195.0.2 : 06:16:46.666 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.195.0.2 : 06:16:46.666 :                 ENTRY: KINIFile::StartAnApp
+7.195.0.2 : 06:16:46.666 :                 pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdline = /delete /tn \microsoft\windows\Conexant /f, dwFlags = 1342177536
+7.195.0.2 : 06:16:46.666 :                   ENTRY: CFileUtils::SpawnApp
+7.195.0.2 : 06:16:46.666 :                   pszExeName = C:\WINDOWS\system32\schtasks.exe, pszCmdArg = /delete /tn \microsoft\windows\Conexant /fd
+7.195.0.2 : 06:16:46.666 :                   bWaitForProcess = 1, dwStartAppTimeOut = 0, dwFlags = 1342177536
+7.195.0.2 : 06:16:46.666 :                   csWorkingDir = C:\WINDOWS\system32\
+7.195.0.2 : 06:16:46.666 :                   szExeName = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:46.666 :                   pszCmdArg = /delete /tn \microsoft\windows\Conexant /f
+7.195.0.2 : 06:16:46.666 :                   Trying to Spawn with ShellExecuteExA
+7.195.0.2 : 06:16:46.714 :                   Child process signalled success
+7.195.0.2 : 06:16:46.714 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:46.714 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435457
+7.195.0.2 : 06:16:47.720 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.195.0.2 : 06:16:47.720 :                 pszRootPath = C:\WINDOWS\system32\schtasks.exe, pszCmdline = C:\WINDOWS\system32\schtasks.exe
+7.195.0.2 : 06:16:47.720 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.195.0.2 : 06:16:47.720 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.195.0.2 : 06:16:47.720 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.195.0.2 : 06:16:47.720 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.720 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:47.720 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.720 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.720 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.195.0.2 : 06:16:47.720 :             csPath = C:\Users\Public\Documents\Conexant
+7.195.0.2 : 06:16:47.720 :               ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\Users\Public\Documents\Conexant
+7.195.0.2 : 06:16:47.720 :               EXIT:  CFileUtils::DeleteFolder : hr = 2
+7.195.0.2 : 06:16:47.720 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.195.0.2 : 06:16:47.720 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.720 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.195.0.2 : 06:16:47.720 :               m_hClassDeviceKey = 1280
+7.195.0.2 : 06:16:47.720 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 06:16:47.720 :               ENTRY: CInf::ResetDeleteOnRebootList
+7.195.0.2 : 06:16:47.720 :               EXIT:  CInf::ResetDeleteOnRebootList
+7.195.0.2 : 06:16:47.720 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.720 :               pszFileToDelete = C:\ProgramData\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:47.720 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.720 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.720 :               pszFileToDelete = C:\ProgramData\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.735 :               pszFileToDelete = C:\ProgramData\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::CopyAFile
+7.195.0.2 : 06:16:47.735 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow.exe.config, pszDestinationFile=C:\Program Files\Conexant\Flow\Flow.exe.config, dwDestFlag=2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::CopyAFile
+7.195.0.2 : 06:16:47.735 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow.ini, pszDestinationFile=C:\Program Files\Conexant\Flow\Flow.ini, dwDestFlag=2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::CopyAFile
+7.195.0.2 : 06:16:47.735 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\FlowLang.xml, pszDestinationFile=C:\Program Files\Conexant\Flow\FlowLang.xml, dwDestFlag=2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::CopyAFile
+7.195.0.2 : 06:16:47.735 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\Flow\Flow\FlowSetup.xml, pszDestinationFile=C:\Program Files\Conexant\Flow\FlowSetup.xml, dwDestFlag=2
+7.195.0.2 : 06:16:47.735 :               Creating folder C:\Program Files\Conexant\Flow
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::CopyAFile
+7.195.0.2 : 06:16:47.735 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\Setup64.exe, pszDestinationFile=C:\Program Files\Conexant\Flow\Setup64.exe, dwDestFlag=2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.195.0.2 : 06:16:47.735 :               ENTRY: CFileUtils::CopyAFile
+7.195.0.2 : 06:16:47.735 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\Flow\Flow\xyz, pszDestinationFile=C:\Program Files\Conexant\Flow\xyz, dwDestFlag=2
+7.195.0.2 : 06:16:47.735 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.195.0.2 : 06:16:47.735 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.195.0.2 : 06:16:47.735 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.735 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.735 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.735 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.735 :               m_szDecorationTag = 
+7.195.0.2 : 06:16:47.735 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.735 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.735 :               ENTRY: CCabFile::InstallIniCabSection
+7.195.0.2 : 06:16:47.735 :               pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszCabSection = CabFile.CabFile64
+7.195.0.2 : 06:16:47.735 :                 ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.735 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.735 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.735 :                 m_szDecorationTag = 
+7.195.0.2 : 06:16:47.735 :                 m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.735 :                 EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.735 :                 ENTRY: CCabFile :: ExtractCabFile
+7.195.0.2 : 06:16:47.735 :                 pszCabFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow64.cab, pszCabExtractPath = C:\Program Files\Conexant\Flow\
+7.195.0.2 : 06:16:47.735 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.735 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\AppFollower.exe, dwFlags = 0
+7.195.0.2 : 06:16:47.735 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.735 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.735 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\CxHidAccess.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.735 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.755 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.755 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\EntityFramework.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.755 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.770 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.770 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\EntityFramework.SqlServer.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.770 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.Core.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.Enhancements.Conexant.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.Enhancements.SoundResearch.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.exe, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.exe.Config, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.ini, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-DefaultMode.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-MuteOnVoIP.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-PromptToUnmute.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-ResetModeOnIdle.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FlowTray.exe, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.786 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.786 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FlowTraySkin.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.786 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.Core.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.Core.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.YouTube.v3.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.YouTube.v3.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Hardcodet.Wpf.TaskbarNotification.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Interop.CxUtilSvcLib.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Interop.Shell32.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.802 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.802 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Microsoft.Lync.Model.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.802 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.817 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.817 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Microsoft.Lync.Model.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.817 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.817 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.817 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\NAudio.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.817 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.817 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.817 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Newtonsoft.Json.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.817 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.817 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.817 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Newtonsoft.Json.xml, dwFlags = 0
+7.195.0.2 : 06:16:47.817 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.833 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.833 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\notifyIconBandO.ico, dwFlags = 0
+7.195.0.2 : 06:16:47.833 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.833 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.833 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\notifyIconHP.ico, dwFlags = 0
+7.195.0.2 : 06:16:47.833 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.833 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.833 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\SACpl.exe, dwFlags = 0
+7.195.0.2 : 06:16:47.833 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.833 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.833 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\SmartAudio.Localization.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\SoundResearchLibrary.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\SRS_APO2011_ControllerLib_NET35.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\System.Data.SQLite.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\System.Data.SQLite.EF6.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\System.Data.SQLite.Linq.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\VimeoAPI.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\VoipConnection.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.848 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.848 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\x64\SQLite.Interop.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.848 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.864 :                 EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.195.0.2 : 06:16:47.864 :               EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.195.0.2 : 06:16:47.864 :               ENTRY: CCabFile::InstallIniCabSection
+7.195.0.2 : 06:16:47.864 :               pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszCabSection = CabFile.CabFile.DB
+7.195.0.2 : 06:16:47.864 :                 ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.864 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.864 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.864 :                 m_szDecorationTag = 
+7.195.0.2 : 06:16:47.864 :                 m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.864 :                 EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.864 :                 ENTRY: CCabFile :: ExtractCabFile
+7.195.0.2 : 06:16:47.864 :                 pszCabFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow.DB.cab, pszCabExtractPath = C:\Program Files\Conexant\Flow\
+7.195.0.2 : 06:16:47.864 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.864 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\data.sqlite, dwFlags = 0
+7.195.0.2 : 06:16:47.864 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.864 :                 EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.195.0.2 : 06:16:47.864 :               EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.195.0.2 : 06:16:47.864 :               ENTRY: CCabFile::InstallIniCabSection
+7.195.0.2 : 06:16:47.864 :               pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszCabSection = CabFile.Lang
+7.195.0.2 : 06:16:47.864 :                 ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.864 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.864 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.864 :                 m_szDecorationTag = 
+7.195.0.2 : 06:16:47.864 :                 m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.864 :                 EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.864 :                 ENTRY: CCabFile :: ExtractCabFile
+7.195.0.2 : 06:16:47.864 :                 pszCabFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Lang.cab, pszCabExtractPath = C:\Program Files\Conexant\Flow\Languages\
+7.195.0.2 : 06:16:47.864 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.864 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ar-AE\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.864 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.864 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.864 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\bg-BG\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.864 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.880 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.880 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\cs-CZ\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.880 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.880 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.880 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\da-DK\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.880 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.880 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.880 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\de-DE\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.880 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.880 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.880 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\el-GR\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.880 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.880 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.880 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\en-US\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.880 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.880 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.880 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\es-ES\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.880 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.895 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.895 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\et-EE\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.895 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.895 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.895 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\fi-FI\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.895 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.895 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.895 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\fr-FR\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.895 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.895 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.895 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\he-IL\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.895 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.895 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.895 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\hr-HR\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.895 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.895 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.895 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\hu-HU\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.895 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.911 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.911 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\it-IT\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.911 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.911 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.911 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ja-JP\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.911 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.911 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.911 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ko-KR\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.911 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.911 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.911 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\lt-LT\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.911 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.911 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.911 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\lv-LV\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.911 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.911 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.911 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\nb-NO\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.911 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.927 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.927 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\nl-NL\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.927 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.927 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.927 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\pl-PL\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.927 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.927 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.927 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\pt-BR\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.927 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.927 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.927 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\pt-PT\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.927 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.927 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.927 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ro-RO\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.927 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.927 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.942 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ru-RU\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.942 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.942 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.942 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sk-SK\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.942 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.942 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.942 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sl-SI\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.942 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.942 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.942 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sr-Latn-RS\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.942 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.942 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.942 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sv-SE\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.942 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.942 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.942 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\th-TH\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.942 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.942 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.958 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\tr-TR\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.958 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.958 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.958 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\uk-UA\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.958 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.958 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.958 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-CN\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.958 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.958 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.958 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-Hans\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.958 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.958 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.958 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-Hant\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.958 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.958 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.958 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-TW\SmartAudio.resources.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.958 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.958 :                 EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.195.0.2 : 06:16:47.958 :               EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.195.0.2 : 06:16:47.958 :               ENTRY: CCabFile::InstallIniCabSection
+7.195.0.2 : 06:16:47.958 :               pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszCabSection = CabFile.Follower64.2017
+7.195.0.2 : 06:16:47.958 :                 ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.973 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.973 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :                 m_szDecorationTag = 
+7.195.0.2 : 06:16:47.973 :                 m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.973 :                 EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.973 :                 ENTRY: CCabFile :: ExtractCabFile
+7.195.0.2 : 06:16:47.973 :                 pszCabFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Follower64.2017.cab, pszCabExtractPath = C:\Program Files\Conexant\Flow\
+7.195.0.2 : 06:16:47.973 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.973 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\FollowerSkin.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.973 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.973 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\SkinSettings.resources, dwFlags = 0
+7.195.0.2 : 06:16:47.973 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :                 EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.195.0.2 : 06:16:47.973 :               EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.195.0.2 : 06:16:47.973 :               ENTRY: CCabFile::InstallIniCabSection
+7.195.0.2 : 06:16:47.973 :               pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszCabSection = CabFile.Win10x64
+7.195.0.2 : 06:16:47.973 :                 ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.973 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.973 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :                 m_szDecorationTag = 
+7.195.0.2 : 06:16:47.973 :                 m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.973 :                 EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.973 :                 ENTRY: CCabFile :: ExtractCabFile
+7.195.0.2 : 06:16:47.973 :                 pszCabFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Win10x64.cab, pszCabExtractPath = C:\Program Files\Conexant\Flow\
+7.195.0.2 : 06:16:47.973 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.973 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\ReadMd.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.973 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :                   ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:47.973 :                   pszFileToDelete = C:\Program Files\Conexant\Flow\vcruntime140.dll, dwFlags = 0
+7.195.0.2 : 06:16:47.973 :                   EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :                 EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.195.0.2 : 06:16:47.973 :               EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.195.0.2 : 06:16:47.973 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::InstallDirectiveInstallInf: pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :               ENTRY: KINIFile::InstallDirectiveInstallInf1 : pszInstallInfSection = InstallInf
+7.195.0.2 : 06:16:47.973 :               EXIT:  KINIFile::InstallDirectiveInstallInf1
+7.195.0.2 : 06:16:47.973 :             EXIT:  KINIFile::InstallDirectiveInstallInf : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::InstallDirectiveUpgradeFW: pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :               ENTRY: KINIFile::InstallDirectiveUpgradeFW1 : pszInstallInfSection = UpgradeFW
+7.195.0.2 : 06:16:47.973 :               EXIT:  KINIFile::InstallDirectiveUpgradeFW1 : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :             EXIT:  KINIFile::InstallDirectiveUpgradeFW : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::InstallDefinedApps
+7.195.0.2 : 06:16:47.973 :             KINIFile::InstallDefinedApps : pszInstallSection = HdAudModel.2017.NTAMD64.10, pszInstallTag = InstallApp
+7.195.0.2 : 06:16:47.973 :               ENTRY: KINIFile::InstallDefinedApps2
+7.195.0.2 : 06:16:47.973 :               szInstallAppSection = InstallApp.RunAfterInstallation, pszInstallTag = InstallApp
+7.195.0.2 : 06:16:47.973 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 06:16:47.973 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :             ENTRY: CShortCut::CreateShortcut
+7.195.0.2 : 06:16:47.973 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.973 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.973 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.973 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :               m_szDecorationTag = 
+7.195.0.2 : 06:16:47.973 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.973 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.973 :             EXIT:  CShortCut::CreateShortcut
+7.195.0.2 : 06:16:47.973 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.973 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.973 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:47.973 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.973 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :             szUserPath = C:\WINDOWS\system32\config\systemprofile\
+7.195.0.2 : 06:16:47.973 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.195.0.2 : 06:16:47.973 :             ENTRY: KINIFile::SetupForUninstall
+7.195.0.2 : 06:16:47.973 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:47.973 :             szUninstallININame = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 06:16:47.989 :               ENTRY: CCabFile::SetupUninstallIniDefinedCabs
+7.195.0.2 : 06:16:47.989 :                 ENTRY: CFileUtils::ResetDeleteOnRebootList
+7.195.0.2 : 06:16:47.989 :                 EXIT:  CFileUtils::ResetDeleteOnRebootList
+7.195.0.2 : 06:16:47.989 :               EXIT:  CCabFile::SetupUninstallIniDefinedCabs
+7.195.0.2 : 06:16:47.989 :             EXIT:  KINIFile::SetupForUninstall
+7.195.0.2 : 06:16:47.989 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.195.0.2 : 06:16:47.989 :               ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:47.989 :               EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow
+7.195.0.2 : 06:16:47.989 :               ENTRY: CFileUtils::GetFolderSize : csFolderPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow.DB.cab, size = 2282
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow32.cab, size = 5372900
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Flow64.cab, size = 5491438
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Follower32.2017.cab, size = 42531
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Follower32.CMIT.cab, size = 54379
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Follower64.2017.cab, size = 42448
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Follower64.CMIT.cab, size = 54288
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Lang.cab, size = 3707343
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Win10x64.cab, size = 81828
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Win10x86.cab, size = 78427
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Win7x64.cab, size = 497607
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Flow\Win7x86.cab, size = 554429
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\FlowSetup.ini, size = 12293
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\FlowSetup.xml, size = 3174
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\Setup.exe, size = 7735632
+7.195.0.2 : 06:16:47.989 :               csTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\Setup64.exe, size = 8793936
+7.195.0.2 : 06:16:47.989 :               EXIT:  CFileUtils::GetFolderSize : llRetVal = 32524935
+7.195.0.2 : 06:16:47.989 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.195.0.2 : 06:16:47.989 :             ENTRY: KINIFile::DoMicTrayVerification : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.989 :             EXIT:  KINIFile::DoMicTrayVerification
+7.195.0.2 : 06:16:47.989 :             ENTRY: KINIFile::DeleteRollbackFiles
+7.195.0.2 : 06:16:47.989 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.989 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.989 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.989 :               m_szDecorationTag = 
+7.195.0.2 : 06:16:47.989 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.989 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.989 :             EXIT:  KINIFile::DeleteRollbackFiles
+7.195.0.2 : 06:16:47.989 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.195.0.2 : 06:16:47.989 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.195.0.2 : 06:16:47.989 :       EXIT:  CINIFile::InstallINIFiles : dwRetVal = 1
+7.195.0.2 : 06:16:47.989 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:47.989 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:47.989 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:47.989 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:47.989 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:47.989 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:47.989 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:47.989 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:47.989 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:47.989 :         ENTRY: KINIFile::Initialize : pszDeviceID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:47.989 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:47.989 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:47.989 :           ENTRY: CDevNode::FindDevNode : pszPNPID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:47.989 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:47.989 :           ENTRY: CDevNode::FindDevNode : pszPNPID = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:47.989 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:47.989 :         m_szDriverPath = {5c4c3332-344d-483c-8739-259e934c9cc8}\0001, m_ClassType = 2
+7.195.0.2 : 06:16:47.989 :         m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 06:16:47.989 :         MyPaths = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:47.989 :         EXIT:  KINIFile::Initialize
+7.195.0.2 : 06:16:47.989 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 2
+7.195.0.2 : 06:16:47.989 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:47.989 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:47.989 :           ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 06:16:47.989 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:47.989 :           szTestFile = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.989 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.195.0.2 : 06:16:47.989 :           ENTRY: CINIFile::SortINIFiles
+7.195.0.2 : 06:16:47.989 :           EXIT:  CINIFile::SortINIFiles
+7.195.0.2 : 06:16:47.989 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:47.989 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:47.989 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:47.989 :           m_szDecorationTag = 
+7.195.0.2 : 06:16:47.989 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:47.989 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:47.989 :           ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 06:16:47.989 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 06:16:47.989 :             m_pSetupParms->csPNPIDFromUCI = SWC\VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:47.989 :             KINIFile::GetInstallSection : szDeviceInstanceId = SWD\DRIVERENUM\{B2BB9760-2DD5-4085-86F1-E916233F10FF}#CONEXANTAPO_SA3HSA&5&52B33D9&0
+7.195.0.2 : 06:16:48.005 :               ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:48.005 :               EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:48.005 :             KINIFile::GetInstallSection : csTestDeviceID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:48.005 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.005 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.005 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.005 :               pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.005 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.005 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:48.005 :               csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.005 :               pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.005 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:48.052 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.052 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:48.052 :           szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 06:16:48.052 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 06:16:48.052 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:48.052 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 06:16:48.052 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\Flow\Flow\\FlowSetup.ini
+7.195.0.2 : 06:16:48.052 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:48.052 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 06:16:48.052 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 06:16:48.052 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.052 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.052 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:48.052 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 06:16:48.052 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 06:16:48.052 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.052 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 06:16:48.052 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 06:16:48.052 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.052 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 06:16:48.052 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 06:16:48.052 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 2
+7.195.0.2 : 06:16:48.052 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.052 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:48.052 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:48.052 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.052 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:48.052 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.067 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:48.067 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.067 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:48.067 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.067 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:48.067 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.067 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:48.067 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.067 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:48.067 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.067 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:48.067 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.067 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 06:16:48.067 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 06:16:48.067 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 06:16:48.067 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.067 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 06:16:48.067 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.195.0.2 : 06:16:48.067 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.195.0.2 : 06:16:48.067 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 06:16:48.067 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:48.067 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 06:16:48.067 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.067 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:48.067 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\x64\
+7.195.0.2 : 06:16:48.067 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.067 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 06:16:48.067 :       ENTRY: CVistaWaveRT::ProcessINIFile
+7.195.0.2 : 06:16:48.067 :       csINIFilePath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\, csDeviceID = VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:48.067 :         ENTRY: CVistaWaveRT::LocateRTWaveINIFiles : csINIFilePath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:48.067 :         EXIT:  CVistaWaveRT::LocateRTWaveINIFiles : pcslINIFileList->GetCount() = 1
+7.195.0.2 : 06:16:48.067 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOW\FLOWSETUP.INI
+7.195.0.2 : 06:16:48.067 :           ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.067 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :         m_szDecorationTag = 
+7.195.0.2 : 06:16:48.067 :         m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.067 :         EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.067 :         ENTRY: CDevNode::FindDevNode : pszPNPID = VEN_14F1&PID_HSA_AUDIO_01
+7.195.0.2 : 06:16:48.067 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:48.067 :         ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1
+7.195.0.2 : 06:16:48.067 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 06:16:48.067 :         ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.067 :           ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.067 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.067 :         pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.067 :         EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 06:16:48.067 :         ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 06:16:48.067 :         csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.067 :         pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.067 :         EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 06:16:48.067 :         ENTRY: CVistaWaveRT::GetInstallSection
+7.195.0.2 : 06:16:48.067 :         pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.067 :         EXIT:  CVistaWaveRT::GetInstallSection : bRetVal = 1
+7.195.0.2 : 06:16:48.067 :         ENTRY: CVistaWaveRT::ProcessINIFile
+7.195.0.2 : 06:16:48.067 :         CVistaWaveRT::ProcessINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOW\FLOWSETUP.INI , szInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 06:16:48.067 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags2
+7.195.0.2 : 06:16:48.067 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOW\FLOWSETUP.INI
+7.195.0.2 : 06:16:48.067 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.067 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:48.067 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.067 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.067 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags2 : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags1
+7.195.0.2 : 06:16:48.067 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\FLOW\FLOW\FLOWSETUP.INI
+7.195.0.2 : 06:16:48.067 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 06:16:48.067 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :             m_szDecorationTag = 
+7.195.0.2 : 06:16:48.067 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 06:16:48.067 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 06:16:48.067 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags1 : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :         EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :       EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.195.0.2 : 06:16:48.067 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.195.0.2 : 06:16:48.067 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.195.0.2 : 06:16:48.067 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.195.0.2 : 06:16:48.067 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.067 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 06:16:48.067 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\Flow\Flow\
+7.195.0.2 : 06:16:48.067 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 06:16:48.067 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.195.0.2 : 06:16:48.067 :     EXIT:  CSetupDlg::RunSetupDlg
+7.195.0.2 : 06:16:48.083 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.083 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.195.0.2 : 06:16:48.083 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.195.0.2 : 06:16:48.083 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.2 : 06:16:48.083 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.2 : 06:16:48.083 :   ENTRY: CSetupApp::SetupRetVal
+7.195.0.2 : 06:16:48.083 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.083 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.195.0.2 : 06:16:48.083 :     ENTRY: CSetupApp::ExitInstance()
+7.195.0.2 : 06:16:48.083 :     EXIT:  CSetupApp::ExitInstance()
