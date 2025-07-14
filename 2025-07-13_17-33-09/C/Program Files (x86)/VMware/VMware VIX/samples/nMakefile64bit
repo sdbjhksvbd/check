@@ -1,0 +1,34 @@
+# To compile sample programs on Windows, type:  nmake /f nMakefile
+# For debugging, change LIBS = $(RELEASE) to $(DEBUG)
+#  and possibly put #pragma warning(disable:4099) into sample code.
+#
+VIXH = /I "C:\\Program Files (x86)\\VMware\\VMware VIX\\"
+LIBRARIES = kernel32.lib user32.lib advapi32.lib ole32.lib oleaut32.lib ws2_32.lib shell32.lib
+WRAPPER = "C:\\Program Files (x86)\\VMware\\VMware VIX\\vix64AllProducts.lib" $(LIBRARIES)
+DBGWRAP = "C:\\Program Files (x86)\\VMware\\VMware VIX\\vix64AllProductsd.lib" $(LIBRARIES)
+RELEASE = /MT $(WRAPPER) /link /INCREMENTAL:no /NODEFAULTLIB:libcmt.lib
+DEBUG = /DDEBUG /MTd $(DBGWRAP) /Zi /link /DEBUG /INCREMENTAL:no /NODEFAULTLIB:libcmtd.lib
+LIBS = $(RELEASE)
+
+all: callbackProc fhostopen guestOps powerOn snapshot suspend
+
+callbackProc: callbackProc.c
+	cl callbackProc.c $(VIXH) $(LIBS)
+
+fhostopen: fhostopen.c
+	cl fhostopen.c $(VIXH) $(LIBS)
+
+guestOps: guestOps.c
+	cl guestOps.c $(VIXH) $(LIBS)
+
+powerOn: powerOn.c
+	cl powerOn.c $(VIXH) $(LIBS)
+
+snapshot: snapshot.c
+	cl snapshot.c $(VIXH) $(LIBS)
+
+suspend: suspend.c
+	cl suspend.c $(VIXH) $(LIBS)
+
+clean:
+	erase /f *.exe *.exe.manifest *.obj *.pdb
