@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "CREA'N UN DE NOU"
+   },
+   "explanationofflinedisabled": {
+      "message": "No tens connexiÃ³. Per utilitzar Documents de Google sense connexiÃ³ a Internet, ves a la configuraciÃ³ de la pÃ gina d'inici d'aquest servei i activa l'opciÃ³ per sincronitzar-se sense connexiÃ³ la propera vegada que estiguis connectat a la xarxa."
+   },
+   "explanationofflineenabled": {
+      "message": "Tot i que no tens connexiÃ³, pots editar o crear fitxers."
+   },
+   "extdesc": {
+      "message": "Edita, crea i consulta documents, fulls de cÃ lcul i presentacions, tot sense accÃ©s a Internet."
+   },
+   "extname": {
+      "message": "Documents de Google sense connexiÃ³"
+   },
+   "learnmore": {
+      "message": "MÃ©s informaciÃ³"
+   },
+   "popuphelptext": {
+      "message": "Escriu text, edita fitxers i colÂ·labora-hi siguis on siguis, amb o sense connexiÃ³ a Internet."
+   }
+}
