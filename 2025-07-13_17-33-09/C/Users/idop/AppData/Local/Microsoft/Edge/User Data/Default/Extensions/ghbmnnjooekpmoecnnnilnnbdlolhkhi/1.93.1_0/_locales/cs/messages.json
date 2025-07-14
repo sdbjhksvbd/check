@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "VYTVOÅ˜IT"
+   },
+   "explanationofflinedisabled": {
+      "message": "Jste offline. Pokud chcete Dokumenty Google pouÅ¾Ã­vat bez pÅ™ipojenÃ­ kÂ internetu, aÅ¾ budete pÅ™Ã­Å¡tÄ› online, pÅ™ejdÄ›te do nastavenÃ­ na domovskÃ© strÃ¡nce DokumentÅ¯ Google aÂ zapnÄ›te offline synchronizaci."
+   },
+   "explanationofflineenabled": {
+      "message": "Jste offline, ale stÃ¡le mÅ¯Å¾ete upravovat dostupnÃ© soubory nebo vytvÃ¡Å™et novÃ©."
+   },
+   "extdesc": {
+      "message": "Upravujte, vytvÃ¡Å™ejte aÂ zobrazujte svÃ© dokumenty, tabulky aÂ prezentace â€“ vÅ¡e bez pÅ™Ã­stupu kÂ internetu."
+   },
+   "extname": {
+      "message": "Dokumenty Google offline"
+   },
+   "learnmore": {
+      "message": "DalÅ¡Ã­ informace"
+   },
+   "popuphelptext": {
+      "message": "PiÅ¡te, upravujte aÂ spolupracujte kdekoli, sÂ pÅ™ipojenÃ­m kÂ internetu iÂ bez nÄ›j."
+   }
+}
