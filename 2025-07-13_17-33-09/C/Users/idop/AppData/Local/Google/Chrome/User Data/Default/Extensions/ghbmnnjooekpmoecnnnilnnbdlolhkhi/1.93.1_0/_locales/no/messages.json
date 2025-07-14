@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "OPPRETT NYTT"
+   },
+   "explanationofflinedisabled": {
+      "message": "Du er uten nett. For Ã¥ bruke Google Dokumenter uten internettilkobling, gÃ¥ til innstillingene pÃ¥ Google Dokumenter-nettsiden og slÃ¥ pÃ¥ synkronisering uten nett neste gang du er koblet til Internett."
+   },
+   "explanationofflineenabled": {
+      "message": "Du er uten nett, men du kan likevel endre tilgjengelige filer eller opprette nye."
+   },
+   "extdesc": {
+      "message": "Rediger, opprett og se dokumentene, regnearkene og presentasjonene dine â€“ uten nettilgang."
+   },
+   "extname": {
+      "message": "Google Dokumenter uten nett"
+   },
+   "learnmore": {
+      "message": "Finn ut mer"
+   },
+   "popuphelptext": {
+      "message": "Skriv, rediger eller samarbeid uansett hvor du er, med eller uten internettilkobling."
+   }
+}
