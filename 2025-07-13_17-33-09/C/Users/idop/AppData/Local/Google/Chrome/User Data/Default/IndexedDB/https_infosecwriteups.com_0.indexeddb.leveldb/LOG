@@ -1,0 +1,15 @@
+2025/06/29-14:15:16.920 9c88 Reusing MANIFEST C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_infosecwriteups.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/29-14:15:16.921 9c88 Recovering log #4
+2025/06/29-14:15:16.921 9c88 Reusing old log C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_infosecwriteups.com_0.indexeddb.leveldb/000004.log 
+2025/06/29-15:30:44.849 796c Level-0 table #8: started
+2025/06/29-15:30:44.852 796c Level-0 table #8: 4627 bytes OK
+2025/06/29-15:30:44.853 796c Delete type=0 #4
+2025/06/29-15:30:44.854 796c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/06/29-15:30:44.854 796c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00@\x07m\xb7{yB\x00\x01\x12\x00m\x00c\x00h\x00l\x00d\x00a\x00o\x00m\x00o\x00p\x00u\x00n\x00j\x00n\x003\x00b\x000\x00h' @ 1196 : 1
+2025/06/29-15:30:44.855 796c Compacting 1@1 + 1@2 files
+2025/06/29-15:30:44.858 796c Generated table #9@1: 92 keys, 3917 bytes
+2025/06/29-15:30:44.858 796c Compacted 1@1 + 1@2 files => 3917 bytes
+2025/06/29-15:30:44.859 796c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/29-15:30:44.859 796c Delete type=2 #5
+2025/06/29-15:30:44.859 796c Delete type=2 #8
+2025/06/29-15:30:44.860 796c Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00@\x07m\xb7{yB\x00\x01\x12\x00m\x00c\x00h\x00l\x00d\x00a\x00o\x00m\x00o\x00p\x00u\x00n\x00j\x00n\x003\x00b\x000\x00h' @ 1196 : 1 .. (end); will stop at (end)
