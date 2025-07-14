@@ -1,0 +1,75 @@
+{
+    "id": "2",
+    "name": "classification",
+    "author": "adobe",
+    "version": 1,
+    "targets":{
+        "CoreML": {
+            "components": [
+                {
+                    "name":"file",
+                    "path":"age_googlenet.mlmodel",
+                    "encryption":{
+                        "key":"no key required"
+                    }
+                }],
+            "inputs": [{
+                "name": "input",
+                "required": true,
+		"featureType": "tensor",
+		"tensor": {
+                    "shape": [3,224,224],
+                    "dataType": "float"
+                }
+            }],
+            "outputs": [{
+                "name": "loss3/loss3_Y",
+                "featureType": "tensor",
+                "tensor": {
+                    "shape": [1,1,8,1,1],
+                    "dataType": "float"
+                }
+            }]
+        },
+        "WinML": {
+            "components": [
+              {
+                "name": "secured_file",
+                "path": "4",
+                "encryption": {
+                  "key": "none"
+                }
+              }],
+          "inputs": [
+            {
+              "name": "seq_input",
+              "required": true,
+              "featureType": "tensor",
+              "tensor": {
+                "shape": [1, 16 ],
+                "dataType": "int32"
+              }
+            },
+            {
+              "name": "userinfo",
+              "required": true,
+              "featureType": "tensor",
+              "tensor": {
+                "shape": [ 1, 2 ],
+                "dataType": "int32"
+              }
+            }
+          ],
+          "outputs": [
+            {
+              "name": "my_output",
+              "featureType": "tensor",
+              "tensor": {
+                "shape": [ 1, 26 ],
+                "dataType": "int32"
+              }
+            }
+          ]
+        }
+    }
+}
