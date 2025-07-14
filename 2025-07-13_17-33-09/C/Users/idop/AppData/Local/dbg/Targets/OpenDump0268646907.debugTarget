@@ -1,0 +1,15 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<TargetConfig Name="C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp" LastUsed="2025-07-07T08:08:27.0642878Z">
+  <EngineConfig />
+  <EngineOptions />
+  <TargetOptions>
+    <Option name="OpenDump">
+      <Property name="DumpPath" value="C:\Program Files (x86)\VMware\VMware Workstation\memory.dmp" />
+    </Option>
+    <Option name="RestoreCommandHistory">
+      <Property name="History">
+        <Property value="!poolfind -nonpaged -tag &quot;ABCD&quot;" />
+      </Property>
+    </Option>
+  </TargetOptions>
+</TargetConfig>
