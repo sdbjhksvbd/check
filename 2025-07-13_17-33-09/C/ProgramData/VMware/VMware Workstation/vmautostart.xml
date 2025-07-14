@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--
+ This is a sample configuration file for the Virtual Machine Autostart
+ functionality. You may uncomment the below section and specify the path to
+ the vmx files of those Virtual Machine which you want to automatically
+ power-on when the host machine starts or whenever the "VMware Autostart
+ Service" is started.
+-->
+<ConfigRoot>
+  <AutoStartOrder>
+    <!--e id="0">
+      <vmxpath>C:\Users\Administrator\Documents\Virtual Machines\Windows10x64\Windows10x64.vmx</vmxpath>
+      <startOrder>0</startOrder>
+    </e>
+    <e id="1">
+      <vmxpath>C:\Users\Administrator\Documents\Virtual Machines\VM2\VM2.vmx</vmxpath>
+      <startOrder>0</startOrder>
+    </e-->
+  </AutoStartOrder>
+</ConfigRoot>
