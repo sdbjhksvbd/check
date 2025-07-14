@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="24pt" viewBox="0 0 24 24" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 10 6 L 13 6 L 13 9 L 10 9 Z M 10 6 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 10 7.5 C 10 6.671875 10.671875 6 11.5 6 C 12.328125 6 13 6.671875 13 7.5 C 13 8.328125 12.328125 9 11.5 9 C 10.671875 9 10 8.328125 10 7.5 "/>
+</clipPath>
+<clipPath id="clip3">
+  <path d="M 9 10 L 14 10 L 14 18 L 9 18 Z M 9 10 "/>
+</clipPath>
+<clipPath id="clip4">
+  <path d="M 9.5 10 C 9.21875 10 9 10.21875 9 10.5 C 9 10.78125 9.21875 11 9.5 11 L 10 11 L 10 17 L 9.5 17 C 9.21875 17 9 17.21875 9 17.5 C 9 17.78125 9.21875 18 9.5 18 L 13.5 18 C 13.78125 18 14 17.78125 14 17.5 C 14 17.21875 13.78125 17 13.5 17 L 13 17 L 13 10 L 9.5 10 "/>
+</clipPath>
+<clipPath id="clip5">
+  <path d="M 1 1 L 22 1 L 22 23 L 1 23 Z M 1 1 "/>
+</clipPath>
+<clipPath id="clip6">
+  <path d="M 11.5 3.519531 C 6.78125 3.519531 2.949219 7.351563 2.949219 12.070313 C 2.949219 16.789063 6.78125 20.621094 11.5 20.621094 C 16.21875 20.621094 20.050781 16.789063 20.050781 12.070313 C 20.050781 7.351563 16.21875 3.519531 11.5 3.519531 Z M 11.5 22.46875 C 5.769531 22.46875 1.101563 17.800781 1.101563 12.070313 C 1.101563 6.339844 5.769531 1.679688 11.5 1.679688 C 17.230469 1.679688 21.898438 6.339844 21.898438 12.070313 C 21.898438 17.800781 17.230469 22.46875 11.5 22.46875 Z M 11.5 22.46875 "/>
+</clipPath>
+</defs>
+<g id="surface1">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="evenodd">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(49.411011%,49.411011%,49.411011%);fill-opacity:1;" d="M 5 1 L 18 1 L 18 14 L 5 14 Z M 5 1 "/>
+</g>
+</g>
+<g clip-path="url(#clip3)" clip-rule="nonzero">
+<g clip-path="url(#clip4)" clip-rule="evenodd">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(49.411011%,49.411011%,49.411011%);fill-opacity:1;" d="M 4 5 L 19 5 L 19 23 L 4 23 Z M 4 5 "/>
+</g>
+</g>
+<g clip-path="url(#clip5)" clip-rule="nonzero">
+<g clip-path="url(#clip6)" clip-rule="evenodd">
+<rect x="0" y="0" width="24" height="24" style="fill:rgb(49.411011%,49.411011%,49.411011%);fill-opacity:1;stroke:none;"/>
+</g>
+</g>
+</g>
+</svg>
