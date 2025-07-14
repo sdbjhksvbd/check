@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({COPYRIGHT:"Â©2012-2015 Adobe Systems Incorporated, All Rights Reserved.",HELP:"SÃºgÃ³",PRIVACY:"AdatvÃ©delem",TERMS:"FeltÃ©telek",COOKIES:"Cookie-k",PRIVACY_POLICY:"AdatvÃ©delem Ã©s Cookie-k",TERMS_OF_USE:"SzabÃ¡lyzat",WELCOME_MSG:"Az Adobe Document Services hasznÃ¡latÃ¡val a fÃ¡jlokat bÃ¡rmilyen eszkÃ¶zrÅ‘l elÃ©rheti",LOAD_FAILURES:"HibÃ¡k betÃ¶ltÃ©se",MODULES_NOT_LOADED:"A kÃ¶vetkezÅ‘ modulokat nem sikerÃ¼lt betÃ¶lteni:<br/><br/><%= modules %>",SIGN_IN:"BejelentkezÃ©s",CREATE_ACCOUNT:"FiÃ³k lÃ©trehozÃ¡sa",FORGOT_PASSWORD:"ProblÃ©mÃ¡ja van a bejelentkezÃ©ssel?",EMAIL_VERIFICATION:"E-mail ellenÅ‘rzÃ©se",PDF_SERVICES:"Â Â /Â Â PDF szolgÃ¡ltatÃ¡sok",ACCOUNT:"FiÃ³k",LINK_CREATIVE_CLOUD_ACCOUNT:"Creative Cloud fiÃ³k csatolÃ¡sa...",LINK_DROPBOX_ACCOUNT:"Dropbox fiÃ³k csatolÃ¡sa...",MANAGE_SUB:"Tervem...",USER_ACCOUNT:"FelhasznÃ¡lÃ³i fiÃ³k...",ASK_US_A_QUESTION:"KÃ©rdezzen tÅ‘lÃ¼nk...",SUPPORT:"TÃ¡mogatÃ¡s...",CHAT_WITH_US:"BeszÃ©lgessen velÃ¼nk...",ABOUT_APP:"A Document Cloud nÃ©vjegye",SIGN_OUT:"KijelentkezÃ©s",SHOW_PROGRESS:"Folyamat mutatÃ¡sa",PROGRESS_COMPLETE:"Folyamat befejezÅ‘dÃ¶tt",REMOVE_HISTORY:"ElÅ‘zmÃ©nyek tÃ¶rlÃ©se",OPERATION_IN_PROGRESS_DLG_TITLE:"MÅ±velet folyamatban",OPERATION_IN_PROGRESS_DLG_MSG:"Jelenleg egy mÅ±velet van folyamatban. A folytatÃ¡s tÃ¶rli az adott mÅ±veletet. SzeretnÃ© folytatni?",QUOTA_LEGEND:"<%= using %> / <%= allotment %>",STORAGE_EXCEEDED_LEARN_MORE:"TÃ¡rolÃ¡s tÃºllÃ©pve (<a class='quota-display-learn-more'>TovÃ¡bbi tudnivalÃ³k</a>)",ABOUT_DLG_TITLE:"A Document Cloud nÃ©vjegye",ABOUT_DLG_COPYRIGHT_PARA:"Copyright Â© 2012-2015 Adobe Systems Incorporated and its licensors. All Rights Reserved.",ABOUT_DLG_TRADEMARK_PARA:"Adobe, the Adobe logo, and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.",ABOUT_DLG_PORTIONS_PARA:"RÃ©szek felhasznÃ¡lva:",ABOUT_DLG_MICROSOFT_PARA:"Microsoft Windows Media Technologies. Copyright Â© 1999-2002, 2006 Microsoft Corporation. All Rights Reserved.",ABOUT_DLG_IRIS_PARA:"OCR-technolÃ³gia: Image Recognition Integrated Systems S.A. Copyright Â© 1987 - 2012, I.R.I.S. S.A. All rights reserved.",ABOUT_DLG_SOLID_PARA:"Copyright Â© 2003-2011 Solid Documents, LLC",ABOUT_DLG_THIRD_PARTY_PARA:"Harmadik fÃ©l megjegyzÃ©sei, felhasznÃ¡lÃ¡si feltÃ©telek harmadik fÃ©l szoftvereire vonatkozÃ³lag megtalÃ¡lhatÃ³k itt: <%= thirdPartyLink %> Ã©s referenciakÃ©nt szolgÃ¡lnak.",ABOUT_DLG_BUILD_NUMBER:"VÃ¡ltozat: <%= buildNum %>",NO_CONNECTION_TITLE:"Nincs internetkapcsolat",NO_CONNECTION_MSG:"A terÃ¼let funkciÃ³ihoz internetkapcsolat szÃ¼ksÃ©ges. Csatlakoztassa a szÃ¡mÃ­tÃ³gÃ©pet az internethez, Ã©s prÃ³bÃ¡lja Ãºjra.",NETWORK_FAILURE:"HÃ¡lÃ³zati kapcsolat hibÃ¡ja",NETWORK_DISCONNECTED:"Ãšgy tÅ±nik, nincs hÃ¡lÃ³zati kapcsolat. A Reader nem minden funkciÃ³ja mÅ±kÃ¶dik hÃ¡lÃ³zati kapcsolat nÃ©lkÃ¼l"});
