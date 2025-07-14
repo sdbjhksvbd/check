@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2013 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define({COPYRIGHT:"Â©2012-2015 Adobe Systems Incorporated, All Rights Reserved.",HELP:"Ajuda",PRIVACY:"Privadesa",TERMS:"Condicions",COOKIES:"Galetes",PRIVACY_POLICY:"PolÃ­tica de privadesa i galetes",TERMS_OF_USE:"Condicions d'Ãºs",WELCOME_MSG:"Feu servir Adobe Document Services i accediu als vostres fitxers des de qualsevol dispositiu",LOAD_FAILURES:"Errors de cÃ rrega",MODULES_NOT_LOADED:"Els mÃ²duls segÃ¼ents no s'han pogut carregar:<br/><br/><%= modules %>.",SIGN_IN:"Inicia la sessiÃ³",CREATE_ACCOUNT:"Crea un compte",FORGOT_PASSWORD:"Problemes per iniciar la sessiÃ³?",EMAIL_VERIFICATION:"VerificaciÃ³ per correu electrÃ²nic",PDF_SERVICES:"Â Â /Â Â Serveis de PDF",ACCOUNT:"Compte",LINK_CREATIVE_CLOUD_ACCOUNT:"EnllaÃ§a un compte del Creative Cloud...",LINK_DROPBOX_ACCOUNT:"EnllaÃ§a un compte del Dropbox...",MANAGE_SUB:"El meu pla...",USER_ACCOUNT:"Compte d'usuari...",ASK_US_A_QUESTION:"Feu-nos una pregunta...",SUPPORT:"AssistÃ¨ncia...",CHAT_WITH_US:"Xategeu amb nosaltres...",ABOUT_APP:"Quant al Document Cloud...",SIGN_OUT:"Tanca la sessiÃ³",SHOW_PROGRESS:"Mostra el progrÃ©s",PROGRESS_COMPLETE:"ProgrÃ©s completat",REMOVE_HISTORY:"Suprimeix l'historial",OPERATION_IN_PROGRESS_DLG_TITLE:"OperaciÃ³ en curs",OPERATION_IN_PROGRESS_DLG_MSG:"Actualment hi ha una operaciÃ³ en curs. Si continueu, l'operaciÃ³ es cancelÂ larÃ . Voleu continuar?",QUOTA_LEGEND:"<%= using %> de <%= allotment %>",STORAGE_EXCEEDED_LEARN_MORE:"Emmagatzematge esgotat (<a class='quota-display-learn-more'>MÃ©s informaciÃ³</a>)",ABOUT_DLG_TITLE:"Quant al Document Cloud",ABOUT_DLG_COPYRIGHT_PARA:"Copyright Â© 2012-2015 Adobe Systems Incorporated and its licensors. All Rights Reserved.",ABOUT_DLG_TRADEMARK_PARA:"Adobe, the Adobe logo, and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.",ABOUT_DLG_PORTIONS_PARA:"Les porcions fan servir:",ABOUT_DLG_MICROSOFT_PARA:"Microsoft Windows Media Technologies. Copyright Â© 1999-2002, 2006 Microsoft Corporation. All Rights Reserved.",ABOUT_DLG_IRIS_PARA:"OCR technology by Image Recognition Integrated Systems S.A. Copyright Â© 1987 - 2012, I.R.I.S. S.A. All rights reserved.",ABOUT_DLG_SOLID_PARA:"Copyright Â© 2003-2011 Solid Documents, LLC",ABOUT_DLG_THIRD_PARTY_PARA:"Els avisos de tercers i els termes i les condicions del programari de tercers es poden consultar a <%= thirdPartyLink %> i s'incorporen al present document com a referÃ¨ncia.",ABOUT_DLG_BUILD_NUMBER:"CompilaciÃ³: <%= buildNum %>",NO_CONNECTION_TITLE:"No hi ha connexiÃ³ a Internet.",NO_CONNECTION_MSG:"Les funcions d'aquesta Ã rea requereixen connexiÃ³ a Internet. Connecteu l'ordinador a Internet i torneu-ho a provar.",NETWORK_FAILURE:"Error de connexiÃ³ de xarxa",NETWORK_DISCONNECTED:"Sembla que no hi ha cap connexiÃ³ de xarxa. Ã‰s possible no estiguin disponibles totes les funcions del Reader a causa de la falta de connexiÃ³."});
