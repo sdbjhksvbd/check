@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "UTWÃ“RZ NOWY"
+   },
+   "explanationofflinedisabled": {
+      "message": "JesteÅ› offline. Aby korzystaÄ‡ z DokumentÃ³w Google bez poÅ‚Ä…czenia internetowego, otwÃ³rz ustawienia na stronie gÅ‚Ã³wnej DokumentÃ³w Google i wÅ‚Ä…cz synchronizacjÄ™ offline nastÄ™pnym razem, gdy bÄ™dziesz mieÄ‡ dostÄ™p do internetu."
+   },
+   "explanationofflineenabled": {
+      "message": "JesteÅ› offline, ale nadal moÅ¼esz edytowaÄ‡ dostÄ™pne pliki i tworzyÄ‡ nowe."
+   },
+   "extdesc": {
+      "message": "Edytuj, twÃ³rz i wyÅ›wietlaj swoje dokumenty, arkusze kalkulacyjne oraz prezentacje bez koniecznoÅ›ci Å‚Ä…czenia siÄ™ z internetem."
+   },
+   "extname": {
+      "message": "Dokumenty Google offline"
+   },
+   "learnmore": {
+      "message": "WiÄ™cej informacji"
+   },
+   "popuphelptext": {
+      "message": "Pisz, edytuj i wspÃ³Å‚pracuj, gdziekolwiek jesteÅ› â€“ niezaleÅ¼nie od tego, czy masz poÅ‚Ä…czenie z internetem."
+   }
+}
