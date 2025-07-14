@@ -1,0 +1,62 @@
+7.195.0.3 : 06:16:35.520 : C:\Program Files\Conexant\Install\Audio\SA3\setup.exe -
+7.195.0.3 : 06:16:35.520 :   ENTRY: CSetupApp::RunSetupApp : GUIU Application Build v7.195.0.3
+7.195.0.3 : 06:16:35.520 :   Version = V7.195.0.3
+7.195.0.3 : 06:16:35.520 :   OS Platform = OS_WIN10-64
+7.195.0.3 : 06:16:35.520 :   dwSetupConfig = 20100 : dwMode = 481000
+7.195.0.3 : 06:16:35.520 :   CreateMutex - I_AM_THE_ROOT_UIU
+7.195.0.3 : 06:16:35.520 :   Found Mutex - CNXT_COINST_RUNNING
+7.195.0.3 : 06:16:35.520 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-VNET=V3.5+ -SWTM="HDAUDIOAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801" -INI=SA3.INI, SA3 -FNAME="Audio Controls Application"
+7.195.0.3 : 06:16:35.520 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-VNET=V3.5+ -SWTM="HDAUDIOAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801" -FNAME="Audio Controls Application"
+7.195.0.3 : 06:16:35.520 :     ENTRY: CSetupApp::CloseAnyRequestedAppWindows
+7.195.0.3 : 06:16:35.520 :       ENTRY: CFileUtils::CloseSA3FromUIUSrv
+7.195.0.3 : 06:16:35.520 :         ENTRY: CFileUtils::UserModeExeFromService : pszCmdArg = closesa3
+7.195.0.3 : 06:16:35.536 :           ENTRY: CFileUtils::RunAsLoggedOnUser
+7.195.0.3 : 06:16:36.543 :           EXIT:  CFileUtils::RunAsLoggedOnUser : bRetVal = 1
+7.195.0.3 : 06:16:36.543 :         EXIT:  CFileUtils::UserModeExeFromService : bRetVal = 1
+7.195.0.3 : 06:16:36.543 :       EXIT:  CFileUtils::CloseSA3FromUIUSrv : bRetVal = 1
+7.195.0.3 : 06:16:36.543 :     EXIT:  CSetupApp::CloseAnyRequestedAppWindows
+7.195.0.3 : 06:16:36.543 :     ENTRY: CSetupDlg::RunSetupDlg
+7.195.0.3 : 06:16:36.543 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.195.0.3 : 06:16:36.543 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.195.0.3 : 06:16:36.543 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.195.0.3 : 06:16:36.543 :       csSetupExe = C:\Program Files\Conexant\Install\Audio\SA3\x64\Setup64.exe
+7.195.0.3 : 06:16:36.543 :       csCmdline = -32TO64="C:\Program Files\Conexant\Install\Audio\SA3\" -S -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-VNET=V3.5+ -SWTM="HDAUDIOAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801" -INI=SA3.INI, SA3 -FNAME="Audio Controls Application" -FNAME="Audio Controls Application" -NR
+7.195.0.3 : 06:16:36.543 :         ENTRY: CSetupApp::SpawnAnotherUIU
+7.195.0.3 : 06:16:36.543 :         pszExeName=C:\Program Files\Conexant\Install\Audio\SA3\x64\Setup64.exe, pszCmdArg=-32TO64="C:\Program Files\Conexant\Install\Audio\SA3\" -S -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-VNET=V3.5+ -SWTM="HDAUDIOAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801" -INI=SA3.INI, SA3 -FNAME="Audio Controls Application" -FNAME="Audio Controls Application" -NR, bWaitForProcess=1
+7.195.0.3 : 06:16:36.543 :         csWorkingDir = C:\Program Files\Conexant\Install\Audio\SA3\x64\
+7.195.0.3 : 06:16:36.543 :         Trying to Spawn with ShellExecuteExA
+7.195.0.3 : 06:16:36.543 :         szExeName = "C:\Program Files\Conexant\Install\Audio\SA3\x64\Setup64.exe"
+7.195.0.3 : 06:16:36.543 :         szCmdLine = -32TO64="C:\Program Files\Conexant\Install\Audio\SA3\" -S -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-VNET=V3.5+ -SWTM="HDAUDIOAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801" -INI=SA3.INI, SA3 -FNAME="Audio Controls Application" -FNAME="Audio Controls Application" -NR
+7.195.0.3 : 06:16:42.585 :         dwRetVal & ~RETVAL_SPAWNAPP_SUCCESS = 0
+7.195.0.3 : 06:16:42.585 :         EXIT:  CSetupApp::SpawnAnotherUIU : dwRetVal = 8
+7.195.0.3 : 06:16:42.585 :         ENTRY: CInstall::ReadRegHWRetVal
+7.195.0.3 : 06:16:42.585 :         EXIT:  CInstall::ReadRegHWRetVal
+7.195.0.3 : 06:16:42.585 :       *pdwStatus = 1
+7.195.0.3 : 06:16:42.585 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=1
+7.195.0.3 : 06:16:42.600 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.195.0.3 : 06:16:42.600 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.195.0.3 : 06:16:42.600 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.195.0.3 : 06:16:42.600 :         ENTRY: CINIFile::ReInitialize
+7.195.0.3 : 06:16:42.600 :         m_dwUCIActiveMutex = 0
+7.195.0.3 : 06:16:42.600 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\SA3\
+7.195.0.3 : 06:16:42.600 :         EXIT:  CINIFile::ReInitialize
+7.195.0.3 : 06:16:42.600 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.195.0.3 : 06:16:42.600 :     EXIT:  CSetupDlg::RunSetupDlg
+7.195.0.3 : 06:16:42.600 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.195.0.3 : 06:16:42.600 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.195.0.3 : 06:16:42.600 :     ENTRY: CSetupApp::IsLastUIURunning
+7.195.0.3 : 06:16:42.600 :       ENTRY: CFileUtils::NumberOfUIUInstancesRunning
+7.195.0.3 : 06:16:42.600 :       Found UIU Process Running : szProcessName = C:\Program Files\Conexant\Install\Audio\SA3\setup.exe
+7.195.0.3 : 06:16:42.600 :       EXIT:  CFileUtils::NumberOfUIUInstancesRunning : dwUIUCnt = 1
+7.195.0.3 : 06:16:42.600 :     EXIT:  CSetupApp::IsLastUIU: IsLastUIURunning=1
+7.195.0.3 : 06:16:42.600 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.195.0.3 : 06:16:42.600 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.3 : 06:16:42.600 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.195.0.3 : 06:16:42.600 :   ENTRY: CSetupApp::SetupRetVal
+7.195.0.3 : 06:16:42.600 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.195.0.3 : 06:16:42.600 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.195.0.3 : 06:16:42.600 :     ENTRY: CSetupApp::ExitInstance()
+7.195.0.3 : 06:16:42.600 :       ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.195.0.3 : 06:16:42.600 :       CFileUtils::SignalMonitorAppSyncInfo : szFileName = C:\Program Files\Conexant\Install\Audio\SA3\setup.exe
+7.195.0.3 : 06:16:42.600 :       EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.195.0.3 : 06:16:42.600 :     EXIT:  CSetupApp::ExitInstance()
