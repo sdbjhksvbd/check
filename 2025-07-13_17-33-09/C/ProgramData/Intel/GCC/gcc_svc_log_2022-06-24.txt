@@ -1,0 +1,11 @@
+2022-06-24 03:45:04.7040 ERROR 	ConfigService. Error parsing config file: The process has no package identity. (Exception from HRESULT: 0x80073D54) 
+2022-06-24 03:45:04.7352 DEBUG 	ConfigService. Using AllComponents filter for logging. 
+2022-06-24 03:45:04.7352 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 207 
+2022-06-24 03:45:04.7509 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 100 
+2022-06-24 03:45:04.7509 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 1 
+2022-06-24 03:45:04.7509 ERROR 	GraphicsAdapterInfoPayload. GetEscapeInterface: Found no valid driver for intel hardware hardware. 
+2022-06-24 03:45:04.7509 ERROR 	DriverEscapeBuilder. InvokeDriverEscape could not find Intel Adapter, enable to process escape call: 5 
+2022-06-24 03:45:04.7509 ERROR 	EscapeCallYangra. GetPowerConservationData. Driver Escape Failed. 
+2022-06-24 03:45:04.7509 INFO 	PlatformCapability. ALSSensorReadingChangedAsync. Lace is not supported 
+2022-06-24 03:45:04.7509 INFO 	PlatformCapability. ALSSensorReadingChangedAsync. Unsupported Platform 
+2022-06-24 03:45:05.0633 INFO 	DXDBManager. PlatformsGPUOverrideNeededAsync. GPU Override not required 
