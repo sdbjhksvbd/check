@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "CRIAR NOVO"
+   },
+   "explanationofflinedisabled": {
+      "message": "VocÃª estÃ¡ off-line. Para usar o Documentos Google sem conexÃ£o com a Internet, na prÃ³xima vez que se conectar, acesse as configuraÃ§Ãµes na pÃ¡gina inicial do Documentos Google e ative a sincronizaÃ§Ã£o off-line."
+   },
+   "explanationofflineenabled": {
+      "message": "VocÃª estÃ¡ off-line, mas mesmo assim pode editar os arquivos disponÃ­veis ou criar novos arquivos."
+   },
+   "extdesc": {
+      "message": "Edite, crie e veja seus documentos, planilhas e apresentaÃ§Ãµes sem precisar de acesso Ã  Internet."
+   },
+   "extname": {
+      "message": "Documentos Google off-line"
+   },
+   "learnmore": {
+      "message": "Saiba mais"
+   },
+   "popuphelptext": {
+      "message": "Escreva, edite e colabore onde vocÃª estiver, com ou sem conexÃ£o com a Internet."
+   }
+}
