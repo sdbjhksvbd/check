@@ -1,0 +1,15 @@
+2025/07/13-11:21:45.345 138b8 Recovering log #76
+2025/07/13-11:21:45.346 138b8 Reusing old log C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_attack.mitre.org_0.indexeddb.leveldb/000076.log 
+2025/07/13-11:21:45.359 138b8 Delete type=3 #1
+2025/07/13-11:40:29.637 138b8 Level-0 table #105: started
+2025/07/13-11:40:29.646 138b8 Level-0 table #105: 209 bytes OK
+2025/07/13-11:40:29.651 138b8 Delete type=0 #76
+2025/07/13-11:40:29.651 138b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/13-11:40:29.652 138b8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 41400 : 1
+2025/07/13-11:40:29.652 138b8 Compacting 1@1 + 1@2 files
+2025/07/13-11:40:29.708 138b8 Generated table #106@1: 323 keys, 2112655 bytes
+2025/07/13-11:40:29.709 138b8 Compacted 1@1 + 1@2 files => 2112655 bytes
+2025/07/13-11:40:29.713 138b8 compacted to: files[ 0 0 12 0 0 0 0 ]
+2025/07/13-11:40:29.715 138b8 Delete type=2 #89
+2025/07/13-11:40:29.715 138b8 Delete type=2 #105
+2025/07/13-11:40:29.718 138b8 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 41400 : 1 .. (end); will stop at (end)
