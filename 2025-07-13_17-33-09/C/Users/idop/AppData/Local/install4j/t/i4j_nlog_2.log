@@ -1,0 +1,508 @@
+ï»¿Started executable C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0\burpsuite_community_windows-x64_v2025_5_6.exe at Sun Jul  6 17:18:28 2025
+
+[0:0] restrict DLL directories
+[0:18] sun.locale.formatasdefault is false
+[0:35] manual language/country is en
+[0:54] ignoring java options environment variables
+[0:74] using _putenv_s in ucrtbase.dll 00007FF85F48D610 00007FF7A8C60310
+[0:102] change working directory to C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0
+[0:121] single instance mode
+[0:144] semaphore name Local\c:_users_idop_appdata_roaming_burpsuite_updates_f0f34ac0_burpsuite_community_windows-x64_v2025_5_6.exe, code 0, value 00000000000001FC
+[0:164] Init done
+[0:183] Checking dark mode on Windows 11
+[0:201] Dark mode: 0 0
+[0:248] Starting work
+[0:277] starting at 712192
+[0:307] verifying integrity length 330991882
+[1:965] checksums: 3281862633 3281862633 -1013104663 -1013104663
+[1:982] tempPath is C:\Users\idop\AppData\Local\install4j\t
+[2:0] tempFile is C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp
+[2:18] Temp dir3: C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510
+[2:38] native lib dir is ${launcher:sys.launcherTempDirectory}\user
+[2:55] expanding2 ${launcher:sys.launcherTempDirectory} to C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510.
+[2:76] Adding DLL directory C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user
+[2:95] Setting PATH (native libs) C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user;c:\users\idop\appdata\local\programs\burpsuitecommunity\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\WINDOWS\CCM;C:\Program Files\Wireshark\;C:\Users\idop\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\idop\AppData\Local\Programs\Python\Python313\;C:\Users\idop\AppData\Local\Microsoft\WindowsApps;
+[2:138] extracting files
+[2:161] Included files: 27
+[2:188] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4jruntime.jar (size: 2646295)
+[2:228] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_10_1ov2nc9_un9apv.png (size: 1884)
+[2:256] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_3_1ov2nc9_1wtyary.png (size: 294)
+[2:289] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4jparams.conf (size: 86624)
+[2:317] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_7_1ov2nc9_xvjhy2.ico (size: 21252)
+[2:344] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_6_1ov2nc9_1wlpo3p.png (size: 505)
+[2:373] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_0_1ov2nc9.utf8 (size: 34993)
+[2:400] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_1_1ov2nc9.properties (size: 810)
+[2:427] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\launchers.xml (size: 218)
+[2:456] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre.tar.gz (size: 47842563)
+[2:659] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_4_1ov2nc9_1kltmxr.png (size: 331)
+[2:684] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_12_1ov2nc9_259ij1.png (size: 8252)
+[2:708] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx@2x_dark.png (size: 15837)
+[2:731] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_9_1ov2nc9_vd2dea.png (size: 1187)
+[2:748] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_2_1ov2nc9_s10jxd.png (size: 187)
+[2:767] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx.png (size: 9202)
+[2:785] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\MessagesDefault (size: 34993)
+[2:804] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx_dark.png (size: 8891)
+[2:824] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_5_1ov2nc9_1onbq37.png (size: 453)
+[2:843] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\stats.properties (size: 285)
+[2:861] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user.jar (size: 21190)
+[2:881] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\installer.ico (size: 32606)
+[2:900] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx@2x.png (size: 15419)
+[2:919] creating directory C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user
+[2:937] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user\burpsuite_community.jar (size: 107282578)
+[3:323] creating directory C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user
+[3:345] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user\flatlaf.jar (size: 852755)
+[3:365] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_11_1ov2nc9_1xth8wx.png (size: 4609)
+[3:383] extracting C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_8_1ov2nc9_x7nby6.png (size: 756)
+[3:401] extracting files done
+[3:423] Current working dir: C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510
+[3:439] Full JRE path: C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre.tar.gz
+[3:454] JRE included
+[3:469] extracting JRE
+[3:488] extracting .\bin\api-ms-win-core-console-l1-1-0.dll (size 22008)
+[3:510] extracting .\bin\api-ms-win-core-console-l1-2-0.dll (size 21968)
+[3:531] extracting .\bin\api-ms-win-core-datetime-l1-1-0.dll (size 22016)
+[3:556] extracting .\bin\api-ms-win-core-debug-l1-1-0.dll (size 22024)
+[3:579] extracting .\bin\api-ms-win-core-errorhandling-l1-1-0.dll (size 21968)
+[3:603] extracting .\bin\api-ms-win-core-fibers-l1-1-0.dll (size 22024)
+[3:627] extracting .\bin\api-ms-win-core-file-l1-1-0.dll (size 26120)
+[3:649] extracting .\bin\api-ms-win-core-file-l1-2-0.dll (size 22016)
+[3:671] extracting .\bin\api-ms-win-core-file-l2-1-0.dll (size 22016)
+[3:692] extracting .\bin\api-ms-win-core-handle-l1-1-0.dll (size 21968)
+[3:714] extracting .\bin\api-ms-win-core-heap-l1-1-0.dll (size 22024)
+[3:735] extracting .\bin\api-ms-win-core-interlocked-l1-1-0.dll (size 22024)
+[3:760] extracting .\bin\api-ms-win-core-libraryloader-l1-1-0.dll (size 21984)
+[3:781] extracting .\bin\api-ms-win-core-localization-l1-2-0.dll (size 21984)
+[3:800] extracting .\bin\api-ms-win-core-memory-l1-1-0.dll (size 22008)
+[3:823] extracting .\bin\api-ms-win-core-namedpipe-l1-1-0.dll (size 21984)
+[3:845] extracting .\bin\api-ms-win-core-processenvironment-l1-1-0.dll (size 22016)
+[3:866] extracting .\bin\api-ms-win-core-processthreads-l1-1-0.dll (size 21968)
+[3:886] extracting .\bin\api-ms-win-core-processthreads-l1-1-1.dll (size 22024)
+[3:909] extracting .\bin\api-ms-win-core-profile-l1-1-0.dll (size 22024)
+[3:932] extracting .\bin\api-ms-win-core-rtlsupport-l1-1-0.dll (size 22024)
+[3:955] extracting .\bin\api-ms-win-core-string-l1-1-0.dll (size 22024)
+[3:976] extracting .\bin\api-ms-win-core-synch-l1-1-0.dll (size 22024)
+[3:999] extracting .\bin\api-ms-win-core-synch-l1-2-0.dll (size 22008)
+[4:20] extracting .\bin\api-ms-win-core-sysinfo-l1-1-0.dll (size 22024)
+[4:43] extracting .\bin\api-ms-win-core-timezone-l1-1-0.dll (size 22024)
+[4:65] extracting .\bin\api-ms-win-core-util-l1-1-0.dll (size 22024)
+[4:87] extracting .\bin\api-ms-win-crt-conio-l1-1-0.dll (size 22008)
+[4:109] extracting .\bin\api-ms-win-crt-convert-l1-1-0.dll (size 26120)
+[4:134] extracting .\bin\api-ms-win-crt-environment-l1-1-0.dll (size 22024)
+[4:156] extracting .\bin\api-ms-win-crt-filesystem-l1-1-0.dll (size 21984)
+[4:181] extracting .\bin\api-ms-win-crt-heap-l1-1-0.dll (size 22024)
+[4:204] extracting .\bin\api-ms-win-crt-locale-l1-1-0.dll (size 22024)
+[4:229] extracting .\bin\api-ms-win-crt-math-l1-1-0.dll (size 30160)
+[4:253] extracting .\bin\api-ms-win-crt-multibyte-l1-1-0.dll (size 30216)
+[4:275] extracting .\bin\api-ms-win-crt-private-l1-1-0.dll (size 75264)
+[4:298] extracting .\bin\api-ms-win-crt-process-l1-1-0.dll (size 21968)
+[4:321] extracting .\bin\api-ms-win-crt-runtime-l1-1-0.dll (size 26120)
+[4:343] extracting .\bin\api-ms-win-crt-stdio-l1-1-0.dll (size 26120)
+[4:365] extracting .\bin\api-ms-win-crt-string-l1-1-0.dll (size 26080)
+[4:386] extracting .\bin\api-ms-win-crt-time-l1-1-0.dll (size 22024)
+[4:407] extracting .\bin\api-ms-win-crt-utility-l1-1-0.dll (size 22024)
+[4:437] extracting .\bin\attach.dll (size 29288)
+[4:461] extracting .\bin\awt.dll (size 1474664)
+[4:484] extracting .\bin\dt_shmem.dll (size 36968)
+[4:508] extracting .\bin\dt_socket.dll (size 36456)
+[4:529] extracting .\bin\extnet.dll (size 24168)
+[4:552] extracting .\bin\fontmanager.dll (size 864872)
+[4:573] extracting .\bin\freetype.dll (size 547432)
+[4:598] extracting .\bin\instrument.dll (size 52328)
+[4:622] extracting .\bin\j2gss.dll (size 50792)
+[4:642] extracting .\bin\j2pkcs11.dll (size 80488)
+[4:666] extracting .\bin\jaas.dll (size 28264)
+[4:689] extracting .\bin\jabswitch.exe (size 45160)
+[4:711] extracting .\bin\jaccessinspector.exe (size 106600)
+[4:733] extracting .\bin\jaccesswalker.exe (size 70760)
+[4:756] extracting .\bin\java.dll (size 118376)
+[4:778] extracting .\bin\java.exe (size 49768)
+[4:799] extracting .\bin\javaaccessbridge.dll (size 307304)
+[4:823] extracting .\bin\javajpeg.dll (size 181864)
+[4:846] extracting .\bin\javaw.exe (size 49768)
+[4:869] extracting .\bin\jawt.dll (size 21096)
+[4:891] extracting .\bin\jdb.exe (size 23656)
+[4:915] extracting .\bin\jdwp.dll (size 235624)
+[4:938] extracting .\bin\jimage.dll (size 33384)
+[4:961] extracting .\bin\jli.dll (size 84584)
+[4:983] extracting .\bin\jrunscript.exe (size 23656)
+[5:5] extracting .\bin\jsound.dll (size 61032)
+[5:29] extracting .\bin\keytool.exe (size 23656)
+[5:52] extracting .\bin\kinit.exe (size 23656)
+[5:75] extracting .\bin\klist.exe (size 23656)
+[5:101] extracting .\bin\ktab.exe (size 23656)
+[5:125] extracting .\bin\lcms.dll (size 257128)
+[5:150] extracting .\bin\management.dll (size 29288)
+[5:173] extracting .\bin\management_ext.dll (size 35944)
+[5:197] extracting .\bin\mlib_image.dll (size 525416)
+[5:222] extracting .\bin\msvcp140.dll (size 578384)
+[5:249] extracting .\bin\net.dll (size 59496)
+[5:272] extracting .\bin\nio.dll (size 79976)
+[5:295] extracting .\bin\prefs.dll (size 25704)
+[5:317] extracting .\bin\rmi.dll (size 21096)
+[5:340] extracting .\bin\rmiregistry.exe (size 23656)
+[5:365] extracting .\bin\server\jvm.dll (size 13487208)
+[5:467] extracting .\bin\splashscreen.dll (size 216168)
+[5:493] extracting .\bin\sspi_bridge.dll (size 44648)
+[5:519] extracting .\bin\sunmscapi.dll (size 48744)
+[5:542] extracting .\bin\syslookup.dll (size 27752)
+[5:567] extracting .\bin\ucrtbase.dll (size 1123808)
+[5:593] extracting .\bin\vcruntime140.dll (size 109440)
+[5:620] extracting .\bin\vcruntime140_1.dll (size 49560)
+[5:645] extracting .\bin\verify.dll (size 54888)
+[5:671] extracting .\bin\w2k_lsa_auth.dll (size 31336)
+[5:695] extracting .\bin\windowsaccessbridge-64.dll (size 72296)
+[5:723] extracting .\bin\zip.dll (size 84072)
+[5:747] extracting .\conf\jaxp.properties (size 8160)
+[5:770] extracting .\conf\logging.properties (size 2732)
+[5:789] extracting .\conf\net.properties (size 6671)
+[5:844] extracting .\conf\security\java.policy (size 2294)
+[5:873] extracting .\conf\security\java.security (size 65787)
+[5:892] extracting .\conf\security\policy\limited\default_local.policy (size 647)
+[5:911] extracting .\conf\security\policy\limited\default_US_export.policy (size 146)
+[5:932] extracting .\conf\security\policy\limited\exempt_local.policy (size 566)
+[5:952] extracting .\conf\security\policy\README.txt (size 2390)
+[5:972] extracting .\conf\security\policy\unlimited\default_local.policy (size 193)
+[5:991] extracting .\conf\security\policy\unlimited\default_US_export.policy (size 146)
+[6:9] extracting .\conf\sound.properties (size 1210)
+[6:29] extracting .\include\classfile_constants.h (size 22155)
+[6:49] extracting .\include\jawt.h (size 12458)
+[6:67] extracting .\include\jdwpTransport.h (size 8166)
+[6:89] extracting .\include\jni.h (size 76018)
+[6:111] extracting .\include\jvmti.h (size 85726)
+[6:133] extracting .\include\jvmticmlr.h (size 4771)
+[6:152] extracting .\include\win32\bridge\AccessBridgeCallbacks.h (size 5518)
+[6:172] extracting .\include\win32\bridge\AccessBridgeCalls.h (size 36050)
+[6:191] extracting .\include\win32\bridge\AccessBridgePackages.h (size 77582)
+[6:211] extracting .\include\win32\jawt_md.h (size 1895)
+[6:237] extracting .\include\win32\jni_md.h (size 1510)
+[6:258] extracting .\legal\java.base\ADDITIONAL_LICENSE_INFO (size 2114)
+[6:280] extracting .\legal\java.base\aes.md (size 1444)
+[6:300] extracting .\legal\java.base\asm.md (size 1582)
+[6:318] extracting .\legal\java.base\ASSEMBLY_EXCEPTION (size 1514)
+[6:347] extracting .\legal\java.base\c-libutl.md (size 1556)
+[6:374] extracting .\legal\java.base\cldr.md (size 2075)
+[6:397] extracting .\legal\java.base\icu.md (size 12409)
+[6:420] extracting .\legal\java.base\LICENSE (size 19274)
+[6:442] extracting .\legal\java.base\public_suffix.md (size 17783)
+[6:473] extracting .\legal\java.base\siphash.md (size 8256)
+[6:498] extracting .\legal\java.base\unicode.md (size 9133)
+[6:521] extracting .\legal\java.base\wepoll.md (size 1454)
+[6:550] extracting .\legal\java.base\zlib.md (size 1010)
+[6:573] extracting .\legal\java.compiler\ADDITIONAL_LICENSE_INFO (size 49)
+[6:595] extracting .\legal\java.compiler\ASSEMBLY_EXCEPTION (size 44)
+[6:618] extracting .\legal\java.compiler\LICENSE (size 33)
+[6:640] extracting .\legal\java.datatransfer\ADDITIONAL_LICENSE_INFO (size 49)
+[6:664] extracting .\legal\java.datatransfer\ASSEMBLY_EXCEPTION (size 44)
+[6:689] extracting .\legal\java.datatransfer\LICENSE (size 33)
+[6:717] extracting .\legal\java.desktop\ADDITIONAL_LICENSE_INFO (size 49)
+[6:744] extracting .\legal\java.desktop\ASSEMBLY_EXCEPTION (size 44)
+[6:766] extracting .\legal\java.desktop\colorimaging.md (size 167)
+[6:790] extracting .\legal\java.desktop\freetype.md (size 30422)
+[6:820] extracting .\legal\java.desktop\giflib.md (size 1288)
+[6:846] extracting .\legal\java.desktop\harfbuzz.md (size 3627)
+[6:869] extracting .\legal\java.desktop\jpeg.md (size 3474)
+[6:893] extracting .\legal\java.desktop\lcms.md (size 2544)
+[6:916] extracting .\legal\java.desktop\libpng.md (size 6980)
+[6:943] extracting .\legal\java.desktop\LICENSE (size 33)
+[6:966] extracting .\legal\java.desktop\mesa3d.md (size 5732)
+[6:989] extracting .\legal\java.instrument\ADDITIONAL_LICENSE_INFO (size 49)
+[7:11] extracting .\legal\java.instrument\ASSEMBLY_EXCEPTION (size 44)
+[7:34] extracting .\legal\java.instrument\LICENSE (size 33)
+[7:56] extracting .\legal\java.logging\ADDITIONAL_LICENSE_INFO (size 49)
+[7:79] extracting .\legal\java.logging\ASSEMBLY_EXCEPTION (size 44)
+[7:100] extracting .\legal\java.logging\LICENSE (size 33)
+[7:119] extracting .\legal\java.management\ADDITIONAL_LICENSE_INFO (size 49)
+[7:138] extracting .\legal\java.management\ASSEMBLY_EXCEPTION (size 44)
+[7:156] extracting .\legal\java.management\LICENSE (size 33)
+[7:175] extracting .\legal\java.management.rmi\ADDITIONAL_LICENSE_INFO (size 49)
+[7:192] extracting .\legal\java.management.rmi\ASSEMBLY_EXCEPTION (size 44)
+[7:209] extracting .\legal\java.management.rmi\LICENSE (size 33)
+[7:228] extracting .\legal\java.naming\ADDITIONAL_LICENSE_INFO (size 49)
+[7:251] extracting .\legal\java.naming\ASSEMBLY_EXCEPTION (size 44)
+[7:271] extracting .\legal\java.naming\LICENSE (size 33)
+[7:289] extracting .\legal\java.net.http\ADDITIONAL_LICENSE_INFO (size 49)
+[7:309] extracting .\legal\java.net.http\ASSEMBLY_EXCEPTION (size 44)
+[7:327] extracting .\legal\java.net.http\LICENSE (size 33)
+[7:346] extracting .\legal\java.prefs\ADDITIONAL_LICENSE_INFO (size 49)
+[7:365] extracting .\legal\java.prefs\ASSEMBLY_EXCEPTION (size 44)
+[7:384] extracting .\legal\java.prefs\LICENSE (size 33)
+[7:403] extracting .\legal\java.rmi\ADDITIONAL_LICENSE_INFO (size 49)
+[7:423] extracting .\legal\java.rmi\ASSEMBLY_EXCEPTION (size 44)
+[7:442] extracting .\legal\java.rmi\LICENSE (size 33)
+[7:462] extracting .\legal\java.scripting\ADDITIONAL_LICENSE_INFO (size 49)
+[7:489] extracting .\legal\java.scripting\ASSEMBLY_EXCEPTION (size 44)
+[7:510] extracting .\legal\java.scripting\LICENSE (size 33)
+[7:527] extracting .\legal\java.se\ADDITIONAL_LICENSE_INFO (size 49)
+[7:545] extracting .\legal\java.se\ASSEMBLY_EXCEPTION (size 44)
+[7:561] extracting .\legal\java.se\LICENSE (size 33)
+[7:579] extracting .\legal\java.security.jgss\ADDITIONAL_LICENSE_INFO (size 49)
+[7:595] extracting .\legal\java.security.jgss\ASSEMBLY_EXCEPTION (size 44)
+[7:614] Canceled installer
+[7:680] Cleaning up cancel 00000000000002C8 1.
+[7:708] deleting bundled jre C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre
+[7:727] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre
+[7:745] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin (5)
+[7:763] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin
+[7:782] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-console-l1-1-0.dll
+[7:805] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-console-l1-2-0.dll
+[7:822] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-datetime-l1-1-0.dll
+[7:840] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-debug-l1-1-0.dll
+[7:857] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll
+[7:872] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-fibers-l1-1-0.dll
+[7:892] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-file-l1-1-0.dll
+[7:919] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-file-l1-2-0.dll
+[7:943] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-file-l2-1-0.dll
+[7:965] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-handle-l1-1-0.dll
+[7:989] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-heap-l1-1-0.dll
+[8:10] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll
+[8:29] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll
+[8:48] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-localization-l1-2-0.dll
+[8:67] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-memory-l1-1-0.dll
+[8:85] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll
+[8:105] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll
+[8:124] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll
+[8:142] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll
+[8:160] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-profile-l1-1-0.dll
+[8:179] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll
+[8:197] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-string-l1-1-0.dll
+[8:217] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-synch-l1-1-0.dll
+[8:242] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-synch-l1-2-0.dll
+[8:262] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll
+[8:282] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-timezone-l1-1-0.dll
+[8:300] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-core-util-l1-1-0.dll
+[8:319] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-conio-l1-1-0.dll
+[8:337] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-convert-l1-1-0.dll
+[8:355] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-environment-l1-1-0.dll
+[8:372] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll
+[8:388] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-heap-l1-1-0.dll
+[8:407] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-locale-l1-1-0.dll
+[8:425] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-math-l1-1-0.dll
+[8:439] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll
+[8:456] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-private-l1-1-0.dll
+[8:473] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-process-l1-1-0.dll
+[8:488] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll
+[8:505] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll
+[8:525] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-string-l1-1-0.dll
+[8:541] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-time-l1-1-0.dll
+[8:556] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\api-ms-win-crt-utility-l1-1-0.dll
+[8:572] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\attach.dll
+[8:588] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\awt.dll
+[8:604] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\dt_shmem.dll
+[8:621] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\dt_socket.dll
+[8:638] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\extnet.dll
+[8:657] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\fontmanager.dll
+[8:675] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\freetype.dll
+[8:694] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\instrument.dll
+[8:712] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\j2gss.dll
+[8:729] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\j2pkcs11.dll
+[8:749] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jaas.dll
+[8:767] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jabswitch.exe
+[8:789] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jaccessinspector.exe
+[8:811] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jaccesswalker.exe
+[8:834] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\java.dll
+[8:856] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\java.exe
+[8:877] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\javaaccessbridge.dll
+[8:895] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\javajpeg.dll
+[8:914] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\javaw.exe
+[8:932] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jawt.dll
+[8:950] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jdb.exe
+[8:968] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jdwp.dll
+[8:990] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jimage.dll
+[9:11] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jli.dll
+[9:33] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jrunscript.exe
+[9:58] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\jsound.dll
+[9:81] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\keytool.exe
+[9:105] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\kinit.exe
+[9:128] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\klist.exe
+[9:150] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\ktab.exe
+[9:172] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\lcms.dll
+[9:195] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\management.dll
+[9:217] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\management_ext.dll
+[9:238] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\mlib_image.dll
+[9:265] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\msvcp140.dll
+[9:293] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\net.dll
+[9:319] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\nio.dll
+[9:342] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\prefs.dll
+[9:364] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\rmi.dll
+[9:384] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\rmiregistry.exe
+[9:409] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\server (4)
+[9:430] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\server
+[9:451] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\server\jvm.dll
+[9:474] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\splashscreen.dll
+[9:496] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\sspi_bridge.dll
+[9:522] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\sunmscapi.dll
+[9:546] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\syslookup.dll
+[9:568] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\ucrtbase.dll
+[9:591] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\vcruntime140.dll
+[9:613] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\vcruntime140_1.dll
+[9:636] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\verify.dll
+[9:659] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\w2k_lsa_auth.dll
+[9:682] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\windowsaccessbridge-64.dll
+[9:705] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\bin\zip.dll
+[9:729] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf (5)
+[9:752] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf
+[9:776] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\jaxp.properties
+[9:797] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\logging.properties
+[9:820] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\net.properties
+[9:841] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security (4)
+[9:863] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security
+[9:884] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\java.policy
+[9:906] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\java.security
+[9:932] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy (3)
+[9:963] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy
+[9:989] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\limited (2)
+[10:19] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\limited
+[10:47] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\limited\default_local.policy
+[10:82] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\limited\default_US_export.policy
+[10:112] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\limited\exempt_local.policy
+[10:144] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\README.txt
+[10:174] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\unlimited (2)
+[10:200] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\unlimited
+[10:227] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\unlimited\default_local.policy
+[10:252] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\security\policy\unlimited\default_US_export.policy
+[10:279] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\conf\sound.properties
+[10:307] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include (5)
+[10:333] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include
+[10:359] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\classfile_constants.h
+[10:384] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\jawt.h
+[10:413] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\jdwpTransport.h
+[10:442] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\jni.h
+[10:470] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\jvmti.h
+[10:497] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\jvmticmlr.h
+[10:527] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32 (4)
+[10:562] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32
+[10:588] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\bridge (3)
+[10:624] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\bridge
+[10:654] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\bridge\AccessBridgeCallbacks.h
+[10:683] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\bridge\AccessBridgeCalls.h
+[10:711] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\bridge\AccessBridgePackages.h
+[10:736] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\jawt_md.h
+[10:764] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\include\win32\jni_md.h
+[10:794] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal (5)
+[10:881] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal
+[10:921] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base (4)
+[10:944] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base
+[10:968] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\ADDITIONAL_LICENSE_INFO
+[10:991] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\aes.md
+[11:13] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\asm.md
+[11:37] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\ASSEMBLY_EXCEPTION
+[11:63] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\c-libutl.md
+[11:93] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\cldr.md
+[11:116] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\icu.md
+[11:141] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\LICENSE
+[11:172] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\public_suffix.md
+[11:204] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\siphash.md
+[11:236] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\unicode.md
+[11:266] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\wepoll.md
+[11:290] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.base\zlib.md
+[11:319] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.compiler (4)
+[11:346] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.compiler
+[11:371] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.compiler\ADDITIONAL_LICENSE_INFO
+[11:395] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.compiler\ASSEMBLY_EXCEPTION
+[11:419] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.compiler\LICENSE
+[11:442] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.datatransfer (4)
+[11:466] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.datatransfer
+[11:492] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.datatransfer\ADDITIONAL_LICENSE_INFO
+[11:516] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.datatransfer\ASSEMBLY_EXCEPTION
+[11:539] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.datatransfer\LICENSE
+[11:569] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop (4)
+[11:595] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop
+[11:619] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\ADDITIONAL_LICENSE_INFO
+[11:648] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\ASSEMBLY_EXCEPTION
+[11:678] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\colorimaging.md
+[11:705] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\freetype.md
+[11:736] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\giflib.md
+[11:762] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\harfbuzz.md
+[11:787] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\jpeg.md
+[11:815] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\lcms.md
+[11:844] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\libpng.md
+[11:870] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\LICENSE
+[11:892] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.desktop\mesa3d.md
+[11:908] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.instrument (4)
+[11:924] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.instrument
+[11:941] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.instrument\ADDITIONAL_LICENSE_INFO
+[11:960] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.instrument\ASSEMBLY_EXCEPTION
+[11:980] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.instrument\LICENSE
+[11:999] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.logging (4)
+[12:14] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.logging
+[12:30] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.logging\ADDITIONAL_LICENSE_INFO
+[12:52] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.logging\ASSEMBLY_EXCEPTION
+[12:79] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.logging\LICENSE
+[12:109] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management (4)
+[12:139] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management
+[12:165] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management\ADDITIONAL_LICENSE_INFO
+[12:190] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management\ASSEMBLY_EXCEPTION
+[12:210] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management\LICENSE
+[12:233] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management.rmi (4)
+[12:257] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management.rmi
+[12:278] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management.rmi\ADDITIONAL_LICENSE_INFO
+[12:297] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management.rmi\ASSEMBLY_EXCEPTION
+[12:316] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.management.rmi\LICENSE
+[12:332] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.naming (4)
+[12:349] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.naming
+[12:365] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.naming\ADDITIONAL_LICENSE_INFO
+[12:381] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.naming\ASSEMBLY_EXCEPTION
+[12:398] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.naming\LICENSE
+[12:415] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.net.http (4)
+[12:431] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.net.http
+[12:448] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.net.http\ADDITIONAL_LICENSE_INFO
+[12:465] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.net.http\ASSEMBLY_EXCEPTION
+[12:482] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.net.http\LICENSE
+[12:499] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.prefs (4)
+[12:515] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.prefs
+[12:531] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.prefs\ADDITIONAL_LICENSE_INFO
+[12:550] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.prefs\ASSEMBLY_EXCEPTION
+[12:574] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.prefs\LICENSE
+[12:594] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.rmi (4)
+[12:610] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.rmi
+[12:626] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.rmi\ADDITIONAL_LICENSE_INFO
+[12:646] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.rmi\ASSEMBLY_EXCEPTION
+[12:663] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.rmi\LICENSE
+[12:682] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.scripting (4)
+[12:701] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.scripting
+[12:723] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.scripting\ADDITIONAL_LICENSE_INFO
+[12:743] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.scripting\ASSEMBLY_EXCEPTION
+[12:761] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.scripting\LICENSE
+[12:778] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.se (4)
+[12:798] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.se
+[12:816] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.se\ADDITIONAL_LICENSE_INFO
+[12:833] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.se\ASSEMBLY_EXCEPTION
+[12:851] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.se\LICENSE
+[12:868] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.security.jgss (4)
+[12:891] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.security.jgss
+[12:920] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.security.jgss\ADDITIONAL_LICENSE_INFO
+[12:941] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre\legal\java.security.jgss\ASSEMBLY_EXCEPTION
+[12:963] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510
+[12:980] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4jparams.conf
+[12:999] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4jruntime.jar
+[13:17] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_0_1ov2nc9.utf8
+[13:33] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_10_1ov2nc9_un9apv.png
+[13:49] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_11_1ov2nc9_1xth8wx.png
+[13:64] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_12_1ov2nc9_259ij1.png
+[13:81] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx.png
+[13:98] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx@2x.png
+[13:116] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx@2x_dark.png
+[13:134] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_13_1ov2nc9_18gg8kx_dark.png
+[13:152] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_1_1ov2nc9.properties
+[13:173] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_2_1ov2nc9_s10jxd.png
+[13:190] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_3_1ov2nc9_1wtyary.png
+[13:213] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_4_1ov2nc9_1kltmxr.png
+[13:236] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_5_1ov2nc9_1onbq37.png
+[13:252] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_6_1ov2nc9_1wlpo3p.png
+[13:269] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_7_1ov2nc9_xvjhy2.ico
+[13:286] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_8_1ov2nc9_x7nby6.png
+[13:301] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\i4j_extf_9_1ov2nc9_vd2dea.png
+[13:315] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\installer.ico
+[13:330] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre (1)
+[13:351] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre
+[13:367] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\jre.tar.gz
+[13:383] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\launchers.xml
+[13:402] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\MessagesDefault
+[13:421] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\stats.properties
+[13:438] attempting to remove C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user (1)
+[13:454] emptying C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user
+[13:472] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user\burpsuite_community.jar
+[13:493] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user\flatlaf.jar
+[13:513] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jA1C6.tmp_dir1751811510\user.jar
+[13:529] schedule deletion 0 1
+[13:547] deletion file name C:\Users\idop\AppData\Local\install4j\t\i4dCEE1.tmp
