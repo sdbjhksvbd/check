@@ -1,0 +1,7 @@
+# install4j response file for Burp Suite Community Edition 2025.4.5
+sys.adminRights$Boolean=false
+sys.installationDir=C\:\\Users\\idop\\AppData\\Local\\Programs\\BurpSuiteCommunity
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=Burp Suite Community Edition
