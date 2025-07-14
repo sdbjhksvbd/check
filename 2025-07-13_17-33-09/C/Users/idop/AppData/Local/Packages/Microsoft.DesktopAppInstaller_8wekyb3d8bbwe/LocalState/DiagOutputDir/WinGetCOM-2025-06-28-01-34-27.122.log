@@ -1,0 +1,34 @@
+2025-06-28 01:34:27.330 [CORE] WinGet, version [1.11.400], activity [{E586A459-40EE-4ADD-85B7-DDE7E14F9B73}]
+2025-06-28 01:34:27.331 [CORE] OS: Windows.Desktop v10.0.26100.4349
+2025-06-28 01:34:27.331 [CORE] Command line Args: "C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.26.400.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe" -Embedding
+2025-06-28 01:34:27.331 [CORE] Package: Microsoft.DesktopAppInstaller v1.26.400.0
+2025-06-28 01:34:27.331 [CORE] IsCOMCall:1; Caller: Microsoft.StorePurchaseApp_8wekyb3d8bbwe
+2025-06-28 01:34:27.353 [CORE] Default proxy is not set
+2025-06-28 01:34:27.353 [REPO] REST HTTP Client helper does not use proxy
+2025-06-28 01:34:27.353 [REPO] REST HTTP Client helper does not use proxy
+2025-06-28 01:34:27.416 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-28 01:34:27.419 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-28 01:34:27.450 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFF98F74E0D: (caller: 00007FFF9907DD76) Exception(1) tid(9ba0) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-06-28 01:34:27.450 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFF98F74E0D: (caller: 00007FFF9907DD76) Exception(2) tid(5ba8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+
+2025-06-28 01:34:27.450 [FAIL] WindowsPackageManager.dll!00007FFF9905B456: ReturnHr(2) tid(5ba8) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFF98F74E0D: (caller: 00007FFF9907DD76) Exception(2) tid(5ba8) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+2025-06-28 01:34:27.450 [FAIL] WindowsPackageManager.dll!00007FFF9905B456: ReturnHr(1) tid(9ba0) 80072EE7     Msg:[C:\__w\1\s\external\pkg\src\AppInstallerCommonCore\HttpClientHelper.cpp(264)\WindowsPackageManager.dll!00007FFF98F74E0D: (caller: 00007FFF9907DD76) Exception(1) tid(9ba0) 80072EE7     Msg:[WinHttpSendRequest: 12007: The server name or address could not be resolved
+
+] 
+] 
+
+
+2025-06-28 01:34:27.450 [FAIL] WindowsPackageManager.dll!00007FFF98EB6CA7: LogHr(1) tid(5ba8) 80072EE7 
+2025-06-28 01:34:27.450 [FAIL] WindowsPackageManager.dll!00007FFF98EB6CA7: LogHr(2) tid(9ba0) 80072EE7 
+2025-06-28 01:34:27.451 [FAIL] WindowsPackageManager.dll!00007FFF98CFDCBA: LogHr(4) tid(9ba0) 80072EE7 2025-06-28 01:34:27.451 [FAIL] WindowsPackageManager.dll!00007FFF98CFDCBA: LogHr(3) tid(5ba8) 80072EE7 
+
+2025-06-28 01:34:27.451 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error2025-06-28 01:34:27.451 [CLI ] Caught winrt::hresult_error: 0x80072ee7 : unknown error
+
