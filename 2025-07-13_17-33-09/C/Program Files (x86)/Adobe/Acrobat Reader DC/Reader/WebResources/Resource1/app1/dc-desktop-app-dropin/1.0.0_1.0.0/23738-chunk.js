@@ -1,0 +1,1 @@
+"use strict";(self["webpackJsonp-desktop-app"]=self["webpackJsonp-desktop-app"]||[]).push([[23738],{G2AE:(p,s,a)=>{a.r(s),a.d(s,{default:()=>e});const e=a.p+"1bb7f8695b5a1ff3515fa1ac606220b8.png"}}]);
