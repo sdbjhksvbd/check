@@ -1,0 +1,1785 @@
+7.231.4.0 : 06:16:17.967 :   ENTRY: RunCoInstaller : InstallFunction = 2
+7.231.4.0 : 06:16:17.967 :   CreateMutex - Global\CNXT_COINST_RUNNING
+7.231.4.0 : 06:16:17.967 :   RunCoInstaller - DIF_INSTALLDEVICE (PRE)
+7.231.4.0 : 06:16:17.967 :     ENTRY: CDevice::IsUpgradeCase
+7.231.4.0 : 06:16:17.967 :       ENTRY: CDevNode::IsDeviceInstalled
+7.231.4.0 : 06:16:17.967 :       GetDriverKey = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.231.4.0 : 06:16:17.967 :       GetClass = MEDIA
+7.231.4.0 : 06:16:17.967 :       GetMfg = Microsoft
+7.231.4.0 : 06:16:17.967 :       EXIT:  CDevNode::IsDeviceInstalled : bRetVal = 0
+7.231.4.0 : 06:16:17.967 :     EXIT:  CDevice::IsUpgradeCase : bRetVal=0
+7.231.4.0 : 06:16:17.967 :     ENTRY: CWin10RS4InstallWA::StopApps
+7.231.4.0 : 06:16:17.967 :       ENTRY: CService :: StopAService
+7.231.4.0 : 06:16:17.967 :       lpszServiceName = CxMonSvc, bDoDeleteService = 1
+7.231.4.0 : 06:16:17.967 :       EXIT:  CService :: StopAService : bRetVal = 0
+7.231.4.0 : 06:16:17.967 :       ENTRY: CService :: StopAService
+7.231.4.0 : 06:16:17.967 :       lpszServiceName = CxAudioSvc, bDoDeleteService = 1
+7.231.4.0 : 06:16:17.967 :       EXIT:  CService :: StopAService : bRetVal = 0
+7.231.4.0 : 06:16:17.967 :       ENTRY: CService :: StopAService
+7.231.4.0 : 06:16:17.967 :       lpszServiceName = CxUtilSvc, bDoDeleteService = 1
+7.231.4.0 : 06:16:17.967 :       EXIT:  CService :: StopAService : bRetVal = 0
+7.231.4.0 : 06:16:17.967 :       ENTRY: KillThisGuy : csAppToTerminate = MicTray.exe
+7.231.4.0 : 06:16:17.967 :       EXIT:  KillThisGuy : bRetVal = 0
+7.231.4.0 : 06:16:17.967 :       ENTRY: KillThisGuy : csAppToTerminate = MicTray64.exe
+7.231.4.0 : 06:16:17.982 :       EXIT:  KillThisGuy : bRetVal = 0
+7.231.4.0 : 06:16:17.982 :       ENTRY: SendExitMsgToApp
+7.231.4.0 : 06:16:17.982 :       csAppName = HDAudioAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801, uExitMsg = 0, dwFlags = 1
+7.231.4.0 : 06:16:17.982 :       EXIT:  SendExitMsgToApp : bRetVal = 0
+7.231.4.0 : 06:16:17.982 :       ENTRY: SendExitMsgToApp
+7.231.4.0 : 06:16:17.982 :       csAppName = Flow.exe, uExitMsg = 4, dwFlags = 2
+7.231.4.0 : 06:16:17.982 :         ENTRY: FindProcessID : csAppName = Flow.exe
+7.231.4.0 : 06:16:17.982 :         EXIT:  FindProcessID : bRetVal = 0
+7.231.4.0 : 06:16:17.982 :       EXIT:  SendExitMsgToApp : bRetVal = 0
+7.231.4.0 : 06:16:17.982 :       ENTRY: KillThisGuy : csAppToTerminate = SmartAudio3.exe
+7.231.4.0 : 06:16:17.982 :       EXIT:  KillThisGuy : bRetVal = 0
+7.231.4.0 : 06:16:17.982 :       ENTRY: KillThisGuy : csAppToTerminate = Flow.exe
+7.231.4.0 : 06:16:17.998 :       EXIT:  KillThisGuy : bRetVal = 0
+7.231.4.0 : 06:16:17.998 :       ENTRY: KillThisGuy : csAppToTerminate = FlowTray.exe
+7.231.4.0 : 06:16:17.998 :       EXIT:  KillThisGuy : bRetVal = 0
+7.231.4.0 : 06:16:17.998 :       ENTRY: KillThisGuy : csAppToTerminate = AppFollower.exe
+7.231.4.0 : 06:16:18.014 :       EXIT:  KillThisGuy : bRetVal = 0
+7.231.4.0 : 06:16:18.014 :       ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\Program Files\Conexant\SA3
+7.231.4.0 : 06:16:18.014 :       EXIT:  CFileUtils::DeleteFolder : hr = 2
+7.231.4.0 : 06:16:18.014 :       ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\Program Files\Conexant\Flow
+7.231.4.0 : 06:16:18.014 :       EXIT:  CFileUtils::DeleteFolder : hr = 2
+7.231.4.0 : 06:16:18.014 :       ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\Program Files\Conexant\MicTray
+7.231.4.0 : 06:16:18.014 :       EXIT:  CFileUtils::DeleteFolder : hr = 2
+7.231.4.0 : 06:16:18.014 :     EXIT:  CWin10RS4InstallWA::StopApps
+7.231.4.0 : 06:16:18.014 :     ENTRY: CDevice::Run : dwCoInstMode = 1
+7.231.4.0 : 06:16:18.014 :       ENTRY: KINIFile::GetLocalPath
+7.231.4.0 : 06:16:18.014 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\WINDOWS\system32\
+7.231.4.0 : 06:16:18.014 :       ENTRY: CINIFile::CINIFile
+7.231.4.0 : 06:16:18.014 :         ENTRY: CINIFile::ReInitialize
+7.231.4.0 : 06:16:18.014 :         m_dwUCIActiveMutex = 0
+7.231.4.0 : 06:16:18.014 :         m_szINIPath = C:\WINDOWS\system32\
+7.231.4.0 : 06:16:18.014 :         EXIT:  CINIFile::ReInitialize
+7.231.4.0 : 06:16:18.014 :       EXIT:  CINIFile::CINIFile
+7.231.4.0 : 06:16:18.014 :       ENTRY: CDevice::UpgradeFW
+7.231.4.0 : 06:16:18.014 :       EXIT:  CDevice::UpgradeFW
+7.231.4.0 : 06:16:18.014 :     m_dwCoInstMode (szInstallAudio) = 1
+7.231.4.0 : 06:16:18.014 :       ENTRY: CDevice::MMDeviceSpkrMic
+7.231.4.0 : 06:16:18.014 :       EXIT:  CDevice::MMDeviceSpkrMic
+7.231.4.0 : 06:16:18.014 :     m_szInfPath = hdaudio.inf
+7.231.4.0 : 06:16:18.014 :       ENTRY: CDevice::PreInstallCabFiles
+7.231.4.0 : 06:16:18.014 :         ENTRY: CInstallPathCoinst::FindINIFilePaths : dwFlags = 0
+7.231.4.0 : 06:16:18.014 :           ENTRY: CInstallPathCoinst::FindPreInstallPath
+7.231.4.0 : 06:16:18.014 :           EXIT:  CInstallPathCoinst::FindPreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.014 :           ENTRY: CInstallPathCoinst::FindInstallationPathInstallationPath : pszInstallPathRegValueName = InstallationAppPath
+7.231.4.0 : 06:16:18.014 :           szInstallationPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:18.014 :           EXIT:  CInstallPathCoinst::FindInstallationPathInstallationPath : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :         Adding InstallationAppPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:18.014 :         EXIT:  CInstallPathCoinst::FindINIFilePaths : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :       szDeviceInstallPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:18.014 :         ENTRY: KINIFile::GetLocalPath
+7.231.4.0 : 06:16:18.014 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\WINDOWS\system32\
+7.231.4.0 : 06:16:18.014 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.014 :         m_szDecorationTag = 
+7.231.4.0 : 06:16:18.014 :         m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.014 :         EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.014 :         ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.014 :           ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.014 :           KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.014 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.014 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.014 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.014 :             pszSectionTag = TASKS
+7.231.4.0 : 06:16:18.014 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :           pszInstallSection = TASKS
+7.231.4.0 : 06:16:18.014 :           EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :         szINFFileName= inst_cxsfpt.ini, pszInstallSection = TASKS, pdwFlags = -1227532304
+7.231.4.0 : 06:16:18.014 :         EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.014 :         ENTRY: CCabFile::InstallIniDefinedCabs
+7.231.4.0 : 06:16:18.014 :         pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini, pszInstallSection = TASKS
+7.231.4.0 : 06:16:18.014 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.014 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.014 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.014 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.014 :           ENTRY: CCabFile::InstallIniCabSection
+7.231.4.0 : 06:16:18.014 :           pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini, pszCabSection = CxSfPt.CabFile
+7.231.4.0 : 06:16:18.014 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.014 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:18.014 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.014 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.014 :             ENTRY: CCabFile :: ExtractCabFile
+7.231.4.0 : 06:16:18.014 :             pszCabFile = C:\Program Files\Conexant\Install\Audio\CxSfPt.cab, pszCabExtractPath = C:\Program Files\Conexant\Install\Audio\\
+7.231.4.0 : 06:16:18.014 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.014 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\CxSfPt.DAT, dwFlags = 0
+7.231.4.0 : 06:16:18.014 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.014 :             EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :           EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :         EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.014 :         m_szDecorationTag = 
+7.231.4.0 : 06:16:18.014 :         m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.014 :         EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.014 :         ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.014 :           ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.014 :           KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.014 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.014 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.014 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :             pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.014 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.014 :           pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.014 :           EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.029 :         szINFFileName= inst_flow.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = -1227532304
+7.231.4.0 : 06:16:18.029 :         EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.029 :         ENTRY: CCabFile::InstallIniDefinedCabs
+7.231.4.0 : 06:16:18.029 :         pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini, pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.029 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.029 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.029 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.029 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.029 :           ENTRY: CCabFile::InstallIniCabSection
+7.231.4.0 : 06:16:18.029 :           pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini, pszCabSection = FlowCabFile
+7.231.4.0 : 06:16:18.029 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.029 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:18.029 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.029 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.029 :             ENTRY: CCabFile :: ExtractCabFile
+7.231.4.0 : 06:16:18.029 :             pszCabFile = C:\Program Files\Conexant\Install\Audio\Flow.cab, pszCabExtractPath = C:\Program Files\Conexant\Install\Audio\\
+7.231.4.0 : 06:16:18.029 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.029 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\Flow\Flow1.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.029 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.045 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.045 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\Flow\Flow2.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.045 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.076 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.076 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\Flow\FlowCombined.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.076 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.076 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.076 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\Flow\Setup.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.076 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.124 :             EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.231.4.0 : 06:16:18.124 :           EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.231.4.0 : 06:16:18.124 :         EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.231.4.0 : 06:16:18.124 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.124 :           ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.124 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.124 :         m_szDecorationTag = 
+7.231.4.0 : 06:16:18.124 :         m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:18.124 :         EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.124 :         ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.124 :           ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.124 :           KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.124 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.124 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.124 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.124 :             pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.124 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.124 :           pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.124 :           EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.124 :         szINFFileName= inst_mictray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = -1227532304
+7.231.4.0 : 06:16:18.124 :         EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.124 :         ENTRY: CCabFile::InstallIniDefinedCabs
+7.231.4.0 : 06:16:18.124 :         pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini, pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.124 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.124 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.124 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.124 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.124 :           m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:18.124 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.124 :           ENTRY: CCabFile::InstallIniCabSection
+7.231.4.0 : 06:16:18.124 :           pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini, pszCabSection = MictrayCabFile
+7.231.4.0 : 06:16:18.124 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.124 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.124 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.124 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:18.124 :             m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:18.124 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.124 :             ENTRY: CCabFile :: ExtractCabFile
+7.231.4.0 : 06:16:18.124 :             pszCabFile = C:\Program Files\Conexant\Install\Audio\MicTray.cab, pszCabExtractPath = C:\Program Files\Conexant\Install\Audio\\
+7.231.4.0 : 06:16:18.124 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.124 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\MicTray.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.124 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.124 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.124 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\Setup.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.124 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.171 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.171 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\MicTray\MicTray.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.171 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.192 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.192 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\MicTray\MicTray.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.192 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.192 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.192 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\MicTray\MicTray64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.192 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.223 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.223 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\MicTray\MicTray64.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.223 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.223 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.223 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\MicTray\x64\Setup64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.223 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.270 :             EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.231.4.0 : 06:16:18.270 :           EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.231.4.0 : 06:16:18.270 :         EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.231.4.0 : 06:16:18.270 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.270 :         m_szDecorationTag = 
+7.231.4.0 : 06:16:18.270 :         m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.270 :         EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.270 :         ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.270 :           ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.270 :           KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.270 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.270 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.270 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.270 :             pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.270 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.270 :           pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.270 :           EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.270 :         szINFFileName= inst_sa3.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = -1227532304
+7.231.4.0 : 06:16:18.270 :         EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.286 :         ENTRY: CCabFile::InstallIniDefinedCabs
+7.231.4.0 : 06:16:18.286 :         pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini, pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.286 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.286 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.286 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.286 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.286 :           ENTRY: CCabFile::InstallIniCabSection
+7.231.4.0 : 06:16:18.286 :           pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini, pszCabSection = SA3CabFile
+7.231.4.0 : 06:16:18.286 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.286 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:18.286 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.286 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.286 :             ENTRY: CCabFile :: ExtractCabFile
+7.231.4.0 : 06:16:18.286 :             pszCabFile = C:\Program Files\Conexant\Install\Audio\sa3.cab, pszCabExtractPath = C:\Program Files\Conexant\Install\Audio\\
+7.231.4.0 : 06:16:18.286 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.286 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\com.hp.siam.dll, dwFlags = 0
+7.231.4.0 : 06:16:18.286 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.286 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.286 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\CxAudioSvc.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.286 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.286 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.286 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\CxAudioSvc.exe.config, dwFlags = 0
+7.231.4.0 : 06:16:18.286 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.286 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.286 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\CxAudioSvc.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.286 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3CPSM.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3NGEN.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3OpsReg.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3Setup.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3SmEq.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3SmEq5Band.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3StartUp.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.301 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.301 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.301 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3Util.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.317 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.317 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3_CNXT.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.317 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.317 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3_DTS.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.317 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.317 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3_HP.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.317 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.317 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3_SR.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.317 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.317 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SAConfig.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.317 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.317 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\Setup.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.317 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SynaMonApp.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SynaMonApp.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SynaMonApp.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\CNXT-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\CNXT-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\CxUtilSvc.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.364 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.364 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\DTS-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.364 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.379 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.379 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\DTS-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.379 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.379 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.379 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HP-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.379 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.379 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.379 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HP-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.379 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.379 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.379 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HP2016-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.379 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.379 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.379 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HP2016-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.379 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.379 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.379 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HP5Dot1-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.379 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.395 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.395 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HP5Dot1-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.395 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.395 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.395 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HPCMIT-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.395 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.395 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.395 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HPCMIT-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.395 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.411 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.411 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HPCMIT2017-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.411 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.411 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.411 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HPCMIT2017-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.411 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.411 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.411 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\HPGAPrivacyPolicy.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.411 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.411 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.411 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\Interop.CxUtilSvcLib.dll, dwFlags = 0
+7.231.4.0 : 06:16:18.411 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.411 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.411 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SA3-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.411 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.411 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.411 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SA3-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.411 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.426 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.426 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SA3-Lang.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.426 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.426 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.426 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.BandO.CMIT.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.BandO.CMIT2017.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.BandO.FeatureByte.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.BandO.Slice.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.BusType.HDA.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.BusType.ISST.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Cnxt.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Demo.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.HP.FeatureByte.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.HP.Slice.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Logo.AudioControls.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Logo.BandO.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Logo.HPPremium.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Logo.HPPremiumGold.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Platform.AIO.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Platform.DT.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Platform.NB.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Platform.Slice.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Platform.TBL.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.3Microphone.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.5Dot1.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.AIO.E.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.AIO.J.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.AIO.V.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.AIO.V2018.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.ASR.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.BandOPlay.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.442 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.442 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.DTSBO.CMIT.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.442 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.DTSBO.Cons.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.DTSEQ.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.EnabledSlateMode.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.FeatureByte.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.FeatureByteMicType.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.HardCodeNames.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.HardwareNR.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.HeadPhoneOffload.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.ISST.HardwareAcceleration.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.ISST.TenBands.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.MS.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.NB.CMIT.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.NB.Cons-NL.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.NB.Cons-VL.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.Slice2.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.SoundEffects.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.SSM.MSG.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.SSM.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.TBL.BO.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.TBL.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.ToggleDspOnVoip.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Settings.Zuma.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Skin.5Dot1.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Skin.CMIT.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Skin.CMIT2017.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Skin.HP.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Skin.HP2016.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.457 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.457 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.457 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Title.AudioControl.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Title.AudioControls.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Title.BandOAudio.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfig.Title.DTS.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SAConfiguration.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SACpl.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SADefaultSettings.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SASettings.NB.CMIT.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SASettings.NB.xml, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.473 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.473 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SpeakerTest.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.473 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.489 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.489 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SR-32.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.489 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.489 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.489 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\SR-64.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.489 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.489 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.489 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\x64\Setup64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.489 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.536 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.536 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\BandO\BandOPlay.ico, dwFlags = 0
+7.231.4.0 : 06:16:18.536 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.551 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.551 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\BandO\SADefaultIcon.ico, dwFlags = 0
+7.231.4.0 : 06:16:18.551 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.551 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.551 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\BandO\SmartAudio3-BandO-32.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.551 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.551 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.551 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\BandO\SmartAudio3-BandO-64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.551 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.551 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.551 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\Dyson\HPDyson.ico, dwFlags = 0
+7.231.4.0 : 06:16:18.551 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.551 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.551 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\Dyson\SADefaultIcon.ico, dwFlags = 0
+7.231.4.0 : 06:16:18.551 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.551 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.551 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\Dyson\SmartAudio3-Dyson-32.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.551 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.567 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.567 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SA3\SA3\Dyson\SmartAudio3-Dyson-64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.567 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.567 :             EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.231.4.0 : 06:16:18.567 :           EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.231.4.0 : 06:16:18.567 :         EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.231.4.0 : 06:16:18.567 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.567 :         m_szDecorationTag = 
+7.231.4.0 : 06:16:18.567 :         m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.567 :         EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.567 :         ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.567 :           ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.567 :           KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.567 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.567 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.567 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.567 :             pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.567 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.567 :           pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.567 :           EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.567 :         szINFFileName= inst_sr.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = -1227532304
+7.231.4.0 : 06:16:18.567 :         EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.567 :         ENTRY: CCabFile::InstallIniDefinedCabs
+7.231.4.0 : 06:16:18.567 :         pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini, pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.567 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.567 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.567 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.567 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.567 :           ENTRY: CCabFile::InstallIniCabSection
+7.231.4.0 : 06:16:18.567 :           pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini, pszCabSection = SFPresetCabFile
+7.231.4.0 : 06:16:18.567 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.567 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:18.567 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.567 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.567 :             ENTRY: CCabFile :: ExtractCabFile
+7.231.4.0 : 06:16:18.567 :             pszCabFile = C:\Program Files\Conexant\Install\Audio\SFPreset.cab, pszCabExtractPath = C:\Program Files\Conexant\Install\Audio\\
+7.231.4.0 : 06:16:18.567 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.567 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\Setup.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.567 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFPreset.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.8299.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.82a5.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.844c.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.8455.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.8456.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.8457.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\SFP\SFP.cab, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.614 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.614 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SFPreset\x64\Setup64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.614 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.676 :             EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.231.4.0 : 06:16:18.676 :           EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.231.4.0 : 06:16:18.676 :         EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.231.4.0 : 06:16:18.676 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.676 :         m_szDecorationTag = 
+7.231.4.0 : 06:16:18.676 :         m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.676 :         EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.676 :         ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.676 :           ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.676 :           KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.676 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.676 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.676 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.676 :             pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.676 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.676 :           pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.676 :           EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.676 :         szINFFileName= inst_ssp.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = -1227532304
+7.231.4.0 : 06:16:18.676 :         EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.676 :         ENTRY: CCabFile::InstallIniDefinedCabs
+7.231.4.0 : 06:16:18.676 :         pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini, pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.676 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.676 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.676 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.676 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.676 :           ENTRY: CCabFile::InstallIniCabSection
+7.231.4.0 : 06:16:18.676 :           pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini, pszCabSection = sspconfigCabFile
+7.231.4.0 : 06:16:18.676 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.676 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:18.676 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.676 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.676 :             ENTRY: CCabFile :: ExtractCabFile
+7.231.4.0 : 06:16:18.676 :             pszCabFile = C:\Program Files\Conexant\Install\Audio\sspconfig.cab, pszCabExtractPath = C:\Program Files\Conexant\Install\Audio\\
+7.231.4.0 : 06:16:18.676 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.676 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\CopyConfig.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.676 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.676 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.676 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\CxProper.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.676 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.676 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.676 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\Setup.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.676 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.723 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.723 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\SSPConfig.ini, dwFlags = 0
+7.231.4.0 : 06:16:18.723 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.723 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.723 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\SSPConfig\cxapo.prop, dwFlags = 0
+7.231.4.0 : 06:16:18.723 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.723 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.723 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\SSPConfig\CxProper.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.723 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.739 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.739 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\SSPConfig\SSPTunePt.DAT, dwFlags = 0
+7.231.4.0 : 06:16:18.739 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.739 :               ENTRY: CFileUtils::DeleteAFile
+7.231.4.0 : 06:16:18.739 :               pszFileToDelete = C:\Program Files\Conexant\Install\Audio\\SSPConfig\x64\Setup64.exe, dwFlags = 0
+7.231.4.0 : 06:16:18.739 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.231.4.0 : 06:16:18.786 :             EXIT:  CCabFile :: ExtractCabFile : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :           EXIT:  CCabFile::InstallIniCabSection : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :         EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :       EXIT:  CDevice::PreInstallCabFiles : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :       ENTRY: CDevice::DoPreDeviceInstallINIFiles
+7.231.4.0 : 06:16:18.786 :         ENTRY: KINIFile::GetLocalPath
+7.231.4.0 : 06:16:18.786 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\WINDOWS\system32\
+7.231.4.0 : 06:16:18.786 :         ENTRY: CInstallPathCoinst::FindDeviceInstallPath : dwFlags = 0
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInstallPathCoinst::FindDriverStoreInstallPath
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInstallPathCoinst::FindDriverStoreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInstallPathCoinst::FindInstallationSourcesInstallPath
+7.231.4.0 : 06:16:18.786 :           dwSize = 0
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInstallPathCoinst::FindInstallationSourcesInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInstallPathCoinst::FindSavedRollbackFilesPath
+7.231.4.0 : 06:16:18.786 :           csKey = Software\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInstallPathCoinst::FindSavedRollbackFilesPath : bRetVal = 0
+7.231.4.0 : 06:16:18.786 :         EXIT:  CInstallPathCoinst::FindDeviceInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.786 :       EXIT:  CDevice::DoPreDeviceInstallINIFiles
+7.231.4.0 : 06:16:18.786 :       ENTRY: KINIFile::UCIRun : dwCoInstMode = 1024
+7.231.4.0 : 06:16:18.786 :         ENTRY: KINICoinst::CleanUpPreviousINIInstall : pszDriverPath  {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.231.4.0 : 06:16:18.786 :         szINIInstallPath = C:\WINDOWS\TEMP\{4d36e96c-e325-11ce-bfc1-08002be10318}0000
+7.231.4.0 : 06:16:18.786 :         EXIT:  KINICoinst::CleanUpPreviousINIInstall
+7.231.4.0 : 06:16:18.786 :         ENTRY: CInstallPathCoinst::FindINIFilePaths : dwFlags = 16
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInstallPathCoinst::FindPreInstallPath
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInstallPathCoinst::FindPreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInstallPathCoinst::FindInstallationPathInstallationPath : pszInstallPathRegValueName = InstallationAppPath
+7.231.4.0 : 06:16:18.786 :           szInstallationPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInstallPathCoinst::FindInstallationPathInstallationPath : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :         Adding InstallationAppPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:18.786 :         EXIT:  CInstallPathCoinst::FindINIFilePaths : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :         ENTRY: CFileUtils::InitMonitorAppSyncInfo (APPSYNC:)
+7.231.4.0 : 06:16:18.786 :         EXIT:  CFileUtils::InitMonitorAppSyncInfo (APPSYNC:)
+7.231.4.0 : 06:16:18.786 :         ENTRY: KINIFile::InstallINIFiles
+7.231.4.0 : 06:16:18.786 :           ENTRY: KINIFile::GetInstallINIFileNames
+7.231.4.0 : 06:16:18.786 :             ENTRY: KINIFile::LocateINIFileNames
+7.231.4.0 : 06:16:18.786 :             pszInstallPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:18.786 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.786 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.786 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.786 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.786 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.786 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.786 :             EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 6
+7.231.4.0 : 06:16:18.786 :           EXIT:  KINIFile::GetInstallINIFileNames : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\WINDOWS\INF\hdaudio.inf
+7.231.4.0 : 06:16:18.786 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.786 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :           m_szDecorationTag = .NTAMD64
+7.231.4.0 : 06:16:18.786 :           m_szInstallSectionTag = Microsoft.NTAMD64
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.786 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.786 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.786 :           pszSectionTag = HdAudModel
+7.231.4.0 : 06:16:18.786 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.786 :           ENTRY: CInf::SetupForDeviceTagDecoration
+7.231.4.0 : 06:16:18.786 :           csTestDeviceTag = HdAudModel.NTAMD64
+7.231.4.0 : 06:16:18.801 :           pszDeviceTag = HdAudModel
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :           pszSectionTag = HdAudModel
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInf::SetupForDeviceTagDecoration
+7.231.4.0 : 06:16:18.801 :           csTestDeviceTag = HdAudModel.NTAMD64
+7.231.4.0 : 06:16:18.801 :           pszDeviceTag = HdAudModel
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInstallPathCoinst::FindDeviceInstallPath : dwFlags = 0
+7.231.4.0 : 06:16:18.801 :             ENTRY: CInstallPathCoinst::FindDriverStoreInstallPath
+7.231.4.0 : 06:16:18.801 :             EXIT:  CInstallPathCoinst::FindDriverStoreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :             ENTRY: CInstallPathCoinst::FindInstallationSourcesInstallPath
+7.231.4.0 : 06:16:18.801 :             dwSize = 0
+7.231.4.0 : 06:16:18.801 :             EXIT:  CInstallPathCoinst::FindInstallationSourcesInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :             ENTRY: CInstallPathCoinst::FindSavedRollbackFilesPath
+7.231.4.0 : 06:16:18.801 :             csKey = Software\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.801 :             EXIT:  CInstallPathCoinst::FindSavedRollbackFilesPath : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInstallPathCoinst::FindDeviceInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :           ENTRY: CINIFile::RemoveDuplicateAndSortINIFiles
+7.231.4.0 : 06:16:18.801 :           Added: C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :           Added: C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.801 :           Added: C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.801 :           Added: C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.801 :           Added: C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :           Added: C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :             ENTRY: CINIFile::SortINIFiles
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.801 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 102
+7.231.4.0 : 06:16:18.801 :             uSA3FlownOrderNumer = 102
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.801 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.801 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 101
+7.231.4.0 : 06:16:18.801 :             uSA3FlownOrderNumer = 101
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:18.801 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:18.801 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini, unOrderNumer = 102
+7.231.4.0 : 06:16:18.801 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini, unOrderNumer = 100
+7.231.4.0 : 06:16:18.801 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini, unOrderNumer = 101
+7.231.4.0 : 06:16:18.801 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:18.801 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:18.801 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:18.801 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:18.801 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:18.801 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini, unOrderNumer = 100
+7.231.4.0 : 06:16:18.801 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini, unOrderNumer = 101
+7.231.4.0 : 06:16:18.801 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini, unOrderNumer = 102
+7.231.4.0 : 06:16:18.801 :             EXIT:  CINIFile::SortINIFiles
+7.231.4.0 : 06:16:18.801 :           EXIT:  CINIFile::RemoveDuplicateAndSortINIFiles
+7.231.4.0 : 06:16:18.801 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.801 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.801 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :               pszSectionTag = TASKS
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :             pszInstallSection = TASKS
+7.231.4.0 : 06:16:18.801 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :           szINFFileName= inst_cxsfpt.ini, pszInstallSection = TASKS, pdwFlags = 2097152
+7.231.4.0 : 06:16:18.801 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:18.801 :           dwFlags = 200000 , m_dwCoInstMode = 400
+7.231.4.0 : 06:16:18.801 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.801 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.801 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.801 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :           szINFFileName= inst_sr.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:18.801 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:18.801 :           dwFlags = 200000 , m_dwCoInstMode = 400
+7.231.4.0 : 06:16:18.801 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.801 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.801 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.801 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :           szINFFileName= inst_ssp.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:18.801 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:18.801 :           dwFlags = 200000 , m_dwCoInstMode = 400
+7.231.4.0 : 06:16:18.801 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.801 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.801 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:18.801 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.801 :           m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:18.801 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.801 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.801 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.801 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.801 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.801 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.801 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.801 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.801 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :           szINFFileName= inst_mictray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:18.817 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.817 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:18.817 :           dwFlags = 200000 , m_dwCoInstMode = 400
+7.231.4.0 : 06:16:18.817 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.817 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.817 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.817 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.817 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.817 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.817 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.817 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.817 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.817 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.817 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.817 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.817 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :           szINFFileName= inst_sa3.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:18.817 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.817 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:18.817 :           dwFlags = 200000 , m_dwCoInstMode = 400
+7.231.4.0 : 06:16:18.817 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.817 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.817 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:18.817 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:18.817 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:18.817 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:18.817 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:18.817 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:18.817 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.817 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:18.817 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.817 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:18.817 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:18.817 :           szINFFileName= inst_flow.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:18.817 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:18.817 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:18.817 :           dwFlags = 200000 , m_dwCoInstMode = 400
+7.231.4.0 : 06:16:18.817 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.231.4.0 : 06:16:18.817 :       EXIT:  KINIFile::UCIRun : dwRetVal = 0
+7.231.4.0 : 06:16:18.817 :       ENTRY: CDevice::ResetDeleteOnRebootList
+7.231.4.0 : 06:16:18.817 :         ENTRY: CInstallPathCoinst::FindDeviceInstallPath : dwFlags = 0
+7.231.4.0 : 06:16:18.817 :           ENTRY: CInstallPathCoinst::FindDriverStoreInstallPath
+7.231.4.0 : 06:16:18.817 :           EXIT:  CInstallPathCoinst::FindDriverStoreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :           ENTRY: CInstallPathCoinst::FindInstallationSourcesInstallPath
+7.231.4.0 : 06:16:18.817 :           dwSize = 0
+7.231.4.0 : 06:16:18.817 :           EXIT:  CInstallPathCoinst::FindInstallationSourcesInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :           ENTRY: CInstallPathCoinst::FindSavedRollbackFilesPath
+7.231.4.0 : 06:16:18.817 :           csKey = Software\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :           EXIT:  CInstallPathCoinst::FindSavedRollbackFilesPath : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :         EXIT:  CInstallPathCoinst::FindDeviceInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:18.817 :       EXIT:  CDevice::ResetDeleteOnRebootList
+7.231.4.0 : 06:16:18.817 :     szCompanyName = Synaptics
+7.231.4.0 : 06:16:18.817 :     szProductName = Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :     m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :     szClass = MEDIA
+7.231.4.0 : 06:16:18.817 :       ENTRY: CDevice::ProcessINFDefinedSetupParms
+7.231.4.0 : 06:16:18.817 :         ENTRY: CDevice::StopRequestedApps
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::StopRequestedApps : pszRegKey = InstallControl\KillAppsList
+7.231.4.0 : 06:16:18.817 :           EXIT:  CDevice::StopRequestedApps
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::StopRequestedApps : pszRegKey = KillAppsList
+7.231.4.0 : 06:16:18.817 :           EXIT:  CDevice::StopRequestedApps
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::StopRequestedApps : pszRegKey = Application\Kill
+7.231.4.0 : 06:16:18.817 :           EXIT:  CDevice::StopRequestedApps
+7.231.4.0 : 06:16:18.817 :         EXIT:  CDevice::StopRequestedApps
+7.231.4.0 : 06:16:18.817 :         ENTRY: CDevice::StartRequestedApps
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::StartRequestedApps : pszRegKey = Application\Launch
+7.231.4.0 : 06:16:18.817 :           HEY: m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :           EXIT:  CDevice::StartRequestedApps
+7.231.4.0 : 06:16:18.817 :         EXIT:  CDevice::StartRequestedApps
+7.231.4.0 : 06:16:18.817 :         ENTRY: CDevice::StopRequestedServices
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::GetListOfServices : dwSeviceType = 2000000
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 2000000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = HsfServices
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\HsfServices
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 2000000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = Services
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Services
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 2000000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = HsfServices\Stop
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\HsfServices\Stop
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 2000000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = Services\Stop
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Services\Stop
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :           EXIT:  CDevice::GetListOfServices : pkslServiceList->GetCount() = 0
+7.231.4.0 : 06:16:18.817 :         EXIT:  CDevice::StopRequestedServices
+7.231.4.0 : 06:16:18.817 :         ENTRY: CDevice::StartRequestedServices
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::GetListOfServices : dwSeviceType = 40000
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 40000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = HsfServices
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\HsfServices
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 40000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = Services
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Services
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 40000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = HsfServices\Start
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\HsfServices\Start
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :             ENTRY: CDevice::GetListOfServices : dwSeviceType = 40000
+7.231.4.0 : 06:16:18.817 :             m_szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:18.817 :             pszRegKey = Services\Start
+7.231.4.0 : 06:16:18.817 :             szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Services\Start
+7.231.4.0 : 06:16:18.817 :             EXIT:  CDevice::GetListOfServices
+7.231.4.0 : 06:16:18.817 :           EXIT:  CDevice::GetListOfServices : pkslServiceList->GetCount() = 0
+7.231.4.0 : 06:16:18.817 :         EXIT:  CDevice::StartRequestedServices
+7.231.4.0 : 06:16:18.817 :         ENTRY: CDevice::DeleteDeviceFiles
+7.231.4.0 : 06:16:18.817 :           ENTRY: CDevice::DeleteDeviceFiles
+7.231.4.0 : 06:16:18.817 :           pszFileKeyName=PrevFiles , dwDefaultCase=22
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles\INF , pszFilePath=C:\WINDOWS\INF
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles\CAT , pszFilePath=C:\WINDOWS\system32\CATROOT\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles\VXDDLL , pszFilePath=C:\WINDOWS\system32
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles\DLL , pszFilePath=C:\WINDOWS\system32
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles\VXDDLL , pszFilePath=C:\WINDOWS\SYSWOW64
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles\SYS , pszFilePath=C:\WINDOWS\SYSTEM32\DRIVERS
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\PrevFiles , pszFilePath=CNXT_XYZ_UIU
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=22, dwDeleteFlags=2
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :           EXIT:  CDevice::DeleteDeviceFiles
+7.231.4.0 : 06:16:18.832 :           ENTRY: CDevice::DeleteDeviceFiles
+7.231.4.0 : 06:16:18.832 :           pszFileKeyName=Files , dwDefaultCase=4
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files\INF , pszFilePath=C:\WINDOWS\INF
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files\CAT , pszFilePath=C:\WINDOWS\system32\CATROOT\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files\VXDDLL , pszFilePath=C:\WINDOWS\system32
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64BPAPO.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64APO.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64APO2.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64Proxy.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files\DLL , pszFilePath=C:\WINDOWS\system32
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             ksValueName=UCI64A231.DLL, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files\VXDDLL , pszFilePath=C:\WINDOWS\SYSWOW64
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64BPAPO.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64APO.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64APO2.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=CX64Proxy.dll, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files\SYS , pszFilePath=C:\WINDOWS\SYSTEM32\DRIVERS
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=0
+7.231.4.0 : 06:16:18.832 :             ksValueName=CHDRT64.sys, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :             ENTRY: CDevice::DeleteFileList
+7.231.4.0 : 06:16:18.832 :             pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Files , pszFilePath=CNXT_XYZ_UIU
+7.231.4.0 : 06:16:18.832 :             , dwDefaultCase=4, dwDeleteFlags=2
+7.231.4.0 : 06:16:18.832 :             ksValueName=C:\Program Files\Conexant\Core\Mixer.ini, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=C:\Program Files\Conexant\Core\AltMixer.ini, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             ksValueName=C:\Program Files\Conexant\Core\EQSettings.ini, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :               ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :               EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :             m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :             EXIT:  CDevice::DeleteFileList : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :           EXIT:  CDevice::DeleteDeviceFiles
+7.231.4.0 : 06:16:18.832 :           ENTRY: CDevice::DeleteAppPathsDeviceFiles : dwDefaultCase = 8
+7.231.4.0 : 06:16:18.832 :           EXIT:  CDevice::DeleteAppPathsDeviceFiles : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :         EXIT:  CDevice::DeleteDeviceFiles : dwRetVal = 0
+7.231.4.0 : 06:16:18.832 :         ENTRY: CDevice::DeleteDeviceFolders
+7.231.4.0 : 06:16:18.832 :           ENTRY: CDevice::DeleteDeviceFolders
+7.231.4.0 : 06:16:18.832 :           pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\Folders , dwDefaultCase=8
+7.231.4.0 : 06:16:18.832 :           ksValueName=C:\Program Files\Conexant\Install\Audio, ksValueData=0x00000008
+7.231.4.0 : 06:16:18.832 :             ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000008
+7.231.4.0 : 06:16:18.832 :             EXIT:  ConvertHexStrToDecNum : ucRetVal = 8
+7.231.4.0 : 06:16:18.832 :           m_dwCoInstMode = 1, dwFlags=8
+7.231.4.0 : 06:16:18.832 :           EXIT:  CDevice::DeleteDeviceFolders
+7.231.4.0 : 06:16:18.832 :         EXIT:  CDevice::DeleteDeviceFolders
+7.231.4.0 : 06:16:18.832 :         ENTRY: CDevice::CopyRegistryValues
+7.231.4.0 : 06:16:18.848 :         EXIT:  CDevice::CopyRegistryValues
+7.231.4.0 : 06:16:18.848 :         ENTRY: CDevice::DeleteRegistryValues
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::DeleteRegistryValues
+7.231.4.0 : 06:16:18.848 :           pszRegKeyName=IDeleteRegValues , dwDefaultCase=2
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::DeleteRegistryValues
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::DeleteRegistryValues
+7.231.4.0 : 06:16:18.848 :           pszRegKeyName=RegValues , dwDefaultCase=4
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::DeleteRegistryValues
+7.231.4.0 : 06:16:18.848 :         EXIT:  CDevice::DeleteRegistryValues
+7.231.4.0 : 06:16:18.848 :         ENTRY: CDevice::DeleteRegistryKeys
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::DeleteRegistryKeys
+7.231.4.0 : 06:16:18.848 :           pszRegKeyName=IDeleteRegKeys , dwDefaultCase=2
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::DeleteRegistryKeys
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::DeleteRegistryKeys
+7.231.4.0 : 06:16:18.848 :           pszRegKeyName=RegKeys , dwDefaultCase=4
+7.231.4.0 : 06:16:18.848 :           ksRegValueName=SYSTEM\CurrentControlSet\Control\Conexant\EQ, ksRegValueData=0x00000009
+7.231.4.0 : 06:16:18.848 :             ENTRY: ConvertHexStrToDecNum : pszHexDword = 0x00000009
+7.231.4.0 : 06:16:18.848 :             EXIT:  ConvertHexStrToDecNum : ucRetVal = 9
+7.231.4.0 : 06:16:18.848 :           dwFlags=9
+7.231.4.0 : 06:16:18.848 :           ksValueName=SYSTEM\CurrentControlSet\Control\Conexant\EQ
+7.231.4.0 : 06:16:18.848 :           SUCCESS: ksValueName = SYSTEM\CurrentControlSet\Control\Conexant\EQ
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::DeleteRegistryKeys
+7.231.4.0 : 06:16:18.848 :         EXIT:  CDevice::DeleteRegistryKeys
+7.231.4.0 : 06:16:18.848 :         ENTRY: CDevice::DoRunOnce
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::DoRunOnce
+7.231.4.0 : 06:16:18.848 :           pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\ExecuteOnce , dwDefaultCase=22
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::DoRunOnce
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::DoRunOnce
+7.231.4.0 : 06:16:18.848 :           pszKeyName=SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\RunOnce , dwDefaultCase=22
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::DoRunOnce
+7.231.4.0 : 06:16:18.848 :         EXIT:  CDevice::DoRunOnce
+7.231.4.0 : 06:16:18.848 :         ENTRY: CDevice::CleanUpCnxtTempFiles
+7.231.4.0 : 06:16:18.848 :         EXIT:  CDevice::CleanUpCnxtTempFiles
+7.231.4.0 : 06:16:18.848 :         ENTRY: CDevice::RenameRestoreFiles
+7.231.4.0 : 06:16:18.848 :         EXIT:  CDevice::RenameRestoreFiles : dwRetVal = 0
+7.231.4.0 : 06:16:18.848 :         ENTRY: CDevice::InstallLocalizedGuids
+7.231.4.0 : 06:16:18.848 :           ENTRY: CDevice::GetLocalizedGuids
+7.231.4.0 : 06:16:18.848 :           KEY: szRegKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio\LocalGuid
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F92-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_INTERNAL_MICROPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F94-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_EXTERNAL_MICROPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F96-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_DOCKING_MICROPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F98-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_SPEAKER_HEADPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F9A-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_REAR_INPUT
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F9C-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_INPUT_MONITOR
+7.231.4.0 : 06:16:18.848 :           kGuid={C9274F9E-9504-44cc-971A-88A2C64D08D4}, kLabel=KSPINNAME_CNXT_ALT_PC_BEEP
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CF2-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_FRONT_MICROPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CF4-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_REAR_MICROPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CFC-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_FRONT_MIC
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CFE-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_REAR_MIC
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CF6-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_FRONT_LINE_IN
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CF8-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_REAR_LINE_IN
+7.231.4.0 : 06:16:18.848 :           kGuid={4BC49CFA-B096-4956-A0EC-D7D93170CC00}, kLabel=KSPINNAME_CNXT_ALT_FRONT_INPUT
+7.231.4.0 : 06:16:18.848 :           kGuid={4A15B634-1490-4480-AE10-4B25DE911193}, kLabel=KSNODENAME_CNXT_ALT_SWPC
+7.231.4.0 : 06:16:18.848 :           kGuid={4A15B638-1490-4480-AE10-4B25DE911193}, kLabel=KSNODENAME_CNXT_ALT_FP_MIC_SELECT
+7.231.4.0 : 06:16:18.848 :           kGuid={4A15B63A-1490-4480-AE10-4B25DE911193}, kLabel=KSNODENAME_CNXT_ALT_REARINPUT_TASKSELECT
+7.231.4.0 : 06:16:18.848 :           kGuid={4A15B636-1490-4480-AE10-4B25DE911193}, kLabel=KSNODENAME_CNXT_ALT_DISABLE_DIGITAL_OUT
+7.231.4.0 : 06:16:18.848 :           kGuid={4A15B63C-1490-4480-AE10-4B25DE911193}, kLabel=KSNODENAME_CNXT_ALT_MUTE_INT_SPKR
+7.231.4.0 : 06:16:18.848 :           kGuid={7D1FCA92-A301-4DEC-A2BC-55538EBCC9BE}, kLabel=KSNODENAME_CNXT_ALT_2ND_HD_OUTPUT
+7.231.4.0 : 06:16:18.848 :           kGuid={7D1FCA96-A301-4DEC-A2BC-55538EBCC9BE}, kLabel=KSPINNAME_CNXT_ALT_SPEAKER
+7.231.4.0 : 06:16:18.848 :           kGuid={7D1FCA98-A301-4DEC-A2BC-55538EBCC9BE}, kLabel=KSPINNAME_CNXT_ALT_HEADPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={7D1FCA9A-A301-4DEC-A2BC-55538EBCC9BE}, kLabel=KSPINNAME_CNXT_ALT_MICROPHONE
+7.231.4.0 : 06:16:18.848 :           kGuid={7D1FCA9E-A301-4DEC-A2BC-55538EBCC9BE}, kLabel=KSPINNAME_CNXT_ALT_LINEIN
+7.231.4.0 : 06:16:18.848 :           kGuid={7D1FCA9C-A301-4DEC-A2BC-55538EBCC9BE}, kLabel=KSPINNAME_CNXT_ALT_LINEOUT
+7.231.4.0 : 06:16:18.848 :           kGuid={D62C68B1-FD6B-4CD3-81C4-2969CDEC26CD}, kLabel=KSPINNAME_CNXT_ALT_STEREO_MIX
+7.231.4.0 : 06:16:18.848 :           EXIT:  CDevice::GetLocalizedGuids : bRetVal = 1
+7.231.4.0 : 06:16:18.848 :         csTestFile = C:\WINDOWS\System32\drivers\MIXER.INI
+7.231.4.0 : 06:16:18.848 :         szLocalINFPath = C:\WINDOWS\System32\drivers
+7.231.4.0 : 06:16:18.848 :           ENTRY: DoI18: pszIni = C:\WINDOWS\System32\drivers\MIXER.INI
+7.231.4.0 : 06:16:18.848 :             ENTRY: GetCurrentLangID
+7.231.4.0 : 06:16:18.848 :               ENTRY: CFileUtils::GetCurrentLangIDFromUIUSrv
+7.231.4.0 : 06:16:18.973 :                 ENTRY: CFileUtils::UserModeExeFromService : pszCmdArg = locale
+7.231.4.0 : 06:16:18.973 :                   ENTRY: CFileUtils::RunAsLoggedOnUser
+7.231.4.0 : 06:16:18.973 :                     ENTRY: CFileUtils::SpawnApp
+7.231.4.0 : 06:16:18.973 :                     pszExeName = C:\WINDOWS\SysWOW64\UIUSrv.exe, pszCmdArg = -installd
+7.231.4.0 : 06:16:18.973 :                     bWaitForProcess = 1, dwStartAppTimeOut = 240000, dwFlags = 0
+7.231.4.0 : 06:16:18.973 :                     csWorkingDir = C:\WINDOWS\SysWOW64\
+7.231.4.0 : 06:16:18.973 :                     szExeName = "C:\WINDOWS\SysWOW64\UIUSrv.exe"
+7.231.4.0 : 06:16:18.973 :                     pszCmdArg = -install
+7.231.4.0 : 06:16:18.973 :                     Trying to Spawn with ShellExecuteExA
+7.231.4.0 : 06:16:19.004 :                     Child process signalled success
+7.231.4.0 : 06:16:19.004 :                     EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.231.4.0 : 06:16:19.004 :                     ENTRY: CFileUtils::SpawnApp
+7.231.4.0 : 06:16:19.004 :                     pszExeName = net, pszCmdArg = start uiuserviced
+7.231.4.0 : 06:16:19.004 :                     bWaitForProcess = 1, dwStartAppTimeOut = 240000, dwFlags = 0
+7.231.4.0 : 06:16:19.004 :                     csWorkingDir = 
+7.231.4.0 : 06:16:19.004 :                     szExeName = "net"
+7.231.4.0 : 06:16:19.004 :                     pszCmdArg = start uiuservice
+7.231.4.0 : 06:16:19.004 :                     Trying to Spawn with ShellExecuteExA
+7.231.4.0 : 06:16:19.067 :                     Child process signalled success
+7.231.4.0 : 06:16:19.067 :                     EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.231.4.0 : 06:16:20.082 :                   EXIT:  CFileUtils::RunAsLoggedOnUser : bRetVal = 1
+7.231.4.0 : 06:16:20.082 :                 EXIT:  CFileUtils::UserModeExeFromService : bRetVal = 1
+7.231.4.0 : 06:16:20.585 :               EXIT:  CFileUtils::GetCurrentLangIDFromUIUSrv : dwRetVal = 0
+7.231.4.0 : 06:16:20.585 :             GetSystemDefaultLCID() = 409
+7.231.4.0 : 06:16:20.585 :             EXIT:  GetCurrentLangID verID = 409
+7.231.4.0 : 06:16:20.585 :           lID = 409, sSect = ENGLISH
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F92-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = Internal Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F94-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = External Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F96-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = Docking Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F98-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = Internal Speakers/Headphones
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F9A-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = Rear Input
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F9C-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = Input Monitor
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {C9274F9E-9504-44cc-971A-88A2C64D08D4}
+7.231.4.0 : 06:16:20.585 :             lpName = PC Beep
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CF2-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Front Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CF4-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Rear Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CFC-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Front Mic
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CFE-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Rear Mic
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CF6-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Front Line In
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CF8-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Rear Line In
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4BC49CFA-B096-4956-A0EC-D7D93170CC00}
+7.231.4.0 : 06:16:20.585 :             lpName = Front Input
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4A15B634-1490-4480-AE10-4B25DE911193}
+7.231.4.0 : 06:16:20.585 :             lpName = Swap center/subwoofer
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4A15B638-1490-4480-AE10-4B25DE911193}
+7.231.4.0 : 06:16:20.585 :             lpName = Front panel microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4A15B63A-1490-4480-AE10-4B25DE911193}
+7.231.4.0 : 06:16:20.585 :             lpName = Use as Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4A15B636-1490-4480-AE10-4B25DE911193}
+7.231.4.0 : 06:16:20.585 :             lpName = Disable Digital Output
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {4A15B63C-1490-4480-AE10-4B25DE911193}
+7.231.4.0 : 06:16:20.585 :             lpName = Mute Internal Speaker
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {7D1FCA92-A301-4DEC-A2BC-55538EBCC9BE}
+7.231.4.0 : 06:16:20.585 :             lpName = HD Audio 2nd output
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {7D1FCA96-A301-4DEC-A2BC-55538EBCC9BE}
+7.231.4.0 : 06:16:20.585 :             lpName = Speakers
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {7D1FCA98-A301-4DEC-A2BC-55538EBCC9BE}
+7.231.4.0 : 06:16:20.585 :             lpName = Headphones
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {7D1FCA9A-A301-4DEC-A2BC-55538EBCC9BE}
+7.231.4.0 : 06:16:20.585 :             lpName = Microphone
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {7D1FCA9E-A301-4DEC-A2BC-55538EBCC9BE}
+7.231.4.0 : 06:16:20.585 :             lpName = Line In
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {7D1FCA9C-A301-4DEC-A2BC-55538EBCC9BE}
+7.231.4.0 : 06:16:20.585 :             lpName = Line Out
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :             ENTRY: SetAltGUID
+7.231.4.0 : 06:16:20.585 :             szGUID = {D62C68B1-FD6B-4CD3-81C4-2969CDEC26CD}
+7.231.4.0 : 06:16:20.585 :             lpName = Stereo Mix
+7.231.4.0 : 06:16:20.585 :             EXIT:  SetAltGUID
+7.231.4.0 : 06:16:20.585 :           EXIT:  DoI18
+7.231.4.0 : 06:16:20.585 :           ENTRY: DoI18: pszIni = C:\WINDOWS\System32\drivers\ALTMIXER.INI
+7.231.4.0 : 06:16:20.585 :             ENTRY: GetCurrentLangID
+7.231.4.0 : 06:16:20.585 :               ENTRY: CFileUtils::GetCurrentLangIDFromUIUSrv
+7.231.4.0 : 06:16:20.711 :                 ENTRY: CFileUtils::UserModeExeFromService : pszCmdArg = locale
+7.231.4.0 : 06:16:20.711 :                   ENTRY: CFileUtils::RunAsLoggedOnUser
+7.231.4.0 : 06:16:21.718 :                   EXIT:  CFileUtils::RunAsLoggedOnUser : bRetVal = 1
+7.231.4.0 : 06:16:21.718 :                 EXIT:  CFileUtils::UserModeExeFromService : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :               EXIT:  CFileUtils::GetCurrentLangIDFromUIUSrv : dwRetVal = 0
+7.231.4.0 : 06:16:22.234 :             GetSystemDefaultLCID() = 409
+7.231.4.0 : 06:16:22.234 :             EXIT:  GetCurrentLangID verID = 409
+7.231.4.0 : 06:16:22.234 :           lID = 409, sSect = ENGLISH
+7.231.4.0 : 06:16:22.234 :           EXIT:  DoI18
+7.231.4.0 : 06:16:22.234 :         EXIT:  CDevice::InstallLocalizedGuids
+7.231.4.0 : 06:16:22.234 :       EXIT:  CDevice::ProcessINFDefinedSetupParms : dwRetVal = 0
+7.231.4.0 : 06:16:22.234 :     m_szDeviceKey1 = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.234 :     m_szDeviceKey2 = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.234 :       ENTRY: KINIFile::UCIRun : dwCoInstMode = 1
+7.231.4.0 : 06:16:22.234 :         ENTRY: CInstallPathCoinst::FindINIFilePaths : dwFlags = 16
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInstallPathCoinst::FindPreInstallPath
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInstallPathCoinst::FindPreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInstallPathCoinst::FindInstallationPathInstallationPath : pszInstallPathRegValueName = InstallationAppPath
+7.231.4.0 : 06:16:22.234 :           szInstallationPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInstallPathCoinst::FindInstallationPathInstallationPath : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :         Adding InstallationAppPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:22.234 :         EXIT:  CInstallPathCoinst::FindINIFilePaths : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :         ENTRY: CFileUtils::InitMonitorAppSyncInfo (APPSYNC:)
+7.231.4.0 : 06:16:22.234 :         EXIT:  CFileUtils::InitMonitorAppSyncInfo (APPSYNC:)
+7.231.4.0 : 06:16:22.234 :         ENTRY: KINIFile::InstallINIFiles
+7.231.4.0 : 06:16:22.234 :           ENTRY: KINIFile::GetInstallINIFileNames
+7.231.4.0 : 06:16:22.234 :             ENTRY: KINIFile::LocateINIFileNames
+7.231.4.0 : 06:16:22.234 :             pszInstallPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:22.234 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.234 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.234 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.234 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.234 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.234 :             szTestFile = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.234 :             EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 6
+7.231.4.0 : 06:16:22.234 :           EXIT:  KINIFile::GetInstallINIFileNames : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\WINDOWS\INF\hdaudio.inf
+7.231.4.0 : 06:16:22.234 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.234 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :           m_szDecorationTag = .NTAMD64
+7.231.4.0 : 06:16:22.234 :           m_szInstallSectionTag = Microsoft.NTAMD64
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.234 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.234 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :           pszSectionTag = HdAudModel
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInf::SetupForDeviceTagDecoration
+7.231.4.0 : 06:16:22.234 :           csTestDeviceTag = HdAudModel.NTAMD64
+7.231.4.0 : 06:16:22.234 :           pszDeviceTag = HdAudModel
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.234 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.234 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :           pszSectionTag = HdAudModel
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInf::SetupForDeviceTagDecoration
+7.231.4.0 : 06:16:22.234 :           csTestDeviceTag = HdAudModel.NTAMD64
+7.231.4.0 : 06:16:22.234 :           pszDeviceTag = HdAudModel
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :           ENTRY: CInstallPathCoinst::FindDeviceInstallPath : dwFlags = 0
+7.231.4.0 : 06:16:22.234 :             ENTRY: CInstallPathCoinst::FindDriverStoreInstallPath
+7.231.4.0 : 06:16:22.234 :             EXIT:  CInstallPathCoinst::FindDriverStoreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :             ENTRY: CInstallPathCoinst::FindInstallationSourcesInstallPath
+7.231.4.0 : 06:16:22.234 :             dwSize = 0
+7.231.4.0 : 06:16:22.234 :             EXIT:  CInstallPathCoinst::FindInstallationSourcesInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :             ENTRY: CInstallPathCoinst::FindSavedRollbackFilesPath
+7.231.4.0 : 06:16:22.234 :             csKey = Software\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.234 :             EXIT:  CInstallPathCoinst::FindSavedRollbackFilesPath : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :           EXIT:  CInstallPathCoinst::FindDeviceInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.234 :           ENTRY: CINIFile::RemoveDuplicateAndSortINIFiles
+7.231.4.0 : 06:16:22.234 :           Added: C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.234 :           Added: C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.234 :           Added: C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.234 :           Added: C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.234 :           Added: C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.234 :           Added: C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.234 :             ENTRY: CINIFile::SortINIFiles
+7.231.4.0 : 06:16:22.234 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.234 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:22.234 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.249 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.249 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 102
+7.231.4.0 : 06:16:22.249 :             uSA3FlownOrderNumer = 102
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.249 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.249 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 101
+7.231.4.0 : 06:16:22.249 :             uSA3FlownOrderNumer = 101
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.249 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.249 :               m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :               ENTRY: KINIFile::IsInstSA3FlowINIFile: pszINIFile = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.249 :               EXIT:  KINIFile::IsInstSA3FlowINIFile: nRetVal = 0
+7.231.4.0 : 06:16:22.249 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:22.249 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini, unOrderNumer = 102
+7.231.4.0 : 06:16:22.249 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini, unOrderNumer = 100
+7.231.4.0 : 06:16:22.249 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini, unOrderNumer = 101
+7.231.4.0 : 06:16:22.249 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:22.249 :             PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:22.249 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:22.249 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:22.249 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini, unOrderNumer = 99
+7.231.4.0 : 06:16:22.249 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini, unOrderNumer = 100
+7.231.4.0 : 06:16:22.249 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini, unOrderNumer = 101
+7.231.4.0 : 06:16:22.249 :             POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini, unOrderNumer = 102
+7.231.4.0 : 06:16:22.249 :             EXIT:  CINIFile::SortINIFiles
+7.231.4.0 : 06:16:22.249 :           EXIT:  CINIFile::RemoveDuplicateAndSortINIFiles
+7.231.4.0 : 06:16:22.249 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.249 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.249 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:22.249 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:22.249 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :               pszSectionTag = TASKS
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :             pszInstallSection = TASKS
+7.231.4.0 : 06:16:22.249 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :           szINFFileName= inst_cxsfpt.ini, pszInstallSection = TASKS, pdwFlags = 2097152
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_cxsfpt.ini
+7.231.4.0 : 06:16:22.249 :           dwFlags = 200000 , m_dwCoInstMode = 401
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.249 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.249 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:22.249 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:22.249 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :           szINFFileName= inst_sr.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sr.ini
+7.231.4.0 : 06:16:22.249 :           dwFlags = 200000 , m_dwCoInstMode = 401
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.249 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.249 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:22.249 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:22.249 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :           szINFFileName= inst_ssp.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_ssp.ini
+7.231.4.0 : 06:16:22.249 :           dwFlags = 200000 , m_dwCoInstMode = 401
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.249 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.249 :             ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :           m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:22.249 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:22.249 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:22.249 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :           szINFFileName= inst_mictray.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_mictray.ini
+7.231.4.0 : 06:16:22.249 :           dwFlags = 200000 , m_dwCoInstMode = 401
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.249 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.249 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:22.249 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:22.249 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.249 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:22.249 :           szINFFileName= inst_sa3.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_sa3.ini
+7.231.4.0 : 06:16:22.249 :           dwFlags = 200000 , m_dwCoInstMode = 401
+7.231.4.0 : 06:16:22.249 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:22.249 :         szINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.249 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.249 :           m_szDecorationTag = 
+7.231.4.0 : 06:16:22.249 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.249 :           EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.249 :           ENTRY: KINIFile::GetINIInfo
+7.231.4.0 : 06:16:22.249 :             ENTRY: KINIFile::GetInstallSection
+7.231.4.0 : 06:16:22.249 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.231.4.0 : 06:16:22.249 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.249 :                 ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.265 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.265 :               pszSectionTag = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.265 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.231.4.0 : 06:16:22.265 :             pszInstallSection = TASKS.NTAMD64
+7.231.4.0 : 06:16:22.265 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.231.4.0 : 06:16:22.265 :           szINFFileName= inst_flow.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 2097152
+7.231.4.0 : 06:16:22.265 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.231.4.0 : 06:16:22.265 :           ENTRY: KINICoinst::CheckIfINIValidForInstall : pszINIFileName = C:\Program Files\Conexant\Install\Audio\inst_flow.ini
+7.231.4.0 : 06:16:22.265 :           dwFlags = 200000 , m_dwCoInstMode = 401
+7.231.4.0 : 06:16:22.265 :           EXIT:  KINICoinst::CheckIfINIValidForInstall : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.231.4.0 : 06:16:22.265 :       EXIT:  KINIFile::UCIRun : dwRetVal = 0
+7.231.4.0 : 06:16:22.265 :     m_szDeviceKey3 = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.265 :     m_szDeviceKey4 = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.265 :     m_szDeviceKey5 = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.265 :     m_szDeviceKey6 = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.265 :       ENTRY: CDevice::SetUSBSelectiveSuspendEnabled
+7.231.4.0 : 06:16:22.265 :       szMatchingDeviceId = HDAUDIO\FUNC_01
+7.231.4.0 : 06:16:22.265 :       szDeviceKey = SOFTWARE\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.265 :         ENTRY: KINIFile::GetLocalPath
+7.231.4.0 : 06:16:22.265 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\WINDOWS\system32\
+7.231.4.0 : 06:16:22.265 :         ENTRY: CINIFile::CINIFile
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::ReInitialize
+7.231.4.0 : 06:16:22.265 :           m_dwUCIActiveMutex = 0
+7.231.4.0 : 06:16:22.265 :           m_szINIPath = C:\WINDOWS\system32\
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::ReInitialize
+7.231.4.0 : 06:16:22.265 :         EXIT:  CINIFile::CINIFile(null)
+7.231.4.0 : 06:16:22.265 :         ENTRY: CInstallPathCoinst::FindINIFilePaths : dwFlags = 32
+7.231.4.0 : 06:16:22.265 :           ENTRY: CInstallPathCoinst::FindPreInstallPath
+7.231.4.0 : 06:16:22.265 :           EXIT:  CInstallPathCoinst::FindPreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :           ENTRY: CInstallPathCoinst::FindInstallationPathInstallationPath : pszInstallPathRegValueName = InstallationAppPath
+7.231.4.0 : 06:16:22.265 :           szInstallationPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:22.265 :           EXIT:  CInstallPathCoinst::FindInstallationPathInstallationPath : bRetVal = 1
+7.231.4.0 : 06:16:22.265 :         Adding InstallationAppPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:22.265 :           ENTRY: CInstallPathCoinst::FindDeviceInstallPath : dwFlags = 32
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInstallPathCoinst::FindDriverStoreInstallPath
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInstallPathCoinst::FindDriverStoreInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInstallPathCoinst::FindInstallationSourcesInstallPath
+7.231.4.0 : 06:16:22.265 :             dwSize = 0
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInstallPathCoinst::FindInstallationSourcesInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInstallPathCoinst::FindSavedRollbackFilesPath
+7.231.4.0 : 06:16:22.265 :             csKey = Software\Synaptics\Synaptics High Definition SmartAudio
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInstallPathCoinst::FindSavedRollbackFilesPath : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :           EXIT:  CInstallPathCoinst::FindDeviceInstallPath : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :         EXIT:  CInstallPathCoinst::FindINIFilePaths : bRetVal = 1
+7.231.4.0 : 06:16:22.265 :       szDeviceInstallPath = C:\Program Files\Conexant\Install\Audio
+7.231.4.0 : 06:16:22.265 :         ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_CXSFPT.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_CXSFPT.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_FLOW.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_FLOW.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_MICTRAY.INI
+7.231.4.0 : 06:16:22.265 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.265 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_MICTRAY.INI
+7.231.4.0 : 06:16:22.265 :               ENTRY: CInf::SetupForDecorationA
+7.231.4.0 : 06:16:22.265 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = Conexant
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_SA3.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_SA3.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_SR.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_SR.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_SSP.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :           ENTRY: CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\INSTALL\AUDIO\INST_SSP.INI
+7.231.4.0 : 06:16:22.265 :             m_szDecorationTag = 
+7.231.4.0 : 06:16:22.265 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.231.4.0 : 06:16:22.265 :             EXIT:  CInf :: Initialize
+7.231.4.0 : 06:16:22.265 :           EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :         EXIT:  CINIFile::GetUCIFlagsFromUIUSetupCfgParms
+7.231.4.0 : 06:16:22.265 :       EXIT:  CDevice::SetUSBSelectiveSuspendEnabled : bDisableRebootOnInstall = 0
+7.231.4.0 : 06:16:22.265 :     EXIT:  CDevice::Run : bRetVal = 1
+7.231.4.0 : 06:16:22.265 :   PRE: pMyDeviceInfo->bDoRegUpgradeMoveRestore = 0
+7.231.4.0 : 06:16:22.265 :   EXIT:  RunCoInstaller
