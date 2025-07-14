@@ -1,0 +1,33 @@
+ï»¿Started executable C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0\burpsuite_community_windows-x64_v2025_5_6.exe at Sun Jul  6 17:50:15 2025
+
+[0:0] restrict DLL directories
+[0:13] sun.locale.formatasdefault is false
+[0:30] manual language/country is en
+[0:45] ignoring java options environment variables
+[0:89] using _putenv_s in ucrtbase.dll 00007FF85F48D610 00007FF6C7C10310
+[0:119] change working directory to C:\Users\idop\AppData\Roaming\BurpSuite\updates\f0f34ac0
+[0:133] single instance mode
+[0:146] semaphore name Local\c:_users_idop_appdata_roaming_burpsuite_updates_f0f34ac0_burpsuite_community_windows-x64_v2025_5_6.exe, code 0, value 0000000000000050
+[0:159] Init done
+[0:182] Checking dark mode on Windows 11
+[0:195] Dark mode: 0 0
+[0:257] Starting work
+[0:283] starting at 712192
+[0:308] verifying integrity length 330991882
+[1:582] Canceled installer
+[2:202] checksums: 3281862633 3281862633 -1013104663 -1013104663
+[2:221] tempPath is C:\Users\idop\AppData\Local\install4j\t
+[2:237] tempFile is C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp
+[2:257] Temp dir3: C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417
+[2:282] native lib dir is ${launcher:sys.launcherTempDirectory}\user
+[2:306] expanding2 ${launcher:sys.launcherTempDirectory} to C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417.
+[2:331] Adding DLL directory C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417\user
+[2:348] Setting PATH (native libs) C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417\user;c:\users\idop\appdata\local\programs\burpsuitecommunity\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\WINDOWS\CCM;C:\Program Files\Wireshark\;C:\Users\idop\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\idop\AppData\Local\Programs\Python\Python313\;C:\Users\idop\AppData\Local\Microsoft\WindowsApps;
+[2:374] extracting files
+[2:393] Included files: 27
+[2:409] extracting C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417\i4jruntime.jar (size: 2646295)
+[2:498] Cleaning up cancel 00000000000002C0 1.
+[2:516] emptying C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417
+[2:531] attempting to delete C:\Users\idop\AppData\Local\install4j\t\e4jBADE.tmp_dir1751813417\i4jruntime.jar
+[2:551] schedule deletion 0 1
+[2:577] deletion file name C:\Users\idop\AppData\Local\install4j\t\i4dBC27.tmp
