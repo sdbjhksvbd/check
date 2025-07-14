@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5039 790 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        clip-rule: evenodd;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-s_editpdf_18);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #8d8d8d;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_34196" data-name="Path 34196" class="cls-1" d="M13-8.619A.377.377,0,0,1,13.381-9h5.333a.377.377,0,0,1,.381.381.377.377,0,0,1-.381.381H13.381A.377.377,0,0,1,13-8.619" transform="translate(-13 9)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_34198" data-name="Path 34198" class="cls-1" d="M13-5.619A.377.377,0,0,1,13.381-6h5.333a.377.377,0,0,1,.381.381.377.377,0,0,1-.381.381H13.381A.377.377,0,0,1,13-5.619" transform="translate(-13 6)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_34200" data-name="Path 34200" class="cls-1" d="M13-2.619A.377.377,0,0,1,13.381-3h5.333a.377.377,0,0,1,.381.381.377.377,0,0,1-.381.381H13.381A.377.377,0,0,1,13-2.619" transform="translate(-13 3)"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_34202" data-name="Path 34202" class="cls-1" d="M1.524-8.476H6.1V-3.9H1.524V-8.476ZM0-8.476V-3.9A1.528,1.528,0,0,0,1.524-2.381H6.1A1.528,1.528,0,0,0,7.619-3.9V-8.476A1.528,1.528,0,0,0,6.1-10H1.524A1.528,1.528,0,0,0,0-8.476Z" transform="translate(0 10)"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_34204" data-name="Path 34204" class="cls-1" d="M1.524-20.476H14.476V-15.9H1.524v-4.571Zm0-1.524A1.528,1.528,0,0,0,0-20.476V-15.9a1.528,1.528,0,0,0,1.524,1.524H14.476A1.528,1.528,0,0,0,16-15.9v-4.571A1.528,1.528,0,0,0,14.476-22Z" transform="translate(0 22)"/>
+    </clipPath>
+    <clipPath id="clip-s_editpdf_18">
+      <rect x="5039" y="790" width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="s_editpdf_18" class="cls-2">
+    <rect class="cls-9" x="5039" y="790" width="18" height="18"/>
+    <g id="Group_56371" data-name="Group 56371" transform="translate(5036 786.5)">
+      <g id="Group_56366" data-name="Group 56366" class="cls-3" transform="translate(13.905 13.905)">
+        <path id="Path_34195" data-name="Path 34195" class="cls-4" d="M8-5.619H21.714V-14H8Z" transform="translate(-11.81 10.19)"/>
+      </g>
+      <g id="Group_56367" data-name="Group 56367" class="cls-5" transform="translate(13.905 16.19)">
+        <path id="Path_34197" data-name="Path 34197" class="cls-4" d="M8-2.619H21.714V-11H8Z" transform="translate(-11.81 7.19)"/>
+      </g>
+      <g id="Group_56368" data-name="Group 56368" class="cls-6" transform="translate(13.905 18.476)">
+        <path id="Path_34199" data-name="Path 34199" class="cls-4" d="M8,.381H21.714V-8H8Z" transform="translate(-11.81 4.19)"/>
+      </g>
+      <g id="Group_56369" data-name="Group 56369" class="cls-7" transform="translate(4 13.143)">
+        <path id="Path_34201" data-name="Path 34201" class="cls-4" d="M-5,.238H10.238V-15H-5Z" transform="translate(1.19 11.19)"/>
+      </g>
+      <g id="Group_56370" data-name="Group 56370" class="cls-8" transform="translate(4 4)">
+        <path id="Path_34203" data-name="Path 34203" class="cls-4" d="M-5-11.762H18.619V-27H-5Z" transform="translate(1.19 23.19)"/>
+      </g>
+    </g>
+  </g>
+</svg>
