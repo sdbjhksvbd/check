@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-515 13615 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-S_Reminders_18);
+      }
+
+      .cls-2 {
+        fill: #707070;
+      }
+    </style>
+    <clipPath id="clip-S_Reminders_18">
+      <rect x="-515" y="13615" width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="S_Reminders_18" class="cls-1">
+    <path id="Path_1532" data-name="Path 1532" class="cls-2" d="M9.014,16.079a.466.466,0,0,0,.143.308l2.281,1.844A.454.454,0,0,0,12.1,18.1l.532-.653a.556.556,0,0,0-.138-.724l-1.5-1.2v-4a.538.538,0,0,0-.511-.533H9.517A.544.544,0,0,0,9,11.527Z" transform="translate(-516 13610)"/>
+    <path id="Path_1533" data-name="Path 1533" class="cls-2" d="M1.155,9.088a.473.473,0,0,0,0,.671l.673.672a.474.474,0,0,0,.671,0L5.871,7.038a.476.476,0,0,0,0-.672l-.654-.654a.477.477,0,0,0-.673,0Z" transform="translate(-516 13610)"/>
+    <path id="Path_1534" data-name="Path 1534" class="cls-2" d="M17.5,10.431a.474.474,0,0,0,.671,0l.672-.672a.474.474,0,0,0,0-.671L15.454,5.716a.476.476,0,0,0-.672,0l-.654.654a.476.476,0,0,0,0,.673Z" transform="translate(-516 13610)"/>
+    <path id="Path_1535" data-name="Path 1535" class="cls-2" d="M16.67,14.969a6.6,6.6,0,1,1-6.611-6.6A6.612,6.612,0,0,1,16.67,14.969Zm1.08,0a7.684,7.684,0,1,0-7.691,7.684A7.692,7.692,0,0,0,17.75,14.969Z" transform="translate(-516 13610)"/>
+  </g>
+</svg>
