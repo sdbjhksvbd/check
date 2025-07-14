@@ -1,0 +1,23 @@
+{
+   "app_description": {
+      "message": "â€žChromeâ€œ internetinÄ—s parduotuvÄ—s mokÄ—jimo sistema"
+   },
+   "app_name": {
+      "message": "â€žChromeâ€œ internetinÄ—s parduotuvÄ—s mokÄ—jimo sistema"
+   },
+   "craw_app_unavailable": {
+      "message": "Programa Å¡iuo metu negalima."
+   },
+   "craw_connect_to_network": {
+      "message": "Prisijunkite prie tinklo."
+   },
+   "iap_unavailable": {
+      "message": "MokÄ—jimai programoje Å¡iuo metu negalimi."
+   },
+   "jwt_retrieve_failed": {
+      "message": "The transaction could not be completed."
+   },
+   "please_sign_in": {
+      "message": "Prisijunkite prie â€žChromeâ€œ."
+   }
+}
