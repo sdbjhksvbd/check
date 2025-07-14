@@ -1,0 +1,15 @@
+2025-06-26 09:56:32.106 [CORE] WinGet, version [1.11.400], activity [{D291614C-E643-4E5A-A30C-9A567DFAA933}]
+2025-06-26 09:56:32.107 [CORE] OS: Windows.Desktop v10.0.26100.4349
+2025-06-26 09:56:32.107 [CORE] Command line Args: "C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.26.400.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe" -Embedding
+2025-06-26 09:56:32.107 [CORE] Package: Microsoft.DesktopAppInstaller v1.26.400.0
+2025-06-26 09:56:32.107 [CORE] IsCOMCall:1; Caller: Microsoft.StorePurchaseApp_8wekyb3d8bbwe
+2025-06-26 09:56:32.126 [CORE] Default proxy is not set
+2025-06-26 09:56:32.127 [REPO] REST HTTP Client helper does not use proxy
+2025-06-26 09:56:32.163 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-06-26 09:56:32.317 [REPO] Response status: 200
+2025-06-26 09:56:32.318 [REPO] Authentication node not found. Assuming authentication type none.
+2025-06-26 09:56:32.349 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-06-26 09:56:32.393 [REPO] Reading MSI UpgradeCodes
+2025-06-26 09:56:32.439 [REPO] Reading MSI UpgradeCodes
+2025-06-26 09:56:33.069 [REPO] Opening database for ReadWrite at 'C:\Users\idop\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-06-26 09:56:33.072 [REPO] Opened SQLite Index with version [1.7], last write [2025-06-08 10:15:24.000]
