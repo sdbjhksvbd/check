@@ -1,0 +1,19 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2016 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+define("acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app",["plugins-common/ac-plugins"],function(p){var e=p.ExportpdfupsellApp;return e||(e=p.ExportpdfupsellApp={}),e}),define("acplugins/exportpdfupsell-app/js/nls/ui-strings",{root:!0,"xx-xx":!0,"de-de":!0,"en-gb":!0,"es-es":!0,"fr-fr":!0,"it-it":!0,"ja-jp":!0,"da-dk":!0,"fi-fi":!0,"nb-no":!0,"nl-nl":!0,"pt-br":!0,"sv-se":!0,"zh-cn":!0,"zh-tw":!0,"ko-kr":!0,"cs-cz":!0,"hu-hu":!0,"pl-pl":!0,"ru-ru":!0,"uk-ua":!0,"tr-tr":!0,"sk-sk":!0,"sl-si":!0,"bg-bg":!0}),define("acplugins/exportpdfupsell-app/js/nls/root/ui-strings",{EXPORTPDFUPSELL_APP:"Export PDF",EXPORTPDFUPSELL_APP_TOOL_VIEW_TITLE_RHP:"Convert PDF Files to Word or Excel Online",EXPORTPDFUPSELL_APP_ICON_TOOLTIP:"Learn more",EXPORTPDFUPSELL_APP_START:"Learn more",EXPORTPDFUPSELL_APP_HEADING:"Adobe Acrobat Pro DC",EXPORTPDFUPSELL_APP_RHP_GO_URL:"http://www.adobe.com/go/epdfrhprdr_12_0_11"}),define("acplugins/exportpdfupsell-app/js/views/selector-view",["core/ac-core","acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app","i18n!acplugins/exportpdfupsell-app/js/nls/ui-strings","core/views/plugin-selector-view"],function(p,e,l){return e.SelectorView=p.PluginSelectorView.extend({getSelectorLabel:function(){return l.EXPORTPDFUPSELL_APP},getSelectorIconClass:function(){return"exportpdfupsellapp-toolbar-icon"},getSiteCatalystName:function(){return"exportpdfupsellapp"}}),e.SelectorView}),define("acplugins/exportpdfupsell-app/js/ops/plugin/starting-plugin-op",["core/ac-core","acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app","core/ops/op"],function(p,e){return e.StartingPluginOp=p.Op.extend({run:function(){return this._getResolvedPromise()}}),e.StartingPluginOp}),define("acplugins/exportpdfupsell-app/js/ops/full-preview-overlay/selecting-full-preview-overlay-op",["core/ac-core","acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app","core/ops/op"],function(p,e){return e.SelectingFullPreviewOverlayOp=p.Op.extend({run:function(){return p.opFactory.create("SelectingPluginOp",this.options).run("full_preview_overlay_example")}}),e.SelectingFullPreviewOverlayOp}),define("acplugins/exportpdfupsell-app/js/ops/op-factory",["core/ac-core","acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app","acplugins/exportpdfupsell-app/js/ops/plugin/starting-plugin-op","acplugins/exportpdfupsell-app/js/ops/full-preview-overlay/selecting-full-preview-overlay-op"],function(p,e){e.OpFactory=p.Op.extend({create:function(p,l){var r=e[p];return r?new r(l):void LOG(0,"AcExportPdfUpsellApp.OpFactory.create: Unrecognized class: "+p)}})}),define("acplugins/exportpdfupsell-app/js/exportpdfupsell-app",["acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app","acplugins/exportpdfupsell-app/js/ops/op-factory"],function(p){_.extend(p,{init:function(){p.opFactory=new p.OpFactory}})}),define("acplugins/exportpdfupsell-app/js/plugins/rhp/exportpdfupsell-app-selector",["acplugins/exportpdfupsell-app/js/ac-exportpdfupsell-app","acplugins/exportpdfupsell-app/js/views/selector-view","acplugins/exportpdfupsell-app/js/exportpdfupsell-app"],function(p){return p.SelectorView});
