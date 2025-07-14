@@ -1,0 +1,1 @@
+"use strict";(self["webpackJsonp-desktop-app"]=self["webpackJsonp-desktop-app"]||[]).push([[87125],{AKXl:(e,p,s)=>{s.r(p),s.d(p,{default:()=>a});const a=s.p+"7ec969a62598fbfa1ee1eb8827a0f2e5.png"}}]);
