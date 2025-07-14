@@ -1,0 +1,606 @@
+7.160.0.2 : 10:41:32.849 : C:\PROGRAM FILES\CONEXANT\SFPRESET\SETUP64.EXE "
+7.160.0.2 : 10:41:32.849 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.160.0.2
+7.160.0.2 : 10:41:32.849 :   Version = V7.160.0.2
+7.160.0.2 : 10:41:32.849 :   OS Platform = OS_WIN10-64
+7.160.0.2 : 10:41:32.849 :   dwSetupConfig = 20100 : dwMode = 80220002
+7.160.0.2 : 10:41:32.849 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -U -ISFPRESET
+7.160.0.2 : 10:41:32.849 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -ISFPRESET
+7.160.0.2 : 10:41:32.849 :     ENTRY: CSetupDlg::RunSetupDlg
+7.160.0.2 : 10:41:32.849 :       ENTRY: CUninstall :: SetupUninstallEnviroment
+7.160.0.2 : 10:41:32.849 :         ENTRY: CUninstall::IsAlternateUninstallerFileCase
+7.160.0.2 : 10:41:32.849 :         EXIT:  CUninstall::IsAlternateUninstallerFileCase: bRetVal=0
+7.160.0.2 : 10:41:32.849 :         ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:32.849 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:32.849 :         ENTRY: CDevNode::IsDeleteLogFilesOnUninstall
+7.160.0.2 : 10:41:32.849 :         EXIT:  CDevNode::IsDeleteLogFilesOnUninstall : bRetVal = 0
+7.160.0.2 : 10:41:32.849 :         ENTRY: CDevNode::GetUCIFlagsValue
+7.160.0.2 : 10:41:32.849 :         EXIT:  CDevNode::GetUCIFlagsValue : dwUCIFlags = 0
+7.160.0.2 : 10:41:32.849 :       EXIT:  CUninstall :: SetupUninstallEnviroment : bRetVal = 1
+7.160.0.2 : 10:41:32.849 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:32.849 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.849 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 10:41:32.849 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 10:41:32.849 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.849 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 10:41:32.849 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 10:41:32.849 :       ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:32.849 :         ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.160.0.2 : 10:41:32.849 :         EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.160.0.2 : 10:41:32.849 :       EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:32.849 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:32.865 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.865 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 10:41:32.865 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 10:41:32.865 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.865 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 10:41:32.865 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 10:41:32.865 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.160.0.2 : 10:41:32.865 :         ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.160.0.2 : 10:41:32.865 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:32.865 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.865 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:32.865 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:32.865 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:32.865 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:32.865 :         m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.160.0.2 : 10:41:32.865 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 10:41:32.865 :         MyPaths = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.865 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 10:41:32.865 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 4
+7.160.0.2 : 10:41:32.865 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:32.865 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.865 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 10:41:32.865 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:32.865 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:32.865 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.160.0.2 : 10:41:32.865 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 10:41:32.865 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 10:41:32.896 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:32.896 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:32.896 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:32.896 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:32.990 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 10:41:32.990 :               csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 10:41:32.990 :               pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 10:41:32.990 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 10:41:33.021 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 10:41:33.021 :               csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.021 :               pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.021 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 10:41:33.021 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.021 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:33.021 :           szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:33.021 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.021 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:33.021 :             dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.021 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:33.021 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:33.021 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:33.021 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:33.021 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 10:41:33.021 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:33.021 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 10:41:33.021 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:33.021 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 10:41:33.021 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:33.021 :           pszInstallSection = HdAudModel.82a5.NTAMD64, dwCoinstStatus = 4
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 10:41:33.021 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 10:41:33.021 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 10:41:33.021 :       ENTRY: CINIFile::UninstallINIFiles : pszDeviceID= SFPRESET
+7.160.0.2 : 10:41:33.021 :         ENTRY: KINIFile::Initialize : pszDeviceID = SFPRESET
+7.160.0.2 : 10:41:33.021 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:33.021 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:33.037 :         m_szDriverPath = SFPRESET
+7.160.0.2 : 10:41:33.037 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 10:41:33.037 :         MyPaths = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:33.037 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 10:41:33.037 :         ENTRY: KINIFile::UninstallINIFiles
+7.160.0.2 : 10:41:33.037 :         szUninstallPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:33.037 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 10:41:33.037 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:33.037 :           szTestFile = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.037 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.160.0.2 : 10:41:33.037 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 10:41:33.037 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 10:41:33.069 :           ENTRY: KINIFile::DoInstallAppSectionOnly : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.085 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:33.085 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:33.085 :                 ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:33.085 :                 EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:33.206 :                 ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 10:41:33.206 :                 csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 10:41:33.206 :                 pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 10:41:33.206 :                 EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 10:41:33.222 :                 ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 10:41:33.222 :                 csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.222 :                 pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.222 :                 EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 10:41:33.222 :                 ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF&REV_1001
+7.160.0.2 : 10:41:33.222 :                 EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:33.222 :               pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.222 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:33.238 :             szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 10:41:33.238 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:33.238 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.238 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:33.238 :               dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.238 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:33.238 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:33.238 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 10:41:33.238 :             KINIFile::InstallDefinedApps : pszInstallSection = HdAudModel.82a5.NTAMD64, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:33.238 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 10:41:33.238 :               szInstallAppSection = InstallApp, pszInstallTag = UninstallApp
+7.160.0.2 : 10:41:33.238 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 10:41:33.238 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 10:41:33.238 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 10:41:33.238 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 10:41:33.238 :           EXIT:  KINIFile::DoInstallAppSectionOnly : dwRetVal = 0
+7.160.0.2 : 10:41:33.253 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 10:41:33.253 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 10:41:33.253 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:33.269 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.160.0.2 : 10:41:33.363 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 10:41:33.363 :               csTestDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 10:41:33.363 :               pszDeviceTag = HdAudModel.NTAMD64
+7.160.0.2 : 10:41:33.363 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 10:41:33.394 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.160.0.2 : 10:41:33.394 :               csTestDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.394 :               pszDeviceTag = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.394 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.160.0.2 : 10:41:33.394 :             pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.394 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 10:41:33.394 :           szINFFileName= SFPreset.ini, pszInstallSection = HdAudModel.82a5.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 10:41:33.394 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 10:41:33.394 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.394 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 10:41:33.394 :             dwFlags = 68681728, pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.394 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:33.394 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 10:41:33.394 :           ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.394 :           EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 10:41:33.394 :           ENTRY: KINIFile::UninstallPreCopyFiles : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.394 :           EXIT:  KINIFile::UninstallPreCopyFiles
+7.160.0.2 : 10:41:33.410 :           ENTRY: KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:33.410 :           EXIT:  KINIFile::UninstallInstallShield
+7.160.0.2 : 10:41:33.410 :           ENTRY: KINIFile::ProcessINIFile : pszInstallSection = HdAudModel.82a5.NTAMD64
+7.160.0.2 : 10:41:33.410 :             ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:33.410 :             m_hClassDeviceKey = 816
+7.160.0.2 : 10:41:33.410 :             EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 10:41:33.425 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:33.425 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:33.425 :             ENTRY: CInf::ResetDeleteOnRebootList
+7.160.0.2 : 10:41:33.425 :             EXIT:  CInf::ResetDeleteOnRebootList
+7.160.0.2 : 10:41:33.425 :             ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:33.425 :             pszFileToDelete = C:\Program Files\Conexant\SFPreset\setup64.exe, dwFlags = 2
+7.160.0.2 : 10:41:33.425 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 10:41:33.425 :           HKLM: klAddRegInfoList.GetCount() = 7, cslKeyList.GetCount() = 1
+7.160.0.2 : 10:41:33.425 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:33.425 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 10:41:33.425 :             ENTRY: CShortCut::DeleteShortcut
+7.160.0.2 : 10:41:33.441 :             EXIT:  CShortCut::DeleteShortcut : bRetVal = 0
+7.160.0.2 : 10:41:33.441 :             ENTRY: CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:33.441 :             pszINIFileName = C:\PROGRAM FILES\CONEXANT\SFPRESET\\SFPreset.ini
+7.160.0.2 : 10:41:33.472 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:33.472 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\82a50419, dwFlags = 2
+7.160.0.2 : 10:41:33.472 :               GetLastError() = 2
+7.160.0.2 : 10:41:33.472 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\82a50419
+7.160.0.2 : 10:41:33.472 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO
+7.160.0.2 : 10:41:33.472 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:33.472 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:33.472 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:33.472 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:33.472 :               GetLastError() = 2
+7.160.0.2 : 10:41:33.472 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\AnyContent\Preset.bin
+7.160.0.2 : 10:41:33.472 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:33.472 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:33.472 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:33.472 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:33.583 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:33.583 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:33.583 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:33.583 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:33.583 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:33.583 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:33.583 :               GetLastError() = 2
+7.160.0.2 : 10:41:33.583 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\Movie\Preset.bin
+7.160.0.2 : 10:41:33.583 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:33.583 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:33.583 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:33.598 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:33.703 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:33.703 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:33.703 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:33.703 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:33.703 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:33.703 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:33.703 :               GetLastError() = 2
+7.160.0.2 : 10:41:33.703 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\EFX\AnyOutput\Voice\Preset.bin
+7.160.0.2 : 10:41:33.703 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:33.703 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:33.703 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:33.703 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:33.812 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:33.812 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:33.812 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:33.812 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:33.812 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:33.923 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:33.923 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX
+7.160.0.2 : 10:41:33.923 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:33.923 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:33.923 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:33.923 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:33.923 :               GetLastError() = 2
+7.160.0.2 : 10:41:33.923 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\AnyContent\Preset.bin
+7.160.0.2 : 10:41:33.923 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:33.923 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:33.939 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:33.939 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:34.048 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.048 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES
+7.160.0.2 : 10:41:34.048 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:34.048 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:34.048 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:34.048 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:34.048 :               GetLastError() = 2
+7.160.0.2 : 10:41:34.048 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\Movie\Preset.bin
+7.160.0.2 : 10:41:34.048 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:34.048 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:34.064 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:34.064 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:34.173 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.173 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES
+7.160.0.2 : 10:41:34.173 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:34.173 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:34.173 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:34.173 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:34.173 :               GetLastError() = 2
+7.160.0.2 : 10:41:34.173 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\EFX\Headphones\Voice\Preset.bin
+7.160.0.2 : 10:41:34.173 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:34.173 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:34.189 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:34.189 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:34.305 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.305 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES
+7.160.0.2 : 10:41:34.305 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES
+7.160.0.2 : 10:41:34.305 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES
+7.160.0.2 : 10:41:34.305 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX\HEADPHONES
+7.160.0.2 : 10:41:34.414 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.414 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX
+7.160.0.2 : 10:41:34.414 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX
+7.160.0.2 : 10:41:34.414 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX
+7.160.0.2 : 10:41:34.414 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\EFX
+7.160.0.2 : 10:41:34.525 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.525 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0
+7.160.0.2 : 10:41:34.525 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:34.525 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:34.525 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:34.525 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:34.525 :               GetLastError() = 2
+7.160.0.2 : 10:41:34.525 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\AnyContent\Preset.bin
+7.160.0.2 : 10:41:34.525 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:34.525 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:34.541 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:34.541 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:34.650 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.650 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:34.655 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:34.655 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:34.655 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:34.655 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:34.655 :               GetLastError() = 2
+7.160.0.2 : 10:41:34.655 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\Movie\Preset.bin
+7.160.0.2 : 10:41:34.655 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:34.655 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:34.655 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:34.655 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:34.780 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.780 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:34.780 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:34.780 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:34.780 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:34.780 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:34.780 :               GetLastError() = 2
+7.160.0.2 : 10:41:34.780 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\GFX\AnyOutput\Voice\Preset.bin
+7.160.0.2 : 10:41:34.780 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:34.780 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:34.780 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:34.780 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:34.889 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.889 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:34.889 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:34.889 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:34.889 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:34.999 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:34.999 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX
+7.160.0.2 : 10:41:34.999 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:34.999 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:34.999 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:34.999 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:34.999 :               GetLastError() = 2
+7.160.0.2 : 10:41:34.999 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\AnyContent\Preset.bin
+7.160.0.2 : 10:41:34.999 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:34.999 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:34.999 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:34.999 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:35.108 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.108 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES
+7.160.0.2 : 10:41:35.108 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:35.108 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:35.108 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:35.108 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:35.108 :               GetLastError() = 2
+7.160.0.2 : 10:41:35.108 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\Movie\Preset.bin
+7.160.0.2 : 10:41:35.108 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:35.108 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:35.108 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:35.108 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:35.230 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.230 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES
+7.160.0.2 : 10:41:35.230 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:35.230 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:35.230 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:35.230 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:35.230 :               GetLastError() = 2
+7.160.0.2 : 10:41:35.230 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\0\GFX\Headphones\Voice\Preset.bin
+7.160.0.2 : 10:41:35.230 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:35.230 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:35.230 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:35.230 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:35.340 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.340 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES
+7.160.0.2 : 10:41:35.340 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES
+7.160.0.2 : 10:41:35.340 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES
+7.160.0.2 : 10:41:35.340 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX\HEADPHONES
+7.160.0.2 : 10:41:35.449 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.449 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX
+7.160.0.2 : 10:41:35.449 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX
+7.160.0.2 : 10:41:35.449 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX
+7.160.0.2 : 10:41:35.449 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0\GFX
+7.160.0.2 : 10:41:35.558 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.558 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0
+7.160.0.2 : 10:41:35.558 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0
+7.160.0.2 : 10:41:35.558 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0
+7.160.0.2 : 10:41:35.558 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\0
+7.160.0.2 : 10:41:35.669 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.669 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO
+7.160.0.2 : 10:41:35.669 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:35.669 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:35.669 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:35.669 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:35.669 :               GetLastError() = 2
+7.160.0.2 : 10:41:35.669 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\AnyContent\Preset.bin
+7.160.0.2 : 10:41:35.669 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:35.669 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:35.669 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:35.669 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:35.778 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.778 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:35.778 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:35.778 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:35.778 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:35.778 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:35.778 :               GetLastError() = 2
+7.160.0.2 : 10:41:35.778 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\Movie\Preset.bin
+7.160.0.2 : 10:41:35.778 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:35.778 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:35.778 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:35.778 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:35.887 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.887 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:35.887 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:35.887 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:35.887 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:35.887 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:35.887 :               GetLastError() = 2
+7.160.0.2 : 10:41:35.887 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\EFX\AnyOutput\Voice\Preset.bin
+7.160.0.2 : 10:41:35.887 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:35.887 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:35.887 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:35.887 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:35.997 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:35.997 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:35.997 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:35.997 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:35.997 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\ANYOUTPUT
+7.160.0.2 : 10:41:36.106 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.106 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX
+7.160.0.2 : 10:41:36.106 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.106 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.106 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.106 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:36.106 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.106 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\AnyContent\Preset.bin
+7.160.0.2 : 10:41:36.106 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:36.106 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:36.106 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:36.106 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:36.217 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.217 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES
+7.160.0.2 : 10:41:36.217 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.217 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.217 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.217 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:36.217 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.217 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\Movie\Preset.bin
+7.160.0.2 : 10:41:36.217 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:36.217 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:36.232 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:36.232 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:36.342 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.342 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES
+7.160.0.2 : 10:41:36.342 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.342 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.342 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.342 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:36.342 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.342 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\EFX\Headphones\Voice\Preset.bin
+7.160.0.2 : 10:41:36.342 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:36.342 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:36.342 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:36.342 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:36.467 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.467 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES
+7.160.0.2 : 10:41:36.467 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES
+7.160.0.2 : 10:41:36.467 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES
+7.160.0.2 : 10:41:36.467 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX\HEADPHONES
+7.160.0.2 : 10:41:36.576 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.576 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX
+7.160.0.2 : 10:41:36.576 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX
+7.160.0.2 : 10:41:36.576 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX
+7.160.0.2 : 10:41:36.576 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\EFX
+7.160.0.2 : 10:41:36.685 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.685 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1
+7.160.0.2 : 10:41:36.685 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.685 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.685 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.685 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:36.685 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.685 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\AnyContent\Preset.bin
+7.160.0.2 : 10:41:36.685 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:36.685 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:36.685 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:36.685 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\ANYCONTENT
+7.160.0.2 : 10:41:36.796 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.796 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:36.796 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.796 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.796 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.796 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:36.796 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.796 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\Movie\Preset.bin
+7.160.0.2 : 10:41:36.796 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:36.796 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:36.796 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:36.796 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\MOVIE
+7.160.0.2 : 10:41:36.905 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:36.905 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:36.905 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:36.905 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:36.905 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:36.905 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:36.905 :               GetLastError() = 2
+7.160.0.2 : 10:41:36.905 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\GFX\AnyOutput\Voice\Preset.bin
+7.160.0.2 : 10:41:36.905 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:36.905 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:36.905 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:36.905 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT\VOICE
+7.160.0.2 : 10:41:37.015 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.015 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:37.015 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:37.015 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:37.015 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\ANYOUTPUT
+7.160.0.2 : 10:41:37.125 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.125 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX
+7.160.0.2 : 10:41:37.125 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:37.125 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:37.125 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:37.125 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\AnyContent\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:37.125 :               GetLastError() = 2
+7.160.0.2 : 10:41:37.125 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\AnyContent\Preset.bin
+7.160.0.2 : 10:41:37.125 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:37.125 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:37.125 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:37.125 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\ANYCONTENT
+7.160.0.2 : 10:41:37.234 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.234 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES
+7.160.0.2 : 10:41:37.234 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:37.234 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:37.234 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:37.234 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\Movie\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:37.234 :               GetLastError() = 2
+7.160.0.2 : 10:41:37.234 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\Movie\Preset.bin
+7.160.0.2 : 10:41:37.234 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:37.234 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:37.234 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:37.234 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\MOVIE
+7.160.0.2 : 10:41:37.344 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.344 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES
+7.160.0.2 : 10:41:37.344 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:37.344 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:37.344 :               ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 10:41:37.344 :               pszFileToDelete = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\Voice\Preset.bin, dwFlags = 2
+7.160.0.2 : 10:41:37.344 :               GetLastError() = 2
+7.160.0.2 : 10:41:37.344 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\ProgramData\SoundResearch\APO\1\GFX\Headphones\Voice\Preset.bin
+7.160.0.2 : 10:41:37.344 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:37.344 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:37.344 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:37.344 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES\VOICE
+7.160.0.2 : 10:41:37.457 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.457 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES
+7.160.0.2 : 10:41:37.457 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES
+7.160.0.2 : 10:41:37.457 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES
+7.160.0.2 : 10:41:37.457 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX\HEADPHONES
+7.160.0.2 : 10:41:37.567 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.567 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX
+7.160.0.2 : 10:41:37.567 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX
+7.160.0.2 : 10:41:37.567 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX
+7.160.0.2 : 10:41:37.567 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1\GFX
+7.160.0.2 : 10:41:37.677 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.677 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1
+7.160.0.2 : 10:41:37.677 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1
+7.160.0.2 : 10:41:37.677 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1
+7.160.0.2 : 10:41:37.677 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO\1
+7.160.0.2 : 10:41:37.787 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.787 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH\APO
+7.160.0.2 : 10:41:37.787 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH\APO
+7.160.0.2 : 10:41:37.787 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH\APO
+7.160.0.2 : 10:41:37.787 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH\APO
+7.160.0.2 : 10:41:37.896 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:37.896 :                 csFolderToDelete = C:\PROGRAMDATA\SOUNDRESEARCH
+7.160.0.2 : 10:41:37.896 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAMDATA\SOUNDRESEARCH
+7.160.0.2 : 10:41:37.896 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAMDATA\SOUNDRESEARCH
+7.160.0.2 : 10:41:37.896 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAMDATA\SOUNDRESEARCH
+7.160.0.2 : 10:41:38.005 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.160.0.2 : 10:41:38.005 :                 csFolderToDelete = C:\PROGRAMDATA
+7.160.0.2 : 10:41:38.005 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.160.0.2 : 10:41:38.005 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 10:41:38.005 :             EXIT:  CCabFile::UninstallIniDefinedCabs
+7.160.0.2 : 10:41:38.115 :           EXIT:  KINIFile::UninstallINIFiles : dwRetFlags = 135266304
+7.160.0.2 : 10:41:38.115 :         EXIT:  CINIFile::UninstallINIFiles : dwRetVal = 135266304
+7.160.0.2 : 10:41:38.115 :         ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:38.115 :           ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.160.0.2 : 10:41:38.115 :           EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.160.0.2 : 10:41:38.115 :         EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.160.0.2 : 10:41:38.115 :         ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:38.115 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:38.115 :         ENTRY: CINIFile::CINIFile
+7.160.0.2 : 10:41:38.115 :           ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 10:41:38.115 :           m_szINIPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:38.115 :           EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 10:41:38.130 :         EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 10:41:38.130 :         ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.160.0.2 : 10:41:38.130 :           ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.160.0.2 : 10:41:38.130 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:38.130 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:38.130 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:38.130 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:38.130 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.160.0.2 : 10:41:38.130 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 10:41:38.130 :           m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.160.0.2 : 10:41:38.130 :           m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 10:41:38.146 :           MyPaths = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:38.146 :           EXIT:  KINIFile::Initialize
+7.160.0.2 : 10:41:38.146 :           ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 8
+7.160.0.2 : 10:41:38.146 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 10:41:38.146 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:38.146 :             ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 10:41:38.146 :             pszInstallPath = C:\PROGRAM FILES\CONEXANT\SFPRESET\
+7.160.0.2 : 10:41:38.146 :             EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 0
+7.160.0.2 : 10:41:38.146 :           EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 10:41:38.146 :         EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 10:41:38.146 :       EXIT:  CSetupDlg::RunSetupDlg
+7.160.0.2 : 10:41:38.161 :     EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.160.0.2 : 10:41:38.161 :     ENTRY: CSetupApp::SetupRetVal
+7.160.0.2 : 10:41:38.161 :       ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.160.0.2 : 10:41:38.161 :       EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.160.0.2 : 10:41:38.161 :       ENTRY: CSetupApp::ExitInstance()
+7.160.0.2 : 10:41:39.469 :         ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.160.0.2 : 10:41:39.485 :         EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.160.0.2 : 10:41:39.485 :       EXIT:  CSetupApp::ExitInstance()
