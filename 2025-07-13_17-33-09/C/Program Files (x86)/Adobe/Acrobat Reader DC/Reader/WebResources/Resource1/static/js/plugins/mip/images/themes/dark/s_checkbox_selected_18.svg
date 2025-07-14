@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FBFBFB;}
+	.st1{fill:#1473E6;}
+	.st2{fill:#FF00FF;fill-opacity:0;}
+</style>
+<g>
+	<g id="s_checkbox_selected_18">
+		<g id="Checkbox" transform="translate(5997 2149)">
+			<path id="Box_Background" class="st0" d="M-5993-2147h10c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2h-10c-1.1,0-2-0.9-2-2v-10
+				C-5995-2146.1-5994.1-2147-5993-2147z"/>
+			<path id="Box_Border" class="st1" d="M-5993-2147h10c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2h-10c-1.1,0-2-0.9-2-2v-10
+				C-5995-2146.1-5994.1-2147-5993-2147z"/>
+			<g id="Checkmark" transform="translate(3 12)">
+				<rect id="Frame" x="-5997" y="-2158" class="st2" width="12" height="12"/>
+				<path id="Shape" class="st0" d="M-5986.5-2154.5c0-0.6-0.4-1-1-1c-0.3,0-0.5,0.1-0.7,0.3l-4,4l-1.5-1.5c-0.4-0.4-1-0.4-1.4,0
+					c-0.4,0.4-0.4,1,0,1.4c0,0,0,0,0,0l2.2,2.2c0.4,0.4,1,0.4,1.4,0l4.8-4.8C-5986.6-2154-5986.5-2154.2-5986.5-2154.5z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
