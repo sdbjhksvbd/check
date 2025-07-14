@@ -1,0 +1,649 @@
+7.160.0.2 : 06:16:28.425 : C:\Program Files\Conexant\Install\Audio\sspconfig\x64\Setup64.exe -
+7.160.0.2 : 06:16:28.425 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.160.0.2
+7.160.0.2 : 06:16:28.425 :   Version = V7.160.0.2
+7.160.0.2 : 06:16:28.425 :   OS Platform = OS_WIN10-64
+7.160.0.2 : 06:16:28.425 :   dwSetupConfig = 20100 : dwMode = D0020011
+7.160.0.2 : 06:16:28.425 :   Found Mutex - CNXT_COINST_RUNNING
+7.160.0.2 : 06:16:28.425 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-INI=SSPCONFIG.INI, SSPCONFIG -FNAME="SSPConfig" -FNAME="SSPConfig" -NR
+7.160.0.2 : 06:16:28.425 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -L2=DETAIL -PNPID_FROM_UCI="hdaudio\func_01&ven_14f1&dev_5098&subsys_103c83ef"-FNAME="SSPConfig" -FNAME="SSPConfig" -NR
+7.160.0.2 : 06:16:28.425 :     ENTRY: CSetupDlg::RunSetupDlg
+7.160.0.2 : 06:16:28.425 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.160.0.2 : 06:16:28.425 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.160.0.2 : 06:16:28.425 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.160.0.2 : 06:16:28.425 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=0
+7.160.0.2 : 06:16:28.425 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.425 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.425 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:28.425 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.425 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.425 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.425 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:28.425 :       ENTRY: CInstall::SetUserInfoReg
+7.160.0.2 : 06:16:28.425 :       EXIT:  CInstall::SetUserInfoReg
+7.160.0.2 : 06:16:28.425 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.425 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.425 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:28.425 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.425 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.425 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.425 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:28.440 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.440 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.440 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:28.440 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.440 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.440 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.440 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:28.440 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.440 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.440 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.440 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.440 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.440 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.440 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.440 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.440 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.160.0.2 : 06:16:28.440 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 06:16:28.440 :         MyPaths = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.456 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 06:16:28.456 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 1
+7.160.0.2 : 06:16:28.456 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.456 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.456 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 06:16:28.456 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.456 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.456 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.456 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.456 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 3
+7.160.0.2 : 06:16:28.456 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 06:16:28.456 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 06:16:28.456 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 06:16:28.456 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 06:16:28.456 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 06:16:28.456 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 06:16:28.456 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 06:16:28.456 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 06:16:28.456 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.456 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.456 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.456 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.472 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.472 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.472 :           szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.472 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.472 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.472 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.472 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.472 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.472 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.472 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.472 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.472 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.472 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.472 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.472 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.472 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.472 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.472 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.472 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.472 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.472 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.472 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.472 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.472 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.472 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.472 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.472 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.487 :             pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.487 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.487 :           szINFFileName= CopyConfig.ini, pszInstallSection = TASKS, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.487 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.487 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.487 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.487 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.487 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.487 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.487 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.487 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.487 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.487 :           [***REBOOT***]: From KINIFile::GetINIInfo - GetINIFlagValue(REBOOT_LABEL)
+7.160.0.2 : 06:16:28.487 :           szINFFileName= CxProper.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048577
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.487 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.487 :             dwFlags = 1048577, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.487 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.487 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 1
+7.160.0.2 : 06:16:28.487 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.487 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 06:16:28.487 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:28.503 :       ENTRY: CINIFile::InstallINIFiles
+7.160.0.2 : 06:16:28.503 :       pszDeviceID = CNXTAPP, pszINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.503 :         ENTRY: KINIFile::Initialize : pszDeviceID = CNXTAPP
+7.160.0.2 : 06:16:28.503 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.503 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.503 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.503 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.503 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000
+7.160.0.2 : 06:16:28.503 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.160.0.2 : 06:16:28.503 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 06:16:28.503 :         MyPaths = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.503 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 06:16:28.503 :         ENTRY: KINIFile::InstallINIFiles : pszINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.503 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 06:16:28.503 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.503 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.503 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.503 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.503 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 3
+7.160.0.2 : 06:16:28.503 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 06:16:28.518 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 06:16:28.518 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 06:16:28.518 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 06:16:28.518 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 06:16:28.518 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 06:16:28.518 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 06:16:28.518 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 06:16:28.518 :           ENTRY: KINIFile :: GetUninstallerPath : pszINIInstallPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.518 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.518 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.534 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.534 :             pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.534 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.534 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.534 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.534 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.534 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.534 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.534 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.534 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.534 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.550 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.550 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.550 :           m_szUninstallerPath = C:\PROGRAM FILES\CONEXANT\SSPCONFIG
+7.160.0.2 : 06:16:28.550 :           EXIT:  KINIFile :: GetUninstallerPath : bRetVal = 1
+7.160.0.2 : 06:16:28.550 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.550 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.550 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.550 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.550 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.565 :           szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.565 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.565 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.565 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.565 :               m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.565 :               KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.565 :               pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.565 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.565 :             szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.565 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.565 :               dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.565 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.160.0.2 : 06:16:28.565 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.565 :             szTempINIFileName = C:\WINDOWS\TEMP\CustomINI6022993c235\\SSPConfig.ini
+7.160.0.2 : 06:16:28.565 :             szTempTempINIFileName = C:\WINDOWS\TEMP\SSPConfig.ini
+7.160.0.2 : 06:16:28.565 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:28.565 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:28.565 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:28.565 :               szInstallAppSection = InstallApp, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:28.565 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:28.565 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:28.565 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.565 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:28.565 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:28.565 :             csPath = C:\Users\Public\Documents\Conexant
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:28.581 :               m_hClassDeviceKey = 932
+7.160.0.2 : 06:16:28.581 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:28.581 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.581 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.581 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.581 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.581 :               ENTRY: CInf::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:28.581 :               EXIT:  CInf::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:28.581 :               ENTRY: CFileUtils::CopyAFile
+7.160.0.2 : 06:16:28.581 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\sspconfig\x64\setup64.exe, pszDestinationFile=C:\Program Files\Conexant\SSPConfig\setup64.exe, dwDestFlag=0
+7.160.0.2 : 06:16:28.581 :               Creating folder C:\Program Files\Conexant\SSPConfig
+7.160.0.2 : 06:16:28.581 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.581 :               ENTRY: CFileUtils::CopyAFile
+7.160.0.2 : 06:16:28.581 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig\CxProper.exe, pszDestinationFile=C:\Program Files\Conexant\SSPConfig\CxProper.exe, dwDestFlag=0
+7.160.0.2 : 06:16:28.581 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.581 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.160.0.2 : 06:16:28.581 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 0
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:28.581 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:28.581 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:28.581 :               szInstallAppSection = InstallApp, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:28.581 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:28.581 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:28.581 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:28.581 :             ENTRY: CShortCut::CreateShortcut
+7.160.0.2 : 06:16:28.581 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.581 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :             EXIT:  CShortCut::CreateShortcut
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:28.581 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.581 :             szUninstallININame = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\SSPConfig.ini
+7.160.0.2 : 06:16:28.581 :               ENTRY: CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:28.581 :               EXIT:  CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:28.581 :             EXIT:  KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:28.581 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:28.581 :               ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.581 :               EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig
+7.160.0.2 : 06:16:28.597 :               ENTRY: CFileUtils::GetFolderSize : csFolderPath = C:\Program Files\Conexant\Install\Audio\sspconfig
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\CopyConfig.ini, size = 607
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\CxProper.ini, size = 728
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\Setup.exe, size = 7435096
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig\cxapo.prop, size = 8096
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig\CxProper.exe, size = 1763328
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig\SSPTunePt.DAT, size = 4664
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig.ini, size = 1909
+7.160.0.2 : 06:16:28.597 :               csTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\Setup64.exe, size = 8449368
+7.160.0.2 : 06:16:28.597 :               EXIT:  CFileUtils::GetFolderSize : llRetVal = 17663796
+7.160.0.2 : 06:16:28.598 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:28.598 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:28.598 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.598 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.598 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.598 :               m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.598 :               KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.598 :               pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.598 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.598 :             szINFFileName= CopyConfig.ini, pszInstallSection = TASKS, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.598 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.598 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.598 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.598 :               dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.598 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.598 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.598 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.160.0.2 : 06:16:28.598 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.160.0.2 : 06:16:28.598 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.613 :             szTempINIFileName = C:\WINDOWS\TEMP\CustomINI6022993c256\\CopyConfig.ini
+7.160.0.2 : 06:16:28.613 :             szTempTempINIFileName = C:\WINDOWS\TEMP\CopyConfig.ini
+7.160.0.2 : 06:16:28.613 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.160.0.2 : 06:16:28.613 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.613 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig
+7.160.0.2 : 06:16:28.613 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.613 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.160.0.2 : 06:16:28.613 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:28.613 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:28.613 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:28.613 :               szInstallAppSection = InstallApp, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:28.613 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:28.613 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:28.613 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.613 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:28.629 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:28.629 :             csPath = C:\Users\Public\Documents\Conexant
+7.160.0.2 : 06:16:28.629 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:28.629 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.629 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:28.629 :               m_hClassDeviceKey = 1032
+7.160.0.2 : 06:16:28.629 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:28.629 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.629 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.629 :               ENTRY: CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.629 :               EXIT:  CInf::ConvertDestFlagToNum : 2
+7.160.0.2 : 06:16:28.629 :               ENTRY: CInf::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:28.629 :               EXIT:  CInf::ResetDeleteOnRebootList
+7.160.0.2 : 06:16:28.629 :               ENTRY: CFileUtils::CopyAFile
+7.160.0.2 : 06:16:28.629 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig\SSPTunePt.DAT, pszDestinationFile=C:\WINDOWS\system32\drivers\SSPTunePt.DAT, dwDestFlag=0
+7.160.0.2 : 06:16:28.629 :                 ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:28.629 :                 pszFileToDelete = C:\WINDOWS\system32\drivers\SSPTunePt.DAT, dwFlags = 16
+7.160.0.2 : 06:16:28.629 :                 GetLastError() = 2
+7.160.0.2 : 06:16:28.629 :                 EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.629 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.629 :               ENTRY: CFileUtils::CopyAFile
+7.160.0.2 : 06:16:28.629 :               pszSourceFile=C:\Program Files\Conexant\Install\Audio\sspconfig\SSPConfig\cxapo.prop, pszDestinationFile=C:\WINDOWS\system32\cxapo.prop, dwDestFlag=0
+7.160.0.2 : 06:16:28.629 :                 ENTRY: CFileUtils::DeleteAFile
+7.160.0.2 : 06:16:28.629 :                 pszFileToDelete = C:\WINDOWS\system32\cxapo.prop, dwFlags = 16
+7.160.0.2 : 06:16:28.629 :                 GetLastError() = 2
+7.160.0.2 : 06:16:28.629 :                 EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.629 :               EXIT:  CFileUtils::CopyAFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.629 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.629 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.160.0.2 : 06:16:28.629 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.645 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 0
+7.160.0.2 : 06:16:28.645 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:28.645 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:28.645 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:28.645 :               szInstallAppSection = InstallApp, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:28.645 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:28.645 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:28.645 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.645 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:28.645 :             ENTRY: CShortCut::CreateShortcut
+7.160.0.2 : 06:16:28.645 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.645 :             pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.645 :             EXIT:  CShortCut::CreateShortcut
+7.160.0.2 : 06:16:28.660 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.660 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 06:16:28.660 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.660 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.160.0.2 : 06:16:28.660 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.660 :               ENTRY: KINIFile::InstallAudioEndpointCfg2
+7.160.0.2 : 06:16:28.660 :               szInstallAppSection = AudioEndpointCfg, pszInstallTag = SetDefaultEndpoint
+7.160.0.2 : 06:16:28.660 :               EXIT:  KINIFile::InstallAudioEndpointCfg2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.660 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.160.0.2 : 06:16:28.660 :             ENTRY: KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:28.660 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.660 :             szUninstallININame = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CopyConfig.ini
+7.160.0.2 : 06:16:28.670 :               ENTRY: CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:28.670 :               EXIT:  CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:28.670 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:28.670 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.670 :               ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.670 :               m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.670 :               KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.670 :               pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.670 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.670 :             [***REBOOT***]: From KINIFile::GetINIInfo - GetINIFlagValue(REBOOT_LABEL)
+7.160.0.2 : 06:16:28.670 :             szINFFileName= CxProper.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048577
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.670 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.670 :               dwFlags = 1048577, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.670 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.670 :             szTempINIFileName = C:\WINDOWS\TEMP\CustomINI6022993c29e\\CxProper.ini
+7.160.0.2 : 06:16:28.670 :             szTempTempINIFileName = C:\WINDOWS\TEMP\CxProper.ini
+7.160.0.2 : 06:16:28.670 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:28.670 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:28.670 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:28.670 :               szInstallAppSection = CxProper.InstallApp, pszInstallTag = PreInstallApp
+7.160.0.2 : 06:16:28.670 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:28.670 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:28.670 :             csPath = C:\Users\Public\Documents\Conexant
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.670 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:28.670 :               m_hClassDeviceKey = 1080
+7.160.0.2 : 06:16:28.670 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.160.0.2 : 06:16:28.670 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.160.0.2 : 06:16:28.670 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.160.0.2 : 06:16:28.670 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.670 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :             ENTRY: KINIFile::InstallDefinedApps
+7.160.0.2 : 06:16:28.670 :             KINIFile::InstallDefinedApps : pszInstallSection = TASKS.NTAMD64, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:28.670 :               ENTRY: KINIFile::InstallDefinedApps2
+7.160.0.2 : 06:16:28.670 :               szInstallAppSection = CxProper.InstallApp, pszInstallTag = InstallApp
+7.160.0.2 : 06:16:28.670 :                 ENTRY: IsDeviceGuardCase
+7.160.0.2 : 06:16:28.670 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :               szRootPath = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.670 :               szInstallAppType = InstallApp
+7.160.0.2 : 06:16:28.670 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.670 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :               Flags: szBuffer = 4, dwFlags = 4
+7.160.0.2 : 06:16:28.670 :               szExeName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.670 :                 ENTRY: KINIFile::ISRepairWA
+7.160.0.2 : 06:16:28.670 :                 pszRootPath = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.670 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.160.0.2 : 06:16:28.670 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.670 :                 szFileName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.685 :                 szDescription = HDAudio Driver Tool
+7.160.0.2 : 06:16:28.685 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 0
+7.160.0.2 : 06:16:28.685 :               CFileUtils::IsUIUFile(C:\Program Files\Conexant\SSPConfig\CxProper.exe) == FALSE
+7.160.0.2 : 06:16:28.685 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.685 :                 szFileName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.685 :                 szDescription = HDAudio Driver Tool
+7.160.0.2 : 06:16:28.685 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 0
+7.160.0.2 : 06:16:28.685 :               CFileUtils::IsUIU7File(C:\Program Files\Conexant\SSPConfig\CxProper.exe) == FALSE
+7.160.0.2 : 06:16:28.685 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 1
+7.160.0.2 : 06:16:28.685 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.160.0.2 : 06:16:28.685 :                 ENTRY: KINIFile::StartAnApp
+7.160.0.2 : 06:16:28.685 :                 pszExeName = C:\Program Files\Conexant\SSPConfig\CxProper.exe, pszCmdline = -install_all, dwFlags = 1342177284
+7.160.0.2 : 06:16:28.685 :                   ENTRY: CFileUtils::SpawnApp
+7.160.0.2 : 06:16:28.685 :                   pszExeName = C:\Program Files\Conexant\SSPConfig\CxProper.exe, pszCmdArg = -install_alld
+7.160.0.2 : 06:16:28.685 :                   bWaitForProcess = 0, dwStartAppTimeOut = 240000, dwFlags = 1342177284
+7.160.0.2 : 06:16:28.685 :                   csWorkingDir = C:\Program Files\Conexant\SSPConfig\
+7.160.0.2 : 06:16:28.685 :                   szExeName = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.685 :                   pszCmdArg = -install_all
+7.160.0.2 : 06:16:28.685 :                   Trying to Spawn with ShellExecuteExA
+7.160.0.2 : 06:16:28.717 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435715
+7.160.0.2 : 06:16:28.717 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435715
+7.160.0.2 : 06:16:28.717 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.160.0.2 : 06:16:28.717 :                 pszRootPath = C:\Program Files\Conexant\SSPConfig\CxProper.exe, pszCmdline = C:\Program Files\Conexant\SSPConfig\CxProper.exe
+7.160.0.2 : 06:16:28.717 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.160.0.2 : 06:16:28.717 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.160.0.2 : 06:16:28.717 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.160.0.2 : 06:16:28.717 :             ENTRY: CShortCut::CreateShortcut
+7.160.0.2 : 06:16:28.717 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.717 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.717 :             EXIT:  CShortCut::CreateShortcut
+7.160.0.2 : 06:16:28.717 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.717 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.160.0.2 : 06:16:28.717 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.717 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.160.0.2 : 06:16:28.717 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.717 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.160.0.2 : 06:16:28.717 :             ENTRY: KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:28.717 :             pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.717 :             szUninstallININame = C:\PROGRAM FILES\CONEXANT\SSPCONFIG\\CxProper.ini
+7.160.0.2 : 06:16:28.717 :               ENTRY: CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:28.717 :               EXIT:  CCabFile::SetupUninstallIniDefinedCabs
+7.160.0.2 : 06:16:28.717 :             EXIT:  KINIFile::SetupForUninstall
+7.160.0.2 : 06:16:28.717 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:28.717 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.160.0.2 : 06:16:28.717 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:28.717 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.160.0.2 : 06:16:28.717 :       EXIT:  CINIFile::InstallINIFiles : dwRetVal = 3
+7.160.0.2 : 06:16:28.717 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.717 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.717 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:28.717 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.717 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.717 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.717 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:28.717 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.717 :         ENTRY: KINIFile::Initialize : pszDeviceID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.717 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.717 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.717 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.717 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.717 :           ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.717 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.732 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0000, m_ClassType = 2
+7.160.0.2 : 06:16:28.732 :         m_pSetupParms->csParentFilePath=,
+7.160.0.2 : 06:16:28.732 :         MyPaths = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.732 :         EXIT:  KINIFile::Initialize
+7.160.0.2 : 06:16:28.732 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 2
+7.160.0.2 : 06:16:28.732 :           ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.732 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.732 :           ENTRY: KINIFile::LocateINIFileNames
+7.160.0.2 : 06:16:28.732 :           pszInstallPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.732 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.732 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.732 :           szTestFile = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.732 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 3
+7.160.0.2 : 06:16:28.732 :           ENTRY: CINIFile::SortINIFiles
+7.160.0.2 : 06:16:28.732 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 06:16:28.732 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 06:16:28.732 :           PRE-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 06:16:28.732 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini, unOrderNumer = 2
+7.160.0.2 : 06:16:28.732 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini, unOrderNumer = 20
+7.160.0.2 : 06:16:28.732 :           POST-SORT : szINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini, unOrderNumer = 8000
+7.160.0.2 : 06:16:28.732 :           EXIT:  CINIFile::SortINIFiles
+7.160.0.2 : 06:16:28.748 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.748 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.748 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.748 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.764 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.764 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.764 :           szINFFileName= SSPConfig.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.764 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.764 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.764 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.764 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\SSPConfig.ini
+7.160.0.2 : 06:16:28.764 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.764 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.764 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.764 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.764 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.764 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.764 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.764 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.764 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.764 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.764 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.764 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.764 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.764 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.764 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.764 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.779 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.779 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.779 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.779 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.795 :             pszInstallSection = TASKS
+7.160.0.2 : 06:16:28.795 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.795 :           szINFFileName= CopyConfig.ini, pszInstallSection = TASKS, pdwFlags = 1048576
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.795 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.795 :             dwFlags = 1048576, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CopyConfig.ini
+7.160.0.2 : 06:16:28.795 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.795 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::GetINIInfo
+7.160.0.2 : 06:16:28.795 :             ENTRY: KINIFile::GetInstallSection
+7.160.0.2 : 06:16:28.795 :             m_pSetupParms->csPNPIDFromUCI = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.795 :             KINIFile::GetInstallSection : szDeviceInstanceId = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.795 :             pszInstallSection = TASKS.NTAMD64
+7.160.0.2 : 06:16:28.795 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.160.0.2 : 06:16:28.795 :           [***REBOOT***]: From KINIFile::GetINIInfo - GetINIFlagValue(REBOOT_LABEL)
+7.160.0.2 : 06:16:28.795 :           szINFFileName= CxProper.ini, pszInstallSection = TASKS.NTAMD64, pdwFlags = 1048577
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.795 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.160.0.2 : 06:16:28.795 :             dwFlags = 1048577, pszINIFileName = C:\Program Files\Conexant\Install\Audio\sspconfig\\CxProper.ini
+7.160.0.2 : 06:16:28.795 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :             ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.795 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.160.0.2 : 06:16:28.795 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.795 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.795 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.160.0.2 : 06:16:28.810 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.810 :           pszInstallSection = TASKS.NTAMD64, dwCoinstStatus = 2
+7.160.0.2 : 06:16:28.810 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.160.0.2 : 06:16:28.810 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.160.0.2 : 06:16:28.810 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.160.0.2 : 06:16:28.810 :       ENTRY: KINIFile::GetLocalPath
+7.160.0.2 : 06:16:28.810 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.810 :       ENTRY: CINIFile::CINIFile
+7.160.0.2 : 06:16:28.810 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.810 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\x64\
+7.160.0.2 : 06:16:28.810 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.810 :       EXIT:  CINIFile::CINIFile(null)
+7.160.0.2 : 06:16:28.826 :       ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.826 :       EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.842 :       ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.842 :       EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.857 :       ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF
+7.160.0.2 : 06:16:28.857 :       EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.160.0.2 : 06:16:28.873 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.160.0.2 : 06:16:28.873 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 0
+7.160.0.2 : 06:16:28.873 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.160.0.2 : 06:16:28.873 :         ENTRY: CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.873 :         m_szINIPath = C:\Program Files\Conexant\Install\Audio\sspconfig\
+7.160.0.2 : 06:16:28.873 :         EXIT:  CINIFile::ReInitialize
+7.160.0.2 : 06:16:28.873 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupDlg::RunSetupDlg
+7.160.0.2 : 06:16:28.873 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:28.873 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.160.0.2 : 06:16:28.873 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.160.0.2 : 06:16:28.873 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 1
+7.160.0.2 : 06:16:28.873 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.160.0.2 : 06:16:28.873 :   ENTRY: CSetupApp::SetupRetVal
+7.160.0.2 : 06:16:28.873 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.160.0.2 : 06:16:28.873 :     ENTRY: CSetupApp::ExitInstance()
+7.160.0.2 : 06:16:28.873 :     EXIT:  CSetupApp::ExitInstance()
