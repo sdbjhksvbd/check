@@ -1,0 +1,2 @@
+"use strict";(self["webpackJsonp-dc-desktop-app"]=self["webpackJsonp-dc-desktop-app"]||[]).push([[455],{OLpP:(e,s,i)=>{i.r(s),i.d(s,{default:()=>o});var t=i("plsW"),l=i("DJg0");class LocalFileListProvider{ready(){return Promise.resolve(this)}async OpenFiles(e){const s={selectedLocalFiles:e.map((e=>e.path))};(0,l.bL)(s)}}LocalFileListProvider.getInstance=t.providerUtil.getSingletonFunction(LocalFileListProvider);const o=LocalFileListProvider}}]);
+//# sourceMappingURL=private/455.75f2d16344b0226d6f01.map
