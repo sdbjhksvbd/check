@@ -1,0 +1,6 @@
+2025/07/02-17:24:51.142 13d2c Creating DB C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_eunishap.medium.com_0.indexeddb.leveldb since it was missing.
+2025/07/02-17:24:51.148 13d2c Reusing MANIFEST C:\Users\idop\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_eunishap.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/02-22:14:38.663 138b8 Level-0 table #5: started
+2025/07/02-22:14:38.665 138b8 Level-0 table #5: 13907 bytes OK
+2025/07/02-22:14:38.666 138b8 Delete type=0 #3
+2025/07/02-22:14:38.667 138b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
