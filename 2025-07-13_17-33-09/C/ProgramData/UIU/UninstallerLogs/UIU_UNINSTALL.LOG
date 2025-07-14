@@ -1,0 +1,1347 @@
+7.195.0.2 : 10:41:25.500 : C:\PROGRAM FILES\CONEXANT\FLOW\SETUP64.EXE "
+7.195.0.2 : 10:41:25.500 :   ENTRY: CSetupApp::RunSetupApp : UIU Application Build v7.195.0.2
+7.195.0.2 : 10:41:25.500 :   Version = V7.195.0.2
+7.195.0.2 : 10:41:25.500 :   OS Platform = OS_WIN10-64
+7.195.0.2 : 10:41:25.500 :   dwSetupConfig = 20100 : dwMode = C0220002
+7.195.0.2 : 10:41:25.500 :   CreateMutex - I_AM_THE_ROOT_UIU
+7.195.0.2 : 10:41:25.500 :   CreateMutex - I_AM_THE_ROOT_UIU_WITH_NO_UCI_RUNNING
+7.195.0.2 : 10:41:25.500 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -U -IFLOWSETUP -SRM=FLOW.EXE,UTILSTATUS,4
+7.195.0.2 : 10:41:25.500 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -IFLOWSETUP -SRM=FLOW.EXE,UTILSTATUS,4
+7.195.0.2 : 10:41:25.500 :     ENTRY: CSetupApp::CloseAnyRequestedAppWindows
+7.195.0.2 : 10:41:25.500 :       ENTRY: SendExitMsgToApp
+7.195.0.2 : 10:41:25.500 :       csAppName = FLOW.EXE, uExitMsg = 4, dwFlags = 2
+7.195.0.2 : 10:41:25.500 :       Read Registry Monitor Close Value = 0
+7.195.0.2 : 10:41:25.500 :       Set Registry Monitor Close Value = 4
+7.195.0.2 : 10:41:25.500 :       Set Registry Monitor Close Success
+7.195.0.2 : 10:41:26.514 :         ENTRY: FindProcessID : csAppName = FLOW.EXE
+7.195.0.2 : 10:41:26.514 :         EXIT:  FindProcessID : bRetVal = 0
+7.195.0.2 : 10:41:26.514 :       EXIT:  SendExitMsgToApp : bRetVal = 0
+7.195.0.2 : 10:41:26.514 :     EXIT:  CSetupApp::CloseAnyRequestedAppWindows
+7.195.0.2 : 10:41:26.514 :     ENTRY: CSetupDlg::RunSetupDlg
+7.195.0.2 : 10:41:26.514 :       ENTRY: CUninstall :: SetupUninstallEnviroment
+7.195.0.2 : 10:41:26.514 :         ENTRY: CUninstall::IsAlternateUninstallerFileCase
+7.195.0.2 : 10:41:26.514 :         EXIT:  CUninstall::IsAlternateUninstallerFileCase: bRetVal=0
+7.195.0.2 : 10:41:26.514 :         ENTRY: CFileUtils::UnloadUIUService
+7.195.0.2 : 10:41:26.514 :         EXIT:  CFileUtils::UnloadUIUService : bFileExist = 0
+7.195.0.2 : 10:41:26.514 :         ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.195.0.2 : 10:41:26.514 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 10:41:26.514 :         ENTRY: CDevNode::IsDeleteLogFilesOnUninstall
+7.195.0.2 : 10:41:26.514 :         EXIT:  CDevNode::IsDeleteLogFilesOnUninstall : bRetVal = 0
+7.195.0.2 : 10:41:26.514 :         ENTRY: CDevNode::GetUCIFlagsValue
+7.195.0.2 : 10:41:26.514 :         EXIT:  CDevNode::GetUCIFlagsValue : dwUCIFlags = 0
+7.195.0.2 : 10:41:26.514 :       EXIT:  CUninstall :: SetupUninstallEnviroment : bRetVal = 1
+7.195.0.2 : 10:41:26.514 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:26.514 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.514 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 10:41:26.514 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 10:41:26.514 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 10:41:26.514 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.514 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 10:41:26.514 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 10:41:26.514 :       ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.195.0.2 : 10:41:26.514 :         ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.195.0.2 : 10:41:26.514 :         EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.195.0.2 : 10:41:26.514 :       EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.195.0.2 : 10:41:26.514 :       ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:26.514 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.514 :       ENTRY: CINIFile::CINIFile
+7.195.0.2 : 10:41:26.514 :         ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 10:41:26.514 :         m_dwUCIActiveMutex = 0
+7.195.0.2 : 10:41:26.514 :         m_szINIPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.530 :         EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 10:41:26.530 :       EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 10:41:26.530 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.195.0.2 : 10:41:26.530 :         ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.195.0.2 : 10:41:26.530 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:26.530 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.530 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.195.0.2 : 10:41:26.530 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 10:41:26.530 :           ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.195.0.2 : 10:41:26.530 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 10:41:26.530 :         m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.195.0.2 : 10:41:26.530 :         m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 10:41:26.530 :         MyPaths = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.530 :         EXIT:  KINIFile::Initialize
+7.195.0.2 : 10:41:26.530 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 4
+7.195.0.2 : 10:41:26.530 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:26.530 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.530 :           ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 10:41:26.530 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.530 :           szTestFile = C:\PROGRAM FILES\CONEXANT\FLOW\\Flow.ini
+7.195.0.2 : 10:41:26.530 :           szTestFile = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.530 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 2
+7.195.0.2 : 10:41:26.530 :           ENTRY: CINIFile::SortINIFiles
+7.195.0.2 : 10:41:26.530 :             ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\PROGRAM FILES\CONEXANT\FLOW\\Flow.ini
+7.195.0.2 : 10:41:26.530 :             EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 0
+7.195.0.2 : 10:41:26.530 :             ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.545 :             EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.545 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.545 :             m_szDecorationTag = 
+7.195.0.2 : 10:41:26.545 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.195.0.2 : 10:41:26.545 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.545 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini, unOrderNumer = 2
+7.195.0.2 : 10:41:26.545 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini, unOrderNumer = 2
+7.195.0.2 : 10:41:26.545 :           EXIT:  CINIFile::SortINIFiles
+7.195.0.2 : 10:41:26.545 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.545 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.545 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.545 :           m_szDecorationTag = 
+7.195.0.2 : 10:41:26.545 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.545 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.545 :           ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 10:41:26.545 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 10:41:26.545 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.195.0.2 : 10:41:26.561 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.195.0.2 : 10:41:26.576 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.576 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.576 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 10:41:26.576 :               pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.576 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 10:41:26.576 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 10:41:26.576 :               csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.576 :               pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.576 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 10:41:26.576 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.576 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 10:41:26.576 :           szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 10:41:26.576 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 10:41:26.576 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.576 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 10:41:26.576 :             dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.576 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.576 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.576 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 10:41:26.576 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 4
+7.195.0.2 : 10:41:26.576 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:26.576 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.576 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.195.0.2 : 10:41:26.576 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 10:41:26.576 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 4
+7.195.0.2 : 10:41:26.576 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.195.0.2 : 10:41:26.576 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 10:41:26.576 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 4
+7.195.0.2 : 10:41:26.576 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.195.0.2 : 10:41:26.592 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 10:41:26.592 :           pszInstallSection = HdAudModel.2017.NTAMD64.10, dwCoinstStatus = 4
+7.195.0.2 : 10:41:26.592 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\ARIKL\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\ARIKL\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\ARIKL\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\ARIKL\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.592 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.592 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.592 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.592 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           szDstData = C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :           csDstFile = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.608 :             pszFileToDelete = C:\USERS\ALL USERS\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.608 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           csDstFile = C:\USERS\ARIKL\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.608 :             pszFileToDelete = C:\USERS\ARIKL\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.608 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           csDstFile = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.608 :             pszFileToDelete = C:\USERS\DEFAULT\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.608 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           csDstFile = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.608 :             pszFileToDelete = C:\USERS\DEFAULT USER\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.608 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           csDstFile = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.608 :             pszFileToDelete = C:\USERS\DEFAULTUSER0\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.608 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           csDstFile = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing
+7.195.0.2 : 10:41:26.608 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.608 :             pszFileToDelete = C:\USERS\PUBLIC\C:\WINDOWS\system32\config\systemprofile\AppData\Local\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.608 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.195.0.2 : 10:41:26.608 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.195.0.2 : 10:41:26.608 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.608 :       ENTRY: CINIFile::UninstallINIFiles : pszDeviceID= FLOWSETUP
+7.195.0.2 : 10:41:26.608 :         ENTRY: KINIFile::Initialize : pszDeviceID = FLOWSETUP
+7.195.0.2 : 10:41:26.608 :           ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:26.608 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.623 :         m_szDriverPath = FLOWSETUP
+7.195.0.2 : 10:41:26.623 :         m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 10:41:26.623 :         MyPaths = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.623 :         EXIT:  KINIFile::Initialize
+7.195.0.2 : 10:41:26.623 :         ENTRY: KINIFile::UninstallINIFiles
+7.195.0.2 : 10:41:26.623 :         szUninstallPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.623 :           ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 10:41:26.623 :           pszInstallPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:26.623 :           szTestFile = C:\PROGRAM FILES\CONEXANT\FLOW\\Flow.ini
+7.195.0.2 : 10:41:26.623 :           szTestFile = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.623 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 2
+7.195.0.2 : 10:41:26.623 :           ENTRY: CINIFile::SortINIFiles
+7.195.0.2 : 10:41:26.623 :             ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\PROGRAM FILES\CONEXANT\FLOW\\Flow.ini
+7.195.0.2 : 10:41:26.623 :             EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 0
+7.195.0.2 : 10:41:26.623 :             ENTRY: KINIFile::IsProcessThisINIFile : pszINIFile = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.623 :             EXIT:  KINIFile::IsProcessThisINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.623 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.623 :             m_szDecorationTag = 
+7.195.0.2 : 10:41:26.623 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.195.0.2 : 10:41:26.623 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.623 :           PRE-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini, unOrderNumer = 2
+7.195.0.2 : 10:41:26.623 :           POST-SORT : szINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini, unOrderNumer = 2
+7.195.0.2 : 10:41:26.623 :           EXIT:  CINIFile::SortINIFiles
+7.195.0.2 : 10:41:26.623 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.623 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.623 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.623 :           m_szDecorationTag = 
+7.195.0.2 : 10:41:26.639 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.639 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.639 :           ENTRY: KINIFile::DoInstallAppSectionOnly : pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.639 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.639 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.639 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.639 :             m_szDecorationTag = 
+7.195.0.2 : 10:41:26.639 :             m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.639 :             EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.639 :             ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 10:41:26.639 :               ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 10:41:26.639 :                 ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.195.0.2 : 10:41:26.639 :                 EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.195.0.2 : 10:41:26.655 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.655 :                   ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.670 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :                 pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.670 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :                 ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 10:41:26.670 :                 csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.670 :                 pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.670 :                 EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :                 ENTRY: CDevNode::FindDevNode : pszPNPID = HDAUDIO\FUNC_01&VEN_14F1&DEV_5098&SUBSYS_103C83EF&REV_1001
+7.195.0.2 : 10:41:26.670 :                 EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :               pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.670 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :             szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 10:41:26.670 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 10:41:26.670 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.670 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 10:41:26.670 :               dwFlags = 1048576, pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.670 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.670 :             ENTRY: KINIFile::InstallDefinedApps
+7.195.0.2 : 10:41:26.670 :             KINIFile::InstallDefinedApps : pszInstallSection = HdAudModel.2017.NTAMD64.10, pszInstallTag = UninstallApp
+7.195.0.2 : 10:41:26.670 :               ENTRY: KINIFile::InstallDefinedApps2
+7.195.0.2 : 10:41:26.670 :               szInstallAppSection = InstallApp.RunAfterInstallation, pszInstallTag = UninstallApp
+7.195.0.2 : 10:41:26.670 :                 ENTRY: IsDeviceGuardCase
+7.195.0.2 : 10:41:26.670 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.195.0.2 : 10:41:26.670 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.195.0.2 : 10:41:26.670 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.195.0.2 : 10:41:26.670 :           EXIT:  KINIFile::DoInstallAppSectionOnly : dwRetVal = 0
+7.195.0.2 : 10:41:26.670 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.670 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.670 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.670 :           m_szDecorationTag = 
+7.195.0.2 : 10:41:26.686 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.686 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.686 :           ENTRY: KINIFile::GetINIInfo
+7.195.0.2 : 10:41:26.686 :             ENTRY: KINIFile::GetInstallSection
+7.195.0.2 : 10:41:26.686 :               ENTRY: CDevNode::GetAllPnpIdDeviceOnSystem
+7.195.0.2 : 10:41:26.686 :               EXIT:  CDevNode::GetAllPnpIdDeviceOnSystem
+7.195.0.2 : 10:41:26.702 :               ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.702 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.702 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 10:41:26.702 :               pszSectionTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.702 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.195.0.2 : 10:41:26.702 :               ENTRY: CInf::SetupForDeviceTagDecoration
+7.195.0.2 : 10:41:26.702 :               csTestDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.702 :               pszDeviceTag = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.702 :               EXIT:  CInf::SetupForDeviceTagDecoration : bRetVal = 1
+7.195.0.2 : 10:41:26.702 :             pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.702 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.195.0.2 : 10:41:26.702 :           szINFFileName= FlowSetup.ini, pszInstallSection = HdAudModel.2017.NTAMD64.10, pdwFlags = 1048576
+7.195.0.2 : 10:41:26.702 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.195.0.2 : 10:41:26.702 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.702 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.195.0.2 : 10:41:26.702 :             dwFlags = 68681728, pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.718 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.718 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.195.0.2 : 10:41:26.718 :           ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.718 :           EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.195.0.2 : 10:41:26.718 :           ENTRY: KINIFile::UninstallPreCopyFiles : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.718 :           EXIT:  KINIFile::UninstallPreCopyFiles
+7.195.0.2 : 10:41:26.718 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.718 :           m_szDecorationTag = 
+7.195.0.2 : 10:41:26.718 :           m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.718 :           EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.718 :           ENTRY: KINIFile::UninstallInstallShield
+7.195.0.2 : 10:41:26.718 :           EXIT:  KINIFile::UninstallInstallShield
+7.195.0.2 : 10:41:26.718 :           ENTRY: KINIFile::ProcessINIFile : pszInstallSection = HdAudModel.2017.NTAMD64.10
+7.195.0.2 : 10:41:26.718 :             ENTRY: CDevNode::RegOpenClassDeviceKey
+7.195.0.2 : 10:41:26.718 :             m_hClassDeviceKey = 896
+7.195.0.2 : 10:41:26.718 :             EXIT:  CDevNode::RegOpenClassDeviceKey
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.718 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.737 :             ENTRY: CInf::ResetDeleteOnRebootList
+7.195.0.2 : 10:41:26.737 :             EXIT:  CInf::ResetDeleteOnRebootList
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\ProgramData\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\ProgramData\Conexant\Flow\Options, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\ProgramData\Conexant\Flow\OptionsOutputProcessing, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.exe.config, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :               ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\PROGRAM FILES\CONEXANT\FLOW\FLOW.EXE.CONFIG
+7.195.0.2 : 10:41:26.738 :               EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.195.0.2 : 10:41:26.738 :             GetLastError() = 2
+7.195.0.2 : 10:41:26.738 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Flow.exe.config
+7.195.0.2 : 10:41:26.738 :               csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.738 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.ini, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :             GetLastError() = 2
+7.195.0.2 : 10:41:26.738 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Flow.ini
+7.195.0.2 : 10:41:26.738 :               csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.738 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\Program Files\Conexant\Flow\FlowLang.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\Program Files\Conexant\Flow\FlowSetup.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :             GetLastError() = 2
+7.195.0.2 : 10:41:26.738 :               ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowSetup.xml
+7.195.0.2 : 10:41:26.738 :               csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.738 :               EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.738 :             EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.738 :             ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.738 :             pszFileToDelete = C:\Program Files\Conexant\Flow\Setup64.exe, dwFlags = 2
+7.195.0.2 : 10:41:26.738 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.753 :               pszFileToDelete = C:\Program Files\Conexant\Flow\xyz, dwFlags = 2
+7.195.0.2 : 10:41:26.753 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.753 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.753 :           HKLM: klAddRegInfoList.GetCount() = 11, cslKeyList.GetCount() = 4
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             EXIT:  CInf::ConvertDestFlagToNum : 2
+7.195.0.2 : 10:41:26.753 :             ENTRY: CShortCut::DeleteShortcut
+7.195.0.2 : 10:41:26.753 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.753 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.753 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.753 :               m_szDecorationTag = 
+7.195.0.2 : 10:41:26.753 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.753 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.753 :             EXIT:  CShortCut::DeleteShortcut : bRetVal = 0
+7.195.0.2 : 10:41:26.753 :             ENTRY: CCabFile::UninstallIniDefinedCabs
+7.195.0.2 : 10:41:26.753 :             pszINIFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.753 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:26.753 :                 ENTRY: CInf::SetupForDecorationA
+7.195.0.2 : 10:41:26.753 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 0
+7.195.0.2 : 10:41:26.769 :               m_szDecorationTag = 
+7.195.0.2 : 10:41:26.769 :               m_szInstallSectionTag = Conexant
+7.195.0.2 : 10:41:26.769 :               EXIT:  CInf :: Initialize
+7.195.0.2 : 10:41:26.769 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.769 :               pszFileToDelete = C:\Program Files\Conexant\Flow\AppFollower.exe, dwFlags = 2
+7.195.0.2 : 10:41:26.769 :                 ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\PROGRAM FILES\CONEXANT\FLOW\APPFOLLOWER.EXE
+7.195.0.2 : 10:41:26.769 :                 EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.195.0.2 : 10:41:26.769 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.769 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\AppFollower.exe
+7.195.0.2 : 10:41:26.769 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.769 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.769 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.769 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.769 :               pszFileToDelete = C:\Program Files\Conexant\Flow\CxHidAccess.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.769 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.769 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\CxHidAccess.dll
+7.195.0.2 : 10:41:26.769 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.769 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.769 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.769 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.769 :               pszFileToDelete = C:\Program Files\Conexant\Flow\EntityFramework.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.769 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.769 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\EntityFramework.dll
+7.195.0.2 : 10:41:26.769 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.769 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.769 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.769 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.769 :               pszFileToDelete = C:\Program Files\Conexant\Flow\EntityFramework.SqlServer.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.769 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.769 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\EntityFramework.SqlServer.dll
+7.195.0.2 : 10:41:26.769 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.769 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.769 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.769 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.769 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.Core.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.769 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.769 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Flow.Core.dll
+7.195.0.2 : 10:41:26.769 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.785 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.Enhancements.Conexant.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.785 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Flow.Enhancements.Conexant.dll
+7.195.0.2 : 10:41:26.785 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.785 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.Enhancements.SoundResearch.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.785 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Flow.Enhancements.SoundResearch.dll
+7.195.0.2 : 10:41:26.785 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.785 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.exe, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :                 ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\PROGRAM FILES\CONEXANT\FLOW\FLOW.EXE
+7.195.0.2 : 10:41:26.785 :                 EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.195.0.2 : 10:41:26.785 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.785 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Flow.exe
+7.195.0.2 : 10:41:26.785 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.785 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.exe.Config, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Flow.ini, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-DefaultMode.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.785 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowConfig-DefaultMode.xml
+7.195.0.2 : 10:41:26.785 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.785 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.785 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.785 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.785 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-MuteOnVoIP.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.785 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.785 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowConfig-MuteOnVoIP.xml
+7.195.0.2 : 10:41:26.785 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.800 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.800 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.800 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-PromptToUnmute.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.800 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowConfig-PromptToUnmute.xml
+7.195.0.2 : 10:41:26.800 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.800 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.800 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.800 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FlowConfig-ResetModeOnIdle.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.800 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowConfig-ResetModeOnIdle.xml
+7.195.0.2 : 10:41:26.800 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.800 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.800 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.800 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FlowTray.exe, dwFlags = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\PROGRAM FILES\CONEXANT\FLOW\FLOWTRAY.EXE
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.195.0.2 : 10:41:26.800 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowTray.exe
+7.195.0.2 : 10:41:26.800 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.800 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.800 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.800 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FlowTraySkin.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.800 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FlowTraySkin.dll
+7.195.0.2 : 10:41:26.800 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.800 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.800 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.800 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.Core.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.800 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Google.Apis.Core.dll
+7.195.0.2 : 10:41:26.800 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.800 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.800 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.800 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.800 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.Core.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.800 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.800 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Google.Apis.Core.xml
+7.195.0.2 : 10:41:26.800 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Google.Apis.dll
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Google.Apis.xml
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.YouTube.v3.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Google.Apis.YouTube.v3.dll
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Google.Apis.YouTube.v3.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Google.Apis.YouTube.v3.xml
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Hardcodet.Wpf.TaskbarNotification.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Hardcodet.Wpf.TaskbarNotification.dll
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Interop.CxUtilSvcLib.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Interop.CxUtilSvcLib.dll
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.816 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.816 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.816 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.816 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Interop.Shell32.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.816 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.816 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Interop.Shell32.dll
+7.195.0.2 : 10:41:26.816 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Microsoft.Lync.Model.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Microsoft.Lync.Model.dll
+7.195.0.2 : 10:41:26.832 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Microsoft.Lync.Model.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Microsoft.Lync.Model.xml
+7.195.0.2 : 10:41:26.832 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\NAudio.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\NAudio.dll
+7.195.0.2 : 10:41:26.832 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Newtonsoft.Json.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Newtonsoft.Json.dll
+7.195.0.2 : 10:41:26.832 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Newtonsoft.Json.xml, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Newtonsoft.Json.xml
+7.195.0.2 : 10:41:26.832 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\notifyIconBandO.ico, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\notifyIconBandO.ico
+7.195.0.2 : 10:41:26.832 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.832 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.832 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.832 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.832 :               pszFileToDelete = C:\Program Files\Conexant\Flow\notifyIconHP.ico, dwFlags = 2
+7.195.0.2 : 10:41:26.832 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.832 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\notifyIconHP.ico
+7.195.0.2 : 10:41:26.847 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.847 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.847 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.847 :               pszFileToDelete = C:\Program Files\Conexant\Flow\SACpl.exe, dwFlags = 2
+7.195.0.2 : 10:41:26.847 :                 ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\PROGRAM FILES\CONEXANT\FLOW\SACPL.EXE
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.195.0.2 : 10:41:26.847 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.847 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\SACpl.exe
+7.195.0.2 : 10:41:26.847 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.847 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.847 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.847 :               pszFileToDelete = C:\Program Files\Conexant\Flow\SmartAudio.Localization.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.847 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.847 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\SmartAudio.Localization.dll
+7.195.0.2 : 10:41:26.847 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.847 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.847 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.847 :               pszFileToDelete = C:\Program Files\Conexant\Flow\SoundResearchLibrary.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.847 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.847 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\SoundResearchLibrary.dll
+7.195.0.2 : 10:41:26.847 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.847 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.847 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.847 :               pszFileToDelete = C:\Program Files\Conexant\Flow\SRS_APO2011_ControllerLib_NET35.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.847 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.847 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\SRS_APO2011_ControllerLib_NET35.dll
+7.195.0.2 : 10:41:26.847 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.847 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.847 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.847 :               pszFileToDelete = C:\Program Files\Conexant\Flow\System.Data.SQLite.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.847 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.847 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\System.Data.SQLite.dll
+7.195.0.2 : 10:41:26.847 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.847 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.847 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.847 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.847 :               pszFileToDelete = C:\Program Files\Conexant\Flow\System.Data.SQLite.EF6.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.847 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.863 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\System.Data.SQLite.EF6.dll
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.863 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.863 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.863 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.863 :               pszFileToDelete = C:\Program Files\Conexant\Flow\System.Data.SQLite.Linq.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.863 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.863 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\System.Data.SQLite.Linq.dll
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.863 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.863 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.863 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.863 :               pszFileToDelete = C:\Program Files\Conexant\Flow\VimeoAPI.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.863 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.863 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\VimeoAPI.dll
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.863 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.863 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.863 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.863 :               pszFileToDelete = C:\Program Files\Conexant\Flow\VoipConnection.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.863 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.863 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\VoipConnection.dll
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.863 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.863 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.863 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.863 :               pszFileToDelete = C:\Program Files\Conexant\Flow\x64\SQLite.Interop.dll, dwFlags = 2
+7.195.0.2 : 10:41:26.863 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.863 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\x64\SQLite.Interop.dll
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\X64
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\X64
+7.195.0.2 : 10:41:26.863 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\X64
+7.195.0.2 : 10:41:26.863 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\X64
+7.195.0.2 : 10:41:26.988 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:26.988 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.988 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:26.988 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:26.988 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:26.988 :               pszFileToDelete = C:\Program Files\Conexant\Flow\data.sqlite, dwFlags = 2
+7.195.0.2 : 10:41:26.988 :               GetLastError() = 2
+7.195.0.2 : 10:41:26.988 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\data.sqlite
+7.195.0.2 : 10:41:26.988 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:26.988 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.003 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.003 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.003 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ar-AE\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.003 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.003 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\ar-AE\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.003 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\AR-AE
+7.195.0.2 : 10:41:27.003 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\AR-AE
+7.195.0.2 : 10:41:27.003 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\AR-AE
+7.195.0.2 : 10:41:27.003 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\AR-AE
+7.195.0.2 : 10:41:27.128 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.128 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.128 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.128 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.128 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.128 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\bg-BG\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.128 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.128 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\bg-BG\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.128 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\BG-BG
+7.195.0.2 : 10:41:27.128 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\BG-BG
+7.195.0.2 : 10:41:27.128 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\BG-BG
+7.195.0.2 : 10:41:27.128 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\BG-BG
+7.195.0.2 : 10:41:27.238 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.238 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.238 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.238 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.238 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.238 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\cs-CZ\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.238 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.238 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\cs-CZ\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.238 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\CS-CZ
+7.195.0.2 : 10:41:27.238 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\CS-CZ
+7.195.0.2 : 10:41:27.238 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\CS-CZ
+7.195.0.2 : 10:41:27.238 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\CS-CZ
+7.195.0.2 : 10:41:27.347 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.347 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.347 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.347 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.347 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.347 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\da-DK\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.347 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.347 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\da-DK\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.347 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DA-DK
+7.195.0.2 : 10:41:27.347 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DA-DK
+7.195.0.2 : 10:41:27.347 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DA-DK
+7.195.0.2 : 10:41:27.347 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DA-DK
+7.195.0.2 : 10:41:27.456 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.456 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.456 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.456 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.456 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.456 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\de-DE\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.456 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.456 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\de-DE\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.456 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DE-DE
+7.195.0.2 : 10:41:27.456 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DE-DE
+7.195.0.2 : 10:41:27.456 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DE-DE
+7.195.0.2 : 10:41:27.456 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\DE-DE
+7.195.0.2 : 10:41:27.566 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.566 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.566 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.566 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.566 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.566 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\el-GR\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.566 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.566 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\el-GR\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.566 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EL-GR
+7.195.0.2 : 10:41:27.566 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EL-GR
+7.195.0.2 : 10:41:27.581 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EL-GR
+7.195.0.2 : 10:41:27.581 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EL-GR
+7.195.0.2 : 10:41:27.692 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.692 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.692 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.692 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.692 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.692 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\en-US\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.692 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.692 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\en-US\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.692 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EN-US
+7.195.0.2 : 10:41:27.692 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EN-US
+7.195.0.2 : 10:41:27.692 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EN-US
+7.195.0.2 : 10:41:27.692 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\EN-US
+7.195.0.2 : 10:41:27.801 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.801 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.801 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.801 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.801 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.801 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\es-ES\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.801 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.801 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\es-ES\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.801 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ES-ES
+7.195.0.2 : 10:41:27.801 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ES-ES
+7.195.0.2 : 10:41:27.817 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ES-ES
+7.195.0.2 : 10:41:27.817 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ES-ES
+7.195.0.2 : 10:41:27.932 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:27.932 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:27.932 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:27.932 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:27.932 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:27.932 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\et-EE\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:27.932 :               GetLastError() = 2
+7.195.0.2 : 10:41:27.932 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\et-EE\SmartAudio.resources.dll
+7.195.0.2 : 10:41:27.932 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ET-EE
+7.195.0.2 : 10:41:27.932 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ET-EE
+7.195.0.2 : 10:41:27.932 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ET-EE
+7.195.0.2 : 10:41:27.932 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ET-EE
+7.195.0.2 : 10:41:28.056 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.056 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.056 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.056 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.056 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.056 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\fi-FI\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.056 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.056 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\fi-FI\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.056 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FI-FI
+7.195.0.2 : 10:41:28.056 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FI-FI
+7.195.0.2 : 10:41:28.056 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FI-FI
+7.195.0.2 : 10:41:28.056 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FI-FI
+7.195.0.2 : 10:41:28.166 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.166 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.166 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.166 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.166 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.166 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\fr-FR\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.166 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.166 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\fr-FR\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.166 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FR-FR
+7.195.0.2 : 10:41:28.166 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FR-FR
+7.195.0.2 : 10:41:28.166 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FR-FR
+7.195.0.2 : 10:41:28.166 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\FR-FR
+7.195.0.2 : 10:41:28.274 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.274 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.274 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.274 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.274 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.274 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\he-IL\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.274 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.274 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\he-IL\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.274 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HE-IL
+7.195.0.2 : 10:41:28.274 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HE-IL
+7.195.0.2 : 10:41:28.274 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HE-IL
+7.195.0.2 : 10:41:28.274 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HE-IL
+7.195.0.2 : 10:41:28.384 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.384 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.384 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.384 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.384 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.384 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\hr-HR\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.384 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.384 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\hr-HR\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.384 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HR-HR
+7.195.0.2 : 10:41:28.384 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HR-HR
+7.195.0.2 : 10:41:28.384 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HR-HR
+7.195.0.2 : 10:41:28.384 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HR-HR
+7.195.0.2 : 10:41:28.493 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.571 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.571 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.571 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.571 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.571 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\hu-HU\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.571 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.571 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\hu-HU\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.571 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HU-HU
+7.195.0.2 : 10:41:28.571 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HU-HU
+7.195.0.2 : 10:41:28.571 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HU-HU
+7.195.0.2 : 10:41:28.571 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\HU-HU
+7.195.0.2 : 10:41:28.680 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.680 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.680 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.680 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.680 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.680 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\it-IT\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.680 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.680 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\it-IT\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.680 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\IT-IT
+7.195.0.2 : 10:41:28.680 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\IT-IT
+7.195.0.2 : 10:41:28.680 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\IT-IT
+7.195.0.2 : 10:41:28.680 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\IT-IT
+7.195.0.2 : 10:41:28.790 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.790 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.790 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.790 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.790 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.790 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ja-JP\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.790 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.790 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\ja-JP\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.790 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\JA-JP
+7.195.0.2 : 10:41:28.790 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\JA-JP
+7.195.0.2 : 10:41:28.790 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\JA-JP
+7.195.0.2 : 10:41:28.790 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\JA-JP
+7.195.0.2 : 10:41:28.899 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:28.899 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:28.899 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:28.899 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:28.899 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:28.899 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ko-KR\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:28.899 :               GetLastError() = 2
+7.195.0.2 : 10:41:28.899 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\ko-KR\SmartAudio.resources.dll
+7.195.0.2 : 10:41:28.899 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\KO-KR
+7.195.0.2 : 10:41:28.899 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\KO-KR
+7.195.0.2 : 10:41:28.899 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\KO-KR
+7.195.0.2 : 10:41:28.899 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\KO-KR
+7.195.0.2 : 10:41:29.008 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.008 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.008 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.008 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.008 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.008 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\lt-LT\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.008 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.008 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\lt-LT\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.008 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LT-LT
+7.195.0.2 : 10:41:29.008 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LT-LT
+7.195.0.2 : 10:41:29.008 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LT-LT
+7.195.0.2 : 10:41:29.008 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LT-LT
+7.195.0.2 : 10:41:29.119 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.119 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.119 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.119 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.119 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.119 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\lv-LV\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.119 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.119 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\lv-LV\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.119 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LV-LV
+7.195.0.2 : 10:41:29.119 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LV-LV
+7.195.0.2 : 10:41:29.119 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LV-LV
+7.195.0.2 : 10:41:29.119 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\LV-LV
+7.195.0.2 : 10:41:29.228 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.228 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.228 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.228 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.228 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.228 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\nb-NO\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.228 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.228 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\nb-NO\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.228 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NB-NO
+7.195.0.2 : 10:41:29.228 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NB-NO
+7.195.0.2 : 10:41:29.228 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NB-NO
+7.195.0.2 : 10:41:29.228 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NB-NO
+7.195.0.2 : 10:41:29.338 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.338 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.338 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.338 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.338 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.338 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\nl-NL\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.338 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.338 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\nl-NL\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.338 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NL-NL
+7.195.0.2 : 10:41:29.338 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NL-NL
+7.195.0.2 : 10:41:29.338 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NL-NL
+7.195.0.2 : 10:41:29.338 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\NL-NL
+7.195.0.2 : 10:41:29.447 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.447 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.447 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.447 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.447 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.447 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\pl-PL\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.447 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.447 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\pl-PL\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.447 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PL-PL
+7.195.0.2 : 10:41:29.447 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PL-PL
+7.195.0.2 : 10:41:29.447 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PL-PL
+7.195.0.2 : 10:41:29.447 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PL-PL
+7.195.0.2 : 10:41:29.556 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.556 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.556 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.556 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.556 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.556 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\pt-BR\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.556 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.556 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\pt-BR\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.556 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-BR
+7.195.0.2 : 10:41:29.556 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-BR
+7.195.0.2 : 10:41:29.556 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-BR
+7.195.0.2 : 10:41:29.556 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-BR
+7.195.0.2 : 10:41:29.667 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.667 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.667 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.667 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.667 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.667 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\pt-PT\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.667 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.667 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\pt-PT\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.667 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-PT
+7.195.0.2 : 10:41:29.667 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-PT
+7.195.0.2 : 10:41:29.667 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-PT
+7.195.0.2 : 10:41:29.667 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\PT-PT
+7.195.0.2 : 10:41:29.776 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.776 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.776 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.776 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.776 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.776 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ro-RO\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.776 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.776 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\ro-RO\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.776 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RO-RO
+7.195.0.2 : 10:41:29.776 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RO-RO
+7.195.0.2 : 10:41:29.776 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RO-RO
+7.195.0.2 : 10:41:29.776 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RO-RO
+7.195.0.2 : 10:41:29.885 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.885 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.885 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.885 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.885 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.885 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\ru-RU\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.885 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.885 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\ru-RU\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.885 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RU-RU
+7.195.0.2 : 10:41:29.885 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RU-RU
+7.195.0.2 : 10:41:29.885 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RU-RU
+7.195.0.2 : 10:41:29.885 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\RU-RU
+7.195.0.2 : 10:41:29.996 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:29.996 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:29.996 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:29.996 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:29.996 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:29.996 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sk-SK\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:29.996 :               GetLastError() = 2
+7.195.0.2 : 10:41:29.996 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\sk-SK\SmartAudio.resources.dll
+7.195.0.2 : 10:41:29.996 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SK-SK
+7.195.0.2 : 10:41:29.996 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SK-SK
+7.195.0.2 : 10:41:29.996 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SK-SK
+7.195.0.2 : 10:41:29.996 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SK-SK
+7.195.0.2 : 10:41:30.106 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.106 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.106 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.106 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.106 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.106 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sl-SI\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.106 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.106 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\sl-SI\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.106 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SL-SI
+7.195.0.2 : 10:41:30.106 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SL-SI
+7.195.0.2 : 10:41:30.106 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SL-SI
+7.195.0.2 : 10:41:30.106 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SL-SI
+7.195.0.2 : 10:41:30.216 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.216 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.216 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.216 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.216 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.216 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sr-Latn-RS\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.216 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.216 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\sr-Latn-RS\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.216 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SR-LATN-RS
+7.195.0.2 : 10:41:30.216 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SR-LATN-RS
+7.195.0.2 : 10:41:30.216 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SR-LATN-RS
+7.195.0.2 : 10:41:30.216 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SR-LATN-RS
+7.195.0.2 : 10:41:30.325 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.325 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.325 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.325 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.325 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\sv-SE\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.325 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.325 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\sv-SE\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SV-SE
+7.195.0.2 : 10:41:30.325 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SV-SE
+7.195.0.2 : 10:41:30.325 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SV-SE
+7.195.0.2 : 10:41:30.325 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\SV-SE
+7.195.0.2 : 10:41:30.435 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.435 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.435 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.435 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.435 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.435 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\th-TH\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.435 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.435 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\th-TH\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.435 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TH-TH
+7.195.0.2 : 10:41:30.435 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TH-TH
+7.195.0.2 : 10:41:30.435 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TH-TH
+7.195.0.2 : 10:41:30.435 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TH-TH
+7.195.0.2 : 10:41:30.544 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.544 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.544 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.544 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.544 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.544 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\tr-TR\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.544 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.544 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\tr-TR\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.544 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TR-TR
+7.195.0.2 : 10:41:30.544 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TR-TR
+7.195.0.2 : 10:41:30.544 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TR-TR
+7.195.0.2 : 10:41:30.544 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\TR-TR
+7.195.0.2 : 10:41:30.658 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.658 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.658 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.658 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.658 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.658 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\uk-UA\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.658 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.658 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\uk-UA\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.658 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\UK-UA
+7.195.0.2 : 10:41:30.658 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\UK-UA
+7.195.0.2 : 10:41:30.658 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\UK-UA
+7.195.0.2 : 10:41:30.658 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\UK-UA
+7.195.0.2 : 10:41:30.767 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.767 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.767 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.767 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.767 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.767 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-CN\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.767 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.767 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\zh-CN\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.767 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-CN
+7.195.0.2 : 10:41:30.767 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-CN
+7.195.0.2 : 10:41:30.767 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-CN
+7.195.0.2 : 10:41:30.767 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-CN
+7.195.0.2 : 10:41:30.888 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.888 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.888 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.888 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.888 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.888 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-Hans\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.888 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.888 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\zh-Hans\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.888 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANS
+7.195.0.2 : 10:41:30.888 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANS
+7.195.0.2 : 10:41:30.888 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANS
+7.195.0.2 : 10:41:30.888 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANS
+7.195.0.2 : 10:41:30.997 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:30.997 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:30.997 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:30.997 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:30.997 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:30.997 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-Hant\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:30.997 :               GetLastError() = 2
+7.195.0.2 : 10:41:30.997 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\zh-Hant\SmartAudio.resources.dll
+7.195.0.2 : 10:41:30.997 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANT
+7.195.0.2 : 10:41:30.997 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANT
+7.195.0.2 : 10:41:30.997 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANT
+7.195.0.2 : 10:41:30.997 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-HANT
+7.195.0.2 : 10:41:31.106 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:31.106 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:31.106 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.106 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:31.106 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:31.106 :               pszFileToDelete = C:\Program Files\Conexant\Flow\Languages\zh-TW\SmartAudio.resources.dll, dwFlags = 2
+7.195.0.2 : 10:41:31.106 :               GetLastError() = 2
+7.195.0.2 : 10:41:31.106 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\Languages\zh-TW\SmartAudio.resources.dll
+7.195.0.2 : 10:41:31.106 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-TW
+7.195.0.2 : 10:41:31.106 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-TW
+7.195.0.2 : 10:41:31.106 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-TW
+7.195.0.2 : 10:41:31.106 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES\ZH-TW
+7.195.0.2 : 10:41:31.216 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:31.216 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:31.216 :                 csFolderToDelete(IsFolderExist) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:31.216 :                 csFolderToDelete(RemoveDirectoryA) = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:31.216 :                   ENTRY: CFileUtils::WaitForFolderDeleteCompletion : pszFolder = C:\PROGRAM FILES\CONEXANT\FLOW\LANGUAGES
+7.195.0.2 : 10:41:31.325 :                   EXIT:  CFileUtils::WaitForFolderDeleteCompletion : bRetVal = 1
+7.195.0.2 : 10:41:31.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:31.325 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.325 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:31.325 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:31.325 :               pszFileToDelete = C:\Program Files\Conexant\Flow\FollowerSkin.dll, dwFlags = 2
+7.195.0.2 : 10:41:31.325 :               GetLastError() = 2
+7.195.0.2 : 10:41:31.325 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\FollowerSkin.dll
+7.195.0.2 : 10:41:31.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:31.325 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.325 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:31.325 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:31.325 :               pszFileToDelete = C:\Program Files\Conexant\Flow\SkinSettings.resources, dwFlags = 2
+7.195.0.2 : 10:41:31.325 :               GetLastError() = 2
+7.195.0.2 : 10:41:31.325 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\SkinSettings.resources
+7.195.0.2 : 10:41:31.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:31.325 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.325 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:31.325 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:31.325 :               pszFileToDelete = C:\Program Files\Conexant\Flow\ReadMd.dll, dwFlags = 2
+7.195.0.2 : 10:41:31.325 :               GetLastError() = 2
+7.195.0.2 : 10:41:31.325 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\ReadMd.dll
+7.195.0.2 : 10:41:31.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:31.325 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.325 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:31.325 :               ENTRY: CFileUtils::DeleteAFile
+7.195.0.2 : 10:41:31.325 :               pszFileToDelete = C:\Program Files\Conexant\Flow\vcruntime140.dll, dwFlags = 2
+7.195.0.2 : 10:41:31.325 :               GetLastError() = 2
+7.195.0.2 : 10:41:31.325 :                 ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\Flow\vcruntime140.dll
+7.195.0.2 : 10:41:31.325 :                 csFolderToDelete = C:\PROGRAM FILES\CONEXANT\FLOW
+7.195.0.2 : 10:41:31.325 :                 EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.325 :               EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.195.0.2 : 10:41:31.325 :             EXIT:  CCabFile::UninstallIniDefinedCabs
+7.195.0.2 : 10:41:31.450 :           UninstallINIFile:DeleteFileA = C:\PROGRAM FILES\CONEXANT\FLOW\\FlowSetup.ini
+7.195.0.2 : 10:41:31.450 :           EXIT:  KINIFile::UninstallINIFiles : dwRetFlags = 135266304
+7.195.0.2 : 10:41:31.450 :         EXIT:  CINIFile::UninstallINIFiles : dwRetVal = 135266304
+7.195.0.2 : 10:41:31.450 :         ENTRY: CUninstallRegOps :: ProcessRegOpsDefinedParms
+7.195.0.2 : 10:41:31.450 :           ENTRY: CUninstallRegOps :: GetRegOpsPaths
+7.195.0.2 : 10:41:31.450 :           EXIT:  CUninstallRegOps::GetRegOpsPaths
+7.195.0.2 : 10:41:31.450 :         EXIT:  CUninstallRegOps::ProcessRegOpsDefinedParms
+7.195.0.2 : 10:41:31.450 :         ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:31.450 :         EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:31.450 :         ENTRY: CINIFile::CINIFile
+7.195.0.2 : 10:41:31.450 :           ENTRY: CINIFile::ReInitialize
+7.195.0.2 : 10:41:31.450 :           m_dwUCIActiveMutex = 0
+7.195.0.2 : 10:41:31.450 :           m_szINIPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:31.450 :           EXIT:  CINIFile::ReInitialize
+7.195.0.2 : 10:41:31.450 :         EXIT:  CINIFile::CINIFile(null)
+7.195.0.2 : 10:41:31.450 :         ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= 
+7.195.0.2 : 10:41:31.450 :           ENTRY: KINIFile::Initialize : pszDeviceID = 
+7.195.0.2 : 10:41:31.450 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:31.450 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:31.450 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.195.0.2 : 10:41:31.450 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 10:41:31.450 :             ENTRY: CDevNode::FindDevNode : pszPNPID = 
+7.195.0.2 : 10:41:31.450 :             EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.195.0.2 : 10:41:31.450 :           m_szDriverPath = {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0002, m_ClassType = 2
+7.195.0.2 : 10:41:31.450 :           m_pSetupParms->csParentFilePath=,
+7.195.0.2 : 10:41:31.450 :           MyPaths = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:31.450 :           EXIT:  KINIFile::Initialize
+7.195.0.2 : 10:41:31.450 :           ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 8
+7.195.0.2 : 10:41:31.450 :             ENTRY: KINIFile::GetLocalPath
+7.195.0.2 : 10:41:31.450 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:31.450 :             ENTRY: KINIFile::LocateINIFileNames
+7.195.0.2 : 10:41:31.450 :             pszInstallPath = C:\PROGRAM FILES\CONEXANT\FLOW\
+7.195.0.2 : 10:41:31.450 :             EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 0
+7.195.0.2 : 10:41:31.450 :           EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.195.0.2 : 10:41:31.450 :         EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.195.0.2 : 10:41:31.450 :         ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\Program Files\Conexant\CNXTAPP
+7.195.0.2 : 10:41:31.466 :           ENTRY: CFileUtils::DeleteUpperFolders : pszFolderName = C:\Program Files\Conexant\CNXTAPP
+7.195.0.2 : 10:41:31.466 :           csFolderToDelete = C:\PROGRAM FILES\CONEXANT
+7.195.0.2 : 10:41:31.466 :           EXIT:  CFileUtils::DeleteUpperFolders : dwRetVal = 0
+7.195.0.2 : 10:41:31.466 :         EXIT:  CFileUtils::DeleteFolder : hr = 2
+7.195.0.2 : 10:41:31.466 :       EXIT:  CSetupDlg::RunSetupDlg
+7.195.0.2 : 10:41:31.466 :     EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.195.0.2 : 10:41:31.466 :     ENTRY: CSetupApp::SetupRetVal
+7.195.0.2 : 10:41:31.466 :     m_SetupParms.nRetVal = 0
+7.195.0.2 : 10:41:31.466 :       ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.195.0.2 : 10:41:31.466 :       EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.195.0.2 : 10:41:31.466 :       ENTRY: CSetupApp::ExitInstance()
+7.195.0.2 : 10:41:31.466 :         ENTRY: CFileUtils::UnloadUIUService
+7.195.0.2 : 10:41:31.466 :         EXIT:  CFileUtils::UnloadUIUService : bFileExist = 0
+7.195.0.2 : 10:41:31.466 :         ENTRY: CFileUtils::UnloadUIUService2
+7.195.0.2 : 10:41:31.466 :         EXIT:  CFileUtils::UnloadUIUService2 : bFileExist = 0
+7.195.0.2 : 10:41:31.481 :         ENTRY: ScheduleSelfDeletionTask
+7.195.0.2 : 10:41:31.481 :         cmdlnp = C:\WINDOWS\TEMP\KUIU.EXE 0x1D00 3221225472 4096 0 C:\PROGRAM FILES\CONEXANT\FLOW\SETUP64.EXE
+7.195.0.2 : 10:41:31.872 :         EXIT:  DeleteFileAndDirectory : bRetVal = 1
+7.195.0.2 : 10:41:31.872 :         ENTRY: DeleteCreateTempFolderAndFiles
+7.195.0.2 : 10:41:31.872 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229938329
+7.195.0.2 : 10:41:31.872 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.872 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229938329
+7.195.0.2 : 10:41:31.888 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229938358
+7.195.0.2 : 10:41:31.888 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.888 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229938358
+7.195.0.2 : 10:41:31.888 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229938368
+7.195.0.2 : 10:41:31.888 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.888 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229938368
+7.195.0.2 : 10:41:31.888 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229938377
+7.195.0.2 : 10:41:31.888 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.903 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229938377
+7.195.0.2 : 10:41:31.903 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229938387
+7.195.0.2 : 10:41:31.903 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.903 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229938387
+7.195.0.2 : 10:41:31.903 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229938397
+7.195.0.2 : 10:41:31.903 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.903 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229938397
+7.195.0.2 : 10:41:31.903 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022993b141
+7.195.0.2 : 10:41:31.903 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.919 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022993b141
+7.195.0.2 : 10:41:31.919 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022993c235
+7.195.0.2 : 10:41:31.919 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.919 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022993c235
+7.195.0.2 : 10:41:31.919 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022993c256
+7.195.0.2 : 10:41:31.919 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.919 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022993c256
+7.195.0.2 : 10:41:31.919 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022993c29e
+7.195.0.2 : 10:41:31.934 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.934 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022993c29e
+7.195.0.2 : 10:41:31.934 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022993d18a
+7.195.0.2 : 10:41:31.934 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.934 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022993d18a
+7.195.0.2 : 10:41:31.934 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299443d8
+7.195.0.2 : 10:41:31.934 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.934 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299443d8
+7.195.0.2 : 10:41:31.934 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229946110
+7.195.0.2 : 10:41:31.950 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.950 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229946110
+7.195.0.2 : 10:41:31.950 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994627a
+7.195.0.2 : 10:41:31.950 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.950 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994627a
+7.195.0.2 : 10:41:31.950 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994629a
+7.195.0.2 : 10:41:31.950 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.950 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994629a
+7.195.0.2 : 10:41:31.950 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299463c8
+7.195.0.2 : 10:41:31.966 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.966 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299463c8
+7.195.0.2 : 10:41:31.966 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299463db
+7.195.0.2 : 10:41:31.966 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.966 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299463db
+7.195.0.2 : 10:41:31.966 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299479f
+7.195.0.2 : 10:41:31.966 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.966 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299479f
+7.195.0.2 : 10:41:31.966 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994710c
+7.195.0.2 : 10:41:31.981 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.981 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994710c
+7.195.0.2 : 10:41:31.981 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994711c
+7.195.0.2 : 10:41:31.981 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.981 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994711c
+7.195.0.2 : 10:41:31.981 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299471a8
+7.195.0.2 : 10:41:31.981 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.997 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299471a8
+7.195.0.2 : 10:41:31.997 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299471b8
+7.195.0.2 : 10:41:31.997 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.997 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299471b8
+7.195.0.2 : 10:41:31.997 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229947206
+7.195.0.2 : 10:41:31.997 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:31.997 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229947206
+7.195.0.2 : 10:41:31.997 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI60229949295
+7.195.0.2 : 10:41:32.013 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:32.013 :         csFolder = C:\WINDOWS\TEMP\CustomINI60229949295
+7.195.0.2 : 10:41:32.013 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI602299493bf
+7.195.0.2 : 10:41:32.013 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:32.013 :         csFolder = C:\WINDOWS\TEMP\CustomINI602299493bf
+7.195.0.2 : 10:41:32.013 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994ad1
+7.195.0.2 : 10:41:32.013 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:32.013 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994ad1
+7.195.0.2 : 10:41:32.013 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994ae0
+7.195.0.2 : 10:41:32.028 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:32.028 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994ae0
+7.195.0.2 : 10:41:32.028 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994a0
+7.195.0.2 : 10:41:32.028 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:32.028 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994a0
+7.195.0.2 : 10:41:32.028 :           ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\WINDOWS\TEMP\CustomINI6022994b1cb
+7.195.0.2 : 10:41:32.044 :           EXIT:  CFileUtils::DeleteFolder : hr = 0
+7.195.0.2 : 10:41:32.044 :         csFolder = C:\WINDOWS\TEMP\CustomINI6022994b1cb
+7.195.0.2 : 10:41:32.044 :         EXIT:  DeleteCreateTempFolderAndFiles
+7.195.0.2 : 10:41:32.044 :         ENTRY: CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.195.0.2 : 10:41:32.044 :         CFileUtils::SignalMonitorAppSyncInfo : szFileName = C:\PROGRAM FILES\CONEXANT\FLOW\SETUP64.EXE
+7.195.0.2 : 10:41:32.044 :         EXIT:  CFileUtils::SignalMonitorAppSyncInfo (APPSYNC:)
+7.195.0.2 : 10:41:32.044 :       EXIT:  CSetupApp::ExitInstance()
