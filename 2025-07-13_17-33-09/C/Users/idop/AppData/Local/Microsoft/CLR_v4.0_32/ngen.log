@@ -1,0 +1,76 @@
+ï»¿To learn about increasing the verbosity of the NGen log files please see http://go.microsoft.com/fwlink/?linkid=210113
+06/09/2025 04:14:03.865 [10516]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1552
+06/09/2025 04:14:03.961 [10516]: NGen task completed successfully
+06/10/2025 04:10:41.307 [43120]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1548
+06/10/2025 04:10:41.329 [43120]: Not creating new native images due to disk space or quota limit
+06/10/2025 04:10:41.416 [43120]: NGen task completed successfully
+06/11/2025 04:10:30.108 [45044]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1544
+06/11/2025 04:10:30.149 [45044]: Not creating new native images due to disk space or quota limit
+06/11/2025 04:10:30.279 [45044]: NGen task completed successfully
+06/12/2025 04:05:45.368 [35444]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1532
+06/12/2025 04:05:45.396 [35444]: Not creating new native images due to disk space or quota limit
+06/12/2025 04:05:45.507 [35444]: NGen task completed successfully
+06/13/2025 04:12:13.414 [37112]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1552
+06/13/2025 04:12:13.440 [37112]: Not creating new native images due to disk space or quota limit
+06/13/2025 04:12:13.540 [37112]: NGen task completed successfully
+06/14/2025 04:06:37.689 [46940]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1560
+06/14/2025 04:06:37.717 [46940]: Not creating new native images due to disk space or quota limit
+06/14/2025 04:06:37.817 [46940]: NGen task completed successfully
+06/15/2025 04:18:12.591 [32912]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1564
+06/15/2025 04:18:12.624 [32912]: Not creating new native images due to disk space or quota limit
+06/15/2025 04:18:12.726 [32912]: NGen task completed successfully
+06/16/2025 04:04:14.412 [39120]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1512
+06/16/2025 04:04:14.457 [39120]: Not creating new native images due to disk space or quota limit
+06/16/2025 04:04:14.566 [39120]: NGen task completed successfully
+06/17/2025 10:12:27.486 [1276]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1484
+06/17/2025 10:12:27.509 [1276]: Not creating new native images due to disk space or quota limit
+06/17/2025 10:12:27.593 [1276]: NGen task completed successfully
+06/18/2025 04:15:08.912 [57616]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1580
+06/18/2025 04:15:08.946 [57616]: Not creating new native images due to disk space or quota limit
+06/18/2025 04:15:09.033 [57616]: NGen task completed successfully
+06/26/2025 11:58:01.092 [42032]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1612
+06/26/2025 11:58:01.119 [42032]: Not creating new native images due to disk space or quota limit
+06/26/2025 11:58:01.206 [42032]: NGen task completed successfully
+06/27/2025 04:12:20.996 [38980]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1640
+06/27/2025 04:12:21.025 [38980]: Not creating new native images due to disk space or quota limit
+06/27/2025 04:12:21.102 [38980]: NGen task completed successfully
+06/29/2025 10:26:42.787 [38992]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1628
+06/29/2025 10:26:42.815 [38992]: Not creating new native images due to disk space or quota limit
+06/29/2025 10:26:42.891 [38992]: NGen task completed successfully
+06/30/2025 04:20:08.861 [26860]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1572
+06/30/2025 04:20:08.883 [26860]: Not creating new native images due to disk space or quota limit
+06/30/2025 04:20:08.949 [26860]: NGen task completed successfully
+07/01/2025 04:18:49.101 [57588]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1408
+07/01/2025 04:18:49.127 [57588]: Not creating new native images due to disk space or quota limit
+07/01/2025 04:18:49.213 [57588]: NGen task completed successfully
+07/02/2025 04:20:31.459 [79100]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1624
+07/02/2025 04:20:31.486 [79100]: Not creating new native images due to disk space or quota limit
+07/02/2025 04:20:31.575 [79100]: NGen task completed successfully
+07/03/2025 04:07:39.192 [96860]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1672
+07/03/2025 04:07:39.327 [96860]: NGen task completed successfully
+07/06/2025 13:14:31.067 [90936]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1600
+07/06/2025 13:14:31.099 [90936]: Not creating new native images due to disk space or quota limit
+07/06/2025 13:14:31.202 [90936]: NGen task completed successfully
+07/07/2025 05:38:09.670 [128812]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1412
+07/07/2025 05:38:09.774 [128812]: NGen task completed successfully
+07/08/2025 05:08:58.698 [148100]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1548
+07/08/2025 05:08:58.726 [148100]: Not creating new native images due to disk space or quota limit
+07/08/2025 05:08:58.835 [148100]: NGen task completed successfully
+07/09/2025 05:28:42.230 [176540]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1576
+07/09/2025 05:28:42.255 [176540]: Not creating new native images due to disk space or quota limit
+07/09/2025 05:28:42.358 [176540]: NGen task completed successfully
+07/10/2025 05:28:42.198 [200200]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1468
+07/10/2025 05:28:42.222 [200200]: Not creating new native images due to disk space or quota limit
+07/10/2025 05:28:42.315 [200200]: NGen task completed successfully
+07/11/2025 05:27:59.032 [211396]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1596
+07/11/2025 05:27:59.059 [211396]: Not creating new native images due to disk space or quota limit
+07/11/2025 05:27:59.154 [211396]: NGen task completed successfully
+07/12/2025 05:28:42.107 [232144]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1656
+07/12/2025 05:28:42.132 [232144]: Not creating new native images due to disk space or quota limit
+07/12/2025 05:28:42.212 [232144]: NGen task completed successfully
+07/13/2025 05:28:41.411 [262420]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1596
+07/13/2025 05:28:41.437 [262420]: Not creating new native images due to disk space or quota limit
+07/13/2025 05:28:41.522 [262420]: NGen task completed successfully
+07/14/2025 04:41:50.291 [271756]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\NGenTask.exe" /StopEvent:1592
+07/14/2025 04:41:50.315 [271756]: Not creating new native images due to disk space or quota limit
+07/14/2025 04:41:50.402 [271756]: NGen task completed successfully
