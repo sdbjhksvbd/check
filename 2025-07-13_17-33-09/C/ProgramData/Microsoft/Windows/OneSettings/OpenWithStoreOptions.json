@@ -1,0 +1,1 @@
+{"queryUrl":"/settings/v3.0/WindowsDefaultSetting/OpenWith","settings":{"STOREOPTIONS":[{"Regions":["CN"],"Extensions":[".zip",".txt",".pdf",".mp4",".mp3",".mov",".m4a",".jpg",".jpeg",".json"],"AutoInstall":1},{"Regions":["US"],"Extensions":[".docx",".jpg",".png",".wmv",".zip",".mkv",".mov",".mp4",".jpeg"],"AutoInstall":0}]}}
