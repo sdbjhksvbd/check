@@ -1,0 +1,5 @@
+2022-01-04 13:35:14.3567 ERROR 	ConfigService. Error parsing config file: The process has no package identity. (Exception from HRESULT: 0x80073D54) 
+2022-01-04 13:35:14.3879 DEBUG 	ConfigService. Using AllComponents filter for logging. 
+2022-01-04 13:35:14.3879 INFO 	DXDBManager. InvokeDXDBGPUOverrideAsync. Online 
+2022-01-04 13:35:15.4658 INFO 	DXDBManager. PlatformsGPUOverrideNeededAsync. GPU Override not required 
+2022-01-04 13:35:16.6687 INFO 	DXDBManager. PlatformsGPUOverrideNeededAsync. GPU Override not required 
