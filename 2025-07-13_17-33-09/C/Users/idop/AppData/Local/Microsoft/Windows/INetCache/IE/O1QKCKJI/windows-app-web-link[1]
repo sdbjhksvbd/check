@@ -1,0 +1,20 @@
+[{
+	  "packageFamilyName": "AdobeAcrobatDCCoreApp_9p443f96enen8",
+	  "paths": [""],
+	  "excludedPaths" : ["*"]
+},
+{
+	  "packageFamilyName": "AdobeAcrobatReaderCoreApp_9p443f96enen8",
+	  "paths": [""],
+	  "excludedPaths" : ["*"]
+},
+{
+	  "packageFamilyName": "AdobeAcrobatDCCoreApp_pc75e8sa7ep4e",
+	  "paths": [""],
+	  "excludedPaths" : ["*"]
+},
+{
+	  "packageFamilyName": "AdobeAcrobatReaderCoreApp_pc75e8sa7ep4e",
+	  "paths": [""],
+	  "excludedPaths" : ["*"]
+}]
