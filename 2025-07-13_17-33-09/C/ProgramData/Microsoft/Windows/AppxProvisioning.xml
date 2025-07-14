@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><AppxProvisionList xmlns="http://schemas.microsoft.com/appx/2013/appxprovisionpackage">
+  <EndOfLife>
+    <Package FamilyName="Microsoft.Camera_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Bing_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Alarms_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Calculate_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.InsiderHub_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.Windows.FeatureOnDemand.InsiderHub_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.SoundRecorder_8wekyb3d8bbwe"/>
+    <Package FamilyName="microsoft.windowsphotos_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.PPISkype_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.BingMaps_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Maps3DPreview_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.BioEnrollment_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.ShellExperienceHost_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.ContentDeliveryManager_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Spartan_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.Spartan_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.AnswerDesk_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.AccountsControl_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.HelpAndTips_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.CloudExperienceHost_8wekyb3d8bbwe"/>
+    <Package FamilyName="microsoft.windowsdefaultlockscreen_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.AAD.BrokerPlugin_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.MicrosoftFeedback_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.WindowsFeedback_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.PPIWelcome_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.PPIProjection_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Office.OneNote_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.Music.Preview_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Video.Preview_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.WelcomeScreen_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.XboxLIVEGames_8wekyb3d8bbwe"/>
+    <Package FamilyName="AssignedAccessLockApp_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.XboxIdentityProvider_cw5n1h2txyewy"/>
+    <Package FamilyName="14C78905.TrendMicroMalwareMap_y1xsffnhj35f6"/>
+    <Package FamilyName="14C78905.TrendMicroConnect_y1xsffnhj35f6"/>
+    <Package FamilyName="Windows.PurchaseDialog_cw5n1h2txyewy"/>
+    <Package FamilyName="RaraMediaGroupLtd.raramusicwithLenovo_974r2wkty6q6y"/>
+    <Package FamilyName="NeonRabbit.Laszlo_en4prcah77pjg"/>
+    <Package FamilyName="Windows.MiracastView_cw5n1h2txyewy"/>
+    <Package FamilyName="Holograms_cw5n1h2txyewy"/>
+    <Package FamilyName="HolographicViewer_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.WindowsPhone_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.Cortana_cw5n1h2txyewy"/>
+    <Package FamilyName="MicrosoftWindows.UX.Client.ST_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.Wallet_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.SecHealthUI_cw5n1h2txyewy"/>
+    <Package FamilyName="MicrosoftWindows.UX.Inbox_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.549981C3F5F10_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Getstarted_8wekyb3d8bbwe"/>
+  </EndOfLife>
+<Provisioned><Package FullName="Microsoft.BingNews_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe" PackageType="framework"/><Package FullName="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe" PackageType="framework"/><Package FullName="Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe" PackageType="framework"/><Package FullName="Microsoft.BingNews_4.56.242.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.BingNews_4.56.242.0_neutral_split.scale-100_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="Microsoft.BingNews_4.56.242.0_neutral_split.scale-125_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="Microsoft.BingSearch_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.BingSearch_1.0.79.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.BingSearch_1.0.79.0_neutral_split.scale-100_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="Microsoft.BingSearch_1.0.79.0_neutral_split.scale-125_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="Microsoft.AVCEncoderVideoExtension_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.AVCEncoderVideoExtension_1.0.271.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.ApplicationCompatibilityEnhancements_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.ApplicationCompatibilityEnhancements_1.2401.10.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.AV1VideoExtension_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.AV1VideoExtension_1.1.61781.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.XboxSpeechToTextOverlay_2024.401.618.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-100_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-125_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="MSTeams_1.0.0.0_x64__8wekyb3d8bbwe"/><Package FullName="Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe"/><Package FullName="Microsoft.MPEG2VideoExtension_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.MPEG2VideoExtension_1.0.61931.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.ScreenSketch_2024.401.617.0_neutral_~_8wekyb3d8bbwe" PackageType="bundle"/><Package FullName="Microsoft.ScreenSketch_11.2307.52.0_x64__8wekyb3d8bbwe" ProvisionSourceIsBundle="true"/><Package FullName="Microsoft.ScreenSketch_11.2307.52.0_neutral_split.scale-100_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/><Package FullName="Microsoft.ScreenSketch_11.2307.52.0_neutral_split.scale-125_8wekyb3d8bbwe" ProvisionSourceIsBundle="true" PackageType="resource"/></Provisioned></AppxProvisionList>
