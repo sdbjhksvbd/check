@@ -1,0 +1,32 @@
+{
+    "table_inside_list": {
+        "tag_type": "table",
+        "nested_in": {
+            "tag_type": "list"
+        },
+        "rule": "tag",
+        "action": "disqualify",
+        "multi_column": false,
+        "conditions": []
+    },
+    "rule_watermark": {
+        "tag_type": "artifact",
+        "tag_subtype": "watermark",
+        "rule": "tag",
+        "action": "disqualify",
+        "multi_column": false,
+        "conditions": []
+    },
+    "toc": {
+        "tag_type": "toc",
+        "rule": "tag",
+        "action": "disqualify",
+        "multi_column": false,
+        "conditions": []
+    },
+    "rule_True_MC": {
+        "tag_type": "any",
+        "rule": "tag",
+        "action": "disqualify"
+    }
+}
