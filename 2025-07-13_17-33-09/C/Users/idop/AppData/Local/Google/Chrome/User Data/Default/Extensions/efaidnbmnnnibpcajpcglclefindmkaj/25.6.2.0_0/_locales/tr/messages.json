@@ -1,0 +1,691 @@
+{
+   "ConvertVerbDescription": {
+      "message": "Belgeleri PDF'ye veya PDF'den baÅŸka formatlara dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n."
+   },
+   "Disable": {
+      "message": "Kapat"
+   },
+   "EditVerbDescription": {
+      "message": "PDF'nizdeki sayfalarÄ± yeniden sÄ±ralayÄ±n, dÃ¶ndÃ¼rÃ¼n veya silin."
+   },
+   "Enable": {
+      "message": "EtkinleÅŸtir"
+   },
+   "LearnMoreURL": {
+      "message": "https://helpx.adobe.com/tr/acrobat/kb/acrobat-pro-aip-for-chrome.html"
+   },
+   "LearnMoreURLEdge": {
+      "message": "https://helpx.adobe.com/tr/acrobat/kb/acrobat-pro-aip-for-edge.html"
+   },
+   "acrobatGdriveTripleDotMenuTouchPointText": {
+      "message": "Acrobat ile AÃ§"
+   },
+   "acrobatGmailFteToolTipButton": {
+      "message": "AnladÄ±m"
+   },
+   "acrobatGmailFteToolTipDescription": {
+      "message": "Acrobat ile doÄŸrudan Chrome'da dÃ¼zenleyin, dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n, yorum ekleyin ve imzalayÄ±n"
+   },
+   "acrobatGmailFteToolTipTitle": {
+      "message": "Bu PDF'yi Acrobatâ€™ta AÃ§"
+   },
+   "acrobatGsuiteFteToolTipButton": {
+      "message": "AnladÄ±m"
+   },
+   "acrobatGsuiteFteToolTipButtonDV": {
+      "message": "Tamam"
+   },
+   "acrobatGsuiteFteToolTipButtonNonDV": {
+      "message": "Tamam"
+   },
+   "acrobatGsuiteFteToolTipDescription": {
+      "message": "Acrobat ile doÄŸrudan Chrome'da dÃ¼zenleyin, dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n, yorum ekleyin ve imzalayÄ±n"
+   },
+   "acrobatGsuiteFteToolTipDescriptionDV": {
+      "message": "Acrobat'Ä± varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyiciniz yaparak $surfaceName$ iÃ§inde dÃ¼zenleme, yorum ekleme, dÃ¶nÃ¼ÅŸtÃ¼rme ve e-imzalama gibi PDF araÃ§larÄ±nÄ± deneyin.",
+      "placeholders": {
+         "surfaceName": {
+            "content": "$1"
+         }
+      }
+   },
+   "acrobatGsuiteFteToolTipDescriptionNonDV": {
+      "message": "DoÄŸrudan $surfaceName$ iÃ§inde dÃ¼zenleme, yorum ekleme, dÃ¶nÃ¼ÅŸtÃ¼rme ve e-imzalama gibi Acrobat PDF araÃ§larÄ±nÄ± deneyin.",
+      "placeholders": {
+         "surfaceName": {
+            "content": "$1"
+         }
+      }
+   },
+   "acrobatGsuiteFteToolTipTitle": {
+      "message": "Bu PDF'yi Acrobatâ€™ta AÃ§"
+   },
+   "acrobatGsuiteFteToolTipTitleDV": {
+      "message": "TÃ¼m PDF'leri Adobe Acrobat'ta aÃ§Ä±n"
+   },
+   "acrobatGsuiteFteToolTipTitleNonDV": {
+      "message": "Bu PDF'yi Adobe Acrobat'ta AÃ§"
+   },
+   "acrobatGsuiteTouchPointPreferenceDescription": {
+      "message": "Acrobat'ta PDF'leri hÄ±zlÄ±ca aÃ§mak ve PDF araÃ§larÄ±na eriÅŸmek iÃ§in Gmail ve Google Drive'a Acrobat simgelerini ekleyin."
+   },
+   "acrobatGsuiteTouchPointPreferenceTitle": {
+      "message": "Acrobat'Ä± Gmail ve Google Drive'a entegre edin"
+   },
+   "acrobatTouchPointInOtherSitesPreferenceDescription": {
+      "message": "PDF araÃ§larÄ±na kolay eriÅŸim iÃ§in Acrobat'Ä± Gmail ve Google Drive dahil web siteleri ile entegre edin."
+   },
+   "acrobatTouchPointInOtherSitesPreferenceTitle": {
+      "message": "BaÅŸka web sitelerinde Acrobat'ta AÃ§ seÃ§eneÄŸini gÃ¶sterin"
+   },
+   "adobeYoloErrorMessage": {
+      "message": "Maalesef bu baÄŸlantÄ± geÃ§ersiz"
+   },
+   "adobeYoloMessage": {
+      "message": "Acrobat'a giriÅŸ yapÄ±lÄ±yor..."
+   },
+   "aiAcBody": {
+      "message": "Acrobat Yapay Zeka AsistanÄ±'nÄ± kullanarak web sayfalarÄ±nÄ± hÄ±zlÄ± bir ÅŸekilde Ã¶zetleyin ve Ã¶nemli bilgileri alÄ±n."
+   },
+   "aiAcHeader": {
+      "message": "Acrobat uzantÄ±nÄ±zla daha fazlasÄ±nÄ± yapÄ±n"
+   },
+   "aiMarkerTouchpointPreferenceDescription": {
+      "message": "TarayÄ±cÄ±da PDF URL'lerinin Ã¼zerine gelerek doÄŸrudan Acrobat'ta iÃ§gÃ¶rÃ¼ler ve PDF Ã¶zetleri oluÅŸturabilirsiniz."
+   },
+   "aiMarkerTouchpointPreferenceTitle": {
+      "message": "PDF URL'ler iÃ§in Ãœretken Yapay Zeka menÃ¼sÃ¼nÃ¼ etkinleÅŸtir"
+   },
+   "analyticsOptinTitle": {
+      "message": "KullanÄ±m verileri gÃ¶nder"
+   },
+   "appearancePrefDesc": {
+      "message": "Koyu ve aÃ§Ä±k tema arasÄ±nda geÃ§iÅŸ yapma"
+   },
+   "appearancePrefOp1": {
+      "message": "Sistem ayarÄ±nÄ± kullan"
+   },
+   "appearancePrefOp2": {
+      "message": "Koyu mod"
+   },
+   "appearancePrefOp3": {
+      "message": "AÃ§Ä±k mod"
+   },
+   "appearancePrefTitle": {
+      "message": "Koyu mod ayarlarÄ±"
+   },
+   "askAssistantBannerContentText": {
+      "message": "Yapay Zeka AsistanÄ± ile web sayfalarÄ±nÄ±n hÄ±zlÄ± Ã¶zetlerini ve Ã¶nemli bilgilerini alÄ±n."
+   },
+   "askAssistantBannerTitle": {
+      "message": "Web sayfalarÄ± iÃ§in Yapay Zeka AsistanÄ±"
+   },
+   "canQuesBriefOverview": {
+      "message": "Bu makaleye kÄ±sa bir genel bakÄ±ÅŸ saÄŸla"
+   },
+   "canQuesCreateFAQ": {
+      "message": "Bu bilgiye dayalÄ± SSS listesi oluÅŸtur"
+   },
+   "canQuesDraftEmail": {
+      "message": "Ã–nemli noktalarÄ± Ã¶zetleyen bir e-posta taslaÄŸÄ± hazÄ±rla"
+   },
+   "canQuesImpTopics": {
+      "message": "TÃ¼m Ã¶nemli konularÄ± ve anahtar sÃ¶zcÃ¼kleri listele"
+   },
+   "canQuesSummarise": {
+      "message": "Bu makaleyi Ã¶zetle"
+   },
+   "closeButton": {
+      "message": "Kapat"
+   },
+   "cropImageContextMenu": {
+      "message": "GÃ¶rÃ¼ntÃ¼yÃ¼ KÄ±rp"
+   },
+   "dcWebBookmarkTitle": {
+      "message": "Adobe Acrobat Ana SayfasÄ±"
+   },
+   "doNotShowButton": {
+      "message": "Tekrar gÃ¶sterme"
+   },
+   "domainPreferenceTitle": {
+      "message": "Yapay Zeka AsistanÄ± FAB'nin gizli olduÄŸu web siteleri"
+   },
+   "downloadBannerContinue": {
+      "message": "AÃ§"
+   },
+   "downloadBannerText": {
+      "message": "UygulamayÄ± Chrome'da varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyici olarak ayarlayarak Ä°ndirilen tÃ¼m PDF'leri Acrobat'ta aÃ§Ä±n"
+   },
+   "editImageContextMenu": {
+      "message": "GÃ¶rÃ¼ntÃ¼ DÃ¼zenle"
+   },
+   "editMegaVerbText": {
+      "message": "DÃ¼zenle"
+   },
+   "effectsImageContextMenu": {
+      "message": "Efektleri Uygula"
+   },
+   "embeddedPDFHideIconForNow": {
+      "message": "Hide icon for now"
+   },
+   "embeddedPDFOpenInAcrobatTooltip": {
+      "message": "Open in Acrobat"
+   },
+   "embeddedPDFOpenPDFInAcrobat": {
+      "message": "Open PDF in Acrobat"
+   },
+   "embeddedPDFTouchPointFTEBody": {
+      "message": "Get instant access to your PDF tools like comment and e-sign by opening in Acrobat. Hide this shortcut anytime in Preferences."
+   },
+   "embeddedPDFTouchPointFTEHeader": {
+      "message": "Open in Acrobat"
+   },
+   "enableGenAIFeaturesDescription": {
+      "message": "Ãœretken yapay zeka Ã¶zelliÄŸi kullandÄ±ÄŸÄ±nÄ±zda dosyanÄ±z bulutta iÅŸlenir. Bu Ã¶zelliÄŸi kapatÄ±rsanÄ±z dosyanÄ±z iÅŸlenmez ve Ã¼retken yapay zeka devre dÄ±ÅŸÄ± bÄ±rakÄ±lÄ±r. DilediÄŸiniz zaman yeniden etkinleÅŸtirebilirsiniz."
+   },
+   "enableGenAIFeaturesTitle": {
+      "message": "Acrobat'ta Ãœretken Yapay Zeka Ã¶zelliklerini etkinleÅŸtirin"
+   },
+   "expressDropdownMenuTitle": {
+      "message": "Adobe Acrobat"
+   },
+   "expressDropdownMenuTooltip": {
+      "message": "Kolayca kÄ±rpÄ±n, arka planÄ± kaldÄ±rÄ±n ve daha fazlasÄ±nÄ± yapÄ±n. Adobe Express ile desteklenmektedir."
+   },
+   "expressEditImageParentContextMenu": {
+      "message": "GÃ¶rÃ¼ntÃ¼ DÃ¼zenle"
+   },
+   "expressEditImageParentContextMenuExperiment": {
+      "message": "GÃ¶rÃ¼ntÃ¼yÃ¼ Adobe Express ile dÃ¼zenleyin"
+   },
+   "expressEditImagePoweredByExpressContextMenu": {
+      "message": "Adobe Express ile desteklenmektedir"
+   },
+   "expressExportOptionsDownloadLabel": {
+      "message": "Ä°ndir"
+   },
+   "expressExportOptionsSaveLabel": {
+      "message": "Kaydet"
+   },
+   "expressFTEDescription": {
+      "message": "Yapay zekayÄ± kullanarak bir gÃ¶rÃ¼ntÃ¼yÃ¼ kÄ±rpmak, arka planÄ± kaldÄ±rmak veya baÅŸtan tasarlamak iÃ§in saÄŸ tÄ±klatÄ±n."
+   },
+   "expressFTEFooter": {
+      "message": "\u003Cb>Adobe Acrobat\u003C/b> aracÄ±lÄ±ÄŸÄ±yla"
+   },
+   "expressFTETitle": {
+      "message": "Adobe Express ile gÃ¶rÃ¼ntÃ¼ dÃ¼zenleyin"
+   },
+   "expressPopoverFTEDescription": {
+      "message": "Adobe Express ile herhangi bir Ã§evrimiÃ§i gÃ¶rÃ¼ntÃ¼ye saÄŸ tÄ±klayarak arka planÄ± hÄ±zla kaldÄ±rÄ±n, kÄ±rpÄ±n veya yapay zekayÄ± kullanarak baÅŸtan tasarlayÄ±n"
+   },
+   "expressPopoverFTETitle": {
+      "message": "GÃ¶rÃ¼ntÃ¼leri tarayÄ±cÄ±da dÃ¼zenleyin"
+   },
+   "expressPublishModalTitle": {
+      "message": "GÃ¶rÃ¼ntÃ¼ indiriliyor..."
+   },
+   "expressTouchpointPreferenceDescription": {
+      "message": "Adobe Acrobat eklentisi Adobe Express ile gÃ¶rÃ¼ntÃ¼leri dÃ¼zenlemenize olanak tanÄ±r. Bunun kapatÄ±lmasÄ± bu Ã¶zelliÄŸi kaldÄ±racaktÄ±r. Ä°stediÄŸiniz zaman yeniden etkinleÅŸtirebilirsiniz."
+   },
+   "expressTouchpointPreferenceTitle": {
+      "message": "Acrobat'ta Adobe Express iÅŸlemlerini etkinleÅŸtir"
+   },
+   "extensionMenuTitle": {
+      "message": "Acrobat UzantÄ±sÄ± - TÃ¼m PDF araÃ§larÄ±nÄ±zÄ±n kÄ±sayolu"
+   },
+   "failToastText": {
+      "message": "Beklenmeyen bir hata oluÅŸtu. LÃ¼tfen daha sonra tekrar deneyin."
+   },
+   "fteOwnershipSideRedCardContent": {
+      "message": "Acrobat'Ä± varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyiciniz olarak ayarladÄ±ÄŸÄ±nÄ±zda yorum ekleme, form doldurma, imzalama ve daha fazla Ã¶zelliÄŸe doÄŸrudan Chrome'da eriÅŸirsiniz."
+   },
+   "fteSideCardPrimaryHeader": {
+      "message": "Acrobat'Ä± kullanÄ±n"
+   },
+   "fteSideCardSecondaryHeader": {
+      "message": "Chrome'da deneyin"
+   },
+   "gDriveDVPAppListCoachMarkContent": {
+      "message": "Google Drive PDF'lerini bir sonraki sefer doÄŸrudan Acrobat'ta aÃ§mak iÃ§in 'VarsayÄ±lan olarak kullan' onay kutusunu iÅŸaretleyin"
+   },
+   "gDriveDVPCoachMarkTitle": {
+      "message": "Acrobat'Ä± varsayÄ±lan gÃ¶rÃ¼ntÃ¼leyici olarak ayarlayÄ±n"
+   },
+   "gDriveDVPManageAppCoachMarkContent": {
+      "message": "TÃ¼m Google Drive PDF'lerini doÄŸrudan Acrobat'ta aÃ§arak PDF'leri gÃ¶rÃ¼ntÃ¼lemek, dÃ¼zenlemek ve PDF'lere yorum eklemek iÃ§in 'UygulamalarÄ± YÃ¶net' Ã¶ÄŸesini tÄ±klatÄ±n"
+   },
+   "gSuiteDVPAddOnDefaultDesc": {
+      "message": "Acrobat eklentisi varsayÄ±lan olarak ayarlanÄ±r"
+   },
+   "genAIFabPreferenceDescription": {
+      "message": "Yapay Zeka AsistanÄ± dÃ¼ÄŸmesini her zaman tarayÄ±cÄ± pencerenizin kenarÄ±nda gÃ¶rÃ¼ntÃ¼leyin."
+   },
+   "genAIFabPreferenceTitle": {
+      "message": "Yapay Zeka AsistanÄ± dÃ¼ÄŸmesi"
+   },
+   "generativeFillImageContextMenu": {
+      "message": "Ãœretken Dolgu"
+   },
+   "genericDVPCoachMarkContent": {
+      "message": "'UygulamalarÄ± YÃ¶net' Ã¶ÄŸesini tÄ±klatÄ±n ve ardÄ±ndan sayfayÄ± Acrobat Eklentisi'ne kaydÄ±rÄ±p 'VarsayÄ±lan olarak kullan' onay kutusunu tÄ±klatÄ±n"
+   },
+   "getInsight": {
+      "message": "Acrobat Yapay Zeka AsistanÄ± ile iÃ§gÃ¶rÃ¼ler edinin"
+   },
+   "getSummary": {
+      "message": "Acrobat Yapay Zeka AsistanÄ± ile Ã¶zet alÄ±n"
+   },
+   "gmailPromptFTETooltip": {
+      "message": "DÃ¼zenleme ve Ä°mzalama gibi araÃ§larÄ± kullanmak iÃ§in PDF'leri Acrobat'ta aÃ§Ä±n"
+   },
+   "gsuiteEditWithAcrobat": {
+      "message": "Acrobat ile DÃ¼zenleyin"
+   },
+   "gsuiteOpenWithAcrobat": {
+      "message": "Acrobat'ta aÃ§"
+   },
+   "hideFabForDomain": {
+      "message": "Bu site iÃ§in devre dÄ±ÅŸÄ± bÄ±rak"
+   },
+   "hideForNow": {
+      "message": "Åžimdilik gizle"
+   },
+   "insertObjectImageContextMenu": {
+      "message": "Nesne Ekle"
+   },
+   "localFileBlockingPageOpenInChrome": {
+      "message": "Bu dosyayÄ± Chrome'da aÃ§"
+   },
+   "localFileBlockingPageTitle": {
+      "message": "Acrobat UzantÄ±sÄ±nÄ± EtkinleÅŸtir"
+   },
+   "localFileOptionDesc": {
+      "message": "TÃ¼m PDF'lerinizi Chrome'daki Acrobat'ta aÃ§mak iÃ§in Acrobat uzantÄ±sÄ±nÄ±n yerel dosya URL'lerinize eriÅŸmesine izin verin."
+   },
+   "localFileOptionTitle": {
+      "message": "Acrobat'ta yerel PDF'ler aÃ§Ä±lÄ±yor"
+   },
+   "localFilePromptContinueButton": {
+      "message": "Devam"
+   },
+   "localFilePromptDescription": {
+      "message": "PDF'leri dÃ¼zenlemek, dosyalarÄ± dÃ¶nÃ¼ÅŸtÃ¼rmek ve anÄ±nda elektronik olarak imzalamak iÃ§in Acrobat'Ä±n bu aygÄ±ttaki dosyalara eriÅŸerek tÃ¼m araÃ§larÄ±nÄ±za anÄ±nda eriÅŸmesine izin verin."
+   },
+   "localFilePromptHeader": {
+      "message": "DÃ¼zenleme, imzalama ve daha fazlasÄ± iÃ§in Acrobat'ta aÃ§Ä±n"
+   },
+   "localFteContinue": {
+      "message": "Ayarlara git"
+   },
+   "localFteDescription": {
+      "message": "Acrobat uzantÄ±sÄ±ndan en iyi ÅŸekilde yararlanarak tÃ¼m PDF'leri aÃ§Ä±n. UzantÄ± ayarlarÄ±na giderek dosya URL'lerine eriÅŸmesine izin verin."
+   },
+   "localFteDontShowAgainText": {
+      "message": "Bunu tekrar gÃ¶sterme"
+   },
+   "localFteTitle": {
+      "message": "Yerel dosyalarÄ±nÄ±zÄ± aÃ§mak iÃ§in Acrobat'a geÃ§in"
+   },
+   "neverDisplayFab": {
+      "message": "Asla gÃ¶sterme"
+   },
+   "openInAcrobat": {
+      "message": "Acrobat'ta AÃ§"
+   },
+   "optionsFailurePrompt": {
+      "message": "DeÄŸiÅŸikliklerinizi kaydedemedik; lÃ¼tfen daha sonra tekrar deneyin"
+   },
+   "optionsSuccessPrompt": {
+      "message": "Tercihler baÅŸarÄ±yla kaydedildi"
+   },
+   "optionsSuccessPromptReloadRequired": {
+      "message": "YapÄ±lan tercih yalnÄ±zca yeniden yÃ¼klemeden sonra yansÄ±tÄ±lÄ±r"
+   },
+   "pdfOwnerShipDmbConfirmBtn": {
+      "message": "Devam"
+   },
+   "pdfOwnerShipSideRedCardConfirmBtn": {
+      "message": "Devam"
+   },
+   "pdfOwnershipDefSideCardcontent": {
+      "message": "Adobe Acrobat'Ä± varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyiciniz olarak ayarlayÄ±n ve gÃ¶rÃ¼ntÃ¼leme, yorum ekleme, form doldurma, imzalama ve daha fazlasÄ±na eriÅŸin."
+   },
+   "pdfOwnershipExploreAcrobat": {
+      "message": "Acrobat'Ä± Chrome'da kullanÄ±n"
+   },
+   "pdfOwnershipExploreAcrobatEdge": {
+      "message": "Acrobat'Ä± Microsoft Edge'de Kullan"
+   },
+   "pdfOwnershipExploreOptionsDescription": {
+      "message": "Yorum ekleme, Doldurma ve Ä°mzalama ve diÄŸer PDF araÃ§larÄ±na hÄ±zlÄ±ca eriÅŸmek iÃ§in Acrobat'Ä± tarayÄ±cÄ±nÄ±zdaki varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyici yapÄ±n."
+   },
+   "pdfOwnershipExploreOptionsTitle": {
+      "message": "TÃ¼m PDF'leri Acrobat'ta AÃ§"
+   },
+   "pdfOwnershipPromptCancel": {
+      "message": "Åžimdi deÄŸil"
+   },
+   "pdfOwnershipPromptContent": {
+      "message": "Adobe Acrobat'Ä± varsayÄ±lan gÃ¶rÃ¼ntÃ¼leyiciniz olarak ayarlayarak Chrome'da PDF'lerle daha fazlasÄ±nÄ± yapÄ±n."
+   },
+   "pdfOwnershipPromptContent2": {
+      "message": "PDF'leri doÄŸrudan Google Chrome'da kullanmak iÃ§in Acrobat'Ä± varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyiciniz olarak ayarlayÄ±n. Yorum ekleyin, belgeleri doldurun, imzalayÄ±n ve dÃ¶nÃ¼ÅŸtÃ¼rme ve sÄ±kÄ±ÅŸtÄ±rma gibi araÃ§larÄ± deneyin."
+   },
+   "pdfOwnershipPromptContentEdge": {
+      "message": "Adobe Acrobat'Ä± varsayÄ±lan gÃ¶rÃ¼ntÃ¼leyiciniz olarak ayarlayarak Microsoft Edge'de PDF'lerle daha fazlasÄ±nÄ± yapÄ±n."
+   },
+   "pdfOwnershipPromptDeny": {
+      "message": "HayÄ±r, teÅŸekkÃ¼rler"
+   },
+   "pdfOwnershipPromptOk": {
+      "message": "VarsayÄ±lana ayarla"
+   },
+   "pdfOwnershipPromptOkFullscreen": {
+      "message": "Åžimdi deneyin"
+   },
+   "popupNoConnection": {
+      "message": "BaÄŸlantÄ± Yok"
+   },
+   "popupOfflineMessage": {
+      "message": "LÃ¼tfen baÄŸlantÄ±yÄ± sÃ¼rdÃ¼rmek iÃ§in yÃ¶neticinizle iletiÅŸime geÃ§in"
+   },
+   "preferences": {
+      "message": "Tercihler"
+   },
+   "removeBackgroundImageContextMenu": {
+      "message": "Arka PlanÄ± KaldÄ±r"
+   },
+   "removeObjectImageContextMenu": {
+      "message": "Nesne KaldÄ±r"
+   },
+   "saveLocationOp1": {
+      "message": "Bana her seferinde sor"
+   },
+   "saveLocationOp2": {
+      "message": "Adobe bulut depolama alanÄ±"
+   },
+   "saveLocationOp3": {
+      "message": "BilgisayarÄ±m"
+   },
+   "saveLocationPreferenceDescription": {
+      "message": "DosyalarÄ±nÄ±zÄ±n kaydedileceÄŸi konumu belirleyin"
+   },
+   "saveLocationPreferenceTitle": {
+      "message": "Dosya konumunu kaydet"
+   },
+   "sharepointPreferenceMessage": {
+      "message": "SharePoint dosyalarÄ±nÄ±n Acrobat'ta teslim edilmesine izin ver."
+   },
+   "sidepanelLocationPreferenceButtonText": {
+      "message": "TarayÄ±cÄ± ayarlarÄ±nda deÄŸiÅŸtirin"
+   },
+   "sidepanelLocationPreferenceDescription": {
+      "message": "Yan paneli tarayÄ±cÄ± penceresinin sol veya saÄŸ tarafÄ±na yerleÅŸtirin. Yan panel yalnÄ±zca Google Chrome 11.4 veya sonraki sÃ¼rÃ¼mlerinde kullanÄ±labilir."
+   },
+   "sidepanelLocationPreferenceTitle": {
+      "message": "Yapay Zeka AsistanÄ± panel konumu"
+   },
+   "stripTextOpenAcrobat": {
+      "message": "Acrobat'ta AÃ§"
+   },
+   "stripTextOpenFillnSign": {
+      "message": "Acrobat Doldur ve Ä°mzala"
+   },
+   "successToastText": {
+      "message": "Ä°ndirilen PDF'ler artÄ±k Adobe Acrobat'ta aÃ§Ä±lacak"
+   },
+   "surfaceNameGdrive": {
+      "message": "Google Drive"
+   },
+   "surfaceNameGmail": {
+      "message": "Gmail"
+   },
+   "tooltipTextDisabled": {
+      "message": "Yapay Zeka AsistanÄ± bu web sayfasÄ±nda kullanÄ±lamÄ±yor"
+   },
+   "tooltipTextEnabled": {
+      "message": "Yapay Zeka AsistanÄ±'nÄ± kullanarak Ã¶zetler ve Ã¶nemli bilgiler alÄ±n"
+   },
+   "tooltipTextSubText": {
+      "message": "Adobe Acrobat ile desteklenmektedir"
+   },
+   "unsupportedFileTypeToastText": {
+      "message": "Bu dosya tÃ¼rÃ¼ desteklenmiyor. BaÅŸka bir dosyayÄ± dÃ¼zenlemeyi deneyebilirsiniz."
+   },
+   "userLocale": {
+      "message": "KullanÄ±cÄ± Dili"
+   },
+   "web2pdfAddButtonText": {
+      "message": "Varolan PDF'ye ekle..."
+   },
+   "web2pdfAlwaysShow": {
+      "message": "PDF'ler iÃ§in otomatik olarak gÃ¶ster"
+   },
+   "web2pdfAppendLinkContextMenu": {
+      "message": "BaÄŸ Hedefini PDFâ€™ye Ekle"
+   },
+   "web2pdfAppendPageContextMenu": {
+      "message": "Web SayfasÄ±nÄ± Mevcut PDFâ€™ye Ekle..."
+   },
+   "web2pdfBadVersion": {
+      "message": "Chrome'un bu sÃ¼rÃ¼mÃ¼ Adobe Acrobat'Ä± desteklemiyor. Minimum sÃ¼rÃ¼m: $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1"
+         }
+      }
+   },
+   "web2pdfBadVersionEdge": {
+      "message": " Edge'in bu sÃ¼rÃ¼mÃ¼ Adobe Acrobat'Ä± desteklemiyor. Minimum sÃ¼rÃ¼m: $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1"
+         }
+      }
+   },
+   "web2pdfClickToOpen": {
+      "message": "PDF'yi Acrobat'ta aÃ§mak iÃ§in aÅŸaÄŸÄ±daki baÄŸlantÄ±yÄ± tÄ±klatÄ±n."
+   },
+   "web2pdfConvertButtonToolTip": {
+      "message": "Acrobat UzantÄ±sÄ± - TÃ¼m PDF araÃ§larÄ±nÄ±zÄ±n kÄ±sayolu."
+   },
+   "web2pdfConvertButtonToolTipERPReader": {
+      "message": "Acrobat Reader uzantÄ±sÄ± ÅŸu anda devre dÄ±ÅŸÄ±. LÃ¼tfen BT yÃ¶neticiniz ile iletiÅŸime geÃ§in"
+   },
+   "web2pdfConvertButtonToolTipReader": {
+      "message": "PDF'yi Acrobat Reader'da AÃ§"
+   },
+   "web2pdfConvertLinkContextMenu": {
+      "message": "BaÄŸ Hedefini PDFâ€™ye DÃ¶nÃ¼ÅŸtÃ¼r"
+   },
+   "web2pdfConvertPageContextMenu": {
+      "message": "Web SayfasÄ±nÄ± Adobe PDF'ye DÃ¶nÃ¼ÅŸtÃ¼r..."
+   },
+   "web2pdfCopyText": {
+      "message": "Acrobat'a KopyalanÄ±yor"
+   },
+   "web2pdfDestinationText": {
+      "message": "Hedef klasÃ¶r:"
+   },
+   "web2pdfDoneButtonText": {
+      "message": "TamamlandÄ±"
+   },
+   "web2pdfExtnDescription": {
+      "message": "PDF'leri gÃ¶rÃ¼ntÃ¼lemek, dÃ¶nÃ¼ÅŸtÃ¼rmek, sÄ±kÄ±ÅŸtÄ±rmak ve imzalamak iÃ§in Acrobat'Ä± tarayÄ±cÄ±da kullanÄ±n"
+   },
+   "web2pdfExtnDescriptionBeta": {
+      "message": "PDF'leri gÃ¶rÃ¼ntÃ¼lemek, dÃ¶nÃ¼ÅŸtÃ¼rmek, sÄ±kÄ±ÅŸtÄ±rmak ve imzalamak iÃ§in Acrobat'Ä± tarayÄ±cÄ±da kullanÄ±n"
+   },
+   "web2pdfExtnDescriptionChrome": {
+      "message": "Adobe Acrobat PDF araÃ§larÄ±yla Google Chrome'da daha fazlasÄ±nÄ± yapÄ±n. GÃ¶rÃ¼ntÃ¼leyin, doldurun, yorum ekleyin, imzalayÄ±n ve dÃ¶nÃ¼ÅŸtÃ¼rme ve sÄ±kÄ±ÅŸtÄ±rma araÃ§larÄ±nÄ± deneyin."
+   },
+   "web2pdfExtnDescriptionEdge": {
+      "message": "Adobe Acrobat PDF araÃ§larÄ±yla Microsoft Edge'de daha fazlasÄ±nÄ± yapÄ±n. Yorum ve imza ekleyin, DÃ¼zenle ve DÃ¶nÃ¼ÅŸtÃ¼r araÃ§larÄ±nÄ± deneyin."
+   },
+   "web2pdfExtnName": {
+      "message": "Adobe Acrobat: PDF dÃ¼zenleme, dÃ¶nÃ¼ÅŸtÃ¼rme, imzalama araÃ§larÄ±"
+   },
+   "web2pdfExtnNameBeta": {
+      "message": "Adobe Acrobat Beta"
+   },
+   "web2pdfExtnNameEdge": {
+      "message": "Adobe Acrobat: PDF dÃ¼zenleme, dÃ¶nÃ¼ÅŸtÃ¼rme, imzalama araÃ§larÄ±"
+   },
+   "web2pdfExtnNameStage": {
+      "message": "Adobe Acrobat Stage"
+   },
+   "web2pdfFileLockedError": {
+      "message": "Dosya baÅŸka bir iÅŸlem tarafÄ±ndan kullanÄ±ldÄ±ÄŸÄ±ndan kaydedilemiyor."
+   },
+   "web2pdfFilename": {
+      "message": "Dosya AdÄ±:"
+   },
+   "web2pdfFrictionlessToggleDescription": {
+      "message": "Adobe Acrobat uzantÄ±sÄ±, gÃ¶revinizi tamamlamanÄ±za yardÄ±mcÄ± olacak PDF araÃ§larÄ±nÄ± Ã¶nerir. Ã–nerilerimiz, aygÄ±tÄ±nÄ±zda arama yaptÄ±ÄŸÄ±nÄ±z konularÄ± ve gerÃ§ekleÅŸtirilen iÅŸlemleri temel alÄ±r. Aramalar Adobe'ye gÃ¶nderilmez."
+   },
+   "web2pdfFrictionlessUrl": {
+      "message": "https://www.adobe.com/go/fl_chromeext_tr"
+   },
+   "web2pdfFrictionlessUrlEdge": {
+      "message": "https://www.adobe.com/tr/acrobat/online.html?x_api_client_id=edge_extension&x_api_client_location=trefoil&mv=other&mv2=edge_extension:trefoil&trackingid=HM85XB76"
+   },
+   "web2pdfHTMLJSError": {
+      "message": "Web sayfasÄ± iÅŸlenirken bir hata oluÅŸtu."
+   },
+   "web2pdfHTMLTooLarge": {
+      "message": "HTML Ä°Ã§eriÄŸi iÅŸlenemeyecek kadar bÃ¼yÃ¼k."
+   },
+   "web2pdfInfoHoverPopup": {
+      "message": "Adobe Acrobat uzantÄ±sÄ±, size yardÄ±mcÄ± olacak PDF araÃ§larÄ± Ã¶nerir. Ã–neriler, aygÄ±tÄ±nÄ±zda arama yaptÄ±ÄŸÄ±nÄ±z konularÄ± ve gerÃ§ekleÅŸtirilen iÅŸlemleri temel alÄ±r. Aramalar Adobe'ye iletilmez. Bu Ã¶zelliÄŸi devre dÄ±ÅŸÄ± bÄ±rakmak iÃ§in \u003Cspan class = \"tooltip-content-settings\">burayÄ±\u003C/span> tÄ±klatÄ±n."
+   },
+   "web2pdfLoaderTitle": {
+      "message": "YÃ¼kleniyor..."
+   },
+   "web2pdfMissingMac": {
+      "message": "Chrome iÃ§in Adobe Acrobat henÃ¼z Mac'te kullanÄ±lamÄ±yor"
+   },
+   "web2pdfMissingMacEdge": {
+      "message": "Microsoft Edge iÃ§in Adobe Acrobat henÃ¼z Mac'te kullanÄ±lamÄ±yor"
+   },
+   "web2pdfNoFoldersText": {
+      "message": "Acrobat DC depolama alanÄ±nÄ±zda klasÃ¶r yok."
+   },
+   "web2pdfNoWritePermissionOnSelectedFile": {
+      "message": "SeÃ§ili dosya Ã¼zerinde yazma izinleriniz yok."
+   },
+   "web2pdfOpenButtonText": {
+      "message": "Acrobatâ€™ta AÃ§"
+   },
+   "web2pdfOpenButtonTextOlder": {
+      "message": "Adobe PDF Ä°ndir"
+   },
+   "web2pdfOpenButtonTextReader": {
+      "message": "Acrobat Reader'da AÃ§"
+   },
+   "web2pdfOpenConvertedPDFDescription": {
+      "message": "Web sayfasÄ±ndan PDF'ye dÃ¶nÃ¼ÅŸtÃ¼rme iÅŸlemi tamamlandÄ±ktan sonra, dÃ¶nÃ¼ÅŸtÃ¼rÃ¼len PDF'yi otomatik olarak Acrobat'ta aÃ§ar."
+   },
+   "web2pdfOpenConvertedPDFTitle": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rÃ¼len PDF'leri Acrobat'ta otomatik olarak aÃ§"
+   },
+   "web2pdfOpenInDCButtonText": {
+      "message": "PDF'yi Acrobatâ€™ta AÃ§"
+   },
+   "web2pdfOptOut": {
+      "message": "Bu uzantÄ±, Ã¼rÃ¼n Ã¶zelliklerini geliÅŸtirmek iÃ§in Adobe'ye uygulamayÄ± nasÄ±l kullandÄ±ÄŸÄ±nÄ±za iliÅŸkin bilgiler gÃ¶nderir."
+   },
+   "web2pdfOptOutDisabled": {
+      "message": "HiÃ§bir kullanÄ±m veriniz paylaÅŸÄ±lmÄ±yor."
+   },
+   "web2pdfOptions": {
+      "message": "SeÃ§enekler"
+   },
+   "web2pdfOptionsTitle": {
+      "message": "Adobe Acrobat Tercihleri"
+   },
+   "web2pdfPDFOpenFailed": {
+      "message": "PDF aÃ§Ä±lamadÄ±"
+   },
+   "web2pdfPDFOpenFailedv2": {
+      "message": "AÃ§Ä±lamadÄ±"
+   },
+   "web2pdfPDFOpened": {
+      "message": "PDF AÃ§Ä±ldÄ±"
+   },
+   "web2pdfPDFOpening": {
+      "message": "PDF aÃ§Ä±lÄ±yor"
+   },
+   "web2pdfPreferencesButtonText": {
+      "message": "Tercihler..."
+   },
+   "web2pdfPreferencesNewText": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme ayarlarÄ±..."
+   },
+   "web2pdfPrivacy": {
+      "message": "Adobe Acrobat HakkÄ±nda"
+   },
+   "web2pdfReplaceWarning": {
+      "message": "zaten mevcut.\n DeÄŸiÅŸtirmek istiyor musunuz?"
+   },
+   "web2pdfSave": {
+      "message": "Kaydet"
+   },
+   "web2pdfSaveButton": {
+      "message": "Tercihleri kaydet"
+   },
+   "web2pdfShowPDFTools": {
+      "message": "Google arama sonuÃ§larÄ±yla gÃ¶ster"
+   },
+   "web2pdfShowPDFViewerOption": {
+      "message": "Acrobat'Ä± varsayÄ±lan PDF gÃ¶rÃ¼ntÃ¼leyici olarak kullan"
+   },
+   "web2pdfShowPersistentOpen": {
+      "message": "\"Acrobat'ta aÃ§\" seÃ§eneÄŸini gÃ¶ster"
+   },
+   "web2pdfShowPersistentOpenAlways": {
+      "message": "\"Acrobat'ta aÃ§\" seÃ§eneÄŸini her zaman gÃ¶ster"
+   },
+   "web2pdfShowPersistentOpenDescription": {
+      "message": "Her seferinde PDF'yi Acrobat'ta aÃ§ma seÃ§eneÄŸini gÃ¶sterir."
+   },
+   "web2pdfStatusCancelled": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme Ä°ptal Edildi"
+   },
+   "web2pdfStatusComplete": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme BaÅŸarÄ±lÄ±"
+   },
+   "web2pdfStatusDownloading": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme iÃ§in indiriliyor..."
+   },
+   "web2pdfStatusDownloadingPDF": {
+      "message": "PDF Ä°ndiriliyor"
+   },
+   "web2pdfStatusFailure": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme HatasÄ±"
+   },
+   "web2pdfStatusInProgress": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme devam ediyorâ€¦"
+   },
+   "web2pdfStatusUnknownFailure": {
+      "message": "Bilinmeyen Hata"
+   },
+   "web2pdfStatusWaiting": {
+      "message": "DÃ¶nÃ¼ÅŸtÃ¼rme iÃ§in bekleniyor..."
+   },
+   "web2pdfTitle": {
+      "message": "Adobe Acrobat"
+   },
+   "web2pdfUnsupportedAcrobatVersion": {
+      "message": "Desteklenen bir Acrobat sÃ¼rÃ¼mÃ¼ bulunamadÄ±. \u003Ca target='_blank' href='https://acrobat.adobe.com/tr/tr/free-trial-download.html?trackingid=29NMCS7T&mv=other'>7 gÃ¼nlÃ¼k Ã¼cretsiz deneme sÃ¼rÃ¼mÃ¼nÃ¼\u003C/a> yÃ¼kleyin."
+   },
+   "web2pdfUntitledFileName": {
+      "message": "baÅŸlÄ±ksÄ±z"
+   },
+   "webpagePDFConversion": {
+      "message": "Web sayfasÄ±ndan PDF'ye dÃ¶nÃ¼ÅŸtÃ¼rme ayarÄ±"
+   },
+   "webpagePDFConversionDescription": {
+      "message": "Web sayfalarÄ±nÄ± PDF olarak kaydederken kenar boÅŸluklarÄ±nÄ±, fontlarÄ± ve diÄŸer mizanpaj ayrÄ±ntÄ±larÄ±nÄ± ayarlayabilirsiniz."
+   }
+}
